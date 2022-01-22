@@ -1,0 +1,15 @@
+CLASS uc World
+	FIELD I multiplayerWorld Z
+	FIELD x isNewWorld Z
+	FIELD y worldProvider Lagk;
+	METHOD E updatingLighting ()Z
+	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
+	METHOD b setEntityDead (Llu;)V
+	METHOD e setSpawnLocation ()V
+	METHOD f setBlockMetadataWithNotify (IIII)V
+	METHOD m getDebugInfoLoadedEntities ()Ljava/lang/String;
+	METHOD n worldsTringIdk ()Ljava/lang/String;
+	METHOD q dropOldChunks ()V
+	METHOD u getSpawnPoint ()Lrt;
+	METHOD v updateEntityList ()V
+	METHOD w getIchunkProvider ()Lbi;

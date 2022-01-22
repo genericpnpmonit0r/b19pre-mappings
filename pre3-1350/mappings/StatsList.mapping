@@ -1,0 +1,5 @@
+CLASS fw StatsList
+	FIELD f startGameStat Lafi;
+	FIELD g createWorldStat Lafi;
+	FIELD h loadWorldStat Lafi;
+	METHOD a renameThisLater ()V

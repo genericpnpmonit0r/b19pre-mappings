@@ -1,0 +1,9 @@
+CLASS dy SorterStatsItem
+	FIELD a statsgui Lcl;
+	FIELD b slotstatsitem Lbf;
+	METHOD <init> (Lbf;Lcl;)V
+		ARG 1 guislotstatsitem
+		ARG 2 guistats
+	METHOD compare (Ljava/lang/Object;Ljava/lang/Object;)I
+		ARG 1 statcrafting0
+		ARG 2 statcrafting

@@ -1,0 +1,24 @@
+CLASS ug Slot
+	FIELD a inventory Lha;
+	FIELD b slotNumber I
+	FIELD c xDispPos I
+	FIELD d yDispPos I
+	FIELD e slotIndex I
+	METHOD <init> (Lha;III)V
+		ARG 1 iinventory
+		ARG 2 index
+		ARG 3 x
+		ARG 4 z
+	METHOD a getStack ()Lvw;
+	METHOD a decrStackSize (I)Lvw;
+		ARG 1 stacksizeToDecr
+	METHOD a onPickupFromSlot (Lvw;)V
+		ARG 1 itemstack
+	METHOD b getHasStack ()Z
+	METHOD b isItemValid (Lvw;)Z
+		ARG 1 itemstack
+	METHOD c onSlotChanged ()V
+	METHOD c putStack (Lvw;)V
+		ARG 1 itemstack
+	METHOD d getSlotStackLimit ()I
+	METHOD e getBackgroundIconIndex ()I

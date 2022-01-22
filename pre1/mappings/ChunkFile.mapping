@@ -1,0 +1,4 @@
+CLASS cp ChunkFile
+	METHOD a getChunkFile ()Ljava/io/File;
+	METHOD b getXChunk ()I
+	METHOD c getYchunk ()I

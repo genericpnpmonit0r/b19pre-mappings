@@ -1,0 +1,4 @@
+CLASS jw RegionFile
+	METHOD a write (II[BI)V
+	METHOD b getChunkDataOutputStream (II)Ljava/io/DataOutputStream;
+	METHOD c isChunkSaved (II)Z

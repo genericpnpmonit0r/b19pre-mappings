@@ -1,0 +1,3 @@
+CLASS yv Achievement
+	METHOD a setStatStringFormatter (Luh;)Lyv;
+	METHOD c setSpecial ()Lyv;

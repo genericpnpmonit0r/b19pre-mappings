@@ -1,0 +1,4 @@
+CLASS qx ChunkCoordinates
+	FIELD a posX I
+	FIELD b posY I
+	FIELD c posZ I

@@ -1,0 +1,18 @@
+CLASS io PlayerController
+	METHOD a resetBlockRemoving ()V
+	METHOD a setPartialTime (F)V
+	METHOD a clickBlock (IIII)V
+	METHOD a onWorldChange (Ltd;)V
+	METHOD a flipPlayer (Lui;)V
+	METHOD a interactWithEntity (Lui;Lle;)V
+	METHOD a sendUseItem (Lui;Ltd;Lvw;)Z
+	METHOD a sendPlaceBlock (Lui;Ltd;Lvw;IIII)Z
+	METHOD a sendSlotPacket (Lvw;I)V
+	METHOD b notSure (Ltd;)Lui;
+	METHOD b moreFuncBullShit (Lui;)V
+	METHOD b attackEntity (Lui;Lle;)V
+	METHOD c updateController ()V
+	METHOD c sendBlockRemoving (IIII)V
+	METHOD e unusedOrSomething ()Z
+	METHOD g anotherfunc_shit ()Z
+	METHOD h isInCreativeMode ()Z

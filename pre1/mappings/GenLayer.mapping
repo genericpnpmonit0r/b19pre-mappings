@@ -1,0 +1,11 @@
+CLASS sq GenLayer
+	FIELD a parent Lsq;
+	FIELD b worldGenSeed J
+	FIELD c chunkseed J
+	FIELD d baseseed J
+	METHOD a nextInt (I)I
+	METHOD a someIntArrayIDOntCareabout (IIII)[I
+	METHOD a b18plusWorldGenCrap (J)[Lsq;
+		ARG 0 ass
+	METHOD a doSomethingWithChunkShitSeed (JJ)V
+	METHOD b doSomeShitWithSeed1 (J)V

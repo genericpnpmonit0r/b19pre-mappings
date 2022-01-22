@@ -1,0 +1,6 @@
+CLASS gr GameSettings
+	FIELD C hideGUI Z
+	FIELD D thirdPersonView I
+	FIELD E showDebugInfo Z
+	FIELD j fancyGraphics Z
+	FIELD k ambientOcclusion Z

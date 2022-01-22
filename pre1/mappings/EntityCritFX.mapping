@@ -1,0 +1,3 @@
+CLASS pl EntityCritFX
+	FIELD a particleScale1 F
+	FIELD ay someBooleanValue Z

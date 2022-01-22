@@ -1,0 +1,12 @@
+CLASS aen ISaveHandler
+	METHOD a getChunkLoader (Laew;)Lqq;
+		ARG 1 wprovider
+	METHOD a getMapFile (Ljava/lang/String;)Ljava/io/File;
+		ARG 1 str
+	METHOD a saveWorldInfo (Lss;)V
+		ARG 1 winfo
+	METHOD a saveWorldInfoAndPlayer (Lss;Ljava/util/List;)V
+		ARG 1 winfo
+		ARG 2 lst
+	METHOD b checkSessionLock ()V
+	METHOD c loadWorldInfo ()Lss;

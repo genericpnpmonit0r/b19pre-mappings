@@ -1,0 +1,18 @@
+CLASS rc Render
+	FIELD a modelbase Lge;
+	FIELD e rendermanager Lacf;
+	FIELD f renderblocks Lru;
+	FIELD g shadowsize F
+	FIELD h physicalsize F
+	METHOD a getFontRendererFromRenderManager ()Llc;
+	METHOD a setRenderMgr (Lacf;)V
+	METHOD a loadTexture (Ljava/lang/String;)V
+	METHOD a loadDownloadableImageTexture (Ljava/lang/String;Ljava/lang/String;)Z
+	METHOD a renderEntityOnFire (Lle;DDDF)V
+	METHOD a doRender (Lle;DDDFF)V
+	METHOD a rebderShadowOnBlock (Lmn;DDDIIIFFDDD)V
+	METHOD a renderAABB (Lsw;)V
+	METHOD a renderOffsetAABB (Lsw;DDD)V
+	METHOD b getWorldFromRenderManager ()Ltd;
+	METHOD b doRenderShadowAndFire (Lle;DDDFF)V
+	METHOD c renderShadow (Lle;DDDFF)V

@@ -1,0 +1,7 @@
+CLASS qm TextureCompassFX
+	FIELD a mc Lnet/minecraft/client/Minecraft;
+	FIELD b compassIconImageData [I
+	FIELD c unknown1 D
+	FIELD d unknown2 D
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft

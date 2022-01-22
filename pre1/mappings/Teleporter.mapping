@@ -1,0 +1,11 @@
+CLASS ml Teleporter
+	FIELD a rand Ljava/util/Random;
+	METHOD a placeInPortal (Ltd;Lle;)V
+		ARG 1 world
+		ARG 2 entity
+	METHOD b placeInExistingPortal (Ltd;Lle;)Z
+		ARG 1 world
+		ARG 2 entity
+	METHOD c createPortal (Ltd;Lle;)Z
+		ARG 1 world
+		ARG 2 entity

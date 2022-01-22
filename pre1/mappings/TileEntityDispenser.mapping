@@ -1,0 +1,4 @@
+CLASS aq TileEntityDispenser
+	FIELD a dispenserContents [Lvw;
+	FIELD b rand Ljava/util/Random;
+	METHOD j_ getRandomStackFromInventory ()Lvw;

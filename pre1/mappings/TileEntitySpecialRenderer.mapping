@@ -1,0 +1,15 @@
+CLASS vz TileEntitySpecialRenderer
+	FIELD a tileEntityRenderer Lxk;
+	METHOD a getFontRenderer ()Llc;
+	METHOD a bindTextureByName (Ljava/lang/String;)V
+		ARG 1 name
+	METHOD a renderTileEntityMobSpawner (Ljb;DDDF)V
+		ARG 1 tileentity
+		ARG 2 xpos_d
+		ARG 4 ypos_d
+		ARG 6 zpos_d
+		ARG 8 float_0
+	METHOD a cocacola2 (Ltd;)V
+		ARG 1 world
+	METHOD a setTileEntityRenderer (Lxk;)V
+		ARG 1 tileentityrenderer

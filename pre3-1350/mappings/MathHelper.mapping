@@ -1,0 +1,5 @@
+CLASS fj MathHelper
+	METHOD a sin (F)F
+	METHOD b cos (F)F
+	METHOD c floor_double (D)I
+	METHOD d floor_float (F)I

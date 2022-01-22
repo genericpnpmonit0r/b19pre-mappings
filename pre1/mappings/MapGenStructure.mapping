@@ -1,0 +1,7 @@
+CLASS abg MapGenStructure
+	METHOD a canSpawnStructureAtCoords (II)Z
+		ARG 1 xcoord
+		ARG 2 zcoord
+	METHOD b getStructureStart (II)Lmq;
+		ARG 1 xcoord
+		ARG 2 zcoord

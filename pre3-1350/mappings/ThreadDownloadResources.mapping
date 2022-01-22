@@ -1,0 +1,3 @@
+CLASS bu ThreadDownloadResources
+	METHOD a reloadResources ()V
+	METHOD b closeMinecraft ()V

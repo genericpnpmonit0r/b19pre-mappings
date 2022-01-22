@@ -1,0 +1,3 @@
+CLASS cy J_ThingWithPosition
+	METHOD a getColumn ()I
+	METHOD b getRow ()I

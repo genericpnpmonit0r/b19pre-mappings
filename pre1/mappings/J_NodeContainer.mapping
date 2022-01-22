@@ -1,0 +1,3 @@
+CLASS aag J_NodeContainer
+	METHOD a addField (Laab;)V
+	METHOD a addNode (Lxe;)V

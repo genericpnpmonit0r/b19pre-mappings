@@ -1,0 +1,6 @@
+CLASS dm WorldGenIdontKnow
+	FIELD a blocktogenerate I
+	FIELD b posToGenerate I
+	METHOD <init> (II)V
+		ARG 1 pos1
+		ARG 2 pos2

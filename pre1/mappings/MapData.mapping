@@ -1,0 +1,5 @@
+CLASS vs MapData
+	FIELD b xcenter I
+	FIELD c zcenter I
+	FIELD d dimension B
+	FIELD e scale B

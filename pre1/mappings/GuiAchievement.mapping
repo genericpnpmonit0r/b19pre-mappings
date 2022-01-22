@@ -1,0 +1,3 @@
+CLASS nk GuiAchievement
+	METHOD a updateAchievementWindow ()V
+	METHOD b queueAchivemementInformation (Lyv;)V

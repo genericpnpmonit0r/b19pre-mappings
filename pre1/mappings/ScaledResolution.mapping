@@ -1,0 +1,12 @@
+CLASS aat ScaledResolution
+	FIELD a scaledWidthD D
+	FIELD b scaledHeightD D
+	FIELD c scaleFactor I
+	FIELD d scaledWidth I
+	FIELD e scaledHeight I
+	METHOD <init> (Lgj;II)V
+		ARG 1 gamesettings
+		ARG 2 width
+		ARG 3 height
+	METHOD a getScaledWidth ()I
+	METHOD b getScaledHeight ()I

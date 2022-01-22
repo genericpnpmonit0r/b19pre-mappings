@@ -1,0 +1,12 @@
+CLASS fk GuiSlotStats
+	FIELD b potato I
+	FIELD c craftingStatslist Ljava/util/List;
+	FIELD d sortstatsitem Ljava/util/Comparator;
+	FIELD e ear I
+	FIELD f press_f I
+	METHOD <init> (Lcl;)V
+		ARG 1 statsGui
+	METHOD a getStatNames (I)Ljava/lang/String;
+		ARG 1 namepos
+	METHOD a statcraftingThing1 (Lacs;IIZ)V
+	METHOD b aaaaaaaaaaaa (I)Lacs;

@@ -1,0 +1,4 @@
+CLASS sv GuiScreen
+	METHOD a setWorldAndResolution (Lnet/minecraft/client/Minecraft;II)V
+	METHOD d onGuiClosed ()V
+	METHOD e doesGuiPauseGame ()Z

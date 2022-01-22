@@ -1,0 +1,27 @@
+CLASS sr RenderBlocks
+	FIELD a fancyGrass Z
+	FIELD d blockAccess Lagr;
+	FIELD e overrideBlockTexture I
+	FIELD f flipTexture Z
+	FIELD g renderAllFaces Z
+	FIELD n enableAO Z
+	FIELD o lightValueOwn F
+	FIELD p aoLightValueXNeg F
+	FIELD q aoLightValueYNeg F
+	FIELD r aoLightValueZNeg F
+	FIELD s aoLightValueXPos F
+	METHOD a renderBlockBrewingStand (Lub;III)Z
+	METHOD a renderBlockCauldron (Lui;III)Z
+	METHOD b renderBlocksByRenderType (Lnd;III)Z
+		ARG 1 block
+		ARG 2 xpos
+		ARG 3 ypos
+		ARG 4 zpos
+	METHOD j renderBlockReed (Lnd;III)Z
+	METHOD k renderBlockCrops (Lnd;III)Z
+	METHOD m ihavenoidea (Lnd;III)Z
+	METHOD n renderBlockFluids (Lnd;III)Z
+	METHOD o renderStandardBlock (Lnd;III)Z
+	METHOD p renderBlockCactus (Lnd;III)Z
+	METHOD s renderBlockAirPortalFrame (Lnd;III)Z
+	METHOD t renderBlockBed (Lnd;III)Z

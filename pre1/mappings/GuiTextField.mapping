@@ -1,0 +1,8 @@
+CLASS abh GuiTextField
+	FIELD a isFocused Z
+	METHOD a getText ()Ljava/lang/String;
+	METHOD a textboxKeyTyped (CI)V
+	METHOD a setMaxStringLength (I)V
+	METHOD a mouseClicked (III)V
+	METHOD b updateCursorCounter ()V
+	METHOD c drawTextBox ()V

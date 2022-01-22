@@ -1,0 +1,3 @@
+CLASS kz TextureFlamesFX
+	FIELD a currentFireFlame [F
+	FIELD b lastFireFlame [F

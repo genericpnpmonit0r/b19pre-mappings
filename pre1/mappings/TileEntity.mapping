@@ -1,0 +1,34 @@
+CLASS jb TileEntity
+	FIELD a nameToClassMap Ljava/util/Map;
+	FIELD b classToNameMap Ljava/util/Map;
+	FIELD i worldObj Ltd;
+	FIELD j xCoord I
+	FIELD k yCoord I
+	FIELD l zCoord I
+	FIELD m tileEntityInvalid Z
+	FIELD n blockMetadata I
+	FIELD o blockType Lmn;
+	METHOD a getDistanceFrom (DDD)D
+		ARG 1 distanceX
+		ARG 3 distanceY
+		ARG 5 distanceZ
+	METHOD a addMapping (Ljava/lang/Class;Ljava/lang/String;)V
+		ARG 0 c
+		ARG 1 name
+	METHOD a readFromNBT (Lyr;)V
+		ARG 1 nbttagcompound
+	METHOD b updateContainingBlockInfo ()V
+	METHOD b onTileEntityPowered (II)V
+		ARG 1 powered
+		ARG 2 powered2
+	METHOD b writeToNBT (Lyr;)V
+		ARG 1 nbttagcompound
+	METHOD c createAndLocateTileEntity (Lyr;)Ljb;
+		ARG 0 nbttagcompound
+	METHOD h invalidate ()V
+	METHOD i getBlockMetadata ()I
+	METHOD j getBlockType ()Lmn;
+	METHOD k isInvalid ()Z
+	METHOD k_ updateEntity ()V
+	METHOD l onInventoryChanged ()V
+	METHOD m validate ()V

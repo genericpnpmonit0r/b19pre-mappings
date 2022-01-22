@@ -1,0 +1,4 @@
+CLASS qr WorldGenPlant
+	FIELD a plant I
+	METHOD <init> (I)V
+		ARG 1 plantid

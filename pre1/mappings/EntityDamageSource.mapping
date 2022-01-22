@@ -1,0 +1,2 @@
+CLASS el EntityDamageSource
+	FIELD n damageSourceEntity Lle;

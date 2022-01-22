@@ -1,0 +1,3 @@
+CLASS sj MapColor
+	FIELD a mapColorArray [Lsj;
+	FIELD p colorValue I

@@ -1,0 +1,7 @@
+CLASS de FurnaceRecipes
+	FIELD a smeltingBase Lde;
+	FIELD b smeltingList Ljava/util/Map;
+	METHOD a smelting ()Lde;
+	METHOD a getSmeltingResults (I)Lvw;
+	METHOD a addSmelting (ILvw;)V
+	METHOD b getSmeltingList ()Ljava/util/Map;

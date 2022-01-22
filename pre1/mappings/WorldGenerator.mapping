@@ -1,0 +1,11 @@
+CLASS jj WorldGenerator
+	METHOD a setScale (DDD)V
+		ARG 1 xpos
+		ARG 3 ypos
+		ARG 5 zpos
+	METHOD a generate (Ltd;Ljava/util/Random;III)Z
+		ARG 1 world
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z

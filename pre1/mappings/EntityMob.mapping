@@ -1,0 +1,5 @@
+CLASS uk EntityMob
+	FIELD c attackStrength I
+	METHOD W isValidLightLevel ()Z
+	METHOD b attackEntityAsMob (Lle;)Z
+		ARG 1 entityVar

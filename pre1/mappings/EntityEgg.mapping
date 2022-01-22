@@ -1,0 +1,2 @@
+CLASS nl EntityEgg
+	METHOD a setThrowableHeading (DDDFF)V

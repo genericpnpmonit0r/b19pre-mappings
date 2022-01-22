@@ -1,0 +1,5 @@
+CLASS cx WorldGenDungeon
+	METHOD a pickChestLootItem (Ljava/util/Random;)Lvw;
+		ARG 1 rand
+	METHOD b pickSpawnerMob (Ljava/util/Random;)Ljava/lang/String;
+		ARG 1 rand

@@ -1,0 +1,2 @@
+CLASS ms ComponentNetherBridgeEntrance
+	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lms;

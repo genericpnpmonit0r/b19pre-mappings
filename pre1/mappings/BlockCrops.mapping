@@ -1,0 +1,3 @@
+CLASS if BlockCrops
+	METHOD f fertilize (Ltd;III)V
+	METHOD i getGrowthRate (Ltd;III)F

@@ -1,0 +1,36 @@
+CLASS hn WorldClient
+	FIELD M blocksToReceive Ljava/util/LinkedList;
+	FIELD N sendQueue Lyh;
+	FIELD O clientChunkProvider Lmo;
+	FIELD P entityhashset Lwo;
+	FIELD Q entitylist Ljava/util/Set;
+	FIELD R entityspawnqueue Ljava/util/Set;
+	METHOD <init> (Lyh;Lej;II)V
+		ARG 1 netclienthandler
+		ARG 2 worldsettings
+		ARG 3 dimensionid
+		ARG 4 difficulty
+	METHOD a lookupEntityInWorld (I)Lle;
+		ARG 1 id
+	METHOD a invalidateBlockReceiveRegion (IIIIII)V
+		ARG 1 xstart
+		ARG 2 ystart
+		ARG 3 zstart
+		ARG 4 xend
+		ARG 5 yend
+		ARG 6 zend
+	METHOD a doPreChunk (IIZ)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 doprechunckboolean
+	METHOD a joinEntityToWorld (ILle;)V
+		ARG 1 id
+		ARG 2 entity
+	METHOD b removeEntityFromWorld (I)Lle;
+		ARG 1 id
+	METHOD c setBlockAndMetadataAndInvalidate (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+		ARG 5 meta

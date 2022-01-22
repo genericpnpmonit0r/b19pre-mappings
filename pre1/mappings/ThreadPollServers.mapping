@@ -1,0 +1,7 @@
+CLASS bg ThreadPollServers
+	FIELD a server Llq;
+	FIELD b serverSlotContainer Lnm;
+	METHOD <init> (Lnm;Llq;)V
+		ARG 1 guislotserver
+		ARG 2 servernbtstorage
+	METHOD run ()V

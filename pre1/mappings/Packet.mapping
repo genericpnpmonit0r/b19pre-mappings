@@ -1,0 +1,36 @@
+CLASS wx Packet
+	FIELD a packetIdToClassMap Lwo;
+	FIELD b packetClassToIdMap Ljava/util/Map;
+	FIELD c clientPacketIdList Ljava/util/Set;
+	FIELD d serverPacketIdList Ljava/util/Set;
+	FIELD e totalPacketsCount Lwo;
+	FIELD f packetStats I
+	FIELD k creationTimeMillis J
+	FIELD l isChunkDataPacket Z
+	METHOD a getPacketSize ()I
+	METHOD a getNewPacket (I)Lwx;
+		ARG 0 pktId
+	METHOD a addIdClassMapping (IZZLjava/lang/Class;)V
+		ARG 0 i1
+		ARG 1 b2
+		ARG 2 b3
+		ARG 3 clas
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+		ARG 1 datainputstream
+	METHOD a readString (Ljava/io/DataInputStream;I)Ljava/lang/String;
+		ARG 0 datainputstream
+		ARG 1 length
+	METHOD a readPacket (Ljava/io/DataInputStream;Z)Lwx;
+		ARG 0 datainputstream
+		ARG 1 b1
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+		ARG 1 dataoutputstream
+	METHOD a writeString (Ljava/lang/String;Ljava/io/DataOutputStream;)V
+		ARG 0 str
+		ARG 1 dataoutputstream
+	METHOD a processPacket (Llt;)V
+		ARG 1 nethandler
+	METHOD a writePacket (Lwx;Ljava/io/DataOutputStream;)V
+		ARG 0 pkt
+		ARG 1 dataoutputstream
+	METHOD c getPacketId ()I

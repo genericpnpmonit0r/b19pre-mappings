@@ -1,0 +1,24 @@
+CLASS xn Material
+	FIELD A cakeMaterial Lxn;
+	FIELD a air Lxn;
+	FIELD c dirt Lxn;
+	FIELD d wood Lxn;
+	FIELD e rock Lxn;
+	FIELD f door Lxn;
+	FIELD g water Lxn;
+	FIELD h lava Lxn;
+	FIELD m cloth Lxn;
+	FIELD o sand Lxn;
+	FIELD p circuits Lxn;
+	FIELD q glass Lxn;
+	FIELD w cactus Lxn;
+	FIELD x clay Lxn;
+	METHOD <init> (Lsj;)V
+		ARG 1 mapcolor
+	METHOD a isSolid ()Z
+	METHOD b canBlockGrass ()Z
+	METHOD c getIsSolid ()Z
+	METHOD d getIsLiquid ()Z
+	METHOD i getIsGroundCover ()Z
+	METHOD j getIsOpaque ()Z
+	METHOD l getMaterialMobility ()I

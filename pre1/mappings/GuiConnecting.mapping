@@ -1,0 +1,3 @@
+CLASS ady GuiConnecting
+	FIELD a setNetClientHandler Lyh;
+	FIELD b isCancelled Z

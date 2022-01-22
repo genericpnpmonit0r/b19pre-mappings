@@ -1,0 +1,4 @@
+CLASS aeo GuiIngame
+	METHOD a updateTick ()V
+	METHOD a addChatMessage (Ljava/lang/String;)V
+	METHOD b clearChatMsgs ()V

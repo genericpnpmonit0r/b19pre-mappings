@@ -1,0 +1,7 @@
+CLASS yn MusInputStream
+	FIELD a buffer [B
+	FIELD b codecmus Lvm;
+	FIELD c hash I
+	FIELD d inputstream Ljava/io/InputStream;
+	METHOD read ()I
+	METHOD read ([BII)I

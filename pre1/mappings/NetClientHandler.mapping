@@ -1,0 +1,17 @@
+CLASS yh NetClientHandler
+	FIELD a someStringIdk Ljava/lang/String;
+	FIELD b mapsrorage Lum;
+	FIELD c arrlst Ljava/util/List;
+	FIELD d this_integer_is_20 I
+	FIELD e rand Ljava/util/Random;
+	FIELD f disconnected Z
+	FIELD g netMgr Lji;
+	FIELD h minceraft Lnet/minecraft/client/Minecraft;
+	FIELD i wroldclient Lhn;
+	FIELD j cool1 Z
+	FIELD k hahmap Ljava/util/Map;
+	METHOD a getEntityByID (I)Lle;
+	METHOD b processReadPackets ()V
+	METHOD b addToSendQueue1 (Lwx;)V
+	METHOD c disconnect ()V
+	METHOD c addToSendQueue (Lwx;)V

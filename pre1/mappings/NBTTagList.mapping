@@ -1,0 +1,4 @@
+CLASS lf NBTTagList
+	METHOD a tagAt (I)Lfc;
+	METHOD a appendTag (Lfc;)V
+	METHOD c tagCount ()I

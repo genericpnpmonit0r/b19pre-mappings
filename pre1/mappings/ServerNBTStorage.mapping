@@ -1,0 +1,13 @@
+CLASS lq ServerNBTStorage
+	FIELD a name Ljava/lang/String;
+	FIELD b host Ljava/lang/String;
+	FIELD c playerCount Ljava/lang/String;
+	FIELD d motd Ljava/lang/String;
+	FIELD e lag J
+	FIELD f polled Z
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 srvName
+		ARG 2 srvHost
+	METHOD a getCompoundTag ()Lyr;
+	METHOD a createServerNBTStorage (Lyr;)Llq;
+		ARG 0 compoundTag

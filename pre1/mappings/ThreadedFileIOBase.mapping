@@ -1,0 +1,11 @@
+CLASS bn ThreadedFileIOBase
+	FIELD a threadedfileiobase Lbn;
+	FIELD b obj Ljava/lang/Object;
+	FIELD c set1 Ljava/util/Set;
+	FIELD d lst Ljava/util/List;
+	FIELD e isThreadWaiting Z
+	METHOD a wait10L ()V
+	METHOD a anotherUselessMethod002 (Ldv;)V
+		ARG 1 ithreadedfileio
+	METHOD b runThis ()V
+	METHOD run ()V

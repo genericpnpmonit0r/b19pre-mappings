@@ -1,0 +1,19 @@
+CLASS acf RenderManager
+	FIELD a instance Lacf;
+	FIELD b renderPosX D
+	FIELD c renderPosY D
+	FIELD d renderPosZ D
+	FIELD e renderEngine Lwd;
+	FIELD f itemRenderer Lkj;
+	FIELD g worldObj Ltd;
+	FIELD h livingPlayer Lxq;
+	FIELD i playerViewY F
+	FIELD j playerViewX F
+	FIELD k options Lgj;
+	FIELD o entityRenderMap Ljava/util/Map;
+	FIELD p fontRenderer Llc;
+	METHOD a getFontRenderer ()Llc;
+	METHOD a renderEntityWithPosYaw (Lle;DDDFF)V
+	METHOD a renderEntity (Lle;F)V
+	METHOD a set (Ltd;)V
+	METHOD a cacheActiveRenderInfo (Ltd;Lwd;Llc;Lxq;Lgj;F)V

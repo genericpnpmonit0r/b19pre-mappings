@@ -1,0 +1,3 @@
+CLASS aft ICamera
+	METHOD a setPosition (DDD)V
+	METHOD a isBoundingBoxInFustrum (Lsw;)Z

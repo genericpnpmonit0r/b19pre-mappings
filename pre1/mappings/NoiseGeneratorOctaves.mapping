@@ -1,0 +1,4 @@
+CLASS md NoiseGeneratorOctaves
+	FIELD a generatorCollection [Lah;
+	FIELD b octaves I
+	METHOD a generateNoiseOctaves ([DIIIIIIDDD)[D

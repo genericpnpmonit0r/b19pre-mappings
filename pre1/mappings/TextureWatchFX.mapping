@@ -1,0 +1,8 @@
+CLASS gi TextureWatchFX
+	FIELD a mc Lnet/minecraft/client/Minecraft;
+	FIELD b watchIconImageData [I
+	FIELD c dialImageData [I
+	FIELD d unknown1 D
+	FIELD e unknown2 D
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft

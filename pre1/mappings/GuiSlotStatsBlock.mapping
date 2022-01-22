@@ -1,0 +1,2 @@
+CLASS ds GuiSlotStatsBlock
+	FIELD a getStatsFileWriter Lcl;

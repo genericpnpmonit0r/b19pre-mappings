@@ -1,0 +1,7 @@
+CLASS kg Profiler
+	FIELD a isProfiling Z
+	METHOD a profile1clear ()V
+	METHOD a startSection (Ljava/lang/String;)V
+	METHOD b profile2clear ()V
+	METHOD b getProfilingData (Ljava/lang/String;)Ljava/util/List;
+	METHOD c endStartSection (Ljava/lang/String;)V

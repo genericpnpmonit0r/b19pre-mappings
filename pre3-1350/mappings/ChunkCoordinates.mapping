@@ -1,0 +1,3 @@
+CLASS rt ChunkCoordinates
+	FIELD a posx I
+	FIELD c posz I

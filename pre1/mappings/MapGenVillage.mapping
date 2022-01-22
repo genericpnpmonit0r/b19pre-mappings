@@ -1,0 +1,2 @@
+CLASS ag MapGenVillage
+	FIELD a villageSpawnBiomes Ljava/util/List;

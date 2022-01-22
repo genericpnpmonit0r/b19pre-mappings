@@ -1,0 +1,3 @@
+CLASS uu WorldSavedData
+	FIELD a mapNane Ljava/lang/String;
+	METHOD a markdirty ()V

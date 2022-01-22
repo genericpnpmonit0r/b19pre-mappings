@@ -1,0 +1,6 @@
+CLASS lu Entity
+	FIELD G isDead Z
+	FIELD f entityId I
+	FIELD o posx D
+	FIELD q posz D
+	METHOD J isEntityInsideOpaqueBlock ()Z

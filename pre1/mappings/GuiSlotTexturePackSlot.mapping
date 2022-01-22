@@ -1,0 +1,4 @@
+CLASS bw GuiSlotTexturePackSlot
+	FIELD a parentTexturePackGui Ldo;
+	METHOD <init> (Ldo;)V
+		ARG 1 texPackGui

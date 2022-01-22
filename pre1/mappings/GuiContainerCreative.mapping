@@ -1,0 +1,7 @@
+CLASS pq GuiContainerCreative
+	FIELD f inv Lka;
+	FIELD g currentScroll F
+	FIELD h isScrolling Z
+	FIELD i wasClicking Z
+	METHOD <init> (Lui;)V
+		ARG 1 entityplayer

@@ -1,0 +1,8 @@
+CLASS vj EntityPlayer
+	FIELD aD dimension I
+	FIELD ar inventory Lwv;
+	METHOD a verifyRespawnCoords (Luc;Lrt;)Lrt;
+	METHOD ao swingItem ()V
+	METHOD at getPlayerRespawnCoordinate ()Lrt;
+	METHOD b addChatMessage (Ljava/lang/String;)V
+	METHOD f doSomethingWith3Ints (III)Z

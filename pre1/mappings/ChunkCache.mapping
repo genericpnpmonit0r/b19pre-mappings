@@ -1,0 +1,5 @@
+CLASS dc ChunkCache
+	FIELD a chunkX I
+	FIELD b chunkZ I
+	FIELD c chunkArray [[Lxl;
+	FIELD d worldObj Ltd;

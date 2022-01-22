@@ -1,0 +1,2 @@
+CLASS jp ModelBox
+	METHOD a render (Lyu;F)V

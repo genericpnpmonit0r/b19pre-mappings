@@ -1,0 +1,5 @@
+CLASS iu ISaveFormat
+	METHOD a getMCRegionAuthorName ()Ljava/lang/String;
+	METHOD a isOldMapFormat (Ljava/lang/String;)Z
+	METHOD a convertMapFormat (Ljava/lang/String;Lpr;)Z
+	METHOD a getSaveLoader (Ljava/lang/String;Z)Lagb;

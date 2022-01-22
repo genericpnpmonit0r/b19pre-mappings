@@ -1,0 +1,14 @@
+CLASS abs TileEntityFurnace
+	FIELD a furnaceburntime I
+	FIELD b currentitemburntime I
+	FIELD c furnacecooktime I
+	FIELD d furnaceItemStacks [Lvw;
+	METHOD a getItemBurnTime (Lvw;)I
+		ARG 1 itemstack
+	METHOD b getCookProgressScaled (I)I
+		ARG 1 timeMultiplier
+	METHOD c getBurnTimeRemainingScaled (I)I
+		ARG 1 time
+	METHOD g isBurning ()Z
+	METHOD n smeltItem ()V
+	METHOD o canSmelt ()Z

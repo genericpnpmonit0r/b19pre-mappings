@@ -1,0 +1,2 @@
+CLASS mu WeightedRandom
+	METHOD a cook_bacon_in_microwave (Ljava/util/Random;Ljava/util/Collection;)Lbl;

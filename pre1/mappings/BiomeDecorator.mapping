@@ -1,0 +1,2 @@
+CLASS ty BiomeDecorator
+	METHOD a decorate (Ltd;Ljava/util/Random;II)V

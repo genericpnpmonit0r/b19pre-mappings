@@ -1,0 +1,2 @@
+CLASS pc StructureVillagePieces
+	METHOD a getStructureVillageWeightedPieceList (Ljava/util/Random;I)Ljava/util/ArrayList;

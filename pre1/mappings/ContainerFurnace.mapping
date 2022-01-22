@@ -1,0 +1,5 @@
+CLASS qw ContainerFurnace
+	FIELD a burnace Labs;
+	FIELD b coochtime I
+	FIELD c lastburntime I
+	FIELD h lastitemburntime I

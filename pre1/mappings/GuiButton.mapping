@@ -1,0 +1,17 @@
+CLASS wv GuiButton
+	FIELD c xPosition I
+	FIELD f displayString Ljava/lang/String;
+	FIELD g id I
+	FIELD h enabled Z
+	FIELD i drawButton Z
+	METHOD a mouseReleased (II)V
+		ARG 1 mousex
+		ARG 2 mousey
+	METHOD a drawButton (Lnet/minecraft/client/Minecraft;II)V
+	METHOD a getHoverState (Z)I
+	METHOD b mouseDragged (Lnet/minecraft/client/Minecraft;II)V
+		ARG 2 mousex
+		ARG 3 mousey
+	METHOD c mousePressed (Lnet/minecraft/client/Minecraft;II)Z
+		ARG 2 mousex
+		ARG 3 mousey

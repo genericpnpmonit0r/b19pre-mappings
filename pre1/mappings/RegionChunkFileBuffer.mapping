@@ -1,0 +1,8 @@
+CLASS ve RegionChunkFileBuffer
+	FIELD a regionfile Ljw;
+	FIELD b chunkX I
+	FIELD c chunkZ I
+	METHOD <init> (Ljw;II)V
+		ARG 1 regionfile1
+		ARG 2 cx
+		ARG 3 cz

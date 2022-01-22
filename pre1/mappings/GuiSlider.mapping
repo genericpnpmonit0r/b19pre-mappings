@@ -1,0 +1,4 @@
+CLASS adz GuiSlider
+	FIELD j slidervalue F
+	FIELD k dragging Z
+	FIELD l idFloat Lva;

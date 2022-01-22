@@ -1,0 +1,11 @@
+CLASS paulscode/sound/SoundSystem paulscode/sound/SoundSystem
+	METHOD backgroundMusic (Ljava/lang/String;Ljava/net/URL;Ljava/lang/String;Z)V
+	METHOD cleanup ()V
+	METHOD newSource (ZLjava/lang/String;Ljava/net/URL;Ljava/lang/String;ZFFFIF)V
+	METHOD play (Ljava/lang/String;)V
+	METHOD playing (Ljava/lang/String;)Z
+	METHOD setListenerOrientation (FFFFFF)V
+	METHOD setListenerPosition (FFF)V
+	METHOD setPitch (Ljava/lang/String;F)V
+	METHOD setVolume (Ljava/lang/String;F)V
+	METHOD stop (Ljava/lang/String;)V

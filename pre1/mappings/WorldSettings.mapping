@@ -1,0 +1,11 @@
+CLASS ej WorldSettings
+	FIELD a worldseed J
+	FIELD b worldtype I
+	FIELD c mapfeaturesenabled Z
+	METHOD <init> (JIZ)V
+		ARG 1 seed
+		ARG 3 type
+		ARG 4 featuresenabled
+	METHOD a getSeed ()J
+	METHOD b getGameType ()I
+	METHOD c isMapFeaturesEnabled ()Z

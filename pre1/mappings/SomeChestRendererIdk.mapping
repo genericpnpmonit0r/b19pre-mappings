@@ -1,0 +1,7 @@
+CLASS cn SomeChestRendererIdk
+	FIELD a unknown0 Lcn;
+	FIELD b teChest Lfu;
+	METHOD a unused (Lmn;IF)V
+		ARG 1 block
+		ARG 2 i
+		ARG 3 f

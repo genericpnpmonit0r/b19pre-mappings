@@ -1,0 +1,7 @@
+CLASS wd RenderEngine
+	METHOD a updateDynamicTextures ()V
+	METHOD a getTextureContents (Ljava/lang/String;)[I
+	METHOD a registerTextureFX (Lql;)V
+	METHOD a createTextureFromBytes ([IIII)V
+	METHOD b getTexture (I)V
+	METHOD b getTexture (Ljava/lang/String;)I

@@ -1,0 +1,4 @@
+CLASS ca WorldGenTopBlockOrSomething
+	FIELD a topBlokc I
+	METHOD <init> (I)V
+		ARG 1 topblockid

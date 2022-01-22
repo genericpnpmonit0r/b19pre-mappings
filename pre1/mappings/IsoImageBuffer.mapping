@@ -1,0 +1,9 @@
+CLASS kl IsoImageBuffer
+	FIELD a unused4 Ljava/awt/image/BufferedImage;
+	FIELD b unused1 Ltd;
+	FIELD c chunkX I
+	FIELD d chunkZ I
+	FIELD e unused3 Z
+	FIELD f unused21 Z
+	METHOD a setChunkPosition (II)V
+	METHOD a setWorldAndChunkPosition (Ltd;II)V

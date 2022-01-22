@@ -1,0 +1,5 @@
+CLASS qn MapCoord
+	FIELD a shit B
+	FIELD b centerX B
+	FIELD c centerZ B
+	FIELD d iconRotation B

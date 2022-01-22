@@ -1,0 +1,12 @@
+CLASS fu TileEntityChest
+	FIELD a unknown1 Z
+	FIELD b unknown2 Lfu;
+	FIELD c unknown4 Lfu;
+	FIELD d unknown3 Lfu;
+	FIELD e unknown5 Lfu;
+	FIELD f unknown6 F
+	FIELD g unknown7 F
+	FIELD h unknown8 I
+	FIELD p chestContents [Lvw;
+	FIELD q unknown9 I
+	METHOD g unknown1 ()V

@@ -1,0 +1,8 @@
+CLASS dt OpenGlHelper
+	FIELD a defaultTexUnit I
+	FIELD b lightmapTexUnit I
+	FIELD c useMultitextureARB Z
+	METHOD a initializeTextures ()V
+	METHOD a setActiveTexture (I)V
+	METHOD a setLightmapTextureCoords (IFF)V
+	METHOD b setClientActiveTexture (I)V

@@ -1,0 +1,18 @@
+CLASS abv StructureNetherBridgePieceWeight
+	FIELD a piecesClass Ljava/lang/Class;
+	FIELD b unknown1 I
+	FIELD c unknown2 I
+	FIELD d unknown3 I
+	FIELD e isEnabled Z
+	METHOD <init> (Ljava/lang/Class;II)V
+		ARG 1 piecesClasses
+		ARG 2 x
+		ARG 3 z
+	METHOD <init> (Ljava/lang/Class;IIZ)V
+		ARG 1 pieceClass
+		ARG 2 unknown
+		ARG 3 unknown01
+		ARG 4 enabled
+	METHOD a unknownMethod0 ()Z
+	METHOD a getStructureType (I)Z
+		ARG 1 structuretype

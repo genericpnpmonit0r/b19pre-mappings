@@ -1,0 +1,6 @@
+CLASS afl EntityPigZombie
+	FIELD a angerLevel I
+	FIELD b randomSoundDelay I
+	FIELD d defaultHeldItem Lvw;
+	METHOD c becomeAngryAt (Lle;)V
+		ARG 1 entityToBecomeAngryAt

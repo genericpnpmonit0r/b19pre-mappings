@@ -1,0 +1,10 @@
+CLASS aga SlotCrafting
+	FIELD e craftMatrix Lha;
+	FIELD f thePlayer Lui;
+	METHOD <init> (Lui;Lha;Lha;III)V
+		ARG 1 entityplayer
+		ARG 2 iinventory
+		ARG 3 iinventory2
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z

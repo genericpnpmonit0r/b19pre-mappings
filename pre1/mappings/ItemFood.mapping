@@ -1,0 +1,2 @@
+CLASS afz ItemFood
+	METHOD a setPotionEffect (IIIF)Lafz;

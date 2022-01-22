@@ -1,0 +1,2 @@
+CLASS yq ComponentNetherBridgeCorridor5
+	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lyq;

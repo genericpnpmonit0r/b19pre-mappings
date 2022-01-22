@@ -1,0 +1,12 @@
+CLASS rq SpawnerAnimals
+	FIELD a nightSpawnEntities [Ljava/lang/Class;
+	FIELD b eligibleChunksForSpawning Ljava/util/Set;
+	METHOD a getRandomSpawningPointInChunk (Ltd;II)Lnu;
+		ARG 0 world
+		ARG 1 x
+		ARG 2 z
+	METHOD a performBedSpawning (Ltd;Ljava/util/List;)Z
+	METHOD a emptySomething (Ltd;Lwt;IIIILjava/util/Random;)V
+	METHOD a performSpawning (Ltd;ZZ)I
+	METHOD a canCreatureTypeSpawnAtLocation (Lxj;Ltd;III)Z
+	METHOD a creatureSpecificInit (Lxq;Ltd;FFF)V

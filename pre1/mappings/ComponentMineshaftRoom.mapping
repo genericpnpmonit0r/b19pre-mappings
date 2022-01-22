@@ -1,0 +1,2 @@
+CLASS pn ComponentMineshaftRoom
+	FIELD a childStructures Ljava/util/LinkedList;

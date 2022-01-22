@@ -1,0 +1,2 @@
+CLASS z TileEntityMobSpawnerRenderer
+	FIELD b entityhashmap Ljava/util/Map;

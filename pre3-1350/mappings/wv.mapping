@@ -1,0 +1,5 @@
+CLASS wv
+	FIELD a pain1 [Lwy;
+	FIELD c pain2 I
+	METHOD a setCurrentItem (IZ)V
+	METHOD b getCurrentItem ()Lwy;

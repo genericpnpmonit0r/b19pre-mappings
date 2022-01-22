@@ -1,0 +1,8 @@
+CLASS cm Container
+	FIELD e inventorySLots Ljava/util/List;
+	FIELD g crafters Ljava/util/List;
+	METHOD a updateCraftingResults ()V
+	METHOD a transferStackInSlot (I)Lvw;
+	METHOD a updateProgressBar (II)V
+	METHOD a addSlot (Lug;)V
+	METHOD b canInteractWith (Lui;)Z

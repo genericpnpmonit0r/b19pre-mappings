@@ -1,0 +1,2 @@
+CLASS lz OSMap
+	FIELD a allOses [I

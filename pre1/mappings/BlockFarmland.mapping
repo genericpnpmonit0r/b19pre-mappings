@@ -1,0 +1,3 @@
+CLASS adr BlockFarmland
+	METHOD h isCropsNearby (Ltd;III)Z
+	METHOD i isWaterNearby (Ltd;III)Z

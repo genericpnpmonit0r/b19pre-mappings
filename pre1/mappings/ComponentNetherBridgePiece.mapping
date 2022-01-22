@@ -1,0 +1,2 @@
+CLASS wa ComponentNetherBridgePiece
+	METHOD a findIntersecting (Lno;)Z

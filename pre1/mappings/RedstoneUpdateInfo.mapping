@@ -1,0 +1,10 @@
+CLASS afh RedstoneUpdateInfo
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d updateTime J
+	METHOD <init> (IIIJ)V
+		ARG 1 xpos
+		ARG 2 ypos
+		ARG 3 zpos
+		ARG 4 updtime

@@ -1,0 +1,6 @@
+CLASS acl SaveFormatOld
+	FIELD a savesDirectory Ljava/io/File;
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 file1
+	METHOD a deleteFiles ([Ljava/io/File;)V
+		ARG 0 filearray

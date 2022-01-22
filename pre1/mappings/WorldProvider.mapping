@@ -1,0 +1,31 @@
+CLASS aew WorldProvider
+	FIELD a worldObj Ltd;
+	FIELD b worldChunkMgr Lov;
+	FIELD c isNether Z
+	FIELD d isHellWorld Z
+	FIELD e hasNoSky Z
+	FIELD f lightBrightnessTable [F
+	FIELD g worldType I
+	FIELD h floatarray [F
+	METHOD a registerWorldChunkManager ()V
+	METHOD a calcSunriseSunsetColors (FF)[F
+		ARG 1 anglex
+		ARG 2 anglez
+	METHOD a getProviderForDimension (I)Laew;
+		ARG 0 dim
+	METHOD a canCoordinateBeSpawn (II)Z
+		ARG 1 xpos
+		ARG 2 zpos
+	METHOD a calcCelestialAngle (JF)F
+		ARG 1 anglex
+		ARG 3 anglez
+	METHOD a registerWorld (Ltd;)V
+		ARG 1 world
+	METHOD b getChunkProvider ()Lbh;
+	METHOD b getFogColor (FF)Lba;
+		ARG 1 vecStart
+		ARG 2 vecEnd
+	METHOD c cthisMethodReturnsFalse ()Z
+	METHOD d getCloudHeight ()F
+	METHOD e getLightBrightnessTable ()V
+	METHOD f canRespawnHere ()Z

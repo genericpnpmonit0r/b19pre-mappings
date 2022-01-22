@@ -1,0 +1,3 @@
+CLASS vb IInvBasic
+	METHOD a onInventoryChanged (Lka;)V
+		ARG 1 invBasic

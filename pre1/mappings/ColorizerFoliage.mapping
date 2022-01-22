@@ -1,0 +1,7 @@
+CLASS fp ColorizerFoliage
+	FIELD a foliageBuffer [I
+	METHOD a getFoliageColorPine ()I
+	METHOD a getFoliageColor (DD)I
+	METHOD a getFoliageBiomeColorizer ([I)V
+	METHOD b getFoliageColorBirch ()I
+	METHOD c getFoliageColorBasic ()I

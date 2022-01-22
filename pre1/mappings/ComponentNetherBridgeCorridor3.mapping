@@ -1,0 +1,2 @@
+CLASS pi ComponentNetherBridgeCorridor3
+	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lpi;

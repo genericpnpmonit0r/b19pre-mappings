@@ -1,0 +1,8 @@
+CLASS afn GuiEditSign
+	FIELD a screenTitle Ljava/lang/String;
+	FIELD b tileentitysign Lpf;
+	FIELD c updatecounter I
+	FIELD d editLine I
+	FIELD f allowedChars Ljava/lang/String;
+	METHOD <init> (Lpf;)V
+		ARG 1 tileEntitysign

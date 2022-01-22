@@ -1,0 +1,2 @@
+CLASS nq BlockPlant
+	METHOD b_ canThisPlantGrowOnThisBlockId (I)Z

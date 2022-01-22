@@ -1,0 +1,4 @@
+CLASS acw DataWatcher
+	METHOD a getWatchableObjectByte (I)B
+	METHOD a addObject (ILjava/lang/Object;)V
+	METHOD b updateObject (ILjava/lang/Object;)V

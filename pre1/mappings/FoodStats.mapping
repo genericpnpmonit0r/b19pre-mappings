@@ -1,0 +1,2 @@
+CLASS kx FoodStats
+	METHOD a addStats (IF)V

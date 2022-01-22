@@ -1,0 +1,2 @@
+CLASS vx EntityList
+	METHOD a createEntityInWorld (Ljava/lang/String;Ltd;)Lle;

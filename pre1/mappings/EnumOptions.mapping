@@ -1,0 +1,15 @@
+CLASS va EnumOptions
+	FIELD p enumBoolean2 Z
+	FIELD q enumBoolean Z
+	FIELD r enumString Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;ZZ)V
+		ARG 3 str
+		ARG 4 bool1
+		ARG 5 bool2
+	METHOD a getEnumBool2 ()Z
+	METHOD a getEnumOptions (I)Lva;
+		ARG 0 integerVar1
+	METHOD b getEnumBoolean ()Z
+	METHOD c returnEnumOrdinal ()I
+	METHOD d getEnumString ()Ljava/lang/String;
+	METHOD values ()[Lva;

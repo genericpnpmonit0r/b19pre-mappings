@@ -1,0 +1,8 @@
+CLASS f ComponentVillageStartPiece
+	FIELD a worldChunkMgr Lov;
+	FIELD b terraintype I
+	FIELD c structVillagePieceWeight Lda;
+	FIELD d structureVillageWeightedPieceList Ljava/util/ArrayList;
+	FIELD e unusedarrlist1 Ljava/util/ArrayList;
+	FIELD f unusedarrlist2 Ljava/util/ArrayList;
+	METHOD a getWorldChunkMgr ()Lov;

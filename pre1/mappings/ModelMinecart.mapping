@@ -1,0 +1,2 @@
+CLASS yo ModelMinecart
+	FIELD a sideModels [Lnv;

@@ -1,0 +1,12 @@
+CLASS zm ThreadedChunkLoader
+	FIELD a list1 Ljava/util/List;
+	FIELD b set1 Ljava/util/Set;
+	FIELD c object1 Ljava/lang/Object;
+	FIELD d fileToLoad Ljava/io/File;
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 filetoLoad
+	METHOD a aaaaaa (Lpb;)V
+		ARG 1 threadedchunkloaderpending
+	METHOD a unknown0 (Lpk;Lyr;)V
+		ARG 1 chunkcoordintpair
+		ARG 2 compoundtag

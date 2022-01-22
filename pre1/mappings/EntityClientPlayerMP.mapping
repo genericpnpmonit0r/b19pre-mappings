@@ -1,0 +1,2 @@
+CLASS acg EntityClientPlayerMP
+	FIELD ci sendQueue Lyh;

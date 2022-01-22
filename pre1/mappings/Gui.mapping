@@ -1,0 +1,9 @@
+CLASS mb Gui
+	FIELD e zLevel F
+	METHOD a drawHorizontalLine (IIII)V
+	METHOD a drawRect (IIIII)V
+	METHOD a drawGradientRect (IIIIII)V
+	METHOD a drawCenteredString (Llc;Ljava/lang/String;III)V
+	METHOD b drawVerticalLine (IIII)V
+	METHOD b drawTexturedModalRect (IIIIII)V
+	METHOD b drawString (Llc;Ljava/lang/String;III)V

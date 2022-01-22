@@ -1,0 +1,35 @@
+CLASS ow EntityFX
+	FIELD ap particleMaxAge I
+	FIELD aq particleScale F
+	FIELD ar particleGravity F
+	FIELD as particleRed F
+	FIELD at particleGreen F
+	FIELD au particleBlue F
+	FIELD av interpPosX D
+	FIELD aw interpPosY D
+	FIELD ax interpPosZ D
+	FIELD b particleTextureIndex I
+	FIELD c particleTextureJitterX F
+	FIELD d particleTextureJitterY F
+	FIELD e particleAge I
+	METHOD <init> (Ltd;DDDDDD)V
+		ARG 1 world
+		ARG 2 posx
+		ARG 4 posy
+		ARG 6 posz
+		ARG 8 motx
+		ARG 10 moty
+		ARG 12 motz
+	METHOD a renderParticle (Lyu;FFFFFF)V
+		ARG 1 tessellator
+		ARG 2 f1
+		ARG 3 f2
+		ARG 4 f3
+		ARG 5 f4
+		ARG 6 f5
+		ARG 7 f6
+	METHOD d multiplyVelocity (F)Low;
+		ARG 1 velocity
+	METHOD e scaleParticle (F)Low;
+		ARG 1 scale
+	METHOD m getFxLayer ()I

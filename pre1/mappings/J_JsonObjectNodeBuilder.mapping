@@ -1,0 +1,2 @@
+CLASS lm J_JsonObjectNodeBuilder
+	METHOD a withFieldBuilder (Laab;)Llm;

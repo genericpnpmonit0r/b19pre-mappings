@@ -1,0 +1,2 @@
+CLASS si GuiParticle
+	METHOD a update ()V

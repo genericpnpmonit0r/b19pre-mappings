@@ -1,0 +1,3 @@
+CLASS q ComponentStrongholdStairs2
+	FIELD a structurestrongholdpieceweight Labt;
+	FIELD b arrList Ljava/util/ArrayList;

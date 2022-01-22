@@ -1,0 +1,3 @@
+CLASS ky ItemRenderer
+	METHOD b pain4 ()V
+	METHOD c renderItemOrSomething ()V

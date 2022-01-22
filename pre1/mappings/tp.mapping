@@ -1,0 +1,3 @@
+CLASS tp
+	FIELD c rand Ljava/util/Random;
+	FIELD d worldObj Ltd;

@@ -1,0 +1,4 @@
+CLASS wq ProfilerResult
+	FIELD a result1 D
+	FIELD c profilerResultLength Ljava/lang/String;
+	METHOD a getResult0 ()I

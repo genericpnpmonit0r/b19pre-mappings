@@ -1,0 +1,2 @@
+CLASS yl ComponentNetherBridgeStairs
+	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lyl;

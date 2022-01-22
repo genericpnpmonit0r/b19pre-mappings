@@ -1,0 +1,8 @@
+CLASS jq EntityRenderer
+	FIELD b anaglyphField I
+	FIELD c itemRenderer Lkj;
+	METHOD a updateRenderer ()V
+	METHOD a disableLightmap (D)V
+	METHOD a getMouseOver (F)V
+	METHOD b enableLightMap (D)V
+	METHOD b updateCameraAndRender (F)V

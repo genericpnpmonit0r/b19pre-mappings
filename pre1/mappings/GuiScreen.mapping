@@ -1,0 +1,47 @@
+CLASS rx GuiScreen
+	FIELD a selectedButton Lwv;
+	FIELD l mc Lnet/minecraft/client/Minecraft;
+	FIELD m width I
+	FIELD n height I
+	FIELD o controlList Ljava/util/List;
+	FIELD p allowUserInput Z
+	FIELD q fontRenderer Llc;
+	FIELD r guiParticles Lsi;
+	METHOD a initGui ()V
+	METHOD a keyTyped (CI)V
+		ARG 1 characterTyped
+		ARG 2 typedTimes
+	METHOD a drawScreen (IIF)V
+		ARG 1 screenx
+		ARG 2 screeny
+		ARG 3 f1
+	METHOD a mouseClicked (III)V
+		ARG 1 mousex
+		ARG 2 mousey
+		ARG 3 buttonid
+	METHOD a setWorldAndResolution (Lnet/minecraft/client/Minecraft;II)V
+		ARG 1 minecraft
+		ARG 2 resWidth
+		ARG 3 resHeight
+	METHOD a actionPerformed (Lwv;)V
+		ARG 1 guibutton
+	METHOD a confirmClicked (ZI)V
+		ARG 1 clicked
+		ARG 2 posAt
+	METHOD b mouseOverOrUp (III)V
+		ARG 1 mousex
+		ARG 2 mousey
+		ARG 3 buttonid
+	METHOD d onGuiClosed ()V
+	METHOD d drawWorldBackground (I)V
+		ARG 1 backgroundpos
+	METHOD e doesGuiPauseGame ()Z
+	METHOD e drawBackground (I)V
+		ARG 1 backgroundpos
+	METHOD f handleMouseInput ()V
+	METHOD h getClipboardString ()Ljava/lang/String;
+	METHOD i handleInput ()V
+	METHOD j handleKeyboardInput ()V
+	METHOD k drawDefaultBackground ()V
+	METHOD l selectNextField ()V
+	METHOD p_ updateScreen ()V

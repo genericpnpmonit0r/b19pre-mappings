@@ -1,0 +1,3 @@
+CLASS aer CanvasCrashReport
+	METHOD <init> (I)V
+		ARG 1 dimensions

@@ -1,0 +1,5 @@
+CLASS ago StatFileWriter
+	METHOD a readStat (Lafi;I)V
+	METHOD b renameThisLaterToo ()V
+	METHOD c syncStats ()V
+	METHOD d statWriteBs ()V

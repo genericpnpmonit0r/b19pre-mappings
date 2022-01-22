@@ -1,0 +1,42 @@
+CLASS gs GuiSlot
+	FIELD a mc Lnet/minecraft/client/Minecraft;
+	FIELD b width I
+	FIELD c height I
+	FIELD d right I
+	FIELD e left I
+	FIELD f scrollUpButtonId I
+	FIELD g scrollDownButtonId I
+	FIELD h top I
+	FIELD i bottom I
+	FIELD j slotHeight I
+	FIELD k mouseX I
+	FIELD l mouseY I
+	FIELD m initialClickY F
+	FIELD n scrollMultiplier F
+	FIELD o amountScrolled F
+	FIELD p selectedElement I
+	FIELD q lastClicked J
+	FIELD r potatobrain Z
+	FIELD s microwaveGoMMMMMM Z
+	FIELD t espuma I
+	METHOD a getSize ()I
+	METHOD a drawScreen (IIF)V
+	METHOD a drawSlot (IIIILyu;)V
+		ARG 1 scrn1
+		ARG 2 scrn2
+		ARG 3 scrn3
+		ARG 4 scrn4
+		ARG 5 tessellator
+	METHOD a drawSprites (IILyu;)V
+		ARG 1 screenx
+		ARG 2 screeny
+		ARG 3 tessellator
+	METHOD a elementClicked (IZ)V
+		ARG 1 serverid
+		ARG 2 clicked
+	METHOD a registerScrollButtons (Ljava/util/List;II)V
+	METHOD a actionPerformed (Lwv;)V
+	METHOD a_ isSelected (I)Z
+		ARG 1 selected
+	METHOD b getConetntHeiught ()I
+	METHOD c drawBackground ()V

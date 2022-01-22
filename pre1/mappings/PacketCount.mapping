@@ -1,0 +1,2 @@
+CLASS ys PacketCount
+	METHOD a doSomethingWithPacketSize (I)V

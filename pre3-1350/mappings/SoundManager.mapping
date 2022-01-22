@@ -1,0 +1,7 @@
+CLASS py SoundManager
+	METHOD a loadSoundSettings (Lgr;)V
+	METHOD a addSound (Ljava/lang/String;Ljava/io/File;)V
+	METHOD a partialTicksPlayer (Lyv;F)V
+	METHOD b closeMinecraft ()V
+	METHOD b addStreaming (Ljava/lang/String;Ljava/io/File;)V
+	METHOD c addMusic (Ljava/lang/String;Ljava/io/File;)V

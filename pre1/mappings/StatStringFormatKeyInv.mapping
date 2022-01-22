@@ -1,0 +1,4 @@
+CLASS ga StatStringFormatKeyInv
+	FIELD a mc Lnet/minecraft/client/Minecraft;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft

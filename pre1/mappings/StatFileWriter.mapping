@@ -1,0 +1,7 @@
+CLASS afa StatFileWriter
+	METHOD a writeStat (Ladw;)I
+	METHOD a readStat (Ladw;I)V
+	METHOD a hasAchievementUnlocked (Lyv;)Z
+	METHOD b func_jadnumbershit_letter1 ()V
+	METHOD c syncStats ()V
+	METHOD d anotherIdontKnowWhatThisIs ()V

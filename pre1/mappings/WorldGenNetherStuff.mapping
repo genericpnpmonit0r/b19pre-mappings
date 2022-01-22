@@ -1,0 +1,4 @@
+CLASS jt WorldGenNetherStuff
+	FIELD a blocks I
+	METHOD <init> (I)V
+		ARG 1 id

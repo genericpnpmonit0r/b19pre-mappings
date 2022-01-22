@@ -1,0 +1,4 @@
+CLASS tu AxisAlignedBB
+	METHOD a clearBoundingBoxes ()V
+	METHOD b clearBoundingBoxPool ()V
+	METHOD b getBoundingBoxFromPool (DDDDDD)Ltu;

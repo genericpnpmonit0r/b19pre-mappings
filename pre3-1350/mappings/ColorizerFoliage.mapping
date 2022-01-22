@@ -1,0 +1,2 @@
+CLASS fv ColorizerFoliage
+	METHOD a getFoilageBiomeColorizer ([I)V

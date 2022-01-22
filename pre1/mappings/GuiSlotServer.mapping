@@ -1,0 +1,4 @@
+CLASS nm GuiSlotServer
+	FIELD a parentGui Lxo;
+	METHOD <init> (Lxo;)V
+		ARG 1 guiMP

@@ -1,0 +1,4 @@
+CLASS os WorldGenStoneSomethingIdk
+	FIELD a stoned I
+	METHOD <init> (I)V
+		ARG 1 id

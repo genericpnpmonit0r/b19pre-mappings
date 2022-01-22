@@ -1,0 +1,7 @@
+CLASS vu MapItemRenderer
+	FIELD a intArray [I
+	FIELD b bufferedImage I
+	FIELD c gamesettings Lgj;
+	FIELD d fontrenderer Llc;
+	METHOD a renderMap (Lui;Lwd;Lvs;)V
+		ARG 3 mapdata

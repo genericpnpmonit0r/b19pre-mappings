@@ -1,0 +1,9 @@
+CLASS aaa Tessellator
+	FIELD a instance Laaa;
+	METHOD a draw ()V
+	METHOD a addVertex (DDD)V
+	METHOD a addVertexWithUV (DDDDD)V
+	METHOD a startDrawing (I)V
+	METHOD a setColorRGBA_I (II)V
+	METHOD b startDrawingQuads ()V
+	METHOD c setColorOpaque_I (I)V

@@ -1,0 +1,3 @@
+CLASS vd ColorizerWater
+	FIELD a WaterBuffer [I
+	METHOD a getWaterBiomeColorizer ([I)V

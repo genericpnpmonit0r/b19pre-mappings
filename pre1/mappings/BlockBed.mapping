@@ -1,0 +1,10 @@
+CLASS mw BlockBed
+	FIELD a headBlockToFootBlockMap [[I
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a setBedOccupied (Ltd;IIIZ)V
+	METHOD d getDirectionFromMetadata (I)I
+	METHOD f isBlockFootOfBed (I)Z
+	METHOD f getNearestEmptyChunkCoordinates (Ltd;IIII)Lqx;
+	METHOD g isBedOccupied (I)Z
+	METHOD s setBounds ()V

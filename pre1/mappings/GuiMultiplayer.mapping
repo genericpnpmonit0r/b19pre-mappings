@@ -1,0 +1,34 @@
+CLASS xo GuiMultiplayer
+	FIELD a threadsPending I
+	FIELD b lock Ljava/lang/Object;
+	FIELD c parentScreen Lrx;
+	FIELD d serverSlotContainer Lnm;
+	FIELD f serverList Ljava/util/List;
+	FIELD g selectedServer I
+	FIELD h buttonEdit Lwv;
+	FIELD i buttonSelect Lwv;
+	FIELD j buttonDelete Lwv;
+	FIELD k deleteClicked Z
+	FIELD s addClicked Z
+	FIELD t editClicked Z
+	FIELD u directClicked Z
+	FIELD v lagToolTip Ljava/lang/String;
+	FIELD w tempServer Llq;
+	METHOD <init> (Lrx;)V
+		ARG 1 guiscreen
+	METHOD a joinServer (I)V
+		ARG 1 serverId
+	METHOD a parseÍntWithDefault (Ljava/lang/String;I)I
+		ARG 1 srvString
+		ARG 2 intOut
+	METHOD a displayTooltip (Ljava/lang/String;II)V
+		ARG 1 tooltipText
+		ARG 2 posx
+		ARG 3 posy
+	METHOD a joinServer (Llq;)V
+		ARG 1 srvNbtStorage
+	METHOD b pollServer (Llq;)V
+		ARG 1 srvNbtStorage
+	METHOD c initControls ()V
+	METHOD p loadServerList ()V
+	METHOD q saveServerList ()V

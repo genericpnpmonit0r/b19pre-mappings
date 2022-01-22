@@ -1,0 +1,2 @@
+CLASS ld EntityArrow
+	METHOD a setArrowHeading (DDDFF)V

@@ -1,0 +1,3 @@
+CLASS qd RecipesCrafting2
+	FIELD a pattern [[Ljava/lang/String;
+	FIELD b recipeItems [[Ljava/lang/Object;

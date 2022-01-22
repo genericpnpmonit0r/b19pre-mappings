@@ -1,0 +1,3 @@
+CLASS sn ICrafting
+	METHOD a updateCraftingInventoryInfo (Lcm;II)V
+	METHOD a updateCraftingInventorySlot (Lcm;ILvw;)V

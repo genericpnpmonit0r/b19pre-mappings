@@ -1,0 +1,4 @@
+CLASS ns WorldGenBigMushroom
+	FIELD a mushroom I
+	METHOD <init> (I)V
+		ARG 1 id

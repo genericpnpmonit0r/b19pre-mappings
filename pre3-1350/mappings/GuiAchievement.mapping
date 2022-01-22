@@ -1,0 +1,2 @@
+CLASS oc GuiAchievement
+	METHOD a updateAchievementWindow ()V

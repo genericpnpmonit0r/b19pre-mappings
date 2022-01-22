@@ -1,0 +1,14 @@
+CLASS aaa IWorldAccess
+	METHOD a markBlocksNeedsUpdate (III)V
+	METHOD a doNothingWithTileEntity (IIILjb;)V
+	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
+	METHOD a playSound (Ljava/lang/String;DDDFF)V
+	METHOD a playRecord (Ljava/lang/String;III)V
+		ARG 1 recName
+		ARG 2 xpos
+		ARG 3 ypos
+		ARG 4 zpos
+	METHOD a obtainEntitySkin (Lle;)V
+	METHOD a playAuxSFX (Lui;IIIII)V
+	METHOD b markBlocksNeedsUpdate2 (IIIIII)V
+	METHOD b releaseEntitySkin (Lle;)V

@@ -1,0 +1,29 @@
+CLASS qp CanvasIsomPreview
+	FIELD a unknownI I
+	FIELD b zoomLevel I
+	FIELD c displayHelpText Z
+	FIELD d worldObj Ltd;
+	FIELD e dataFolder Ljava/io/File;
+	FIELD f running Z
+	FIELD g imageBufferList Ljava/util/List;
+	FIELD h imagebuffers [[Lkl;
+	FIELD i xPos I
+	FIELD j yPos I
+	FIELD k xPosition I
+	FIELD l yPosition I
+	METHOD a getMinecraftDir ()Ljava/io/File;
+	METHOD a setTimeOfDay (I)V
+		ARG 1 timeOfDay
+	METHOD a getImageBuffer (II)Lkl;
+		ARG 1 chunkx
+		ARG 2 chunkz
+	METHOD a drawScreen (Ljava/awt/Graphics2D;)V
+		ARG 1 gfx2d
+	METHOD a getAppDir (Ljava/lang/String;)Ljava/io/File;
+		ARG 1 filename
+	METHOD b startThreads ()V
+	METHOD b loadWorld (Ljava/lang/String;)V
+		ARG 1 worldName
+	METHOD c exit ()V
+	METHOD d renderCanvas ()V
+	METHOD e getOs ()Lwg;

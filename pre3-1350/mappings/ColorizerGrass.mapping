@@ -1,0 +1,2 @@
+CLASS wg ColorizerGrass
+	METHOD a setGrassBiomeColorizer ([I)V

@@ -1,0 +1,2 @@
+CLASS abm BlockContainer
+	METHOD n_ getBlockEntity ()Ljb;

@@ -1,0 +1,2 @@
+CLASS bf GuiSlotStatsItem
+	FIELD a guiStats Lcl;

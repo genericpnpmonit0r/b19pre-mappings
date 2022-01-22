@@ -1,0 +1,5 @@
+CLASS ma ThreadRunIsoClient
+	FIELD a isomPreviewCanvas Lqp;
+	METHOD <init> (Lqp;)V
+		ARG 1 canvasIsomPreview
+	METHOD run ()V

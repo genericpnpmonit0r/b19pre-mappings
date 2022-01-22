@@ -1,0 +1,4 @@
+CLASS aaj KeyBinding
+	METHOD a unPressAllKeys ()V
+	METHOD a onTick (I)V
+	METHOD a setKeyBindingState (IZ)V

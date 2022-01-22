@@ -1,0 +1,3 @@
+CLASS x IntCache
+	METHOD a ints_go_brrrr ()V
+	METHOD a getIntCache (I)[I

@@ -1,0 +1,2 @@
+CLASS tj ChatAllowedCharacters
+	FIELD a allowedCharacters Ljava/lang/String;

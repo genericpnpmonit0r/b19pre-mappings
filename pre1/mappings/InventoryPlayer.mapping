@@ -1,0 +1,9 @@
+CLASS vt InventoryPlayer
+	FIELD a mainInventory [Lvw;
+	FIELD c currentItem I
+	FIELD d player Lui;
+	METHOD a setCurrentItem (IZ)V
+	METHOD b getCurrentItem ()Lvw;
+	METHOD b changeCurrentItem (I)V
+	METHOD b setItemStack (Lvw;)V
+	METHOD j getItemStack ()Lvw;

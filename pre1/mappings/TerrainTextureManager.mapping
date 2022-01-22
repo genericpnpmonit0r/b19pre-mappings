@@ -1,0 +1,11 @@
+CLASS ade TerrainTextureManager
+	FIELD a floatArray0 [F
+	FIELD b intArray0 [I
+	FIELD c intArray1 [I
+	FIELD d intArray2 [I
+	FIELD e intArray3 [I
+	FIELD f intArray4 [I
+	FIELD g intArray5 [I
+	METHOD a unused0 ()V
+	METHOD a doSomethingUsingIsoImageBuffer (Lkl;)V
+		ARG 1 isoimagebuffer

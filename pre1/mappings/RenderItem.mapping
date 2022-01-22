@@ -1,0 +1,2 @@
+CLASS qo RenderItem
+	METHOD a drawItemIntoGui (Llc;Lwd;IIIII)V

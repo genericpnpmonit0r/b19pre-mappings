@@ -1,0 +1,8 @@
+CLASS ey GuiContainer
+	FIELD c ySize I
+	FIELD d inventorySlots Lcm;
+	METHOD a handleMouseClick (Lug;IIZ)V
+		ARG 1 slot
+		ARG 2 mousex
+		ARG 3 mousey
+		ARG 4 ispressed

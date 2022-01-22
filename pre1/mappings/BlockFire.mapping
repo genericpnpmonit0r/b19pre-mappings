@@ -1,0 +1,9 @@
+CLASS afu BlockFire
+	FIELD a chanceToEncourageFire [I
+	FIELD b abilityToCatchFire [I
+	METHOD a setBurnRate (III)V
+	METHOD a tryToCatchBlockOnFire (Ltd;IIIILjava/util/Random;I)V
+	METHOD f canBlockCatchFire (Lafd;III)Z
+	METHOD f getChanceToEncourageFire (Ltd;IIII)I
+	METHOD h canNeighborBurn (Ltd;III)Z
+	METHOD i getChanceOfNeighborsEncouragingFire (Ltd;III)I

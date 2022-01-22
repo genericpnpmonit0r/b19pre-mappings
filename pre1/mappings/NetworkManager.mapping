@@ -1,0 +1,13 @@
+CLASS ji NetworkManager
+	FIELD a threadSyncObject Ljava/lang/Object;
+	FIELD c numWriteThreads I
+	FIELD k getOutputStream Ljava/io/DataOutputStream;
+	FIELD l isRunning Z
+	FIELD r getWriteThread Ljava/lang/Thread;
+	FIELD s getReadThread Ljava/lang/Thread;
+	FIELD t getIsTerminating Z
+	METHOD a wakeThreads ()V
+	METHOD a catcherror (Ljava/lang/Exception;)V
+	METHOD a networkShutdown (Ljava/lang/String;[Ljava/lang/Object;)V
+	METHOD b processReadPackets ()V
+	METHOD d sendNetworkPacket ()Z

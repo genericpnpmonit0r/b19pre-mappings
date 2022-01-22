@@ -1,0 +1,30 @@
+CLASS nv ModelRenderer
+	FIELD a texWidth F
+	FIELD b texHeight F
+	FIELD c rotPointX F
+	FIELD d rotPointY F
+	FIELD e rotPointZ F
+	FIELD f rotAngleX F
+	FIELD g rotAngleY F
+	FIELD h rotAngleZ F
+	FIELD i mirror Z
+	FIELD j showModel Z
+	FIELD k isHidden Z
+	FIELD l texOffsetX I
+	FIELD m texOffsetZ I
+	FIELD n compiled Z
+	FIELD o displayList I
+	FIELD p cubeList Ljava/util/List;
+	METHOD a render (F)V
+	METHOD a setRotationPoint (FFF)V
+		ARG 1 rpx
+		ARG 2 rpy
+		ARG 3 rpz
+	METHOD a addBox2 (FFFIII)V
+	METHOD a addBox (FFFIIIF)V
+	METHOD a setTextureOffset (II)Lnv;
+	METHOD a setRotationPointsAngles (Lnv;)V
+	METHOD b renderWithRotation (F)V
+	METHOD b setTextureSize (II)Lnv;
+	METHOD c postRender (F)V
+	METHOD d compileDisplayList (F)V

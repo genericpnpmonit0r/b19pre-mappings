@@ -1,0 +1,17 @@
+CLASS ry EntityPlayerSP
+	FIELD a movementInput Lmk;
+	FIELD ap renderArmPitch F
+	FIELD aq prevRenderArmYaw F
+	FIELD ar prevRenderArmPitch F
+	FIELD b mc Lnet/minecraft/client/Minecraft;
+	FIELD c sprintToggleTimer I
+	FIELD ci mousefilter1 Lbq;
+	FIELD cj mousefilter2 Lbq;
+	FIELD ck mousefilter3 Lbq;
+	FIELD d sprintingTicksLeft I
+	FIELD e renderArmYaw F
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ltd;Leb;I)V
+		ARG 1 minecraft
+		ARG 2 world
+		ARG 3 session
+		ARG 4 dim

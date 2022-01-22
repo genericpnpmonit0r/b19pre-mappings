@@ -1,0 +1,4 @@
+CLASS abb SignModel
+	FIELD a signBoard Lnv;
+	FIELD b signStick Lnv;
+	METHOD a renderSign ()V

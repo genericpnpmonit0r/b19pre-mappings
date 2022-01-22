@@ -1,0 +1,4 @@
+CLASS pk ChunkCoordIntPair
+	FIELD a chunkposx I
+	FIELD b chunkposz I
+	METHOD a chunkXZ2Int (II)J

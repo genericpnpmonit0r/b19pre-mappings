@@ -1,0 +1,2 @@
+CLASS aap ComponentNetherBridgeStartPiece
+	FIELD d arrList Ljava/util/ArrayList;

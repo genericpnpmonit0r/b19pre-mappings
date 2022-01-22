@@ -1,0 +1,3 @@
+CLASS t GuiSmallButton
+	FIELD j enumoptions Lva;
+	METHOD a returnEnumOptions ()Lva;

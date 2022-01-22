@@ -1,0 +1,4 @@
+CLASS kd EntityRenderer
+	FIELD c itemRenderer Lky;
+	METHOD a getMouseOver (F)V
+	METHOD b updateCameraAndRender (F)V

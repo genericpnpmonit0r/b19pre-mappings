@@ -1,0 +1,3 @@
+CLASS aeb ComponentNetherBridgeThrone
+	FIELD a hasSpawner Z
+	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Laeb;

@@ -1,0 +1,2 @@
+CLASS ci ComponentNetherBridgeStraight
+	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lci;

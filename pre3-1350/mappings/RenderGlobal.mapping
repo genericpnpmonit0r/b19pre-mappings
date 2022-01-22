@@ -1,0 +1,4 @@
+CLASS i RenderGlobal
+	METHOD b getDebugInfoRenders ()Ljava/lang/String;
+	METHOD c getDebugInfoEntities ()Ljava/lang/String;
+	METHOD e doSomethingWithRenderGlobal ()V

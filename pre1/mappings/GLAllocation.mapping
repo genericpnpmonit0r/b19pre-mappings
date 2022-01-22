@@ -1,0 +1,10 @@
+CLASS dw GLAllocation
+	FIELD a displayLists Ljava/util/List;
+	FIELD b textureNames Ljava/util/List;
+	METHOD a deleteTexturesAndDisplayLists ()V
+	METHOD a generateDisplayLists (I)I
+	METHOD a generateTextureNames (Ljava/nio/IntBuffer;)V
+	METHOD b deleteDisplayLists (I)V
+	METHOD c createDirectByteBuffer (I)Ljava/nio/ByteBuffer;
+	METHOD d createDirectIntBuffer (I)Ljava/nio/IntBuffer;
+	METHOD e createDirectFloatBuffer (I)Ljava/nio/FloatBuffer;

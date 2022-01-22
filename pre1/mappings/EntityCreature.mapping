@@ -1,0 +1,9 @@
+CLASS vj EntityCreature
+	FIELD ar entityToAttack Lle;
+	FIELD at fleeingTick I
+	METHOD a getBlockPathWeight (III)F
+		ARG 1 xpos
+		ARG 2 ypos
+		ARG 3 zpos
+	METHOD a attackEntity (Lle;F)V
+	METHOD l findPlayerToAttack ()Lle;

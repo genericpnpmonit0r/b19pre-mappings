@@ -1,0 +1,3 @@
+CLASS acp ComponentVillage
+	METHOD a spawnVillagers (Ltd;Lno;IIII)V
+	METHOD b getAverageGroundLevel (Ltd;Lno;)I

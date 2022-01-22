@@ -1,0 +1,90 @@
+CLASS yu Tessellator
+	FIELD A useVBO Z
+	FIELD B vertexBuffers Ljava/nio/IntBuffer;
+	FIELD C vboIndex I
+	FIELD D vboCount I
+	FIELD E bufferSize I
+	FIELD a instance Lyu;
+	FIELD b convertQuadsToTriangles Z
+	FIELD c tryVBO Z
+	FIELD d byteBuff Ljava/nio/ByteBuffer;
+	FIELD e intBuff Ljava/nio/IntBuffer;
+	FIELD f floatBuff Ljava/nio/FloatBuffer;
+	FIELD g shortBuff Ljava/nio/ShortBuffer;
+	FIELD h rawBuffer [I
+	FIELD i vertexCount I
+	FIELD j textureU D
+	FIELD k textureV D
+	FIELD l brightness I
+	FIELD m color I
+	FIELD n hasColor Z
+	FIELD o hasTexture Z
+	FIELD p hasBrightness Z
+	FIELD q hasNormals Z
+	FIELD r rawBufferIndex I
+	FIELD s addedVertices I
+	FIELD t isColorDisabled Z
+	FIELD u drawMode I
+	FIELD v xOffset D
+	FIELD w yOffset D
+	FIELD x zOffset D
+	FIELD y normal I
+	FIELD z isDrawing Z
+	METHOD <init> (I)V
+		ARG 1 buffSize
+	METHOD a draw ()V
+	METHOD a setTextureUV (DD)V
+		ARG 1 texU
+		ARG 3 texV
+	METHOD a addVertex (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a addVertexWithUV (DDDDD)V
+		ARG 1 vertexX
+		ARG 3 vertexY
+		ARG 5 vertexZ
+		ARG 7 textureU
+		ARG 9 textureV
+	METHOD a setColorOpaque_F (FFF)V
+		ARG 1 red
+		ARG 2 green
+		ARG 3 blue
+	METHOD a setColorRGBA_F (FFFF)V
+		ARG 1 red
+		ARG 2 green
+		ARG 3 blue
+		ARG 4 alpha
+	METHOD a startDrawing (I)V
+		ARG 1 drawmode
+	METHOD a setColorOpaqueRGBA_I (II)V
+		ARG 1 red
+		ARG 2 alpha
+	METHOD a setColorOpaque (III)V
+		ARG 1 red
+		ARG 2 green
+		ARG 3 blue
+	METHOD a setColorRGBA (IIII)V
+		ARG 1 red
+		ARG 2 green
+		ARG 3 blue
+		ARG 4 alpha
+	METHOD b startDrawingQuads ()V
+	METHOD b setTranslationD (DDD)V
+		ARG 1 xoffset
+		ARG 3 yoffset
+		ARG 5 zoffset
+	METHOD b setNormal (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b setBrightness (I)V
+		ARG 1 brightness
+	METHOD c disableColor ()V
+	METHOD c setTranslationF (FFF)V
+		ARG 1 xoffset
+		ARG 2 yoffset
+		ARG 3 zoffset
+	METHOD c setColorOpaque_I (I)V
+		ARG 1 colorInt
+	METHOD d reset ()V

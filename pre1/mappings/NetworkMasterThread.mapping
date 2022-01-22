@@ -1,0 +1,5 @@
+CLASS om NetworkMasterThread
+	FIELD a netmgr Lji;
+	METHOD <init> (Lji;)V
+		ARG 1 netMgr
+	METHOD run ()V

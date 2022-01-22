@@ -1,0 +1,4 @@
+CLASS xc WorldGenPlant2
+	FIELD a plant I
+	METHOD <init> (I)V
+		ARG 1 plantid

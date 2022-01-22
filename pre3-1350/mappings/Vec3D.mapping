@@ -1,0 +1,3 @@
+CLASS bb Vec3D
+	METHOD a clearVectorList ()V
+	METHOD b initialize ()V

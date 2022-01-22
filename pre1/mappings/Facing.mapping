@@ -1,0 +1,4 @@
+CLASS ny Facing
+	FIELD b offsetsXforSide [I
+	FIELD c offsetsYforSide [I
+	FIELD d offsetsZforSide [I

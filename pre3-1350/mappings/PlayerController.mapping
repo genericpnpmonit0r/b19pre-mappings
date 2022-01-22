@@ -1,0 +1,13 @@
+CLASS iz PlayerController
+	METHOD a resetBlockRemoving ()V
+	METHOD a setPartialTime (F)V
+	METHOD a sideHitorSomething (IIII)V
+	METHOD a interactWithEntity (Lvj;Llu;)V
+	METHOD a pain5 (Lvj;Luc;Lwy;)Z
+	METHOD a clickBlock (Lvj;Luc;Lwy;IIII)Z
+	METHOD b attackEntity (Lvj;Llu;)V
+	METHOD c updateControllder ()V
+	METHOD c sendBlockRemoving (IIII)V
+	METHOD e the_e_meme ()Z
+	METHOD g renameLater1 ()Z
+	METHOD h pain3 ()Z

@@ -1,0 +1,15 @@
+CLASS afb PotionEffect
+	FIELD a potionID I
+	FIELD b duration I
+	FIELD c amplifier I
+	METHOD <init> (III)V
+		ARG 1 id
+		ARG 2 duration
+		ARG 3 amplifier
+	METHOD a getPotionId ()I
+	METHOD a combine (Lafb;)V
+	METHOD a onUpdate (Lxq;)Z
+	METHOD b getPotionDuration ()I
+	METHOD b performEffect (Lxq;)V
+	METHOD c getPotionAmplifier ()I
+	METHOD d deincrementDuration ()I

@@ -1,0 +1,3 @@
+CLASS cg EffectRenderer
+	METHOD a addBlockHitEffects (IIII)V
+	METHOD b getStats ()Ljava/lang/String;

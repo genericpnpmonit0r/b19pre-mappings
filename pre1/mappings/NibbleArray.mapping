@@ -1,0 +1,7 @@
+CLASS nx NibbleArray
+	FIELD a data [B
+	FIELD b chunkSizeYShift I
+	FIELD c chunkSizeYZShift I
+	METHOD a isValid ()Z
+	METHOD a getNibble (III)I
+	METHOD a setNibble (IIII)V

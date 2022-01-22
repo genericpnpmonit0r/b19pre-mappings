@@ -1,0 +1,4 @@
+CLASS vf ColorizerGrass
+	FIELD a grassBuffer [I
+	METHOD a getGrassColor (DD)I
+	METHOD a setGrassBiomeColorizer ([I)V

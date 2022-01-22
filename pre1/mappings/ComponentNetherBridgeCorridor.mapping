@@ -1,0 +1,2 @@
+CLASS gz ComponentNetherBridgeCorridor
+	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lgz;

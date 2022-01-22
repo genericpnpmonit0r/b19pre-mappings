@@ -1,0 +1,2 @@
+CLASS cr TileEntityRecordPlayer
+	FIELD a record I

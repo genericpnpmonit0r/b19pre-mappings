@@ -1,0 +1,2 @@
+CLASS gl ChunkProviderLoadOrGenerate
+	METHOD d setCurrentChunkOver (II)V

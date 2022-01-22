@@ -1,0 +1,2 @@
+CLASS gy EntityLargeExplodeFX
+	FIELD az renderEngTexture Lwd;

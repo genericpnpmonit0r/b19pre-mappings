@@ -1,0 +1,16 @@
+CLASS eo SaveConverterMcRegion
+	METHOD a conversionSort (Ljava/io/File;Ljava/util/ArrayList;IILoz;)V
+		ARG 1 file3
+		ARG 2 arrList
+		ARG 3 i1
+		ARG 4 i2
+		ARG 5 progressUpdate
+	METHOD a filePatternCheck (Ljava/io/File;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
+		ARG 1 file2
+		ARG 2 arrList1
+		ARG 3 arrList2
+	METHOD a deleteOldFiles (Ljava/util/ArrayList;IILoz;)V
+		ARG 1 arrList
+		ARG 2 i1
+		ARG 3 i2
+		ARG 4 progressUpdate

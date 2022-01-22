@@ -1,0 +1,2 @@
+CLASS we ColorizerWater
+	METHOD a getWaterBiomeColorizer ([I)V

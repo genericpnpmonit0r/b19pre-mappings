@@ -1,0 +1,47 @@
+CLASS sw AxisAlignedBB
+	FIELD a minX D
+	FIELD b minY D
+	FIELD c minZ D
+	FIELD d maxX D
+	FIELD e maxY D
+	FIELD f maxZ D
+	FIELD g boundingBoxes Ljava/util/List;
+	FIELD h numBoundingBoxesInUse I
+	METHOD <init> (DDDDDD)V
+		ARG 1 d1
+		ARG 3 d2
+		ARG 5 d3
+		ARG 7 d4
+		ARG 9 d5
+		ARG 11 d6
+	METHOD a clearBoundingBoxes ()V
+	METHOD a addCoord (DDD)Lsw;
+	METHOD a getBoundingBox (DDDDDD)Lsw;
+		ARG 0 d1
+		ARG 2 d2
+		ARG 4 d3
+		ARG 6 d4
+		ARG 8 d5
+		ARG 10 d6
+	METHOD a isVecInside (Lba;)Z
+	METHOD a calculateIntercept (Lba;Lba;)Lmv;
+	METHOD a intersectsWith (Lsw;)Z
+	METHOD a calculateXOffset (Lsw;D)D
+	METHOD b clearBoundingBoxPool ()V
+	METHOD b expand (DDD)Lsw;
+		ARG 1 d1
+		ARG 3 d2
+		ARG 5 d3
+	METHOD b getBoundingBoxFromPool (DDDDDD)Lsw;
+	METHOD b isVecInYZ (Lba;)Z
+	METHOD b setBB (Lsw;)V
+	METHOD b calculateYOffset (Lsw;D)D
+	METHOD c getAverageEdgeLength ()D
+	METHOD c getOffsetBoundingBox (DDD)Lsw;
+	METHOD c setBounds (DDDDDD)Lsw;
+	METHOD c isVecInXZ (Lba;)Z
+	METHOD c calculateZOffset (Lsw;D)D
+	METHOD d copy ()Lsw;
+	METHOD d offset (DDD)Lsw;
+	METHOD d isVecInXY (Lba;)Z
+	METHOD e contract (DDD)Lsw;

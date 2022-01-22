@@ -1,0 +1,2 @@
+CLASS dv IThreadedFileIO
+	METHOD v_ thrFileIo ()Z

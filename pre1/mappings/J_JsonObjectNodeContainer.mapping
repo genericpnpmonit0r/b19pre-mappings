@@ -1,0 +1,6 @@
+CLASS ye J_JsonObjectNodeContainer
+	FIELD a noodBuilder Llm;
+	FIELD b adaptor Lxr;
+	METHOD <init> (Lxr;Llm;)V
+		ARG 1 jsonlistenertojdomadapter
+		ARG 2 jsonobjectnodebuilder

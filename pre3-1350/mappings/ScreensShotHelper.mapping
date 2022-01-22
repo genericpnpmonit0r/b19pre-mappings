@@ -1,0 +1,2 @@
+CLASS vt ScreensShotHelper
+	METHOD a saveScreenshot (Ljava/io/File;II)Ljava/lang/String;

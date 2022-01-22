@@ -1,0 +1,3 @@
+CLASS qu ModelEnderman
+	FIELD a isCarrying Z
+	FIELD b isAttacking Z

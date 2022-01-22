@@ -1,0 +1,13 @@
+CLASS ah NoiseGeneratorPerlin
+	FIELD a xcoord D
+	FIELD b ycoord D
+	FIELD c zcoord D
+	FIELD d permutations [I
+	METHOD <init> (Ljava/util/Random;)V
+		ARG 1 rand
+	METHOD a doSomethingPermutations (DDD)D
+		ARG 1 xc
+		ARG 3 yc
+		ARG 5 zc
+	METHOD a grad (IDDD)D
+	METHOD b lerp (DDD)D

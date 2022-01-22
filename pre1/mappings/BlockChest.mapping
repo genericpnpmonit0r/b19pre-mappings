@@ -1,0 +1,6 @@
+CLASS pm BlockChest
+	FIELD a rand Ljava/util/Random;
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD h unifyAdjacentChests (Ltd;III)V
+	METHOD i isThereANeighborChest (Ltd;III)Z

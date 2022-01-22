@@ -1,0 +1,10 @@
+CLASS vf Item
+	FIELD bA itemEnderEye Lvf;
+	FIELD bP bfull3d Z
+	FIELD d itemRand Ljava/util/Random;
+	FIELD e itemsList [Lvf;
+	METHOD a isFull3D ()Z
+	METHOD a setIconCoord (II)Lvf;
+	METHOD a setItemName (Ljava/lang/String;)Lvf;
+	METHOD a onItemUse (Lwy;Lvj;Luc;IIII)Z
+	METHOD h setFull3d ()Lvf;

@@ -1,0 +1,4 @@
+CLASS afe BlockDispenser
+	FIELD a rand Ljava/util/Random;
+	METHOD c dispenseItem (Ltd;IIILjava/util/Random;)V
+	METHOD h setDispenserDefaultLocation (Ltd;III)V

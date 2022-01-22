@@ -1,0 +1,3 @@
+CLASS rj GuiErrorClassic
+	FIELD a errorMessage1 Ljava/lang/String;
+	FIELD b errorMessage2 Ljava/lang/String;

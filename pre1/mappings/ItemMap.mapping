@@ -1,0 +1,8 @@
+CLASS og ItemMap
+	METHOD a updateMapData (Ltd;Lle;Lvs;)V
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 mapdata
+	METHOD a getMapData (Lvw;Ltd;)Lvs;
+		ARG 1 itemstack
+		ARG 2 world

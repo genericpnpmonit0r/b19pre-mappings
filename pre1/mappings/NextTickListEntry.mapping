@@ -1,0 +1,19 @@
+CLASS kh NextTickListEntry
+	FIELD a xcoord I
+	FIELD b ycoord I
+	FIELD c zcoord I
+	FIELD d blockid I
+	FIELD e scheduledtime J
+	FIELD f nextTickEntryId J
+	FIELD g tickentryid J
+	METHOD <init> (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockId
+	METHOD a setScheduledTime (J)Lkh;
+		ARG 1 scheduledTime
+	METHOD compareTo (Ljava/lang/Object;)I
+		ARG 1 nextticklistentry
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 object

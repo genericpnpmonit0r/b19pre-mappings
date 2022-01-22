@@ -1,0 +1,3 @@
+CLASS aex RecipesTools1
+	FIELD a pattern [[Ljava/lang/String;
+	FIELD b recipeItems [[Ljava/lang/Object;

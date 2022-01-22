@@ -1,0 +1,67 @@
+CLASS wt BiomeGenBase
+	FIELD A whitecolor I
+	FIELD B biomedecorator Lty;
+	FIELD C spawnableMonsterList Ljava/util/List;
+	FIELD D spawnableCreatureList Ljava/util/List;
+	FIELD E spawnableWaterCreatureList Ljava/util/List;
+	FIELD F biomeId I
+	FIELD G worldgentrees Lpe;
+	FIELD H worldgenbigtree Lvk;
+	FIELD I worldgenforest Lh;
+	FIELD J worldgenswamp Lau;
+	FIELD K enableSnow Z
+	FIELD L enableRain Z
+	FIELD a biomeList [Lwt;
+	FIELD b ocean Lwt;
+	FIELD c plains Lwt;
+	FIELD d desert Lwt;
+	FIELD e hills Lwt;
+	FIELD f forest Lwt;
+	FIELD g taiga Lwt;
+	FIELD h swampland Lwt;
+	FIELD i river Lwt;
+	FIELD j hell Lwt;
+	FIELD k sky Lwt;
+	FIELD l frozenOcean Lwt;
+	FIELD m frozenRiver Lwt;
+	FIELD n icePlains Lwt;
+	FIELD o iceMountains Lwt;
+	FIELD p mushroomIsland Lwt;
+	FIELD q mushroomIslandShore Lwt;
+	FIELD r biomeName Ljava/lang/String;
+	FIELD s color I
+	FIELD t topBlock B
+	FIELD u fillerBlock B
+	FIELD v undefineddefaultcolor I
+	FIELD w minHeight F
+	FIELD x maxHeight F
+	FIELD y temperature F
+	FIELD z rainfall F
+	METHOD a createBiomeDecorator ()Lty;
+	METHOD a getSkyColorByTemp (F)I
+		ARG 1 temp
+	METHOD a setTemperatureRainfall (FF)Lwt;
+		ARG 1 temp
+		ARG 2 rainFall
+	METHOD a doUselessShit (I)Lwt;
+		ARG 1 iiiiiiiiii
+	METHOD a getBiomeGrassColor (Lafd;III)I
+	METHOD a setBiomeName (Ljava/lang/String;)Lwt;
+		ARG 1 name
+	METHOD a getRandomWorldGenForTrees (Ljava/util/Random;)Ljj;
+		ARG 1 rnd
+	METHOD a decorate (Ltd;Ljava/util/Random;II)V
+	METHOD a getSpawnableList (Lxj;)Ljava/util/List;
+		ARG 1 enumcreaturetype
+	METHOD b getEnableSnow ()Z
+	METHOD b setMinMaxHeight (FF)Lwt;
+		ARG 1 minheight
+		ARG 2 maxheight
+	METHOD b setColor (I)Lwt;
+		ARG 1 color
+	METHOD b getBiomeLeavesColor (Lafd;III)I
+	METHOD c canSpawnLightningBolt ()Z
+	METHOD d getSpawningChance ()F
+	METHOD e getRainfallToInt ()I
+	METHOD f getTemperatureToInt ()I
+	METHOD g setDisableRain ()Lwt;

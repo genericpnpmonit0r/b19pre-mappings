@@ -1,0 +1,15 @@
+CLASS adw StatBase
+	FIELD a type Lnz;
+	FIELD b numFormat Ljava/text/NumberFormat;
+	FIELD c decFormat Ljava/text/DecimalFormat;
+	FIELD e statId I
+	FIELD f statName Ljava/lang/String;
+	FIELD g isIndependent Z
+	FIELD h statGuid Ljava/lang/String;
+	FIELD i simpleStatType Lnz;
+	FIELD j timeStatType Lnz;
+	FIELD k distanceStatType Lnz;
+	METHOD a registerStat ()Ladw;
+	METHOD a getStringToIntOrSomething (I)Ljava/lang/String;
+	METHOD e isAchievement ()Z
+	METHOD h initIndependentStat ()Ladw;

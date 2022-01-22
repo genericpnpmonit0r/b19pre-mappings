@@ -1,0 +1,5 @@
+CLASS sh IRecipe
+	METHOD a getRecipeSize ()I
+	METHOD a matches (Lya;)Z
+	METHOD b getRecipeOutput ()Lvw;
+	METHOD b getCraftingResult (Lya;)Lvw;

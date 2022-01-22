@@ -1,0 +1,6 @@
+CLASS qg WorldGenBlockWithMetadata
+	FIELD a block I
+	FIELD b meta I
+	METHOD <init> (II)V
+		ARG 1 block
+		ARG 2 meta

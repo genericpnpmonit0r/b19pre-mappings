@@ -1,0 +1,3 @@
+CLASS aes EntityHugeExplodeFX
+	FIELD a timeSinceStart I
+	FIELD ay maximumTime I

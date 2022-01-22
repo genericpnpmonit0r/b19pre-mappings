@@ -1,0 +1,11 @@
+CLASS ew StructurePieceTreasure
+	FIELD a treasure1 I
+	FIELD b treasure2 I
+	FIELD c treasure3 I
+	FIELD e treasure4 I
+	METHOD <init> (IIIII)V
+		ARG 1 t1
+		ARG 2 t2
+		ARG 3 t3
+		ARG 4 t4
+		ARG 5 something

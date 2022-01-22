@@ -1,0 +1,2 @@
+CLASS hw ComponentNetherBridgeCorridor4
+	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lhw;

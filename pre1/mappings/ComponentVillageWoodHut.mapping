@@ -1,0 +1,5 @@
+CLASS afy ComponentVillageWoodHut
+	FIELD a averageGroundLevel I
+	FIELD b isTallHouse Z
+	FIELD c tablePosition I
+	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIIII)Lafy;

@@ -1,0 +1,45 @@
+CLASS afd IBlockAccess
+	METHOD a getWorldChunkManager ()Lov;
+	METHOD a getBlockId (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a getBrightness (IIII)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 light
+	METHOD b getblockPosChunkstuff ()I
+	METHOD b getBlockTileEntity (III)Ljb;
+		ARG 1 xpos
+		ARG 2 ypos
+		ARG 3 zpos
+	METHOD b getLightBrightnessForSkyBlocks (IIII)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 light
+	METHOD c getLightBrightness (III)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD e getBlockMetadata (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD f getBlockMaterial (III)Lxn;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD g isBlockOpaqueCube (III)Z
+		ARG 1 xpos
+		ARG 2 ypos
+		ARG 3 zpos
+	METHOD h isBlockNormalCube (III)Z
+		ARG 1 xpos
+		ARG 2 ypos
+		ARG 3 zpos
+	METHOD i isAirBlock (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

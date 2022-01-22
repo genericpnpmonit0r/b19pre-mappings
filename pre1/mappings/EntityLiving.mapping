@@ -1,0 +1,35 @@
+CLASS xq EntityLiving
+	FIELD bF attackTime I
+	FIELD bJ experienceValue I
+	FIELD bn texture Ljava/lang/String;
+	FIELD bp rotation1 F
+	FIELD bq entityType Ljava/lang/String;
+	FIELD bz health I
+	FIELD ca entityAge I
+	FIELD cb movementinputstrafe F
+	FIELD cc movementInputforward F
+	FIELD ce movementInputjump Z
+	FIELD cg moveSpeed F
+	METHOD S getHeldItem ()Lvw;
+	METHOD a getRandomSomething (Lui;)I
+		ARG 1 eplayer
+	METHOD a dropFewItems (Z)V
+		ARG 1 bool1
+	METHOD a_ canDespawn ()Z
+	METHOD a_ moveEntityWithHeading (FF)V
+		ARG 1 heading1
+		ARG 2 heading2
+	METHOD an isPlayerSleeping ()Z
+	METHOD ar jump ()V
+	METHOD ax spawnExplosionParticle ()V
+	METHOD c onLivingUpdate ()V
+	METHOD d getLivingSound ()Ljava/lang/String;
+	METHOD e getHurtSound ()Ljava/lang/String;
+	METHOD f getDeathSound ()Ljava/lang/String;
+	METHOD g getDropItemId ()I
+	METHOD h canSpawnHere ()Z
+	METHOD i getTalkInterval ()I
+	METHOD i canEntityBeSeen (Lle;)Z
+	METHOD l_ moveEntityWithInput ()V
+	METHOD o_ canBreatheUnderwater ()Z
+	METHOD q_ getSoundVolume ()F

@@ -1,0 +1,4 @@
+CLASS eq CraftingManager
+	METHOD a getInstance ()Leq;
+	METHOD a addRecipe (Lvw;[Ljava/lang/Object;)V
+	METHOD b getRecipeList ()Ljava/util/List;

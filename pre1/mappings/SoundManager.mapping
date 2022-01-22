@@ -1,0 +1,36 @@
+CLASS pg SoundManager
+	FIELD a sndSystem Lpaulscode/sound/SoundSystem;
+	FIELD b soundPoolSounds Luy;
+	FIELD c soundPoolStreaming Luy;
+	FIELD d soundPoolMusic Luy;
+	FIELD e latestSoundId I
+	FIELD f options Lgj;
+	FIELD g loaded Z
+	FIELD h rand Ljava/util/Random;
+	FIELD i ticksBeforeMusic I
+	METHOD a onSoundOptionsChanged ()V
+	METHOD a loadSoundSettings (Lgj;)V
+		ARG 1 gamesettings
+	METHOD a playSoundFX (Ljava/lang/String;FF)V
+		ARG 1 soundname1
+		ARG 2 vol
+		ARG 3 vol2
+	METHOD a playStreaming (Ljava/lang/String;FFFFF)V
+		ARG 1 soundnames
+	METHOD a addSound (Ljava/lang/String;Ljava/io/File;)V
+		ARG 1 sndName
+		ARG 2 sndFile
+	METHOD a livingEntitySounds (Lxq;F)V
+		ARG 1 entityliving
+		ARG 2 sndAmount
+	METHOD b closeMinecraft ()V
+	METHOD b playSound (Ljava/lang/String;FFFFF)V
+		ARG 1 soundname
+	METHOD b addStreaming (Ljava/lang/String;Ljava/io/File;)V
+		ARG 1 sndName
+		ARG 2 sndFile
+	METHOD c playRandomMusicIfReady ()V
+	METHOD c addMusic (Ljava/lang/String;Ljava/io/File;)V
+		ARG 1 sndName
+		ARG 2 sndFile
+	METHOD d tryToSetLibraryAndCodecs ()V

@@ -1,0 +1,43 @@
+CLASS vw ItemStack
+	FIELD a stackSize I
+	FIELD b animationsToGo I
+	FIELD c itemID I
+	FIELD d itemDamage I
+	METHOD <init> (Lmn;II)V
+		ARG 1 block
+		ARG 2 i1
+		ARG 3 i2
+	METHOD <init> (Lue;)V
+		ARG 1 item
+	METHOD a getItem ()Lue;
+	METHOD a useItem (I)Lvw;
+	METHOD a damageItem (ILle;)V
+		ARG 1 amount
+		ARG 2 targetEntity
+	METHOD a getStrVsBlock (Lmn;)F
+	METHOD a useItemRightClick (Ltd;Lui;)Lvw;
+	METHOD a useItem (Lui;Ltd;IIII)Z
+	METHOD a isItemEqual (Lvw;)Z
+	METHOD a loadItemStackFromNBT (Lyr;)Lvw;
+		ARG 0 nbttagcompound
+	METHOD b getIconindex ()I
+	METHOD b setItemDamage (I)V
+		ARG 1 dmg
+	METHOD b onFoodEaten (Ltd;Lui;)Lvw;
+	METHOD b copyItemStack (Lvw;)Lvw;
+	METHOD b writeToNBT (Lyr;)Lyr;
+		ARG 1 nbttagcompound
+	METHOD c getMaxStackSize ()I
+	METHOD c onCrafting (Ltd;Lui;)V
+	METHOD c readFromNBT (Lyr;)V
+		ARG 1 nbttagcompound
+	METHOD d isStackable ()Z
+	METHOD e isItemStackDamageable ()Z
+	METHOD f getHasSubtypes ()Z
+	METHOD g isItemDamaged ()Z
+	METHOD h getItmDamage ()I
+	METHOD i getItemDamage ()I
+	METHOD j getMaxDamage ()I
+	METHOD k copy ()Lvw;
+	METHOD m getMaxItemUseDuration ()I
+	METHOD n getItemUseAction ()Lvy;

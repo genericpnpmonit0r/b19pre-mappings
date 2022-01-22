@@ -1,0 +1,7 @@
+CLASS we GuiRenameWorld
+	FIELD a guiscreen Lrx;
+	FIELD b guitextfield Labh;
+	FIELD c worldName Ljava/lang/String;
+	METHOD <init> (Lrx;Ljava/lang/String;)V
+		ARG 1 screen
+		ARG 2 worldname

@@ -1,0 +1,7 @@
+CLASS lu WorldBlockPositionType
+	FIELD a posx I
+	FIELD b posy I
+	FIELD c posz I
+	FIELD d acceptsCountdown I
+	FIELD e blockid I
+	FIELD f metadata I

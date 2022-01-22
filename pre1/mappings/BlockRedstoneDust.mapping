@@ -1,0 +1,8 @@
+CLASS abu BlockRedstoneDust
+	FIELD a wiresProvidePower Z
+	FIELD b blocksNeedingUpdate Ljava/util/Set;
+	METHOD a calculateCurrentChanges (Ltd;IIIIII)V
+	METHOD e isPowerProviderOrWire (Lafd;IIII)Z
+	METHOD f getMaxCurrentStrength (Ltd;IIII)I
+	METHOD h updateAndPropagateCurrentStrength (Ltd;III)V
+	METHOD i notifyWireNeighborsOfNeighborChange (Ltd;III)V

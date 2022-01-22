@@ -1,0 +1,19 @@
+CLASS ak CompressedStreamTools
+	METHOD a readFromDataInputStream (Ljava/io/DataInput;)Lyr;
+		ARG 0 dataInput
+	METHOD a read (Ljava/io/File;)Lyr;
+		ARG 0 file
+	METHOD a loadGzippedCompoundFromOutputStream (Ljava/io/InputStream;)Lyr;
+		ARG 0 inputStream
+	METHOD a writeTo (Lyr;Ljava/io/DataOutput;)V
+		ARG 0 compoundTag
+		ARG 1 dataOutput
+	METHOD a safeWrite (Lyr;Ljava/io/File;)V
+		ARG 0 compoundtag
+		ARG 1 file
+	METHOD a writeGzippedCompoundToOutputStream (Lyr;Ljava/io/OutputStream;)V
+		ARG 0 compoundtag
+		ARG 1 outputStream
+	METHOD b writeToDataOutputStreamWithFile (Lyr;Ljava/io/File;)V
+		ARG 0 compoundtag
+		ARG 1 file

@@ -1,0 +1,9 @@
+CLASS ql TextureFX
+	FIELD f imageData [B
+	FIELD g unknown4 I
+	FIELD h anaglyphEnabled Z
+	FIELD j unused I
+	FIELD k unknown3 I
+	METHOD <init> (I)V
+		ARG 1 texturepos
+	METHOD a onTick ()V

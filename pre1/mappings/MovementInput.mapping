@@ -1,0 +1,8 @@
+CLASS mk MovementInput
+	FIELD a moveStrafe F
+	FIELD b moveForward F
+	FIELD c fiedl Z
+	FIELD d jump Z
+	FIELD e sneak Z
+	METHOD a updateplayerMoveState (Lui;)V
+		ARG 1 entityplayer

@@ -1,0 +1,17 @@
+CLASS ha IInventory
+	METHOD a getSizeInventory ()I
+	METHOD a decrStackSize (II)Lvw;
+		ARG 1 id
+		ARG 2 stacksizetodecrement
+	METHOD a setInventorySlotContents (ILvw;)V
+		ARG 1 id
+		ARG 2 itemstack
+	METHOD a canInteractWith (Lui;)Z
+		ARG 1 player
+	METHOD c getInvName ()Ljava/lang/String;
+	METHOD d getInventoryStackLimit ()I
+	METHOD e openChest ()V
+	METHOD e_ getStackInSlot (I)Lvw;
+		ARG 1 id
+	METHOD f closeChest ()V
+	METHOD l onInventoryChanged ()V

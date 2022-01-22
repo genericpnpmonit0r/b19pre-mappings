@@ -1,0 +1,2 @@
+CLASS re EntitySnowball
+	METHOD a setThrowableHeading (DDDFF)V

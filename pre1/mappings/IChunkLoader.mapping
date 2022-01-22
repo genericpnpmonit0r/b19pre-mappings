@@ -1,0 +1,13 @@
+CLASS qq IChunkLoader
+	METHOD a thisDoesNothing ()V
+	METHOD a loadChunk (Ltd;II)Lxl;
+		ARG 1 worl
+		ARG 2 chunkpos1
+		ARG 3 chunkpos2
+	METHOD a saveChunk (Ltd;Lxl;)V
+		ARG 1 world
+		ARG 2 chunk
+	METHOD b saveExtraData ()V
+	METHOD b saveExtraChunkData (Ltd;Lxl;)V
+		ARG 1 world
+		ARG 2 chunk

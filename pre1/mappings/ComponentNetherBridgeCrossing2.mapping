@@ -1,0 +1,2 @@
+CLASS afm ComponentNetherBridgeCrossing2
+	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lafm;

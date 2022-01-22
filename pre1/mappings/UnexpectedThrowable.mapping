@@ -1,0 +1,6 @@
+CLASS hi UnexpectedThrowable
+	FIELD a str Ljava/lang/String;
+	FIELD b thrw Ljava/lang/Throwable;
+	METHOD <init> (Ljava/lang/String;Ljava/lang/Throwable;)V
+		ARG 1 throwablestring
+		ARG 2 throwable

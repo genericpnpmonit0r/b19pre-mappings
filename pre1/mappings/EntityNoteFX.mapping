@@ -1,0 +1,2 @@
+CLASS w EntityNoteFX
+	FIELD a noteParticleScale F

@@ -1,0 +1,3 @@
+CLASS ru RenderBlocks
+	FIELD a fancyGrass Z
+	METHOD a renderBlockUsingTexture (Lmn;IIII)V

@@ -1,0 +1,108 @@
+CLASS fw StructureComponent
+	FIELD g boundingBox Lno;
+	FIELD h coordBaseMode I
+	FIELD i componentType I
+	METHOD <init> (I)V
+		ARG 1 compType
+	METHOD a getXWithOffset (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD a buildComponent (Lfw;Ljava/util/List;Ljava/util/Random;)V
+		ARG 1 structurecomponent
+		ARG 2 componentlist
+		ARG 3 rand
+	METHOD a getcomponentsFromLst (Ljava/util/List;Lno;)Lfw;
+		ARG 0 componentlist
+		ARG 1 structureboundingbox
+	METHOD a fillTreasureChestWithLoot (Ljava/util/Random;[Lew;Lfu;I)V
+	METHOD a placeBlockAtCurrentPosition (Ltd;IIIIILno;)V
+		ARG 1 world
+		ARG 2 i
+		ARG 3 j
+		ARG 4 k
+		ARG 5 l
+		ARG 6 m
+		ARG 7 boundingbox
+	METHOD a getBlocksIdAtStructureBoundingBoxPos (Ltd;IIILno;)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 structureboundingbox
+	METHOD a addComponentParts (Ltd;Ljava/util/Random;Lno;)Z
+		ARG 1 world
+		ARG 2 rand
+		ARG 3 structureboundingbox
+	METHOD a isLiquidInStructureBoundingBox (Ltd;Lno;)Z
+		ARG 1 world
+		ARG 2 structureboundingbox
+	METHOD a fillWithBlocks (Ltd;Lno;IIIIIIIIZ)V
+		ARG 1 world
+		ARG 2 structureBoundingBox
+		ARG 3 i
+		ARG 4 j
+		ARG 5 k
+		ARG 6 l
+		ARG 7 m
+		ARG 8 o
+		ARG 9 p
+		ARG 10 q
+		ARG 11 r
+	METHOD a randomlyRareFillWithBlocks (Ltd;Lno;IIIIIIIZ)V
+		ARG 1 world
+		ARG 2 structureboundingbox
+		ARG 3 i
+		ARG 4 j
+		ARG 5 k
+		ARG 6 l
+		ARG 7 m
+		ARG 8 o
+		ARG 9 p
+		ARG 10 q
+	METHOD a fillWithRandomizedBlocks (Ltd;Lno;IIIIIIZLjava/util/Random;Lrf;)V
+		ARG 1 world
+		ARG 2 structureboundingbox
+		ARG 3 i
+		ARG 4 j
+		ARG 5 k
+		ARG 6 l
+		ARG 7 m
+		ARG 8 n
+		ARG 9 o
+		ARG 10 rand
+		ARG 11 structurepieceblockselector
+	METHOD a randomlyPlaceBlock (Ltd;Lno;Ljava/util/Random;FIIIII)V
+		ARG 1 world
+	METHOD a randomlyFillWithBlocks (Ltd;Lno;Ljava/util/Random;FIIIIIIIIZ)V
+		ARG 1 world
+		ARG 2 structureboundingbox
+		ARG 3 rand
+		ARG 4 f
+		ARG 5 i
+		ARG 6 j
+		ARG 7 k
+		ARG 8 l
+		ARG 9 m
+		ARG 10 o
+		ARG 11 p
+		ARG 12 q
+		ARG 13 r
+	METHOD a placeDoorAtCurrentPosition (Ltd;Lno;Ljava/util/Random;IIII)V
+	METHOD a createTreasureChestAtCurrentPosition (Ltd;Lno;Ljava/util/Random;III[Lew;I)V
+	METHOD b getBoundingBox ()Lno;
+	METHOD b getYWithOffset (I)I
+		ARG 1 offset
+	METHOD b getZWitOffset (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD b fillCurrentPositionBlocksDownwards (Ltd;IIIIILno;)V
+	METHOD b clearCurrentPositionBlocksUpwards (Ltd;IIILno;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 structureboundingbox
+	METHOD c getComponentType ()I
+	METHOD c getBaseBlocks (II)I
+		ARG 1 id
+		ARG 2 meta

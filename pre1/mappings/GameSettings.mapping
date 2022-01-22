@@ -1,0 +1,19 @@
+CLASS gj GameSettings
+	FIELD B difficulty I
+	FIELD C hideGUI Z
+	FIELD D thirdPersonView Z
+	FIELD E showDebugInfo Z
+	FIELD G mouseThingy Z
+	FIELD J ihaveNoIdeaOnceAgain F
+	FIELD N guiScale I
+	FIELD a musicVolume F
+	FIELD b soundVolume F
+	FIELD e renderDistance I
+	FIELD g anaglyph Z
+	FIELD h advancedOpenGL Z
+	FIELD j fancyGraphics Z
+	FIELD k ambientOcclusion Z
+	METHOD a setOptionfloatvalue (Lva;F)V
+	METHOD a setOptionValue (Lva;I)V
+	METHOD b saveOptions ()V
+	METHOD c getKeybinding (Lva;)Ljava/lang/String;

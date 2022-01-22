@@ -1,0 +1,3 @@
+CLASS agr IBlockAccess
+	METHOD a getBlockId (III)I
+	METHOD e getBlockMetadata (III)I

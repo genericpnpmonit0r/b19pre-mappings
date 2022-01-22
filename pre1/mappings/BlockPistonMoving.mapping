@@ -1,0 +1,2 @@
+CLASS mm BlockPistonMoving
+	METHOD a painpack (Ltd;IIIIFI)Lsw;

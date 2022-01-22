@@ -1,0 +1,3 @@
+CLASS xh J_PositionTrackingPushbackReader
+	FIELD b col I
+	FIELD c row I

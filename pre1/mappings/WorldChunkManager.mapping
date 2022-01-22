@@ -1,0 +1,80 @@
+CLASS ov WorldChunkManager
+	FIELD a biomegenbasearray [Lwt;
+	FIELD b rainfallarray [F
+	FIELD c genlayer1 Lsq;
+	FIELD d genlayer2 Lsq;
+	FIELD e temperatureLayer Lsq;
+	FIELD f rainfallLayer Lsq;
+	FIELD g biomecache Lmx;
+	FIELD h biomesToSpawnIn Ljava/util/List;
+	METHOD <init> (Ltd;)V
+		ARG 1 world
+	METHOD a getBiomesToSpawnIn ()Ljava/util/List;
+	METHOD a the_letter_a (FI)F
+		ARG 1 float0
+		ARG 2 i
+	METHOD a getBiomeGenAt (II)Lwt;
+		ARG 1 x
+		ARG 2 z
+	METHOD a biomeValueThing (III)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a help_i_am_going_insane (IIII)[Lwt;
+		ARG 1 i
+		ARG 2 j
+		ARG 3 k
+		ARG 4 l
+	METHOD a areBiomesViable (IIILjava/util/List;)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 biomesviableList
+	METHOD a findBiomePosition (IIILjava/util/List;Ljava/util/Random;)Lnu;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 biomelistidk
+		ARG 5 rand
+	METHOD a getBiomeGenAtChunkCoord (Lpk;)Lwt;
+		ARG 1 chunkcoordintpair
+	METHOD a ea_sports_its_in_the_game ([FIIII)[F
+		ARG 1 i
+		ARG 2 j
+		ARG 3 k
+		ARG 4 l
+		ARG 5 m
+	METHOD a coca_cola_espuma ([Lwt;IIII)[Lwt;
+		ARG 1 i
+		ARG 2 j
+		ARG 3 k
+		ARG 4 l
+		ARG 5 m
+	METHOD a i_dont_know_anymore ([Lwt;IIIIZ)[Lwt;
+		ARG 1 array0
+		ARG 2 i
+		ARG 3 j
+		ARG 4 k
+		ARG 5 l
+		ARG 6 m
+	METHOD b bbbbbbbbbb ()V
+	METHOD b somethingBiomeGenRelated (II)F
+		ARG 1 x
+		ARG 2 z
+	METHOD b bee (IIII)[F
+		ARG 1 i
+		ARG 2 j
+		ARG 3 k
+		ARG 4 l
+	METHOD b why_does_minecraft_use_floats ([FIIII)[F
+		ARG 1 array0
+		ARG 2 i
+		ARG 3 j
+		ARG 4 k
+		ARG 5 i6
+	METHOD b bee2 ([Lwt;IIII)[Lwt;
+		ARG 1 trasharray
+		ARG 2 garbage
+		ARG 3 i
+		ARG 4 j
+		ARG 5 k

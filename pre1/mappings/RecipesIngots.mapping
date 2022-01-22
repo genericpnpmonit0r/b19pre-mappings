@@ -1,0 +1,4 @@
+CLASS ack RecipesIngots
+	FIELD a recipeItems [[Ljava/lang/Object;
+	METHOD a addRecipes (Leq;)V
+		ARG 1 craftingmanager

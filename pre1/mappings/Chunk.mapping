@@ -1,0 +1,63 @@
+CLASS xl Chunk
+	FIELD a isLit Z
+	FIELD b blocks [B
+	FIELD c precipitationHeightMap [I
+	FIELD d updateSkylightColumns [Z
+	FIELD e isChunkLoaded Z
+	FIELD f worldObj Ltd;
+	FIELD g data Lnx;
+	FIELD h skyLightMap Lnx;
+	FIELD i blockLightMap Lnx;
+	FIELD j heightMap [B
+	FIELD k lowestBlockHeight I
+	FIELD l xPosition I
+	FIELD m zPosition I
+	FIELD n chunkTileEntityMap Ljava/util/Map;
+	FIELD o entities [Ljava/util/List;
+	FIELD p isTerrainPopulated Z
+	FIELD q isModified Z
+	FIELD r neverSave Z
+	FIELD s hasEntities Z
+	FIELD t lastSaveTime J
+	METHOD a isAtLocation (II)Z
+	METHOD a getBlockId (III)I
+	METHOD a setBlockIDWithMetadata (IIII)Z
+	METHOD a setBlockID (IIIII)Z
+	METHOD a checkChunkBlockTileEntity (IIILjb;)V
+	METHOD a getRandomWithSeed (J)Ljava/util/Random;
+		ARG 1 seed
+	METHOD a getEntitiesOfTypeWithinAAAB (Ljava/lang/Class;Lsw;Ljava/util/List;)V
+		ARG 1 ass
+		ARG 2 aabb
+		ARG 3 lst
+	METHOD a addTileEntity (Ljb;)V
+	METHOD a addEntity (Lle;)V
+	METHOD a removeEntityAtIndex (Lle;I)V
+	METHOD a getEntitiesWithinAABBForEntity (Lle;Lsw;Ljava/util/List;)V
+	METHOD a getSavedLightValue (Lsm;III)I
+	METHOD a setLightValue (Lsm;IIII)V
+	METHOD a needsSaving (Z)Z
+		ARG 1 bool1
+	METHOD a setChunkData ([BIIIIIII)I
+	METHOD b generateHeightMap ()V
+	METHOD b getHeightValue (II)I
+	METHOD b getBlockMetadata (III)I
+	METHOD b setBlockMetadata (IIII)V
+	METHOD b removeEntity (Lle;)V
+	METHOD c generateSkylightMap ()V
+	METHOD c unnamedIdk (II)I
+	METHOD c canBlockSeeTheSky (III)Z
+	METHOD c getBlockLightValue (IIII)I
+	METHOD d propagateSkylightOcclusion (II)V
+	METHOD d getChunkBlockTileEntity (III)Ljb;
+	METHOD d updateSkylightNeighborHeight (IIII)V
+	METHOD e onChunkLoad ()V
+	METHOD e removeChunkBlockTileEntity (III)V
+	METHOD f onChunkUnload ()V
+	METHOD f checkSkylightNeighborHeight (III)V
+	METHOD g setChunkModified ()V
+	METHOD g relightBlock (III)V
+	METHOD h getFalse ()Z
+	METHOD i unknownMethod0 ()V
+	METHOD j unknownj ()V
+	METHOD k pain0 ()Lpk;

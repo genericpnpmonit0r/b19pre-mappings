@@ -1,0 +1,7 @@
+CLASS p ClippingHelperImpl
+	FIELD e instance Lp;
+	FIELD f projMatrixBuf Ljava/nio/FloatBuffer;
+	FIELD g modelViewMatrixBuf Ljava/nio/FloatBuffer;
+	FIELD h otherFloatBuf Ljava/nio/FloatBuffer;
+	METHOD a getInstance ()Lsf;
+	METHOD b init ()V

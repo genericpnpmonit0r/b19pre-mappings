@@ -1,0 +1,6 @@
+CLASS cf EffectRenderer
+	METHOD a updateEffects ()V
+	METHOD a addBlockHitEffects (IIII)V
+	METHOD a addEffect (Low;)V
+	METHOD a clearEffects (Ltd;)V
+	METHOD b getStatistics ()Ljava/lang/String;

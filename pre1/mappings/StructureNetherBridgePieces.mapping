@@ -1,0 +1,12 @@
+CLASS hd StructureNetherBridgePieces
+	FIELD a primaryComponents [Labv;
+	FIELD b secondaryComponents [Labv;
+	METHOD b createNextComponentRandom (Labv;Ljava/util/List;Ljava/util/Random;IIIII)Lwa;
+		ARG 0 structurenetherbridgepieceweight
+		ARG 1 piecesList
+		ARG 2 rand
+		ARG 3 startx
+		ARG 4 startz
+		ARG 5 endx
+		ARG 6 endz
+		ARG 7 thing

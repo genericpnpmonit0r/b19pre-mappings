@@ -1,0 +1,6 @@
+CLASS du WorldGenPlaceOnGrass
+	FIELD a aaa2 I
+	FIELD b aaaa I
+	METHOD <init> (II)V
+		ARG 1 pos1
+		ARG 2 pos2

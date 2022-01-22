@@ -1,0 +1,8 @@
+CLASS adv SlotFurnace
+	FIELD e player Lui;
+	METHOD <init> (Lui;Lha;III)V
+		ARG 1 entityplayer
+		ARG 2 iinventory
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z

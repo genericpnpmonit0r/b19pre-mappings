@@ -1,0 +1,9 @@
+CLASS av SpawnListEntry
+	FIELD a entityclass Ljava/lang/Class;
+	FIELD b unknown2 I
+	FIELD c unknown1 I
+	METHOD <init> (Ljava/lang/Class;III)V
+		ARG 1 entitiesclass
+		ARG 2 a
+		ARG 3 b
+		ARG 4 c

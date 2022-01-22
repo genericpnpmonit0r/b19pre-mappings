@@ -1,0 +1,3 @@
+CLASS afm MouseHelper
+	METHOD a grabMouseCursor ()V
+	METHOD b ungrabMouseCursor ()V

@@ -1,0 +1,11 @@
+CLASS aev ThreadConnectToServer
+	FIELD a mc Lnet/minecraft/client/Minecraft;
+	FIELD b hostname Ljava/lang/String;
+	FIELD c port I
+	FIELD d connectingGui Lady;
+	METHOD <init> (Lady;Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 1 connGui
+		ARG 2 mcVar
+		ARG 3 hname
+		ARG 4 netPort
+	METHOD run ()V

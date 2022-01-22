@@ -1,0 +1,2 @@
+CLASS aab
+	METHOD a setStatStringFormatter (Lvi;)Laab;

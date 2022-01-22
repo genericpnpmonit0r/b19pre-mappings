@@ -1,0 +1,7 @@
+CLASS nm MovingObjectPosition
+	FIELD a typeOfHit Lxe;
+	FIELD b blockx I
+	FIELD c blocky I
+	FIELD d blockz I
+	FIELD e sideHit I
+	FIELD g entityHit Llu;

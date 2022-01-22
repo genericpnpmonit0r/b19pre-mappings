@@ -1,0 +1,19 @@
+CLASS fc NBTBase
+	FIELD a key Ljava/lang/String;
+	METHOD a getType ()B
+	METHOD a createTagOfType (B)Lfc;
+		ARG 0 tagOfType
+	METHOD a writeTag (Lfc;Ljava/io/DataOutput;)V
+		ARG 0 nbtbase
+		ARG 1 dataoutput
+	METHOD a readTagContents (Ljava/io/DataInput;)V
+		ARG 1 datainput
+	METHOD a writeTagContents (Ljava/io/DataOutput;)V
+		ARG 1 dataoutput
+	METHOD a setKey (Ljava/lang/String;)Lfc;
+		ARG 1 strKey
+	METHOD b getKey ()Ljava/lang/String;
+	METHOD b getTagName (B)Ljava/lang/String;
+		ARG 0 tagName
+	METHOD b readTag (Ljava/io/DataInput;)Lfc;
+		ARG 0 datainput

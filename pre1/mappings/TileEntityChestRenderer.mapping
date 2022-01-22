@@ -1,0 +1,3 @@
+CLASS ads TileEntityChestRenderer
+	FIELD b regularChestModel Labo;
+	FIELD c largeChestModel Labo;

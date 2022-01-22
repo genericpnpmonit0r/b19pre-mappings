@@ -1,0 +1,5 @@
+CLASS on ThreadCloseConnection
+	FIELD a netmgr Lji;
+	METHOD <init> (Lji;)V
+		ARG 1 networkmanager
+	METHOD run ()V

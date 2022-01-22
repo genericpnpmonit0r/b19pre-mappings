@@ -1,0 +1,2 @@
+CLASS act BlockContainer
+	METHOD p_ getBlockEntity ()Ljm;

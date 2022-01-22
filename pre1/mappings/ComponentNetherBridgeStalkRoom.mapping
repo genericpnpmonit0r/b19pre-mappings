@@ -1,0 +1,2 @@
+CLASS sy ComponentNetherBridgeStalkRoom
+	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lsy;

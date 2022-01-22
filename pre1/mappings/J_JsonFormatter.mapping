@@ -1,0 +1,3 @@
+CLASS hk J_JsonFormatter
+	METHOD a format (Ljv;)Ljava/lang/String;
+		ARG 1 jsonrootnode

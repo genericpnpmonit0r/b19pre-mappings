@@ -1,0 +1,19 @@
+CLASS fj StructureMineshaftPieces
+	FIELD a lootArray [Lew;
+	METHOD a getRandomComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lfw;
+		ARG 0 componentlist
+		ARG 1 rand
+		ARG 2 i
+		ARG 3 j
+		ARG 4 k
+		ARG 5 l
+		ARG 6 m
+	METHOD b getNextComponent (Lfw;Ljava/util/List;Ljava/util/Random;IIIII)Lfw;
+		ARG 0 structurecomponent
+		ARG 1 componentlist
+		ARG 2 rand
+		ARG 3 i
+		ARG 4 j
+		ARG 5 k
+		ARG 6 l
+		ARG 7 m

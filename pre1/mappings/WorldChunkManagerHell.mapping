@@ -1,0 +1,8 @@
+CLASS em WorldChunkManagerHell
+	FIELD c biomegenbase Lwt;
+	FIELD d helltemperature F
+	FIELD e field_EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE F
+	METHOD <init> (Lwt;FF)V
+		ARG 1 i_am_going_insane_1
+		ARG 2 f
+		ARG 3 f2

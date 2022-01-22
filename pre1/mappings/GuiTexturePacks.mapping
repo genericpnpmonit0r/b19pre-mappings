@@ -1,0 +1,4 @@
+CLASS do GuiTexturePacks
+	FIELD a guiScreen Lrx;
+	FIELD b refreshTimer I
+	FIELD c fileLocation Ljava/lang/String;

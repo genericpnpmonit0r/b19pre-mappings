@@ -1,0 +1,64 @@
+CLASS ui EntityPlayer
+	FIELD aA cameraYaw F
+	FIELD aB isSwinging Z
+	FIELD aC swingingProgressInt I
+	FIELD aD username Ljava/lang/String;
+	FIELD aE dimension I
+	FIELD aF playerCloakUrl Ljava/lang/String;
+	FIELD aG xpCooldown I
+	FIELD a sleepTimer I
+	FIELD aN sleeping Z
+	FIELD aO bedCunkCoordinates Lqx;
+	FIELD aS timeUntilPortal I
+	FIELD aT inPortal Z
+	FIELD aW capabilities Loa;
+	FIELD as inventory Lvt;
+	FIELD at inventorySlots Lcm;
+	FIELD au craftingInventory Lcm;
+	FIELD av foodstats Lkx;
+	FIELD aw flyToggleTimer I
+	FIELD ax unusedByte B
+	FIELD ay score I
+	FIELD az prevCameraYaw F
+	FIELD b playerSpawnCoordinate Lqx;
+	FIELD ba speedOnGround F
+	FIELD bb speedInAir F
+	FIELD bc fishingrodBobberEntity Lxt;
+	FIELD c startMinecartRidingCoordinate Lqx;
+	FIELD d itemInUse Lvw;
+	FIELD e itemInUseCount I
+	METHOD W getItemInUse ()Lvw;
+	METHOD X getItemInUseCount ()I
+	METHOD Y isUsingItem ()Z
+	METHOD a displayCraftingGui (III)V
+	METHOD a triggerAchivement (Ladw;)V
+		ARG 1 statbase
+	METHOD a addStat (Ladw;I)V
+		ARG 1 statbase
+		ARG 2 statId
+	METHOD a displayDispenserGui (Laq;)V
+	METHOD a displayGuiChest (Lha;)V
+	METHOD a getCurrentPlayerStrVsBLock (Lmn;)F
+	METHOD a setPlayerSpawnCoordinate (Lqx;)V
+		ARG 1 chunkcoords
+	METHOD a verifyRespawnCoordinates (Ltd;Lqx;)Lqx;
+	METHOD a wakeUpPlayer (ZZZ)V
+	METHOD af score ()I
+	METHOD al swingItem ()V
+	METHOD ao isPlayerFullyAsleep ()Z
+	METHOD ap getSleepTimer ()I
+	METHOD aq getPlayerSpawnCoordinate ()Lqx;
+	METHOD at getFoodStats ()Lkx;
+	METHOD b addChatMessage (Ljava/lang/String;)V
+		ARG 1 chatmessage
+	METHOD b canHarvestBlock (Lmn;)Z
+	METHOD b canEat (Z)Z
+	METHOD d addExhaustion (F)V
+		ARG 1 exh
+	METHOD e eeeeeeeeeeeeeeee (I)V
+	METHOD e somethingsomething35190e (III)Z
+	METHOD j addMountedMovementStat (DDD)V
+		ARG 1 motx
+		ARG 3 moty
+		ARG 5 motz
+	METHOD q anotherCaseOfFuncJadnumbershit ()V

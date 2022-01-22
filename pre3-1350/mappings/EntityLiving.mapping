@@ -1,0 +1,2 @@
+CLASS yv EntityLiving
+	METHOD aB getEntityHealth ()I

@@ -1,0 +1,38 @@
+CLASS no StructureBoundingBox
+	FIELD a minX I
+	FIELD b minY I
+	FIELD c minZ I
+	FIELD d maxX I
+	FIELD e maxY I
+	FIELD f maxZ I
+	METHOD <init> (IIII)V
+		ARG 1 minx
+		ARG 2 minz
+		ARG 3 maxx
+		ARG 4 maxz
+	METHOD <init> (IIIIII)V
+		ARG 1 mposx
+		ARG 2 mposy
+		ARG 3 mposz
+		ARG 4 maxposx
+		ARG 5 maxposy
+		ARG 6 maxposz
+	METHOD <init> (Lno;)V
+		ARG 1 structureboundingbox
+	METHOD a getNewBoundingBox ()Lno;
+	METHOD a offset (III)V
+		ARG 1 xoffset
+		ARG 2 yoffset
+		ARG 3 zoffset
+	METHOD a intersectsWith (IIII)Z
+	METHOD a getComponentsToAddBoundingBox (IIIIIIIIII)Lno;
+	METHOD a intersectsWith (Lno;)Z
+		ARG 1 boundingbox
+	METHOD b getXSize ()I
+	METHOD b isVecInside (III)Z
+		ARG 1 xpos
+		ARG 2 ypos
+		ARG 3 zpos
+	METHOD b expandTo (Lno;)V
+	METHOD c getYSize ()I
+	METHOD d getZSize ()I
