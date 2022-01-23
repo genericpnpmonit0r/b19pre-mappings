@@ -27,6 +27,8 @@ CLASS ui EntityPlayer
 	FIELD c startMinecartRidingCoordinate Lqx;
 	FIELD d itemInUse Lvw;
 	FIELD e itemInUseCount I
+	METHOD T closeScreen ()V
+	METHOD V respawnPlayer ()V
 	METHOD W getItemInUse ()Lvw;
 	METHOD X getItemInUseCount ()I
 	METHOD Y isUsingItem ()Z
@@ -38,6 +40,8 @@ CLASS ui EntityPlayer
 		ARG 1 statbase
 		ARG 2 statId
 	METHOD a displayDispenserGui (Laq;)V
+	METHOD a joinEntityItemWithWorld (Lep;)V
+		ARG 1 item
 	METHOD a displayGuiChest (Lha;)V
 	METHOD a getCurrentPlayerStrVsBLock (Lmn;)F
 	METHOD a setPlayerSpawnCoordinate (Lqx;)V
@@ -45,6 +49,7 @@ CLASS ui EntityPlayer
 	METHOD a verifyRespawnCoordinates (Ltd;Lqx;)Lqx;
 	METHOD a wakeUpPlayer (ZZZ)V
 	METHOD af score ()I
+	METHOD ag dropCurrentItem ()V
 	METHOD al swingItem ()V
 	METHOD ao isPlayerFullyAsleep ()Z
 	METHOD ap getSleepTimer ()I

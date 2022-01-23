@@ -1,9 +1,24 @@
 CLASS vj EntityCreature
+	FIELD a pathToEntity Lsb;
 	FIELD ar entityToAttack Lle;
+	FIELD as hasAttacked Z
 	FIELD at fleeingTick I
+	METHOD V isMovementCeased ()Z
 	METHOD a getBlockPathWeight (III)F
 		ARG 1 xpos
 		ARG 2 ypos
 		ARG 3 zpos
 	METHOD a attackEntity (Lle;F)V
+		ARG 1 target
+		ARG 2 damageAmount
+	METHOD a setPathToEntity (Lsb;)V
+		ARG 1 pathtoentity
+	METHOD ab updateWanderPath ()V
+	METHOD ad hasPath ()Z
+	METHOD af getEntityToAttack ()Lle;
+	METHOD b attackBlockedEntity (Lle;F)V
+		ARG 1 target
+		ARG 2 damageamount
+	METHOD h setTarget (Lle;)V
+		ARG 1 target
 	METHOD l findPlayerToAttack ()Lle;

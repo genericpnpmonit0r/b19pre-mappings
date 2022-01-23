@@ -1,0 +1,36 @@
+CLASS xt EntityFishingbobber
+	FIELD aA fishPitch D
+	FIELD aB velocX D
+	FIELD aC velocY D
+	FIELD aD velocZ D
+	FIELD a shake I
+	FIELD ap zTile I
+	FIELD aq inTile I
+	FIELD ar inGround Z
+	FIELD as ticksinground I
+	FIELD at ticksinair I
+	FIELD au tickscatchable I
+	FIELD av fishposrotationincrements I
+	FIELD aw fishX D
+	FIELD ax fishY D
+	FIELD ay fishZ D
+	FIELD az fishYaw D
+	FIELD b angler Lui;
+	FIELD c bobber Lle;
+	FIELD d xTile I
+	FIELD e yTile I
+	METHOD <init> (Ltd;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD <init> (Ltd;Lui;)V
+		ARG 1 world
+		ARG 2 player
+	METHOD a calculateVelocity (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 pitch
+		ARG 8 yaw
+	METHOD m catchFish ()I

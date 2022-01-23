@@ -1,1 +1,10 @@
 CLASS wm EntityFallingSand
+	FIELD a blockId I
+	FIELD b fallTime I
+	METHOD <init> (Ltd;DDDI)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 id
+	METHOD m getWorld ()Ltd;

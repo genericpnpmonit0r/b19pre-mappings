@@ -1,1 +1,14 @@
 CLASS qy EntityGhast
+	FIELD a coursechangeCooldown I
+	FIELD ap attackcounter I
+	FIELD aq targeted Lle;
+	FIELD ar aggrocooldown I
+	FIELD b waypointx D
+	FIELD c waypointy D
+	FIELD d waypointz D
+	FIELD e prevattackcounter I
+	METHOD a isCourseTraversable (DDDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 divider

@@ -1,1 +1,4 @@
 CLASS ud EntityFootstepFX
+	FIELD a ii1 I
+	FIELD ay ii2 I
+	FIELD az currentfootsteps Lwd;

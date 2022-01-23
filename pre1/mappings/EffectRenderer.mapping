@@ -1,6 +1,31 @@
 CLASS cf EffectRenderer
+	FIELD a worldObj Ltd;
+	FIELD b fxLayers [Ljava/util/List;
+	FIELD c renderer Lwd;
+	FIELD d rand Ljava/util/Random;
+	METHOD <init> (Ltd;Lwd;)V
+		ARG 1 world
+		ARG 2 rendererEngine
 	METHOD a updateEffects ()V
 	METHOD a addBlockHitEffects (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blockSide
+	METHOD a addBlockDestroyEffects (IIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 blocktype
+		ARG 5 particle
+	METHOD a renderParticles (Lle;F)V
+		ARG 1 entity
+		ARG 2 multiplier
 	METHOD a addEffect (Low;)V
+		ARG 1 entityfx
 	METHOD a clearEffects (Ltd;)V
+		ARG 1 world
 	METHOD b getStatistics ()Ljava/lang/String;
+	METHOD b renderParticles2 (Lle;F)V
+		ARG 1 entity
+		ARG 2 multiplier

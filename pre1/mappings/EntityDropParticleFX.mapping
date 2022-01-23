@@ -1,1 +1,9 @@
 CLASS ex EntityDropParticleFX
+	FIELD a materialInstance Lxn;
+	FIELD ay scaleint I
+	METHOD <init> (Ltd;DDDLxn;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 4 z
+		ARG 6 unknown
+		ARG 8 material

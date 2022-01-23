@@ -1,1 +1,18 @@
 CLASS dr EntityBoat
+	FIELD a wobbleX I
+	FIELD ap boatX D
+	FIELD aq boatZ D
+	FIELD ar boatYaw D
+	FIELD as boatPitch D
+	FIELD at velocityX D
+	FIELD au velocityY D
+	FIELD av velocityZ D
+	FIELD b wobbleY I
+	FIELD c wobbleZ I
+	FIELD d boatPosRotationIncrements I
+	FIELD e boatY D
+	METHOD <init> (Ltd;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

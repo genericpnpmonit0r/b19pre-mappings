@@ -1,1 +1,2 @@
 CLASS ws EntityHeartFX
+	FIELD a fx F

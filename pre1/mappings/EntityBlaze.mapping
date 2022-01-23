@@ -1,1 +1,7 @@
 CLASS yc EntityBlaze
+	FIELD a heightOffset F
+	FIELD b heightOffsetUpdateTime I
+	FIELD d attackTimeCounter I
+	METHOD T burning ()Z
+	METHOD b unknown0 (Z)V
+		ARG 1 datawatcherstuff

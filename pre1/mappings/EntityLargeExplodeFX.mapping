@@ -1,2 +1,5 @@
 CLASS gy EntityLargeExplodeFX
+	FIELD aA exploder3float F
+	FIELD a exploder1 I
+	FIELD ay exploder2 I
 	FIELD az renderEngTexture Lwd;

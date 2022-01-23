@@ -1,1 +1,2 @@
-CLASS adh EntityCloudFx
+CLASS adh EntityCloudFX
+	FIELD a scale F

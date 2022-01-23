@@ -1,2 +1,5 @@
 CLASS el EntityDamageSource
 	FIELD n damageSourceEntity Lle;
+	METHOD <init> (Ljava/lang/String;Lle;)V
+		ARG 1 damageSourceString
+		ARG 2 sourceEntity

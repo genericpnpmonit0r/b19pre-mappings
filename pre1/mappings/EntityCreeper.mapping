@@ -1,1 +1,9 @@
 CLASS tv EntityCreeper
+	FIELD a timeSinceIgnited I
+	FIELD b lastActiveTime I
+	METHOD T getPowered ()Z
+	METHOD X getCreeperState ()I
+	METHOD b setCreeperState (I)V
+		ARG 1 state
+	METHOD d setCreeperFlashTime (F)F
+		ARG 1 time

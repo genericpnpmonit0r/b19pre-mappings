@@ -1,1 +1,17 @@
 CLASS jy EntityDiggingFX
+	FIELD a blockInstance Lmn;
+	METHOD <init> (Ltd;DDDDDDLmn;II)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 motx
+		ARG 10 moty
+		ARG 12 motz
+		ARG 14 blockinstance
+		ARG 15 unused
+		ARG 16 metadata
+	METHOD a checkBlockGrass (III)Ljy;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

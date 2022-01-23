@@ -1,1 +1,3 @@
 CLASS oi EntityChicken
+	FIELD aq timeUntilNextEgg I
+	FIELD c destPos F

@@ -1,22 +1,50 @@
 CLASS xq EntityLiving
+	FIELD ap currentTarget Lle;
+	FIELD bB hurtTime I
+	FIELD bC maxHurtTime I
+	FIELD bD attackedAtYaw F
+	FIELD bE deathTime I
 	FIELD bF attackTime I
+	FIELD bG prevCameraPitch F
+	FIELD bH cameraPitch F
+	FIELD b livingSoundTime I
+	FIELD bI unused_flg Z
 	FIELD bJ experienceValue I
+	FIELD bL randomMovementFloat F
+	FIELD bR activePotionsMap Ljava/util/HashMap;
+	FIELD bS newPosRotationIncrements I
+	FIELD bT newPosX D
+	FIELD bU newPosY D
+	FIELD bV newPosZ D
+	FIELD bW newRotationYaw D
+	FIELD bX newRotationPitch D
+	FIELD bZ naturalArmorRating I
+	FIELD bd heartsHalvesLife I
 	FIELD bg renderYawOffset F
 	FIELD bh prevRenderYawOffset F
 	FIELD bn texture Ljava/lang/String;
 	FIELD bp rotation1 F
 	FIELD bq entityType Ljava/lang/String;
+	FIELD bs scoreValue I
 	FIELD bz health I
+	FIELD c playerentity Lui;
 	FIELD ca entityAge I
 	FIELD cb movementinputstrafe F
 	FIELD cc movementInputforward F
-	FIELD ce movementInputjump Z
+	FIELD cd randomYawVelocity F
+	FIELD ce isJumping Z
+	FIELD cf defaultPitch F
 	FIELD cg moveSpeed F
+	FIELD ch numTicksToChaseTarget I
+	METHOD R getMaxSpawnedInChunk ()I
 	METHOD S getHeldItem ()Lvw;
+	METHOD a addPotionEffect (Lafb;)V
+	METHOD a onDeath (Ljz;)V
+		ARG 1 dmgSrc
 	METHOD a getRandomSomething (Lui;)I
 		ARG 1 eplayer
 	METHOD a dropFewItems (Z)V
-		ARG 1 bool1
+		ARG 1 canDrop
 	METHOD a_ canDespawn ()Z
 	METHOD a_ moveEntityWithHeading (FF)V
 		ARG 1 heading1
@@ -24,14 +52,21 @@ CLASS xq EntityLiving
 	METHOD an isPlayerSleeping ()Z
 	METHOD ar jump ()V
 	METHOD ax spawnExplosionParticle ()V
+	METHOD b damageEntity (Ljz;I)V
+		ARG 1 dmgsrc
+		ARG 2 helth
 	METHOD c onLivingUpdate ()V
 	METHOD d getLivingSound ()Ljava/lang/String;
 	METHOD e getHurtSound ()Ljava/lang/String;
 	METHOD f getDeathSound ()Ljava/lang/String;
+	METHOD f heal (I)V
+		ARG 1 amount
 	METHOD g getDropItemId ()I
 	METHOD h canSpawnHere ()Z
 	METHOD i getTalkInterval ()I
 	METHOD i canEntityBeSeen (Lle;)Z
 	METHOD l_ moveEntityWithInput ()V
+	METHOD m microwave_oven ()Z
 	METHOD o_ canBreatheUnderwater ()Z
 	METHOD q_ getSoundVolume ()F
+	METHOD s_ getSpeedModifier ()F

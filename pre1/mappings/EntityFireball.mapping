@@ -1,1 +1,28 @@
 CLASS bd EntityFireball
+	FIELD a shootingEntity Lxq;
+	FIELD ap yTile I
+	FIELD aq zTile I
+	FIELD ar inTile I
+	FIELD as inGround Z
+	FIELD at ticksAlive I
+	FIELD au ticksInAir I
+	FIELD b accelerationX D
+	FIELD c accelerationY D
+	FIELD d accelerationZ D
+	FIELD e xTile I
+	METHOD <init> (Ltd;DDDDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 accX
+		ARG 10 accY
+		ARG 12 accZ
+	METHOD <init> (Ltd;Lxq;DDD)V
+		ARG 1 world
+		ARG 2 living
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+	METHOD a explodeOnContact (Lmv;)V
+		ARG 1 movingobjpos

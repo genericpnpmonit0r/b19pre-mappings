@@ -1,1 +1,2 @@
 CLASS di EntityLavaFX
+	FIELD a scale F

@@ -1,2 +1,6 @@
 CLASS es EntityDamageSourceIndirect
 	FIELD n damageSourceProjectile Lle;
+	METHOD <init> (Ljava/lang/String;Lle;Lle;)V
+		ARG 1 damageSourceString
+		ARG 2 sourceEntity
+		ARG 3 sourceProjectile

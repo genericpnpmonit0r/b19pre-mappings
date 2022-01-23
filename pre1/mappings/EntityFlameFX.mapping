@@ -1,1 +1,2 @@
 CLASS kf EntityFlameFX
+	FIELD a scale F

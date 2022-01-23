@@ -4,6 +4,7 @@ CLASS le Entity
 	FIELD C isCollided Z
 	FIELD D beenAttacked Z
 	FIELD E isInWeb Z
+	FIELD F unused Z
 	FIELD G isDead Z
 	FIELD H yOffset F
 	FIELD I width F
@@ -69,6 +70,9 @@ CLASS le Entity
 		ARG 1 world
 	METHOD A getEyeHeight ()F
 	METHOD B handleLavaMovement ()Z
+	METHOD C setBeenAttacked ()V
+	METHOD D getEntityTexture ()Ljava/lang/String;
+	METHOD E getEntityString ()Ljava/lang/String;
 	METHOD F isEntityAlive ()Z
 	METHOD G isEntityInsideOpaqueBlock ()Z
 	METHOD H updateRidden ()V
@@ -83,51 +87,157 @@ CLASS le Entity
 	METHOD Q isEating ()Z
 	METHOD a handleHealthUpdate (B)V
 		ARG 1 healthUpdateByte
+	METHOD a isInRangeToRenderDist (D)Z
+		ARG 1 distance
 	METHOD a setVelocity (DDD)V
+		ARG 1 motX
+		ARG 3 motY
+		ARG 5 motZ
 	METHOD a setPositionAndRotation2 (DDDFFI)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 rotYaw
+		ARG 8 rotPitch
+		ARG 9 unused
+	METHOD a movingUpOnGround (DZ)V
+		ARG 1 distance
+		ARG 3 hasFallen
 	METHOD a fall (F)V
 		ARG 1 fallDist
 	METHOD a setSize (FF)V
+		ARG 1 sizeWidth
+		ARG 2 sizeHeight
+	METHOD a moveFlying (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD a dealFireDamage (I)V
+		ARG 1 damage
+	METHOD a dropItemWithOffset (IIF)Lep;
+		ARG 1 id
+		ARG 2 count
+		ARG 3 offset
 	METHOD a setFlag (IZ)V
+		ARG 1 flagId
+		ARG 2 enabled
 	METHOD a isInRangeToRenderVec3D (Lba;)Z
+		ARG 1 vector
 	METHOD a onStruckByLightning (Lc;)V
+		ARG 1 entitylightningbolt
 	METHOD a attackEntityFrom (Ljz;I)Z
 		ARG 1 dmgSrc
 		ARG 2 damageAmount
 	METHOD a getCollisionBox (Lle;)Lsw;
+		ARG 1 entity
+	METHOD a addToPlayerScore (Lle;I)V
+		ARG 1 target
+		ARG 2 score
 	METHOD a setWorld (Ltd;)V
+		ARG 1 world
+	METHOD a entityDropItem (Lvw;F)Lep;
+		ARG 1 item
+		ARG 2 yOffset
+	METHOD a isInsideOfMaterial (Lxn;)Z
+		ARG 1 material
 	METHOD a KillEntity (Lxq;)V
 		ARG 1 entityliving
 	METHOD a readEntityFromNBT (Lyr;)V
 		ARG 1 nbttagcompound
+	METHOD a newDoubleNBTList ([D)Llf;
+		ARG 1 tags
+	METHOD a newFloatNBTList ([F)Llf;
+		ARG 1 tags
+	METHOD a_ onCollideWithPlayer (Lui;)V
+		ARG 1 player
 	METHOD b entityInit ()V
 	METHOD b moveEntity (DDD)V
 		ARG 1 xmovement
 		ARG 3 ymovement
 		ARG 5 zmovement
+	METHOD b setPositionAndRotation (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 rotYaw
+		ARG 8 rotPitch
 	METHOD b getEntityBrightness (F)F
+		ARG 1 brightness
 	METHOD b setRotation (FF)V
+		ARG 1 rotYaw
+		ARG 2 rotPitch
 	METHOD b dropItem (II)Lep;
+		ARG 1 id
+		ARG 2 count
 	METHOD b outfitWithItem (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD b interact (Lui;)Z
+		ARG 1 player
 	METHOD b writeEntityToNBT (Lyr;)V
 		ARG 1 nbttagcompound
+	METHOD b_ canBeCollidedWith ()Z
+	METHOD c addVelocity (DDD)V
+		ARG 1 motX
+		ARG 3 motY
+		ARG 5 motZ
 	METHOD c setLocationAndAngles (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 rotYaw
+		ARG 8 rotPitch
+	METHOD c getEntityBrightnessForRender (F)I
+		ARG 1 brightness
 	METHOD c setAngles (FF)V
+		ARG 1 angleStart
+		ARG 2 angleEnd
+	METHOD c addEntityId (Lyr;)Z
+		ARG 1 compoundtag
 	METHOD c setSprinting (Z)V
+		ARG 1 sprinting
+	METHOD c_ canBePushed ()Z
 	METHOD d setPosition (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD d getEntityFlag (I)Z
+		ARG 1 flagId
+	METHOD d getDistanceToEntity (Lle;)F
+		ARG 1 target
 	METHOD d writeToNBT (Lyr;)V
+		ARG 1 compoundtag
 	METHOD d setEating (Z)V
+		ARG 1 eating
 	METHOD d_ canTriggerWalking ()Z
 	METHOD e isOffsetPositionInLiquid (DDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD e getDistanceSqToEntity (Lle;)D
+		ARG 1 target
 	METHOD e readFromNBT (Lyr;)V
+		ARG 1 compoundtag
 	METHOD e_ getBoundingBox ()Lsw;
 	METHOD f getDistanceSq (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD f applyEntityCollision (Lle;)V
+		ARG 1 entity
 	METHOD f_ handleWaterMovement ()Z
+	METHOD g getDistance (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD g mountEntity (Lle;)V
+		ARG 1 mountTo
+	METHOD g_ getShadowSize ()F
 	METHOD h pushOutOfBlocks (DDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD h_ updateRiderPosition ()V
 	METHOD i_ getCollisionBorderSize ()F
 	METHOD j performHurtAnimation ()V
@@ -140,3 +250,6 @@ CLASS le Entity
 	METHOD v setOnFireFromLava ()V
 	METHOD w kill ()V
 	METHOD w_ onUpdate ()V
+	METHOD x getIsImmuneToFire ()Z
+	METHOD y getIsInWater ()Z
+	METHOD z getIsInWaterWater ()Z

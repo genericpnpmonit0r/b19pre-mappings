@@ -1,2 +1,13 @@
 CLASS ep EntityItem
+	FIELD a item Lvw;
+	FIELD ap health I
+	FIELD b age I
 	FIELD c delayBeforeCanPickup I
+	FIELD d randomBobUpDown F
+	FIELD e unused00 I
+	METHOD <init> (Ltd;DDDLvw;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 itemstack

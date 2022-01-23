@@ -1,2 +1,24 @@
 CLASS acg EntityClientPlayerMP
 	FIELD ci sendQueue Lyh;
+	FIELD cj inventoryUpdateTickCounter I
+	FIELD ck hasSetHealth Z
+	FIELD cl oldPosX D
+	FIELD cm unused2 D
+	FIELD cn oldPosY D
+	FIELD co oldPosZ D
+	FIELD cp oldRotationYaw F
+	FIELD cq oldRotationPitch F
+	FIELD cr unused02 Z
+	FIELD cs unused3 Z
+	FIELD ct wasSneaking Z
+	FIELD cu timeSinceMoved I
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ltd;Leb;Lyh;)V
+		ARG 1 minecraft
+		ARG 2 world
+		ARG 3 session
+		ARG 4 netclienthandler
+	METHOD aE shouldStopSneaking ()V
+	METHOD aF sendInventoryChanged ()V
+	METHOD b addStatRedundant (Ladw;I)V
+		ARG 1 statbase
+		ARG 2 statisticId

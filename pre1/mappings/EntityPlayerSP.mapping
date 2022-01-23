@@ -15,3 +15,7 @@ CLASS ry EntityPlayerSP
 		ARG 2 world
 		ARG 3 session
 		ARG 4 dim
+	METHOD a sendChatMessage (Ljava/lang/String;)V
+		ARG 1 textToSend
+	METHOD b setHealth (I)V
+		ARG 1 health

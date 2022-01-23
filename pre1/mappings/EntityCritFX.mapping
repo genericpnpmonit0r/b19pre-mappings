@@ -1,3 +1,12 @@
 CLASS pl EntityCritFX
 	FIELD a particleScale1 F
 	FIELD ay someBooleanValue Z
+	METHOD <init> (Ltd;DDDDDDF)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 motx
+		ARG 10 moty
+		ARG 12 motz
+		ARG 14 scale

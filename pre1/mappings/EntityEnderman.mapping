@@ -1,1 +1,20 @@
 CLASS hp EntityEnderman
+	FIELD a isAttacking Z
+	FIELD b canCarryBlocks [Z
+	FIELD d teleportDelay I
+	FIELD e counterForSomething I
+	METHOD a_ teleportTo (DDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD b getCarriedBlock (I)V
+		ARG 1 id
+	METHOD c teleportToEntity (Lle;)Z
+		ARG 1 targetEntity
+	METHOD c canAggroAtPlayer (Lui;)Z
+		ARG 1 player
+	METHOD c_ getCarryingData (I)V
+		ARG 1 id
+	METHOD o teleportRandomly ()Z
+	METHOD p getCarried ()I
+	METHOD q getCarryingData ()I
