@@ -1,1 +1,8 @@
 CLASS eh ComponentStronghold
+	METHOD a getRandomDoor (Ljava/util/Random;)Lkb;
+		ARG 1 rand
+	METHOD a canStrongholdGoDeeper (Lno;)Z
+	METHOD a getNextComponentNormal (Lq;Ljava/util/List;Ljava/util/Random;II)Lfw;
+	METHOD a placeDoor (Ltd;Ljava/util/Random;Lno;Lkb;III)V
+	METHOD b getNextComponentX (Lq;Ljava/util/List;Ljava/util/Random;II)Lfw;
+	METHOD c getNextComponentZ (Lq;Ljava/util/List;Ljava/util/Random;II)Lfw;

@@ -1,1 +1,23 @@
 CLASS iu ChunkProvider
+	FIELD a droppedChunksSet Ljava/util/Set;
+	FIELD b emptyChunk Lxl;
+	FIELD c chunkProvider Lbh;
+	FIELD d chunkLoader Lqq;
+	FIELD e chunkMap Ldp;
+	FIELD f chunkList Ljava/util/List;
+	FIELD g worldObj Ltd;
+	FIELD h unknown I
+	METHOD <init> (Ltd;Lqq;Lbh;)V
+		ARG 1 world
+		ARG 2 chunkloader
+		ARG 3 chunkprovider
+	METHOD a unloadAndSaveChunkData (Lxl;)V
+		ARG 1 chunk
+	METHOD b unloadAndSaveChunk (Lxl;)V
+		ARG 1 chunk
+	METHOD d dropChunk (II)V
+		ARG 1 x
+		ARG 2 z
+	METHOD e loadChunkFromFile (II)Lxl;
+		ARG 1 x
+		ARG 2 z

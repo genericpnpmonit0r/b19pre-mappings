@@ -1,1 +1,5 @@
 CLASS sp BlockWool
+	METHOD d getBlockFromDye (I)I
+		ARG 0 meta
+	METHOD f getDyeFromBlock (I)I
+		ARG 0 meta

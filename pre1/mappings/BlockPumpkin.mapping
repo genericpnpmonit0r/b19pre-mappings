@@ -1,1 +1,6 @@
 CLASS tb BlockPumpkin
+	FIELD a blockType Z
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 texture
+		ARG 3 islit

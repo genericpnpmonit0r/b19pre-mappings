@@ -1,3 +1,4 @@
 CLASS adp ChunkBlockMap
 	FIELD a chunkblockarray [B
 	METHOD a doSomethingWithByteArray ([B)V
+		ARG 0 chunkblockksarray

@@ -1,1 +1,6 @@
 CLASS afw BlockSlabSingle
+	FIELD a slabTypeNames [Ljava/lang/String;
+	FIELD b blockType Z
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 blocktype

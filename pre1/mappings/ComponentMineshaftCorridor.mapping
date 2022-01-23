@@ -1,1 +1,17 @@
 CLASS lp ComponentMineshaftCorridor
+	FIELD a hasRails Z
+	FIELD b hasSpiders Z
+	FIELD c spawnerPlaced Z
+	FIELD d sectionCount I
+	METHOD <init> (ILjava/util/Random;Lno;I)V
+		ARG 1 coordbase
+		ARG 2 rand
+		ARG 3 structureboundingbox
+		ARG 4 coordbasemode
+	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIII)Lno;
+		ARG 0 componentlist
+		ARG 1 rand
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 switchableThing

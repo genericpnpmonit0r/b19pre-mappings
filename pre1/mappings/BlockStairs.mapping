@@ -1,0 +1,5 @@
+CLASS li BlockStairs
+	FIELD a modelBlock Lmn;
+	METHOD <init> (ILmn;)V
+		ARG 1 id
+		ARG 2 blockTextureFrom

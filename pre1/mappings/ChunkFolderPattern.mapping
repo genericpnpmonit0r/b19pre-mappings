@@ -1,1 +1,4 @@
 CLASS bj ChunkFolderPattern
+	FIELD a folderRegexPattern Ljava/util/regex/Pattern;
+	METHOD accept (Ljava/io/File;)Z
+		ARG 1 file

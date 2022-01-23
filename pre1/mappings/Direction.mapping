@@ -1,0 +1,9 @@
+CLASS wc Direction
+	FIELD a intArray1 [I
+	FIELD b intArray2 [I
+	FIELD c headInvisibleFace [I
+	FIELD d intArray3 [I
+	FIELD e footInvisibleFaceRemap [I
+	FIELD f intArray4 [I
+	FIELD g intArray5 [I
+	FIELD h bedDirection [[I

@@ -1,1 +1,7 @@
 CLASS aau BlockSilverfish
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD d getPosingIdByMetadata (I)Z
+		ARG 0 meta
+	METHOD f getCobbleOrStoneBrickIds (I)I
+		ARG 0 id

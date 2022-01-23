@@ -1,2 +1,22 @@
 CLASS mm BlockPistonMoving
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getNewTileEntity (IIIZZ)Ljb;
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
+		ARG 3 extending
+		ARG 4 idk
 	METHOD a painpack (Ltd;IIIIFI)Lsw;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 id
+		ARG 6 offsetMultiplier
+		ARG 7 offsetArrayToSet
+	METHOD f getTileEntityAtLocation (Lafd;III)Lmg;
+		ARG 1 iblockaccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

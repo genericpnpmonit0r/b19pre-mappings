@@ -2,3 +2,17 @@ CLASS qx ChunkCoordinates
 	FIELD a posX I
 	FIELD b posY I
 	FIELD c posZ I
+	METHOD <init> (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD <init> (Lqx;)V
+		ARG 1 chunkcoords
+	METHOD a getSqDistanceTo (III)D
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD compareTo (Ljava/lang/Object;)I
+		ARG 1 chunkcoords
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 obj

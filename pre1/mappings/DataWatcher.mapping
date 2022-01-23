@@ -1,4 +1,21 @@
 CLASS acw DataWatcher
+	FIELD a dataTypes Ljava/util/HashMap;
+	FIELD b watchedObjects Ljava/util/Map;
+	FIELD c objectChanged Z
 	METHOD a getWatchableObjectByte (I)B
+		ARG 1 value
 	METHOD a addObject (ILjava/lang/Object;)V
+		ARG 1 idValue
+		ARG 2 dataTypeObject
+	METHOD a writeWatchableObjects (Ljava/io/DataOutputStream;)V
+		ARG 1 dataOutputStream
+	METHOD a writeObjectsInListToStream (Ljava/util/List;Ljava/io/DataOutputStream;)V
+		ARG 0 objectlist
+		ARG 1 dataOutputStream
+	METHOD b getWatchableObjectInt (I)I
+		ARG 1 value
 	METHOD b updateObject (ILjava/lang/Object;)V
+		ARG 1 idValue
+		ARG 2 dataTypeObject
+	METHOD c getWatchableObjectString (I)Ljava/lang/String;
+		ARG 1 value

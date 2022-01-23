@@ -1,1 +1,18 @@
 CLASS rw BlockRedstoneTorch
+	FIELD a torchActive Z
+	FIELD b torchUpdates Ljava/util/List;
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 texture
+		ARG 3 active
+	METHOD a checkForBurnout (Ltd;IIIZ)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 burn
+		ARG 5 burntout
+	METHOD h checkBlockIndirectlyProvidingPowerTo (Ltd;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

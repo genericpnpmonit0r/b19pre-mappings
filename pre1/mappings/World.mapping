@@ -24,7 +24,7 @@ CLASS td World
 	FIELD W positionsToUpdate Ljava/util/Set;
 	FIELD X soundCounter I
 	FIELD Y entitiesWithinAABBExcludingEntity Ljava/util/List;
-	FIELD a fielda I
+	FIELD a data I
 	FIELD b fieldb I
 	FIELD c blockPosChunkstuff I
 	FIELD d cavesoundint1 I

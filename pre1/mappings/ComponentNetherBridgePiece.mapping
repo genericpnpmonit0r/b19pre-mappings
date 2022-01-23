@@ -1,2 +1,9 @@
 CLASS wa ComponentNetherBridgePiece
+	METHOD a getNextComponent (Laap;Ljava/util/List;Ljava/util/List;Ljava/util/Random;IIIII)Lwa;
+	METHOD a getNextComponent (Laap;Ljava/util/List;Ljava/util/Random;IIIIIZ)Lfw;
+	METHOD a getNextComponentNormal (Laap;Ljava/util/List;Ljava/util/Random;IIZ)Lfw;
+	METHOD a getTotalWeight (Ljava/util/List;)I
+		ARG 1 componentlist
 	METHOD a findIntersecting (Lno;)Z
+	METHOD b getNextComponentX (Laap;Ljava/util/List;Ljava/util/Random;IIZ)Lfw;
+	METHOD c getNextComponentZ (Laap;Ljava/util/List;Ljava/util/Random;IIZ)Lfw;

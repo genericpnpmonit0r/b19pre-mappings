@@ -1,1 +1,5 @@
 CLASS abj ChunkFilePattern
+	FIELD a dataFilenamePattern Ljava/util/regex/Pattern;
+	METHOD accept (Ljava/io/File;Ljava/lang/String;)Z
+		ARG 1 file
+		ARG 2 pattern

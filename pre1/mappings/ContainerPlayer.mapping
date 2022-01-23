@@ -1,1 +1,9 @@
 CLASS s ContainerPlayer
+	FIELD a craftMatrix Lya;
+	FIELD b craftResult Lha;
+	FIELD c isLocalWorld Z
+	METHOD <init> (Lvt;)V
+		ARG 1 invplayer
+	METHOD <init> (Lvt;Z)V
+		ARG 1 invplayer
+		ARG 2 local

@@ -19,13 +19,31 @@ CLASS xl Chunk
 	FIELD r neverSave Z
 	FIELD s hasEntities Z
 	FIELD t lastSaveTime J
+	FIELD u unknown Z
+	METHOD <init> (Ltd;II)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 z
+	METHOD <init> (Ltd;[BII)V
+		ARG 1 world
+		ARG 2 blocksarray
+		ARG 3 x
+		ARG 4 z
+	METHOD a doesNothingForChunk ()V
 	METHOD a isAtLocation (II)Z
+		ARG 1 x
+		ARG 2 z
 	METHOD a getBlockId (III)I
 	METHOD a setBlockIDWithMetadata (IIII)Z
 	METHOD a setBlockID (IIIII)Z
 	METHOD a checkChunkBlockTileEntity (IIILjb;)V
 	METHOD a getRandomWithSeed (J)Ljava/util/Random;
 		ARG 1 seed
+	METHOD a populateChunk (Lbh;Lbh;II)V
+		ARG 1 ichunkprovider1
+		ARG 2 ichunkprovider2
+		ARG 3 x
+		ARG 4 z
 	METHOD a getEntitiesOfTypeWithinAAAB (Ljava/lang/Class;Lsw;Ljava/util/List;)V
 		ARG 1 ass
 		ARG 2 aabb
@@ -41,23 +59,37 @@ CLASS xl Chunk
 	METHOD a setChunkData ([BIIIIIII)I
 	METHOD b generateHeightMap ()V
 	METHOD b getHeightValue (II)I
+		ARG 1 x
+		ARG 2 z
 	METHOD b getBlockMetadata (III)I
 	METHOD b setBlockMetadata (IIII)V
 	METHOD b removeEntity (Lle;)V
 	METHOD c generateSkylightMap ()V
-	METHOD c unnamedIdk (II)I
+	METHOD c getPrecipitationHeightMapAtXZ (II)I
+		ARG 1 x
+		ARG 2 z
 	METHOD c canBlockSeeTheSky (III)Z
 	METHOD c getBlockLightValue (IIII)I
+	METHOD d emtpy ()V
 	METHOD d propagateSkylightOcclusion (II)V
+		ARG 1 x
+		ARG 2 z
 	METHOD d getChunkBlockTileEntity (III)Ljb;
 	METHOD d updateSkylightNeighborHeight (IIII)V
 	METHOD e onChunkLoad ()V
 	METHOD e removeChunkBlockTileEntity (III)V
 	METHOD f onChunkUnload ()V
 	METHOD f checkSkylightNeighborHeight (III)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 height
 	METHOD g setChunkModified ()V
 	METHOD g relightBlock (III)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 y
 	METHOD h getFalse ()Z
 	METHOD i unknownMethod0 ()V
 	METHOD j unknownj ()V
 	METHOD k pain0 ()Lpk;
+	METHOD l checkDoChunksNearChunkExist ()V

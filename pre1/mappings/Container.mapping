@@ -1,8 +1,47 @@
 CLASS cm Container
+	FIELD a transactionId S
+	FIELD b unknownset Ljava/util/Set;
+	FIELD d inventoryItemStacks Ljava/util/List;
 	FIELD e inventorySLots Ljava/util/List;
+	FIELD f windowId I
 	FIELD g crafters Ljava/util/List;
 	METHOD a updateCraftingResults ()V
 	METHOD a transferStackInSlot (I)Lvw;
+		ARG 1 slot
 	METHOD a updateProgressBar (II)V
+		ARG 1 i
+		ARG 2 j
+	METHOD a slotClick (IIZLui;)Lvw;
+		ARG 1 x
+		ARG 2 z
+		ARG 3 clicked
+		ARG 4 player
+	METHOD a putStackInSlot (ILvw;)V
+		ARG 1 slot
+		ARG 2 item
+	METHOD a onCraftMatrixChanged (Lha;)V
+		ARG 1 inventory
 	METHOD a addSlot (Lug;)V
+		ARG 1 slot
+	METHOD a onCraftGuiClosed (Lui;)V
+		ARG 1 player
+	METHOD a getNextTransactionID (Lvt;)S
+		ARG 1 invPlayer
+	METHOD a mergeItemStack (Lvw;IIZ)Z
+		ARG 1 item
+		ARG 2 i
+		ARG 3 j
+		ARG 4 b
+	METHOD a unused1 (S)V
+	METHOD a putStacksInSlots ([Lvw;)V
+		ARG 1 stacks
+	METHOD b getSlot (I)Lug;
+		ARG 1 slot
+	METHOD b retrySlotClick (IIZLui;)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 clicked
+		ARG 4 player
 	METHOD b canInteractWith (Lui;)Z
+		ARG 1 player
+	METHOD b unused2 (S)V

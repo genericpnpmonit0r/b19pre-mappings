@@ -2,3 +2,9 @@ CLASS nu ChunkPosition
 	FIELD a x I
 	FIELD b y I
 	FIELD c z I
+	METHOD <init> (III)V
+		ARG 1 chunkx
+		ARG 2 chunky
+		ARG 3 chunkz
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 obj

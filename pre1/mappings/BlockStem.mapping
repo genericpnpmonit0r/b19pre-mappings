@@ -1,1 +1,20 @@
 CLASS zb BlockStem
+	FIELD a stemType Lmn;
+	METHOD <init> (ILmn;)V
+		ARG 1 id
+		ARG 2 stemtype
+	METHOD f checkIsStemBlock (Lafd;III)I
+		ARG 1 iblockaccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i fertilize (Ltd;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD j canGrowOnFarmland (Ltd;III)F
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

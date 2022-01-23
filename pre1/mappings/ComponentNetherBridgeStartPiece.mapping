@@ -1,2 +1,5 @@
 CLASS aap ComponentNetherBridgeStartPiece
-	FIELD d arrList Ljava/util/ArrayList;
+	FIELD a randWeight Labv;
+	FIELD b componentslist1 Ljava/util/List;
+	FIELD c componentslist2 Ljava/util/List;
+	FIELD d componentsarraylist Ljava/util/ArrayList;

@@ -1,1 +1,4 @@
 CLASS m CanvasMinecraftApplet
+	FIELD a mcApplet Lnet/minecraft/client/MinecraftApplet;
+	METHOD <init> (Lnet/minecraft/client/MinecraftApplet;)V
+		ARG 1 minecraftapplet

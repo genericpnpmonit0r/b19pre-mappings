@@ -1,1 +1,12 @@
 CLASS sf ClippingHelper
+	FIELD a frustum [[F
+	FIELD b projectionMatrix [F
+	FIELD c modelviewMatrix [F
+	FIELD d clippingMatrix [F
+	METHOD a isBoxInFrustum (DDDDDD)Z
+		ARG 1 frustum1
+		ARG 3 frustum2
+		ARG 5 frustum3
+		ARG 7 frustum4
+		ARG 9 frustum5
+		ARG 11 frustum6

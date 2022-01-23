@@ -1,0 +1,40 @@
+CLASS afo ChunkProviderGenerate
+	FIELD a noiseGen5 Lmd;
+	FIELD b noiseGen6 Lmd;
+	FIELD c mobspawnernoise Lmd;
+	FIELD d strongholdGeneratore Ltl;
+	FIELD e villageGenerator Lag;
+	FIELD f mineshaftGenerator Lafi;
+	FIELD g noise3 [D
+	FIELD h noise1 [D
+	FIELD i noise2 [D
+	FIELD j noise5 [D
+	FIELD k noise6 [D
+	FIELD l field0 [F
+	FIELD m unusedArrayInt32x32 [[I
+	FIELD n rand Ljava/util/Random;
+	FIELD o noiseGen1 Lmd;
+	FIELD p noiseGen2 Lmd;
+	FIELD q noiseGen3 Lmd;
+	FIELD r noiseGen4 Lmd;
+	FIELD s worldObj Ltd;
+	FIELD t beans Z
+	FIELD u u_unknown [D
+	FIELD v stoneNoise [D
+	FIELD w caveGenerator Ltp;
+	FIELD x ravineGenerator Ltp;
+	FIELD y biomesForGeneration [Lwt;
+	METHOD <init> (Ltd;JZ)V
+		ARG 1 world
+		ARG 2 seed
+		ARG 4 generater
+	METHOD a generateTerrain (II[B)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 rray
+	METHOD a replaceBlocksForBiome (II[B[Lwt;)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 bytes
+		ARG 4 biomes
+	METHOD a initializeNoiseField ([DIIIIII)[D

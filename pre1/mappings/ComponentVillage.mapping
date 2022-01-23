@@ -1,3 +1,11 @@
 CLASS acp ComponentVillage
+	FIELD a villagersSpawned I
+	METHOD a getVillagerType (I)I
+		ARG 1 type
+	METHOD a getNextComponentNN (Lf;Ljava/util/List;Ljava/util/Random;II)Lfw;
+	METHOD a canVillageGoDeeper (Lno;)Z
 	METHOD a spawnVillagers (Ltd;Lno;IIII)V
+	METHOD b getNextComponentPP (Lf;Ljava/util/List;Ljava/util/Random;II)Lfw;
 	METHOD b getAverageGroundLevel (Ltd;Lno;)I
+		ARG 1 world
+		ARG 2 bb

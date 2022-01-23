@@ -1,0 +1,2 @@
+CLASS ul RecipesTools
+	METHOD a addRecipes (Leq;)V

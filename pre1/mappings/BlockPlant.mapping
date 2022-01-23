@@ -4,3 +4,8 @@ CLASS nq BlockPlant
 		ARG 2 texture
 	METHOD b_ canThisPlantGrowOnThisBlockId (I)Z
 		ARG 1 id
+	METHOD h checkFlowerChange (Ltd;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

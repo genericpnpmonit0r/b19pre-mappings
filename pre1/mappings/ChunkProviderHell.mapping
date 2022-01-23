@@ -1,1 +1,40 @@
 CLASS aar ChunkProviderHell
+	FIELD a noiseOctaves1_p Lmd;
+	FIELD b noiseOctaves2_p Lmd;
+	FIELD c netherBridgeGen Lxa;
+	FIELD d doubleArray1 [D
+	FIELD e doubleArray2 [D
+	FIELD f doubleArray3 [D
+	FIELD g doubleArray4 [D
+	FIELD h doubleArray5 [D
+	FIELD i rand Ljava/util/Random;
+	FIELD j noiseoctaves1 Lmd;
+	FIELD k noiseoctaves2 Lmd;
+	FIELD l noiseoctaves3 Lmd;
+	FIELD m noiseoctaves4 Lmd;
+	FIELD n noiseoctaves5 Lmd;
+	FIELD o worldObj Ltd;
+	FIELD p doubleArray1p [D
+	FIELD q doubleArray2p [D
+	FIELD r doubleArray3p [D
+	FIELD s doubleArray4p [D
+	FIELD t netherCaveGen Ltp;
+	METHOD <init> (Ltd;J)V
+		ARG 1 world
+		ARG 2 seed
+	METHOD a generateNetherTerrain (II[B)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 bytearray
+	METHOD a generateNoise ([DIIIIII)[D
+		ARG 1 doublearray
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 x2
+		ARG 6 y2
+		ARG 7 z2
+	METHOD b generateNetherTerrain2 (II[B)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 bytearray

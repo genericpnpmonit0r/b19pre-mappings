@@ -1,0 +1,2 @@
+CLASS nf RailLogic
+	METHOD a refreshTrackShape (ZZ)V

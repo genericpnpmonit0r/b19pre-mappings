@@ -1,0 +1,4 @@
+CLASS xv WatchableObject
+	METHOD a setObject (Ljava/lang/Object;)V
+	METHOD a setWatching (Z)V
+	METHOD b intValue ()Ljava/lang/Object;

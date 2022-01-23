@@ -2,6 +2,9 @@ CLASS fp ColorizerFoliage
 	FIELD a foliageBuffer [I
 	METHOD a getFoliageColorPine ()I
 	METHOD a getFoliageColor (DD)I
+		ARG 0 color1
+		ARG 2 color2
 	METHOD a getFoliageBiomeColorizer ([I)V
+		ARG 0 foliagecolorarray
 	METHOD b getFoliageColorBirch ()I
 	METHOD c getFoliageColorBasic ()I

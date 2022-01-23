@@ -1,2 +1,6 @@
 CLASS jx ComponentNetherBridgeCrossing3
+	METHOD <init> (Ljava/util/Random;II)V
+		ARG 1 rand
+		ARG 2 x
+		ARG 3 z
 	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Ljx;

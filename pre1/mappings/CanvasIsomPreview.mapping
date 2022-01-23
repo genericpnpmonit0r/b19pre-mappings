@@ -27,3 +27,8 @@ CLASS qp CanvasIsomPreview
 	METHOD c exit ()V
 	METHOD d renderCanvas ()V
 	METHOD e getOs ()Lwg;
+	METHOD paint (Ljava/awt/Graphics;)V
+		ARG 1 gfx
+	METHOD run ()V
+	METHOD update (Ljava/awt/Graphics;)V
+		ARG 1 gfx

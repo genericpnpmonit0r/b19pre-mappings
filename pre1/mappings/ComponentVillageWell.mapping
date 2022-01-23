@@ -1,1 +1,3 @@
 CLASS zy ComponentVillageWell
+	FIELD a isSomething Z
+	FIELD b averageGroundLevel I

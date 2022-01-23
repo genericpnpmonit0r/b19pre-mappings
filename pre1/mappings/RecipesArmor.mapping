@@ -1,3 +1,4 @@
-CLASS aex RecipesTools1
+CLASS qd RecipesArmor
 	FIELD a pattern [[Ljava/lang/String;
 	FIELD b recipeItems [[Ljava/lang/Object;
+	METHOD a addRecipes (Leq;)V

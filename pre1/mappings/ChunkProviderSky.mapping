@@ -1,1 +1,37 @@
 CLASS fn ChunkProviderSky
+	FIELD a noiseOctaves1 Lmd;
+	FIELD b noiseOctaves2 Lmd;
+	FIELD c noiseOctaves3 Lmd;
+	FIELD d doubleArr [D
+	FIELD e doubleArr1 [D
+	FIELD f doubleArr2 [D
+	FIELD g doubleArr3 [D
+	FIELD h doubleArr4 [D
+	FIELD i intArray2 [[I
+	FIELD j rand Ljava/util/Random;
+	FIELD k noiseOctaves1p Lmd;
+	FIELD l noiseOctaves2p Lmd;
+	FIELD m noiseOctaves3p Lmd;
+	FIELD n noiseOctaves4p Lmd;
+	FIELD o noiseOctaves5p Lmd;
+	FIELD p worldObj Ltd;
+	FIELD q doubleArray1 [D
+	FIELD r doubleArray2 [D
+	FIELD s doubleArray3 [D
+	FIELD t doubleArray4 [D
+	FIELD u caveGen Ltp;
+	FIELD v biomeBase [Lwt;
+	METHOD <init> (Ltd;J)V
+		ARG 1 world
+		ARG 2 seed
+	METHOD a generateTerrain (II[B[Lwt;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 bytearray
+		ARG 4 biomes
+	METHOD a generate2 ([DIIIIII)[D
+	METHOD b replaceBlocksForBiome (II[B[Lwt;)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 bytearray
+		ARG 4 biomes

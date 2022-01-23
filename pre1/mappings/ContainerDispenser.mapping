@@ -1,2 +1,5 @@
 CLASS abr ContainerDispenser
 	FIELD a dispensertileentity Laq;
+	METHOD <init> (Lha;Laq;)V
+		ARG 1 inventory
+		ARG 2 disptileentity

@@ -1,2 +1,4 @@
 CLASS tj ChatAllowedCharacters
 	FIELD a allowedCharacters Ljava/lang/String;
+	FIELD b allowedCharactersArray [C
+	METHOD a getAllowedCharacters ()Ljava/lang/String;

@@ -1,0 +1,13 @@
+CLASS vq ContainerCrafting
+	FIELD a craftMatrix Lya;
+	FIELD b craftResult Lha;
+	FIELD c worldObj Ltd;
+	FIELD h posX I
+	FIELD i posY I
+	FIELD j posZ I
+	METHOD <init> (Lvt;Ltd;III)V
+		ARG 1 invPlayer
+		ARG 2 world
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z

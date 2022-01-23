@@ -1,0 +1,2 @@
+CLASS ia RecipesDyes
+	METHOD a addRecipes (Leq;)V

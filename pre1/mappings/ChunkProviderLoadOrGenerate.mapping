@@ -1,2 +1,24 @@
 CLASS gl ChunkProviderLoadOrGenerate
+	FIELD a lastQueriedChunkX I
+	FIELD b lastQueriedChunkZ I
+	FIELD c blankChunk Lxl;
+	FIELD d chunkProvider Lbh;
+	FIELD e chunkLoader Lqq;
+	FIELD f chunkArray [Lxl;
+	FIELD g worldObj Ltd;
+	FIELD h lastQueriedChunk Lxl;
+	FIELD i currChunkX I
+	FIELD j currChunkZ I
+	METHOD a saveExtraExtraChunkdata (Lxl;)V
+		ARG 1 chunk
+	METHOD b saveExtraChunkData (Lxl;)V
+		ARG 1 chunk
 	METHOD d setCurrentChunkOver (II)V
+		ARG 1 cx
+		ARG 2 cz
+	METHOD e canChunkExist (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD f loadBlank (II)Lxl;
+		ARG 1 x
+		ARG 2 z

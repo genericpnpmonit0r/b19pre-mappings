@@ -1,0 +1,5 @@
+CLASS by ComponentVillageHouse2
+	FIELD a hasMadeChest I
+	METHOD <init> (ILjava/util/Random;Lno;I)V
+		ARG 2 rand
+	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIIII)Lby;

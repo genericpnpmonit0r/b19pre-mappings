@@ -3,3 +3,6 @@ CLASS qw ContainerFurnace
 	FIELD b coochtime I
 	FIELD c lastburntime I
 	FIELD h lastitemburntime I
+	METHOD <init> (Lvt;Labs;)V
+		ARG 1 inventory
+		ARG 2 tileentityfurnace

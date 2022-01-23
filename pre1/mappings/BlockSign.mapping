@@ -1,1 +1,7 @@
 CLASS mf BlockSign
+	FIELD a signEntityClass Ljava/lang/Class;
+	FIELD b isFreestanding Z
+	METHOD <init> (ILjava/lang/Class;Z)V
+		ARG 1 id
+		ARG 2 signEntityclass
+		ARG 3 isfreestanding

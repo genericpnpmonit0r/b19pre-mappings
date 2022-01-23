@@ -1,0 +1,3 @@
+CLASS j ComponentVilllageField2
+	FIELD a averageGroundLevel I
+	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIIII)Lj;

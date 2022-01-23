@@ -1,0 +1,36 @@
+CLASS zr BlockRail
+	FIELD a isPowered Z
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 texture
+		ARG 3 powered
+	METHOD a isNeighborRailPowered (Ltd;IIIIZI)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 meta
+		ARG 6 powered
+		ARG 7 meta2
+	METHOD a refreshTrackShape (Ltd;IIIZ)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 powered
+	METHOD a isRailPassingPower (Ltd;IIIZII)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 powered
+		ARG 6 meta0
+		ARG 7 meta1
+	METHOD d isRailBlock (I)Z
+		ARG 0 id
+	METHOD h isRailBlockAt (Ltd;III)Z
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD s getIsPowered ()Z

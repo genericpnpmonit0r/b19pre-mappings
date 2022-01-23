@@ -1,2 +1,7 @@
 CLASS pn ComponentMineshaftRoom
 	FIELD a childStructures Ljava/util/LinkedList;
+	METHOD <init> (ILjava/util/Random;II)V
+		ARG 1 componenttype
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 z

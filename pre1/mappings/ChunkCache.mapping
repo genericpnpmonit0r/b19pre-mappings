@@ -3,3 +3,30 @@ CLASS dc ChunkCache
 	FIELD b chunkZ I
 	FIELD c chunkArray [[Lxl;
 	FIELD d worldObj Ltd;
+	METHOD <init> (Ltd;IIIIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 unused1
+		ARG 4 z
+		ARG 5 shiftBy4_1
+		ARG 6 unused2
+		ARG 7 shiftBy4_2
+	METHOD a getLightValueExt (IIIZ)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 lit
+	METHOD a getSkyBlockTypeBrightness (Lsm;III)I
+		ARG 1 enumskyblock
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b getSpecialBlockBrightness (Lsm;III)I
+		ARG 1 enumskyblock
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD d getLightValue (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

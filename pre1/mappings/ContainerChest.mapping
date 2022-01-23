@@ -1,0 +1,6 @@
+CLASS bc ContainerChest
+	FIELD a lowerChestInventory Lha;
+	FIELD b numRows I
+	METHOD <init> (Lha;Lha;)V
+		ARG 1 inventory
+		ARG 2 inventory2

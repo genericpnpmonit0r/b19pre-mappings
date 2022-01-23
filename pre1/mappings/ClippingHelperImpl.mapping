@@ -4,4 +4,5 @@ CLASS p ClippingHelperImpl
 	FIELD g modelViewMatrixBuf Ljava/nio/FloatBuffer;
 	FIELD h otherFloatBuf Ljava/nio/FloatBuffer;
 	METHOD a getInstance ()Lsf;
+	METHOD a normalize ([[FI)V
 	METHOD b init ()V

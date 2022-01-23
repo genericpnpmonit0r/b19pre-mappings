@@ -1,0 +1,2 @@
+CLASS za RecipesFood
+	METHOD a addRecipes (Leq;)V

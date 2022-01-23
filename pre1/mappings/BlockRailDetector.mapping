@@ -1,1 +1,10 @@
 CLASS zu BlockRailDetector
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texture
+	METHOD f setStateIfMinecartInteractsWithRail (Ltd;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 meta

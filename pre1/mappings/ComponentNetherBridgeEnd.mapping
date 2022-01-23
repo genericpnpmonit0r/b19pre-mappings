@@ -1,0 +1,2 @@
+CLASS gn ComponentNetherBridgeEnd
+	METHOD a endpiecething (Ljava/util/List;Ljava/util/Random;IIIII)Lgn;

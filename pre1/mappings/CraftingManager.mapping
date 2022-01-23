@@ -1,4 +1,13 @@
 CLASS eq CraftingManager
+	FIELD a instance Leq;
+	FIELD b recipes Ljava/util/List;
 	METHOD a getInstance ()Leq;
 	METHOD a addRecipe (Lvw;[Ljava/lang/Object;)V
+		ARG 1 result
+		ARG 2 ingredients
+	METHOD a findMatchingRecipe (Lya;)Lvw;
+		ARG 1 craftingInventory
 	METHOD b getRecipeList ()Ljava/util/List;
+	METHOD b addShapelessRecipe (Lvw;[Ljava/lang/Object;)V
+		ARG 1 result
+		ARG 2 ingredients

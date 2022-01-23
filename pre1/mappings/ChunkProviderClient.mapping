@@ -1,2 +1,10 @@
 CLASS mo ChunkProviderClient
+	FIELD a blankChunk Lxl;
+	FIELD b chunkMapping Ldp;
+	FIELD c chunkList Ljava/util/List;
+	FIELD d worldObj Ltd;
+	METHOD <init> (Ltd;)V
+		ARG 1 world
 	METHOD d doSomethingWithChunkNotLoad (II)V
+		ARG 1 x
+		ARG 2 z

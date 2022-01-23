@@ -5,8 +5,8 @@ CLASS bh IChunkProvider
 		ARG 2 i2
 	METHOD a populate (Lbh;II)V
 		ARG 1 ichunkprovider
-		ARG 2 i1
-		ARG 3 i2
+		ARG 2 x
+		ARG 3 z
 	METHOD a enumerateCreatures (Lxj;III)Ljava/util/List;
 		ARG 1 enumcreaturetype
 		ARG 2 i1
@@ -17,9 +17,9 @@ CLASS bh IChunkProvider
 		ARG 2 progressUpdate
 	METHOD b canSave ()Z
 	METHOD b provideChunk (II)Lxl;
-		ARG 1 i1
-		ARG 2 i2
+		ARG 1 seed
+		ARG 2 seedmulti
 	METHOD c makeString ()Ljava/lang/String;
 	METHOD c loadChunk (II)Lxl;
-		ARG 1 i1
-		ARG 2 i2
+		ARG 1 seed
+		ARG 2 seedmulti

@@ -1,1 +1,4 @@
 CLASS ez ComponentStrongholdStairs
+	FIELD a hasSomething Z
+	FIELD b doortype Lkb;
+	METHOD a getStrongholdStairsComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lez;
