@@ -1,1 +1,2 @@
 CLASS un RenderVillager
+	FIELD c villagerModel Lrm;

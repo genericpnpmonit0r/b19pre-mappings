@@ -1,4 +1,4 @@
-CLASS dm WorldGenIdontKnow
+CLASS dm WorldGenOres
 	FIELD a blocktogenerate I
 	FIELD b posToGenerate I
 	METHOD <init> (II)V

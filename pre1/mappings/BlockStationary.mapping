@@ -1,0 +1,11 @@
+CLASS yt BlockStationary
+	METHOD j updateInternal (Ltd;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD k getNearbyFlammable (Ltd;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

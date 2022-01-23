@@ -1,1 +1,2 @@
 CLASS zf RenderTNTPrimed
+	FIELD a blocksrenderer Lru;

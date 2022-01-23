@@ -1,1 +1,3 @@
 CLASS oe BlockGrass
+	METHOD <init> (I)V
+		ARG 1 id

@@ -1,1 +1,12 @@
 CLASS ti BlockJukebox
+	METHOD f ejectRecord (Ltd;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 rec
+	METHOD h playRecord (Ltd;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

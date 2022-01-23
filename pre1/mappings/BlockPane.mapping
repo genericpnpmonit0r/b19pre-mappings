@@ -1,1 +1,10 @@
 CLASS aeo BlockPane
+	FIELD a blockpaneInt I
+	METHOD <init> (IIILxn;)V
+		ARG 1 id
+		ARG 2 texture
+		ARG 3 type
+		ARG 4 material
+	METHOD d isOpaque (I)Z
+		ARG 1 type
+	METHOD s getBlockPaneInt ()I

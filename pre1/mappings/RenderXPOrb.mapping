@@ -1,1 +1,3 @@
 CLASS py RenderXPOrb
+	FIELD a unknownboolean Z
+	FIELD b renderblocksprivate Lru;

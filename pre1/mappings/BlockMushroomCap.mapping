@@ -1,1 +1,7 @@
 CLASS ng BlockMushroomCap
+	FIELD a shroomInternals I
+	METHOD <init> (ILxn;II)V
+		ARG 1 id
+		ARG 2 material
+		ARG 3 texture
+		ARG 4 mushroomtype

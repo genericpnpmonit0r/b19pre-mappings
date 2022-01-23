@@ -1,1 +1,18 @@
 CLASS aca BlockFurnace
+	FIELD a rand Ljava/util/Random;
+	FIELD b isActive Z
+	FIELD c keepFurnaceInventory Z
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 active
+	METHOD a updateFurnaceBlockState (ZLtd;III)V
+		ARG 0 state
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h setDefaultDirection (Ltd;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

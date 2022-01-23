@@ -31,6 +31,7 @@ CLASS ui EntityPlayer
 	METHOD X getItemInUseCount ()I
 	METHOD Y isUsingItem ()Z
 	METHOD a displayCraftingGui (III)V
+	METHOD a displayGuiFurnace (Labs;)V
 	METHOD a triggerAchivement (Ladw;)V
 		ARG 1 statbase
 	METHOD a addStat (Ladw;I)V

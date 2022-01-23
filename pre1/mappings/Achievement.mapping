@@ -1,3 +1,12 @@
 CLASS yv Achievement
+	FIELD a displayColumn I
+	FIELD b displayRow I
+	FIELD c parentAchievement Lyv;
+	FIELD d theItemStack Lvw;
+	FIELD l achievementDescription Ljava/lang/String;
+	FIELD m statStringFormatter Luh;
+	FIELD n isSpecial Z
 	METHOD a setStatStringFormatter (Luh;)Lyv;
 	METHOD c setSpecial ()Lyv;
+	METHOD f getDescription ()Ljava/lang/String;
+	METHOD g getIsSpecial ()Z

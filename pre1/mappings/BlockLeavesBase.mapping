@@ -1,0 +1,2 @@
+CLASS im BlockLeavesBase
+	FIELD a isFastGraphics Z

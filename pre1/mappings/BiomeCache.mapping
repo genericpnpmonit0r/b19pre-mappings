@@ -1,6 +1,7 @@
 CLASS mx BiomeCache
+	FIELD a getWorldChunkManager Lov;
 	METHOD a meth_a ()V
 	METHOD b func_death (II)Lwt;
-	METHOD c ceeplusplus (II)F
+	METHOD c unknown00 (II)F
 	METHOD d more_pain (II)F
 	METHOD e the_e_meme_returns_with_more_func (II)[Lwt;

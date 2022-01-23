@@ -38,7 +38,7 @@ CLASS ov WorldChunkManager
 		ARG 5 rand
 	METHOD a getBiomeGenAtChunkCoord (Lpk;)Lwt;
 		ARG 1 chunkcoordintpair
-	METHOD a ea_sports_its_in_the_game ([FIIII)[F
+	METHOD a getTemperatures ([FIIII)[F
 		ARG 1 i
 		ARG 2 j
 		ARG 3 k
@@ -66,7 +66,7 @@ CLASS ov WorldChunkManager
 		ARG 2 j
 		ARG 3 k
 		ARG 4 l
-	METHOD b why_does_minecraft_use_floats ([FIIII)[F
+	METHOD b getRainfall ([FIIII)[F
 		ARG 1 array0
 		ARG 2 i
 		ARG 3 j

@@ -1,1 +1,14 @@
 CLASS ra EnumToolMaterial
+	FIELD f harvestLevel I
+	FIELD g maxUses I
+	FIELD h efficiencyOnProperMaterial F
+	FIELD i damageVsEntity I
+	METHOD <init> (Ljava/lang/String;IIIFI)V
+		ARG 3 harvLevel
+		ARG 4 maxuses
+		ARG 5 effOnProperMaterial
+		ARG 6 damageVEntity
+	METHOD a getMaxUses ()I
+	METHOD b getEfficiencyOnProperMaterial ()F
+	METHOD c getDamageVsEntity ()I
+	METHOD d getHarvestLevel ()I

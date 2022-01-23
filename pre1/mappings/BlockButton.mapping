@@ -3,4 +3,12 @@ CLASS is BlockButton
 		ARG 1 id
 		ARG 2 texturepos
 	METHOD h getOrientation (Ltd;III)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD i redundantCanPlaceBlockAt (Ltd;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

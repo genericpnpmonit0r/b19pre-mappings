@@ -1,1 +1,6 @@
 CLASS hm RenderSlime
+	FIELD c scaleAmount Lge;
+	METHOD <init> (Lge;Lge;F)V
+		ARG 1 modelbase1
+		ARG 2 modelbase2
+		ARG 3 scale

@@ -1,0 +1,7 @@
+CLASS fs BlockBreakable
+	FIELD a localFlag Z
+	METHOD <init> (IILxn;Z)V
+		ARG 1 id
+		ARG 2 texture
+		ARG 3 material
+		ARG 4 localflg

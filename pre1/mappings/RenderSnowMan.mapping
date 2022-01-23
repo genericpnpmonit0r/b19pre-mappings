@@ -1,1 +1,2 @@
 CLASS aac RenderSnowMan
+	FIELD c snowmanModel Ldf;

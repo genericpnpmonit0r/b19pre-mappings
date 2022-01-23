@@ -1,1 +1,3 @@
 CLASS bi EntityXPOrb
+	FIELD a getEntityBrightnessForRender I
+	METHOD i getTextureByXP ()I

@@ -1,6 +1,8 @@
 CLASS xq EntityLiving
 	FIELD bF attackTime I
 	FIELD bJ experienceValue I
+	FIELD bg renderYawOffset F
+	FIELD bh prevRenderYawOffset F
 	FIELD bn texture Ljava/lang/String;
 	FIELD bp rotation1 F
 	FIELD bq entityType Ljava/lang/String;

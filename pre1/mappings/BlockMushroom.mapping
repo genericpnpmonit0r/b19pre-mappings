@@ -1,0 +1,7 @@
+CLASS aci BlockMushroom
+	METHOD c growIntoBigMushroom (Ltd;IIILjava/util/Random;)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 rand

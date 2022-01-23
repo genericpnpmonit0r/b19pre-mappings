@@ -1,24 +1,53 @@
 CLASS xn Material
 	FIELD A cakeMaterial Lxn;
+	FIELD B web Lxn;
+	FIELD C piston Lxn;
+	FIELD D materialmapcolor Lsj;
+	FIELD E canBurn Z
+	FIELD F groundCover Z
+	FIELD G isTranslucent Z
+	FIELD H canHarvest Z
+	FIELD I mobilityFlag I
 	FIELD a air Lxn;
+	FIELD b grass Lxn;
 	FIELD c dirt Lxn;
 	FIELD d wood Lxn;
 	FIELD e rock Lxn;
 	FIELD f door Lxn;
 	FIELD g water Lxn;
 	FIELD h lava Lxn;
+	FIELD i leaves Lxn;
+	FIELD j plants Lxn;
+	FIELD k vine Lxn;
+	FIELD l sponge Lxn;
 	FIELD m cloth Lxn;
+	FIELD n fire Lxn;
 	FIELD o sand Lxn;
 	FIELD p circuits Lxn;
 	FIELD q glass Lxn;
+	FIELD r tnt Lxn;
+	FIELD s unused Lxn;
+	FIELD t ice Lxn;
+	FIELD u snow Lxn;
+	FIELD v craftedSnow Lxn;
 	FIELD w cactus Lxn;
 	FIELD x clay Lxn;
+	FIELD y pumpkin Lxn;
+	FIELD z portal Lxn;
 	METHOD <init> (Lsj;)V
 		ARG 1 mapcolor
 	METHOD a isSolid ()Z
 	METHOD b canBlockGrass ()Z
 	METHOD c getIsSolid ()Z
 	METHOD d getIsLiquid ()Z
+	METHOD e setCanHarvest ()Lxn;
+	METHOD f setCanBurn ()Lxn;
+	METHOD g getCanBurn ()Z
+	METHOD h setIsGroundCover ()Lxn;
 	METHOD i getIsGroundCover ()Z
 	METHOD j getIsOpaque ()Z
+	METHOD k getCanHarvest ()Z
 	METHOD l getMaterialMobility ()I
+	METHOD m setNoPushMobility ()Lxn;
+	METHOD n setImmovableMobility ()Lxn;
+	METHOD o setIsTranslucent ()Lxn;

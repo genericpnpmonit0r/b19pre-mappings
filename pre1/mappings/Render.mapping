@@ -10,6 +10,12 @@ CLASS rc Render
 	METHOD a loadDownloadableImageTexture (Ljava/lang/String;Ljava/lang/String;)Z
 	METHOD a renderEntityOnFire (Lle;DDDF)V
 	METHOD a doRender (Lle;DDDFF)V
+		ARG 1 entityliving
+		ARG 2 renderx
+		ARG 4 rendery
+		ARG 6 renderz
+		ARG 8 unknown0
+		ARG 9 unknown1
 	METHOD a rebderShadowOnBlock (Lmn;DDDIIIFFDDD)V
 	METHOD a renderAABB (Lsw;)V
 	METHOD a renderOffsetAABB (Lsw;DDD)V

@@ -1,1 +1,3 @@
 CLASS dk BlockCraftingTable
+	METHOD <init> (I)V
+		ARG 1 id

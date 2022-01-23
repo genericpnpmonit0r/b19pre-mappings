@@ -1,1 +1,4 @@
 CLASS bz RenderSnowball
+	FIELD a itemIconIndex I
+	METHOD <init> (I)V
+		ARG 1 iconindex

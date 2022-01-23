@@ -1,4 +1,4 @@
-CLASS du WorldGenPlaceOnGrass
+CLASS du WorldGenGravelOrSand
 	FIELD a aaa2 I
 	FIELD b aaaa I
 	METHOD <init> (II)V

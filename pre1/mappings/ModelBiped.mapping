@@ -1,1 +1,8 @@
 CLASS tf ModelBiped
+	FIELD c bipedhead Lnv;
+	FIELD d bipedheadwear Lnv;
+	FIELD e bipedbody Lnv;
+	FIELD f bipedrightarm Lnv;
+	FIELD g bipedleftarm Lnv;
+	FIELD k bipedrightleg Lnv;
+	FIELD l bipedleftleg Lnv;

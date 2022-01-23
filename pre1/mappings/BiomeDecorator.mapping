@@ -1,2 +1,48 @@
 CLASS ty BiomeDecorator
+	FIELD A cactiPerChunk I
+	FIELD B sandPerChunk1 I
+	FIELD C sandPerChunk I
+	FIELD D clayPerChunk I
+	FIELD E shroomsPerChunk I
+	FIELD F currentWorld Ltd;
+	FIELD G rand Ljava/util/Random;
+	FIELD H chunkX I
+	FIELD I chunkZ I
+	FIELD J biome Lwt;
+	FIELD a clayGen Ljj;
+	FIELD b sandGen Ljj;
+	FIELD c gravelAsSandGen Ljj;
+	FIELD d dirtGen Ljj;
+	FIELD e gravelGen Ljj;
+	FIELD f coalGen Ljj;
+	FIELD g ironGen Ljj;
+	FIELD h goldGen Ljj;
+	FIELD i redstoneGen Ljj;
+	FIELD j diamondGen Ljj;
+	FIELD k lapisGen Ljj;
+	FIELD l plantYellowGen Ljj;
+	FIELD m plantRedGen Ljj;
+	FIELD n mushroomBrownGen Ljj;
+	FIELD o mushroomRedGen Ljj;
+	FIELD p mushroomBigGen Ljj;
+	FIELD q reedGen Ljj;
+	FIELD r cactusGen Ljj;
+	FIELD s waterlilyGen Ljj;
+	FIELD t waterlilyPerChunk I
+	FIELD u treesPerChunk I
+	FIELD v flowersPerChunmk I
+	FIELD w grassPerChunk I
+	FIELD x deadBushPerChunk I
+	FIELD y mushroomsPerChunk I
+	FIELD z reedsPerChunk I
+	METHOD <init> (Lwt;)V
+		ARG 1 biomegenbase
+	METHOD a generateOres ()V
+	METHOD a genStandardOre1 (ILjj;II)V
 	METHOD a decorate (Ltd;Ljava/util/Random;II)V
+		ARG 1 world
+		ARG 2 rand
+		ARG 3 chunkx
+		ARG 4 chunkz
+	METHOD b decorate_do ()V
+	METHOD b genStandardOre2 (ILjj;II)V

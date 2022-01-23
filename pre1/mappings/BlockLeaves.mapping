@@ -1,2 +1,10 @@
 CLASS qv BlockLeaves
+	FIELD b adjacentTreeBlocks [I
+	FIELD c baseIndexInPNG I
 	METHOD b setGraphicsLevel (Z)V
+		ARG 1 gfxLevel
+	METHOD h removeLeaves (Ltd;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

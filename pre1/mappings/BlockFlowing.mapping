@@ -1,0 +1,43 @@
+CLASS ix BlockFlowing
+	FIELD a numAdjacentSources I
+	FIELD b isOptimalFlowDirection [Z
+	FIELD c flowCost [I
+	METHOD b calculateFlowCost (Ltd;IIIII)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 i
+		ARG 6 j
+	METHOD f getSmallestFlowDecay (Ltd;IIII)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 decay
+	METHOD h flowIntoBlock (Ltd;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 meta
+	METHOD j internalUpdate (Ltd;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD k getOptimalFlowDirections (Ltd;III)[Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD l blockBlocksFlow (Ltd;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD m liquidCanDisplaceBlock (Ltd;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

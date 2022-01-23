@@ -1,6 +1,13 @@
 CLASS xf BlockDoor
 	METHOD a onPoweredBlockChange (Ltd;IIIZ)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 hasChanged
 	METHOD d setDoorRotation (I)V
 		ARG 1 rotation
 	METHOD f getState (I)I
+		ARG 1 state
 	METHOD g isOpen (I)Z
+		ARG 0 opened

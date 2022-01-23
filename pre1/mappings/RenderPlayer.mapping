@@ -1,1 +1,5 @@
 CLASS sg RenderPlayer
+	FIELD c modelbipedMain Ltf;
+	FIELD d modelArmorChestplate Ltf;
+	FIELD i modelArmor Ltf;
+	FIELD j armorFilenamePrefix [Ljava/lang/String;

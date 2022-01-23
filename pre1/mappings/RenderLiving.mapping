@@ -1,1 +1,32 @@
 CLASS ee RenderLiving
+	FIELD a mainModel Lge;
+	FIELD b renderPassModel Lge;
+	METHOD <init> (Lge;F)V
+		ARG 1 modelbase
+		ARG 2 scale
+	METHOD a setRenderPassModel (Lge;)V
+		ARG 1 modelbase
+	METHOD a getDeathMaxRotation (Lxq;)F
+		ARG 1 entityspider
+	METHOD a renderLivingAt (Lxq;DDD)V
+	METHOD a preRenderCallback (Lxq;F)V
+		ARG 1 entity
+		ARG 2 scale
+	METHOD a getColorMultiplier (Lxq;FF)I
+	METHOD a renderSquid (Lxq;FFF)V
+	METHOD a inheritRenderPass (Lxq;IF)Z
+	METHOD a renderLivingLabel (Lxq;Ljava/lang/String;DDDI)V
+		ARG 2 entitylabelstring
+	METHOD b passSpecialRender (Lxq;DDD)V
+		ARG 1 entityvillager
+	METHOD b renderEquippedItems (Lxq;F)V
+		ARG 1 entitysnowman
+		ARG 2 itemfloat
+	METHOD b shouldLivingRenderPass (Lxq;IF)Z
+		ARG 1 entityvillager
+		ARG 2 pass
+		ARG 3 great_value_beans
+	METHOD c renderSwingProgress (Lxq;F)F
+	METHOD d handleRotationFloat (Lxq;F)F
+		ARG 1 entitywolf
+		ARG 2 scale

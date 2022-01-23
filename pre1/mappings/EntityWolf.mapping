@@ -1,1 +1,2 @@
 CLASS ub EntityWolf
+	METHOD W setTailRotation ()F

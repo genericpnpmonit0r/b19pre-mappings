@@ -1,1 +1,14 @@
 CLASS qz BlockOreRedstone
+	FIELD a activated Z
+	METHOD <init> (IIZ)V
+		ARG 3 beenActivated
+	METHOD h replaceWithActiveRedstoneOre (Ltd;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i spawnParticlesOnSides (Ltd;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
