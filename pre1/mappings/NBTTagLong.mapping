@@ -1,1 +1,4 @@
 CLASS xx NBTTagLong
+	FIELD a data J
+	METHOD <init> (J)V
+		ARG 1 value

@@ -1,0 +1,2 @@
+CLASS tx GuiChat
+	FIELD a message Ljava/lang/String;

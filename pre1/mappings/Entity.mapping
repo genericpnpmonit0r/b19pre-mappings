@@ -86,7 +86,7 @@ CLASS le Entity
 	METHOD P isSprinting ()Z
 	METHOD Q isEating ()Z
 	METHOD a handleHealthUpdate (B)V
-		ARG 1 healthUpdateByte
+		ARG 1 healthValue
 	METHOD a isInRangeToRenderDist (D)Z
 		ARG 1 distance
 	METHOD a setVelocity (DDD)V

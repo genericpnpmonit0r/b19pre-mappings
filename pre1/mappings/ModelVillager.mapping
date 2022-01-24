@@ -1,1 +1,10 @@
 CLASS rm ModelVillager
+	FIELD a head Lnv;
+	FIELD b body Lnv;
+	FIELD c arm Lnv;
+	FIELD d legL Lnv;
+	FIELD e legR Lnv;
+	FIELD f field1 I
+	FIELD g field2 I
+	FIELD k boolean_face Z
+	FIELD l boolean_fac2 Z

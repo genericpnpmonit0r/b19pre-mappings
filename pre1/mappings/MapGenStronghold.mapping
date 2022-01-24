@@ -1,1 +1,4 @@
 CLASS tl MapGenStronghold
+	FIELD a allowedBiomes [Lwt;
+	FIELD f ranBiomeCheck Z
+	FIELD g structureCoords [Lpk;

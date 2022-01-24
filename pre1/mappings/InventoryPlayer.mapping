@@ -1,9 +1,50 @@
 CLASS vt InventoryPlayer
 	FIELD a mainInventory [Lvw;
+	FIELD b armorInventory [Lvw;
 	FIELD c currentItem I
 	FIELD d player Lui;
+	FIELD e inventoryChanged Z
+	FIELD f itemStack Lvw;
+	METHOD <init> (Lui;)V
+		ARG 1 player
 	METHOD a setCurrentItem (IZ)V
+		ARG 1 id
+		ARG 2 unusedboolean
+	METHOD a getDamageVsEntity (Lle;)I
+		ARG 1 entity
+	METHOD a writeToNBT (Llf;)Llf;
+		ARG 1 listtag
+	METHOD a getStrVsBlock (Lmn;)F
+		ARG 1 block
+	METHOD a addItemStackToInventory (Lvw;)Z
+		ARG 1 itemstack
 	METHOD b getCurrentItem ()Lvw;
 	METHOD b changeCurrentItem (I)V
+		ARG 1 id
+	METHOD b getInventoryTagList (Llf;)V
+		ARG 1 listtag
+	METHOD b canHarvestBlock (Lmn;)Z
+		ARG 1 block
 	METHOD b setItemStack (Lvw;)V
+		ARG 1 itemstack
+	METHOD c consumeInventoryItem (I)Z
+		ARG 1 id
+	METHOD c getHasItemStack (Lvw;)Z
+		ARG 1 itemstack
+	METHOD d hasItem (I)Z
+		ARG 1 id
+	METHOD d retrieveItemStack (Lvw;)I
+		ARG 1 itemstack
+	METHOD e armorItemInSlot (I)Lvw;
+		ARG 1 id
+	METHOD e storePartialItemStack (Lvw;)I
+		ARG 1 itemstack
+	METHOD f damageArmor (I)V
+		ARG 1 damage
+	METHOD g decrementAnimations ()V
+	METHOD g getInventorySlotContainItem (I)I
+		ARG 1 id
+	METHOD h getTotalArmorValue ()I
+	METHOD i dropAllItems ()V
 	METHOD j getItemStack ()Lvw;
+	METHOD k storeItemStack ()I

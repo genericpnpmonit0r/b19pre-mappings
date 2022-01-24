@@ -1,1 +1,4 @@
 CLASS nw EntityPig
+	METHOD b hasSaddle (Z)V
+		ARG 1 b
+	METHOD p getSaddle ()Z

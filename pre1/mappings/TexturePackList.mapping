@@ -1,1 +1,2 @@
 CLASS fd TexturePackList
+	METHOD a updateAvaliableTexturePacks ()V

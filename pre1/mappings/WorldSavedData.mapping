@@ -1,3 +1,9 @@
 CLASS uu WorldSavedData
 	FIELD a mapNane Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 name
 	METHOD a markdirty ()V
+	METHOD a readFromNBT (Lyr;)V
+		ARG 1 compound
+	METHOD b writeToNBT (Lyr;)V
+		ARG 1 compound

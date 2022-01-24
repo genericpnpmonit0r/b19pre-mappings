@@ -1,1 +1,4 @@
 CLASS mh NBTTagShort
+	FIELD a data S
+	METHOD <init> (S)V
+		ARG 1 value

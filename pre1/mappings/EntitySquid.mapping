@@ -1,1 +1,5 @@
 CLASS afg EntitySquid
+	FIELD aA randomMotionVecZ F
+	FIELD av randomMotionSpeed F
+	FIELD ay randomMotionVecX F
+	FIELD az randomMotionVecY F

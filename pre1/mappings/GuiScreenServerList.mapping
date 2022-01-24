@@ -1,1 +1,7 @@
 CLASS xw GuiScreenServerList
+	FIELD a parentScreen Lrx;
+	FIELD b serverTextField Labh;
+	FIELD c serverNBTStorage Llq;
+	METHOD <init> (Lrx;Llq;)V
+		ARG 1 guiscreen
+		ARG 2 servernbtstorage

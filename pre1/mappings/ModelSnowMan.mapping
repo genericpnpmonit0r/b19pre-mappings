@@ -1,1 +1,6 @@
 CLASS df ModelSnowMan
+	FIELD a snowmanhead Lnv;
+	FIELD b snowmanbody Lnv;
+	FIELD c snowmanLowerbody Lnv;
+	FIELD d snowmanleftarm Lnv;
+	FIELD e snowmanrightarm Lnv;

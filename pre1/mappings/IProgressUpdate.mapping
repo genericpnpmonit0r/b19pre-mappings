@@ -1,4 +1,7 @@
 CLASS oz IProgressUpdate
 	METHOD a setLoadingProgress (I)V
+		ARG 1 progressString
 	METHOD b displaySavingString (Ljava/lang/String;)V
+		ARG 1 progressString
 	METHOD d displayLoadingString (Ljava/lang/String;)V
+		ARG 1 progressString

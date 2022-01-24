@@ -1,3 +1,7 @@
 CLASS ady GuiConnecting
 	FIELD a setNetClientHandler Lyh;
 	FIELD b isCancelled Z
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 1 minecraft
+		ARG 2 hostname
+		ARG 3 port

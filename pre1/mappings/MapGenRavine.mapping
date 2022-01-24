@@ -1,1 +1,3 @@
 CLASS oj MapGenRavine
+	FIELD a ravineFloatArray [F
+	METHOD a generateRavine (JII[BDDDFFFIID)V

@@ -1,1 +1,5 @@
 CLASS zh EntityPortalFX
+	FIELD aA posZ0 D
+	FIELD a mmmmmm F
+	FIELD ay posX0 D
+	FIELD az posY0 D

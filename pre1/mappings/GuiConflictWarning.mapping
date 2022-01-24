@@ -1,1 +1,2 @@
 CLASS aan GuiConflictWarning
+	FIELD a updateCounter I

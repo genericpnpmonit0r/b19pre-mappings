@@ -1,0 +1,2 @@
+CLASS tk EnumOptionsMappingHelper
+	FIELD a enumOptionsMappingHelperArray [I

@@ -1,0 +1,2 @@
+CLASS qc GuiOutOfMemory
+	FIELD a updateCounter I

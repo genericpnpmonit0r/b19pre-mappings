@@ -3,5 +3,11 @@ CLASS vu MapItemRenderer
 	FIELD b bufferedImage I
 	FIELD c gamesettings Lgj;
 	FIELD d fontrenderer Llc;
+	METHOD <init> (Llc;Lgj;Lwd;)V
+		ARG 1 fontrenderer
+		ARG 2 gamesettings
+		ARG 3 renderengine
 	METHOD a renderMap (Lui;Lwd;Lvs;)V
+		ARG 1 player
+		ARG 2 renderer
 		ARG 3 mapdata

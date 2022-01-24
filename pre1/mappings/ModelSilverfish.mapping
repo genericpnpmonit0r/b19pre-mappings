@@ -1,1 +1,7 @@
 CLASS adc ModelSilverfish
+	FIELD a bodyparts [Lnv;
+	FIELD b wingparts [Lnv;
+	FIELD c cee [F
+	FIELD d boxlength [[I
+	FIELD e texturepositions [[I
+	METHOD a unused38 ()I

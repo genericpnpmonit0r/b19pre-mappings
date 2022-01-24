@@ -1,1 +1,5 @@
 CLASS aeu ItemVine
+	FIELD a vineblock Lmn;
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 ifhasSubtypes

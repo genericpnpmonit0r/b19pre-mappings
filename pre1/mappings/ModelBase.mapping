@@ -4,4 +4,5 @@ CLASS ge ModelBase
 	FIELD j boxList Ljava/util/List;
 	METHOD a setRotationAngles (FFFFFF)V
 	METHOD a render (Lle;FFFFFF)V
+		ARG 7 renderfloat
 	METHOD a setLivingAnimations (Lxq;FFF)V

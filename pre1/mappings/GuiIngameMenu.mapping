@@ -1,1 +1,3 @@
 CLASS jf GuiIngameMenu
+	FIELD a updateCounter2 I
+	FIELD b updateCounter I

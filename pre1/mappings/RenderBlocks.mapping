@@ -1,3 +1,5 @@
 CLASS ru RenderBlocks
 	FIELD a fancyGrass Z
+	METHOD a renderItemIn3d (I)Z
+	METHOD a renderBlockAsItem (Lmn;IF)V
 	METHOD a renderBlockUsingTexture (Lmn;IIII)V

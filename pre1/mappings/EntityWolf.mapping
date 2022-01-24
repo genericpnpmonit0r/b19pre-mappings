@@ -1,2 +1,17 @@
 CLASS ub EntityWolf
+	FIELD a looksWithInterest Z
+	FIELD ap timeWolfIsShaking F
+	FIELD aq prevTimeWolfIsShaking F
+	FIELD d isWolfShaking Z
+	FIELD e angry Z
 	METHOD W setTailRotation ()F
+	METHOD X getOwner ()Ljava/lang/String;
+	METHOD Y getSitting ()Z
+	METHOD Z getAngry ()Z
+	METHOD a dataWatcherStuffIdk (Ljava/lang/String;)V
+	METHOD aa isWolfSitting ()Z
+	METHOD b tameWolf (Z)V
+		ARG 1 not
+	METHOD e setIsSitting (Z)V
+	METHOD f setAngry (Z)V
+	METHOD g gggg (Z)V

@@ -1,2 +1,27 @@
 CLASS kx FoodStats
+	FIELD a foodLevel I
+	FIELD b foodSaturationLevel F
+	FIELD c foodExhaustionLevel F
+	FIELD d foodTickTimer I
+	FIELD e prevFoodLevel I
+	METHOD a getFoodLevel ()I
+	METHOD a addExhaustion (F)V
+		ARG 1 exh
+	METHOD a setFoodLevel (I)V
+		ARG 1 foodlevel
 	METHOD a addStats (IF)V
+		ARG 1 foodlevel
+		ARG 2 multiplier
+	METHOD a addStatsFrom (Lafz;)V
+		ARG 1 sourceFoodItem
+	METHOD a onUpdate (Lui;)V
+		ARG 1 player
+	METHOD a readStatsFromNBT (Lyr;)V
+		ARG 1 compoundtag
+	METHOD b getPrevFoodLevel ()I
+	METHOD b setFoodSaturationLevel (F)V
+		ARG 1 foodsaturationlevel
+	METHOD b writeStatsToNBT (Lyr;)V
+		ARG 1 compoundtag
+	METHOD c needFood ()Z
+	METHOD d getFoodSaturationLevel ()F

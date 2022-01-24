@@ -6,12 +6,26 @@ CLASS ui EntityPlayer
 	FIELD aE dimension I
 	FIELD aF playerCloakUrl Ljava/lang/String;
 	FIELD aG xpCooldown I
+	FIELD aH prevPosX0 D
 	FIELD a sleepTimer I
+	FIELD aI prevPosY0 D
+	FIELD aJ prevPosZ0 D
+	FIELD aK prvPosX D
+	FIELD aL prvPosY D
+	FIELD aM prvPosZ D
 	FIELD aN sleeping Z
 	FIELD aO bedCunkCoordinates Lqx;
+	FIELD aP offset1 F
+	FIELD aQ o25f F
+	FIELD aR offset2 F
 	FIELD aS timeUntilPortal I
 	FIELD aT inPortal Z
+	FIELD aU timeInPortal F
+	FIELD aV prevTimeInPortal F
 	FIELD aW capabilities Loa;
+	FIELD aX xp I
+	FIELD aY xpLevel I
+	FIELD aZ xpTotal I
 	FIELD as inventory Lvt;
 	FIELD at inventorySlots Lcm;
 	FIELD au craftingInventory Lcm;
@@ -32,39 +46,110 @@ CLASS ui EntityPlayer
 	METHOD W getItemInUse ()Lvw;
 	METHOD X getItemInUseCount ()I
 	METHOD Y isUsingItem ()Z
+	METHOD Z getItemInUseDuration ()I
 	METHOD a displayCraftingGui (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD a displayGuiFurnace (Labs;)V
+		ARG 1 teFurnace
 	METHOD a triggerAchivement (Ladw;)V
 		ARG 1 statbase
 	METHOD a addStat (Ladw;I)V
 		ARG 1 statbase
 		ARG 2 statId
 	METHOD a displayDispenserGui (Laq;)V
+		ARG 1 teDispenser
 	METHOD a joinEntityItemWithWorld (Lep;)V
 		ARG 1 item
 	METHOD a displayGuiChest (Lha;)V
+		ARG 1 chestinventory
 	METHOD a getCurrentPlayerStrVsBLock (Lmn;)F
+		ARG 1 targetedBlock
+	METHOD a displaySignGui (Lpf;)V
+		ARG 1 teSign
 	METHOD a setPlayerSpawnCoordinate (Lqx;)V
 		ARG 1 chunkcoords
 	METHOD a verifyRespawnCoordinates (Ltd;Lqx;)Lqx;
+		ARG 0 world
+		ARG 1 chunkcoords
+	METHOD a dropCurrentItem (Lvw;)V
+		ARG 1 itemstack
+	METHOD a eatItem (Lvw;I)V
+		ARG 1 itemstack
+		ARG 2 timeTakenToEat
+	METHOD a dropPlayerItemWithRandomChoice (Lvw;Z)V
+		ARG 1 itemstack
+		ARG 2 pickRandom
+	METHOD a alertWolves (Lxq;Z)V
+		ARG 1 living
+		ARG 2 alert
 	METHOD a wakeUpPlayer (ZZZ)V
-	METHOD af score ()I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD aE addPotionMiningSpeedEffects ()I
+	METHOD aF isInBed ()Z
+	METHOD aG incrementXPLevel ()V
+	METHOD aa stopUsingItem ()V
+	METHOD ab clearItemInUse ()V
+	METHOD ad eatItem2 ()V
+	METHOD af getScore ()I
 	METHOD ag dropCurrentItem ()V
+	METHOD ah isPVPEnabled ()Z
+	METHOD aj getCurrentEquippedItem ()Lvw;
+	METHOD ak destroyCurrentEquippedItem ()V
 	METHOD al swingItem ()V
+	METHOD am getBedOrientationInDegrees ()F
 	METHOD ao isPlayerFullyAsleep ()Z
 	METHOD ap getSleepTimer ()I
 	METHOD aq getPlayerSpawnCoordinate ()Lqx;
+	METHOD as getXPLevel ()I
 	METHOD at getFoodStats ()Lkx;
+	METHOD au shouldHeal ()Z
+	METHOD b doSomeOffsets (I)V
+		ARG 1 offsets
 	METHOD b addChatMessage (Ljava/lang/String;)V
 		ARG 1 chatmessage
+	METHOD b onCriticalHit (Lle;)V
+		ARG 1 target
+	METHOD b onItemPickup (Lle;I)V
+		ARG 1 itemEntity
+		ARG 2 id
 	METHOD b canHarvestBlock (Lmn;)Z
+		ARG 1 targetedBlock
+	METHOD b onItemStackChanged (Lvw;)V
+		ARG 1 itemstack
+	METHOD b setItemInUse (Lvw;I)V
+		ARG 1 itemStack
+		ARG 2 count
 	METHOD b canEat (Z)Z
+		ARG 1 caneat
+	METHOD c useCurrentItemOnEntity (Lle;)V
+		ARG 1 target
 	METHOD d addExhaustion (F)V
 		ARG 1 exh
-	METHOD e eeeeeeeeeeeeeeee (I)V
-	METHOD e somethingsomething35190e (III)Z
+	METHOD d sleepInBedAt (III)Lbr;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD e increaseXP (I)V
+		ARG 1 amount
+	METHOD e unusedxyz (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD h attackTargetEntityWithCurrentItem (Lle;)V
+		ARG 1 target
+	METHOD i addMovementStat (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD j addMountedMovementStat (DDD)V
 		ARG 1 motx
 		ARG 3 moty
 		ARG 5 motz
+	METHOD j collideWithEntity (Lle;)V
+		ARG 1 entity
+	METHOD p resetHeight ()V
 	METHOD q anotherCaseOfFuncJadnumbershit ()V

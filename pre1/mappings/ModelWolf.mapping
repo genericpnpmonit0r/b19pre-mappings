@@ -1,1 +1,12 @@
 CLASS pv ModelWolf
+	FIELD a headmain Lnv;
+	FIELD b body Lnv;
+	FIELD c leg1 Lnv;
+	FIELD d leg2 Lnv;
+	FIELD e leg3 Lnv;
+	FIELD f leg4 Lnv;
+	FIELD g tail Lnv;
+	FIELD k mane Lnv;
+	FIELD l aaaaa Lnv;
+	FIELD m aaa Lnv;
+	FIELD n aaaaaaaa Lnv;

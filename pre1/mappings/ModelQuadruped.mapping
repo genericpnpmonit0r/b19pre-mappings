@@ -1,0 +1,7 @@
+CLASS il ModelQuadruped
+	FIELD b head0 Lnv;
+	FIELD c body0 Lnv;
+	FIELD d leg1 Lnv;
+	FIELD e leg2 Lnv;
+	FIELD f leg3 Lnv;
+	FIELD g leg4 Lnv;

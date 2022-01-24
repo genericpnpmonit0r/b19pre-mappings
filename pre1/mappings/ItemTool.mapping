@@ -1,0 +1,10 @@
+CLASS cj ItemTool
+	FIELD a toolMaterial Lra;
+	FIELD b blocksEffectiveAgainst [Lmn;
+	FIELD bz damageVsEntity I
+	FIELD c efficiencyOnProperMaterial F
+	METHOD <init> (IILra;[Lmn;)V
+		ARG 1 id
+		ARG 2 dmgVsEntity
+		ARG 3 toolmaterial
+		ARG 4 effectiveAgainst

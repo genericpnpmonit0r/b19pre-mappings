@@ -1,1 +1,4 @@
 CLASS abo ModelChest
+	FIELD a lid Lnv;
+	FIELD b below Lnv;
+	FIELD c knob Lnv;

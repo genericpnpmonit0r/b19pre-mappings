@@ -1,1 +1,2 @@
 CLASS aej InventoryCraftResult
+	FIELD a stackResult [Lvw;

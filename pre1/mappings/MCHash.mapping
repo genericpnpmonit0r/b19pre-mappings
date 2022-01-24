@@ -1,5 +1,36 @@
 CLASS wo MCHash
+	FIELD a slots [Lob;
+	FIELD b count I
+	FIELD c threshold I
+	FIELD d growFactor F
+	FIELD e versionStamp I
+	FIELD f keySet Ljava/util/Set;
+	METHOD a clearMap ()V
 	METHOD a lookup (I)Ljava/lang/Object;
+		ARG 1 index
+	METHOD a getSlotIndex (II)I
+		ARG 0 k
+		ARG 1 v
+	METHOD a insert (IILjava/lang/Object;I)V
+		ARG 1 i
+		ARG 2 j
+		ARG 3 v
+		ARG 4 k
 	METHOD a addKey (ILjava/lang/Object;)V
+		ARG 1 key
+		ARG 2 v
+	METHOD a copyTo ([Lob;)V
+		ARG 1 kv
+	METHOD b getKeySet ()Ljava/util/Set;
 	METHOD b containsKey (I)Z
+		ARG 1 key
+	METHOD c lookupEntry (I)Lob;
+		ARG 1 entry
 	METHOD d removeObject (I)Ljava/lang/Object;
+		ARG 1 v
+	METHOD e removeEntry (I)Lob;
+		ARG 1 index
+	METHOD g getHash (I)I
+		ARG 0 index
+	METHOD h grow (I)V
+		ARG 1 k

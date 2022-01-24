@@ -1,1 +1,10 @@
 CLASS nr ItemArmor
+	FIELD a armorType I
+	FIELD b damageReduceAmount I
+	FIELD bz getMaxDamageArray [I
+	FIELD c renderIndex I
+	METHOD <init> (ILbp;II)V
+		ARG 1 id
+		ARG 2 armormaterial
+		ARG 3 renderindex
+		ARG 4 armortype

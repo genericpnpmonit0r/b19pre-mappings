@@ -1,1 +1,5 @@
 CLASS ym ModelSlime
+	FIELD a slimebodies Lnv;
+	FIELD b slimeRightEye Lnv;
+	FIELD c slimeLeftEye Lnv;
+	FIELD d slimeMouth Lnv;

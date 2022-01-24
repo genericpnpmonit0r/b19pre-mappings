@@ -1,1 +1,12 @@
 CLASS oy EntityOtherPlayerMP
+	FIELD a yOffsetf F
+	FIELD ap otherPlayerMPZ D
+	FIELD aq otherPlayerMPYaw D
+	FIELD ar otherPlayerMPPitch D
+	FIELD b isTheRealPlayer Z
+	FIELD c otherPlayerMPPosRotationIncrements I
+	FIELD d otherPlayerMPX D
+	FIELD e otherPlayerMPY D
+	METHOD <init> (Ltd;Ljava/lang/String;)V
+		ARG 1 world
+		ARG 2 userName

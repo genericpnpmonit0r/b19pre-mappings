@@ -2,3 +2,6 @@ CLASS do GuiTexturePacks
 	FIELD a guiScreen Lrx;
 	FIELD b refreshTimer I
 	FIELD c fileLocation Ljava/lang/String;
+	FIELD d guiTexturePackSlot Lbw;
+	METHOD <init> (Lrx;)V
+		ARG 1 guiscreen

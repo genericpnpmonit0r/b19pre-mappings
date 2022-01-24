@@ -5,6 +5,10 @@ CLASS sq GenLayer
 	FIELD d baseseed J
 	METHOD a nextInt (I)I
 	METHOD a someIntArrayIDOntCareabout (IIII)[I
+		ARG 1 i
+		ARG 2 j
+		ARG 3 k
+		ARG 4 m
 	METHOD a b18plusWorldGenCrap (J)[Lsq;
 		ARG 0 ass
 	METHOD a doSomethingWithChunkShitSeed (JJ)V

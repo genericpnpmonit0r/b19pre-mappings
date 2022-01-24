@@ -12,8 +12,8 @@ CLASS rx GuiScreen
 		ARG 1 characterTyped
 		ARG 2 typedTimes
 	METHOD a drawScreen (IIF)V
-		ARG 1 screenx
-		ARG 2 screeny
+		ARG 1 x
+		ARG 2 y
 		ARG 3 f1
 	METHOD a mouseClicked (III)V
 		ARG 1 mousex

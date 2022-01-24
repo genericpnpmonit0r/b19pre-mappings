@@ -1,13 +1,34 @@
 CLASS ji NetworkManager
 	FIELD a threadSyncObject Ljava/lang/Object;
+	FIELD b numReadThreads I
 	FIELD c numWriteThreads I
-	FIELD k getOutputStream Ljava/io/DataOutputStream;
+	FIELD f chunkDataSendCounter I
+	FIELD g sendQueueLock Ljava/lang/Object;
+	FIELD h networkSocket Ljava/net/Socket;
+	FIELD i remoteSocketAddress Ljava/net/SocketAddress;
+	FIELD j socketInputStream Ljava/io/DataInputStream;
+	FIELD k socketOutputStream Ljava/io/DataOutputStream;
 	FIELD l isRunning Z
+	FIELD m readPackets Ljava/util/List;
+	FIELD n dataPackets Ljava/util/List;
+	FIELD o chunkDataPackets Ljava/util/List;
+	FIELD p netHandler Llt;
+	FIELD q isServerTerminating Z
 	FIELD r getWriteThread Ljava/lang/Thread;
 	FIELD s getReadThread Ljava/lang/Thread;
-	FIELD t getIsTerminating Z
+	FIELD t isTerminating Z
+	FIELD u terminationReason Ljava/lang/String;
+	FIELD v someOtherObjectArray [Ljava/lang/Object;
+	FIELD w timeSinceLastRead I
+	FIELD x sendQueueByteLength I
+	METHOD <init> (Ljava/net/Socket;Ljava/lang/String;Llt;)V
+		ARG 1 socket
+		ARG 2 threadName
+		ARG 3 nethandler
 	METHOD a wakeThreads ()V
 	METHOD a catcherror (Ljava/lang/Exception;)V
 	METHOD a networkShutdown (Ljava/lang/String;[Ljava/lang/Object;)V
+	METHOD a addToSendQueue (Lwx;)V
+		ARG 1 pkt
 	METHOD b processReadPackets ()V
 	METHOD d sendNetworkPacket ()Z

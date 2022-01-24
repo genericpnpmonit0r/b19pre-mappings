@@ -1,1 +1,2 @@
 CLASS tz GuiSleepMP
+	METHOD c leaveBed ()V

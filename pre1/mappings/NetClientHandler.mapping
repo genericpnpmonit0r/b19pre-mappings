@@ -2,7 +2,7 @@ CLASS yh NetClientHandler
 	FIELD a someStringIdk Ljava/lang/String;
 	FIELD b mapsrorage Lum;
 	FIELD c arrlst Ljava/util/List;
-	FIELD d this_integer_is_20 I
+	FIELD d pvn I
 	FIELD e rand Ljava/util/Random;
 	FIELD f disconnected Z
 	FIELD g netMgr Lji;

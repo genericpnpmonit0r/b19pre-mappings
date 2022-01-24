@@ -1,0 +1,3 @@
+CLASS aak GenLayerCrap0
+	METHOD <init> (Lsq;)V
+		ARG 1 paARenT

@@ -23,8 +23,8 @@ CLASS xo GuiMultiplayer
 		ARG 2 intOut
 	METHOD a displayTooltip (Ljava/lang/String;II)V
 		ARG 1 tooltipText
-		ARG 2 posx
-		ARG 3 posy
+		ARG 2 x
+		ARG 3 y
 	METHOD a joinServer (Llq;)V
 		ARG 1 srvNbtStorage
 	METHOD b pollServer (Llq;)V

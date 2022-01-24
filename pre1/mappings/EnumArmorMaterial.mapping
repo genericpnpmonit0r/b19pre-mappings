@@ -1,1 +1,10 @@
 CLASS bp EnumArmorMaterial
+	FIELD f maxDamageFactor I
+	FIELD g damageReductionAmountArray [I
+	METHOD <init> (Ljava/lang/String;II[I)V
+		ARG 3 maxDmgFactor
+		ARG 4 dmgReductionArr
+	METHOD a getDurability (I)I
+		ARG 1 durability
+	METHOD b getDamageReductionAmount (I)I
+		ARG 1 amount

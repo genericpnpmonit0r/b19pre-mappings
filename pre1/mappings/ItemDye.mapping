@@ -1,1 +1,3 @@
 CLASS gc ItemDye
+	FIELD a dyeColorNames [Ljava/lang/String;
+	FIELD b dyeColors [I

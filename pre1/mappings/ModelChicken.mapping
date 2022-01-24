@@ -1,1 +1,9 @@
 CLASS acb ModelChicken
+	FIELD a head Lnv;
+	FIELD b body Lnv;
+	FIELD c rleg Lnv;
+	FIELD d lleg Lnv;
+	FIELD e rwing Lnv;
+	FIELD f lwing Lnv;
+	FIELD g bill Lnv;
+	FIELD k chin Lnv;

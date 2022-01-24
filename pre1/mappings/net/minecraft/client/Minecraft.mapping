@@ -14,6 +14,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD M isTakingScreenshot Z
 	FIELD N prevFrameTime J
 	FIELD O inGameHasFocus Z
+	FIELD P unused Z
 	FIELD Q systemTime J
 	FIELD R fullscreen Z
 	FIELD S hasCrashed Z
@@ -59,7 +60,11 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD y objectMouseOver Lmv;
 	FIELD z gameSettings Lgj;
 	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
-		ARG 5 tmpdispHeight
+		ARG 1 component
+		ARG 2 canvas
+		ARG 3 minecraftApplet
+		ARG 4 dispW
+		ARG 5 dispH
 		ARG 6 isFullscreenVar
 	METHOD A startThreadCheckHasPaid ()V
 	METHOD B forceReload ()V
@@ -77,6 +82,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	METHOD a displayDebugInfo (J)V
 		ARG 1 longVar1
 	METHOD a displayUnexpectedThrowable (Lhi;)V
+		ARG 1 uexthrowable
 	METHOD a getAppDir (Ljava/lang/String;)Ljava/io/File;
 		ARG 0 str0
 	METHOD a setServer (Ljava/lang/String;I)V
@@ -140,6 +146,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	METHOD p dbgInfoEntities ()Ljava/lang/String;
 	METHOD q dbgInfoWorld ()Ljava/lang/String;
 	METHOD r dbgInfoParticlesAndT ()Ljava/lang/String;
+	METHOD run ()V
 	METHOD s getSendQueue ()Lyh;
 	METHOD t isGuiEnabled ()Z
 	METHOD u isFancyGFXEnabled ()Z

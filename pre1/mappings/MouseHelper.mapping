@@ -1,3 +1,11 @@
 CLASS aea MouseHelper
+	FIELD a dx I
+	FIELD b dy I
+	FIELD c windowComponent Ljava/awt/Component;
+	FIELD d cursor Lorg/lwjgl/input/Cursor;
+	FIELD e limit10 I
+	METHOD <init> (Ljava/awt/Component;)V
+		ARG 1 winComponent
 	METHOD a grabMouseCursor ()V
 	METHOD b ungrabMouseCursor ()V
+	METHOD c mouseXYchange ()V

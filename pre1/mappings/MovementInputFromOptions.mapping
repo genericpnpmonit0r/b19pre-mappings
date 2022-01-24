@@ -1,1 +1,4 @@
 CLASS gv MovementInputFromOptions
+	FIELD f gameSettings Lgj;
+	METHOD <init> (Lgj;)V
+		ARG 1 gamesettings

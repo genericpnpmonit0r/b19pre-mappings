@@ -1,1 +1,5 @@
 CLASS xs ItemRedstoneRepeater
+	FIELD a idToPlace I
+	METHOD <init> (ILmn;)V
+		ARG 1 id
+		ARG 2 block

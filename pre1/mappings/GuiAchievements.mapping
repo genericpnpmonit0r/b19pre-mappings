@@ -1,1 +1,24 @@
 CLASS or GuiAchievements
+	FIELD a achievementsPaneWidth I
+	FIELD b achievementsPaneHeight I
+	FIELD c mouseX I
+	FIELD d mouseY I
+	FIELD f dispColX D
+	FIELD g dispColY D
+	FIELD h guiMapX D
+	FIELD i guiMapY D
+	FIELD j dispRowX D
+	FIELD k dispRowY D
+	FIELD s guiMapTop I
+	FIELD t guiMapLeft I
+	FIELD u guiMapBottom I
+	FIELD v guiMapRight I
+	FIELD w isMouseButtonDown I
+	FIELD x statFileWriter Lafa;
+	METHOD <init> (Lafa;)V
+		ARG 1 statfilewriter
+	METHOD b genAchievementBackground (IIF)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 multiplier
+	METHOD c drawTitleText ()V

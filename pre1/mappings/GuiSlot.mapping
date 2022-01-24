@@ -16,11 +16,19 @@ CLASS gs GuiSlot
 	FIELD o amountScrolled F
 	FIELD p selectedElement I
 	FIELD q lastClicked J
-	FIELD r potatobrain Z
-	FIELD s microwaveGoMMMMMM Z
-	FIELD t espuma I
+	FIELD r canSlotSlotSlot Z
+	FIELD s canSlotSlot Z
+	FIELD t id0 I
+	METHOD <init> (Lnet/minecraft/client/Minecraft;IIIII)V
+		ARG 1 minecraft
+		ARG 2 width
+		ARG 3 height
+		ARG 4 top
+		ARG 5 bottom
+		ARG 6 slHeight
 	METHOD a getSize ()I
 	METHOD a drawScreen (IIF)V
+	METHOD a overlayBackground (IIII)V
 	METHOD a drawSlot (IIIILyu;)V
 		ARG 1 scrn1
 		ARG 2 scrn2
@@ -32,7 +40,7 @@ CLASS gs GuiSlot
 		ARG 2 screeny
 		ARG 3 tessellator
 	METHOD a elementClicked (IZ)V
-		ARG 1 serverid
+		ARG 1 elementId
 		ARG 2 clicked
 	METHOD a registerScrollButtons (Ljava/util/List;II)V
 	METHOD a actionPerformed (Lwv;)V
@@ -40,3 +48,4 @@ CLASS gs GuiSlot
 		ARG 1 selected
 	METHOD b getConetntHeiught ()I
 	METHOD c drawBackground ()V
+	METHOD d bindAmountScrolled ()V

@@ -1,1 +1,9 @@
 CLASS fr EntitySorter
+	FIELD a entityPosX D
+	FIELD b entityPosY D
+	FIELD c entityPosZ D
+	METHOD <init> (Lle;)V
+		ARG 1 entity
+	METHOD compare (Ljava/lang/Object;Ljava/lang/Object;)I
+		ARG 1 worldrenderer0
+		ARG 2 worldrenderer

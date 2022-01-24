@@ -1,3 +1,17 @@
 CLASS tp MapGenBase
+	FIELD b range I
 	FIELD c rand Ljava/util/Random;
 	FIELD d worldObj Ltd;
+	METHOD a generate (Lbh;Ltd;II[B)V
+		ARG 1 chunkprovider
+		ARG 2 world
+		ARG 3 x
+		ARG 4 z
+		ARG 5 stuff
+	METHOD a recursiveGenerate (Ltd;IIII[B)V
+		ARG 1 world
+		ARG 2 x1
+		ARG 3 y1
+		ARG 4 x
+		ARG 5 y
+		ARG 6 stuff

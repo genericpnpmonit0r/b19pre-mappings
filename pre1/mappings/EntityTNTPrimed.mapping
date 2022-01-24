@@ -1,1 +1,8 @@
 CLASS aax EntityTNTPrimed
+	FIELD a fuse I
+	METHOD <init> (Ltd;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD m explode ()V

@@ -3,3 +3,15 @@ CLASS vs MapData
 	FIELD c zcenter I
 	FIELD d dimension B
 	FIELD e scale B
+	FIELD f colors [B
+	FIELD g mapdatacounter I
+	FIELD i playersVisibleOnMap Ljava/util/List;
+	METHOD a doMapInfo2 (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a doMapInfo (Lui;Lvw;)V
+		ARG 1 player
+		ARG 2 itemstack
+	METHOD a mapDataGetByteArr ([B)V
+		ARG 1 barr

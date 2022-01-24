@@ -1,1 +1,12 @@
 CLASS vc ItemDoor
+	FIELD a doorMaterial Lxn;
+	METHOD <init> (ILxn;)V
+		ARG 1 id
+		ARG 2 material
+	METHOD a placeDoorBlock (Ltd;IIIILmn;)V
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 meta
+		ARG 5 block

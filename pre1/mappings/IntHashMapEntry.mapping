@@ -1,1 +1,14 @@
 CLASS ob IntHashMapEntry
+	FIELD a hashEntry I
+	FIELD b valueEntry Ljava/lang/Object;
+	FIELD c nextEntry Lob;
+	FIELD d slotHash I
+	METHOD <init> (IILjava/lang/Object;Lob;)V
+		ARG 1 valEntry
+		ARG 2 hashentry
+		ARG 3 obj
+		ARG 4 inthashmapentry
+	METHOD a getHash ()I
+	METHOD b getValue ()Ljava/lang/Object;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 obj

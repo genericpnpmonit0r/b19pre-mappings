@@ -6,3 +6,10 @@ CLASS tf ModelBiped
 	FIELD g bipedleftarm Lnv;
 	FIELD k bipedrightleg Lnv;
 	FIELD l bipedleftleg Lnv;
+	FIELD m bipedears Lnv;
+	FIELD n bipedcloak Lnv;
+	FIELD q sneaking Z
+	FIELD r aimedBow Z
+	METHOD a renderEars (F)V
+		ARG 1 e
+	METHOD b renderCloak (F)V

@@ -1,1 +1,8 @@
 CLASS to GuiScreenAddServer
+	FIELD a parentScreen Lrx;
+	FIELD b serverNameTextField Labh;
+	FIELD c serverHostTextField Labh;
+	FIELD d serverNBTStorage Llq;
+	METHOD <init> (Lrx;Llq;)V
+		ARG 1 guiscreen
+		ARG 2 servernbtstorage

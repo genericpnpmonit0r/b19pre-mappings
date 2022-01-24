@@ -1,1 +1,4 @@
 CLASS aad NBTTagInt
+	FIELD a intValue I
+	METHOD <init> (I)V
+		ARG 1 value

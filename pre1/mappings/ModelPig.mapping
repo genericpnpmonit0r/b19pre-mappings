@@ -1,1 +1,4 @@
 CLASS cs ModelPig
+	FIELD a pigParts Lnv;
+	METHOD <init> (F)V
+		ARG 1 scale

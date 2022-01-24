@@ -1,1 +1,8 @@
 CLASS ir InventoryLargeChest
+	FIELD a name Ljava/lang/String;
+	FIELD b upperChest Lha;
+	FIELD c lowerChest Lha;
+	METHOD <init> (Ljava/lang/String;Lha;Lha;)V
+		ARG 1 chestname
+		ARG 2 iinventroy2
+		ARG 3 iinventory

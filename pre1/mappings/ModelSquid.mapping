@@ -1,1 +1,3 @@
 CLASS oc ModelSquid
+	FIELD a body Lnv;
+	FIELD b tentacles [Lnv;

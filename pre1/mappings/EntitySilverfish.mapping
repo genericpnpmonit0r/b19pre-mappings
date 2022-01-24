@@ -1,1 +1,2 @@
 CLASS nt EntitySilverfish
+	FIELD a damag I

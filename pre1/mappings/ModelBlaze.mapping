@@ -1,0 +1,4 @@
+CLASS aee ModelBlaze
+	FIELD a blazeSticks [Lnv;
+	FIELD b blazeBody Lnv;
+	METHOD a unknown8 ()I

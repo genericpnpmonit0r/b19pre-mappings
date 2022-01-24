@@ -1,5 +1,18 @@
 CLASS um MapStorage
+	FIELD a saveHandler Laen;
+	FIELD b loadedDataMap Ljava/util/Map;
+	FIELD c loadedDataList Ljava/util/List;
+	FIELD d idCounts Ljava/util/Map;
+	METHOD <init> (Laen;)V
+		ARG 1 savehandler
 	METHOD a saveAllData ()V
 	METHOD a loadData (Ljava/lang/Class;Ljava/lang/String;)Luu;
+		ARG 1 unknownClass
+		ARG 2 name
 	METHOD a getUniqueDataId (Ljava/lang/String;)I
 	METHOD a setData (Ljava/lang/String;Luu;)V
+		ARG 1 name
+		ARG 2 worldsaveddata
+	METHOD a saveData (Luu;)V
+		ARG 1 worldsavedata
+	METHOD b loadIdCounts ()V

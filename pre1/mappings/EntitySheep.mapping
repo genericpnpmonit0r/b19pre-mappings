@@ -1,1 +1,10 @@
 CLASS cd EntitySheep
+	FIELD a fleeceColorTable [[F
+	METHOD a getRandomFleeceColor (Ljava/util/Random;)I
+		ARG 0 rand
+	METHOD b setFleeceColor (I)V
+		ARG 1 color
+	METHOD b setSheared (Z)V
+		ARG 1 sheared
+	METHOD o getFleeceColor ()I
+	METHOD p getSheared ()Z

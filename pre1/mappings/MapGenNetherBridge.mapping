@@ -1,1 +1,3 @@
 CLASS xa MapGenNetherBridge
+	FIELD a spawnList Ljava/util/List;
+	METHOD a getSpawnList ()Ljava/util/List;

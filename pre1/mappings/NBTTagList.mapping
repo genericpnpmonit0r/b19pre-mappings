@@ -1,4 +1,8 @@
 CLASS lf NBTTagList
+	FIELD a tagList Ljava/util/List;
+	FIELD b tagType B
 	METHOD a tagAt (I)Lfc;
+		ARG 1 index
 	METHOD a appendTag (Lfc;)V
+		ARG 1 nbtbase
 	METHOD c tagCount ()I

@@ -1,5 +1,12 @@
 CLASS qn MapCoord
-	FIELD a shit B
+	FIELD a scale B
 	FIELD b centerX B
 	FIELD c centerZ B
 	FIELD d iconRotation B
+	FIELD e mapdata0 Lvs;
+	METHOD <init> (Lvs;BBBB)V
+		ARG 1 mapdata
+		ARG 2 scale
+		ARG 3 x
+		ARG 4 z
+		ARG 5 rot

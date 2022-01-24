@@ -15,7 +15,17 @@ CLASS ry EntityPlayerSP
 		ARG 2 world
 		ARG 3 session
 		ARG 4 dim
+	METHOD U getPlayerArmorValue ()I
 	METHOD a sendChatMessage (Ljava/lang/String;)V
 		ARG 1 textToSend
 	METHOD b setHealth (I)V
 		ARG 1 health
+	METHOD c setXPStats (III)V
+		ARG 1 xpcurrent
+		ARG 2 xptotal
+		ARG 3 xplevel
+	METHOD f isBlockTranslucent (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD t_ fly ()F

@@ -1,1 +1,5 @@
 CLASS ju ItemSword
+	FIELD a weaponDamage I
+	METHOD <init> (ILra;)V
+		ARG 1 id
+		ARG 2 toolmaterial

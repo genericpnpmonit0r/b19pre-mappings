@@ -1,3 +1,16 @@
 CLASS bi EntityXPOrb
 	FIELD a getEntityBrightnessForRender I
+	FIELD b age I
+	FIELD c unused00000000 I
+	FIELD d health I
+	FIELD e value I
+	METHOD <init> (Ltd;DDDI)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 val
+	METHOD b getXPSplit (I)I
+		ARG 0 splitOn
+	METHOD h getXpValue ()I
 	METHOD i getTextureByXP ()I

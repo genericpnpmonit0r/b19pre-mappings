@@ -1,1 +1,5 @@
 CLASS l MinecraftAppletImpl
+	FIELD a mcAppletfield Lnet/minecraft/client/MinecraftApplet;
+	METHOD <init> (Lnet/minecraft/client/MinecraftApplet;Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
+		ARG 5 sizeV
+		ARG 6 sizeH

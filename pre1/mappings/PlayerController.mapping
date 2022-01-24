@@ -14,5 +14,6 @@ CLASS io PlayerController
 	METHOD c updateController ()V
 	METHOD c sendBlockRemoving (IIII)V
 	METHOD e unusedOrSomething ()Z
+	METHOD f unusedReturnsFalse ()Z
 	METHOD g anotherfunc_shit ()Z
 	METHOD h isInCreativeMode ()Z

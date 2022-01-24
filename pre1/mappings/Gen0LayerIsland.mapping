@@ -1,0 +1,4 @@
+CLASS fy Gen0LayerIsland
+	METHOD <init> (JLsq;)V
+		ARG 1 l
+		ARG 3 gl

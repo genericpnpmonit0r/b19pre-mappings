@@ -1,8 +1,36 @@
 CLASS abh GuiTextField
 	FIELD a isFocused Z
+	FIELD b isEnabled Z
+	FIELD c fontRenderer Llc;
+	FIELD d xPos I
+	FIELD f yPos I
+	FIELD g width I
+	FIELD h height I
+	FIELD i text Ljava/lang/String;
+	FIELD j maxStringLength I
+	FIELD k cursorCounter I
+	FIELD l parentGuiScreen Lrx;
+	METHOD <init> (Lrx;Llc;IIIILjava/lang/String;)V
+		ARG 1 guiscreen
+		ARG 2 fontrenderer
+		ARG 3 x
+		ARG 4 y
+		ARG 5 widht
+		ARG 6 height
+		ARG 7 text
 	METHOD a getText ()Ljava/lang/String;
 	METHOD a textboxKeyTyped (CI)V
+		ARG 1 charTyped
+		ARG 2 amountTyped
 	METHOD a setMaxStringLength (I)V
+		ARG 1 maxStrLength
 	METHOD a mouseClicked (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 clicked
+	METHOD a setText (Ljava/lang/String;)V
+		ARG 1 txt
+	METHOD a setFocused (Z)V
+		ARG 1 focused
 	METHOD b updateCursorCounter ()V
 	METHOD c drawTextBox ()V

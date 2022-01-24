@@ -1,1 +1,4 @@
 CLASS uv NBTTagByteArray
+	FIELD a bytearray [B
+	METHOD <init> ([B)V
+		ARG 1 data

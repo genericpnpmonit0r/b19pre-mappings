@@ -1,1 +1,25 @@
 CLASS kg EntityPainting
+	FIELD a direction I
+	FIELD ap tickCounter1 I
+	FIELD b xPosition I
+	FIELD c yPosition I
+	FIELD d zPosition I
+	FIELD e art Lfi;
+	METHOD <init> (Ltd;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 dir
+	METHOD <init> (Ltd;IIIILjava/lang/String;)V
+		ARG 1 worl
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 dir
+		ARG 6 artName
+	METHOD b setSizeAndDirection (I)V
+		ARG 1 dir
+	METHOD c setSizeScale (I)F
+		ARG 1 size
+	METHOD m setBoundingBox ()Z

@@ -2,3 +2,10 @@ CLASS adz GuiSlider
 	FIELD j slidervalue F
 	FIELD k dragging Z
 	FIELD l idFloat Lva;
+	METHOD <init> (IIILva;Ljava/lang/String;F)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 enumoptions
+		ARG 5 name
+		ARG 6 value

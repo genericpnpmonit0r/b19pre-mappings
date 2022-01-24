@@ -1,1 +1,5 @@
 CLASS acx GuiInventory
+	FIELD f xSize_lo F
+	FIELD g ySize_lo F
+	METHOD <init> (Lui;)V
+		ARG 1 player

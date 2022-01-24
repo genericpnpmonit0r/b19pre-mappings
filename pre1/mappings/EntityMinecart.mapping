@@ -1,1 +1,35 @@
 CLASS afr EntityMinecart
+	FIELD aA velocityX D
+	FIELD aB velocityY D
+	FIELD aC velocityZ D
+	FIELD a minecartType I
+	FIELD ap pushX D
+	FIELD aq pushZ D
+	FIELD ar cargoItems [Lvw;
+	FIELD as canDoSomething Z
+	FIELD at minecartpositions [[[I
+	FIELD au turnProgress I
+	FIELD av minecartX D
+	FIELD aw minecartY D
+	FIELD ax minecartZ D
+	FIELD ay minecartYaw D
+	FIELD az minecartPitch D
+	FIELD b helth I
+	FIELD c thing I
+	FIELD d rot1 I
+	FIELD e fuel I
+	METHOD <init> (Ltd;DDDI)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 rotation
+	METHOD a moveOnRail (DDDD)Lba;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 multiplier
+	METHOD i moveUsingVectors (DDD)Lba;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z

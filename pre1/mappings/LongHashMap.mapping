@@ -1,1 +1,36 @@
 CLASS dp LongHashMap
+	FIELD a hashArray [Lkd;
+	FIELD b numElements I
+	FIELD c capacity I
+	FIELD d percent F
+	FIELD e actuallyUnused I
+	METHOD a getNumHashElements ()I
+	METHOD a hash (I)I
+		ARG 0 v
+	METHOD a getHashIndex (II)I
+		ARG 0 k
+		ARG 1 v
+	METHOD a createKey (IJLjava/lang/Object;I)V
+		ARG 1 k
+		ARG 2 l
+		ARG 4 v
+		ARG 5 i
+	METHOD a getValueByKey (J)Ljava/lang/Object;
+		ARG 1 k
+	METHOD a add (JLjava/lang/Object;)V
+		ARG 1 k
+		ARG 3 v
+	METHOD a copyHashTableTo ([Lkd;)V
+		ARG 1 target
+	METHOD b resizeTable (I)V
+		ARG 1 k
+	METHOD b containsItem (J)Z
+		ARG 1 k
+	METHOD c getEntry (J)Lkd;
+		ARG 1 k
+	METHOD d remove (J)Ljava/lang/Object;
+		ARG 1 v
+	METHOD e removeKey (J)Lkd;
+		ARG 1 k
+	METHOD g getHashedKey (J)I
+		ARG 0 k

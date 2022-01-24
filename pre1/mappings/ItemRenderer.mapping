@@ -1,3 +1,26 @@
 CLASS kj ItemRenderer
-	METHOD b f9449b ()V
-	METHOD c anotherfunc9450c ()V
+	FIELD a mc Lnet/minecraft/client/Minecraft;
+	FIELD b itemToRender Lvw;
+	FIELD c equippedProgress F
+	FIELD d prevEquippedProgress F
+	FIELD e renderBlocksInstance Lru;
+	FIELD f mapItemRenderer Lvu;
+	FIELD g equippedItemSlot I
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD a updateEquippedItem ()V
+	METHOD a renderItemInFirstPerson (F)V
+		ARG 1 progress
+	METHOD a renderInsideOfBlock (FI)V
+		ARG 1 brightness
+		ARG 2 b
+	METHOD a renderItem (Lxq;Lvw;)V
+		ARG 1 living
+		ARG 2 itemstack
+	METHOD b resetEquippedProgress ()V
+	METHOD b renderOverlays (F)V
+		ARG 1 brightness
+	METHOD c resetEquippedProgressRedundant ()V
+	METHOD c renderWarpedTextureOverlay (F)V
+		ARG 1 brightness
+	METHOD d renderFireInFirstPerson (F)V

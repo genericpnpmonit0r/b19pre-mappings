@@ -1,3 +1,0 @@
-CLASS aak GenLayerBullshit2
-	METHOD <init> (Lsq;)V
-		ARG 1 my_ass

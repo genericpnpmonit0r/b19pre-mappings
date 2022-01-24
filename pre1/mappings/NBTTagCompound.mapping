@@ -6,6 +6,7 @@ CLASS yr NBTTagCompound
 	METHOD a setInteger (Ljava/lang/String;I)V
 	METHOD a setLong (Ljava/lang/String;J)V
 	METHOD a setTag (Ljava/lang/String;Lfc;)V
+		ARG 2 nbtbase
 	METHOD a setString (Ljava/lang/String;Ljava/lang/String;)V
 	METHOD a setCompoundTag (Ljava/lang/String;Lyr;)V
 	METHOD a setShort (Ljava/lang/String;S)V
@@ -18,6 +19,7 @@ CLASS yr NBTTagCompound
 	METHOD e getInteger (Ljava/lang/String;)I
 	METHOD f getLong (Ljava/lang/String;)J
 	METHOD g getFloat (Ljava/lang/String;)F
+	METHOD h getDouble (Ljava/lang/String;)D
 	METHOD i getString (Ljava/lang/String;)Ljava/lang/String;
 	METHOD j setByteArray (Ljava/lang/String;)[B
 	METHOD k getCompoundTag (Ljava/lang/String;)Lyr;

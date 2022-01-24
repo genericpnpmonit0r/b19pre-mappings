@@ -1,5 +1,38 @@
 CLASS add GuiIngame
+	FIELD a recordPlaying Ljava/lang/String;
+	FIELD b unused F
+	FIELD c prevVignetteBrightness F
+	FIELD d itemRenderer Lqo;
+	FIELD f chatMessageList Ljava/util/List;
+	FIELD g rand Ljava/util/Random;
+	FIELD h mc Lnet/minecraft/client/Minecraft;
+	FIELD i recordPlayingUpFor I
+	FIELD j recordIsPlaying Ljava/lang/String;
+	FIELD k damageGuiPartialTime I
+	FIELD l doColorStuff Z
 	METHOD a updateTick ()V
+	METHOD a renderVignette (FII)V
+		ARG 1 amount
+		ARG 2 x
+		ARG 3 y
+	METHOD a renderGameOverlay (FZII)V
+		ARG 1 dmgGuiPartialTime
+	METHOD a renderPumpkinBlur (II)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a renderInventorySlot (IIIF)V
+		ARG 1 mainInv
+		ARG 2 x
+		ARG 3 y
+		ARG 4 animToGoTo
 	METHOD a addChatMessage (Ljava/lang/String;)V
+		ARG 1 msg
 	METHOD b clearChatMsgs ()V
+	METHOD b renderPortalOverlay (FII)V
+		ARG 1 amount
+		ARG 2 x
+		ARG 3 y
 	METHOD b setRecordPlayingMessage (Ljava/lang/String;)V
+		ARG 1 recordName
+	METHOD c addChatMessageTranslate (Ljava/lang/String;)V
+		ARG 1 msg

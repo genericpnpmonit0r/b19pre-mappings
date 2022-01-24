@@ -1,1 +1,12 @@
 CLASS ky ModelSpider
+	FIELD a head Lnv;
+	FIELD b neck Lnv;
+	FIELD c body Lnv;
+	FIELD d leg1 Lnv;
+	FIELD e leg2 Lnv;
+	FIELD f leg3 Lnv;
+	FIELD g leg4 Lnv;
+	FIELD k leg5 Lnv;
+	FIELD l leg6 Lnv;
+	FIELD m leg7 Lnv;
+	FIELD n leg8 Lnv;

@@ -5,3 +5,7 @@ CLASS net/minecraft/client/MinecraftApplet net/minecraft/client/MinecraftApplet
 	METHOD a startMainThread ()V
 	METHOD b shutdown ()V
 	METHOD c clearApplet ()V
+	METHOD destroy ()V
+	METHOD init ()V
+	METHOD start ()V
+	METHOD stop ()V

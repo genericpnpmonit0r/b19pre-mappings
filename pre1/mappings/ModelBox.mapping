@@ -1,2 +1,23 @@
 CLASS jp ModelBox
+	FIELD a x F
+	FIELD b y F
+	FIELD c z F
+	FIELD d x2 F
+	FIELD e y2 F
+	FIELD f z2 F
+	FIELD g vertexpositions [Lvg;
+	FIELD h quadLst [Lmc;
+	METHOD <init> (Lnv;IIFFFIIIF)V
+		ARG 1 renderer
+		ARG 2 i
+		ARG 3 j
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 x2
+		ARG 8 y2
+		ARG 9 z2
+		ARG 10 scale
 	METHOD a render (Lyu;F)V
+		ARG 1 tessellator
+		ARG 2 scale

@@ -6,3 +6,6 @@ CLASS og ItemMap
 	METHOD a getMapData (Lvw;Ltd;)Lvs;
 		ARG 1 itemstack
 		ARG 2 world
+	METHOD a getMPMapData (SLtd;)Lvs;
+		ARG 0 mapId
+		ARG 1 world

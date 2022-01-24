@@ -1,7 +1,14 @@
 CLASS abg MapGenStructure
+	FIELD e coordMap Ljava/util/HashMap;
 	METHOD a canSpawnStructureAtCoords (II)Z
 		ARG 1 xcoord
 		ARG 2 zcoord
+	METHOD a generateInChunks (III)Z
+		ARG 2 cx
+		ARG 3 cz
+	METHOD a generateStructuresInChunk (Ltd;Ljava/util/Random;II)Z
+		ARG 3 cx
+		ARG 4 cz
 	METHOD b getStructureStart (II)Lmq;
 		ARG 1 xcoord
 		ARG 2 zcoord

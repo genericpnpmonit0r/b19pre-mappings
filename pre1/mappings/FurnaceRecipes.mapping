@@ -3,5 +3,8 @@ CLASS de FurnaceRecipes
 	FIELD b smeltingList Ljava/util/Map;
 	METHOD a smelting ()Lde;
 	METHOD a getSmeltingResults (I)Lvw;
+		ARG 1 result
 	METHOD a addSmelting (ILvw;)V
+		ARG 1 ingredients
+		ARG 2 result
 	METHOD b getSmeltingList ()Ljava/util/Map;

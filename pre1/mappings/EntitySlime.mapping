@@ -1,1 +1,15 @@
 CLASS adg EntitySlime
+	FIELD a scaleThing F
+	FIELD b scalething2 F
+	FIELD c scalething3 F
+	FIELD d slimeJumpDelay I
+	METHOD T getParticleName ()Ljava/lang/String;
+	METHOD V newEntity ()Ladg;
+	METHOD W randomNextintUnknown ()I
+	METHOD X scaleThing ()V
+	METHOD Y isLavaSlime ()Z
+	METHOD Z getSlimeSizeSize ()I
+	METHOD aa getIdleSound ()Ljava/lang/String;
+	METHOD ab getSlimeSize ()I
+	METHOD b getSize (I)V
+		ARG 1 id

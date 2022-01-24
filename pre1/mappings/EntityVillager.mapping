@@ -1,1 +1,6 @@
 CLASS dj EntityVillager
+	FIELD a villagerType I
+	METHOD <init> (Ltd;I)V
+		ARG 1 world
+		ARG 2 type
+	METHOD T pickVillagerType ()V

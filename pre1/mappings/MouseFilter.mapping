@@ -1,1 +1,7 @@
 CLASS bq MouseFilter
+	FIELD a unknown9 F
+	FIELD b unknown8 F
+	FIELD c unknown7 F
+	METHOD a mousefilterM (FF)F
+		ARG 1 f1
+		ARG 2 f2

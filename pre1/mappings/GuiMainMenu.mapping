@@ -1,1 +1,17 @@
 CLASS tn GuiMainMenu
+	FIELD a rand Ljava/util/Random;
+	FIELD b updateCounter F
+	FIELD c splashText Ljava/lang/String;
+	FIELD d multiplayerButton Lwv;
+	FIELD f updateCounter2 I
+	FIELD g viewportTexture I
+	METHOD a rotateAndBlurSkybox (F)V
+		ARG 1 f
+	METHOD b renderPanorama (IIF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 f
+	METHOD c renderSkybox (IIF)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 f

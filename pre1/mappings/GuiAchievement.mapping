@@ -1,3 +1,18 @@
 CLASS nk GuiAchievement
+	FIELD a theGame Lnet/minecraft/client/Minecraft;
+	FIELD b achievementWindowWidth I
+	FIELD c achievementWindowHeight I
+	FIELD d achievementGetLocalText Ljava/lang/String;
+	FIELD f achievementStatName Ljava/lang/String;
+	FIELD g theAchievement Lyv;
+	FIELD h achievementTime J
+	FIELD i itemRender Lqo;
+	FIELD j haveAchievement Z
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
 	METHOD a updateAchievementWindow ()V
+	METHOD a queueTakenAchievement (Lyv;)V
+		ARG 1 achievement
+	METHOD b updateAchievementWindowScale ()V
 	METHOD b queueAchivemementInformation (Lyv;)V
+		ARG 1 achievement

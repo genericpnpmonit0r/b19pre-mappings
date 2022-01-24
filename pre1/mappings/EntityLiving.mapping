@@ -1,5 +1,7 @@
 CLASS xq EntityLiving
+	FIELD a damageField I
 	FIELD ap currentTarget Lle;
+	FIELD bA prevHealth I
 	FIELD bB hurtTime I
 	FIELD bC maxHurtTime I
 	FIELD bD attackedAtYaw F
@@ -11,6 +13,9 @@ CLASS xq EntityLiving
 	FIELD bI unused_flg Z
 	FIELD bJ experienceValue I
 	FIELD bL randomMovementFloat F
+	FIELD bM entityscale1 F
+	FIELD bN size0 F
+	FIELD bO entityscale F
 	FIELD bR activePotionsMap Ljava/util/HashMap;
 	FIELD bS newPosRotationIncrements I
 	FIELD bT newPosX D
@@ -25,7 +30,13 @@ CLASS xq EntityLiving
 	FIELD bn texture Ljava/lang/String;
 	FIELD bp rotation1 F
 	FIELD bq entityType Ljava/lang/String;
+	FIELD br rotation2 F
 	FIELD bs scoreValue I
+	FIELD bu isMultiplayerentity Z
+	FIELD bv speedmodifier F
+	FIELD bw flyingthing F
+	FIELD bx prevSwingProgress F
+	FIELD by curSwingProgress F
 	FIELD bz health I
 	FIELD c playerentity Lui;
 	FIELD ca entityAge I
@@ -36,37 +47,94 @@ CLASS xq EntityLiving
 	FIELD cf defaultPitch F
 	FIELD cg moveSpeed F
 	FIELD ch numTicksToChaseTarget I
+	FIELD d mpWorldCheck0 I
+	FIELD e jumping Z
 	METHOD R getMaxSpawnedInChunk ()I
 	METHOD S getHeldItem ()Lvw;
+	METHOD a rayTrace (DF)Lmv;
+		ARG 1 startPos
+		ARG 3 endPos
 	METHOD a addPotionEffect (Lafb;)V
+		ARG 1 potioneff
 	METHOD a onDeath (Ljz;)V
 		ARG 1 dmgSrc
+	METHOD a faceEntity (Lle;FF)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 3 z
+	METHOD a knockBack (Lle;IDD)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 3 y
+		ARG 5 z
 	METHOD a getRandomSomething (Lui;)I
 		ARG 1 eplayer
+	METHOD a getPotion (Lvn;)Z
+		ARG 1 potion
 	METHOD a dropFewItems (Z)V
 		ARG 1 canDrop
+	METHOD aA getCurrentTarget ()Lle;
+	METHOD aB doesNothing ()V
+	METHOD aC getSize0 ()F
+	METHOD aD addPotionEffectFromPotionsmap ()V
 	METHOD a_ canDespawn ()Z
 	METHOD a_ moveEntityWithHeading (FF)V
 		ARG 1 heading1
 		ARG 2 heading2
+	METHOD ac getFalse ()Z
+	METHOD ae isHealthGreaterOrEqualToZero ()Z
+	METHOD ai getEntityScale ()I
 	METHOD an isPlayerSleeping ()Z
 	METHOD ar jump ()V
+	METHOD av getFalse0 ()Z
+	METHOD aw playLivinSound ()V
 	METHOD ax spawnExplosionParticle ()V
+	METHOD ay unknonwn000 ()V
+	METHOD az hasCurrentTarget ()Z
+	METHOD b updateRotation (FFF)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b addPotionEffect00unused (Lafb;)V
+		ARG 1 potioneff
 	METHOD b damageEntity (Ljz;I)V
 		ARG 1 dmgsrc
 		ARG 2 helth
+	METHOD b getPotion2 (Lvn;)Lafb;
+		ARG 1 potion
 	METHOD c onLivingUpdate ()V
+	METHOD c unused0000 (I)V
+		ARG 1 id
+	METHOD c getPotioneffect (Lafb;)V
+		ARG 1 potioneff
+	METHOD c damageEntityNotUnblockable (Ljz;I)I
+		ARG 1 dmgSrc
+		ARG 2 amount
+	METHOD c getItemStackIconIndex (Lvw;)I
+		ARG 1 itemstack
 	METHOD d getLivingSound ()Ljava/lang/String;
+	METHOD d addPotionEffect2 (Lafb;)V
+		ARG 1 potioneff
 	METHOD e getHurtSound ()Ljava/lang/String;
 	METHOD f getDeathSound ()Ljava/lang/String;
+	METHOD f getSwingProgress (F)F
+		ARG 1 progress
 	METHOD f heal (I)V
 		ARG 1 amount
 	METHOD g getDropItemId ()I
+	METHOD g getPosition (F)Lba;
+		ARG 1 pos
+	METHOD g removePotionEffect (I)V
+		ARG 1 id
 	METHOD h canSpawnHere ()Z
+	METHOD h getLook (F)Lba;
+		ARG 1 lookVector
 	METHOD i getTalkInterval ()I
 	METHOD i canEntityBeSeen (Lle;)Z
+		ARG 1 entity
 	METHOD l_ moveEntityWithInput ()V
 	METHOD m microwave_oven ()Z
 	METHOD o_ canBreatheUnderwater ()Z
 	METHOD q_ getSoundVolume ()F
 	METHOD s_ getSpeedModifier ()F
+	METHOD u_ getVerticalFaceSpeed ()I

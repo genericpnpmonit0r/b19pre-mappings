@@ -1,1 +1,2 @@
 CLASS tm EntitySkeleton
+	FIELD a bowItem Lvw;
