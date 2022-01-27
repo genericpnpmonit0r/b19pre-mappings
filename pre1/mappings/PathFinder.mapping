@@ -1,1 +1,36 @@
 CLASS tq PathFinder
+	FIELD a worldMap Lafd;
+	FIELD b path Lxg;
+	FIELD c pointMap Lwo;
+	FIELD d pathOptions [Ld;
+	METHOD <init> (Lafd;)V
+		ARG 1 iblockaccess
+	METHOD a openPoint (III)Ld;
+	METHOD a createEntityPath (Ld;Ld;)Lsb;
+		ARG 1 source
+		ARG 2 target
+	METHOD a createEntityPathTo (Lle;DDDF)Lsb;
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 dist
+	METHOD a createEntityPathTo (Lle;IIIF)Lsb;
+		ARG 1 source
+		ARG 2 targetX
+		ARG 3 targetY
+		ARG 4 targetZ
+		ARG 5 dist
+	METHOD a getVerticalOffset (Lle;IIILd;)I
+	METHOD a getSafePoint (Lle;IIILd;I)Ld;
+	METHOD a addToPath (Lle;Ld;Ld;Ld;F)Lsb;
+		ARG 1 entity
+		ARG 2 pathpoint1
+		ARG 3 pathpoint2
+		ARG 4 pathpoint3
+		ARG 5 dist
+	METHOD a createEntityPathTo (Lle;Lle;F)Lsb;
+		ARG 1 source
+		ARG 2 target
+		ARG 3 dist
+	METHOD b findPathOptions (Lle;Ld;Ld;Ld;F)I

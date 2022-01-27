@@ -1,1 +1,3 @@
 CLASS qb RenderBiped
+	FIELD c modelbipedmain Ltf;
+	FIELD d field_death F

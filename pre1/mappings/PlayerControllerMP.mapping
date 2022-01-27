@@ -1,1 +1,18 @@
 CLASS op PlayerControllerMP
+	FIELD c currBlockX I
+	FIELD d currBlockY I
+	FIELD e currBlockZ I
+	FIELD f curBlockDamageMP F
+	FIELD g prevBlockDamageMP F
+	FIELD h stepSoundTickCounter F
+	FIELD i blockHitDelay I
+	FIELD j isHittingBlock Z
+	FIELD k creativeMode Z
+	FIELD l netClienthandler Lyh;
+	FIELD m currentPlayerItem I
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Lyh;)V
+		ARG 1 minecraft
+		ARG 2 netclienthandler
+	METHOD a setCreativeModeParameters (Z)V
+		ARG 1 creative
+	METHOD j syncCurrentPlayerItem ()V

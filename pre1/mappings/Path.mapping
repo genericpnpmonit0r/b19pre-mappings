@@ -1,1 +1,15 @@
 CLASS xg Path
+	FIELD a pathPoints [Ld;
+	FIELD b count I
+	METHOD a clearPath ()V
+	METHOD a sortBack (I)V
+		ARG 1 ind
+	METHOD a addPoint (Ld;)Ld;
+		ARG 1 pathpoint
+	METHOD a changeDistance (Ld;F)V
+		ARG 1 pathpoint
+		ARG 2 dist
+	METHOD b dequeue ()Ld;
+	METHOD b sortForward (I)V
+		ARG 1 ind
+	METHOD c isPathEmpty ()Z

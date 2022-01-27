@@ -1,1 +1,14 @@
 CLASS zw PlayerControllerCreative
+	FIELD c blockPlacementIncrementerDecrementer I
+	METHOD a hitBlock (Lnet/minecraft/client/Minecraft;Lio;IIII)V
+		ARG 0 minecraft
+		ARG 1 controller
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 side
+	METHOD d setCapabilities (Lui;)V
+		ARG 0 player
+	METHOD e unsetCapabilities (Lui;)V
+		ARG 0 player
+	METHOD i extendedReach ()Z

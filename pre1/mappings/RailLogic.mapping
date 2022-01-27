@@ -1,2 +1,41 @@
 CLASS nf RailLogic
+	FIELD a rail Lzr;
+	FIELD b worldObj Ltd;
+	FIELD c trackX I
+	FIELD d trackY I
+	FIELD e trackZ I
+	FIELD f isPowered Z
+	FIELD g connectedTracks Ljava/util/List;
+	METHOD <init> (Lzr;Ltd;III)V
+		ARG 1 blockrail
+		ARG 2 world
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+	METHOD a refreshConnectedTracks ()V
+	METHOD a setConnections (I)V
+		ARG 1 rotation
+	METHOD a isMinecartTrack (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a getMinecartTrackLogic (Lnu;)Lnf;
+		ARG 1 chunkpos
 	METHOD a refreshTrackShape (ZZ)V
+		ARG 1 u
+		ARG 2 uuuuuu
+	METHOD b getAdjacentTracks ()I
+	METHOD b isInTrack (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b isInTrack (Lnf;)Z
+		ARG 1 raillogic
+	METHOD c canConnectFrom (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD c canConnectTo (Lnf;)Z
+		ARG 1 railllllogic
+	METHOD d connectToNeighbor (Lnf;)V
+		ARG 1 raillogic

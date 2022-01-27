@@ -10,3 +10,4 @@ CLASS wf Packet24MobSpawn
 	FIELD i receivedMetadata Ljava/util/List;
 	METHOD <init> (Lxq;)V
 		ARG 1 living
+	METHOD b getMetadata ()Ljava/util/List;

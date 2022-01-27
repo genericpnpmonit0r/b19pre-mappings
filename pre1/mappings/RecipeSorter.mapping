@@ -1,1 +1,7 @@
 CLASS gm RecipeSorter
+	FIELD a craftingMgr Leq;
+	METHOD <init> (Leq;)V
+		ARG 1 craftingmanager
+	METHOD compare (Ljava/lang/Object;Ljava/lang/Object;)I
+		ARG 1 irecipe0
+		ARG 2 irecipe

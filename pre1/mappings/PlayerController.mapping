@@ -1,19 +1,73 @@
 CLASS io PlayerController
+	FIELD a mc Lnet/minecraft/client/Minecraft;
+	FIELD b isInCreative Z
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
 	METHOD a resetBlockRemoving ()V
 	METHOD a setPartialTime (F)V
+		ARG 1 time
 	METHOD a clickBlock (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 side
+	METHOD a windowClick (IIIZLui;)Lvw;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 b
+		ARG 5 player
+	METHOD a closeCraftingUI (ILui;)V
+		ARG 1 i
+		ARG 2 player
 	METHOD a onWorldChange (Ltd;)V
+		ARG 1 world
 	METHOD a flipPlayer (Lui;)V
+		ARG 1 player
 	METHOD a interactWithEntity (Lui;Lle;)V
+		ARG 1 player
+		ARG 2 entity
 	METHOD a sendUseItem (Lui;Ltd;Lvw;)Z
+		ARG 1 player
+		ARG 2 world
+		ARG 3 itemstack
 	METHOD a sendPlaceBlock (Lui;Ltd;Lvw;IIII)Z
+		ARG 1 player
+		ARG 2 world
+		ARG 3 itemstack
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 side
+	METHOD a setCreativeSlot (Lvw;)V
+		ARG 1 itemstack
 	METHOD a sendSlotPacket (Lvw;I)V
+		ARG 1 itemstack
+		ARG 2 id
+	METHOD b getBlockReachDistance ()F
+	METHOD b sendBlockRemoved (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 side
 	METHOD b notSure (Ltd;)Lui;
-	METHOD b moreFuncBullShit (Lui;)V
+		ARG 1 world
+	METHOD b fillHotbarWithRandomJunkFromSession (Lui;)V
+		ARG 1 player
 	METHOD b attackEntity (Lui;Lle;)V
+		ARG 1 player
+		ARG 2 entity
 	METHOD c updateController ()V
 	METHOD c sendBlockRemoving (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 side
+	METHOD c onStoppedUsingItem (Lui;)V
+		ARG 1 player
+	METHOD d shouldDrawHUD ()Z
 	METHOD e unusedOrSomething ()Z
 	METHOD f unusedReturnsFalse ()Z
-	METHOD g anotherfunc_shit ()Z
+	METHOD g notSurvivalMode ()Z
 	METHOD h isInCreativeMode ()Z
+	METHOD i extendedReach ()Z

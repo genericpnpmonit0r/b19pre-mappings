@@ -1,1 +1,21 @@
 CLASS vg PositionTextureVertex
+	FIELD a vector3d Lba;
+	FIELD b texturePositionX F
+	FIELD c texturePositionY F
+	METHOD <init> (FFFFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 aaaaaa
+		ARG 5 aaaaaab
+	METHOD <init> (Lba;FF)V
+		ARG 1 vec3d
+		ARG 2 x
+		ARG 3 y
+	METHOD <init> (Lvg;FF)V
+		ARG 1 positiontexturevertex
+		ARG 2 x
+		ARG 3 y
+	METHOD a setTexturePosition (FF)Lvg;
+		ARG 1 x
+		ARG 2 y

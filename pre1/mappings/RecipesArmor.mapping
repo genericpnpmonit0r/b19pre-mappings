@@ -2,3 +2,4 @@ CLASS qd RecipesArmor
 	FIELD a pattern [[Ljava/lang/String;
 	FIELD b recipeItems [[Ljava/lang/Object;
 	METHOD a addRecipes (Leq;)V
+		ARG 1 craftingmanager

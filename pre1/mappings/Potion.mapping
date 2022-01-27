@@ -34,6 +34,13 @@ CLASS vn Potion
 	FIELD x potionNull4 Lvn;
 	FIELD y potionNull5 Lvn;
 	FIELD z potionNull6 Lvn;
+	METHOD <init> (I)V
+		ARG 1 potionId
 	METHOD a isReady (II)Z
+		ARG 1 i
+		ARG 2 j
 	METHOD a setPotionName (Ljava/lang/String;)Lvn;
+		ARG 1 name
 	METHOD a performEffect (Lxq;I)V
+		ARG 1 living
+		ARG 2 potionId

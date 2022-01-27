@@ -1,4 +1,4 @@
-CLASS wo MCHash
+CLASS wo IntHashMap
 	FIELD a slots [Lob;
 	FIELD b count I
 	FIELD c threshold I

@@ -1,4 +1,34 @@
 CLASS jw RegionFile
+	FIELD a emptySector [B
+	FIELD b fileName Ljava/io/File;
+	FIELD c dataFile Ljava/io/RandomAccessFile;
+	FIELD d offsets [I
+	FIELD e chunkTimestamps [I
+	FIELD f sectorFree Ljava/util/ArrayList;
+	FIELD g sizeDelta I
+	FIELD h lastModified J
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 file
+	METHOD a close ()V
+	METHOD a getChunkDataInputStream (II)Ljava/io/DataInputStream;
+		ARG 1 x
+		ARG 2 z
+	METHOD a setOffset (III)V
 	METHOD a write (II[BI)V
+		ARG 1 x
+		ARG 2 z
+	METHOD a write (I[BI)V
+	METHOD a debug (Ljava/lang/String;)V
+		ARG 1 str
+	METHOD a debugString2 (Ljava/lang/String;IIILjava/lang/String;)V
+	METHOD a debugString1 (Ljava/lang/String;IILjava/lang/String;)V
 	METHOD b getChunkDataOutputStream (II)Ljava/io/DataOutputStream;
+		ARG 1 x
+		ARG 2 z
+	METHOD b setChunkTimestamp (III)V
+	METHOD b debugln (Ljava/lang/String;)V
+		ARG 1 str
+	METHOD b dbgln (Ljava/lang/String;IILjava/lang/String;)V
 	METHOD c isChunkSaved (II)Z
+	METHOD d outOfBounds (II)Z
+	METHOD e getOffset (II)I

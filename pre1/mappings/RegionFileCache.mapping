@@ -1,5 +1,9 @@
 CLASS abd RegionFileCache
+	FIELD a regionsByFilename Ljava/util/Map;
 	METHOD a clearRegionFileRefrences ()V
 	METHOD a createOrLoadRegionFile (Ljava/io/File;II)Ljw;
+		ARG 0 file
+		ARG 1 x
+		ARG 2 z
 	METHOD b getChunkInputStream (Ljava/io/File;II)Ljava/io/DataInputStream;
-	METHOD c ccc (Ljava/io/File;II)Ljava/io/DataOutputStream;
+	METHOD c getChunkOutputStream (Ljava/io/File;II)Ljava/io/DataOutputStream;

@@ -1,5 +1,22 @@
 CLASS ru RenderBlocks
+	FIELD aA aograssimgoinginsane Z
+	FIELD aB aograss00000 Z
+	FIELD aC aograss0000000 Z
+	FIELD aI aograsscnn Z
+	FIELD aJ aograssxyzpnc Z
+	FIELD aK aograssxyznnc Z
+	FIELD aL aograssxyzcnp Z
 	FIELD a fancyGrass Z
+	FIELD b useInventoryTint Z
+	FIELD c catchesLight [Z
+	FIELD d blockAccess Lafd;
+	FIELD e overrideBlockTexture I
+	FIELD f flipTexture Z
+	FIELD g renderAllFaces Z
+	FIELD h uvRotE I
+	FIELD i uvRotW I
+	FIELD j uvRotS I
+	FIELD k uvRotN I
 	METHOD a renderItemIn3d (I)Z
 	METHOD a renderBlockAsItem (Lmn;IF)V
 	METHOD a renderBlockUsingTexture (Lmn;IIII)V
