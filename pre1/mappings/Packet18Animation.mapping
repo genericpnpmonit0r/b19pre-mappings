@@ -1,1 +1,6 @@
 CLASS ik Packet18Animation
+	FIELD a entityid I
+	FIELD b animate I
+	METHOD <init> (Lle;I)V
+		ARG 1 entity
+		ARG 2 animInt

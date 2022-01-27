@@ -1,1 +1,10 @@
 CLASS adb Packet130UpdateSign
+	FIELD a xpos I
+	FIELD b ypos I
+	FIELD c zpos I
+	FIELD d signlines [Ljava/lang/String;
+	METHOD <init> (III[Ljava/lang/String;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 lines

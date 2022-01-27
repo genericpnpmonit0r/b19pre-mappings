@@ -5,9 +5,12 @@ CLASS ah NoiseGeneratorPerlin
 	FIELD d permutations [I
 	METHOD <init> (Ljava/util/Random;)V
 		ARG 1 rand
+	METHOD a permute (DD)D
 	METHOD a doSomethingPermutations (DDD)D
 		ARG 1 xc
 		ARG 3 yc
 		ARG 5 zc
+	METHOD a generateNoisePerlin (IDD)D
 	METHOD a grad (IDDD)D
+	METHOD a generateNoisePerlin0 ([DDDDIIIDDDD)V
 	METHOD b lerp (DDD)D

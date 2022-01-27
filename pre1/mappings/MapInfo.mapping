@@ -1,1 +1,10 @@
 CLASS lb MapInfo
+	FIELD a player Lui;
+	FIELD b aaaaaaaab [I
+	FIELD c aaaaaac [I
+	FIELD d data Lvs;
+	FIELD e aaaaaaad I
+	FIELD f aaaaaaaf I
+	METHOD <init> (Lvs;Lui;)V
+		ARG 1 dat
+		ARG 2 plr

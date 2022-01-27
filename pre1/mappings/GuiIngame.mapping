@@ -10,6 +10,8 @@ CLASS add GuiIngame
 	FIELD j recordIsPlaying Ljava/lang/String;
 	FIELD k damageGuiPartialTime I
 	FIELD l doColorStuff Z
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
 	METHOD a updateTick ()V
 	METHOD a renderVignette (FII)V
 		ARG 1 amount
@@ -17,6 +19,9 @@ CLASS add GuiIngame
 		ARG 3 y
 	METHOD a renderGameOverlay (FZII)V
 		ARG 1 dmgGuiPartialTime
+		ARG 2 enabled
+		ARG 3 x
+		ARG 4 y
 	METHOD a renderPumpkinBlur (II)V
 		ARG 1 x
 		ARG 2 y

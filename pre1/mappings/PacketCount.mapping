@@ -1,2 +1,5 @@
 CLASS ys PacketCount
+	FIELD a pktCounter I
+	FIELD b packetSize J
 	METHOD a doSomethingWithPacketSize (I)V
+		ARG 1 size

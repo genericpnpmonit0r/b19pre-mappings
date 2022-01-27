@@ -1,1 +1,3 @@
 CLASS yk Packet42RemoveEntityEffect
+	FIELD a entityId I
+	FIELD b effectId B

@@ -1,1 +1,13 @@
 CLASS hy Packet21PickupSpawn
+	FIELD a entityId I
+	FIELD b xpos I
+	FIELD c ypos I
+	FIELD d zpos I
+	FIELD e rot B
+	FIELD f pitch B
+	FIELD g roll B
+	FIELD h itemId I
+	FIELD i count I
+	FIELD j itemDamage I
+	METHOD <init> (Lep;)V
+		ARG 1 itementity

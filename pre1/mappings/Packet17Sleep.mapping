@@ -1,1 +1,6 @@
 CLASS wq Packet17Sleep
+	FIELD a entityid I
+	FIELD b bedx I
+	FIELD c bedy I
+	FIELD d bedz I
+	FIELD e rotation I

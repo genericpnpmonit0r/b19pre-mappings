@@ -1,1 +1,4 @@
 CLASS ac Packet131MapData
+	FIELD a itemId S
+	FIELD b uid S
+	FIELD c itemData [B

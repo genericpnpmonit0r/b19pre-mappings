@@ -1,1 +1,12 @@
 CLASS fb Packet10Flying
+	FIELD a xpos D
+	FIELD b ypos D
+	FIELD c zpos D
+	FIELD d stance D
+	FIELD e yaw F
+	FIELD f pitch F
+	FIELD g ground Z
+	FIELD h moving Z
+	FIELD i rotating Z
+	METHOD <init> (Z)V
+		ARG 1 onGround

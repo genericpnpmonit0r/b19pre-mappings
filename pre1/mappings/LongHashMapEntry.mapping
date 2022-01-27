@@ -10,3 +10,5 @@ CLASS kd LongHashMapEntry
 		ARG 5 nxtEntry
 	METHOD a getKey ()J
 	METHOD b getValue ()Ljava/lang/Object;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 obj

@@ -7,11 +7,29 @@ CLASS mb Gui
 		ARG 4 endz
 	METHOD a drawRect (IIIII)V
 	METHOD a drawGradientRect (IIIIII)V
+		ARG 1 j
+		ARG 2 i
 	METHOD a drawCenteredString (Llc;Ljava/lang/String;III)V
+		ARG 1 fontrenderer
+		ARG 2 text
+		ARG 3 w
+		ARG 4 h
+		ARG 5 colorInt
 	METHOD b drawVerticalLine (IIII)V
 		ARG 1 startx
 		ARG 2 startz
 		ARG 3 endx
 		ARG 4 endz
 	METHOD b drawTexturedModalRect (IIIIII)V
+		ARG 1 i
+		ARG 2 j
+		ARG 3 k
+		ARG 4 l
+		ARG 5 m
+		ARG 6 o
 	METHOD b drawString (Llc;Ljava/lang/String;III)V
+		ARG 1 fontrenderer
+		ARG 2 text
+		ARG 3 w
+		ARG 4 h
+		ARG 5 colorInt

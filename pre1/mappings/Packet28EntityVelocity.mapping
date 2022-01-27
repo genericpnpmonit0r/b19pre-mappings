@@ -1,1 +1,12 @@
 CLASS ua Packet28EntityVelocity
+	FIELD a eid I
+	FIELD b motx I
+	FIELD c moty I
+	FIELD d motz I
+	METHOD <init> (IDDD)V
+		ARG 1 entityid
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD <init> (Lle;)V
+		ARG 1 entity

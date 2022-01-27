@@ -1,1 +1,3 @@
 CLASS iq Pakcet200Statistic
+	FIELD a statId I
+	FIELD b amount I

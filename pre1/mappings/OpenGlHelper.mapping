@@ -4,5 +4,10 @@ CLASS dt OpenGlHelper
 	FIELD c useMultitextureARB Z
 	METHOD a initializeTextures ()V
 	METHOD a setActiveTexture (I)V
+		ARG 0 tex
 	METHOD a setLightmapTextureCoords (IFF)V
+		ARG 0 tex
+		ARG 1 x
+		ARG 2 y
 	METHOD b setClientActiveTexture (I)V
+		ARG 0 tex

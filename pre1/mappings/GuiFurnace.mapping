@@ -1,1 +1,5 @@
 CLASS ja GuiFurnace
+	FIELD f furnaceInventory Labs;
+	METHOD <init> (Lvt;Labs;)V
+		ARG 1 inventoryplayer
+		ARG 2 teFurnace

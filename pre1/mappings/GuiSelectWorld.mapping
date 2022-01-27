@@ -1,1 +1,25 @@
 CLASS kq GuiSelectWorld
+	FIELD a parentScreen Lrx;
+	FIELD b screenTitle Ljava/lang/String;
+	FIELD c dateFormatter Ljava/text/DateFormat;
+	FIELD d selected Z
+	FIELD f selectedWorld I
+	FIELD g saveList Ljava/util/List;
+	FIELD h worldSlotContainer Lhh;
+	FIELD i worldDefaultName Ljava/lang/String;
+	FIELD j worldConversionName Ljava/lang/String;
+	FIELD k gameModeName [Ljava/lang/String;
+	FIELD s deleting Z
+	FIELD t btnRename Lwv;
+	FIELD u btnSel Lwv;
+	FIELD v btnDelet Lwv;
+	METHOD <init> (Lrx;)V
+		ARG 1 screen
+	METHOD a getSaveFileName (I)Ljava/lang/String;
+		ARG 1 index
+	METHOD b getSaveName (I)Ljava/lang/String;
+		ARG 1 index
+	METHOD c initButtons ()V
+	METHOD c selectWorld (I)V
+		ARG 1 index
+	METHOD g loadSaves ()V

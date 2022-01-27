@@ -44,6 +44,11 @@ CLASS gs GuiSlot
 		ARG 2 clicked
 	METHOD a registerScrollButtons (Ljava/util/List;II)V
 	METHOD a actionPerformed (Lwv;)V
+	METHOD a getState0 (Z)V
+		ARG 1 enable
+	METHOD a getState1 (ZI)V
+		ARG 1 enable
+		ARG 2 id
 	METHOD a_ isSelected (I)Z
 		ARG 1 selected
 	METHOD b getConetntHeiught ()I

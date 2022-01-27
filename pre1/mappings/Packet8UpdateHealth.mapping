@@ -1,1 +1,4 @@
 CLASS cz Packet8UpdateHealth
+	FIELD a healthmp I
+	FIELD b food I
+	FIELD c foodSaturation F

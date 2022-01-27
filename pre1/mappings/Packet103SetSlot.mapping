@@ -1,1 +1,4 @@
 CLASS et Packet103SetSlot
+	FIELD a windowId I
+	FIELD b itemSlot I
+	FIELD c myItemStack Lvw;

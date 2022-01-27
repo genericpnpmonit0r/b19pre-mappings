@@ -1,1 +1,5 @@
 CLASS oo NetworkReaderThread
+	FIELD a netManager Lji;
+	METHOD <init> (Lji;Ljava/lang/String;)V
+		ARG 1 netmgr
+		ARG 2 thrNameOrUnused

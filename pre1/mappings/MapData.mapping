@@ -5,7 +5,9 @@ CLASS vs MapData
 	FIELD e scale B
 	FIELD f colors [B
 	FIELD g mapdatacounter I
+	FIELD h dataList Ljava/util/List;
 	FIELD i playersVisibleOnMap Ljava/util/List;
+	FIELD j dataMap Ljava/util/Map;
 	METHOD a doMapInfo2 (III)V
 		ARG 1 x
 		ARG 2 y

@@ -1,1 +1,9 @@
 CLASS sr Packet51MapChunk
+	FIELD a xpos I
+	FIELD b ypos I
+	FIELD c zpos I
+	FIELD d xsize I
+	FIELD e ysize I
+	FIELD f zsize I
+	FIELD g chunk [B
+	FIELD h chunkSize I

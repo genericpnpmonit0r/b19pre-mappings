@@ -1,1 +1,8 @@
 CLASS acy Packet30Entity
+	FIELD a entityid I
+	FIELD b xpos B
+	FIELD c ypos B
+	FIELD d zpos B
+	FIELD e yaw B
+	FIELD f pitch B
+	FIELD g rotating Z

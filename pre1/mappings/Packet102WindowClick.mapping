@@ -1,1 +1,14 @@
 CLASS aav Packet102WindowClick
+	FIELD a windowId I
+	FIELD b inventorySlot I
+	FIELD c mouseClick I
+	FIELD d action S
+	FIELD e itemStack Lvw;
+	FIELD f holdingShift Z
+	METHOD <init> (IIIZLvw;S)V
+		ARG 1 wid
+		ARG 2 invslot
+		ARG 3 click
+		ARG 4 shift
+		ARG 5 itemstack
+		ARG 6 act

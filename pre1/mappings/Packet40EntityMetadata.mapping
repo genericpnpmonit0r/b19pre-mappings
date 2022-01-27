@@ -1,1 +1,3 @@
 CLASS mp Packet40EntityMetadata
+	FIELD a entityId I
+	FIELD b metadata Ljava/util/List;

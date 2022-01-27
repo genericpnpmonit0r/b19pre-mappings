@@ -1,1 +1,11 @@
 CLASS hj Packet20NamedEntitySpawn
+	FIELD a entityid I
+	FIELD b name Ljava/lang/String;
+	FIELD c xpos I
+	FIELD d ypos I
+	FIELD e zpos I
+	FIELD f rotation B
+	FIELD g pitch B
+	FIELD h currentItem I
+	METHOD <init> (Lui;)V
+		ARG 1 player

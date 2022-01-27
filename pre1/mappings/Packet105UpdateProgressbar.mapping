@@ -1,1 +1,4 @@
 CLASS hu Packet105UpdateProgressbar
+	FIELD a windowId I
+	FIELD b progressbar I
+	FIELD c progressbarValue I

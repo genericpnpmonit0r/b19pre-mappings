@@ -1,3 +1,4 @@
 CLASS oq NetworkWriterThread
 	FIELD a netmgr Lji;
-	METHOD run ()V
+	METHOD <init> (Lji;Ljava/lang/String;)V
+		ARG 1 netmgr

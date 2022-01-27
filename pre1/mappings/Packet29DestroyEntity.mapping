@@ -1,1 +1,2 @@
 CLASS abl Packet29DestroyEntity
+	FIELD a entityId I

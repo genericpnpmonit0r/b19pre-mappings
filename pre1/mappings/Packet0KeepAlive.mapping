@@ -1,1 +1,4 @@
 CLASS xu Packet0KeepAlive
+	FIELD a randomId I
+	METHOD <init> (I)V
+		ARG 1 id

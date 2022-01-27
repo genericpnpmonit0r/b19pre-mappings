@@ -1,1 +1,8 @@
 CLASS jk Packet26EntityExpOrb
+	FIELD a entityid I
+	FIELD b xpos I
+	FIELD c ypos I
+	FIELD d zpos I
+	FIELD e count I
+	METHOD <init> (Lbi;)V
+		ARG 1 xporb

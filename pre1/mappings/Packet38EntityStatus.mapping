@@ -1,1 +1,3 @@
 CLASS fo Packet38EntityStatus
+	FIELD a entityid I
+	FIELD b entitystatus B

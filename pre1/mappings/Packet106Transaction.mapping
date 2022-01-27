@@ -1,1 +1,8 @@
 CLASS iv Packet106Transaction
+	FIELD a windowId I
+	FIELD b shortWindowID S
+	FIELD c accepted Z
+	METHOD <init> (ISZ)V
+		ARG 1 wid
+		ARG 2 swid
+		ARG 3 accept

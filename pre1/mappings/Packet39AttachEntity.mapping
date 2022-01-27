@@ -1,1 +1,3 @@
 CLASS yp Packet39AttachEntity
+	FIELD a entityId I
+	FIELD b vechileEntityId I

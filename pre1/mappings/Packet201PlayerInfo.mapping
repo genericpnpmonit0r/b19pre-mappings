@@ -1,1 +1,4 @@
 CLASS sk Packet201PlayerInfo
+	FIELD a playername Ljava/lang/String;
+	FIELD b isConnected Z
+	FIELD c ping I

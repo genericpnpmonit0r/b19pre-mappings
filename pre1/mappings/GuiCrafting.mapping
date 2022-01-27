@@ -1,1 +1,7 @@
 CLASS zg GuiCrafting
+	METHOD <init> (Lvt;Ltd;III)V
+		ARG 1 inventoryplayer
+		ARG 2 world
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z

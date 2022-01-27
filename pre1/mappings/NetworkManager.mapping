@@ -2,6 +2,8 @@ CLASS ji NetworkManager
 	FIELD a threadSyncObject Ljava/lang/Object;
 	FIELD b numReadThreads I
 	FIELD c numWriteThreads I
+	FIELD d pktSizes [I
+	FIELD e pktSizes2 [I
 	FIELD f chunkDataSendCounter I
 	FIELD g sendQueueLock Ljava/lang/Object;
 	FIELD h networkSocket Ljava/net/Socket;
@@ -21,14 +23,20 @@ CLASS ji NetworkManager
 	FIELD v someOtherObjectArray [Ljava/lang/Object;
 	FIELD w timeSinceLastRead I
 	FIELD x sendQueueByteLength I
+	FIELD y unknownCounter I
 	METHOD <init> (Ljava/net/Socket;Ljava/lang/String;Llt;)V
 		ARG 1 socket
 		ARG 2 threadName
 		ARG 3 nethandler
 	METHOD a wakeThreads ()V
-	METHOD a catcherror (Ljava/lang/Exception;)V
+	METHOD a catchError (Ljava/lang/Exception;)V
+		ARG 1 exc
 	METHOD a networkShutdown (Ljava/lang/String;[Ljava/lang/Object;)V
+		ARG 1 reason
+		ARG 2 array0
 	METHOD a addToSendQueue (Lwx;)V
 		ARG 1 pkt
 	METHOD b processReadPackets ()V
+	METHOD c closingConnectionTerminating ()V
 	METHOD d sendNetworkPacket ()Z
+	METHOD e readPacket ()Z

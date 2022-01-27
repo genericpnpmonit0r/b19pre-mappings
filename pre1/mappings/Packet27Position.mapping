@@ -1,1 +1,7 @@
 CLASS aaq Packet27Position
+	FIELD a strafeMovement F
+	FIELD b forwardMovement F
+	FIELD c isSneaking Z
+	FIELD d isInJump Z
+	FIELD e pitchRotation F
+	FIELD f yawRotation F

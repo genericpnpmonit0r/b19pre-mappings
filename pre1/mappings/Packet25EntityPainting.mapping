@@ -1,1 +1,7 @@
 CLASS nj Packet25EntityPainting
+	FIELD a entityID I
+	FIELD b xpos I
+	FIELD c ypos I
+	FIELD d zpos I
+	FIELD e dir I
+	FIELD f title Ljava/lang/String;

@@ -1,1 +1,7 @@
 CLASS aeq Packet52MultiBlockChange
+	FIELD a xpos I
+	FIELD b zpos I
+	FIELD c coordArray [S
+	FIELD d typeArray [B
+	FIELD e metaArray [B
+	FIELD f size I

@@ -1,1 +1,7 @@
 CLASS ux GuiChest
+	FIELD f upperChestInventory Lha;
+	FIELD g lowerChestInventory Lha;
+	FIELD h inventoryRows I
+	METHOD <init> (Lha;Lha;)V
+		ARG 1 iinventory1
+		ARG 2 iinventory2

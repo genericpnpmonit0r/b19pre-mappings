@@ -1,1 +1,3 @@
 CLASS wr Packet104WindowItems
+	FIELD a windowId I
+	FIELD b itemStacks [Lvw;

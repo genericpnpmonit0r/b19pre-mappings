@@ -1,1 +1,4 @@
 CLASS abq Packet50PreChunk
+	FIELD a xpos I
+	FIELD b ypos I
+	FIELD c mode Z

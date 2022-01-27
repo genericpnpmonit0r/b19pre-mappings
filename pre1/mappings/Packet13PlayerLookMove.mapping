@@ -1,1 +1,9 @@
 CLASS db Packet13PlayerLookMove
+	METHOD <init> (DDDDFFZ)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 s
+		ARG 7 z
+		ARG 9 yaw
+		ARG 10 pitch
+		ARG 11 gnd

@@ -1,1 +1,3 @@
 CLASS ri PanelCrashReport
+	METHOD <init> (Lhi;)V
+		ARG 1 unexpectedthrowable

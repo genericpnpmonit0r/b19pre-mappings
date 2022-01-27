@@ -1,1 +1,9 @@
 CLASS km Packet34EntityTeleport
+	FIELD a entityid I
+	FIELD b xpos I
+	FIELD c ypos I
+	FIELD d zpos I
+	FIELD e yaw B
+	FIELD f pitch B
+	METHOD <init> (Lle;)V
+		ARG 1 ent

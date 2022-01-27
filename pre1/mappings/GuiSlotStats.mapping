@@ -4,6 +4,7 @@ CLASS fk GuiSlotStats
 	FIELD d sortstatsitem Ljava/util/Comparator;
 	FIELD e ear I
 	FIELD f press_f I
+	FIELD g statsGui Lcl;
 	METHOD <init> (Lcl;)V
 		ARG 1 statsGui
 	METHOD a getStatNames (I)Ljava/lang/String;

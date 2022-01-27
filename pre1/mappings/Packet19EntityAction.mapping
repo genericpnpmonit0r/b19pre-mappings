@@ -1,1 +1,6 @@
 CLASS acr Packet19EntityAction
+	FIELD a entityid I
+	FIELD b action I
+	METHOD <init> (Lle;I)V
+		ARG 1 entity
+		ARG 2 actionInt

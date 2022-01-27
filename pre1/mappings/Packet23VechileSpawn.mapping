@@ -1,1 +1,6 @@
 CLASS lg Packet23VechileSpawn
+	FIELD a entityid I
+	FIELD b xpos I
+	FIELD c ypos I
+	FIELD d zpos I
+	FIELD h type I

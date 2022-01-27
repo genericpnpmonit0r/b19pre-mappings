@@ -1,1 +1,4 @@
 CLASS gu Packet43Experience
+	FIELD a experience I
+	FIELD b experienceTotal I
+	FIELD c experienceLevel I

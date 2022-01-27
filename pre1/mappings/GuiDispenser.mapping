@@ -1,1 +1,4 @@
 CLASS ec GuiDispenser
+	METHOD <init> (Lvt;Laq;)V
+		ARG 1 inventoryplayer
+		ARG 2 teDispenser

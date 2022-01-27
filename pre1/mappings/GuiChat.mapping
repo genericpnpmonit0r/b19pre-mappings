@@ -1,2 +1,4 @@
 CLASS tx GuiChat
 	FIELD a message Ljava/lang/String;
+	FIELD b updateCounter I
+	FIELD c allowedChars Ljava/lang/String;
