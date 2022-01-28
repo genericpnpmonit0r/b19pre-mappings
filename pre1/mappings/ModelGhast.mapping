@@ -1,0 +1,3 @@
+CLASS xm ModelGhast
+	FIELD a body Lnv;
+	FIELD b tentacles [Lnv;

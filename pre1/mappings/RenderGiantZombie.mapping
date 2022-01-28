@@ -1,1 +1,6 @@
 CLASS afq RenderGiantZombie
+	FIELD c scale F
+	METHOD <init> (Lge;FF)V
+		ARG 1 basemodel
+		ARG 2 nonscale
+		ARG 3 scale

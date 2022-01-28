@@ -3,3 +3,4 @@ CLASS sg RenderPlayer
 	FIELD d modelArmorChestplate Ltf;
 	FIELD i modelArmor Ltf;
 	FIELD j armorFilenamePrefix [Ljava/lang/String;
+	METHOD b resetRenderPlayer ()V

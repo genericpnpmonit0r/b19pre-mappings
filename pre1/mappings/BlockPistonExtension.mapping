@@ -5,6 +5,6 @@ CLASS pp BlockPistonExtension
 		ARG 2 texture
 	METHOD d setPistonExtensionInternals (I)V
 		ARG 1 i
-	METHOD f unknown0 (I)I
+	METHOD f getRenderingMetadata (I)I
 		ARG 0 i
 	METHOD s setPistonExtensionInternalsToNegative ()V

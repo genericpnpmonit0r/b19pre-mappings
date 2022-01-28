@@ -1,1 +1,2 @@
 CLASS an RenderMagmaCube
+	FIELD c magmacubeModel I

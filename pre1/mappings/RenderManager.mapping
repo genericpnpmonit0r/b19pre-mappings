@@ -10,10 +10,24 @@ CLASS acf RenderManager
 	FIELD i playerViewY F
 	FIELD j playerViewX F
 	FIELD k options Lgj;
+	FIELD l livingLastTickPosX D
+	FIELD m livingLastTickPosY D
+	FIELD n livingLastTickPosZ D
 	FIELD o entityRenderMap Ljava/util/Map;
 	FIELD p fontRenderer Llc;
 	METHOD a getFontRenderer ()Llc;
+	METHOD a getDistanceToCamera (DDD)D
+	METHOD a getEntityClassRenderObject (Ljava/lang/Class;)Lrc;
+		ARG 1 entityClass
+	METHOD a getEntityRenderObject (Lle;)Lrc;
+		ARG 1 entity
 	METHOD a renderEntityWithPosYaw (Lle;DDDFF)V
 	METHOD a renderEntity (Lle;F)V
 	METHOD a set (Ltd;)V
 	METHOD a cacheActiveRenderInfo (Ltd;Lwd;Llc;Lxq;Lgj;F)V
+		ARG 1 world
+		ARG 2 renderer
+		ARG 3 fontrenderer
+		ARG 4 living
+		ARG 5 settings
+		ARG 6 multiplier

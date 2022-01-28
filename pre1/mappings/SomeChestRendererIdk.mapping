@@ -1,5 +1,5 @@
 CLASS cn SomeChestRendererIdk
-	FIELD a unknown0 Lcn;
+	FIELD a instance Lcn;
 	FIELD b teChest Lfu;
 	METHOD a unused (Lmn;IF)V
 		ARG 1 block

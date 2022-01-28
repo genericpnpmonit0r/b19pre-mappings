@@ -1,0 +1,4 @@
+CLASS pw ModelMagmaCube
+	FIELD a magmaCubeBodies [Lnv;
+	FIELD b magmaCubeParts Lnv;
+	METHOD a getSize0 ()I

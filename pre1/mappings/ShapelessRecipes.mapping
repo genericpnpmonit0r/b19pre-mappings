@@ -1,1 +1,6 @@
 CLASS acq ShapelessRecipes
+	FIELD a recipeOutput Lvw;
+	FIELD b recipeItems Ljava/util/List;
+	METHOD <init> (Lvw;Ljava/util/List;)V
+		ARG 1 output
+		ARG 2 items

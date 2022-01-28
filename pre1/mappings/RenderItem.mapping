@@ -1,3 +1,12 @@
 CLASS qo RenderItem
+	FIELD a setSomething Z
+	FIELD b renderBlocks Lru;
+	FIELD c rand Ljava/util/Random;
+	METHOD a renderTexturedQuad (IIIIII)V
 	METHOD a drawItemIntoGui (Llc;Lwd;IIIII)V
-	METHOD a renderItemIntoGUI (Llc;Lwd;Lvw;II)V
+		ARG 1 fontrenderer
+		ARG 2 renderengine
+		ARG 4 meta
+	METHOD a renderItemIntoGUI_fake (Llc;Lwd;Lvw;II)V
+	METHOD a renderQuad (Lyu;IIIII)V
+	METHOD b renderItemIntoGUI (Llc;Lwd;Lvw;II)V

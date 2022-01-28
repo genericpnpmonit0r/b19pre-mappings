@@ -1,1 +1,2 @@
 CLASS dg RenderBoat
+	FIELD a modelBoat Lge;

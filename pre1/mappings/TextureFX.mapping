@@ -1,9 +1,12 @@
 CLASS ql TextureFX
 	FIELD f imageData [B
-	FIELD g unknown4 I
+	FIELD g iconIndex I
 	FIELD h anaglyphEnabled Z
-	FIELD j unused I
-	FIELD k unknown3 I
+	FIELD i textureId I
+	FIELD j tileSize I
+	FIELD k tileImage I
 	METHOD <init> (I)V
 		ARG 1 texturepos
 	METHOD a onTick ()V
+	METHOD a bindImage (Lwd;)V
+		ARG 1 renderengine

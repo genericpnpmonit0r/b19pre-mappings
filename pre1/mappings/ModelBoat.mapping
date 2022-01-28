@@ -1,0 +1,2 @@
+CLASS sz ModelBoat
+	FIELD a boatSides [Lnv;

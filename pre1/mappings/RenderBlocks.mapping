@@ -2,21 +2,195 @@ CLASS ru RenderBlocks
 	FIELD aA aograssimgoinginsane Z
 	FIELD aB aograss00000 Z
 	FIELD aC aograss0000000 Z
+	FIELD aD aograss000 Z
+	FIELD aF aograss00000009 Z
+	FIELD aG i_give_up_these_fields_take_so_long_to_rename_on_my_setup Z
 	FIELD aI aograsscnn Z
 	FIELD aJ aograssxyzpnc Z
 	FIELD aK aograssxyznnc Z
 	FIELD aL aograssxyzcnp Z
 	FIELD a fancyGrass Z
+	FIELD aj aotype I
+	FIELD ak brightTL I
+	FIELD al brightBL I
+	FIELD am brightBR I
+	FIELD an brightTR I
+	FIELD ao colorRTL F
+	FIELD ap colorRBL F
 	FIELD b useInventoryTint Z
 	FIELD c catchesLight [Z
 	FIELD d blockAccess Lafd;
 	FIELD e overrideBlockTexture I
 	FIELD f flipTexture Z
 	FIELD g renderAllFaces Z
-	FIELD h uvRotE I
-	FIELD i uvRotW I
-	FIELD j uvRotS I
-	FIELD k uvRotN I
+	FIELD h uvRotateEast I
+	FIELD i uvRotateWest I
+	FIELD j uvRotateSouth I
+	FIELD k uvRotateNorth I
+	FIELD l uvRotateTop I
+	FIELD m uvRotateBottom I
+	FIELD n enableAO Z
+	FIELD o lightValueOwn F
+	METHOD <init> (Lafd;)V
+		ARG 1 access
+	METHOD a renderPistonRodUD (DDDDDDFD)V
 	METHOD a renderItemIn3d (I)Z
+	METHOD a renderLightOnBlock (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a getFluidHeight (IIILxn;)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 materialForFluid
+	METHOD a renderBlockFenceGate (Ladj;III)Z
+	METHOD a renderBlockPane (Laeo;III)Z
+		ARG 1 pane
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a renderTorchAtAngle (Lmn;DDDDD)V
+		ARG 1 block
+		ARG 2 i
+		ARG 4 j
+		ARG 6 k
+		ARG 8 l
+		ARG 10 m
+	METHOD a renderBottomFace (Lmn;DDDI)V
+	METHOD a renderCrossedSquares (Lmn;IDDD)V
+	METHOD a renderBlockStemSmall (Lmn;IDDDD)V
 	METHOD a renderBlockAsItem (Lmn;IF)V
+	METHOD a renderBlockStemBig (Lmn;IIDDDD)V
+	METHOD a renderBlockAllFaces (Lmn;III)V
+		ARG 1 block
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a renderStandardBlockWithAmbientOcclusion (Lmn;IIIFFF)Z
 	METHOD a renderBlockUsingTexture (Lmn;IIII)V
+		ARG 1 block
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 overrideblocktex
+	METHOD a renderPistonExtensionAllFaces (Lmn;IIIZ)V
+	METHOD a renderBlockFallingSand (Lmn;Ltd;III)V
+		ARG 1 block
+		ARG 2 world
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+	METHOD a renderBlockFence (Lwn;III)Z
+	METHOD a renderBlockRail (Lzr;III)Z
+		ARG 1 rail
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b renderPistonRodSN (DDDDDDFD)V
+	METHOD b renderCorrectedLightOnBlock (IIII)Z
+		ARG 1 light
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b renderTopFace (Lmn;DDDI)V
+	METHOD b renderBlockCropsImpl (Lmn;IDDD)V
+	METHOD b renderBlockByRenderType (Lmn;III)Z
+		ARG 1 block
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b renderStandardBlockWithColorMultiplier (Lmn;IIIFFF)Z
+	METHOD b renderPistonBase (Lmn;IIIZ)Z
+		ARG 1 block
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 extended
+	METHOD c renderPistonRodEW (DDDDDDFD)V
+	METHOD c getAOBrightness (IIII)I
+	METHOD c renderEastFace (Lmn;DDDI)V
+	METHOD c renderBlockTorch (Lmn;III)Z
+		ARG 1 block
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD c renderBlockCactusImpl (Lmn;IIIFFF)Z
+	METHOD c renderPistonExtension (Lmn;IIIZ)Z
+		ARG 1 block
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 extended
+	METHOD d renderWestFace (Lmn;DDDI)V
+	METHOD d renderPistonBaseAllFaces (Lmn;III)V
+		ARG 1 block
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD e renderNorthFace (Lmn;DDDI)V
+	METHOD e renderBlockLever (Lmn;III)Z
+		ARG 1 block
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD f renderSouthFace (Lmn;DDDI)V
+	METHOD f renderBlockFire (Lmn;III)Z
+		ARG 1 block
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD g renderBlockRedstoneWire (Lmn;III)Z
+		ARG 1 block
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h renderBlockLadder (Lmn;III)Z
+		ARG 1 block
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i renderBlockVine (Lmn;III)Z
+		ARG 1 block
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD j renderBlockReed (Lmn;III)Z
+		ARG 1 block
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD k renderBlockStem (Lmn;III)Z
+		ARG 1 block
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD l renderBlockCrops (Lmn;III)Z
+		ARG 1 block
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD m renderBlockLilypad (Lmn;III)Z
+		ARG 1 block
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD n renderBlockFluids (Lmn;III)Z
+		ARG 1 block
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD o renderStandardBlock (Lmn;III)Z
+	METHOD p renderBlockCactus (Lmn;III)Z
+	METHOD q renderBlockStairs (Lmn;III)Z
+	METHOD r renderBlockDoor (Lmn;III)Z
+	METHOD s renderBlockBed (Lmn;III)Z
+		ARG 1 block
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD t renderBlockRepeater (Lmn;III)Z
+		ARG 1 block
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

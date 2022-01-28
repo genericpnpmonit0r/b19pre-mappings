@@ -1,1 +1,4 @@
 CLASS wy RenderFireball
+	FIELD a fireballsize F
+	METHOD <init> (F)V
+		ARG 1 scale

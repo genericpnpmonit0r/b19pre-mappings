@@ -1,1 +1,2 @@
 CLASS aby RenderMinecart
+	FIELD a modelMinecart Lge;

@@ -1,1 +1,6 @@
 CLASS aah SlotArmor
+	FIELD e armorType I
+	FIELD f inventory_ Ls;
+	METHOD <init> (Ls;Lha;IIII)V
+		ARG 1 playerinv
+		ARG 6 armortype

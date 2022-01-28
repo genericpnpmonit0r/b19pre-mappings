@@ -44,6 +44,7 @@ CLASS i RenderGlobal
 	FIELD y glSkyList2 I
 	FIELD z minBlockX I
 	METHOD <init> (Lnet/minecraft/client/Minecraft;Lwd;)V
+		ARG 1 minceraft
 		ARG 2 renderengine
 	METHOD a loadRenderers ()V
 	METHOD a returnsFalse (DDDF)Z
@@ -56,6 +57,7 @@ CLASS i RenderGlobal
 	METHOD a renderEntities (Lba;Laft;F)V
 	METHOD a drawOutlinedBoundingBox (Lsw;)V
 	METHOD a changedWorld (Ltd;)V
+		ARG 1 world
 	METHOD a drawBlockBreaking (Lui;Lmv;ILvw;F)V
 	METHOD a sortAndRender (Lxq;ID)I
 	METHOD a updateRenderers (Lxq;Z)Z

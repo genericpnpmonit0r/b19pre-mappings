@@ -1,1 +1,2 @@
 CLASS pu RenderCreeper
+	FIELD c creeperModel Lge;

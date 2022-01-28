@@ -1,3 +1,8 @@
 CLASS oi EntityChicken
+	FIELD a what_is_this Z
+	FIELD ap aaaaaaaaaaaaaaaaaaaaa F
 	FIELD aq timeUntilNextEgg I
+	FIELD b renderfloat2 F
 	FIELD c destPos F
+	FIELD d renderfloat0 F
+	FIELD e renderfloat1 F

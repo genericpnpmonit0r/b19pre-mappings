@@ -1,1 +1,4 @@
 CLASS co RenderPainting
+	FIELD a rand Ljava/util/Random;
+	METHOD a setDirectionOfPainting (Lkg;FF)V
+	METHOD a setSizeOfPainting (Lkg;IIII)V
