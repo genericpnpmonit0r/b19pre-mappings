@@ -1,0 +1,51 @@
+CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b unknown_rename_this_later Ljava/util/HashMap;
+	FIELD c networkListenThread Ldy;
+	FIELD d propertyManagerObj Lou;
+	FIELD e worldMgr [Lew;
+	FIELD f serverConfigMgr Lgx;
+	FIELD g serverStopped Z
+	FIELD h deathTime I
+	FIELD i currentTask Ljava/lang/String;
+	FIELD j percentDone I
+	FIELD k entityTracker [Lsd;
+	FIELD l onlineMode Z
+	FIELD m spawnPeacefulMobs Z
+	FIELD n pvpOn Z
+	FIELD o allowFlight Z
+	FIELD p motd Ljava/lang/String;
+	FIELD q commandHandler Lqe;
+	FIELD r serverRunning Z
+	FIELD s playersOnline Ljava/util/List;
+	FIELD t commands Ljava/util/List;
+	METHOD a initiateShutdown ()V
+	METHOD a getWorldManager (I)Lew;
+		ARG 1 dimension
+	METHOD a addToOnlinePlayerList (Lem;)V
+		ARG 1 iupdateplayerlistbox
+	METHOD a getFile (Ljava/lang/String;)Ljava/io/File;
+		ARG 1 filename
+	METHOD a outputPercentRemaining (Ljava/lang/String;I)V
+		ARG 1 task
+		ARG 2 remainder
+	METHOD a addCommand (Ljava/lang/String;Lqd;)V
+		ARG 1 name
+		ARG 2 cmdListener
+	METHOD a initWorld (Llm;Ljava/lang/String;J)V
+		ARG 1 isaveformat
+		ARG 2 filenamepath
+		ARG 3 time
+	METHOD b commandLineParser ()V
+	METHOD b getEntityTracker (I)Lsd;
+		ARG 1 entityTrackerForDim
+	METHOD c startServer ()Z
+	METHOD c logWarning (Ljava/lang/String;)V
+		ARG 1 warningStr
+	METHOD e clearCurrentTask ()V
+	METHOD f saveServerWorld ()V
+	METHOD g stopServer ()V
+	METHOD h doTick ()V
+	METHOD main ([Ljava/lang/String;)V
+		ARG 0 args
+	METHOD run ()V

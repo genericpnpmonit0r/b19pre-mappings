@@ -1,0 +1,6 @@
+CLASS lm ISaveFormat
+	METHOD a isOldSaveType (Ljava/lang/String;)Z
+		ARG 1 filenamepath
+	METHOD a convertMapFormat (Ljava/lang/String;Luy;)Z
+		ARG 1 filenamepath
+		ARG 2 progress

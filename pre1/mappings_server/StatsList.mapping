@@ -1,0 +1,2 @@
+CLASS ii StatsList
+	METHOD a serverInitStatsList ()V

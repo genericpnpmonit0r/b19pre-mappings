@@ -1,0 +1,4 @@
+CLASS ou PropertyManager
+	METHOD a getIntProperty (Ljava/lang/String;I)I
+	METHOD a setStringProperty (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+	METHOD a setBooleanProperty (Ljava/lang/String;Z)Z

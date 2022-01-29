@@ -1,0 +1,2 @@
+CLASS bo Vec3D
+	METHOD a initialize ()V

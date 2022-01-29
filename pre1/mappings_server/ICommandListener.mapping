@@ -1,0 +1,4 @@
+CLASS qd ICommandListener
+	METHOD b log (Ljava/lang/String;)V
+		ARG 1 str
+	METHOD d getUsername ()Ljava/lang/String;

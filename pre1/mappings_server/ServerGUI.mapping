@@ -1,0 +1,2 @@
+CLASS rt ServerGUI
+	METHOD a initGui (Lnet/minecraft/server/MinecraftServer;)V

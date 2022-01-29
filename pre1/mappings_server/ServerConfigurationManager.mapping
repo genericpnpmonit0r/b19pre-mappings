@@ -1,0 +1,3 @@
+CLASS gx ServerConfigurationManager
+	METHOD a sendPacketToAllPlayersInDimension (Ljc;I)V
+	METHOD a setPlayerManager ([Lew;)V

@@ -1,0 +1,9 @@
+CLASS ep
+	FIELD v difficulty I
+	FIELD y worldProvider Luc;
+	METHOD a addWorldAccess (Lne;)V
+	METHOD a saveWorld (ZLuy;)V
+	METHOD a areHostileMobsEnabled (ZZ)V
+	METHOD l getWorldTime ()J
+	METHOD m getSpawnPoint ()Lbm;
+	METHOD p getWorldInfo ()Ldx;
