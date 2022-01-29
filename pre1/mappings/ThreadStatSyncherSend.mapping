@@ -1,0 +1,2 @@
+CLASS na ThreadStatSyncherSend
+	FIELD b syncer Lrn;

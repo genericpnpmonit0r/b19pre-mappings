@@ -1,0 +1,3 @@
+CLASS ip ComponentStrongholdUnknown
+	FIELD a sizeTotalOrMax I
+	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIII)Lno;

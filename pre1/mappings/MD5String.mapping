@@ -1,0 +1,6 @@
+CLASS up MD5String
+	FIELD a md5string Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 md5str
+	METHOD a addString (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 md5str

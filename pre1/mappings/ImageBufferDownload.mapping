@@ -1,0 +1,4 @@
+CLASS kr ImageBufferDownload
+	FIELD a imageData [I
+	FIELD b imageWidth I
+	FIELD c imageHeight I

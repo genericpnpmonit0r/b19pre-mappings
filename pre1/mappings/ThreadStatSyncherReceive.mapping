@@ -1,0 +1,2 @@
+CLASS nc ThreadStatSyncherReceive
+	FIELD a syncer Lrn;

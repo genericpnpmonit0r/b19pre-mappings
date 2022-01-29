@@ -1,0 +1,6 @@
+CLASS lh Frustrum
+	FIELD a clippingHelper Lsf;
+	FIELD b xpos D
+	FIELD c ypos D
+	FIELD d zpos D
+	METHOD a isBoxInFrustum (DDDDDD)Z
