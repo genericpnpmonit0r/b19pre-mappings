@@ -1,0 +1,2 @@
+CLASS zp ComponentStrongholdPrison
+	METHOD a getStrongholdComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lzp;

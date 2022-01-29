@@ -1,0 +1,3 @@
+CLASS zn ComponentVillageTorch
+	FIELD a heightLevel I
+	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIII)Lno;

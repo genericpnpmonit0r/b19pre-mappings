@@ -1,0 +1,10 @@
+CLASS wi StructureStrongholdPieces
+	FIELD a totalPieceWeight I
+	FIELD b pieceWeightArray [Labt;
+	FIELD c structurePieceList Ljava/util/List;
+	FIELD d structurestrongholdstones Lado;
+	METHOD a prepareStructurePieces ()V
+	METHOD a getStrongholdComponentFromWeightedPiece (Labt;Ljava/util/List;Ljava/util/Random;IIIII)Leh;
+	METHOD b getStairsComponent (Lq;Ljava/util/List;Ljava/util/Random;IIIII)Leh;
+	METHOD c canAddStructurePieces ()Z
+	METHOD c getStairsComponent2 (Lq;Ljava/util/List;Ljava/util/Random;IIIII)Lfw;

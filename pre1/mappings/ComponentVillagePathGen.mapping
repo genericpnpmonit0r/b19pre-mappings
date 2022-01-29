@@ -1,0 +1,3 @@
+CLASS acn ComponentVillagePathGen
+	FIELD a XZSizeMax I
+	METHOD a findValidPlacement (Lf;Ljava/util/List;Ljava/util/Random;IIII)Lno;

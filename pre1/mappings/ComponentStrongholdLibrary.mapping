@@ -1,0 +1,5 @@
+CLASS yb ComponentStrongholdLibrary
+	FIELD a doorState Lkb;
+	FIELD b treasureArray [Lew;
+	FIELD c ySizeBool Z
+	METHOD a getStrongholdComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lyb;

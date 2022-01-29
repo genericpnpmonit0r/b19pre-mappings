@@ -1,0 +1,2 @@
+CLASS it ComponentStrongholdStraight
+	METHOD a getStrongholdComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lit;

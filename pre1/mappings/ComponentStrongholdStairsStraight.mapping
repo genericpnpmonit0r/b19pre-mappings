@@ -1,0 +1,2 @@
+CLASS yy ComponentStrongholdStairsStraight
+	METHOD a getStrongholdComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lyy;

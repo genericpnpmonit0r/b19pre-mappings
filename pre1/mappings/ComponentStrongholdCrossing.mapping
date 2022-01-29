@@ -1,0 +1,2 @@
+CLASS adt ComponentStrongholdCrossing
+	METHOD a getStrongholdComponent (Ljava/util/List;Ljava/util/Random;IIIII)Ladt;

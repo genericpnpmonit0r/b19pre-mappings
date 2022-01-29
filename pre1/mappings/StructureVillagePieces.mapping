@@ -1,2 +1,7 @@
 CLASS pc StructureVillagePieces
+	METHOD a getVillageComponentFromWeightedPiece (Lda;Ljava/util/List;Ljava/util/Random;IIIII)Lacp;
+	METHOD a getAvailablePieceWeight (Ljava/util/ArrayList;)I
 	METHOD a getStructureVillageWeightedPieceList (Ljava/util/Random;I)Ljava/util/ArrayList;
+	METHOD c getNextVillageComponent (Lf;Ljava/util/List;Ljava/util/Random;IIIII)Lacp;
+	METHOD d getNextVillageStructureComponent (Lf;Ljava/util/List;Ljava/util/Random;IIIII)Lfw;
+	METHOD e getNextComponentVillagePath (Lf;Ljava/util/List;Ljava/util/Random;IIIII)Lfw;

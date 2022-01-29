@@ -1,7 +1,9 @@
 CLASS afa StatFileWriter
+	FIELD d statsSyncher Lrn;
 	METHOD a writeStat (Ladw;)I
 	METHOD a readStat (Ladw;I)V
+	METHOD a writeStatToMap (Ljava/util/Map;)V
 	METHOD a hasAchievementUnlocked (Lyv;)Z
-	METHOD b func_jadnumbershit_letter1 ()V
+	METHOD b unknown00000000 ()V
 	METHOD c syncStats ()V
 	METHOD d anotherIdontKnowWhatThisIs ()V
