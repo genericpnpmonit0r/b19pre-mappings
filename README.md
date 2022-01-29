@@ -2,15 +2,19 @@
 
 Unfinished Enigma mappings for MC Beta 1.9 prereleases
 
-# Please note that there are no server mappings as of me making this repo
+# Notes
 
-I might make the server mappings later on but i want to get the clients mapped out first.
+I will not be making mappings for b1.9pre5 since MCP is available for that version.
 
 # Versions
 
 - b1.9pre1
 
 	Mostly Complete, there might be some missing field and method names here or there.
+
+- b1.9pre1-server
+
+	in progress
 	
 - b1.9pre2  
 
@@ -19,5 +23,3 @@ I might make the server mappings later on but i want to get the clients mapped o
 - b1-9pre3-1350  
 
 	in progress
-
-# I will not be making mappings for b1.9pre5 since MCP is available for that version
