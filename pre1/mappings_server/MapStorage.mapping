@@ -1,1 +1,2 @@
 CLASS gh MapStorage
+	METHOD a saveAllData ()V

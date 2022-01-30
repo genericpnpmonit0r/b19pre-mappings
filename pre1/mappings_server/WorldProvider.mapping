@@ -2,3 +2,4 @@ CLASS uc WorldProvider
 	FIELD b worldChunkMgr Lut;
 	FIELD g worldType I
 	METHOD a getProviderForDimension (I)Luc;
+	METHOD a registerWorld (Lep;)V

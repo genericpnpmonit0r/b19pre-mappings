@@ -10,7 +10,7 @@ CLASS jc Packet
 	METHOD a getPacketSize ()I
 	METHOD a getNewPacket (I)Ljc;
 		ARG 0 id
-	METHOD a adIdClassMapping (IZZLjava/lang/Class;)V
+	METHOD a addIdClassMapping (IZZLjava/lang/Class;)V
 		ARG 0 id
 		ARG 1 clientpktIdLst
 		ARG 2 srvpktIdLst

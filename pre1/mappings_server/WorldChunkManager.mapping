@@ -1,1 +1,14 @@
 CLASS ut WorldChunkManager
+	FIELD a rainfalls [F
+	FIELD b unknownLayer1 Ldu;
+	FIELD c unknownLayer2 Ldu;
+	FIELD d temperatureLayer Ldu;
+	FIELD e rainfallLayer Ldu;
+	FIELD f biomeCache Lrw;
+	FIELD g biomesToSpawnIn Ljava/util/List;
+	METHOD a getBiomesToSpawnIn ()Ljava/util/List;
+	METHOD a getBiomeGenAt (II)Liz;
+		ARG 1 x
+		ARG 2 z
+	METHOD a getBiomeGenAtChunkCoord (Lvs;)Liz;
+		ARG 1 chunkcoordintpair

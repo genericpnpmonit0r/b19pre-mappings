@@ -1,4 +1,6 @@
 CLASS dx WorldInfo
+	METHOD a setSpawn (III)V
+	METHOD a setWorldName (Ljava/lang/String;)V
 	METHOD c getSpawnX ()I
 	METHOD d setGamemode1 (I)V
 	METHOD e getSpawnZ ()I

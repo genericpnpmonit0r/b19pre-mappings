@@ -1,1 +1,5 @@
 CLASS lt PacketCounter
+	FIELD a incrementer I
+	FIELD b timestamp J
+	METHOD a count (I)V
+		ARG 1 id

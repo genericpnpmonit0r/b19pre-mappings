@@ -1,1 +1,3 @@
 CLASS jv Chunk
+	METHOD a getBlockID (III)I
+	METHOD a setBlockIDWithMetadata (IIIII)Z

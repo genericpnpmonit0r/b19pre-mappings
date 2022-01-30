@@ -2,7 +2,7 @@ CLASS ep World
 	FIELD A chunkProvider Lcc;
 	FIELD B worldFile Ltv;
 	FIELD C worldInfo Ldx;
-	FIELD D worldChunkLoadOverride Z
+	FIELD D findingSpawnPoint Z
 	FIELD E mapStorage Lgh;
 	FIELD F spawHostileMobs Z
 	FIELD G spawnPeacefulMobs Z
@@ -53,6 +53,27 @@ CLASS ep World
 		ARG 3 settings
 		ARG 4 provider
 	METHOD a getWorldChunkManager ()Lut;
+	METHOD a getFirstUncoveredBlock (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD a doChunksNearChunkExist (IIII)Z
+		ARG 1 x
+		ARG 2 z
+		ARG 3 x2
+		ARG 4 z2
+	METHOD a setBlockAndMetadata (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+		ARG 5 meta
+	METHOD a checkChunksExist (IIIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 x2
+		ARG 5 y2
+		ARG 6 z2
 	METHOD a canMineBlock (Lga;III)Z
 		ARG 1 player
 		ARG 2 x
@@ -76,15 +97,45 @@ CLASS ep World
 		ARG 1 entity
 		ARG 2 force
 	METHOD a saveWorld (ZLuy;)V
+		ARG 1 saveEnabled
+		ARG 2 progress
 	METHOD a areHostileMobsEnabled (ZZ)V
 	METHOD b createChunkProvider ()Lcc;
+	METHOD b getChunkFromBlockCoords (II)Ljv;
+		ARG 1 x
+		ARG 2 z
+	METHOD b setBlock (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
 	METHOD c generateSpawnPoint ()V
+	METHOD c getChunkFromChunkCoords (II)Ljv;
+		ARG 1 x
+		ARG 2 z
 	METHOD c obtainEntitySkin (Lpp;)V
 		ARG 1 entity
 	METHOD d releaseEntitySkin (Lpp;)V
 		ARG 1 entity
+	METHOD f calculateInitialSkylight ()V
+	METHOD f isAirBlock (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD g chunkExists (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD g blockExists (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD j checkSessionLock ()V
+	METHOD k getRandomSeed ()J
 	METHOD l getWorldTime ()J
 	METHOD m getSpawnPoint ()Lbm;
 	METHOD o getWorldFile ()Ltv;
 	METHOD p getWorldInfo ()Ldx;
+	METHOD s updateAllLightTypes (III)V
 	METHOD u isRaining ()Z
+	METHOD w saveLevel ()V
+	METHOD x calculateInitialWeather ()V
