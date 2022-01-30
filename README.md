@@ -1,10 +1,12 @@
 # b19pre-mappings
 
-Unfinished Enigma mappings for MC Beta 1.9 prereleases
+Unfinished Enigma mappings for Minecraft Beta 1.9 prereleases.
 
 # Notes
 
 I will not be making mappings for b1.9pre5 since MCP is available for that version.
+
+Note that there will be weirdly or stupidly named classes, fields and methods when i was going insane at several points in time.
 
 # Versions
 
@@ -22,4 +24,4 @@ I will not be making mappings for b1.9pre5 since MCP is available for that versi
 	
 - b1-9pre3-1350  
 
-	in progress
+	progress halted (will continue on this after pre1 and pre2 are done)
