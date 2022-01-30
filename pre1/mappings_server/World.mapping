@@ -1,0 +1,90 @@
+CLASS ep World
+	FIELD A chunkProvider Lcc;
+	FIELD B worldFile Ltv;
+	FIELD C worldInfo Ldx;
+	FIELD D worldChunkLoadOverride Z
+	FIELD E mapStorage Lgh;
+	FIELD F spawHostileMobs Z
+	FIELD G spawnPeacefulMobs Z
+	FIELD H the32kIntArray [I
+	FIELD I singleplayerWorld Z
+	FIELD L no_this_isnt_a_boolean_what_the_hell_was_i_thinking D
+	FIELD M unloadedEntityList Ljava/util/List;
+	FIELD N scheduledTickTreeSet Ljava/util/TreeSet;
+	FIELD O scheduledTickSet Ljava/util/Set;
+	FIELD P addedTileEntityList Ljava/util/List;
+	FIELD Q field_aAAAAAAAAAAQ Ljava/util/List;
+	FIELD R cloudColor J
+	FIELD S lockTimestamp J
+	FIELD T allPlayersSleeping Z
+	FIELD U collidingBoundingBoxes Ljava/util/ArrayList;
+	FIELD V scanningTileEntities Z
+	FIELD W activeChunksSet Ljava/util/Set;
+	FIELD X ambientTickCountdown I
+	FIELD a worldYBits I
+	FIELD b worldYBitsAdded4 I
+	FIELD c worldYMax I
+	FIELD d worldYMask I
+	FIELD e worldOceanHeight I
+	FIELD f scheduledUpdatesAreImmediate Z
+	FIELD g loadedEntityList Ljava/util/List;
+	FIELD h loadedTileEntityList Ljava/util/List;
+	FIELD i playerEntities Ljava/util/List;
+	FIELD j lightningEntities Ljava/util/List;
+	FIELD k skylightSubtracted I
+	FIELD l distHashCounter I
+	FIELD m DIST_HASH_MAGIC I
+	FIELD n prevRainingStrength F
+	FIELD o rainingStrength F
+	FIELD p prevThunderingStrength F
+	FIELD q thunderingStrength F
+	FIELD r lastLightningBolt I
+	FIELD s lightningFlash I
+	FIELD t editingBlocks Z
+	FIELD u autosavePeriod I
+	FIELD v difficulty I
+	FIELD w rand Ljava/util/Random;
+	FIELD x isNewWorld Z
+	FIELD y worldProvider Luc;
+	FIELD z worldAccess Ljava/util/List;
+	METHOD <init> (Ltv;Ljava/lang/String;Lgg;Luc;)V
+		ARG 1 savehandler
+		ARG 2 name
+		ARG 3 settings
+		ARG 4 provider
+	METHOD a getWorldChunkManager ()Lut;
+	METHOD a canMineBlock (Lga;III)Z
+		ARG 1 player
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a addWorldAccess (Lne;)V
+	METHOD a addLightningBolt (Lpp;)Z
+		ARG 1 entity
+	METHOD a sendTrackedEntityStatusUpdatePacket (Lpp;B)V
+		ARG 1 entity
+		ARG 2 entitymeta
+	METHOD a newExplosion (Lpp;DDDFZ)Lob;
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 explosionPower
+		ARG 9 burning
+	METHOD a getCollidingBoundingBoxes (Lpp;Led;)Ljava/util/List;
+	METHOD a updateEntityWithOptionalForce (Lpp;Z)V
+		ARG 1 entity
+		ARG 2 force
+	METHOD a saveWorld (ZLuy;)V
+	METHOD a areHostileMobsEnabled (ZZ)V
+	METHOD b createChunkProvider ()Lcc;
+	METHOD c generateSpawnPoint ()V
+	METHOD c obtainEntitySkin (Lpp;)V
+		ARG 1 entity
+	METHOD d releaseEntitySkin (Lpp;)V
+		ARG 1 entity
+	METHOD l getWorldTime ()J
+	METHOD m getSpawnPoint ()Lbm;
+	METHOD o getWorldFile ()Ltv;
+	METHOD p getWorldInfo ()Ldx;
+	METHOD u isRaining ()Z

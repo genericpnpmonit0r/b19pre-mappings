@@ -1,0 +1,2 @@
+CLASS ft NetLoginHandler
+	METHOD a kickUser (Ljava/lang/String;)V

@@ -1,0 +1,14 @@
+CLASS ju EnumCreatureType
+	FIELD d creatureClass Ljava/lang/Class;
+	FIELD e maxNumberOfCreature I
+	FIELD f creatureMaterial Ljw;
+	FIELD g isPeacefulCreature Z
+	METHOD <init> (Ljava/lang/String;ILjava/lang/Class;ILjw;Z)V
+		ARG 3 creaturesClass
+		ARG 4 maxNumOfCreature
+		ARG 5 creatureMaterial
+		ARG 6 isPeaceful
+	METHOD a getCreatureClass ()Ljava/lang/Class;
+	METHOD b getMaxNumberOfCreature ()I
+	METHOD c getCreatureMaterial ()Ljw;
+	METHOD d getPeacefulCreature ()Z

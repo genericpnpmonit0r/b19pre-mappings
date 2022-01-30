@@ -1,1 +1,3 @@
 CLASS sd EntityTracker
+	METHOD a trackEntity (Lpp;)V
+	METHOD b untrackEntity (Lpp;)V

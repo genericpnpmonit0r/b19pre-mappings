@@ -1,0 +1,2 @@
+CLASS es EntityPlayerMP
+	FIELD a playerNetServerHandler Ljn;

@@ -1,0 +1,2 @@
+CLASS jn
+	METHOD b sendPacket (Ljc;)V

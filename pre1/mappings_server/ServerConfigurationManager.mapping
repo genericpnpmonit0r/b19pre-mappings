@@ -1,3 +1,63 @@
 CLASS gx ServerConfigurationManager
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b playerEntities Ljava/util/List;
+	FIELD c mcServer Lnet/minecraft/server/MinecraftServer;
+	FIELD d playerManagerObj [Ltx;
+	FIELD e maxPlayers I
+	FIELD f bannedPlayers Ljava/util/Set;
+	FIELD g bannedIPs Ljava/util/Set;
+	FIELD h ops Ljava/util/Set;
+	FIELD i whitelistedIPs Ljava/util/Set;
+	FIELD j bannedPlayersFile Ljava/io/File;
+	FIELD k ipBanFile Ljava/io/File;
+	FIELD l opFile Ljava/io/File;
+	FIELD m whitelistPlayerFile Ljava/io/File;
+	FIELD n playerNBTManagerObj Lhi;
+	FIELD o whiteListEnforced Z
+	FIELD p playercounteridk I
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 minecraftserver
+	METHOD a getMaxTrackingDistance ()I
+	METHOD a sendPacketToPlayersAroundPoint (DDDDILjc;)V
+	METHOD a getPlayerManager (I)Ltx;
+		ARG 1 dim
+	METHOD a markBlockNeedsUpdate (IIII)V
+	METHOD a sentTileEntityToPlayer (IIILms;)V
+	METHOD a joinNewPlayerManager (Les;)V
+		ARG 1 playerMP
+	METHOD a doPlayerSleep (Les;Lew;)V
+		ARG 1 playerMP
+		ARG 2 worldserver
+	METHOD a login (Lft;Ljava/lang/String;)Les;
+		ARG 1 loginhandler
+		ARG 2 bannedPlayerName
+	METHOD a sendSFXToPlayer (Lga;DDDDILjc;)V
+	METHOD a sendPacketToAllPlayers (Ljc;)V
 	METHOD a sendPacketToAllPlayersInDimension (Ljc;I)V
 	METHOD a setPlayerManager ([Lew;)V
+		ARG 1 nbtmgr
+	METHOD b readPlayerDataFromFile (Les;)V
+		ARG 1 playerMP
+	METHOD c playerLoggedIn (Les;)V
+		ARG 1 playerMP
+	METHOD d (Les;)V
+		ARG 1 playerMP
+	METHOD e getWhitelistedIPs ()Ljava/util/Set;
+	METHOD e (Les;)V
+		ARG 1 playerMP
+	METHOD f reloadWhitelist ()V
+	METHOD g playersOnline ()I
+	METHOD g (Les;)V
+		ARG 1 playerMP
+	METHOD h getMaxPlayers ()I
+	METHOD h isOp (Ljava/lang/String;)Z
+	METHOD i readBannedPlayers ()V
+	METHOD j writeBannedPlayers ()V
+	METHOD k loadBannedList ()V
+	METHOD l saveBannedList ()V
+	METHOD l removeFromWhitelist (Ljava/lang/String;)V
+		ARG 1 ip
+	METHOD m loadOps ()V
+	METHOD n saveOps ()V
+	METHOD o loadWhitelist ()V
+	METHOD p saveWhitelist ()V

@@ -1,0 +1,20 @@
+CLASS cc IChunkProvider
+	METHOD a unload100OldestChunks ()Z
+	METHOD a chunkExists (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD a populate (Lcc;II)V
+		ARG 1 chunkprovider
+		ARG 2 x
+		ARG 3 z
+	METHOD a getCreatureTypesList (Lju;III)Ljava/util/List;
+	METHOD a saveChunks (ZLuy;)Z
+		ARG 1 canSave
+		ARG 2 progress
+	METHOD b canSave ()Z
+	METHOD b provideChunk (II)Ljv;
+		ARG 1 x
+		ARG 2 z
+	METHOD c loadChunk (II)Ljv;
+		ARG 1 x
+		ARG 2 z

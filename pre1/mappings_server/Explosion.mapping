@@ -1,0 +1,5 @@
+CLASS ob Explosion
+	FIELD a isFlaming Z
+	FIELD g destroyedBlockPositions Ljava/util/Set;
+	METHOD a doExplosionA ()V
+	METHOD a doExplosionB (Z)V

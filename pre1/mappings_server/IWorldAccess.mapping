@@ -1,0 +1,42 @@
+CLASS ne IWorldAccess
+	METHOD a markBlockNeedsUpdate (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a markBlockRangeNeedsUpdate (IIIIII)V
+		ARG 1 xstart
+		ARG 2 ystart
+		ARG 3 zstart
+		ARG 4 xend
+		ARG 5 yend
+		ARG 6 zend
+	METHOD a doNothingWithTileEntity (IIILms;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tileentity
+	METHOD a playAuxSFX (Lga;IIIII)V
+		ARG 1 player
+		ARG 2 id
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 vol
+	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
+		ARG 1 name
+	METHOD a playSound (Ljava/lang/String;DDDFF)V
+		ARG 1 name
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 volume
+		ARG 9 pitch
+	METHOD a playRecord (Ljava/lang/String;III)V
+		ARG 1 name
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a obtainEntitySkin (Lpp;)V
+		ARG 1 entity
+	METHOD b releaseEntitySkin (Lpp;)V
+		ARG 1 entity

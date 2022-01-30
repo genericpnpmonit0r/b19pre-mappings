@@ -1,0 +1,4 @@
+CLASS iu IntHashMap
+	METHOD a lookup (I)Ljava/lang/Object;
+	METHOD a addKey (ILjava/lang/Object;)V
+	METHOD d removeObject (I)Ljava/lang/Object;
