@@ -4,6 +4,8 @@ Unfinished Enigma mappings for Minecraft Beta 1.9 prereleases.
 
 # Notes
 
+I will __NOT__ be providing any help with using these mappings. You will have to figure that out on your own.
+
 I will not be making mappings for b1.9pre5 since MCP is available for that version.
 
 Note that there will be weirdly or stupidly named classes, fields and methods when i was going insane at several points in time.
