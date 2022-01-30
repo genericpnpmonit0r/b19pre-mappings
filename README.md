@@ -2,6 +2,10 @@
 
 Unfinished Enigma mappings for Minecraft Beta 1.9 prereleases.
 
+These mappings are made with FabricMC's fork of Enigma which can be found here: https://maven.fabricmc.net/cuchaz/enigma-swing/0.27.3/
+
+Specifically version enigma-swing-0.27.3-all.
+
 # Notes
 
 I will __NOT__ be providing any help with using these mappings. You will have to figure that out on your own.
