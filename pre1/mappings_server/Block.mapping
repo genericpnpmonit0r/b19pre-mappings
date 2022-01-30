@@ -10,16 +10,25 @@ CLASS rj Block
 	FIELD I oreIron Lrj;
 	FIELD J oreCoal Lrj;
 	FIELD K log Lrj;
-	FIELD L vine Lbf;
+	FIELD L leaves Lbf;
 	FIELD W pistonStickyBase Lrj;
-	FIELD Y lilypad Low;
+	FIELD Y tallgrass Low;
 	FIELD aa pistonBase Lrj;
 	FIELD ac cloth Lrj;
 	FIELD al slab Lrj;
+	FIELD bA lilypad_ Lrj;
+	FIELD bC fenceNetherbrick Lrj;
+	FIELD bD stairsNetherbrick Lrj;
+	FIELD bE netherWarts Lrj;
 	FIELD bG blockID I
+	FIELD bK statsEnabled Z
 	FIELD bT blockMaterial Ljw;
 	FIELD bn stoneBrick Lrj;
-	FIELD bv tallGrass Lrj;
+	FIELD bq ironPane Lrj;
+	FIELD br glassPane Lrj;
+	FIELD bs melon Lrj;
+	FIELD bv vine Lrj;
+	FIELD bz mycelium Luw;
 	FIELD d soundPowderFootstep Lco;
 	FIELD e soundWoodFootstep Lco;
 	FIELD f soundGravelFootstep Lco;
@@ -43,3 +52,6 @@ CLASS rj Block
 	FIELD x cobblestone Lrj;
 	FIELD y wood Lrj;
 	FIELD z sapling Lrj;
+	METHOD a setBlockName (Ljava/lang/String;)Lrj;
+	METHOD g setRequiresSelfNotify ()Lrj;
+	METHOD n disableStats ()Lrj;

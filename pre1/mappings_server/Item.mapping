@@ -1,2 +1,3 @@
 CLASS fy Item
 	FIELD c ItemsList [Lfy;
+	METHOD a setItemName (Ljava/lang/String;)Lfy;
