@@ -3,6 +3,7 @@ CLASS un IBlockAccess
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD c getBlockMetadata (III)I
 	METHOD d getBlockMaterial (III)Ljw;
 		ARG 1 x
 		ARG 2 y

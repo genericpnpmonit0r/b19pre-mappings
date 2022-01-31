@@ -1,0 +1,20 @@
+CLASS ro StructureStart
+	FIELD a components Ljava/util/LinkedList;
+	FIELD b boundingBox Lst;
+	METHOD a isSizeableStructure ()Z
+	METHOD a markAvailableHeight (Lep;Ljava/util/Random;I)V
+		ARG 1 world
+		ARG 2 rand
+		ARG 3 sizey
+	METHOD a markSizexz (Lep;Ljava/util/Random;II)V
+		ARG 1 world
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 z
+	METHOD a generateStructure (Lep;Ljava/util/Random;Lst;)V
+		ARG 1 world
+		ARG 2 rand
+		ARG 3 structureBoundingBox
+	METHOD b getBoundingBox ()Lst;
+	METHOD c getComponents ()Ljava/util/LinkedList;
+	METHOD d updateBoundingBox ()V

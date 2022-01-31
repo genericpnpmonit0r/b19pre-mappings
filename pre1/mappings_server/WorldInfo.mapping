@@ -4,3 +4,4 @@ CLASS dx WorldInfo
 	METHOD c getSpawnX ()I
 	METHOD d setGamemode1 (I)V
 	METHOD e getSpawnZ ()I
+	METHOD o getMapFeaturesEnabled ()Z

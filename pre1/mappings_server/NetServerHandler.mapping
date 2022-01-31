@@ -1,2 +1,2 @@
-CLASS jn
+CLASS jn NetServerHandler
 	METHOD b sendPacket (Ljc;)V

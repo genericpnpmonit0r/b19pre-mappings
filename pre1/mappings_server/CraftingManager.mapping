@@ -1,0 +1,12 @@
+CLASS gs CraftingManager
+	FIELD a instance Lgs;
+	FIELD b recipes Ljava/util/List;
+	METHOD a addRecipe (Lhz;[Ljava/lang/Object;)V
+		ARG 1 output
+		ARG 2 patternAndIngredients
+	METHOD a findMatchingRecipe (Lkq;)Lhz;
+		ARG 1 invCrafting
+	METHOD b getRecipeList ()Ljava/util/List;
+	METHOD b addShapelessRecipe (Lhz;[Ljava/lang/Object;)V
+		ARG 1 output
+		ARG 2 patternAndIngredients

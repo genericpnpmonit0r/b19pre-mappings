@@ -1,2 +1,23 @@
 CLASS es EntityPlayerMP
 	FIELD a playerNetServerHandler Ljn;
+	FIELD b mcServer Lnet/minecraft/server/MinecraftServer;
+	FIELD c playerControllerServer Lrl;
+	FIELD cb lastHealth I
+	FIELD cc lastpos1 I
+	FIELD cd ded Z
+	FIELD ce lastpos2 I
+	FIELD cf ticksOfInvuln I
+	FIELD cg playerInventory [Lhz;
+	FIELD ch currentWindowId I
+	FIELD d managedPosX D
+	FIELD e managedPosZ D
+	FIELD f loadedChunks Ljava/util/List;
+	FIELD g loadedChunksSet Ljava/util/Set;
+	FIELD h isChangingQuantityOnly Z
+	FIELD i ping I
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lep;Ljava/lang/String;Lrl;)V
+		ARG 1 minecraftserver
+		ARG 2 world
+		ARG 3 username
+		ARG 4 playercontrollerserver
+	METHOD p getCurrentCraftingInventoryOnCraftGuiOpened ()V

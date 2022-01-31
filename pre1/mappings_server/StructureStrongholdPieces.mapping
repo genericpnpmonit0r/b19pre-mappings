@@ -1,0 +1,2 @@
+CLASS il StructureStrongholdPieces
+	METHOD a prepareStructurePieces ()V

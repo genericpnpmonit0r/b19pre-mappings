@@ -1,4 +1,8 @@
 CLASS ga EntityPlayer
+	FIELD K playerCapabilities Ltl;
 	FIELD k personalCraftingInventory Ldm;
+	FIELD l currentCraftingInventory Ldm;
 	FIELD u username Ljava/lang/String;
 	FIELD v dimension I
+	METHOD a addStat (Lso;I)V
+	METHOD c addExhaustion (F)V

@@ -1,0 +1,46 @@
+CLASS hp Potion
+	FIELD A potionNull6 Lhp;
+	FIELD B potionNull7 Lhp;
+	FIELD C potionNull8 Lhp;
+	FIELD D potionNull9 Lhp;
+	FIELD E potionNull10 Lhp;
+	FIELD F potionNull11 Lhp;
+	FIELD G potionNull12 Lhp;
+	FIELD H potionId I
+	FIELD I potionName Ljava/lang/String;
+	FIELD a potionTypes [Lhp;
+	FIELD b potionNull0 Lhp;
+	FIELD c potionSpeed Lhp;
+	FIELD d potionSlowdown Lhp;
+	FIELD e potionDigSpeed Lhp;
+	FIELD f potionDigSlow Lhp;
+	FIELD g potionDamageBoost Lhp;
+	FIELD h potionHeal Lhp;
+	FIELD i potionHealDamage Lhp;
+	FIELD j potionJump Lhp;
+	FIELD k potionConfusion Lhp;
+	FIELD l potionRegeneration Lhp;
+	FIELD m potionResistance Lhp;
+	FIELD n potionFireReistance Lhp;
+	FIELD o potionWaterBreathing Lhp;
+	FIELD p potionInvisibility Lhp;
+	FIELD q potionBlindness Lhp;
+	FIELD r potionNightVision Lhp;
+	FIELD s potionHunger Lhp;
+	FIELD t potionWeakness Lhp;
+	FIELD u potionPoison Lhp;
+	FIELD v potionNull1 Lhp;
+	FIELD w potionNull2 Lhp;
+	FIELD x potionNull3 Lhp;
+	FIELD y potionNull4 Lhp;
+	FIELD z potionNull5 Lhp;
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a isReady (II)Z
+		ARG 1 i
+		ARG 2 j
+	METHOD a setPotionName (Ljava/lang/String;)Lhp;
+		ARG 1 name
+	METHOD a performEffect (Ljz;I)V
+		ARG 1 living
+		ARG 2 id

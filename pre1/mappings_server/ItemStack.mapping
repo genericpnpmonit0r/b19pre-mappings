@@ -1,4 +1,9 @@
 CLASS hz ItemStack
+	FIELD a stackSize I
 	FIELD c itemID I
+	METHOD a getItem ()Lfy;
+	METHOD a useItem (Lga;Lep;IIII)Z
+	METHOD b setItemDamage (I)V
+	METHOD c onCrafting (Lep;Lga;)V
 	METHOD g getItemDamage ()I
 	METHOD i copy ()Lhz;

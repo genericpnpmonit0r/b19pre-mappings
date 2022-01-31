@@ -1,0 +1,2 @@
+CLASS lc RecipesDyes
+	METHOD a addRecipes (Lgs;)V

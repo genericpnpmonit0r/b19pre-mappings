@@ -8,6 +8,10 @@ CLASS cc IChunkProvider
 		ARG 2 x
 		ARG 3 z
 	METHOD a getCreatureTypesList (Lju;III)Ljava/util/List;
+		ARG 1 enumcreaturetype
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD a saveChunks (ZLuy;)Z
 		ARG 1 canSave
 		ARG 2 progress

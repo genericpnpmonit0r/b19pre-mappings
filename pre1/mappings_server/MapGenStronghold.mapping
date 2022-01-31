@@ -1,0 +1,4 @@
+CLASS fd MapGenStronghold
+	FIELD a allowedBiomegenbases [Liz;
+	FIELD f ranBiomeCheck Z
+	FIELD g structureCoords [Lvs;

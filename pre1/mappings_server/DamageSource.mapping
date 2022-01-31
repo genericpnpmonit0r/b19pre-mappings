@@ -1,0 +1,41 @@
+CLASS ns DamageSource
+	FIELD a inFire Lns;
+	FIELD b onFire Lns;
+	FIELD c lava Lns;
+	FIELD d inWall Lns;
+	FIELD e drown Lns;
+	FIELD f starve Lns;
+	FIELD g cactus Lns;
+	FIELD h fall Lns;
+	FIELD i outOfWorld Lns;
+	FIELD j generic Lns;
+	FIELD k explosion Lns;
+	FIELD l magic Lns;
+	FIELD m damageType Ljava/lang/String;
+	FIELD n damageBypassesArmor Z
+	FIELD o damageAllowedInCreative Z
+	FIELD p hungerDamage F
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 dmgType
+	METHOD a getEntity ()Lpp;
+	METHOD a causeFireballDamage (Lby;Lpp;)Lns;
+		ARG 0 fireball
+		ARG 1 source
+	METHOD a getDeathMessageStringWithPlayer (Lga;)Ljava/lang/String;
+		ARG 1 player
+	METHOD a causeMobDamage (Ljz;)Lns;
+		ARG 0 living
+	METHOD a causeArrowDamage (Lpm;Lpp;)Lns;
+		ARG 0 arrow
+		ARG 1 source
+	METHOD a causeThrownDamage (Lpp;Lpp;)Lns;
+		ARG 0 projectile
+		ARG 1 source
+	METHOD b getDamageBypassesArmor ()Z
+	METHOD b causePlayerDamage (Lga;)Lns;
+		ARG 0 player
+	METHOD c getHungerDamage ()F
+	METHOD d getDamageAllowedInCreative ()Z
+	METHOD e getSourceOfDamage ()Lpp;
+	METHOD f setDamageBypassesArmor ()Lns;
+	METHOD g setDamageAllowedInCreativeMode ()Lns;

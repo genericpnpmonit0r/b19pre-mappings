@@ -1,1 +1,2 @@
 CLASS fq IThreadedFileIO
+	METHOD c threadFileIoBool ()Z

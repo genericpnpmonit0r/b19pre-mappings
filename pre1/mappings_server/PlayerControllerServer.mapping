@@ -1,0 +1,55 @@
+CLASS rl PlayerControllerServer
+	FIELD a thisWorld Lep;
+	FIELD b thisPlayer Lga;
+	FIELD c gameType I
+	FIELD d unused_field F
+	FIELD e initialDamage I
+	FIELD f curBlockX I
+	FIELD g curBlockY I
+	FIELD h curBlockZ I
+	FIELD i curBlockDamage I
+	FIELD j canUpdateBlockRemoving Z
+	FIELD k curX I
+	FIELD l curY I
+	FIELD m curZ I
+	FIELD n blockDamage I
+	METHOD <init> (Lep;)V
+		ARG 1 world
+	METHOD a getGameType ()I
+	METHOD a toggleGameType (I)V
+		ARG 1 gameType
+	METHOD a blockRemoving (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a blockClicked (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 side
+	METHOD a setWorld (Lew;)V
+		ARG 1 worldServer
+	METHOD a itemUsed (Lga;Lep;Lhz;)Z
+		ARG 1 player
+		ARG 2 world
+		ARG 3 itemstack
+	METHOD a activeBlockOrUseItem (Lga;Lep;Lhz;IIII)Z
+		ARG 1 player
+		ARG 2 world
+		ARG 3 itemstack
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 itemdata
+	METHOD b isCreative ()Z
+	METHOD b setGameType (I)V
+		ARG 1 gameType
+	METHOD b removeBlock (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD c updateBlockRemoving ()V
+	METHOD c blockHarvested (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

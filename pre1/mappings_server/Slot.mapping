@@ -1,0 +1,5 @@
+CLASS fz Slot
+	METHOD a onPickupFromSlot (Lhz;)V
+		ARG 1 itemstack
+	METHOD b isItemValid (Lhz;)Z
+		ARG 1 itemstack

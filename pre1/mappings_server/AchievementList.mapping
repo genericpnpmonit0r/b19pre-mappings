@@ -1,0 +1,24 @@
+CLASS ec AchievementList
+	FIELD a minDisplayColumn I
+	FIELD b minDisplayRow I
+	FIELD c maxDisplayColumn I
+	FIELD d maxDisplayRow I
+	FIELD e achievementsList Ljava/util/List;
+	FIELD f openInventory Llv;
+	FIELD g mineWood Llv;
+	FIELD h buildWorkBench Llv;
+	FIELD i buildPickaxe Llv;
+	FIELD j buildFurnace Llv;
+	FIELD k acquireIron Llv;
+	FIELD l buildHoe Llv;
+	FIELD m makeBread Llv;
+	FIELD n bakeCake Llv;
+	FIELD o buildBetterPickaxe Llv;
+	FIELD p cookFish Llv;
+	FIELD q onARail Llv;
+	FIELD r buildSword Llv;
+	FIELD s killEnemy Llv;
+	FIELD t killCow Llv;
+	FIELD u flyPig Llv;
+	FIELD v snipeSkeleton Llv;
+	METHOD a doesNothingForAchievementList ()V

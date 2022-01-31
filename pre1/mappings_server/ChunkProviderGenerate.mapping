@@ -1,0 +1,46 @@
+CLASS va ChunkProviderGenerate
+	FIELD a noiseOctaves5 Lqx;
+	FIELD b noiseOctaves6 Lqx;
+	FIELD c noiseOctaves7 Lqx;
+	FIELD d strongholdGenerator Lfd;
+	FIELD e villageGenerator Lai;
+	FIELD f mineshaftGenerator Luv;
+	FIELD g noiseUnknown0 [D
+	FIELD h noiseUnknown1 [D
+	FIELD i noiseUnknown2 [D
+	FIELD j noiseUnknown3 [D
+	FIELD k noiseUnknown4 [D
+	FIELD l noiseUnknown5 [F
+	FIELD m unusedIntArray32x32 [[I
+	FIELD n rand Ljava/util/Random;
+	FIELD o noiseOctaves1 Lqx;
+	FIELD p noiseOctaves2 Lqx;
+	FIELD q noiseOctaves3 Lqx;
+	FIELD r noiseOctaves4 Lqx;
+	FIELD s worldObj Lep;
+	FIELD t mapFeaturesEnabled Z
+	FIELD u otherNoise [D
+	FIELD v stoneNoise [D
+	FIELD w caveGenerator Lfg;
+	FIELD x ravineGenerator Lfg;
+	FIELD y biomesForGeneration [Liz;
+	METHOD <init> (Lep;JZ)V
+		ARG 1 world
+		ARG 2 seed
+		ARG 4 mapFeaturesOn
+	METHOD a generateTerrain (II[B)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+	METHOD a replaceBlocksForBiome (II[B[Liz;)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+		ARG 4 biomes
+	METHOD a generateNoiseWithArray ([DIIIIII)[D
+		ARG 2 x1
+		ARG 3 y1
+		ARG 4 z1
+		ARG 5 x
+		ARG 6 y
+		ARG 7 z

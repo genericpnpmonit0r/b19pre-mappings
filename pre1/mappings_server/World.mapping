@@ -109,6 +109,7 @@ CLASS ep World
 		ARG 2 y
 		ARG 3 z
 		ARG 4 id
+	METHOD b updateTileEntityChunkAndDoNothing (IIILms;)V
 	METHOD c generateSpawnPoint ()V
 	METHOD c getChunkFromChunkCoords (II)Ljv;
 		ARG 1 x

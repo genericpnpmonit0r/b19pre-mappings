@@ -1,0 +1,2 @@
+CLASS ma RecipesFood
+	METHOD a addRecipes (Lgs;)V

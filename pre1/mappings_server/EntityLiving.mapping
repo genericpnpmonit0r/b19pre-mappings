@@ -1,0 +1,7 @@
+CLASS jz EntityLiving
+	FIELD aO entityAge I
+	FIELD ab texture Ljava/lang/String;
+	FIELD an setMaxHealth I
+	FIELD ax experienceValue I
+	METHOD c onLivingUpdate ()V
+	METHOD c heal (I)V

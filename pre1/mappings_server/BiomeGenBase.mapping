@@ -1,4 +1,6 @@
 CLASS iz BiomeGenBase
+	FIELD d desert Liz;
+	FIELD e hills Liz;
 	FIELD f forest Liz;
 	FIELD g taiga Liz;
 	FIELD h swampland Liz;

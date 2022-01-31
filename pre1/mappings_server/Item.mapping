@@ -1,3 +1,217 @@
 CLASS fy Item
+	FIELD A axeDiamond Lfy;
+	FIELD B stick Lfy;
+	FIELD C bowl Lfy;
+	FIELD D stew Lfy;
+	FIELD E swordGold Lfy;
+	FIELD F shovelGold Lfy;
+	FIELD G pickaxeGold Lfy;
+	FIELD H axeGold Lfy;
+	FIELD I string Lfy;
+	FIELD J feather Lfy;
+	FIELD K gunpowder Lfy;
+	FIELD L hoeWood Lfy;
+	FIELD M hoeStone Lfy;
+	FIELD N hoeIron Lfy;
+	FIELD O hoeDiamond Lfy;
+	FIELD P hoeGold Lfy;
+	FIELD Q seeds Lfy;
+	FIELD R wheat Lfy;
+	FIELD S bread Lfy;
+	FIELD T helmetCloth Lfy;
+	FIELD U chestplateCloth Lfy;
+	FIELD V leggingsCloth Lfy;
+	FIELD W bootsCloth Lfy;
+	FIELD X helmetChain Lfy;
+	FIELD Y chestplateChain Lfy;
+	FIELD Z leggingsChain Lfy;
+	FIELD aA redstone Lfy;
+	FIELD aB snowball Lfy;
+	FIELD aC boat Lfy;
+	FIELD aD leather Lfy;
+	FIELD aE bucketMilk Lfy;
+	FIELD aF brick Lfy;
+	FIELD aG clay Lfy;
+	FIELD aH reeds Lfy;
+	FIELD a maxDamage I
+	FIELD aI paper Lfy;
+	FIELD aJ book Lfy;
+	FIELD aK slimeball Lfy;
+	FIELD aL minecartChest Lfy;
+	FIELD aM minecartFurnace Lfy;
+	FIELD aN egg Lfy;
+	FIELD aO compass Lfy;
+	FIELD aP fishingRod Lfy;
+	FIELD aQ clock Lfy;
+	FIELD aR glowstone Lfy;
+	FIELD aS fishRaw Lfy;
+	FIELD aT fishCooked Lfy;
+	FIELD aU dye Lfy;
+	FIELD aV bone Lfy;
+	FIELD aW sugar Lfy;
+	FIELD aX cake Lfy;
+	FIELD aY bed Lfy;
+	FIELD aZ redstoneRepeater Lfy;
+	FIELD aa bootsChain Lfy;
+	FIELD ab helmetIron Lfy;
+	FIELD ac chestplateIron Lfy;
+	FIELD ad legginsIron_ Lfy;
+	FIELD ae bootsIron Lfy;
+	FIELD af helmetDiamond Lfy;
+	FIELD ag chestplateDiamond Lfy;
+	FIELD ah legginsDiamond Lfy;
+	FIELD ai bootsDiamond Lfy;
+	FIELD aj helmetGold Lfy;
+	FIELD ak chestplateGold Lfy;
+	FIELD al leggingsGold Lfy;
+	FIELD am bootsGold Lfy;
+	FIELD an flint Lfy;
+	FIELD ao porkchopRaw Lfy;
+	FIELD ap porkchopCooked Lfy;
+	FIELD aq painting Lfy;
+	FIELD ar appleGold Lfy;
+	FIELD as sign Lfy;
+	FIELD at door Lfy;
+	FIELD au bucket Lfy;
+	FIELD av bucketWater Lfy;
+	FIELD aw bucketLava Lfy;
+	FIELD ax minecart Lfy;
+	FIELD ay saddle Lfy;
+	FIELD az doorIron Lfy;
+	FIELD b itemRand Ljava/util/Random;
+	FIELD ba cookie Lfy;
+	FIELD bb map Lts;
+	FIELD bc shears Lbi;
+	FIELD bd melon Lfy;
+	FIELD be seedsPumpkin Lfy;
+	FIELD bf seedsMelon Lfy;
+	FIELD bg beefRaw Lfy;
+	FIELD bh beefCooked Lfy;
+	FIELD bi chickenRaw Lfy;
+	FIELD bj chickenCooked Lfy;
+	FIELD bk rottenFlesh Lfy;
+	FIELD bl enderPearl Lfy;
+	FIELD bm blazeRod Lfy;
+	FIELD bn ghastTear Lfy;
+	FIELD bo nuggetGold Lfy;
+	FIELD bp netherWarts Lfy;
+	FIELD bq record13 Lfy;
+	FIELD br recordCat Lfy;
+	FIELD bs shiftedIndex I
+	FIELD bt maxStackSize I
+	FIELD bu iconIndex I
+	FIELD bv bFull3d Z
+	FIELD bw hasSubtypes Z
+	FIELD bx containerItem Lfy;
+	FIELD by itemName Ljava/lang/String;
 	FIELD c ItemsList [Lfy;
+	FIELD d shovelIron Lfy;
+	FIELD e pickaxeIron Lfy;
+	FIELD f axeIron Lfy;
+	FIELD g flintAndSteel Lfy;
+	FIELD h apple Lfy;
+	FIELD i bow Lfy;
+	FIELD j arrow Lfy;
+	FIELD k coal Lfy;
+	FIELD l diamond Lfy;
+	FIELD m ingotIron Lfy;
+	FIELD n ingotGold Lfy;
+	FIELD o swordIron Lfy;
+	FIELD p swordWood Lfy;
+	FIELD q shovelWood Lfy;
+	FIELD r pickaxeWood Lfy;
+	FIELD s axeWood Lfy;
+	FIELD t swordStone Lfy;
+	FIELD u shovelStone Lfy;
+	FIELD v pickaxeStone Lfy;
+	FIELD w axeStone Lfy;
+	FIELD x swordDiamond Lfy;
+	FIELD y shovelDiamond Lfy;
+	FIELD z pickaxeDiamond Lfy;
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getMetadata (I)I
+		ARG 1 meta
+	METHOD a setIconCoord (II)Lfy;
+		ARG 1 x
+		ARG 2 y
+	METHOD a setContainerItem (Lfy;)Lfy;
+		ARG 1 item
+	METHOD a getItemStackName (Lhz;)Ljava/lang/String;
+		ARG 1 itemstack
+	METHOD a onBlockDestroyed (Lhz;IIIILjz;)Z
+		ARG 1 itemstack
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face
+		ARG 6 living
+	METHOD a onItemRightClick (Lhz;Lep;Lga;)Lhz;
+		ARG 1 itemstack
+		ARG 2 world
+		ARG 3 player
+	METHOD a onPlayerStoppedUsing (Lhz;Lep;Lga;I)V
+		ARG 1 itemstack
+		ARG 2 world
+		ARG 3 player
+		ARG 4 id
+	METHOD a onUpdate (Lhz;Lep;Lpp;IZ)V
+		ARG 1 itemstack
+		ARG 2 world
+		ARG 3 entity
+		ARG 4 id
+		ARG 5 b
+	METHOD a onItemUse (Lhz;Lga;Lep;IIII)Z
+		ARG 1 itemstack
+		ARG 2 player
+		ARG 3 world
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 blockFace
+	METHOD a saddleEntity (Lhz;Ljz;)V
+		ARG 1 itemstack
+		ARG 2 living
+	METHOD a hitEntity (Lhz;Ljz;Ljz;)Z
+		ARG 1 itemstack
+		ARG 2 living1
+		ARG 3 living2
+	METHOD a getStrVsBlock (Lhz;Lrj;)F
+		ARG 1 itemstack
+		ARG 2 block
 	METHOD a setItemName (Ljava/lang/String;)Lfy;
+		ARG 1 name
+	METHOD a getDamageVsEntity (Lpp;)I
+		ARG 1 entity
+	METHOD a canHarvestBlock (Lrj;)Z
+		ARG 1 block
+	METHOD a setHasSubtypes (Z)Lfy;
+		ARG 1 hassubtypes
+	METHOD b getItemName ()Ljava/lang/String;
+	METHOD b setIconIndex (I)Lfy;
+		ARG 1 index
+	METHOD b getEnumAction (Lhz;)Lic;
+		ARG 1 itemstack
+	METHOD b onFoodEaten (Lhz;Lep;Lga;)Lhz;
+		ARG 1 itemstack
+		ARG 2 world
+		ARG 3 player
+	METHOD c getStackLimit ()I
+	METHOD c setMaxStackSize (I)Lfy;
+		ARG 1 stacksize
+	METHOD c getMaxItemUseDuration (Lhz;)I
+		ARG 1 itemstack
+	METHOD d getHasSubtypes ()Z
+	METHOD d setMaxDamage (I)Lfy;
+		ARG 1 meta
+	METHOD d onCreated (Lhz;Lep;Lga;)V
+		ARG 1 itemstack
+		ARG 2 world
+		ARG 3 player
+	METHOD e getMaxDamage ()I
+	METHOD f isDamageable ()Z
+	METHOD g setFull3d ()Lfy;
+	METHOD h getContainerItem ()Lfy;
+	METHOD i hasContainerItem ()Z
+	METHOD i_ getFalse ()Z
+	METHOD j getItemNameTranslatedThroughStatCollector ()Ljava/lang/String;

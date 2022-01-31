@@ -1,1 +1,2 @@
 CLASS fx BlockSand
+	FIELD a fallInstantly Z

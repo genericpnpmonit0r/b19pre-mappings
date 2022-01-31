@@ -1,2 +1,7 @@
 CLASS ls NBTTagCompound
+	METHOD a setInteger (Ljava/lang/String;I)V
+	METHOD a setString (Ljava/lang/String;Ljava/lang/String;)V
 	METHOD b hasKey (Ljava/lang/String;)Z
+	METHOD e getInteger (Ljava/lang/String;)I
+	METHOD i getString (Ljava/lang/String;)Ljava/lang/String;
+	METHOD k getCompoundTag (Ljava/lang/String;)Lls;

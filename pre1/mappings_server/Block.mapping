@@ -25,6 +25,33 @@ CLASS rj Block
 	FIELD X web Lrj;
 	FIELD Y tallgrass Low;
 	FIELD Z deadbush Lia;
+	FIELD aA crops Lrj;
+	FIELD aB farmland Lrj;
+	FIELD aC furnace Lrj;
+	FIELD aD furnacePowered Lrj;
+	FIELD aE postSign Lrj;
+	FIELD aF doorWood Lrj;
+	FIELD aG ladder Lrj;
+	FIELD aH rail Lrj;
+	FIELD aI stairsCobblestone Lrj;
+	FIELD aJ wallSign Lrj;
+	FIELD aK lever Lrj;
+	FIELD aL pressurePlateStone Lrj;
+	FIELD a blockName Ljava/lang/String;
+	FIELD aM doorIron Lrj;
+	FIELD aN pressurePlatePlanks Lrj;
+	FIELD aO oreRedstone Lrj;
+	FIELD aP oreRedstoneActive Lrj;
+	FIELD aQ torchRedstone Lrj;
+	FIELD aR torchRedstoneActive Lrj;
+	FIELD aS button Lrj;
+	FIELD aT snowL Lrj;
+	FIELD aU ice Lrj;
+	FIELD aV snowB Lrj;
+	FIELD aW cactus Lrj;
+	FIELD aX clay Lrj;
+	FIELD aY reeds Lrj;
+	FIELD aZ jukebox Lrj;
 	FIELD aa pistonBase Lrj;
 	FIELD ab pistonExtension Li;
 	FIELD ac cloth Lrj;
@@ -33,20 +60,70 @@ CLASS rj Block
 	FIELD af redFlower Lsz;
 	FIELD ag mushroomBrown Lsz;
 	FIELD ah mushroomRed Lsz;
+	FIELD ai blockGold Lrj;
+	FIELD aj blockIron Lrj;
+	FIELD ak slabDouble Lrj;
 	FIELD al slab Lrj;
+	FIELD am brick Lrj;
+	FIELD an tnt Lrj;
+	FIELD ao bookshelf Lrj;
+	FIELD ap mossyCobblestone Lrj;
+	FIELD aq obsidian Lrj;
+	FIELD ar torch Lrj;
+	FIELD as fire Lvk;
+	FIELD at mobSpawner Lrj;
+	FIELD au stairPlanks Lrj;
+	FIELD av chest Lrj;
+	FIELD aw redstoneWire Lrj;
+	FIELD ax oreDiamond Lrj;
+	FIELD ay diamondBlock Lrj;
+	FIELD az craftingTable Lrj;
 	FIELD bA lilypad Lrj;
+	FIELD bB netherBrick Lrj;
 	FIELD bC fenceNetherbrick Lrj;
 	FIELD bD stairsNetherbrick Lrj;
 	FIELD bE netherWarts Lrj;
+	FIELD bF blockIndexInTexture I
 	FIELD bG blockID I
+	FIELD bH blockHardness F
+	FIELD bI blockResistance F
+	FIELD bJ blockConstructorCalled Z
 	FIELD bK statsEnabled Z
+	FIELD bL minX D
+	FIELD bM minY D
+	FIELD bN minZ D
+	FIELD bO maxX D
+	FIELD bP maxY D
+	FIELD bQ maxZ D
+	FIELD bR stepSound Lco;
+	FIELD bS blockParticleGravity F
 	FIELD bT blockMaterial Ljw;
+	FIELD bU slipperiness F
+	FIELD ba fence Lrj;
+	FIELD bb pumpkin Lrj;
+	FIELD bc netherrack Lrj;
+	FIELD bd soulSand Lrj;
+	FIELD be glowstone Lrj;
 	FIELD bf portal Lag;
+	FIELD bg pumpkinLantern Lrj;
+	FIELD bh cake Lrj;
+	FIELD bi redstoneRepeater Lrj;
+	FIELD bj redstoneRepeaterActive Lrj;
+	FIELD bk lockedChest Lrj;
+	FIELD bl trapdaoor Lrj;
+	FIELD bm silverfish Lrj;
 	FIELD bn stoneBrick Lrj;
+	FIELD bo mushroomCapBrown Lrj;
+	FIELD bp mushroomCapRed Lrj;
 	FIELD bq ironPane Lrj;
 	FIELD br glassPane Lrj;
 	FIELD bs melon Lrj;
+	FIELD bt stemPumpkin Lrj;
+	FIELD bu stemMelon Lrj;
 	FIELD bv vine Lrj;
+	FIELD bw fenceGate Lrj;
+	FIELD bx stairsBrick Lrj;
+	FIELD by stairsStonebrick Lrj;
 	FIELD bz mycelium Luw;
 	FIELD d soundPowderFootstep Lco;
 	FIELD e soundWoodFootstep Lco;
@@ -71,6 +148,18 @@ CLASS rj Block
 	FIELD x cobblestone Lrj;
 	FIELD y wood Lrj;
 	FIELD z sapling Lrj;
+	METHOD <init> (IILjw;)V
+		ARG 1 id
+		ARG 2 texIndex
+		ARG 3 material
+	METHOD <init> (ILjw;)V
+		ARG 1 id
+		ARG 2 material
+	METHOD a setStepSound (Lco;)Lrj;
+		ARG 1 stepsound
 	METHOD a setBlockName (Ljava/lang/String;)Lrj;
+	METHOD f setLightOpacity (I)Lrj;
+		ARG 1 opacity
 	METHOD g setRequiresSelfNotify ()Lrj;
+	METHOD h initializeBlock ()V
 	METHOD n disableStats ()Lrj;

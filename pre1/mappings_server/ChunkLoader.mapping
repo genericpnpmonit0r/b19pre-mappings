@@ -1,1 +1,11 @@
 CLASS ql ChunkLoader
+	FIELD a saveDir Ljava/io/File;
+	FIELD b createIfNecessary Z
+	METHOD <init> (Ljava/io/File;Z)V
+		ARG 1 chunkfileDir
+		ARG 2 createIfNeeded
+	METHOD a chunkFileForXZ (II)Ljava/io/File;
+		ARG 1 x
+		ARG 2 z
+	METHOD a storeChunkInCompound (Ljv;Lep;Lls;)V
+		ARG 2 compoundtag

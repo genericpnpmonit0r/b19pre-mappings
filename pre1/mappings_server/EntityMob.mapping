@@ -1,0 +1,2 @@
+CLASS gd EntityMob
+	FIELD c attackStrength I

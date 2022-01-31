@@ -1,0 +1,2 @@
+CLASS t RecipesArmor
+	METHOD a addRecipes (Lgs;)V

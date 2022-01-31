@@ -1,0 +1,2 @@
+CLASS qm RecipesIngots
+	METHOD a addRecipes (Lgs;)V

@@ -1,0 +1,2 @@
+CLASS vp ItemFood
+	METHOD a applyPotionEffect (IIIF)Lvp;

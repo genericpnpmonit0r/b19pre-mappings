@@ -1,3 +1,4 @@
 CLASS jv Chunk
+	FIELD g data Ltg;
 	METHOD a getBlockID (III)I
 	METHOD a setBlockIDWithMetadata (IIIII)Z

@@ -1,0 +1,12 @@
+CLASS ds ICrafting
+	METHOD a updateCraftingInventoryInfo (Ldm;II)V
+		ARG 1 container
+		ARG 2 count
+		ARG 3 item
+	METHOD a updateCraftingInventorySlot (Ldm;ILhz;)V
+		ARG 1 container
+		ARG 2 count
+		ARG 3 itemstack
+	METHOD a updateCraftingInventory (Ldm;Ljava/util/List;)V
+		ARG 1 container
+		ARG 2 items

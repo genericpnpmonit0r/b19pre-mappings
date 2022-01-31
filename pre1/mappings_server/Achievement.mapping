@@ -1,0 +1,2 @@
+CLASS lv Achievement
+	METHOD b setSpecial ()Llv;

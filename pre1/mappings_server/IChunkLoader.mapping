@@ -1,1 +1,8 @@
 CLASS az IChunkLoader
+	METHOD a loadChunk (Lep;II)Ljv;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 z
+	METHOD a saveChunk (Lep;Ljv;)V
+		ARG 1 world
+		ARG 2 chunk

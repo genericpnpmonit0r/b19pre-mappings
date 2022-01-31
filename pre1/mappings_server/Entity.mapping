@@ -1,7 +1,24 @@
 CLASS pp Entity
 	FIELD aW entityId I
 	FIELD aZ riddenByEntity Lpp;
+	FIELD bb worldObj Lep;
 	FIELD bf posX D
 	FIELD bg posY D
 	FIELD bh posZ D
+	METHOD <init> (Lep;)V
+		ARG 1 world
 	METHOD P setEntityDead ()V
+	METHOD a Sets (Lep;)V
+		ARG 1 world
+	METHOD a readEntityFromNBT (Lls;)V
+		ARG 1 compoundtag
+	METHOD a attackEntityFrom (Lns;I)Z
+		ARG 1 dmgSrc
+		ARG 2 damageAmount
+	METHOD b entityInit ()V
+	METHOD b getEntityBrightness (F)F
+	METHOD b setSize (FF)V
+	METHOD b writeEntityToNBT (Lls;)V
+		ARG 1 compoundtag
+	METHOD c setLocationAndAngles (DDDFF)V
+	METHOD q_ onUpdate ()V
