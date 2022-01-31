@@ -1,0 +1,7 @@
+CLASS dl IRecipe
+	METHOD a getRecipeSize ()I
+	METHOD a matches (Lkq;)Z
+		ARG 1 invCrafting
+	METHOD b getRecipeOutput ()Lhz;
+	METHOD b getCraftingResult (Lkq;)Lhz;
+		ARG 1 invCrafting

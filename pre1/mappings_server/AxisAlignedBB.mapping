@@ -1,2 +1,83 @@
 CLASS ed AxisAlignedBB
+	FIELD a minX D
+	FIELD b minY D
+	FIELD c minZ D
+	FIELD d maxX D
+	FIELD e maxY D
+	FIELD f maxZ D
+	FIELD g boundingBoxes Ljava/util/List;
+	FIELD h numBoundingBoxesInUse I
+	METHOD <init> (DDDDDD)V
+		ARG 1 minx
+		ARG 3 miny
+		ARG 5 minz
+		ARG 7 maxx
+		ARG 9 maxy
+		ARG 11 maxz
 	METHOD a clearBoundingBoxPool ()V
+	METHOD a addCoord (DDD)Led;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a getBoundingBox (DDDDDD)Led;
+		ARG 0 minx
+		ARG 2 miny
+		ARG 4 minz
+		ARG 6 maxx
+		ARG 8 maxy
+		ARG 10 maxz
+	METHOD a isVecInside (Lbo;)Z
+		ARG 1 vector
+	METHOD a calculateIntercept (Lbo;Lbo;)Lrz;
+		ARG 1 vector1
+		ARG 2 vector2
+	METHOD a intersectsWith (Led;)Z
+		ARG 1 boundingBox
+	METHOD a calculateXOffset (Led;D)D
+		ARG 1 boundingBox
+		ARG 2 xOffset
+	METHOD b copy ()Led;
+	METHOD b getOffsetBoundingBoxInverted (DDD)Led;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD b getBoundingBoxFromPool (DDDDDD)Led;
+		ARG 0 minx
+		ARG 2 miny
+		ARG 4 minz
+		ARG 6 maxx
+		ARG 8 maxy
+		ARG 10 maxz
+	METHOD b isVecInYZ (Lbo;)Z
+		ARG 1 vector
+	METHOD b setBB (Led;)V
+		ARG 1 boundingbox
+	METHOD b calculateYOffset (Led;D)D
+		ARG 1 boundingBox
+		ARG 2 yOffset
+	METHOD c getOffsetBoundingBox (DDD)Led;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD c setBounds (DDDDDD)Led;
+		ARG 1 minx
+		ARG 3 miny
+		ARG 5 minz
+		ARG 7 maxx
+		ARG 9 maxy
+		ARG 11 maxz
+	METHOD c isVecInXZ (Lbo;)Z
+		ARG 1 vector
+	METHOD c calculateZOffset (Led;D)D
+		ARG 1 boundingBox
+		ARG 2 zOffset
+	METHOD d offset (DDD)Led;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD d isVecInXY (Lbo;)Z
+		ARG 1 vector
+	METHOD e contract (DDD)Led;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z

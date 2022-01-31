@@ -11,18 +11,37 @@ CLASS rj Block
 	FIELD J oreCoal Lrj;
 	FIELD K log Lrj;
 	FIELD L leaves Lbf;
+	FIELD M sponge Lrj;
+	FIELD N glass Lrj;
+	FIELD O oreLapis Lrj;
+	FIELD P blockLapis Lrj;
+	FIELD Q dispenser Lrj;
+	FIELD R sandstone Lrj;
+	FIELD S music Lrj;
+	FIELD T bed Lrj;
+	FIELD U poweredRail Lrj;
+	FIELD V detectorRail Lrj;
 	FIELD W pistonStickyBase Lrj;
+	FIELD X web Lrj;
 	FIELD Y tallgrass Low;
+	FIELD Z deadbush Lia;
 	FIELD aa pistonBase Lrj;
+	FIELD ab pistonExtension Li;
 	FIELD ac cloth Lrj;
+	FIELD ad pistonMoving Lri;
+	FIELD ae yellowFlower Lsz;
+	FIELD af redFlower Lsz;
+	FIELD ag mushroomBrown Lsz;
+	FIELD ah mushroomRed Lsz;
 	FIELD al slab Lrj;
-	FIELD bA lilypad_ Lrj;
+	FIELD bA lilypad Lrj;
 	FIELD bC fenceNetherbrick Lrj;
 	FIELD bD stairsNetherbrick Lrj;
 	FIELD bE netherWarts Lrj;
 	FIELD bG blockID I
 	FIELD bK statsEnabled Z
 	FIELD bT blockMaterial Ljw;
+	FIELD bf portal Lag;
 	FIELD bn stoneBrick Lrj;
 	FIELD bq ironPane Lrj;
 	FIELD br glassPane Lrj;

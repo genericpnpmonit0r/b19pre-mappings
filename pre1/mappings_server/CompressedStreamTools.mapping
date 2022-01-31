@@ -1,0 +1,11 @@
+CLASS aq CompressedStreamTools
+	METHOD a readFrom (Ljava/io/DataInput;)Lls;
+		ARG 0 datainput
+	METHOD a loadGzippedCompoundFromOutputStream (Ljava/io/InputStream;)Lls;
+		ARG 0 inputstream
+	METHOD a writeTo (Lls;Ljava/io/DataOutput;)V
+		ARG 0 compoundtag
+		ARG 1 dataoutput
+	METHOD a writeGzippedCompoundToOutputStream (Lls;Ljava/io/OutputStream;)V
+		ARG 0 compoundtag
+		ARG 1 outputstream

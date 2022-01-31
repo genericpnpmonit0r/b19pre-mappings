@@ -1,0 +1,5 @@
+CLASS cm EnumArmorMaterial
+	FIELD f maxDamageFactor I
+	FIELD g damageReductionAmountArray [I
+	METHOD a getDurability (I)I
+	METHOD b getDamageReductionAmount (I)I

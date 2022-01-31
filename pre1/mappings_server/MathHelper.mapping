@@ -1,2 +1,16 @@
 CLASS hn MathHelper
+	FIELD a SIN_TABLE [F
+	METHOD a sqrt_double (D)F
+	METHOD a abs_max (DD)D
+	METHOD a sin (F)F
 	METHOD a getUnsigned (I)I
+	METHOD a getRandomIntegerInRange (Ljava/util/Random;II)I
+		ARG 0 rand
+		ARG 1 i1
+		ARG 2 i2
+	METHOD b floor_double (D)I
+	METHOD b cos (F)F
+	METHOD c floor_double_long (D)J
+	METHOD c sqrt_float (F)F
+	METHOD d floor_float (F)I
+	METHOD e abs (F)F

@@ -1,0 +1,2 @@
+CLASS ls NBTTagCompound
+	METHOD b hasKey (Ljava/lang/String;)Z

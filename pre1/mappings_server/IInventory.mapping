@@ -1,0 +1,17 @@
+CLASS kd IInventory
+	METHOD a getSizeInventory ()I
+	METHOD a decrStackSize (II)Lhz;
+		ARG 1 slotNum
+		ARG 2 count
+	METHOD a setInventorySlotContents (ILhz;)V
+		ARG 1 slotNum
+		ARG 2 itemstack
+	METHOD a isUseableByPlayer (Lga;)Z
+		ARG 1 player
+	METHOD b_ getStackInSlot (I)Lhz;
+		ARG 1 slotNum
+	METHOD c getInvName ()Ljava/lang/String;
+	METHOD d getInventoryStackLimit ()I
+	METHOD e openChest ()V
+	METHOD k onInventoryChanged ()V
+	METHOD r_ closeChest ()V

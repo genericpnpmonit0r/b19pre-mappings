@@ -1,0 +1,2 @@
+CLASS sy ItemArmor
+	FIELD bz getMaxDamageArray [I

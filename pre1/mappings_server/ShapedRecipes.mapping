@@ -1,0 +1,12 @@
+CLASS hv ShapedRecipes
+	FIELD a recipeOutputItemID I
+	FIELD b recipeWidth I
+	FIELD c recipeHeight I
+	FIELD d recipeItems [Lhz;
+	FIELD e recipeOutput Lhz;
+	METHOD <init> (II[Lhz;Lhz;)V
+		ARG 1 width
+		ARG 2 height
+		ARG 3 items
+		ARG 4 output
+	METHOD a hasItemDamage (Lkq;IIZ)Z

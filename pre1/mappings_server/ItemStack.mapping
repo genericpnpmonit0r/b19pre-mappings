@@ -1,0 +1,4 @@
+CLASS hz ItemStack
+	FIELD c itemID I
+	METHOD g getItemDamage ()I
+	METHOD i copy ()Lhz;

@@ -1,0 +1,14 @@
+CLASS bp EnumToolMaterial
+	FIELD f harvestLevel I
+	FIELD g maxUses I
+	FIELD h efficiencyOnProperMaterial F
+	FIELD i damageVsEntity I
+	METHOD <init> (Ljava/lang/String;IIIFI)V
+		ARG 3 harvestlevel
+		ARG 4 maxuses
+		ARG 5 efficiecny
+		ARG 6 dmgvsentity
+	METHOD a getMaxUses ()I
+	METHOD b getEfficiencyOnProperMaterial ()F
+	METHOD c getDamageVsEntity ()I
+	METHOD d getHarvestLevel ()I

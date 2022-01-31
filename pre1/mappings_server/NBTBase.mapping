@@ -1,0 +1,3 @@
+CLASS hk NBTBase
+	METHOD a writeTag (Lhk;Ljava/io/DataOutput;)V
+	METHOD b readTag (Ljava/io/DataInput;)Lhk;

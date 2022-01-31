@@ -1,0 +1,7 @@
+CLASS mr ThreadedChunkLoader
+	FIELD a chunkslist Ljava/util/List;
+	FIELD b chunkset Ljava/util/Set;
+	FIELD c chunkobject Ljava/lang/Object;
+	FIELD d chunkfile Ljava/io/File;
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 chunkFile

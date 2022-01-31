@@ -2,5 +2,6 @@ CLASS pp Entity
 	FIELD aW entityId I
 	FIELD aZ riddenByEntity Lpp;
 	FIELD bf posX D
+	FIELD bg posY D
 	FIELD bh posZ D
 	METHOD P setEntityDead ()V
