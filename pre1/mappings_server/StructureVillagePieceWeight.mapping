@@ -1,0 +1,4 @@
+CLASS eg StructureVillagePieceWeight
+	FIELD a villageComponentClass Ljava/lang/Class;
+	FIELD c villagePiecesSpawned I
+	FIELD d villagePiecesLimit I
