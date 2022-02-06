@@ -25,6 +25,9 @@ CLASS gx ServerConfigurationManager
 	METHOD a sentTileEntityToPlayer (IIILms;)V
 	METHOD a joinNewPlayerManager (Les;)V
 		ARG 1 playerMP
+	METHOD a (Les;I)Les;
+		ARG 1 playerMP
+		ARG 2 dim
 	METHOD a doPlayerSleep (Les;Lew;)V
 		ARG 1 playerMP
 		ARG 2 worldserver

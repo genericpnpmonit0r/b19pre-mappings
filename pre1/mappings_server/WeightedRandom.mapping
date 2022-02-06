@@ -1,0 +1,2 @@
+CLASS ru WeightedRandom
+	METHOD a setRandAndLst (Ljava/util/Random;Ljava/util/Collection;)Lcd;

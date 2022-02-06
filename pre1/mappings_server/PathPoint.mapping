@@ -1,0 +1,3 @@
+CLASS d PathPoint
+	FIELD d index I
+	FIELD g distanceToTarget F

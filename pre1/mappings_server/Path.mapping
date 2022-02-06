@@ -1,0 +1,14 @@
+CLASS jp Path
+	FIELD a pathPoints [Ld;
+	FIELD b count I
+	METHOD a clearPath ()V
+	METHOD a sortBack (I)V
+	METHOD a addPoint (Ld;)Ld;
+		ARG 1 pathpoint
+	METHOD a changeDistance (Ld;F)V
+		ARG 1 point
+		ARG 2 weight
+	METHOD b dequeue ()Ld;
+	METHOD b sortForward (I)V
+		ARG 1 index
+	METHOD c isPathEmpty ()Z

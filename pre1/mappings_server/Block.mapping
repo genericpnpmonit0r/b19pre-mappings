@@ -157,7 +157,9 @@ CLASS rj Block
 		ARG 2 material
 	METHOD a setStepSound (Lco;)Lrj;
 		ARG 1 stepsound
+	METHOD a playNote (Lep;IIIII)V
 	METHOD a setBlockName (Ljava/lang/String;)Lrj;
+	METHOD d isIndirectlyPoweringTo (Lep;IIII)Z
 	METHOD f setLightOpacity (I)Lrj;
 		ARG 1 opacity
 	METHOD g setRequiresSelfNotify ()Lrj;

@@ -5,6 +5,7 @@ CLASS pp Entity
 	FIELD bf posX D
 	FIELD bg posY D
 	FIELD bh posZ D
+	FIELD bp boundingBox Led;
 	METHOD <init> (Lep;)V
 		ARG 1 world
 	METHOD P setEntityDead ()V

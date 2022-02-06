@@ -1,0 +1,13 @@
+CLASS fh PathFinder
+	FIELD a worldMap Lun;
+	FIELD b path Ljp;
+	FIELD c pointMap Liu;
+	FIELD d pathOptions [Ld;
+	METHOD <init> (Lun;)V
+		ARG 1 blockaccess
+	METHOD a createEntityPathTo (Lpp;DDDF)Lcx;
+	METHOD a createEntityPathTo (Lpp;IIIF)Lcx;
+	METHOD a createEntityPathTo (Lpp;Lpp;F)Lcx;
+		ARG 1 entity1
+		ARG 2 entity2
+		ARG 3 weight

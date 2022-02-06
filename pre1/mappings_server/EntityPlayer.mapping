@@ -4,5 +4,7 @@ CLASS ga EntityPlayer
 	FIELD l currentCraftingInventory Ldm;
 	FIELD u username Ljava/lang/String;
 	FIELD v dimension I
+	METHOD S isPlayerFullyAsleep ()Z
 	METHOD a addStat (Lso;I)V
+	METHOD a wakeUpPlayer (ZZZ)V
 	METHOD c addExhaustion (F)V

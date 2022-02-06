@@ -53,6 +53,11 @@ CLASS ep World
 		ARG 3 settings
 		ARG 4 provider
 	METHOD a getWorldChunkManager ()Lut;
+	METHOD a getClosestVulnerablePlayer (DDDD)Lga;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 d
 	METHOD a getFirstUncoveredBlock (II)I
 		ARG 1 x
 		ARG 2 z
@@ -74,8 +79,38 @@ CLASS ep World
 		ARG 4 x2
 		ARG 5 y2
 		ARG 6 z2
+	METHOD a setWorldTime (J)V
+		ARG 1 time
+	METHOD a scheduleLightingUpdate (Ldr;IIIIII)V
+		ARG 1 skyblock
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 x2
+		ARG 6 y2
+		ARG 7 z2
 	METHOD a canMineBlock (Lga;III)Z
 		ARG 1 player
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a playAuxSFXAtEntity (Lga;IIIII)V
+		ARG 1 player
+		ARG 2 id
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 sfx_
+	METHOD a loadItemData (Ljava/lang/Class;Ljava/lang/String;)Lgu;
+		ARG 1 dataclass
+		ARG 2 name
+	METHOD a getPlayerEntityByName (Ljava/lang/String;)Lga;
+		ARG 1 name
+	METHOD a setItemData (Ljava/lang/String;Lgu;)V
+		ARG 1 name
+		ARG 2 data
+	METHOD a getSpawnlistEntryWithEnumCreatureType (Lju;III)Lbe;
+		ARG 1 creaturetype
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
@@ -85,6 +120,9 @@ CLASS ep World
 	METHOD a sendTrackedEntityStatusUpdatePacket (Lpp;B)V
 		ARG 1 entity
 		ARG 2 entitymeta
+	METHOD a getClosestVulnerablePlayerToEntity (Lpp;D)Lga;
+		ARG 1 entity
+		ARG 2 d
 	METHOD a newExplosion (Lpp;DDDFZ)Lob;
 		ARG 1 entity
 		ARG 2 x
@@ -92,6 +130,12 @@ CLASS ep World
 		ARG 6 z
 		ARG 8 explosionPower
 		ARG 9 burning
+	METHOD a getEntityPathToXYZ (Lpp;IIIF)Lcx;
+		ARG 1 entity
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 pathweight
 	METHOD a getCollidingBoundingBoxes (Lpp;Led;)Ljava/util/List;
 	METHOD a updateEntityWithOptionalForce (Lpp;Z)V
 		ARG 1 entity
@@ -110,14 +154,42 @@ CLASS ep World
 		ARG 3 z
 		ARG 4 id
 	METHOD b updateTileEntityChunkAndDoNothing (IIILms;)V
+	METHOD b advanceTime (J)V
+		ARG 1 time
+	METHOD b getUniqueDataId (Ljava/lang/String;)I
+		ARG 1 dataId
 	METHOD c generateSpawnPoint ()V
+	METHOD c getWeightedThunderStrength (F)F
+		ARG 1 strength
 	METHOD c getChunkFromChunkCoords (II)Ljv;
 		ARG 1 x
 		ARG 2 z
+	METHOD c getChunkData (IIIIII)[B
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 x2
+		ARG 5 y2
+		ARG 6 z2
 	METHOD c obtainEntitySkin (Lpp;)V
 		ARG 1 entity
+	METHOD d setRainStrength (F)F
+		ARG 1 strength
+	METHOD d playNoteAt (IIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 vol
+		ARG 5 pitch
 	METHOD d releaseEntitySkin (Lpp;)V
 		ARG 1 entity
+	METHOD e getTopSolidOrLiquidBlock (II)I
+	METHOD e playAuxSFX (IIIII)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 sfx_
 	METHOD f calculateInitialSkylight ()V
 	METHOD f isAirBlock (III)Z
 		ARG 1 x
@@ -130,13 +202,47 @@ CLASS ep World
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD i isBlockProvidingPowerTo (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 power
 	METHOD j checkSessionLock ()V
+	METHOD j canBlockSeeTheSky (III)Z
+	METHOD j isBlockIndirectlyProvidingPowerTo (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 power
 	METHOD k getRandomSeed ()J
 	METHOD l getWorldTime ()J
 	METHOD m getSpawnPoint ()Lbm;
+	METHOD n getChunkProvider ()Lcc;
 	METHOD o getWorldFile ()Ltv;
 	METHOD p getWorldInfo ()Ldx;
+	METHOD q updateAllPlayersSleepingFlag ()V
+	METHOD r wakeUpAllPlayers ()V
+	METHOD s isAllPlayersFullyAsleep ()Z
 	METHOD s updateAllLightTypes (III)V
+	METHOD t getIsThundering ()Z
+	METHOD t isBlockGettingPowered (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD u isRaining ()Z
+	METHOD u isBlockIndirectlyGettingPowered (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD v updatingLighting ()Z
+	METHOD v canLightningStrikeAt (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD w saveLevel ()V
+	METHOD w getWorldRandAtPos (III)Ljava/util/Random;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD x calculateInitialWeather ()V
+	METHOD y clearWeather ()V

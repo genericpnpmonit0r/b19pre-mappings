@@ -1,0 +1,13 @@
+CLASS ei ChunkCache
+	FIELD a x I
+	FIELD b z I
+	FIELD c chunkArray [[Ljv;
+	FIELD d worldObj Lep;
+	METHOD <init> (Lep;IIIIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 i
+		ARG 6 j
+		ARG 7 k

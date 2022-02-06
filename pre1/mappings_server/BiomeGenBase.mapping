@@ -4,3 +4,5 @@ CLASS iz BiomeGenBase
 	FIELD f forest Liz;
 	FIELD g taiga Liz;
 	FIELD h swampland Liz;
+	METHOD b getEnableSnow ()Z
+	METHOD c canSpawnLightningBolt ()Z

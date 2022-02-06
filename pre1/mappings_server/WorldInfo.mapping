@@ -1,7 +1,10 @@
 CLASS dx WorldInfo
 	METHOD a setSpawn (III)V
+	METHOD a setWorldTime (J)V
 	METHOD a setWorldName (Ljava/lang/String;)V
+	METHOD b getRandomSeed ()J
 	METHOD c getSpawnX ()I
 	METHOD d setGamemode1 (I)V
 	METHOD e getSpawnZ ()I
+	METHOD f getWorldTime ()J
 	METHOD o getMapFeaturesEnabled ()Z
