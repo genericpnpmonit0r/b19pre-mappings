@@ -5,6 +5,8 @@ CLASS ga EntityPlayer
 	FIELD u username Ljava/lang/String;
 	FIELD v dimension I
 	METHOD S isPlayerFullyAsleep ()Z
+	METHOD a getCurrentPlayerStrVsBlock (Lrj;)F
 	METHOD a addStat (Lso;I)V
 	METHOD a wakeUpPlayer (ZZZ)V
+	METHOD b canHarvestBlock (Lrj;)Z
 	METHOD c addExhaustion (F)V

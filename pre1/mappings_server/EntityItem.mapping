@@ -1,0 +1,2 @@
+CLASS gr EntityItem
+	FIELD c delayBeforeCanPickup I

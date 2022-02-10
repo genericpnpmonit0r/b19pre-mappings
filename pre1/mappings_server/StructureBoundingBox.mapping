@@ -1,1 +1,53 @@
 CLASS st StructureBoundingBox
+	FIELD a minX I
+	FIELD b minY I
+	FIELD c minZ I
+	FIELD d maxX I
+	FIELD e maxY I
+	FIELD f maxZ I
+	METHOD <init> (IIII)V
+		ARG 1 minX
+		ARG 2 minZ
+		ARG 3 maxX
+		ARG 4 maxZ
+	METHOD <init> (IIIIII)V
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+		ARG 5 maxY
+		ARG 6 maxZ
+	METHOD <init> (Lst;)V
+		ARG 1 boundingBox
+	METHOD a getNewBoundingBox ()Lst;
+	METHOD a offset (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a isInsideStructureBB (IIII)Z
+		ARG 1 x
+		ARG 2 z
+		ARG 3 x2
+		ARG 4 z2
+	METHOD a getComponentToAddBoundingBox (IIIIIIIIII)Lst;
+		ARG 0 placeX1
+		ARG 1 placeY1
+		ARG 2 placeZ1
+		ARG 3 placeX2
+		ARG 4 placeY2
+		ARG 5 placeZ2
+		ARG 6 placeX3
+		ARG 7 placeY3
+		ARG 8 placeZ3
+		ARG 9 rotation
+	METHOD a intersectsWith (Lst;)Z
+		ARG 1 boundingBox
+	METHOD b getCenterX ()I
+	METHOD b isVecInside (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b resizeBoundingBoxTo (Lst;)V
+		ARG 1 boundingBox
+	METHOD c getCenterY ()I
+	METHOD d getCenterZ ()I

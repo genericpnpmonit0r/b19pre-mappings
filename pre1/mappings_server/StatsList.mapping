@@ -1,5 +1,7 @@
 CLASS ii StatsList
+	FIELD C mineBlockStatArray [Lso;
 	FIELD a oneShotStats Ljava/util/Map;
 	FIELD b statsFieldUnknown_b Ljava/util/List;
 	METHOD a serverInitStatsList ()V
+	METHOD b initBreakableStats ()V
 	METHOD c initStats ()V

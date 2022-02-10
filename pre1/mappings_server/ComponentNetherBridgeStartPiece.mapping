@@ -1,0 +1,2 @@
+CLASS np ComponentNetherBridgeStartPiece
+	FIELD a pieceWeight Lpq;

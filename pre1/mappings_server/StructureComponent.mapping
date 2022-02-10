@@ -1,1 +1,142 @@
 CLASS iv StructureComponent
+	FIELD g boundingBox Lst;
+	FIELD h coordBaseMode I
+	FIELD i componentType I
+	METHOD <init> (I)V
+		ARG 1 componentType
+	METHOD a getXWithOffset (II)I
+		ARG 1 offset1
+		ARG 2 offset2
+	METHOD a placeBlockAtCurrentPosition (Lep;IIIIILst;)V
+		ARG 1 world
+		ARG 2 blockId
+		ARG 3 meta
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 boundingBox
+	METHOD a getBlockIdAtCurrentPosition (Lep;IIILst;)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 boundingBox
+	METHOD a addComponentParts (Lep;Ljava/util/Random;Lst;)Z
+		ARG 1 world
+		ARG 2 rand
+		ARG 3 boundingBox
+	METHOD a isLiquidInStructureBoundingBox (Lep;Lst;)Z
+		ARG 1 world
+		ARG 2 boundingBox
+	METHOD a fillWithBlocks (Lep;Lst;IIIIIIIIZ)V
+		ARG 1 world
+		ARG 2 boundingBox
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 x2
+		ARG 7 y2
+		ARG 8 z2
+		ARG 9 blockId2
+		ARG 10 blockId1
+		ARG 11 placeBlocksDifferent
+	METHOD a randomlyRareFillWithBlocks (Lep;Lst;IIIIIIIZ)V
+		ARG 1 world
+		ARG 2 boundingBox
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 x2
+		ARG 7 y2
+		ARG 8 z2
+		ARG 9 id
+		ARG 10 placeBlockDifferent
+	METHOD a fillWithRandomizedBlocks (Lep;Lst;IIIIIIZLjava/util/Random;Lbs;)V
+		ARG 1 world
+		ARG 2 boundingBox
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 x2
+		ARG 7 y2
+		ARG 8 z2
+		ARG 9 placeBlocksDifferent
+		ARG 10 rand
+		ARG 11 blockSelector
+	METHOD a randomlyPlaceBlock (Lep;Lst;Ljava/util/Random;FIIIII)V
+		ARG 1 world
+		ARG 2 boundingBox
+		ARG 3 rand
+		ARG 4 chance
+		ARG 5 i
+		ARG 6 j
+		ARG 7 k
+		ARG 8 n
+		ARG 9 o
+	METHOD a randomlyFillWithBlocks (Lep;Lst;Ljava/util/Random;FIIIIIIIIZ)V
+		ARG 1 world
+		ARG 2 boundingBox
+		ARG 3 rand
+		ARG 4 chance
+		ARG 5 x
+		ARG 6 y
+		ARG 7 z
+		ARG 8 x2
+		ARG 9 y2
+		ARG 10 z2
+		ARG 11 blockId2
+		ARG 12 blockId1
+		ARG 13 placeBlocksDifferent
+	METHOD a placeDoorAtCurrentPosition (Lep;Lst;Ljava/util/Random;IIII)V
+		ARG 1 world
+		ARG 2 boundingBox
+		ARG 3 rand
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 doorMetadata
+	METHOD a createTreasureChestAtCurrentPosition (Lep;Lst;Ljava/util/Random;III[Lhc;I)V
+		ARG 1 world
+		ARG 2 boundingBox
+		ARG 3 rand
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 structurePieceTreasureArray
+		ARG 8 i
+	METHOD a buildComponent (Liv;Ljava/util/List;Ljava/util/Random;)V
+		ARG 1 structureComponent
+		ARG 2 componentList
+		ARG 3 rand
+	METHOD a getIntersectingStructureComponent (Ljava/util/List;Lst;)Liv;
+		ARG 0 partsList
+		ARG 1 boundingBox
+	METHOD a fillTreasureChestWithLoot (Ljava/util/Random;[Lhc;Liq;I)V
+		ARG 0 rand
+		ARG 1 structurePieceTreasureArray
+		ARG 2 tileentityChest
+		ARG 3 count
+	METHOD b getBoundingBox ()Lst;
+	METHOD b getYWithOffset (I)I
+		ARG 1 offset
+	METHOD b getZWithOffset (II)I
+		ARG 1 offset1
+		ARG 2 offset2
+	METHOD b fillCurrentPositionBlocksDownwards (Lep;IIIIILst;)V
+		ARG 1 world
+		ARG 2 blockId
+		ARG 3 meta
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 boundingBox
+	METHOD b clearCurrentPositionBlocksUpwards (Lep;IIILst;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 boundingBox
+	METHOD c getComponentType ()I
+	METHOD c getMetadataWithOffset (II)I
+		ARG 1 blockId
+		ARG 2 meta

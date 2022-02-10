@@ -1,2 +1,8 @@
 CLASS ru WeightedRandom
-	METHOD a setRandAndLst (Ljava/util/Random;Ljava/util/Collection;)Lcd;
+	METHOD a weigthedRandCollection (Ljava/util/Collection;)I
+	METHOD a getRandomChoice1 (Ljava/util/Random;Ljava/util/Collection;)Lcd;
+		ARG 0 rand
+	METHOD a getTotalWeight (Ljava/util/Random;Ljava/util/Collection;I)Lcd;
+		ARG 0 rand
+	METHOD a getRandomChoice3 (Ljava/util/Random;[Lcd;)Lcd;
+	METHOD a getRandomChoice2 (Ljava/util/Random;[Lcd;I)Lcd;

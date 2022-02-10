@@ -158,6 +158,7 @@ CLASS ep World
 		ARG 1 time
 	METHOD b getUniqueDataId (Ljava/lang/String;)I
 		ARG 1 dataId
+	METHOD b entityJoinedWorld (Lpp;)Z
 	METHOD c generateSpawnPoint ()V
 	METHOD c getWeightedThunderStrength (F)F
 		ARG 1 strength
@@ -184,6 +185,7 @@ CLASS ep World
 	METHOD d releaseEntitySkin (Lpp;)V
 		ARG 1 entity
 	METHOD e getTopSolidOrLiquidBlock (II)I
+	METHOD e setBlockWithNotify (IIII)Z
 	METHOD e playAuxSFX (IIIII)V
 		ARG 1 id
 		ARG 2 x
