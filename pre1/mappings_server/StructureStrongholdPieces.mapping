@@ -1,2 +1,3 @@
 CLASS il StructureStrongholdPieces
 	METHOD a prepareStructurePieces ()V
+	METHOD c getNextValidComponentAccess (Ls;Ljava/util/List;Ljava/util/Random;IIIII)Liv;

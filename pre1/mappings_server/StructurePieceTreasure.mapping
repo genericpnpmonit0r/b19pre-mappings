@@ -1,1 +1,11 @@
 CLASS hc StructurePieceTreasure
+	FIELD a itemID I
+	FIELD b itemMetadata I
+	FIELD c minItemStack I
+	FIELD e maxItemStack I
+	METHOD <init> (IIIII)V
+		ARG 1 id
+		ARG 2 meta
+		ARG 3 maxStack
+		ARG 4 minStack
+		ARG 5 id2

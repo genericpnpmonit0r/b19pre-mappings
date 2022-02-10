@@ -1,0 +1,8 @@
+CLASS jk StructureNetherBridgePieces
+	FIELD a randomNextInt I
+	METHOD <init> (ILjava/util/Random;Lst;I)V
+		ARG 1 id
+		ARG 2 rand
+		ARG 3 boundingBox
+		ARG 4 coordBaseMode
+	METHOD a createNextComponent (Ljava/util/List;Ljava/util/Random;IIIII)Ljk;

@@ -1,1 +1,10 @@
 CLASS if ComponentNetherBridgePiece
+	COMMENT nether fort base class
+	COMMENT i keep confusing this for other stuff
+	METHOD a getTotalWeight (Ljava/util/List;)I
+		ARG 1 parts
+	METHOD a getNextComponent (Lnp;Ljava/util/List;Ljava/util/List;Ljava/util/Random;IIIII)Lif;
+		ARG 1 startPiece
+		ARG 2 weightList
+		ARG 3 components
+		ARG 4 rand
