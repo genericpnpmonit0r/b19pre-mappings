@@ -1,0 +1,12 @@
+CLASS abt net/minecraft/src/StructureStrongholdPieceWeight
+	FIELD a pieceClass Ljava/lang/Class;
+	FIELD b pieceWeight I
+	FIELD c instancesSpawned I
+	FIELD d instancesLimit I
+	METHOD <init> (Ljava/lang/Class;II)V
+		ARG 1 piece
+		ARG 2 x
+		ARG 3 z
+	METHOD a canSpawnMoreStructures ()Z
+	METHOD a canSpawnMoreStructuresOfType (I)Z
+		ARG 1 type

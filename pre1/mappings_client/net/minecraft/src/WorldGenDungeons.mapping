@@ -1,0 +1,4 @@
+CLASS cx net/minecraft/src/WorldGenDungeons
+	METHOD a pickCheckLootItem (Ljava/util/Random;)Lvw;
+	METHOD a generate (Ltd;Ljava/util/Random;III)Z
+	METHOD b pickMobSpawner (Ljava/util/Random;)Ljava/lang/String;

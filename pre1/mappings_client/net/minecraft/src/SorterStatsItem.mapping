@@ -1,0 +1,4 @@
+CLASS dy net/minecraft/src/SorterStatsItem
+	METHOD a func_27371_a (Lacs;Lacs;)I
+	FIELD a statsGUI Lcl;
+	FIELD b slotStatsItemGUI Lbf;

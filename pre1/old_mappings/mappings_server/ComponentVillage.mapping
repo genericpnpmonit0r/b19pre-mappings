@@ -1,0 +1,12 @@
+CLASS qt ComponentVillage
+	METHOD a (Lep;Lst;IIII)V
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+	METHOD a getNextComponentNN (Lh;Ljava/util/List;Ljava/util/Random;II)Liv;
+	METHOD a canVillageGoDeeper (Lst;)Z
+		ARG 0 boundingBox
+	METHOD b getAverageGroundLevel (Lep;Lst;)I
+		ARG 1 world
+		ARG 2 boundingBox
+	METHOD b getNextComponentPP (Lh;Ljava/util/List;Ljava/util/Random;II)Liv;

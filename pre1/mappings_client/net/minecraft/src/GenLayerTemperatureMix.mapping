@@ -1,0 +1,8 @@
+CLASS ce net/minecraft/src/GenLayerTemperatureMix
+	FIELD b layer Lsq;
+	FIELD c theInteger I
+	METHOD <init> (Lsq;Lsq;I)V
+		ARG 1 layer1
+		ARG 2 layer2
+		ARG 3 value
+	METHOD a func_35500_a (IIII)[I

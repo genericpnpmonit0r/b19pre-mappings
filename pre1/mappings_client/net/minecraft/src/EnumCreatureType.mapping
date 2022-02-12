@@ -1,0 +1,18 @@
+CLASS xj net/minecraft/src/EnumCreatureType
+	FIELD a monster Lxj;
+	FIELD b creature Lxj;
+	FIELD c waterCreature Lxj;
+	FIELD d creatureClass Ljava/lang/Class;
+	FIELD e maxNumberOfCreature I
+	FIELD f creatureMaterial Lxn;
+	FIELD g isPeacefulCreature Z
+	FIELD h allCreatureTypes [Lxj;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/Class;ILxn;Z)V
+		ARG 3 creatureClass
+		ARG 4 maxCount
+		ARG 5 creatureMaterial
+		ARG 6 isPeaceful
+	METHOD a getCreatureClass ()Ljava/lang/Class;
+	METHOD b getMaxNumberOfCreature ()I
+	METHOD c getCreatureMaterial ()Lxn;
+	METHOD d getPeacefulCreature ()Z

@@ -1,0 +1,4 @@
+CLASS kz net/minecraft/src/TextureFlamesFX
+	METHOD a onTick ()V
+	FIELD a field_1133_g [F
+	FIELD b field_1132_h [F

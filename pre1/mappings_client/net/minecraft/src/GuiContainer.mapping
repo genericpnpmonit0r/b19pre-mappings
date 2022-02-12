@@ -1,0 +1,32 @@
+CLASS ey net/minecraft/src/GuiContainer
+	FIELD a itemRenderer Lqo;
+	FIELD b xSize I
+	FIELD c ySize I
+	FIELD d inventorySlots Lcm;
+	METHOD <init> (Lcm;)V
+		ARG 1 container
+	METHOD a initGui ()V
+	METHOD a keyTyped (CI)V
+	METHOD a drawGuiContainerBackgroundLayer (F)V
+		ARG 1 layer
+	METHOD a getSlotAtPosition (II)Lug;
+		ARG 1 x
+		ARG 2 y
+	METHOD a drawScreen (IIF)V
+	METHOD a mouseClicked (III)V
+	METHOD a drawSlotInventory (Lug;)V
+		ARG 1 slot
+	METHOD a getIsMouseOverSlot (Lug;II)Z
+		ARG 1 slot
+		ARG 2 x
+		ARG 3 y
+	METHOD a windowClickSlot (Lug;IIZ)V
+		ARG 1 slot
+		ARG 2 x
+		ARG 3 y
+		ARG 4 clicked
+	METHOD b mouseMovedOrUp (III)V
+	METHOD c drawGuiContainerForegroundLayer ()V
+	METHOD d onGuiClosed ()V
+	METHOD e doesGuiPauseGame ()Z
+	METHOD p_ updateScreen ()V

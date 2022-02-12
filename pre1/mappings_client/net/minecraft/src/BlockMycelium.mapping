@@ -1,0 +1,8 @@
+CLASS afk net/minecraft/src/BlockMycelium
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a updateTick (Ltd;IIILjava/util/Random;)V
+	METHOD b randomDisplayTick (Ltd;IIILjava/util/Random;)V
+	METHOD d getBlockTexture (Lafd;IIII)I

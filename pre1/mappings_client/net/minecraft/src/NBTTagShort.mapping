@@ -1,0 +1,5 @@
+CLASS mh net/minecraft/src/NBTTagShort
+	METHOD a getType ()B
+	METHOD a readTagContents (Ljava/io/DataInput;)V
+	METHOD a writeTagContents (Ljava/io/DataOutput;)V
+	FIELD a shortValue S

@@ -1,0 +1,6 @@
+CLASS aal net/minecraft/src/J_JsonObjectNodeSelector
+	METHOD a shortForm ()Ljava/lang/String;
+	METHOD a func_27070_a (Led;)Z
+	METHOD b func_27071_b (Led;)Ljava/util/Map;
+	METHOD b typeSafeApplyTo (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD c matchsNode (Ljava/lang/Object;)Z

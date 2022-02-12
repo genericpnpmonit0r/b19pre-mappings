@@ -1,0 +1,11 @@
+CLASS acb net/minecraft/src/ModelChicken
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Lle;FFFFFF)V
+	FIELD a head Lnv;
+	FIELD b body Lnv;
+	FIELD c rightLeg Lnv;
+	FIELD d leftLeg Lnv;
+	FIELD e rightWing Lnv;
+	FIELD f leftWing Lnv;
+	FIELD g bill Lnv;
+	FIELD k chin Lnv;

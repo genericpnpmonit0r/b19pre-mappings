@@ -1,0 +1,7 @@
+CLASS cn net/minecraft/src/ChestItemRenderHelper
+	FIELD a instance Lcn;
+	FIELD b theChest Lfu;
+	METHOD a renderChest (Lmn;IF)V
+		ARG 1 block
+		ARG 2 i
+		ARG 3 f

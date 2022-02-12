@@ -1,0 +1,27 @@
+CLASS ee net/minecraft/src/RenderLiving
+	FIELD a mainModel Lge;
+	FIELD b renderPassModel Lge;
+	METHOD a setRenderPassModel (Lge;)V
+	METHOD a doRender (Lle;DDDFF)V
+	METHOD a getDeathMaxRotation (Lxq;)F
+	METHOD a renderLivingAt (Lxq;DDD)V
+	METHOD a doRenderLiving (Lxq;DDDFF)V
+	METHOD a preRenderCallback (Lxq;F)V
+	METHOD a getColorMultiplier (Lxq;FF)I
+	METHOD a rotateCorpse (Lxq;FFF)V
+	METHOD a inheritRenderPass (Lxq;IF)Z
+	METHOD a renderLivingLabel (Lxq;Ljava/lang/String;DDDI)V
+	METHOD b passSpecialRender (Lxq;DDD)V
+		ARG 1 living
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD b renderEquippedItems (Lxq;F)V
+		ARG 1 entity
+		ARG 2 rot
+	METHOD b shouldRenderPass (Lxq;IF)Z
+		ARG 1 living
+		ARG 2 id
+		ARG 3 scale
+	METHOD c renderSwingProgress (Lxq;F)F
+	METHOD d handleRotationFloat (Lxq;F)F

@@ -1,0 +1,457 @@
+CLASS mn net/minecraft/src/Block
+	FIELD A bedrock Lmn;
+	FIELD B waterMoving Lmn;
+	FIELD C waterStill Lmn;
+	FIELD D lavaMoving Lmn;
+	FIELD E lavaStill Lmn;
+	FIELD F sand Lmn;
+	FIELD G gravel Lmn;
+	FIELD H oreGold Lmn;
+	FIELD I oreIron Lmn;
+	FIELD J oreCoal Lmn;
+	FIELD K wood Lmn;
+	FIELD L leaves Lqv;
+	FIELD M sponge Lmn;
+	FIELD N glass Lmn;
+	FIELD O oreLapis Lmn;
+	FIELD P blockLapis Lmn;
+	FIELD Q dispenser Lmn;
+	FIELD R sandStone Lmn;
+	FIELD S music Lmn;
+	FIELD T bed Lmn;
+	FIELD U railPowered Lmn;
+	FIELD V railDetector Lmn;
+	FIELD W pistonStickyBase Lmn;
+	FIELD X web Lmn;
+	FIELD Y tallGrass Lks;
+	FIELD Z deadBush Lfm;
+	FIELD aA crops Lmn;
+	FIELD aB tilledField Lmn;
+	FIELD aC stoneOvenIdle Lmn;
+	FIELD aD stoneOvenActive Lmn;
+	FIELD aE signPost Lmn;
+	FIELD aF doorWood Lmn;
+	FIELD aG ladder Lmn;
+	FIELD aH rail Lmn;
+	FIELD aI stairCompactCobblestone Lmn;
+	FIELD aJ signWall Lmn;
+	FIELD aK lever Lmn;
+	FIELD aL pressurePlateStone Lmn;
+	FIELD a blockName Ljava/lang/String;
+	FIELD aM doorSteel Lmn;
+	FIELD aN pressurePlatePlanks Lmn;
+	FIELD aO oreRedstone Lmn;
+	FIELD aP oreRedstoneGlowing Lmn;
+	FIELD aQ torchRedstoneIdle Lmn;
+	FIELD aR torchRedstoneActive Lmn;
+	FIELD aS button Lmn;
+	FIELD aT snow Lmn;
+	FIELD aU ice Lmn;
+	FIELD aV blockSnow Lmn;
+	FIELD aW cactus Lmn;
+	FIELD aX blockClay Lmn;
+	FIELD aY reed Lmn;
+	FIELD aZ jukebox Lmn;
+	FIELD aa pistonBase Lmn;
+	FIELD ab pistonExtension Lpp;
+	FIELD ac cloth Lmn;
+	FIELD ad pistonMoving Lmm;
+	FIELD ae plantYellow Lnq;
+	FIELD af plantRed Lnq;
+	FIELD ag mushroomBrown Lnq;
+	FIELD ah mushroomRed Lnq;
+	FIELD ai blockGold Lmn;
+	FIELD aj blockSteel Lmn;
+	FIELD ak stairDouble Lmn;
+	FIELD al stairSingle Lmn;
+	FIELD am brick Lmn;
+	FIELD an tnt Lmn;
+	FIELD ao bookShelf Lmn;
+	FIELD ap cobblestoneMossy Lmn;
+	FIELD aq obsidian Lmn;
+	FIELD ar torchWood Lmn;
+	FIELD as fire Lafu;
+	FIELD at mobSpawner Lmn;
+	FIELD au stairCompactPlanks Lmn;
+	FIELD av chest Lmn;
+	FIELD aw redstoneWire Lmn;
+	FIELD ax oreDiamond Lmn;
+	FIELD ay blockDiamond Lmn;
+	FIELD az workbench Lmn;
+	FIELD bA waterlily Lmn;
+	FIELD bB netherBrick Lmn;
+	FIELD bC netherFence Lmn;
+	FIELD bD stairsNetherBrick Lmn;
+	FIELD bE netherStalk Lmn;
+	FIELD bF blockIndexInTexture I
+	FIELD bG blockID I
+	FIELD bH blockHardness F
+	FIELD bI blockResistance F
+	FIELD bJ blockConstructorCalled Z
+	FIELD bK enableStats Z
+	FIELD bL minX D
+	FIELD bM minY D
+	FIELD bN minZ D
+	FIELD bO maxX D
+	FIELD bP maxY D
+	FIELD bQ maxZ D
+	FIELD bR stepSound Lrs;
+	FIELD bS blockParticleGravity F
+	FIELD bT blockMaterial Lxn;
+	FIELD bU slipperiness F
+	FIELD ba fence Lmn;
+	FIELD bb pumpkin Lmn;
+	FIELD bc netherrack Lmn;
+	FIELD bd slowSand Lmn;
+	FIELD be glowStone Lmn;
+	FIELD bf portal Laf;
+	FIELD bg pumpkinLantern Lmn;
+	FIELD bh cake Lmn;
+	FIELD bi redstoneRepeaterIdle Lmn;
+	FIELD bj redstoneRepeaterActive Lmn;
+	FIELD bk lockedChest Lmn;
+	FIELD bl trapdoor Lmn;
+	FIELD bm silverfish Lmn;
+	FIELD bn stoneBrick Lmn;
+	FIELD bo mushroomCapBrown Lmn;
+	FIELD bp mushroomCapRed Lmn;
+	FIELD bq fenceIron Lmn;
+	FIELD br thinGlass Lmn;
+	FIELD bs melon Lmn;
+	FIELD bt pumpkinStem Lmn;
+	FIELD bu melonStem Lmn;
+	FIELD bv vine Lmn;
+	FIELD bw fenceGate Lmn;
+	FIELD bx stairsBrick Lmn;
+	FIELD by stairsStoneBrickSmooth Lmn;
+	FIELD bz mycelium Lafk;
+	FIELD d soundPowderFootstep Lrs;
+	FIELD e soundWoodFootstep Lrs;
+	FIELD f soundGravelFootstep Lrs;
+	FIELD g soundGrassFootstep Lrs;
+	FIELD h soundStoneFootstep Lrs;
+	FIELD i soundMetalFootstep Lrs;
+	FIELD j soundGlassFootstep Lrs;
+	FIELD k soundClothFootstep Lrs;
+	FIELD l soundSandFootstep Lrs;
+	FIELD m blocksList [Lmn;
+	FIELD n tickOnLoad [Z
+	FIELD o opaqueCubeLookup [Z
+	FIELD p isBlockContainer [Z
+	FIELD q lightOpacity [I
+	FIELD r canBlockGrass [Z
+	FIELD s lightValue [I
+	FIELD t requiresSelfNotify [Z
+	FIELD u stone Lmn;
+	FIELD v grass Loe;
+	FIELD w dirt Lmn;
+	FIELD x cobblestone Lmn;
+	FIELD y planks Lmn;
+	FIELD z sapling Lmn;
+	METHOD <init> (IILxn;)V
+		ARG 1 id
+		ARG 2 textureIndex
+		ARG 3 material
+	METHOD <init> (ILxn;)V
+		ARG 1 id
+		ARG 2 material
+	METHOD a isOpaqueCube ()Z
+	METHOD a setLightValue (F)Lmn;
+		COMMENT Sets the light value to be emitted by this block.
+		ARG 1 lightValue
+			COMMENT the light value
+	METHOD a setBlockBounds (FFFFFF)V
+		COMMENT Sets the block bounds.
+		ARG 1 minX
+			COMMENT minimum X bound
+		ARG 2 minY
+			COMMENT minimum Y bound
+		ARG 3 minZ
+			COMMENT minimum Z bound
+		ARG 4 maxX
+			COMMENT maximum X bound
+		ARG 5 maxY
+			COMMENT maximum Y bound
+		ARG 6 maxZ
+			COMMENT maximum Z bound
+	METHOD a getBlockTextureFromSide (I)I
+		ARG 1 side
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+		ARG 1 side
+		ARG 2 meta
+	METHOD a idDropped (ILjava/util/Random;)I
+		ARG 1 meta
+		ARG 2 rand
+	METHOD a canCollideCheck (IZ)Z
+		ARG 1 id
+		ARG 2 collideable
+	METHOD a setBlockBoundsBasedOnState (Lafd;III)V
+		ARG 1 blockAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a shouldSideBeRendered (Lafd;IIII)Z
+		COMMENT Determines which side should be rendered
+		ARG 1 blockAccess
+		ARG 2 x
+			COMMENT block x coordinate
+		ARG 3 y
+			COMMENT block y coordinate
+		ARG 4 z
+			COMMENT block z coordinate
+		ARG 5 side
+			COMMENT block side
+	METHOD a isVecInsideYZBounds (Lba;)Z
+		ARG 1 vector
+	METHOD a setBlockName (Ljava/lang/String;)Lmn;
+		ARG 1 name
+	METHOD a quantityDropped (Ljava/util/Random;)I
+		ARG 1 rand
+	METHOD a getExplosionResistance (Lle;)F
+		ARG 1 entity
+	METHOD a setStepSound (Lrs;)Lmn;
+		COMMENT Sets the step sound for the block.
+		ARG 1 stepSound
+			COMMENT the step sound
+	METHOD a onBlockAdded (Ltd;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a onNeighborBlockChange (Ltd;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 side
+	METHOD a dropBlockAsItemWithChance (Ltd;IIIIF)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 id
+		ARG 6 chance
+	METHOD a powerBlock (Ltd;IIIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 side
+		ARG 6 powerLevel
+	METHOD a collisionRayTrace (Ltd;IIILba;Lba;)Lmv;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 vector1
+		ARG 6 vector2
+	METHOD a updateTick (Ltd;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 rand
+	METHOD a onEntityCollidedWithBlock (Ltd;IIILle;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 entity
+	METHOD a velocityToAddToEntity (Ltd;IIILle;Lba;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 entity
+		ARG 6 velocityVector
+	METHOD a getCollidingBoundingBoxes (Ltd;IIILsw;Ljava/util/ArrayList;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 boundingBox
+		ARG 6 boxList
+	METHOD a onBlockClicked (Ltd;IIILui;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 player
+	METHOD a dropBlockAsItem_do (Ltd;IIILvw;)V
+		ARG 1 world
+		ARG 2 z
+		ARG 3 y
+		ARG 4 x
+		ARG 5 itemStack
+	METHOD a onBlockPlacedBy (Ltd;IIILxq;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 living
+	METHOD a harvestBlock (Ltd;Lui;IIII)V
+		ARG 1 world
+		ARG 2 player
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 id
+	METHOD a blockStrength (Lui;)F
+		ARG 1 player
+	METHOD a setTickOnLoad (Z)Lmn;
+		COMMENT Sets the block to tick on load.
+		ARG 1 ticksOnLoad
+			COMMENT block ticks on load
+	METHOD b renderAsNormalBlock ()Z
+	METHOD b setResistance (F)Lmn;
+		COMMENT Sets the block resistance.
+		ARG 1 resistance
+			COMMENT the resistance value
+	METHOD b damageDropped (I)I
+		ARG 1 id
+	METHOD b colorMultiplier (Lafd;III)I
+		ARG 1 blockAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b isPoweringTo (Lafd;IIII)Z
+		ARG 1 blockAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 side
+	METHOD b isVecInsideXZBounds (Lba;)Z
+		ARG 1 vector
+	METHOD b onBlockDestroyedByExplosion (Ltd;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b onBlockDestroyedByPlayer (Ltd;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 side
+	METHOD b randomDisplayTick (Ltd;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 rand
+	METHOD b onEntityWalking (Ltd;IIILle;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 entity
+	METHOD b blockActivated (Ltd;IIILui;)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 player
+	METHOD b_ onBlockRemoval (Ltd;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD c getRenderBlockPass ()I
+	METHOD c setHardness (F)Lmn;
+		COMMENT Sets the block hardness.
+		ARG 1 hardness
+			COMMENT the hardness value
+	METHOD c getRenderColor (I)I
+		ARG 1 color
+	METHOD c getMixedBrightnessForBlock (Lafd;III)I
+		ARG 1 blockAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD c getIsBlockSolid (Lafd;IIII)Z
+		ARG 1 blockAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 id
+	METHOD c isVecInsideXYBounds (Lba;)Z
+		ARG 1 vector
+	METHOD c getCollisionBoundingBoxFromPool (Ltd;III)Lsw;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD c onBlockPlaced (Ltd;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 side
+	METHOD d getRenderType ()I
+	METHOD d getBlockBrightness (Lafd;III)F
+		ARG 1 blockAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD d getBlockTexture (Lafd;IIII)I
+		ARG 1 blockAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 side
+	METHOD d getSelectedBoundingBoxFromPool (Ltd;III)Lsw;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD d canPlaceBlockOnSide (Ltd;IIII)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 side
+	METHOD e getMobilityFlag ()I
+	METHOD e setLightOpacity (I)Lmn;
+		ARG 1 lightOpacityValue
+	METHOD e getAmbientOcclusionLightValue (Lafd;III)F
+		ARG 1 blockAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD e canPlaceBlockAt (Ltd;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD e isIndirectlyPoweringTo (Ltd;IIII)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 side
+	METHOD f tickRate ()I
+	METHOD g canProvidePower ()Z
+	METHOD g canBlockStay (Ltd;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD g dropBlockAsItem (Ltd;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 id
+	METHOD h setBlockBoundsForItemRender ()V
+	METHOD i getBlockColor ()I
+	METHOD j isCollidable ()Z
+	METHOD k setRequiresSelfNotify ()Lmn;
+	METHOD l initializeBlock ()V
+	METHOD m setBlockUnbreakable ()Lmn;
+		COMMENT Sets the block to be unbreakable.
+	METHOD n getHardness ()F
+		COMMENT Gets the current block hardness.
+	METHOD o translateBlockName ()Ljava/lang/String;
+	METHOD p getBlockName ()Ljava/lang/String;
+	METHOD q getEnableStats ()Z
+	METHOD r disableStats ()Lmn;

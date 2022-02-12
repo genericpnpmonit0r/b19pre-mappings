@@ -1,0 +1,3 @@
+CLASS gv net/minecraft/src/MovementInputFromOptions
+	METHOD a updatePlayerMoveState (Lui;)V
+	FIELD f gameSettings Lgj;

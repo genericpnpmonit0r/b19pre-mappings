@@ -1,0 +1,4 @@
+CLASS adv net/minecraft/src/SlotFurnace
+	METHOD a onPickupFromSlot (Lvw;)V
+	METHOD b isItemValid (Lvw;)Z
+	FIELD e thePlayer Lui;

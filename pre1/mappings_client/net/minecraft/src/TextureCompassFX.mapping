@@ -1,0 +1,6 @@
+CLASS qm net/minecraft/src/TextureCompassFX
+	METHOD a onTick ()V
+	FIELD a mc Lnet/minecraft/client/Minecraft;
+	FIELD b compassIconImageData [I
+	FIELD c field_4229_i D
+	FIELD d field_4228_j D

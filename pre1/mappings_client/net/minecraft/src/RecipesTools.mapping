@@ -1,0 +1,4 @@
+CLASS ul net/minecraft/src/RecipesTools
+	METHOD a addRecipes (Leq;)V
+	FIELD a recipePatterns [[Ljava/lang/String;
+	FIELD b recipeItems [[Ljava/lang/Object;

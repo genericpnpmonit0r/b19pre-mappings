@@ -1,0 +1,13 @@
+CLASS yx net/minecraft/src/Packet1Login
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Llt;)V
+	FIELD a protocolVersion I
+	FIELD b username Ljava/lang/String;
+	FIELD c mapSeed J
+	FIELD d serverMode I
+	FIELD e worldType B
+	FIELD f difficultySetting B
+	FIELD g worldHeight B
+	FIELD h maxPlayers B

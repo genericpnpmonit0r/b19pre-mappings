@@ -1,0 +1,3 @@
+CLASS h net/minecraft/src/WorldGenTreesBirch
+	COMMENT Named "WorldGenForest" in regular MCP Mappings
+	METHOD a generate (Ltd;Ljava/util/Random;III)Z

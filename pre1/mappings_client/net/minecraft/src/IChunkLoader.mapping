@@ -1,0 +1,13 @@
+CLASS qq net/minecraft/src/IChunkLoader
+	METHOD a func_814_a ()V
+	METHOD a loadChunk (Ltd;II)Lxl;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 z
+	METHOD a saveChunk (Ltd;Lxl;)V
+		ARG 1 world
+		ARG 2 chunk
+	METHOD b saveExtraData ()V
+	METHOD b saveExtraChunkData (Ltd;Lxl;)V
+		ARG 1 world
+		ARG 2 chunk

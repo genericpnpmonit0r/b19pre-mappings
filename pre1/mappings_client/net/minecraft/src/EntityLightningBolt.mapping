@@ -1,0 +1,9 @@
+CLASS c net/minecraft/src/EntityLightningBolt
+	METHOD a isInRangeToRenderVec3D (Lba;)Z
+	METHOD a readEntityFromNBT (Lyr;)V
+	METHOD b entityInit ()V
+	METHOD b writeEntityToNBT (Lyr;)V
+	METHOD w_ onUpdate ()V
+	FIELD a boltVertex J
+	FIELD b lightningState I
+	FIELD c boltLivingTime I

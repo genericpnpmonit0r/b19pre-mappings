@@ -1,0 +1,4 @@
+CLASS vc net/minecraft/src/ItemDoor
+	METHOD a placeDoorBlock (Ltd;IIIILmn;)V
+	METHOD a onItemUse (Lvw;Lui;Ltd;IIII)Z
+	FIELD a doorMaterial Lxn;

@@ -1,0 +1,2 @@
+CLASS adi net/minecraft/src/PotionHealth
+	METHOD a isReady (II)Z

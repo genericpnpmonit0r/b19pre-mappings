@@ -1,0 +1,5 @@
+CLASS so net/minecraft/src/J_JsonArrayNodeBuilder
+	METHOD a build ()Ljv;
+	METHOD a withElement (Lxe;)Lso;
+	METHOD b buildNode ()Led;
+	FIELD a elementBuilders Ljava/util/List;

@@ -1,0 +1,19 @@
+CLASS ak net/minecraft/src/CompressedStreamTools
+	METHOD a readDataInput (Ljava/io/DataInput;)Lyr;
+		ARG 0 dataInput
+	METHOD a readFile (Ljava/io/File;)Lyr;
+		ARG 0 file
+	METHOD a loadGzippedCompoundFromOutputStream (Ljava/io/InputStream;)Lyr;
+		ARG 0 inputStream
+	METHOD a write (Lyr;Ljava/io/DataOutput;)V
+		ARG 0 compoundTag
+		ARG 1 dataOutput
+	METHOD a decompress (Lyr;Ljava/io/File;)V
+		ARG 0 compoundTag
+		ARG 1 file
+	METHOD a writeGzippedCompoundToOutputStream (Lyr;Ljava/io/OutputStream;)V
+		ARG 0 compoundTag
+		ARG 1 outputStream
+	METHOD b compress (Lyr;Ljava/io/File;)V
+		ARG 0 compoundTag
+		ARG 1 file

@@ -1,0 +1,7 @@
+CLASS yf net/minecraft/src/J_JsonNodeDoesNotMatchChainedJsonNodeSelectorException
+	FIELD a field_27326_a Lph;
+	FIELD b field_27325_b Ljava/util/List;
+	METHOD a func_27324_a (Ljava/util/List;)Ljava/lang/String;
+	METHOD a createJsonNodeDoesNotMatchJsonNodeSelectorException (Lph;)Lv;
+	METHOD a func_27323_a (Lyf;Lwl;)Lv;
+	METHOD b func_27321_b (Lyf;Lwl;)Lv;

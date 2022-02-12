@@ -1,0 +1,14 @@
+CLASS tq net/minecraft/src/PathFinder
+	METHOD a openPoint (III)Ld;
+	METHOD a createEntityPath (Ld;Ld;)Lsb;
+	METHOD a createEntityPathTo (Lle;DDDF)Lsb;
+	METHOD a createEntityPathTo (Lle;IIIF)Lsb;
+	METHOD a getVerticalOffset (Lle;IIILd;)I
+	METHOD a getSafePoint (Lle;IIILd;I)Ld;
+	METHOD a addToPath (Lle;Ld;Ld;Ld;F)Lsb;
+	METHOD a createEntityPathTo (Lle;Lle;F)Lsb;
+	METHOD b findPathOptions (Lle;Ld;Ld;Ld;F)I
+	FIELD a worldMap Lafd;
+	FIELD b path Lxg;
+	FIELD c pointMap Lwo;
+	FIELD d pathOptions [Ld;

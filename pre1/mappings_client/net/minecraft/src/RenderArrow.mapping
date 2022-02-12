@@ -1,0 +1,3 @@
+CLASS he net/minecraft/src/RenderArrow
+	METHOD a renderArrow (Lld;DDDFF)V
+	METHOD a doRender (Lle;DDDFF)V

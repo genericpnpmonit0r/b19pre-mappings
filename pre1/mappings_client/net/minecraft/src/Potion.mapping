@@ -1,0 +1,46 @@
+CLASS vn net/minecraft/src/Potion
+	FIELD A potionUnused7 Lvn;
+	FIELD B potionUnused8 Lvn;
+	FIELD C potionUnused9 Lvn;
+	FIELD D potionUnused10 Lvn;
+	FIELD E potionUnused11 Lvn;
+	FIELD F potionUnused12 Lvn;
+	FIELD G potionUnused13 Lvn;
+	FIELD H potionId I
+	FIELD I name Ljava/lang/String;
+	FIELD a potionTypes [Lvn;
+	FIELD b potionUnused1 Lvn;
+	FIELD c moveSpeed Lvn;
+	FIELD d moveSlowdown Lvn;
+	FIELD e digSpeed Lvn;
+	FIELD f digSlowdown Lvn;
+	FIELD g damageBoost Lvn;
+	FIELD h heal Lvn;
+	FIELD i harm Lvn;
+	FIELD j jump Lvn;
+	FIELD k confusion Lvn;
+	FIELD l regeneration Lvn;
+	FIELD m resistance Lvn;
+	FIELD n fireResistance Lvn;
+	FIELD o waterBreathing Lvn;
+	FIELD p invisibility Lvn;
+	FIELD q blindness Lvn;
+	FIELD r nightVision Lvn;
+	FIELD s hunger Lvn;
+	FIELD t weakness Lvn;
+	FIELD u poison Lvn;
+	FIELD v potionUnused2 Lvn;
+	FIELD w potionUnused3 Lvn;
+	FIELD x potionUnused4 Lvn;
+	FIELD y potionUnused5 Lvn;
+	FIELD z potionUnused6 Lvn;
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a isReady (II)Z
+		ARG 1 i
+		ARG 2 j
+	METHOD a setPotionName (Ljava/lang/String;)Lvn;
+		ARG 1 name
+	METHOD a performEffect (Lxq;I)V
+		ARG 1 living
+		ARG 2 amplifier

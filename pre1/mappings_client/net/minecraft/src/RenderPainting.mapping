@@ -1,0 +1,6 @@
+CLASS co net/minecraft/src/RenderPainting
+	METHOD a func_158_a (Lkg;DDDFF)V
+	METHOD a func_160_a (Lkg;FF)V
+	METHOD a func_159_a (Lkg;IIII)V
+	METHOD a doRender (Lle;DDDFF)V
+	FIELD a rand Ljava/util/Random;

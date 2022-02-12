@@ -1,0 +1,17 @@
+CLASS pc net/minecraft/src/StructureVillagePieces
+	METHOD a getVillageComponentFromWeightedPiece (Lda;Ljava/util/List;Ljava/util/Random;IIIII)Lacp;
+		ARG 0 pieceWeight
+		ARG 1 components
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 i
+		ARG 7 type
+	METHOD a getNextStructureComponent (Lf;Ljava/util/List;Ljava/util/Random;IIIII)Lfw;
+	METHOD a getAvailablePieceWeight (Ljava/util/ArrayList;)I
+	METHOD a getStructureVillageWeightedPieceList (Ljava/util/Random;I)Ljava/util/ArrayList;
+	METHOD b getNextStructureComponentVillagePath (Lf;Ljava/util/List;Ljava/util/Random;IIIII)Lfw;
+	METHOD c getNextVillageComponent (Lf;Ljava/util/List;Ljava/util/Random;IIIII)Lacp;
+	METHOD d getNextVillageStructureComponent (Lf;Ljava/util/List;Ljava/util/Random;IIIII)Lfw;
+	METHOD e getNextComponentVillagePath (Lf;Ljava/util/List;Ljava/util/Random;IIIII)Lfw;

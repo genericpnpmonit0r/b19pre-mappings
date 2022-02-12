@@ -1,0 +1,11 @@
+CLASS vr net/minecraft/src/ShapedRecipes
+	METHOD a getRecipeSize ()I
+	METHOD a matches (Lya;)Z
+	METHOD a func_21137_a (Lya;IIZ)Z
+	METHOD b getRecipeOutput ()Lvw;
+	METHOD b getCraftingResult (Lya;)Lvw;
+	FIELD a recipeOutputItemID I
+	FIELD b recipeWidth I
+	FIELD c recipeHeight I
+	FIELD d recipeItems [Lvw;
+	FIELD e recipeOutput Lvw;

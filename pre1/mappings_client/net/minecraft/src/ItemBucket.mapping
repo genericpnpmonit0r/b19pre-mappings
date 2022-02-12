@@ -1,0 +1,3 @@
+CLASS as net/minecraft/src/ItemBucket
+	METHOD a onItemRightClick (Lvw;Ltd;Lui;)Lvw;
+	FIELD a isFull I

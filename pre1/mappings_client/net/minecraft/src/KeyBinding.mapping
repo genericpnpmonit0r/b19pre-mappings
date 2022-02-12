@@ -1,0 +1,13 @@
+CLASS aaj net/minecraft/src/KeyBinding
+	METHOD a unPressAllKeys ()V
+	METHOD a onTick (I)V
+	METHOD a setKeyBindState (IZ)V
+	METHOD b resetKeyBindingArrayAndHash ()V
+	METHOD c isPressed ()Z
+	METHOD d unpressKey ()V
+	FIELD a keybindArray Ljava/util/List;
+	FIELD b hash Lwo;
+	FIELD c keyDescription Ljava/lang/String;
+	FIELD d keyCode I
+	FIELD e pressed Z
+	FIELD f pressTime I

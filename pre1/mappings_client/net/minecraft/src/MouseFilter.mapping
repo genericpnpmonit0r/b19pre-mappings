@@ -1,0 +1,5 @@
+CLASS bq net/minecraft/src/MouseFilter
+	METHOD a func_22386_a (FF)F
+	FIELD a field_22388_a F
+	FIELD b field_22387_b F
+	FIELD c field_22389_c F

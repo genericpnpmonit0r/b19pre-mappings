@@ -1,0 +1,16 @@
+CLASS kj net/minecraft/src/ItemRenderer
+	METHOD a updateEquippedItem ()V
+	METHOD a renderItemInFirstPerson (F)V
+	METHOD a renderInsideOfBlock (FI)V
+	METHOD b func_9449_b ()V
+	METHOD b renderOverlays (F)V
+	METHOD c func_9450_c ()V
+	METHOD c renderWarpedTextureOverlay (F)V
+	METHOD d renderFireInFirstPerson (F)V
+	FIELD a mc Lnet/minecraft/client/Minecraft;
+	FIELD b itemToRender Lvw;
+	FIELD c equippedProgress F
+	FIELD d prevEquippedProgress F
+	FIELD e renderBlocksInstance Lru;
+	FIELD f mapItemRenderer Lvu;
+	FIELD g field_20099_f I

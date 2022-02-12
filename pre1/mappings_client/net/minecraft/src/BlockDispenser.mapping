@@ -1,0 +1,26 @@
+CLASS afe net/minecraft/src/BlockDispenser
+	FIELD a random Ljava/util/Random;
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a onBlockAdded (Ltd;III)V
+	METHOD a onNeighborBlockChange (Ltd;IIII)V
+	METHOD a updateTick (Ltd;IIILjava/util/Random;)V
+	METHOD a onBlockPlacedBy (Ltd;IIILxq;)V
+	METHOD b blockActivated (Ltd;IIILui;)Z
+	METHOD b_ onBlockRemoval (Ltd;III)V
+	METHOD c dispenseItem (Ltd;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 rand
+	METHOD d getBlockTexture (Lafd;IIII)I
+	METHOD f tickRate ()I
+	METHOD h setDispenserDefaultDirection (Ltd;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD n_ getBlockEntity ()Ljb;

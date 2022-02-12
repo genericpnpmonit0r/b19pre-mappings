@@ -1,0 +1,3 @@
+CLASS gq net/minecraft/src/ItemHoe
+	METHOD a isFull3D ()Z
+	METHOD a onItemUse (Lvw;Lui;Ltd;IIII)Z

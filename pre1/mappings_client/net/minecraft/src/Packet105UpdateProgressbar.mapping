@@ -1,0 +1,8 @@
+CLASS hu net/minecraft/src/Packet105UpdateProgressbar
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Llt;)V
+	FIELD a windowId I
+	FIELD b progressBar I
+	FIELD c progressBarValue I

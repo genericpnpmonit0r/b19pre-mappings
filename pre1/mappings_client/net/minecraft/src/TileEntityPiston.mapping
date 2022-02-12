@@ -1,0 +1,23 @@
+CLASS mg net/minecraft/src/TileEntityPiston
+	METHOD a getStoredBlockID ()I
+	METHOD a func_31008_a (F)F
+	METHOD a func_31010_a (FF)V
+	METHOD a readFromNBT (Lyr;)V
+	METHOD b func_31017_b (F)F
+	METHOD b writeToNBT (Lyr;)V
+	METHOD c func_31014_c (F)F
+	METHOD d func_31015_b ()Z
+	METHOD d func_31013_d (F)F
+	METHOD e func_31009_d ()I
+	METHOD f func_31012_k ()Z
+	METHOD g clearPistonTileEntity ()V
+	METHOD i getBlockMetadata ()I
+	METHOD k_ updateEntity ()V
+	FIELD a storedBlockID I
+	FIELD b storedMetadata I
+	FIELD c storedOrientation I
+	FIELD d extending Z
+	FIELD e field_31023_j Z
+	FIELD f progress F
+	FIELD g lastProgress F
+	FIELD h field_31018_m Ljava/util/List;

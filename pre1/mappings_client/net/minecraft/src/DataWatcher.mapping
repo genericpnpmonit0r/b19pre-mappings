@@ -1,0 +1,14 @@
+CLASS acw net/minecraft/src/DataWatcher
+	METHOD a getWatchableObjectByte (I)B
+	METHOD a addObject (ILjava/lang/Object;)V
+	METHOD a readWatchableObjects (Ljava/io/DataInputStream;)Ljava/util/List;
+	METHOD a writeWatchableObjects (Ljava/io/DataOutputStream;)V
+	METHOD a writeWatchableObject (Ljava/io/DataOutputStream;Lxv;)V
+	METHOD a updateWatchedObjectsFromList (Ljava/util/List;)V
+	METHOD a writeObjectsInListToStream (Ljava/util/List;Ljava/io/DataOutputStream;)V
+	METHOD b getWatchableObjectInt (I)I
+	METHOD b updateObject (ILjava/lang/Object;)V
+	METHOD c getWatchableObjectString (I)Ljava/lang/String;
+	FIELD a dataTypes Ljava/util/HashMap;
+	FIELD b watchedObjects Ljava/util/Map;
+	FIELD c objectChanged Z

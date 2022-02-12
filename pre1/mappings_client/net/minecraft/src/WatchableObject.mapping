@@ -1,0 +1,10 @@
+CLASS xv net/minecraft/src/WatchableObject
+	METHOD a getDataValueId ()I
+	METHOD a setObject (Ljava/lang/Object;)V
+	METHOD a setWatching (Z)V
+	METHOD b getObject ()Ljava/lang/Object;
+	METHOD c getObjectType ()I
+	FIELD a objectType I
+	FIELD b dataValueId I
+	FIELD c watchedObject Ljava/lang/Object;
+	FIELD d isWatching Z

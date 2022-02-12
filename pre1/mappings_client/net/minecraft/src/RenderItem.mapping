@@ -1,0 +1,11 @@
+CLASS qo net/minecraft/src/RenderItem
+	FIELD a field_27004_a Z
+	FIELD b renderBlocks Lru;
+	FIELD c random Ljava/util/Random;
+	METHOD a renderTexturedQuad (IIIIII)V
+	METHOD a doRenderItem (Lep;DDDFF)V
+	METHOD a drawItemIntoGui (Llc;Lwd;IIIII)V
+	METHOD a renderItemIntoGui (Llc;Lwd;Lvw;II)V
+	METHOD a doRender (Lle;DDDFF)V
+	METHOD a renderQuad (Lyu;IIIII)V
+	METHOD b renderItemOverlayIntoGUI (Llc;Lwd;Lvw;II)V

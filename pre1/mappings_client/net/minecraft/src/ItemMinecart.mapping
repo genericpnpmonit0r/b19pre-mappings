@@ -1,0 +1,3 @@
+CLASS abe net/minecraft/src/ItemMinecart
+	METHOD a onItemUse (Lvw;Lui;Ltd;IIII)Z
+	FIELD a minecartType I

@@ -1,0 +1,14 @@
+CLASS aei net/minecraft/src/J_JsonListener
+	METHOD a func_27205_a (Ljava/lang/String;)V
+	METHOD b startDocument ()V
+	METHOD b func_27201_b (Ljava/lang/String;)V
+	METHOD c endDocument ()V
+	METHOD c func_27198_c (Ljava/lang/String;)V
+	METHOD d startArray ()V
+	METHOD e endArray ()V
+	METHOD f func_27194_f ()V
+	METHOD g func_27203_g ()V
+	METHOD h func_27199_h ()V
+	METHOD i func_27196_i ()V
+	METHOD j func_27193_j ()V
+	METHOD k func_27202_k ()V

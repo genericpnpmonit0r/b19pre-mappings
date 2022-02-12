@@ -1,0 +1,4 @@
+CLASS zo net/minecraft/src/MaterialPortal
+	METHOD a isSolid ()Z
+	METHOD b getCanBlockGrass ()Z
+	METHOD c getIsSolid ()Z

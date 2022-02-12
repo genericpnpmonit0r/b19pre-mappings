@@ -1,0 +1,25 @@
+CLASS ba net/minecraft/src/Vec3D
+	METHOD a clearVectorList ()V
+	METHOD a createVectorHelper (DDD)Lba;
+	METHOD a rotateAroundX (F)V
+	METHOD a subtract (Lba;)Lba;
+	METHOD a getIntermediateWithXValue (Lba;D)Lba;
+	METHOD b initialize ()V
+	METHOD b createVector (DDD)Lba;
+	METHOD b rotateAroundY (F)V
+	METHOD b dotProduct (Lba;)D
+	METHOD b getIntermediateWithYValue (Lba;D)Lba;
+	METHOD c normalize ()Lba;
+	METHOD c addVector (DDD)Lba;
+	METHOD c crossProduct (Lba;)Lba;
+	METHOD c getIntermediateWithZValue (Lba;D)Lba;
+	METHOD d lengthVector ()D
+	METHOD d squareDistanceTo (DDD)D
+	METHOD d distanceTo (Lba;)D
+	METHOD e setComponents (DDD)Lba;
+	METHOD e squareDistanceTo (Lba;)D
+	FIELD a xCoord D
+	FIELD b yCoord D
+	FIELD c zCoord D
+	FIELD d vectorList Ljava/util/List;
+	FIELD e nextVector I

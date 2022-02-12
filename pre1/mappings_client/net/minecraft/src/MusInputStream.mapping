@@ -1,0 +1,5 @@
+CLASS yn net/minecraft/src/MusInputStream
+	FIELD a buffer [B
+	FIELD b codec Lvm;
+	FIELD c hash I
+	FIELD d inputStream Ljava/io/InputStream;

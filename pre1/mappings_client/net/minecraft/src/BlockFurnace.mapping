@@ -1,0 +1,27 @@
+CLASS aca net/minecraft/src/BlockFurnace
+	FIELD a furnaceRand Ljava/util/Random;
+	FIELD b isActive Z
+	FIELD c keepFurnaceInventory Z
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 active
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a onBlockAdded (Ltd;III)V
+	METHOD a onBlockPlacedBy (Ltd;IIILxq;)V
+	METHOD a updateFurnaceBlockState (ZLtd;III)V
+		ARG 0 activeFlag
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b randomDisplayTick (Ltd;IIILjava/util/Random;)V
+	METHOD b blockActivated (Ltd;IIILui;)Z
+	METHOD b_ onBlockRemoval (Ltd;III)V
+	METHOD d getBlockTexture (Lafd;IIII)I
+	METHOD h setDefaultDirection (Ltd;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD n_ getBlockEntity ()Ljb;

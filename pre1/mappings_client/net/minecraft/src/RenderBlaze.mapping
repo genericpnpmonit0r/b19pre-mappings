@@ -1,0 +1,5 @@
+CLASS of net/minecraft/src/RenderBlaze
+	METHOD a doRender (Lle;DDDFF)V
+	METHOD a doRenderLiving (Lxq;DDDFF)V
+	METHOD a func_40277_a (Lyc;DDDFF)V
+	FIELD c field_40278_c I

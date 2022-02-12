@@ -1,0 +1,7 @@
+CLASS ge net/minecraft/src/ModelBase
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Lle;FFFFFF)V
+	METHOD a setLivingAnimations (Lxq;FFF)V
+	FIELD h onGround F
+	FIELD i isRiding Z
+	FIELD j boxList Ljava/util/List;

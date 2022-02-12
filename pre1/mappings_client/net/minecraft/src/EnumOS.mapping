@@ -1,0 +1,7 @@
+CLASS wg net/minecraft/src/EnumOS
+	FIELD a linux Lwg;
+	FIELD b solaris Lwg;
+	FIELD c windows Lwg;
+	FIELD d macos Lwg;
+	FIELD e unknown Lwg;
+	METHOD values ()[Lwg;

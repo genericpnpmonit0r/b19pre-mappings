@@ -1,0 +1,4 @@
+CLASS aa net/minecraft/src/Packet11PlayerPosition
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V

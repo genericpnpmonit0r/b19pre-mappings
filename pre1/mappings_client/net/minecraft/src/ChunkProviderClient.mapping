@@ -1,0 +1,19 @@
+CLASS mo net/minecraft/src/ChunkProviderClient
+	FIELD a blankChunk Lxl;
+	FIELD b chunkMapping Ldp;
+	FIELD c chunkListing Ljava/util/List;
+	FIELD d worldObj Ltd;
+	METHOD <init> (Ltd;)V
+		ARG 1 world
+	METHOD a unload100OldestChunks ()Z
+	METHOD a chunkExists (II)Z
+	METHOD a populate (Lbh;II)V
+	METHOD a func_40377_a (Lxj;III)Ljava/util/List;
+	METHOD a saveChunks (ZLoz;)Z
+	METHOD b canSave ()Z
+	METHOD b provideChunk (II)Lxl;
+	METHOD c makeString ()Ljava/lang/String;
+	METHOD c loadChunk (II)Lxl;
+	METHOD d unloadChunk (II)V
+		ARG 1 x
+		ARG 2 z

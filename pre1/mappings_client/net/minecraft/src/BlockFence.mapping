@@ -1,0 +1,14 @@
+CLASS wn net/minecraft/src/BlockFence
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
+	METHOD a isOpaqueCube ()Z
+	METHOD b renderAsNormalBlock ()Z
+	METHOD c getCollisionBoundingBoxFromPool (Ltd;III)Lsw;
+	METHOD d getRenderType ()I
+	METHOD e canPlaceBlockAt (Ltd;III)Z
+	METHOD f canConnectFenceTo (Lafd;III)Z
+		ARG 1 blockAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

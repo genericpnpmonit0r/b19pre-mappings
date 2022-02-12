@@ -1,0 +1,11 @@
+CLASS aeq net/minecraft/src/Packet52MultiBlockChange
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Llt;)V
+	FIELD a xPosition I
+	FIELD b zPosition I
+	FIELD c coordinateArray [S
+	FIELD d typeArray [B
+	FIELD e metadataArray [B
+	FIELD f size I

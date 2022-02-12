@@ -1,0 +1,2 @@
+CLASS afs net/minecraft/src/ItemPainting
+	METHOD a onItemUse (Lvw;Lui;Ltd;IIII)Z

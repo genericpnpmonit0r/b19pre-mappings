@@ -1,0 +1,3 @@
+CLASS ns net/minecraft/src/WorldGenBigMushroom
+	METHOD a generate (Ltd;Ljava/util/Random;III)Z
+	FIELD a field_35266_a I

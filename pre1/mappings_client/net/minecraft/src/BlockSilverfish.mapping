@@ -1,0 +1,11 @@
+CLASS aau net/minecraft/src/BlockSilverfish
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a harvestBlock (Ltd;Lui;IIII)V
+	METHOD b onBlockDestroyedByPlayer (Ltd;IIII)V
+	METHOD d getPosingIdByMetadata (I)Z
+		ARG 0 id
+	METHOD f getTextureFromBlockId (I)I
+		ARG 0 id

@@ -1,0 +1,2 @@
+CLASS wp net/minecraft/src/RecipesCrafting
+	METHOD a addRecipes (Leq;)V

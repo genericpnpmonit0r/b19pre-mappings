@@ -1,0 +1,4 @@
+CLASS aex net/minecraft/src/RecipesWeapons
+	METHOD a addRecipes (Leq;)V
+	FIELD a recipePatterns [[Ljava/lang/String;
+	FIELD b recipeItems [[Ljava/lang/Object;

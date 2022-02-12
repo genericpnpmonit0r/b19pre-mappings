@@ -1,0 +1,2 @@
+CLASS tt net/minecraft/src/EntityAuraFX
+	METHOD w_ onUpdate ()V

@@ -1,0 +1,6 @@
+CLASS qn net/minecraft/src/MapCoord
+	FIELD a field_28217_a B
+	FIELD b field_28216_b B
+	FIELD c field_28220_c B
+	FIELD d field_28219_d B
+	FIELD e field_28218_e Lvs;

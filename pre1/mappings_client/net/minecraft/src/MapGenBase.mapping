@@ -1,0 +1,5 @@
+CLASS tp net/minecraft/src/MapGenBase
+	METHOD a generate (Lbh;Ltd;II[B)V
+	METHOD a recursiveGenerate (Ltd;IIII[B)V
+	FIELD b field_1306_a I
+	FIELD c rand Ljava/util/Random;

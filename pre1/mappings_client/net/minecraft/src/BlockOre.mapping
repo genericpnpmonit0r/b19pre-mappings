@@ -1,0 +1,7 @@
+CLASS hs net/minecraft/src/BlockOre
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD b damageDropped (I)I

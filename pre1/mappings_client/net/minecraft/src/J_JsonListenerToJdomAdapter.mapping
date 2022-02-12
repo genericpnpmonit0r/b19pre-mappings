@@ -1,0 +1,19 @@
+CLASS xr net/minecraft/src/J_JsonListenerToJdomAdapter
+	FIELD a stack Ljava/util/Stack;
+	FIELD b root Lxe;
+	METHOD a getDocument ()Ljv;
+	METHOD a func_27205_a (Ljava/lang/String;)V
+	METHOD a func_27207_a (Lxe;)V
+	METHOD b func_27195_b ()V
+	METHOD b func_27201_b (Ljava/lang/String;)V
+	METHOD b func_27206_b (Lxe;)V
+	METHOD c func_27204_c ()V
+	METHOD c func_27198_c (Ljava/lang/String;)V
+	METHOD d func_27200_d ()V
+	METHOD e func_27197_e ()V
+	METHOD f func_27194_f ()V
+	METHOD g func_27203_g ()V
+	METHOD h func_27199_h ()V
+	METHOD i func_27196_i ()V
+	METHOD j func_27193_j ()V
+	METHOD k func_27202_k ()V

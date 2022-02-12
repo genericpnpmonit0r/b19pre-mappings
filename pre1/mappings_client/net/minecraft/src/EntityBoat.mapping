@@ -1,0 +1,27 @@
+CLASS dr net/minecraft/src/EntityBoat
+	METHOD a setVelocity (DDD)V
+	METHOD a setPositionAndRotation2 (DDDFFI)V
+	METHOD a attackEntityFrom (Ljz;I)Z
+	METHOD a getCollisionBox (Lle;)Lsw;
+	METHOD a readEntityFromNBT (Lyr;)V
+	METHOD b entityInit ()V
+	METHOD b interact (Lui;)Z
+	METHOD b writeEntityToNBT (Lyr;)V
+	METHOD b_ canBeCollidedWith ()Z
+	METHOD c_ canBePushed ()Z
+	METHOD d_ canTriggerWalking ()Z
+	METHOD e_ getBoundingBox ()Lsw;
+	METHOD g_ getShadowSize ()F
+	METHOD h_ updateRiderPosition ()V
+	METHOD j performHurtAnimation ()V
+	METHOD k getMountedYOffset ()D
+	METHOD w_ onUpdate ()V
+	FIELD ap boatY D
+	FIELD aq boatZ D
+	FIELD ar boatYaw D
+	FIELD as boatPitch D
+	FIELD at velocityX D
+	FIELD au velocityY D
+	FIELD av velocityZ D
+	FIELD d boatPosRotationIncrements I
+	FIELD e boatX D

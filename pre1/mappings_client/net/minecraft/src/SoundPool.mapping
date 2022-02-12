@@ -1,0 +1,9 @@
+CLASS uy net/minecraft/src/SoundPool
+	METHOD a getRandomSound ()Lqs;
+	METHOD a getRandomSoundFromSoundPool (Ljava/lang/String;)Lqs;
+	METHOD a addSound (Ljava/lang/String;Ljava/io/File;)Lqs;
+	FIELD a numberOfSoundPoolEntries I
+	FIELD b isGetRandomSound Z
+	FIELD c rand Ljava/util/Random;
+	FIELD d nameToSoundPoolEntriesMapping Ljava/util/Map;
+	FIELD e allSoundPoolEntries Ljava/util/List;

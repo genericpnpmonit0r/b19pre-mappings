@@ -1,0 +1,10 @@
+CLASS kp net/minecraft/src/BlockWeb
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
+	METHOD a isOpaqueCube ()Z
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a onEntityCollidedWithBlock (Ltd;IIILle;)V
+	METHOD b renderAsNormalBlock ()Z
+	METHOD c getCollisionBoundingBoxFromPool (Ltd;III)Lsw;
+	METHOD d getRenderType ()I

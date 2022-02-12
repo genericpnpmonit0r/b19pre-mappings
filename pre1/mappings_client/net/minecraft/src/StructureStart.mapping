@@ -1,0 +1,10 @@
+CLASS mq net/minecraft/src/StructureStart
+	METHOD a getBoundingBox ()Lno;
+	METHOD a markAvailableHeight (Ltd;Ljava/util/Random;I)V
+	METHOD a func_40559_a (Ltd;Ljava/util/Random;II)V
+	METHOD a generateStructure (Ltd;Ljava/util/Random;Lno;)V
+	METHOD b func_40560_b ()Ljava/util/LinkedList;
+	METHOD c updateBoundingBox ()V
+	METHOD d isSizeableStructure ()Z
+	FIELD a components Ljava/util/LinkedList;
+	FIELD b boundingBox Lno;

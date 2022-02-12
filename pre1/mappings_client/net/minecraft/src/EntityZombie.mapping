@@ -1,0 +1,6 @@
+CLASS adk net/minecraft/src/EntityZombie
+	METHOD c onLivingUpdate ()V
+	METHOD d getLivingSound ()Ljava/lang/String;
+	METHOD e getHurtSound ()Ljava/lang/String;
+	METHOD f getDeathSound ()Ljava/lang/String;
+	METHOD g getDropItemId ()I

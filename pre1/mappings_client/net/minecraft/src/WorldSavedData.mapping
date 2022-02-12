@@ -1,0 +1,8 @@
+CLASS uu net/minecraft/src/WorldSavedData
+	METHOD a markDirty ()V
+	METHOD a readFromNBT (Lyr;)V
+	METHOD a setDirty (Z)V
+	METHOD b isDirty ()Z
+	METHOD b writeToNBT (Lyr;)V
+	FIELD a mapName Ljava/lang/String;
+	FIELD b dirty Z

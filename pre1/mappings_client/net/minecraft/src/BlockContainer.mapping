@@ -1,0 +1,5 @@
+CLASS abm net/minecraft/src/BlockContainer
+	METHOD a onBlockAdded (Ltd;III)V
+	METHOD a powerBlock (Ltd;IIIII)V
+	METHOD b_ onBlockRemoval (Ltd;III)V
+	METHOD n_ getBlockEntity ()Ljb;

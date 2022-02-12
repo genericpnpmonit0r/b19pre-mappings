@@ -1,0 +1,6 @@
+CLASS afv net/minecraft/src/Packet255KickDisconnect
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Llt;)V
+	FIELD a reason Ljava/lang/String;

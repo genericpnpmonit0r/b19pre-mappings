@@ -1,0 +1,6 @@
+CLASS og net/minecraft/src/ItemMap
+	METHOD a updateMapData (Ltd;Lle;Lvs;)V
+	METHOD a getMapData (Lvw;Ltd;)Lvs;
+	METHOD a onUpdate (Lvw;Ltd;Lle;IZ)V
+	METHOD a getMPMapData (SLtd;)Lvs;
+	METHOD c onCreated (Lvw;Ltd;Lui;)V

@@ -1,0 +1,10 @@
+CLASS gn net/minecraft/src/StructureNetherBridgeEnd
+	FIELD a randomNextInt I
+	METHOD <init> (ILjava/util/Random;Lno;I)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 boundingBox
+		ARG 4 coordBaseMode
+	METHOD a buildComponent (Lfw;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lgn;
+	METHOD a addComponentParts (Ltd;Ljava/util/Random;Lno;)Z

@@ -1,0 +1,3 @@
+CLASS uf net/minecraft/src/RenderFallingSand
+	METHOD a doRender (Lle;DDDFF)V
+	FIELD a field_197_d Lru;

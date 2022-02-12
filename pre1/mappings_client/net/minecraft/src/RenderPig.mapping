@@ -1,0 +1,3 @@
+CLASS hg net/minecraft/src/RenderPig
+	METHOD a renderSaddledPig (Lnw;IF)Z
+	METHOD b shouldRenderPass (Lxq;IF)Z

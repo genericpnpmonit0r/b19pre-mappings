@@ -1,0 +1,2 @@
+CLASS afp net/minecraft/src/ItemFlintAndSteel
+	METHOD a onItemUse (Lvw;Lui;Ltd;IIII)Z

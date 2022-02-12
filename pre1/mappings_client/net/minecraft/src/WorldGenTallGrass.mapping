@@ -1,0 +1,4 @@
+CLASS qg net/minecraft/src/WorldGenTallGrass
+	METHOD a generate (Ltd;Ljava/util/Random;III)Z
+	FIELD a tallGrassID I
+	FIELD b tallGrassMetadata I

@@ -1,0 +1,49 @@
+CLASS aar net/minecraft/src/ChunkProviderHell
+	FIELD a noiseGen6 Lmd;
+	FIELD b noiseGen7 Lmd;
+	FIELD c netherFortressGenerator Lxa;
+	FIELD d noiseData1 [D
+	FIELD e noiseData2 [D
+	FIELD f noiseData3 [D
+	FIELD g noiseData4 [D
+	FIELD h noiseData5 [D
+	FIELD i hellRNG Ljava/util/Random;
+	FIELD j noiseGen1 Lmd;
+	FIELD k noiseGen2 Lmd;
+	FIELD l noiseGen3 Lmd;
+	FIELD m soulSandGravelNoiseGen Lmd;
+	FIELD n netherrackExclusivityNoiseGen Lmd;
+	FIELD o worldObj Ltd;
+	FIELD p noiseField [D
+	FIELD q soulsandNoise [D
+	FIELD r gravelNoise [D
+	FIELD s netherrackExclusivityNoise [D
+	FIELD t caveGenerator Ltp;
+	METHOD <init> (Ltd;J)V
+		ARG 1 world
+		ARG 2 seed
+	METHOD a unload100OldestChunks ()Z
+	METHOD a chunkExists (II)Z
+	METHOD a generateNetherTerrain (II[B)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+	METHOD a populate (Lbh;II)V
+	METHOD a func_40377_a (Lxj;III)Ljava/util/List;
+	METHOD a saveChunks (ZLoz;)Z
+	METHOD a initializeNoiseField ([DIIIIII)[D
+		ARG 1 noiseArray
+		ARG 2 offset1
+		ARG 3 offset2
+		ARG 4 offset3
+		ARG 5 x
+		ARG 6 y
+		ARG 7 z
+	METHOD b canSave ()Z
+	METHOD b provideChunk (II)Lxl;
+	METHOD b replaceBlocksForBiome (II[B)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+	METHOD c makeString ()Ljava/lang/String;
+	METHOD c loadChunk (II)Lxl;

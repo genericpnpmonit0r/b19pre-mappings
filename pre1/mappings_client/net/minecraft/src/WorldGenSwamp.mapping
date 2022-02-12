@@ -1,0 +1,3 @@
+CLASS au net/minecraft/src/WorldGenSwamp
+	METHOD a func_35265_a (Ltd;IIII)V
+	METHOD a generate (Ltd;Ljava/util/Random;III)Z

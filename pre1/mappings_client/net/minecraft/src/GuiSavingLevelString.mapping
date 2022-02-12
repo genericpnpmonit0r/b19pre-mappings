@@ -1,0 +1,3 @@
+CLASS ab net/minecraft/src/GuiSavingLevelString
+	FIELD a field_35624_a Ljava/lang/String;
+	FIELD b field_35623_b I

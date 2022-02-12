@@ -1,0 +1,4 @@
+CLASS aaf net/minecraft/src/SorterStatsBlock
+	METHOD a func_27297_a (Lacs;Lacs;)I
+	FIELD a statsGUI Lcl;
+	FIELD b slotStatsBlockGUI Lds;

@@ -1,0 +1,4 @@
+CLASS ws net/minecraft/src/EntityHeartFX
+	METHOD a renderParticle (Lyu;FFFFFF)V
+	METHOD w_ onUpdate ()V
+	FIELD a particleScaleOverTime F

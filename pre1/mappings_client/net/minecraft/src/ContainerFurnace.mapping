@@ -1,0 +1,12 @@
+CLASS qw net/minecraft/src/ContainerFurnace
+	FIELD a furnace Labs;
+	FIELD b lastCookTime I
+	FIELD c lastBurnTime I
+	FIELD h lastItemBurnTime I
+	METHOD <init> (Lvt;Labs;)V
+		ARG 1 inventoryPlayer
+		ARG 2 tileEntityFurnace
+	METHOD a updateCraftingResults ()V
+	METHOD a transferStackInSlot (I)Lvw;
+	METHOD a updateProgressBar (II)V
+	METHOD b canInteractWith (Lui;)Z

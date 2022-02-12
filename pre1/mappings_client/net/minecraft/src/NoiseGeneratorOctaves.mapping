@@ -1,0 +1,29 @@
+CLASS md net/minecraft/src/NoiseGeneratorOctaves
+	FIELD a generatorCollection [Lah;
+	FIELD b octaves I
+	METHOD <init> (Ljava/util/Random;I)V
+		ARG 1 rand
+		ARG 2 octaves
+	METHOD a generateNoiseOctaves (DD)D
+		ARG 1 x
+		ARG 3 z
+	METHOD a generateNoiseOctaves ([DIIIIDDD)[D
+		ARG 1 noiseArray
+		ARG 2 noiseOffset1
+		ARG 3 noiseOffset3
+		ARG 4 xArraySize
+		ARG 5 zArraySize
+		ARG 6 x
+		ARG 8 y
+		ARG 10 z
+	METHOD a generateNoiseOctaves ([DIIIIIIDDD)[D
+		ARG 1 noiseArray
+		ARG 2 noiseOffset1
+		ARG 3 noiseOffset2
+		ARG 4 noiseOffset3
+		ARG 5 xArraySize
+		ARG 6 yArraySize
+		ARG 7 zArraySize
+		ARG 8 x
+		ARG 10 y
+		ARG 12 z

@@ -1,0 +1,8 @@
+CLASS un net/minecraft/src/RenderVillager
+	FIELD c villagerModel Lrm;
+	METHOD a doRender (Lle;DDDFF)V
+	METHOD a doRenderLiving (Lxq;DDDFF)V
+	METHOD a preRenderCallback (Lxq;F)V
+	METHOD b passSpecialRender (Lxq;DDD)V
+	METHOD b renderEquippedItems (Lxq;F)V
+	METHOD b shouldRenderPass (Lxq;IF)Z

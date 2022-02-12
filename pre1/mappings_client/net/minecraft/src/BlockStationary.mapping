@@ -1,0 +1,5 @@
+CLASS yt net/minecraft/src/BlockStationary
+	METHOD a onNeighborBlockChange (Ltd;IIII)V
+	METHOD a updateTick (Ltd;IIILjava/util/Random;)V
+	METHOD j func_30004_j (Ltd;III)V
+	METHOD k func_301_k (Ltd;III)Z

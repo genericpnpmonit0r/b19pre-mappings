@@ -1,0 +1,7 @@
+CLASS zs net/minecraft/src/EnumOS2
+	FIELD a linux Lzs;
+	FIELD b solaris Lzs;
+	FIELD c windows Lzs;
+	FIELD d macos Lzs;
+	FIELD e unknown Lzs;
+	FIELD f allOSes [Lzs;

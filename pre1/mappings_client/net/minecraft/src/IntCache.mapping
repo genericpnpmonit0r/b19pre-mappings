@@ -1,0 +1,9 @@
+CLASS x net/minecraft/src/IntCache
+	FIELD a intCacheSize I
+	FIELD b freeSmallArrays Ljava/util/List;
+	FIELD c inUseSmallArrays Ljava/util/List;
+	FIELD d freeLargeArrays Ljava/util/List;
+	FIELD e inUseLargeArrays Ljava/util/List;
+	METHOD a resetIntCache ()V
+	METHOD a getIntCache (I)[I
+		ARG 0 sizeMax

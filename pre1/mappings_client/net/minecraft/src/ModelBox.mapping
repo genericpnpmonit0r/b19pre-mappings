@@ -1,0 +1,10 @@
+CLASS jp net/minecraft/src/ModelBox
+	METHOD a func_40670_a (Lyu;F)V
+	FIELD a field_40678_a F
+	FIELD b field_40676_b F
+	FIELD c field_40677_c F
+	FIELD d field_40674_d F
+	FIELD e field_40675_e F
+	FIELD f field_40672_f F
+	FIELD g field_40679_h [Lvg;
+	FIELD h field_40680_i [Lmc;

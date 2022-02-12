@@ -1,0 +1,27 @@
+CLASS fu net/minecraft/src/TileEntityChest
+	METHOD a getSizeInventory ()I
+	METHOD a decrStackSize (II)Lvw;
+	METHOD a setInventorySlotContents (ILvw;)V
+	METHOD a isUseableByPlayer (Lui;)Z
+	METHOD a readFromNBT (Lyr;)V
+	METHOD b func_35144_b ()V
+	METHOD b func_35143_b (II)V
+	METHOD b writeToNBT (Lyr;)V
+	METHOD c getInvName ()Ljava/lang/String;
+	METHOD d getInventoryStackLimit ()I
+	METHOD e openChest ()V
+	METHOD e_ getStackInSlot (I)Lvw;
+	METHOD f closeChest ()V
+	METHOD g func_35147_g ()V
+	METHOD h invalidate ()V
+	METHOD k_ updateEntity ()V
+	FIELD a field_35155_a Z
+	FIELD b field_35152_b Lfu;
+	FIELD c field_35153_c Lfu;
+	FIELD d field_35150_d Lfu;
+	FIELD e field_35151_e Lfu;
+	FIELD f field_35148_f F
+	FIELD g field_35149_g F
+	FIELD h field_35156_h I
+	FIELD p chestContents [Lvw;
+	FIELD q field_35154_q I

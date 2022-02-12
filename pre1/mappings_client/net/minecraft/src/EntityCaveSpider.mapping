@@ -1,0 +1,3 @@
+CLASS en net/minecraft/src/EntityCaveSpider
+	METHOD b attackEntityAsMob (Lle;)Z
+	METHOD o spiderScaleAmount ()F

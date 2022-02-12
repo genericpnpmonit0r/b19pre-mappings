@@ -1,0 +1,15 @@
+CLASS hd net/minecraft/src/StructureNetherBridgePieces
+	FIELD a primaryComponents [Labv;
+	FIELD b secondaryComponents [Labv;
+	METHOD a func_40689_a ()[Labv;
+	METHOD a func_40688_a (Labv;Ljava/util/List;Ljava/util/Random;IIIII)Lwa;
+	METHOD b func_40687_b ()[Labv;
+	METHOD b createNextComponentRandom (Labv;Ljava/util/List;Ljava/util/Random;IIIII)Lwa;
+		ARG 0 pieceWeight
+		ARG 1 components
+		ARG 2 rand
+		ARG 3 i
+		ARG 4 j
+		ARG 5 k
+		ARG 6 l
+		ARG 7 m

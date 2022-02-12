@@ -1,0 +1,3 @@
+CLASS gm net/minecraft/src/RecipeSorter
+	METHOD a compareRecipes (Lsh;Lsh;)I
+	FIELD a craftingManager Leq;

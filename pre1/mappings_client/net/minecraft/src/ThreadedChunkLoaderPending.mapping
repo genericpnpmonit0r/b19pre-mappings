@@ -1,0 +1,3 @@
+CLASS pb net/minecraft/src/ThreadedChunkLoaderPending
+	FIELD a field_40739_a Lpk;
+	FIELD b field_40738_b Lyr;

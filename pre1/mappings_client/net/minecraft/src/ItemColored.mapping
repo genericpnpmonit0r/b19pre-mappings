@@ -1,0 +1,8 @@
+CLASS aeu net/minecraft/src/ItemColored
+	FIELD a theBlock Lmn;
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 doesHaveSubtypes
+	METHOD a getIconFromDamage (I)I
+	METHOD b getPlacedBlockMetadata (I)I
+	METHOD c getColorFromDamage (I)I

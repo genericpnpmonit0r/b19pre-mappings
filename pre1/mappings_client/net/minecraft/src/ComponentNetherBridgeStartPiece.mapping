@@ -1,0 +1,5 @@
+CLASS aap net/minecraft/src/ComponentNetherBridgeStartPiece
+	FIELD a netherBridgePieceWeight Labv;
+	FIELD b primaryWeights Ljava/util/List;
+	FIELD c secondaryWeights Ljava/util/List;
+	FIELD d tertiaryWeights Ljava/util/ArrayList;

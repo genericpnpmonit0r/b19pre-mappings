@@ -1,0 +1,13 @@
+CLASS eq net/minecraft/src/CraftingManager
+	FIELD a instance Leq;
+	FIELD b recipes Ljava/util/List;
+	METHOD a getInstance ()Leq;
+	METHOD a addRecipe (Lvw;[Ljava/lang/Object;)V
+		ARG 1 output
+		ARG 2 patternAndIngredients
+	METHOD a findMatchingRecipe (Lya;)Lvw;
+		ARG 1 inventoryCrafting
+	METHOD b getRecipeList ()Ljava/util/List;
+	METHOD b addShapelessRecipe (Lvw;[Ljava/lang/Object;)V
+		ARG 1 output
+		ARG 2 patternAndIngredients

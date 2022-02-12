@@ -1,0 +1,12 @@
+CLASS xh net/minecraft/src/J_PositionTrackingPushbackReader
+	METHOD a getColumn ()I
+	METHOD a func_27334_a (C)V
+	METHOD a func_27332_a (I)V
+	METHOD a func_27335_a ([C)V
+	METHOD b getRow ()I
+	METHOD b func_27336_b ([C)I
+	METHOD c read ()I
+	FIELD a field_27338_a Ljava/io/PushbackReader;
+	FIELD b field_27337_b I
+	FIELD c field_27340_c I
+	FIELD d field_27339_d Z

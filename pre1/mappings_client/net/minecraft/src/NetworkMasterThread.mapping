@@ -1,0 +1,2 @@
+CLASS om net/minecraft/src/NetworkMasterThread
+	FIELD a netManager Lji;

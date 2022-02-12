@@ -1,0 +1,11 @@
+CLASS ew net/minecraft/src/StructurePieceTreasure
+	FIELD a itemId I
+	FIELD b minimumChanceToGenerateItem I
+	FIELD c maximumChanceToGenerateItem I
+	FIELD e otherField I
+	METHOD <init> (IIIII)V
+		ARG 1 itemId
+		ARG 2 min
+		ARG 3 max
+		ARG 4 i
+		ARG 5 j

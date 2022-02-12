@@ -1,0 +1,9 @@
+CLASS lq net/minecraft/src/ServerNBTStorage
+	METHOD a getCompoundTag ()Lyr;
+	METHOD a createServerNBTStorage (Lyr;)Llq;
+	FIELD a name Ljava/lang/String;
+	FIELD b host Ljava/lang/String;
+	FIELD c playerCount Ljava/lang/String;
+	FIELD d motd Ljava/lang/String;
+	FIELD e lag J
+	FIELD f polled Z

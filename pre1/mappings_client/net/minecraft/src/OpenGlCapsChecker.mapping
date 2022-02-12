@@ -1,0 +1,2 @@
+CLASS rv net/minecraft/src/OpenGlCapsChecker
+	FIELD a tryCheckOcclusionCapable Z

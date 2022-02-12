@@ -1,0 +1,4 @@
+CLASS ja net/minecraft/src/GuiFurnace
+	METHOD a drawGuiContainerBackgroundLayer (F)V
+	METHOD c drawGuiContainerForegroundLayer ()V
+	FIELD f furnaceInventory Labs;

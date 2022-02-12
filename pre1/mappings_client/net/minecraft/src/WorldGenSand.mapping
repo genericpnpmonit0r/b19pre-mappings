@@ -1,0 +1,4 @@
+CLASS du net/minecraft/src/WorldGenSand
+	METHOD a generate (Ltd;Ljava/util/Random;III)Z
+	FIELD a sandID I
+	FIELD b field_35263_b I

@@ -1,0 +1,4 @@
+CLASS e net/minecraft/src/J_JsonStringNodeBuilder
+	METHOD a func_27243_a ()Ljs;
+	METHOD b buildNode ()Led;
+	FIELD a field_27244_a Ljava/lang/String;

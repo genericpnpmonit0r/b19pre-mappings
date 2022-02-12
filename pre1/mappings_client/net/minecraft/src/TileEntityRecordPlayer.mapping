@@ -1,0 +1,4 @@
+CLASS cr net/minecraft/src/TileEntityRecordPlayer
+	METHOD a readFromNBT (Lyr;)V
+	METHOD b writeToNBT (Lyr;)V
+	FIELD a record I

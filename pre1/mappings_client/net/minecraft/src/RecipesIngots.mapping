@@ -1,0 +1,3 @@
+CLASS ack net/minecraft/src/RecipesIngots
+	METHOD a addRecipes (Leq;)V
+	FIELD a recipeItems [[Ljava/lang/Object;

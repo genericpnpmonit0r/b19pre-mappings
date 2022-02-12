@@ -1,0 +1,3 @@
+CLASS es net/minecraft/src/EntityDamageSourceIndirect
+	METHOD a getEntity ()Lle;
+	FIELD n damageSourceProjectile Lle;

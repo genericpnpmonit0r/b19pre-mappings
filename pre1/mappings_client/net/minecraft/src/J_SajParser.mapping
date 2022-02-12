@@ -1,0 +1,18 @@
+CLASS ai net/minecraft/src/J_SajParser
+	METHOD a func_27463_a (Ljava/io/Reader;Laei;)V
+	METHOD a numberToken (Lxh;)Ljava/lang/String;
+	METHOD a arrayString (Lxh;Laei;)V
+	METHOD b nonNegativeNumberToken (Lxh;)Ljava/lang/String;
+	METHOD b objectString (Lxh;Laei;)V
+	METHOD c nonZeroDigitToken (Lxh;)C
+	METHOD c aFieldToken (Lxh;Laei;)V
+	METHOD d digitToken (Lxh;)C
+	METHOD d aJsonValue (Lxh;Laei;)V
+	METHOD e digitString (Lxh;)Ljava/lang/String;
+	METHOD f possibleFractionalComponent (Lxh;)Ljava/lang/String;
+	METHOD g possibleExponent (Lxh;)Ljava/lang/String;
+	METHOD h possibleSign (Lxh;)Ljava/lang/String;
+	METHOD i func_27452_i (Lxh;)Ljava/lang/String;
+	METHOD j escapedStringChar (Lxh;)C
+	METHOD k hexadecimalNumber (Lxh;)I
+	METHOD l readNextNonWhitespaceChar (Lxh;)I

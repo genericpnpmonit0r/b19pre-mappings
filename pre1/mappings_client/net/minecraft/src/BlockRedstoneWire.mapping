@@ -1,0 +1,47 @@
+CLASS abu net/minecraft/src/BlockRedstoneWire
+	FIELD a wiresProvidePower Z
+	FIELD b blocksNeedingUpdate Ljava/util/Set;
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a onBlockAdded (Ltd;III)V
+	METHOD a onNeighborBlockChange (Ltd;IIII)V
+	METHOD a calculateCurrentChanges (Ltd;IIIIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 x2
+		ARG 6 y2
+		ARG 7 z2
+	METHOD b renderAsNormalBlock ()Z
+	METHOD b colorMultiplier (Lafd;III)I
+	METHOD b isPoweringTo (Lafd;IIII)Z
+	METHOD b randomDisplayTick (Ltd;IIILjava/util/Random;)V
+	METHOD b_ onBlockRemoval (Ltd;III)V
+	METHOD c getCollisionBoundingBoxFromPool (Ltd;III)Lsw;
+	METHOD d getRenderType ()I
+	METHOD e isPowerProviderOrWire (Lafd;IIII)Z
+		ARG 0 blockAccess
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 power
+	METHOD e canPlaceBlockAt (Ltd;III)Z
+	METHOD e isIndirectlyPoweringTo (Ltd;IIII)Z
+	METHOD f getMaxCurrentStrength (Ltd;IIII)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 power
+	METHOD g canProvidePower ()Z
+	METHOD h updateAndPropagateCurrentStrength (Ltd;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i notifyWireNeighborsOfNeighborChange (Ltd;III)V

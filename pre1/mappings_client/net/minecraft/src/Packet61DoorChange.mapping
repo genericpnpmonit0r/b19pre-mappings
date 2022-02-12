@@ -1,0 +1,10 @@
+CLASS dn net/minecraft/src/Packet61DoorChange
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Llt;)V
+	FIELD a sfxID I
+	FIELD b auxData I
+	FIELD c posX I
+	FIELD d posY I
+	FIELD e posZ I

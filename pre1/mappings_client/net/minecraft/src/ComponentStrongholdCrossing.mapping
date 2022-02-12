@@ -1,0 +1,14 @@
+CLASS adt net/minecraft/src/ComponentStrongholdCrossing
+	FIELD a randomDoor Lkb;
+	FIELD b randNextBool1 Z
+	FIELD c randNextBool2 Z
+	FIELD d randNextBool3 Z
+	FIELD e randNextBool4 Z
+	METHOD <init> (ILjava/util/Random;Lno;I)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 boundingBox
+		ARG 4 coordBaseMode
+	METHOD a buildComponent (Lfw;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIIII)Ladt;
+	METHOD a addComponentParts (Ltd;Ljava/util/Random;Lno;)Z

@@ -1,0 +1,15 @@
+CLASS ug net/minecraft/src/Slot
+	METHOD a getStack ()Lvw;
+	METHOD a decrStackSize (I)Lvw;
+	METHOD a onPickupFromSlot (Lvw;)V
+	METHOD b getHasStack ()Z
+	METHOD b isItemValid (Lvw;)Z
+	METHOD c onSlotChanged ()V
+	METHOD c putStack (Lvw;)V
+	METHOD d getSlotStackLimit ()I
+	METHOD e getBackgroundIconIndex ()I
+	FIELD a inventory Lha;
+	FIELD b slotNumber I
+	FIELD c xDisplayPosition I
+	FIELD d yDisplayPosition I
+	FIELD e slotIndex I

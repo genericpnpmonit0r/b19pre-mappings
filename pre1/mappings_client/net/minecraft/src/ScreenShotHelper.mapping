@@ -1,0 +1,7 @@
+CLASS us net/minecraft/src/ScreenShotHelper
+	METHOD a saveScreenshot (Ljava/io/File;II)Ljava/lang/String;
+	METHOD a func_35879_a (Ljava/io/File;Ljava/lang/String;II)Ljava/lang/String;
+	FIELD a dateFormat Ljava/text/DateFormat;
+	FIELD b buffer Ljava/nio/ByteBuffer;
+	FIELD c pixelData [B
+	FIELD d imageData [I

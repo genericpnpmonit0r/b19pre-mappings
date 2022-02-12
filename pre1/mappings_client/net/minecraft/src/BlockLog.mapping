@@ -1,0 +1,9 @@
+CLASS my net/minecraft/src/BlockLog
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a harvestBlock (Ltd;Lui;IIII)V
+	METHOD b damageDropped (I)I
+	METHOD b_ onBlockRemoval (Ltd;III)V

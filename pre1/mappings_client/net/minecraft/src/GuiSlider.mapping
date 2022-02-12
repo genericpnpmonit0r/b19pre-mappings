@@ -1,0 +1,8 @@
+CLASS adz net/minecraft/src/GuiSlider
+	METHOD a mouseReleased (II)V
+	METHOD a getHoverState (Z)I
+	METHOD b mouseDragged (Lnet/minecraft/client/Minecraft;II)V
+	METHOD c mousePressed (Lnet/minecraft/client/Minecraft;II)Z
+	FIELD j sliderValue F
+	FIELD k dragging Z
+	FIELD l idFloat Lva;

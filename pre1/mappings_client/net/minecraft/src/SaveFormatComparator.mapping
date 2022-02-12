@@ -1,0 +1,13 @@
+CLASS mt net/minecraft/src/SaveFormatComparator
+	METHOD a getFileName ()Ljava/lang/String;
+	METHOD a compareTo (Lmt;)I
+	METHOD b getDisplayName ()Ljava/lang/String;
+	METHOD d func_22161_d ()Z
+	METHOD e getLastTimePlayed ()J
+	METHOD f getGameType ()I
+	FIELD a fileName Ljava/lang/String;
+	FIELD b displayName Ljava/lang/String;
+	FIELD c lastTimePlayed J
+	FIELD d sizeOnDisk J
+	FIELD e field_22167_e Z
+	FIELD f gameType I

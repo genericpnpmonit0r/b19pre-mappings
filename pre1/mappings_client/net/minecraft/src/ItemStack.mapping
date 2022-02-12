@@ -1,0 +1,109 @@
+CLASS vw net/minecraft/src/ItemStack
+	FIELD a stackSize I
+	FIELD b animationsToGo I
+	FIELD c itemID I
+	FIELD d itemDamage I
+	METHOD <init> (III)V
+		ARG 1 id
+		ARG 2 stackSize
+		ARG 3 meta
+	METHOD <init> (Lmn;)V
+		ARG 1 block
+	METHOD <init> (Lmn;I)V
+		ARG 1 block
+		ARG 2 count
+	METHOD <init> (Lmn;II)V
+		ARG 1 block
+		ARG 2 count
+		ARG 3 meta
+	METHOD <init> (Lue;)V
+		ARG 1 item
+	METHOD <init> (Lue;I)V
+		ARG 1 item
+		ARG 2 count
+	METHOD <init> (Lue;II)V
+		ARG 1 item
+		ARG 2 count
+		ARG 3 meta
+	METHOD a getItem ()Lue;
+	METHOD a splitStack (I)Lvw;
+		ARG 1 stackSize
+	METHOD a onDestroyBlock (IIIILui;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+		ARG 5 player
+	METHOD a damageItem (ILle;)V
+		ARG 1 meta
+		ARG 2 entity
+	METHOD a getDamageVsEntity (Lle;)I
+		ARG 1 entity
+	METHOD a getStrVsBlock (Lmn;)F
+		ARG 1 block
+	METHOD a updateAnimation (Ltd;Lle;IZ)V
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 tickCounter
+		ARG 4 animationFlag
+	METHOD a useItemRightClick (Ltd;Lui;)Lvw;
+		ARG 1 world
+		ARG 2 player
+	METHOD a onPlayerStoppedUsing (Ltd;Lui;I)V
+		ARG 1 world
+		ARG 2 player
+		ARG 3 id
+	METHOD a onItemDestroyedByUse (Lui;)V
+		ARG 1 player
+	METHOD a useItem (Lui;Ltd;IIII)Z
+		ARG 1 player
+		ARG 2 world
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 side
+	METHOD a isItemEqual (Lvw;)Z
+		ARG 1 itemStack
+	METHOD a areItemStacksEqual (Lvw;Lvw;)Z
+		ARG 0 ItemStack1
+		ARG 1 itemStack2
+	METHOD a useItemOnEntity (Lxq;)V
+		ARG 1 living
+	METHOD a hitEntity (Lxq;Lui;)V
+		ARG 1 living
+		ARG 2 player
+	METHOD a loadItemStackFromNBT (Lyr;)Lvw;
+		ARG 0 compoundTag
+	METHOD b getIconIndex ()I
+	METHOD b setItemDamage (I)V
+		ARG 1 meta
+	METHOD b canHarvestBlock (Lmn;)Z
+		ARG 1 block
+	METHOD b onFoodEaten (Ltd;Lui;)Lvw;
+		ARG 1 world
+		ARG 2 player
+	METHOD b copyItemStack (Lvw;)Lvw;
+		ARG 0 ItemStack
+	METHOD b writeToNBT (Lyr;)Lyr;
+		ARG 1 compoundTag
+	METHOD c getMaxStackSize ()I
+	METHOD c onCrafting (Ltd;Lui;)V
+		ARG 1 world
+		ARG 2 player
+	METHOD c isStackEqual (Lvw;)Z
+		ARG 1 itemStack
+	METHOD c readFromNBT (Lyr;)V
+		ARG 1 compoundTag
+	METHOD d isStackable ()Z
+	METHOD d isItemStackEqual (Lvw;)Z
+		ARG 1 itemStack
+	METHOD e isItemStackDamageable ()Z
+	METHOD f getHasSubtypes ()Z
+	METHOD g isItemDamaged ()Z
+	METHOD h getItemDamageForDisplay ()I
+	METHOD i getItemDamage ()I
+	METHOD j getMaxDamage ()I
+	METHOD k copy ()Lvw;
+	METHOD l getItemStackName ()Ljava/lang/String;
+	METHOD m getMaxItemUseDuration ()I
+	METHOD n getItemUseAction ()Lvy;

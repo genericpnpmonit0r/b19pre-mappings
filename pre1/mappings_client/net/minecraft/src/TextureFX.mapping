@@ -1,0 +1,9 @@
+CLASS ql net/minecraft/src/TextureFX
+	METHOD a onTick ()V
+	METHOD a bindImage (Lwd;)V
+	FIELD f imageData [B
+	FIELD g iconIndex I
+	FIELD h anaglyphEnabled Z
+	FIELD i textureId I
+	FIELD j tileSize I
+	FIELD k tileImage I

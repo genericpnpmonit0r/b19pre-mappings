@@ -1,0 +1,14 @@
+CLASS ky net/minecraft/src/ModelSpider
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Lle;FFFFFF)V
+	FIELD a spiderHead Lnv;
+	FIELD b spiderNeck Lnv;
+	FIELD c spiderBody Lnv;
+	FIELD d spiderLeg1 Lnv;
+	FIELD e spiderLeg2 Lnv;
+	FIELD f spiderLeg3 Lnv;
+	FIELD g spiderLeg4 Lnv;
+	FIELD k spiderLeg5 Lnv;
+	FIELD l spiderLeg6 Lnv;
+	FIELD m spiderLeg7 Lnv;
+	FIELD n spiderLeg8 Lnv;

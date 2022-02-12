@@ -1,0 +1,4 @@
+CLASS aby net/minecraft/src/RenderMinecart
+	METHOD a func_152_a (Lafr;DDDFF)V
+	METHOD a doRender (Lle;DDDFF)V
+	FIELD a modelMinecart Lge;

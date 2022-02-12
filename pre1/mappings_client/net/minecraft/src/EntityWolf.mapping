@@ -1,0 +1,51 @@
+CLASS ub net/minecraft/src/EntityWolf
+	FIELD a looksWithInterest Z
+	FIELD ap timeWolfIsShaking F
+	FIELD aq prevTimeWolfIsShaking F
+	FIELD b field_25048_b F
+	FIELD c field_25054_c F
+	FIELD d isWolfShaking Z
+	FIELD e sitting Z
+	METHOD A getEyeHeight ()F
+	METHOD D getEntityTexture ()Ljava/lang/String;
+	METHOD R getMaxSpawnedInChunk ()I
+	METHOD T getWolfShaking ()Z
+	METHOD V isMovementCeased ()Z
+	METHOD W setTailRotation ()F
+	METHOD X getWolfOwner ()Ljava/lang/String;
+	METHOD Y isWolfSitting ()Z
+	METHOD Z isWolfAngry ()Z
+	METHOD a handleHealthUpdate (B)V
+	METHOD a setOwner (Ljava/lang/String;)V
+		ARG 1 ownerName
+	METHOD a attackEntityFrom (Ljz;I)Z
+	METHOD a attackEntity (Lle;F)V
+	METHOD a readEntityFromNBT (Lyr;)V
+	METHOD a_ canDespawn ()Z
+	METHOD aa isWolfTamed ()Z
+	METHOD b entityInit ()V
+	METHOD b interact (Lui;)Z
+	METHOD b writeEntityToNBT (Lyr;)V
+	METHOD b showHeartsOrSmokeFX (Z)V
+		ARG 1 fxFlag
+	METHOD c onLivingUpdate ()V
+	METHOD c getPathOrWalkableBlock (Lle;F)V
+	METHOD d getLivingSound ()Ljava/lang/String;
+	METHOD d getShadingWhileShaking (F)F
+	METHOD d getShakeAngle (FF)F
+	METHOD d_ canTriggerWalking ()Z
+	METHOD e getHurtSound ()Ljava/lang/String;
+	METHOD e getInterestedAngle (F)F
+	METHOD e setIsSitting (Z)V
+		ARG 1 sittingFlag
+	METHOD f getDeathSound ()Ljava/lang/String;
+	METHOD f setWolfAngry (Z)V
+		ARG 1 angryFlag
+	METHOD g getDropItemId ()I
+	METHOD g setIsTamed (Z)V
+		ARG 1 tamedFlag
+	METHOD l findPlayerToAttack ()Lle;
+	METHOD l_ updateEntityActionState ()V
+	METHOD q_ getSoundVolume ()F
+	METHOD u_ getVerticalFaceSpeed ()I
+	METHOD w_ onUpdate ()V

@@ -1,0 +1,5 @@
+CLASS ej net/minecraft/src/WorldSettings
+	METHOD a getSeed ()J
+	METHOD b getGameType ()I
+	FIELD a worldSeed J
+	FIELD b worldType I

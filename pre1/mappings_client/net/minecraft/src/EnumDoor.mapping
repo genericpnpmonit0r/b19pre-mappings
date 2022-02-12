@@ -1,0 +1,6 @@
+CLASS kb net/minecraft/src/EnumDoor
+	FIELD a OPENING Lkb;
+	FIELD b WOOD_DOOR Lkb;
+	FIELD c GRATES Lkb;
+	FIELD d IRON_DOOR Lkb;
+	FIELD e allDoors [Lkb;

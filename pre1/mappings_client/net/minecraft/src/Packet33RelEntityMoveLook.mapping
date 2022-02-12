@@ -1,0 +1,4 @@
+CLASS jr net/minecraft/src/Packet33RelEntityMoveLook
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V

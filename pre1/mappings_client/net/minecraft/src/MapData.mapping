@@ -1,0 +1,15 @@
+CLASS vs net/minecraft/src/MapData
+	METHOD a func_28170_a (III)V
+	METHOD a func_28169_a (Lui;Lvw;)V
+	METHOD a readFromNBT (Lyr;)V
+	METHOD a func_28171_a ([B)V
+	METHOD b writeToNBT (Lyr;)V
+	FIELD b xCenter I
+	FIELD c zCenter I
+	FIELD d dimension B
+	FIELD e scale B
+	FIELD f colors [B
+	FIELD g field_28175_g I
+	FIELD h field_28174_h Ljava/util/List;
+	FIELD i playersVisibleOnMap Ljava/util/List;
+	FIELD j field_28172_j Ljava/util/Map;

@@ -1,0 +1,6 @@
+CLASS ei net/minecraft/src/BlockBookshelf
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a quantityDropped (Ljava/util/Random;)I

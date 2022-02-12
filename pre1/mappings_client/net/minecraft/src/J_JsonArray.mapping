@@ -1,0 +1,7 @@
+CLASS zc net/minecraft/src/J_JsonArray
+	METHOD a getType ()Lqj;
+	METHOD a asList (Ljava/lang/Iterable;)Ljava/util/List;
+	METHOD b getText ()Ljava/lang/String;
+	METHOD c getFields ()Ljava/util/Map;
+	METHOD d getElements ()Ljava/util/List;
+	FIELD a elements Ljava/util/List;

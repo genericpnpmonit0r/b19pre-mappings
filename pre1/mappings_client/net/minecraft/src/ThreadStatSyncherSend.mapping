@@ -1,0 +1,3 @@
+CLASS na net/minecraft/src/ThreadStatSyncherSend
+	FIELD a field_27233_a Ljava/util/Map;
+	FIELD b syncher Lrn;

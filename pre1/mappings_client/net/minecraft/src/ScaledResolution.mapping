@@ -1,0 +1,8 @@
+CLASS aat net/minecraft/src/ScaledResolution
+	METHOD a getScaledWidth ()I
+	METHOD b getScaledHeight ()I
+	FIELD a scaledWidthD D
+	FIELD b scaledHeightD D
+	FIELD c scaleFactor I
+	FIELD d scaledWidth I
+	FIELD e scaledHeight I

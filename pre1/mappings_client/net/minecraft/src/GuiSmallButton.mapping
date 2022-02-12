@@ -1,0 +1,3 @@
+CLASS t net/minecraft/src/GuiSmallButton
+	METHOD a returnEnumOptions ()Lva;
+	FIELD j enumOptions Lva;

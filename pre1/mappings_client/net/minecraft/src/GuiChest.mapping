@@ -1,0 +1,6 @@
+CLASS ux net/minecraft/src/GuiChest
+	METHOD a drawGuiContainerBackgroundLayer (F)V
+	METHOD c drawGuiContainerForegroundLayer ()V
+	FIELD f upperChestInventory Lha;
+	FIELD g lowerChestInventory Lha;
+	FIELD h inventoryRows I

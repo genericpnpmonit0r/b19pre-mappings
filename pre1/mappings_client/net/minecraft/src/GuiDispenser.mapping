@@ -1,0 +1,3 @@
+CLASS ec net/minecraft/src/GuiDispenser
+	METHOD a drawGuiContainerBackgroundLayer (F)V
+	METHOD c drawGuiContainerForegroundLayer ()V

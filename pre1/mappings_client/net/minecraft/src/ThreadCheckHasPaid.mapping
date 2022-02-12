@@ -1,0 +1,2 @@
+CLASS gf net/minecraft/src/ThreadCheckHasPaid
+	FIELD a mc Lnet/minecraft/client/Minecraft;

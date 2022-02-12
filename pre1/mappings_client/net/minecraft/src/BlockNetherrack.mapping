@@ -1,0 +1,4 @@
+CLASS pd net/minecraft/src/BlockNetherrack
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex

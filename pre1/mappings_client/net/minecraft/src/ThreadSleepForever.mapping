@@ -1,0 +1,2 @@
+CLASS fz net/minecraft/src/ThreadSleepForever
+	FIELD a mc Lnet/minecraft/client/Minecraft;

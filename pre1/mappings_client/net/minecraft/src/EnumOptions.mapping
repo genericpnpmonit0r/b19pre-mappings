@@ -1,0 +1,30 @@
+CLASS va net/minecraft/src/EnumOptions
+	FIELD a MUSIC Lva;
+	FIELD b SOUND Lva;
+	FIELD c INVERT_MOUSE Lva;
+	FIELD d SENSITIVITY Lva;
+	FIELD e FOV Lva;
+	FIELD f GAMMA Lva;
+	FIELD g RENDER_DISTANCE Lva;
+	FIELD h VIEW_BOBBING Lva;
+	FIELD i ANAGLYPH Lva;
+	FIELD j ADVANCED_OPENGL Lva;
+	FIELD k FRAMERATE_LIMIT Lva;
+	FIELD l DIFFICULTY Lva;
+	FIELD m GRAPHICS Lva;
+	FIELD n AMBIENT_OCCLUSION Lva;
+	FIELD o GUI_SCALE Lva;
+	FIELD p enumFloat Z
+	FIELD q enumBoolean Z
+	FIELD r enumString Ljava/lang/String;
+	FIELD s allOptions [Lva;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;ZZ)V
+		ARG 3 stringValue
+		ARG 4 floatValue
+		ARG 5 boolValue
+	METHOD a getEnumFloat ()Z
+	METHOD a getEnumOptions (I)Lva;
+		ARG 0 enumOrdinal
+	METHOD b getEnumBoolean ()Z
+	METHOD c returnEnumOrdinal ()I
+	METHOD d getEnumString ()Ljava/lang/String;

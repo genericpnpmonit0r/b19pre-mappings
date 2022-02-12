@@ -1,0 +1,5 @@
+CLASS xa net/minecraft/src/MapGenNetherBridge
+	METHOD a func_40485_b ()Ljava/util/List;
+	METHOD a canSpawnStructureAtCoords (II)Z
+	METHOD b getStructureStart (II)Lmq;
+	FIELD a field_40486_a Ljava/util/List;

@@ -1,0 +1,7 @@
+CLASS jf net/minecraft/src/GuiIngameMenu
+	METHOD a initGui ()V
+	METHOD a drawScreen (IIF)V
+	METHOD a actionPerformed (Lwv;)V
+	METHOD p_ updateScreen ()V
+	FIELD a updateCounter2 I
+	FIELD b updateCounter I

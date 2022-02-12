@@ -1,0 +1,2 @@
+CLASS aaz net/minecraft/src/BiomeGenForest
+	METHOD a getRandomWorldGenForTrees (Ljava/util/Random;)Ljj;

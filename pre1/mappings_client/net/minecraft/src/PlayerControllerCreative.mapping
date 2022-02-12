@@ -1,0 +1,16 @@
+CLASS zw net/minecraft/src/PlayerControllerCreative
+	METHOD a resetBlockRemoving ()V
+	METHOD a clickBlock (IIII)V
+	METHOD a func_35644_a (Lnet/minecraft/client/Minecraft;Lio;IIII)V
+	METHOD a onWorldChange (Ltd;)V
+	METHOD a sendPlaceBlock (Lui;Ltd;Lvw;IIII)Z
+	METHOD b getBlockReachDistance ()F
+	METHOD b func_6473_b (Lui;)V
+	METHOD c sendBlockRemoving (IIII)V
+	METHOD d shouldDrawHUD ()Z
+	METHOD d func_35646_d (Lui;)V
+	METHOD e func_35645_e (Lui;)V
+	METHOD g func_35641_g ()Z
+	METHOD h isInCreativeMode ()Z
+	METHOD i extendedReach ()Z
+	FIELD c field_35647_c I

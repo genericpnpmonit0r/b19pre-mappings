@@ -1,0 +1,15 @@
+CLASS ve StructureVillagePieces
+	METHOD a getVillageComponentFromWeightedPiece (Leg;Ljava/util/List;Ljava/util/Random;IIIII)Lqt;
+		ARG 0 weight
+		ARG 1 components
+		ARG 2 rand
+	METHOD a getAvailablePieceWeight (Ljava/util/ArrayList;)I
+		ARG 0 pieces
+	METHOD a getStructureVillageWeightedPieceList (Ljava/util/Random;I)Ljava/util/ArrayList;
+		ARG 0 rand
+		ARG 1 weight
+	METHOD c getNextVillageComponent (Lh;Ljava/util/List;Ljava/util/Random;IIIII)Lqt;
+		ARG 0 startPiece
+		ARG 1 components
+		ARG 2 rand
+	METHOD d getNextStructureComponent (Lh;Ljava/util/List;Ljava/util/Random;IIIII)Liv;

@@ -1,0 +1,7 @@
+CLASS js net/minecraft/src/J_JsonStringNode
+	METHOD a getType ()Lqj;
+	METHOD a func_27223_a (Ljs;)I
+	METHOD b getText ()Ljava/lang/String;
+	METHOD c getFields ()Ljava/util/Map;
+	METHOD d getElements ()Ljava/util/List;
+	FIELD a field_27224_a Ljava/lang/String;

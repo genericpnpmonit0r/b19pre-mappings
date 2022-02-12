@@ -1,0 +1,2 @@
+CLASS ay net/minecraft/src/StatTypeTime
+	METHOD a format (I)Ljava/lang/String;

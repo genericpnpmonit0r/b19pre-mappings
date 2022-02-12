@@ -1,0 +1,7 @@
+CLASS nx net/minecraft/src/NibbleArray
+	METHOD a isValid ()Z
+	METHOD a getNibble (III)I
+	METHOD a setNibble (IIII)V
+	FIELD a data [B
+	FIELD b chunkSizeYShift I
+	FIELD c chunkSizeYZShift I

@@ -1,0 +1,2 @@
+CLASS dv net/minecraft/src/IThreadedFileIO
+	METHOD v_ func_40550_A_ ()Z

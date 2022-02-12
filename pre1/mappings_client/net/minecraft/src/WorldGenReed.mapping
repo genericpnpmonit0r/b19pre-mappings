@@ -1,0 +1,2 @@
+CLASS vp net/minecraft/src/WorldGenReed
+	METHOD a generate (Ltd;Ljava/util/Random;III)Z

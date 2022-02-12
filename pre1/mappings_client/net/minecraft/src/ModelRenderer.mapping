@@ -1,0 +1,3 @@
+CLASS nv net/minecraft/src/ModelRenderer
+	METHOD a setRotationPoint (FFF)V
+	METHOD a addBox (FFFIIIF)V

@@ -1,0 +1,3 @@
+CLASS bg net/minecraft/src/ThreadPollServers
+	FIELD a server Llq;
+	FIELD b serverSlotContainer Lnm;

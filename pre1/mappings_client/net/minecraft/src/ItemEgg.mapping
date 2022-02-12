@@ -1,0 +1,2 @@
+CLASS xz net/minecraft/src/ItemEgg
+	METHOD a onItemRightClick (Lvw;Ltd;Lui;)Lvw;

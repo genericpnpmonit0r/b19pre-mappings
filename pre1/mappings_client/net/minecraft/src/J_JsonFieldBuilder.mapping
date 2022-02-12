@@ -1,0 +1,8 @@
+CLASS aab net/minecraft/src/J_JsonFieldBuilder
+	METHOD a aJsonFieldBuilder ()Laab;
+	METHOD a func_27304_a (Lxe;)Laab;
+	METHOD b func_27303_b ()Ljs;
+	METHOD b func_27300_b (Lxe;)Laab;
+	METHOD c func_27302_c ()Led;
+	FIELD a field_27306_a Lxe;
+	FIELD b field_27305_b Lxe;

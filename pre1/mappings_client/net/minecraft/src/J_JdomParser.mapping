@@ -1,0 +1,3 @@
+CLASS ev net/minecraft/src/J_JdomParser
+	METHOD a Parse (Ljava/io/Reader;)Ljv;
+	METHOD a parse (Ljava/lang/String;)Ljv;

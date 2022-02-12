@@ -1,0 +1,10 @@
+CLASS kh net/minecraft/src/NextTickListEntry
+	METHOD a setScheduledTime (J)Lkh;
+	METHOD a comparer (Lkh;)I
+	FIELD a xCoord I
+	FIELD b yCoord I
+	FIELD c zCoord I
+	FIELD d blockID I
+	FIELD e scheduledTime J
+	FIELD f nextTickEntryID J
+	FIELD g tickEntryID J

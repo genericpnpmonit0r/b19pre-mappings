@@ -1,0 +1,45 @@
+CLASS acf net/minecraft/src/RenderManager
+	FIELD a instance Lacf;
+	FIELD b renderPosX D
+	FIELD c renderPosY D
+	FIELD d renderPosZ D
+	FIELD e renderEngine Lwd;
+	FIELD f itemRenderer Lkj;
+	FIELD g worldObj Ltd;
+	FIELD h livingPlayer Lxq;
+	FIELD i playerViewY F
+	FIELD j playerViewX F
+	FIELD k options Lgj;
+	FIELD l distanceToCameraX D
+	FIELD m distanceToCameraZ D
+	FIELD n distanceToCameraY D
+	FIELD o entityRenderMap Ljava/util/Map;
+	FIELD p fontRenderer Llc;
+	METHOD a getFontRenderer ()Llc;
+	METHOD a getDistanceToCamera (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a getEntityClassRenderObject (Ljava/lang/Class;)Lrc;
+		ARG 1 renderObjClass
+	METHOD a getEntityRenderObject (Lle;)Lrc;
+		ARG 1 entity
+	METHOD a renderEntityWithPosYaw (Lle;DDDFF)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 yaw
+		ARG 9 pitch
+	METHOD a renderEntity (Lle;F)V
+		ARG 1 entity
+		ARG 2 multiplier
+	METHOD a set (Ltd;)V
+		ARG 1 world
+	METHOD a cacheActiveRenderInfo (Ltd;Lwd;Llc;Lxq;Lgj;F)V
+		ARG 1 world
+		ARG 2 renderEngine
+		ARG 3 fontRenderer
+		ARG 4 living
+		ARG 5 gameSettings
+		ARG 6 multiplier

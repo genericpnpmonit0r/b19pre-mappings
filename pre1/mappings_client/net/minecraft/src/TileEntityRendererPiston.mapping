@@ -1,0 +1,5 @@
+CLASS eu net/minecraft/src/TileEntityRendererPiston
+	METHOD a renderTileEntityAt (Ljb;DDDF)V
+	METHOD a func_31070_a (Lmg;DDDF)V
+	METHOD a func_31069_a (Ltd;)V
+	FIELD b field_31071_b Lru;

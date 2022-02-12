@@ -1,0 +1,4 @@
+CLASS kk net/minecraft/src/BlockSandStone
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getBlockTextureFromSide (I)I

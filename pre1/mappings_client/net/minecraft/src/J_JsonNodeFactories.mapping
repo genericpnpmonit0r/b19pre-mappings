@@ -1,0 +1,15 @@
+CLASS iw net/minecraft/src/J_JsonNodeFactories
+	COMMENT Factories for <code>JsonNode</code>s.
+	METHOD a aJsonNull ()Led;
+	METHOD a aJsonArray (Ljava/lang/Iterable;)Ljv;
+		ARG 0 elements
+	METHOD a aJsonString (Ljava/lang/String;)Ljs;
+		ARG 0 value
+	METHOD a aJsonObject (Ljava/util/Map;)Ljv;
+		ARG 0 fields
+	METHOD a aJsonObject ([Led;)Ljv;
+		ARG 0 jsonField
+	METHOD b aJsonTrue ()Led;
+	METHOD b aJsonNumber (Ljava/lang/String;)Led;
+		ARG 0 value
+	METHOD c aJsonFalse ()Led;

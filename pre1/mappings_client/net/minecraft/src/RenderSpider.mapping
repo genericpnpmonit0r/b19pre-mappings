@@ -1,0 +1,6 @@
+CLASS agb net/minecraft/src/RenderSpider
+	METHOD a setSpiderDeathMaxRotation (Lbk;)F
+	METHOD a scaleSpider (Lbk;F)V
+	METHOD a getDeathMaxRotation (Lxq;)F
+	METHOD a preRenderCallback (Lxq;F)V
+	METHOD b shouldRenderPass (Lxq;IF)Z

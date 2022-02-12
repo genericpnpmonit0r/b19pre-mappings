@@ -1,0 +1,15 @@
+CLASS aax net/minecraft/src/EntityTNTPrimed
+	FIELD a fuse I
+	METHOD <init> (Ltd;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a readEntityFromNBT (Lyr;)V
+	METHOD b entityInit ()V
+	METHOD b writeEntityToNBT (Lyr;)V
+	METHOD b_ canBeCollidedWith ()Z
+	METHOD d_ canTriggerWalking ()Z
+	METHOD g_ getShadowSize ()F
+	METHOD m explode ()V
+	METHOD w_ onUpdate ()V

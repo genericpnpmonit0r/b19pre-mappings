@@ -1,0 +1,4 @@
+CLASS adp net/minecraft/src/ChunkBlockMap
+	FIELD a blockArray [B
+	METHOD a setBlockArray ([B)V
+		ARG 0 blocks

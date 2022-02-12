@@ -1,0 +1,2 @@
+CLASS f ComponentMineshaftRoom
+	FIELD a componentsLst Ljava/util/LinkedList;

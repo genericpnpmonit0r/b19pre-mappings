@@ -1,0 +1,5 @@
+CLASS aev net/minecraft/src/ThreadConnectToServer
+	FIELD a mc Lnet/minecraft/client/Minecraft;
+	FIELD b hostName Ljava/lang/String;
+	FIELD c port I
+	FIELD d connectingGui Lady;

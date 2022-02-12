@@ -1,0 +1,10 @@
+CLASS eo net/minecraft/src/SaveConverterMcRegion
+	METHOD a func_22178_a ()Ljava/lang/String;
+	METHOD a func_22181_a (Ljava/io/File;Ljava/util/ArrayList;IILoz;)V
+	METHOD a func_22183_a (Ljava/io/File;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
+	METHOD a isOldMapFormat (Ljava/lang/String;)Z
+	METHOD a convertMapFormat (Ljava/lang/String;Loz;)Z
+	METHOD a getSaveLoader (Ljava/lang/String;Z)Laen;
+	METHOD a func_22182_a (Ljava/util/ArrayList;IILoz;)V
+	METHOD b getSaveList ()Ljava/util/List;
+	METHOD c flushCache ()V

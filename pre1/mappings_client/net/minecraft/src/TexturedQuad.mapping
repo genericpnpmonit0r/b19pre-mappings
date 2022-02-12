@@ -1,0 +1,6 @@
+CLASS mc net/minecraft/src/TexturedQuad
+	METHOD a flipFace ()V
+	METHOD a draw (Lyu;F)V
+	FIELD a vertexPositions [Lvg;
+	FIELD b nVertices I
+	FIELD c invertNormal Z

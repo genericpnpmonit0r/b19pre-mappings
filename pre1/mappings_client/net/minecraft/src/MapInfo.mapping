@@ -1,0 +1,7 @@
+CLASS lb net/minecraft/src/MapInfo
+	FIELD a entityplayerObj Lui;
+	FIELD b field_28119_b [I
+	FIELD c field_28124_c [I
+	FIELD d mapDataObj Lvs;
+	FIELD e field_28122_e I
+	FIELD f field_28121_f I

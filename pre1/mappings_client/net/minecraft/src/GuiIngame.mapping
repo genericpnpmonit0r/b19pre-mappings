@@ -1,0 +1,22 @@
+CLASS add net/minecraft/src/GuiIngame
+	METHOD a updateTick ()V
+	METHOD a renderVignette (FII)V
+	METHOD a renderGameOverlay (FZII)V
+	METHOD a renderPumpkinBlur (II)V
+	METHOD a renderInventorySlot (IIIF)V
+	METHOD a addChatMessage (Ljava/lang/String;)V
+	METHOD b clearChatMessages ()V
+	METHOD b renderPortalOverlay (FII)V
+	METHOD b setRecordPlayingMessage (Ljava/lang/String;)V
+	METHOD c addChatMessageTranslate (Ljava/lang/String;)V
+	FIELD a field_933_a Ljava/lang/String;
+	FIELD b damageGuiPartialTime F
+	FIELD c prevVignetteBrightness F
+	FIELD d itemRenderer Lqo;
+	FIELD f chatMessageList Ljava/util/List;
+	FIELD g rand Ljava/util/Random;
+	FIELD h mc Lnet/minecraft/client/Minecraft;
+	FIELD i updateCounter I
+	FIELD j recordPlaying Ljava/lang/String;
+	FIELD k recordPlayingUpFor I
+	FIELD l recordIsPlaying Z

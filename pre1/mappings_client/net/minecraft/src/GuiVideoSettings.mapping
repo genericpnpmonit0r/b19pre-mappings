@@ -1,0 +1,8 @@
+CLASS ig net/minecraft/src/GuiVideoSettings
+	METHOD a initGui ()V
+	METHOD a drawScreen (IIF)V
+	METHOD a actionPerformed (Lwv;)V
+	FIELD a field_22107_a Ljava/lang/String;
+	FIELD b parentGuiScreen Lrx;
+	FIELD c guiGameSettings Lgj;
+	FIELD d videoOptions [Lva;

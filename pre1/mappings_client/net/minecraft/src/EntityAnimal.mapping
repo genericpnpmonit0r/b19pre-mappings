@@ -1,0 +1,9 @@
+CLASS at net/minecraft/src/EntityAnimal
+	METHOD a getBlockPathWeight (III)F
+	METHOD a attackEntityFrom (Ljz;I)Z
+	METHOD a func_36001_a (Lui;)I
+	METHOD a readEntityFromNBT (Lyr;)V
+	METHOD a_ canDespawn ()Z
+	METHOD b writeEntityToNBT (Lyr;)V
+	METHOD h getCanSpawnHere ()Z
+	METHOD i getTalkInterval ()I

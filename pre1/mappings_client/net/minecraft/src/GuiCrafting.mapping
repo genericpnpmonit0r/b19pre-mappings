@@ -1,0 +1,4 @@
+CLASS zg net/minecraft/src/GuiCrafting
+	METHOD a drawGuiContainerBackgroundLayer (F)V
+	METHOD c drawGuiContainerForegroundLayer ()V
+	METHOD d onGuiClosed ()V

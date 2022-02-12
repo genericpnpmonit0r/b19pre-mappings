@@ -1,0 +1,6 @@
+CLASS vy net/minecraft/src/EnumAction
+	FIELD a none Lvy;
+	FIELD b eat Lvy;
+	FIELD c block Lvy;
+	FIELD d bow Lvy;
+	FIELD e allActions [Lvy;

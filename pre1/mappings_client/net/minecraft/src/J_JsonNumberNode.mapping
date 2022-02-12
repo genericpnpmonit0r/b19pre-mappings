@@ -1,0 +1,7 @@
+CLASS vv net/minecraft/src/J_JsonNumberNode
+	METHOD a getType ()Lqj;
+	METHOD b getText ()Ljava/lang/String;
+	METHOD c getFields ()Ljava/util/Map;
+	METHOD d getElements ()Ljava/util/List;
+	FIELD a field_27226_a Ljava/util/regex/Pattern;
+	FIELD b field_27225_b Ljava/lang/String;

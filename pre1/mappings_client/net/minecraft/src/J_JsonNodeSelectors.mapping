@@ -1,0 +1,11 @@
+CLASS fx net/minecraft/src/J_JsonNodeSelectors
+	METHOD a func_27347_a (I)Lwl;
+	METHOD a func_27348_a (Ljava/lang/String;)Lwl;
+	METHOD a func_27350_a (Ljs;)Lwl;
+	METHOD a func_27345_a (Lwl;Lwl;)Lwl;
+	METHOD a func_27349_a ([Ljava/lang/Object;)Lwl;
+	METHOD a func_27352_a ([Ljava/lang/Object;Lwl;)Lwl;
+	METHOD b func_27354_b (I)Lwl;
+	METHOD b func_27351_b (Ljava/lang/String;)Lwl;
+	METHOD b func_27346_b ([Ljava/lang/Object;)Lwl;
+	METHOD c func_27353_c ([Ljava/lang/Object;)Lwl;

@@ -1,0 +1,15 @@
+CLASS tn net/minecraft/src/GuiMainMenu
+	METHOD a initGui ()V
+	METHOD a keyTyped (CI)V
+	METHOD a rotateAndBlurSkybox (F)V
+	METHOD a drawScreen (IIF)V
+	METHOD a actionPerformed (Lwv;)V
+	METHOD b func_35355_b (IIF)V
+	METHOD c renderSkybox (IIF)V
+	METHOD e doesGuiPauseGame ()Z
+	METHOD p_ updateScreen ()V
+	FIELD a rand Ljava/util/Random;
+	FIELD c splashText Ljava/lang/String;
+	FIELD d multiplayerButton Lwv;
+	FIELD f field_35357_f I
+	FIELD g viewportTexture I

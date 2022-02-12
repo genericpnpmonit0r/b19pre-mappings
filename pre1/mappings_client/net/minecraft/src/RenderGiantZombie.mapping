@@ -1,0 +1,4 @@
+CLASS afq net/minecraft/src/RenderGiantZombie
+	METHOD a preRenderScale (Lin;F)V
+	METHOD a preRenderCallback (Lxq;F)V
+	FIELD c scale F

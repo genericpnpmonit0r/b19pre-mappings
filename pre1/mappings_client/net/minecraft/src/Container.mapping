@@ -1,0 +1,49 @@
+CLASS cm net/minecraft/src/Container
+	FIELD a transactionID S
+	FIELD b playerList Ljava/util/Set;
+	FIELD d inventoryItemStacks Ljava/util/List;
+	FIELD e inventorySlots Ljava/util/List;
+	FIELD f windowId I
+	FIELD g crafters Ljava/util/List;
+	METHOD a updateCraftingResults ()V
+	METHOD a transferStackInSlot (I)Lvw;
+		ARG 1 slotIndex
+	METHOD a updateProgressBar (II)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a slotClick (IIZLui;)Lvw;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 clickFlag
+		ARG 4 player
+	METHOD a putStackInSlot (ILvw;)V
+		ARG 1 slotIndex
+		ARG 2 itemStack
+	METHOD a onCraftMatrixChanged (Lha;)V
+		ARG 1 inventory
+	METHOD a addSlot (Lug;)V
+		ARG 1 slot
+	METHOD a onCraftGuiClosed (Lui;)V
+		ARG 1 player
+	METHOD a getNextTransactionID (Lvt;)S
+		ARG 1 invPlayer
+	METHOD a mergeItemStack (Lvw;IIZ)Z
+		ARG 1 itemStack
+		ARG 2 x
+		ARG 3 y
+		ARG 4 clickFlag
+	METHOD a doNothingWithShort (S)V
+		ARG 1 s
+	METHOD a putStacksInSlots ([Lvw;)V
+		ARG 1 contents
+	METHOD b getSlot (I)Lug;
+		ARG 1 slotIndex
+	METHOD b retrySlotClick (IIZLui;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 clickFlag
+		ARG 4 player
+	METHOD b canInteractWith (Lui;)Z
+		ARG 1 player
+	METHOD b doNothingWithShort2 (S)V
+		ARG 1 s

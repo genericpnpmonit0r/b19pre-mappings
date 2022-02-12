@@ -1,0 +1,251 @@
+CLASS ep World
+	FIELD A chunkProvider Lcc;
+	FIELD B worldFile Ltv;
+	FIELD C worldInfo Ldx;
+	FIELD D findingSpawnPoint Z
+	FIELD E mapStorage Lgh;
+	FIELD F spawHostileMobs Z
+	FIELD G spawnPeacefulMobs Z
+	FIELD H the32kIntArray [I
+	FIELD I singleplayerWorld Z
+	FIELD L no_this_isnt_a_boolean_what_the_hell_was_i_thinking D
+	FIELD M unloadedEntityList Ljava/util/List;
+	FIELD N scheduledTickTreeSet Ljava/util/TreeSet;
+	FIELD O scheduledTickSet Ljava/util/Set;
+	FIELD P addedTileEntityList Ljava/util/List;
+	FIELD Q field_aAAAAAAAAAAQ Ljava/util/List;
+	FIELD R cloudColor J
+	FIELD S lockTimestamp J
+	FIELD T allPlayersSleeping Z
+	FIELD U collidingBoundingBoxes Ljava/util/ArrayList;
+	FIELD V scanningTileEntities Z
+	FIELD W activeChunksSet Ljava/util/Set;
+	FIELD X ambientTickCountdown I
+	FIELD a worldYBits I
+	FIELD b worldYBitsAdded4 I
+	FIELD c worldYMax I
+	FIELD d worldYMask I
+	FIELD e worldOceanHeight I
+	FIELD f scheduledUpdatesAreImmediate Z
+	FIELD g loadedEntityList Ljava/util/List;
+	FIELD h loadedTileEntityList Ljava/util/List;
+	FIELD i playerEntities Ljava/util/List;
+	FIELD j lightningEntities Ljava/util/List;
+	FIELD k skylightSubtracted I
+	FIELD l distHashCounter I
+	FIELD m DIST_HASH_MAGIC I
+	FIELD n prevRainingStrength F
+	FIELD o rainingStrength F
+	FIELD p prevThunderingStrength F
+	FIELD q thunderingStrength F
+	FIELD r lastLightningBolt I
+	FIELD s lightningFlash I
+	FIELD t editingBlocks Z
+	FIELD u autosavePeriod I
+	FIELD v difficulty I
+	FIELD w rand Ljava/util/Random;
+	FIELD x isNewWorld Z
+	FIELD y worldProvider Luc;
+	FIELD z worldAccess Ljava/util/List;
+	METHOD <init> (Ltv;Ljava/lang/String;Lgg;Luc;)V
+		ARG 1 savehandler
+		ARG 2 name
+		ARG 3 settings
+		ARG 4 provider
+	METHOD a getWorldChunkManager ()Lut;
+	METHOD a getClosestVulnerablePlayer (DDDD)Lga;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 d
+	METHOD a getFirstUncoveredBlock (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD a doChunksNearChunkExist (IIII)Z
+		ARG 1 x
+		ARG 2 z
+		ARG 3 x2
+		ARG 4 z2
+	METHOD a setBlockAndMetadata (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+		ARG 5 meta
+	METHOD a checkChunksExist (IIIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 x2
+		ARG 5 y2
+		ARG 6 z2
+	METHOD a setWorldTime (J)V
+		ARG 1 time
+	METHOD a scheduleLightingUpdate (Ldr;IIIIII)V
+		ARG 1 skyblock
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 x2
+		ARG 6 y2
+		ARG 7 z2
+	METHOD a canMineBlock (Lga;III)Z
+		ARG 1 player
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a playAuxSFXAtEntity (Lga;IIIII)V
+		ARG 1 player
+		ARG 2 id
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 sfx_
+	METHOD a loadItemData (Ljava/lang/Class;Ljava/lang/String;)Lgu;
+		ARG 1 dataclass
+		ARG 2 name
+	METHOD a getPlayerEntityByName (Ljava/lang/String;)Lga;
+		ARG 1 name
+	METHOD a setItemData (Ljava/lang/String;Lgu;)V
+		ARG 1 name
+		ARG 2 data
+	METHOD a getSpawnlistEntryWithEnumCreatureType (Lju;III)Lbe;
+		ARG 1 creaturetype
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a addWorldAccess (Lne;)V
+	METHOD a addLightningBolt (Lpp;)Z
+		ARG 1 entity
+	METHOD a sendTrackedEntityStatusUpdatePacket (Lpp;B)V
+		ARG 1 entity
+		ARG 2 entitymeta
+	METHOD a getClosestVulnerablePlayerToEntity (Lpp;D)Lga;
+		ARG 1 entity
+		ARG 2 d
+	METHOD a newExplosion (Lpp;DDDFZ)Lob;
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 explosionPower
+		ARG 9 burning
+	METHOD a getEntityPathToXYZ (Lpp;IIIF)Lcx;
+		ARG 1 entity
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 pathweight
+	METHOD a getCollidingBoundingBoxes (Lpp;Led;)Ljava/util/List;
+	METHOD a updateEntityWithOptionalForce (Lpp;Z)V
+		ARG 1 entity
+		ARG 2 force
+	METHOD a saveWorld (ZLuy;)V
+		ARG 1 saveEnabled
+		ARG 2 progress
+	METHOD a areHostileMobsEnabled (ZZ)V
+	METHOD b createChunkProvider ()Lcc;
+	METHOD b getChunkFromBlockCoords (II)Ljv;
+		ARG 1 x
+		ARG 2 z
+	METHOD b setBlock (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+	METHOD b updateTileEntityChunkAndDoNothing (IIILms;)V
+	METHOD b advanceTime (J)V
+		ARG 1 time
+	METHOD b getUniqueDataId (Ljava/lang/String;)I
+		ARG 1 dataId
+	METHOD b entityJoinedWorld (Lpp;)Z
+	METHOD c generateSpawnPoint ()V
+	METHOD c getWeightedThunderStrength (F)F
+		ARG 1 strength
+	METHOD c getChunkFromChunkCoords (II)Ljv;
+		ARG 1 x
+		ARG 2 z
+	METHOD c getChunkData (IIIIII)[B
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 x2
+		ARG 5 y2
+		ARG 6 z2
+	METHOD c obtainEntitySkin (Lpp;)V
+		ARG 1 entity
+	METHOD d setRainStrength (F)F
+		ARG 1 strength
+	METHOD d playNoteAt (IIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 vol
+		ARG 5 pitch
+	METHOD d releaseEntitySkin (Lpp;)V
+		ARG 1 entity
+	METHOD e getTopSolidOrLiquidBlock (II)I
+	METHOD e setBlockWithNotify (IIII)Z
+	METHOD e playAuxSFX (IIIII)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 sfx_
+	METHOD f calculateInitialSkylight ()V
+	METHOD f getTopSolidOrLiquidBlockA (II)I
+	METHOD f isAirBlock (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD g chunkExists (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD g blockExists (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD i isBlockProvidingPowerTo (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 power
+	METHOD j checkSessionLock ()V
+	METHOD j canBlockSeeTheSky (III)Z
+	METHOD j isBlockIndirectlyProvidingPowerTo (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 power
+	METHOD k getRandomSeed ()J
+	METHOD l getWorldTime ()J
+	METHOD m getSpawnPoint ()Lbm;
+	METHOD n getChunkProvider ()Lcc;
+	METHOD o getWorldFile ()Ltv;
+	METHOD p getWorldInfo ()Ldx;
+	METHOD q updateAllPlayersSleepingFlag ()V
+	METHOD r wakeUpAllPlayers ()V
+	METHOD s isAllPlayersFullyAsleep ()Z
+	METHOD s updateAllLightTypes (III)V
+	METHOD t getIsThundering ()Z
+	METHOD t isBlockGettingPowered (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD u isRaining ()Z
+	METHOD u isBlockIndirectlyGettingPowered (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD v updatingLighting ()Z
+	METHOD v canLightningStrikeAt (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD w saveLevel ()V
+	METHOD w getWorldRandAtPos (III)Ljava/util/Random;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD x calculateInitialWeather ()V
+	METHOD y clearWeather ()V

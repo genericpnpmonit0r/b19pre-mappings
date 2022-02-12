@@ -1,0 +1,16 @@
+CLASS ep net/minecraft/src/EntityItem
+	METHOD a dealFireDamage (I)V
+	METHOD a attackEntityFrom (Ljz;I)Z
+	METHOD a readEntityFromNBT (Lyr;)V
+	METHOD a_ onCollideWithPlayer (Lui;)V
+	METHOD b entityInit ()V
+	METHOD b writeEntityToNBT (Lyr;)V
+	METHOD d_ canTriggerWalking ()Z
+	METHOD f_ handleWaterMovement ()Z
+	METHOD w_ onUpdate ()V
+	FIELD a item Lvw;
+	FIELD ap health I
+	FIELD b age I
+	FIELD c delayBeforeCanPickup I
+	FIELD d field_804_d F
+	FIELD e field_803_e I

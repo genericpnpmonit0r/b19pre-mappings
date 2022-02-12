@@ -1,0 +1,5 @@
+CLASS aga net/minecraft/src/SlotCrafting
+	METHOD a onPickupFromSlot (Lvw;)V
+	METHOD b isItemValid (Lvw;)Z
+	FIELD e craftMatrix Lha;
+	FIELD f thePlayer Lui;

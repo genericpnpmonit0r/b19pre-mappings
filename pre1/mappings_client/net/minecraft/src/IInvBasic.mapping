@@ -1,0 +1,2 @@
+CLASS vb net/minecraft/src/IInvBasic
+	METHOD a func_20134_a (Lka;)V

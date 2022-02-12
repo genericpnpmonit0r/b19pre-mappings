@@ -1,0 +1,2 @@
+CLASS uh net/minecraft/src/IStatStringFormat
+	METHOD a formatString (Ljava/lang/String;)Ljava/lang/String;

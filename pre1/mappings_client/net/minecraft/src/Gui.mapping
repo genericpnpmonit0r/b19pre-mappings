@@ -1,0 +1,27 @@
+CLASS mb net/minecraft/src/Gui
+	FIELD e zLevel F
+	METHOD a drawHorizontalLine (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 x2
+		ARG 4 y2
+	METHOD a drawRect (IIIII)V
+	METHOD a drawGradientRect (IIIIII)V
+	METHOD a drawCenteredString (Llc;Ljava/lang/String;III)V
+		ARG 1 fontRenderer
+		ARG 2 text
+		ARG 3 posHorizontal
+		ARG 4 posVertical
+		ARG 5 color
+	METHOD b drawVerticalLine (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 x2
+		ARG 4 y2
+	METHOD b drawTexturedModalRect (IIIIII)V
+	METHOD b drawString (Llc;Ljava/lang/String;III)V
+		ARG 1 fontRenderer
+		ARG 2 text
+		ARG 3 posHorizontal
+		ARG 4 posVertical
+		ARG 5 color

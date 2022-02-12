@@ -1,0 +1,2 @@
+CLASS pa net/minecraft/src/StatBasic
+	METHOD a registerStat ()Ladw;

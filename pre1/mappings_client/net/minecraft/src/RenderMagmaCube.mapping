@@ -1,0 +1,7 @@
+CLASS an net/minecraft/src/RenderMagmaCube
+	METHOD a func_40275_a (Lacm;DDDFF)V
+	METHOD a func_40274_a (Lacm;F)V
+	METHOD a doRender (Lle;DDDFF)V
+	METHOD a doRenderLiving (Lxq;DDDFF)V
+	METHOD a preRenderCallback (Lxq;F)V
+	FIELD c field_40276_c I

@@ -1,0 +1,4 @@
+CLASS oj net/minecraft/src/MapGenRavine
+	METHOD a func_35626_a (JII[BDDDFFFIID)V
+	METHOD a recursiveGenerate (Ltd;IIII[B)V
+	FIELD a field_35627_a [F

@@ -1,0 +1,3 @@
+CLASS ts net/minecraft/src/StructureVillageStart
+	METHOD d isSizeableStructure ()Z
+	FIELD c hasMoreThanTwoComponents Z

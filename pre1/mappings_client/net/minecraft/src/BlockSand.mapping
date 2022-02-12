@@ -1,0 +1,19 @@
+CLASS uc net/minecraft/src/BlockSand
+	FIELD a fallInstantly Z
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
+	METHOD a onBlockAdded (Ltd;III)V
+	METHOD a onNeighborBlockChange (Ltd;IIII)V
+	METHOD a updateTick (Ltd;IIILjava/util/Random;)V
+	METHOD f tickRate ()I
+	METHOD h canFallBelow (Ltd;III)Z
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD i tryToFall (Ltd;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

@@ -1,0 +1,2 @@
+CLASS nz net/minecraft/src/IStatType
+	METHOD a format (I)Ljava/lang/String;

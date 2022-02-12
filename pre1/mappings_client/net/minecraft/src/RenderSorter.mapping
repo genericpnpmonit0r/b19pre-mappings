@@ -1,0 +1,3 @@
+CLASS hf net/minecraft/src/RenderSorter
+	METHOD a doCompare (Lcb;Lcb;)I
+	FIELD a baseEntity Lxq;

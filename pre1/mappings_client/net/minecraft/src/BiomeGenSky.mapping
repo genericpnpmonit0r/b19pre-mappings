@@ -1,0 +1,2 @@
+CLASS ku net/minecraft/src/BiomeGenSky
+	METHOD a getSkyColorByTemp (F)I

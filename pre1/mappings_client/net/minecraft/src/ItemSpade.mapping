@@ -1,0 +1,3 @@
+CLASS aed net/minecraft/src/ItemSpade
+	METHOD a canHarvestBlock (Lmn;)Z
+	FIELD b blocksEffectiveAgainst [Lmn;

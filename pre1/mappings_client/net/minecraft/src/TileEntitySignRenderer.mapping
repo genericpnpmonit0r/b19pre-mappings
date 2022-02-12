@@ -1,0 +1,4 @@
+CLASS jl net/minecraft/src/TileEntitySignRenderer
+	METHOD a renderTileEntityAt (Ljb;DDDF)V
+	METHOD a renderTileEntitySignAt (Lpf;DDDF)V
+	FIELD b signModel Labb;

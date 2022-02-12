@@ -1,0 +1,20 @@
+CLASS kl net/minecraft/src/IsoImageBuffer
+	FIELD a image Ljava/awt/image/BufferedImage;
+	FIELD b level Ltd;
+	FIELD c x I
+	FIELD d y I
+	FIELD e rendered Z
+	FIELD f noContent Z
+	FIELD g lastVisible I
+	FIELD h addedToRenderQueue Z
+	METHOD <init> (Ltd;II)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+	METHOD a init (II)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a setLevel (Ltd;II)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y

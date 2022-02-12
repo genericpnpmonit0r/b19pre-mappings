@@ -1,0 +1,20 @@
+CLASS aaw net/minecraft/src/Explosion
+	FIELD a isFlaming Z
+	FIELD b explosionX D
+	FIELD c explosionY D
+	FIELD d explosionZ D
+	FIELD e exploder Lle;
+	FIELD f explosionSize F
+	FIELD g destroyedBlockPositions Ljava/util/Set;
+	FIELD h rand Ljava/util/Random;
+	FIELD i worldObj Ltd;
+	METHOD <init> (Ltd;Lle;DDDF)V
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+		ARG 9 size
+	METHOD a doExplosionA ()V
+	METHOD a doExplosionB (Z)V
+		ARG 1 flamingFlag

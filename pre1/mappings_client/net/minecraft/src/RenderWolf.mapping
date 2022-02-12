@@ -1,0 +1,8 @@
+CLASS aeh net/minecraft/src/RenderWolf
+	METHOD a doRender (Lle;DDDFF)V
+	METHOD a renderWolf (Lub;DDDFF)V
+	METHOD a func_25004_a (Lub;F)F
+	METHOD a doRenderLiving (Lxq;DDDFF)V
+	METHOD a preRenderCallback (Lxq;F)V
+	METHOD b func_25006_b (Lub;F)V
+	METHOD d handleRotationFloat (Lxq;F)F

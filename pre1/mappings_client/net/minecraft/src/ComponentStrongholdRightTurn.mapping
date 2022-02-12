@@ -1,0 +1,3 @@
+CLASS iz net/minecraft/src/ComponentStrongholdRightTurn
+	METHOD a buildComponent (Lfw;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a addComponentParts (Ltd;Ljava/util/Random;Lno;)Z

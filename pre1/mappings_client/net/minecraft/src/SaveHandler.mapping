@@ -1,0 +1,14 @@
+CLASS dl net/minecraft/src/SaveHandler
+	METHOD a getSaveDirectory ()Ljava/io/File;
+	METHOD a getChunkLoader (Laew;)Lqq;
+	METHOD a getMapFile (Ljava/lang/String;)Ljava/io/File;
+	METHOD a saveWorldInfo (Lss;)V
+	METHOD a saveWorldInfoAndPlayer (Lss;Ljava/util/List;)V
+	METHOD b checkSessionLock ()V
+	METHOD c loadWorldInfo ()Lss;
+	METHOD d func_22154_d ()V
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b saveDirectory Ljava/io/File;
+	FIELD c playersDirectory Ljava/io/File;
+	FIELD d mapDataDir Ljava/io/File;
+	FIELD e now J

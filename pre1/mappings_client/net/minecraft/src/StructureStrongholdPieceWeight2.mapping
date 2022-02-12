@@ -1,0 +1,2 @@
+CLASS al net/minecraft/src/StructureStrongholdPieceWeight2
+	METHOD a canSpawnMoreStructuresOfType (I)Z

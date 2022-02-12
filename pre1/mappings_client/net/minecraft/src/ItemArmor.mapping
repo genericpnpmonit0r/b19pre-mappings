@@ -1,0 +1,6 @@
+CLASS nr net/minecraft/src/ItemArmor
+	METHOD b func_40436_c ()[I
+	FIELD a armorType I
+	FIELD b damageReduceAmount I
+	FIELD bz maxDamageArray [I
+	FIELD c renderIndex I

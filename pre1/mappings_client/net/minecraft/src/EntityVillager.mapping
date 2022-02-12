@@ -1,0 +1,13 @@
+CLASS dj net/minecraft/src/EntityVillager
+	FIELD a villagerType I
+	METHOD <init> (Ltd;I)V
+		ARG 1 world
+		ARG 2 type
+	METHOD T getTexture ()V
+	METHOD a readEntityFromNBT (Lyr;)V
+	METHOD a_ canDespawn ()Z
+	METHOD b writeEntityToNBT (Lyr;)V
+	METHOD c onLivingUpdate ()V
+	METHOD d getLivingSound ()Ljava/lang/String;
+	METHOD e getHurtSound ()Ljava/lang/String;
+	METHOD f getDeathSound ()Ljava/lang/String;

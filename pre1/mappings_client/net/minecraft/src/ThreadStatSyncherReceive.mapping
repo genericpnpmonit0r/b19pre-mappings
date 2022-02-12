@@ -1,0 +1,2 @@
+CLASS nc net/minecraft/src/ThreadStatSyncherReceive
+	FIELD a syncher Lrn;

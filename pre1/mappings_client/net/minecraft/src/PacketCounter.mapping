@@ -1,0 +1,5 @@
+CLASS ys net/minecraft/src/PacketCounter
+	FIELD a packetsCount I
+	FIELD b packetsTotal J
+	METHOD a incrementPacketCount (I)V
+		ARG 1 count

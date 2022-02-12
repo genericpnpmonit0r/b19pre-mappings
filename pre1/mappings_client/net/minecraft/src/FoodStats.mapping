@@ -1,0 +1,27 @@
+CLASS kx net/minecraft/src/FoodStats
+	FIELD a foodLevel I
+	FIELD b foodSaturationLevel F
+	FIELD c foodExhaustionLevel F
+	FIELD d foodTickTimer I
+	FIELD e prevFoodLevel I
+	METHOD a getFoodLevel ()I
+	METHOD a addExhaustion (F)V
+		ARG 1 exhaustion
+	METHOD a setFoodLevel (I)V
+		ARG 1 level
+	METHOD a addStats (IF)V
+		ARG 1 level
+		ARG 2 saturationLevel
+	METHOD a addStatsFrom (Lafz;)V
+		ARG 1 food
+	METHOD a onUpdate (Lui;)V
+		ARG 1 player
+	METHOD a readStatsFromNBT (Lyr;)V
+		ARG 1 compoundTag
+	METHOD b getPrevFoodLevel ()I
+	METHOD b setFoodSaturationLevel (F)V
+		ARG 1 level
+	METHOD b writeStatsToNBT (Lyr;)V
+		ARG 1 compoundTag
+	METHOD c needFood ()Z
+	METHOD d getFoodSaturationLevel ()F

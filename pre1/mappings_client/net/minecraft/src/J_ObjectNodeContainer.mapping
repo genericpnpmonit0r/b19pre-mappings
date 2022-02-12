@@ -1,0 +1,5 @@
+CLASS ye net/minecraft/src/J_ObjectNodeContainer
+	METHOD a func_27289_a (Laab;)V
+	METHOD a func_27290_a (Lxe;)V
+	FIELD a nodeBuilder Llm;
+	FIELD b field_27295_b Lxr;

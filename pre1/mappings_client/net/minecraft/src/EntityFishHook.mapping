@@ -1,0 +1,44 @@
+CLASS xt net/minecraft/src/EntityFishHook
+	FIELD aA fishPitch D
+	FIELD aB velocityX D
+	FIELD aC velocityY D
+	FIELD aD velocityZ D
+	FIELD a shake I
+	FIELD ap zTile I
+	FIELD aq inTile I
+	FIELD ar inGround Z
+	FIELD as ticksInGround I
+	FIELD at ticksInAir I
+	FIELD au ticksCatchable I
+	FIELD av fishPosRotationIncrements I
+	FIELD aw fishX D
+	FIELD ax fishY D
+	FIELD ay fishZ D
+	FIELD az fishYaw D
+	FIELD b angler Lui;
+	FIELD c bobber Lle;
+	FIELD d xTile I
+	FIELD e yTile I
+	METHOD <init> (Ltd;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD <init> (Ltd;Lui;)V
+		ARG 1 world
+		ARG 2 player
+	METHOD a isInRangeToRenderDist (D)Z
+	METHOD a setVelocity (DDD)V
+	METHOD a calculateVelocity (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
+	METHOD a setPositionAndRotation2 (DDDFFI)V
+	METHOD a readEntityFromNBT (Lyr;)V
+	METHOD b entityInit ()V
+	METHOD b writeEntityToNBT (Lyr;)V
+	METHOD g_ getShadowSize ()F
+	METHOD m catchFish ()I
+	METHOD w_ onUpdate ()V

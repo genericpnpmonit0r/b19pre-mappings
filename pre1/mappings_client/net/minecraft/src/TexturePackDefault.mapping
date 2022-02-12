@@ -1,0 +1,5 @@
+CLASS jg net/minecraft/src/TexturePackDefault
+	METHOD b func_6484_b (Lnet/minecraft/client/Minecraft;)V
+	METHOD c bindThumbnailTexture (Lnet/minecraft/client/Minecraft;)V
+	FIELD e texturePackName I
+	FIELD f texturePackThumbnail Ljava/awt/image/BufferedImage;

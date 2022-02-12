@@ -1,0 +1,223 @@
+CLASS ue net/minecraft/src/Item
+	FIELD A shovelDiamond Lue;
+	FIELD B pickaxeDiamond Lue;
+	FIELD C axeDiamond Lue;
+	FIELD D stick Lue;
+	FIELD E bowlEmpty Lue;
+	FIELD F bowlSoup Lue;
+	FIELD G swordGold Lue;
+	FIELD H shovelGold Lue;
+	FIELD I pickaxeGold Lue;
+	FIELD J axeGold Lue;
+	FIELD K silk Lue;
+	FIELD L feather Lue;
+	FIELD M gunpowder Lue;
+	FIELD N hoeWood Lue;
+	FIELD O hoeStone Lue;
+	FIELD P hoeSteel Lue;
+	FIELD Q hoeDiamond Lue;
+	FIELD R hoeGold Lue;
+	FIELD S seeds Lue;
+	FIELD T wheat Lue;
+	FIELD U bread Lue;
+	FIELD V helmetLeather Lue;
+	FIELD W plateLeather Lue;
+	FIELD X legsLeather Lue;
+	FIELD Y bootsLeather Lue;
+	FIELD Z helmetChain Lue;
+	FIELD aA saddle Lue;
+	FIELD aB doorSteel Lue;
+	FIELD aC redstone Lue;
+	FIELD aD snowball Lue;
+	FIELD aE boat Lue;
+	FIELD aF leather Lue;
+	FIELD aG bucketMilk Lue;
+	FIELD aH brick Lue;
+	FIELD a maxDamage I
+	FIELD aI clay Lue;
+	FIELD aJ reed Lue;
+	FIELD aK paper Lue;
+	FIELD aL book Lue;
+	FIELD aM slimeBall Lue;
+	FIELD aN minecartCrate Lue;
+	FIELD aO minecartPowered Lue;
+	FIELD aP egg Lue;
+	FIELD aQ compass Lue;
+	FIELD aR fishingRod Lue;
+	FIELD aS pocketSundial Lue;
+	FIELD aT lightStoneDust Lue;
+	FIELD aU fishRaw Lue;
+	FIELD aV fishCooked Lue;
+	FIELD aW dyePowder Lue;
+	FIELD aX bone Lue;
+	FIELD aY sugar Lue;
+	FIELD aZ cake Lue;
+	FIELD aa plateChain Lue;
+	FIELD ab legsChain Lue;
+	FIELD ac bootsChain Lue;
+	FIELD ad helmetSteel Lue;
+	FIELD ae plateSteel Lue;
+	FIELD af legsSteel Lue;
+	FIELD ag bootsSteel Lue;
+	FIELD ah helmetDiamond Lue;
+	FIELD ai plateDiamond Lue;
+	FIELD aj legsDiamond Lue;
+	FIELD ak bootsDiamond Lue;
+	FIELD al helmetGold Lue;
+	FIELD am plateGold Lue;
+	FIELD an legsGold Lue;
+	FIELD ao bootsGold Lue;
+	FIELD ap flint Lue;
+	FIELD aq porkRaw Lue;
+	FIELD ar porkCooked Lue;
+	FIELD as painting Lue;
+	FIELD at appleGold Lue;
+	FIELD au sign Lue;
+	FIELD av doorWood Lue;
+	FIELD aw bucketEmpty Lue;
+	FIELD ax bucketWater Lue;
+	FIELD ay bucketLava Lue;
+	FIELD az minecartEmpty Lue;
+	FIELD b containerItem Lue;
+	FIELD ba bed Lue;
+	FIELD bb redstoneRepeater Lue;
+	FIELD bc cookie Lue;
+	FIELD bd map Log;
+	FIELD be shears Law;
+	FIELD bf melon Lue;
+	FIELD bg pumpkinSeeds Lue;
+	FIELD bh melonSeeds Lue;
+	FIELD bi beefRaw Lue;
+	FIELD bj beefCooked Lue;
+	FIELD bk chickenRaw Lue;
+	FIELD bl chickenCooked Lue;
+	FIELD bm rottenFlesh Lue;
+	FIELD bn enderPearl Lue;
+	FIELD bo blazeRod Lue;
+	FIELD bp ghastTear Lue;
+	FIELD bq goldNugget Lue;
+	FIELD br netherWarts Lue;
+	FIELD bs record13 Lue;
+	FIELD bt recordCat Lue;
+	FIELD bu shiftedIndex I
+	FIELD bv maxStackSize I
+	FIELD bw iconIndex I
+	FIELD bx bFull3D Z
+	FIELD by hasSubtypes Z
+	FIELD c itemName Ljava/lang/String;
+	FIELD d itemRand Ljava/util/Random;
+	FIELD e itemsList [Lue;
+	FIELD f shovelSteel Lue;
+	FIELD g pickaxeSteel Lue;
+	FIELD h axeSteel Lue;
+	FIELD i flintAndSteel Lue;
+	FIELD j appleRed Lue;
+	FIELD k bow Lue;
+	FIELD l arrow Lue;
+	FIELD m coal Lue;
+	FIELD n diamond Lue;
+	FIELD o ingotIron Lue;
+	FIELD p ingotGold Lue;
+	FIELD q swordSteel Lue;
+	FIELD r swordWood Lue;
+	FIELD s shovelWood Lue;
+	FIELD t pickaxeWood Lue;
+	FIELD u axeWood Lue;
+	FIELD v swordStone Lue;
+	FIELD w shovelStone Lue;
+	FIELD x pickaxeStone Lue;
+	FIELD y axeStone Lue;
+	FIELD z swordDiamond Lue;
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a isFull3D ()Z
+	METHOD a getIconFromDamage (I)I
+		ARG 1 meta
+	METHOD a setIconCoord (II)Lue;
+		ARG 1 x
+		ARG 2 y
+	METHOD a setItemName (Ljava/lang/String;)Lue;
+		ARG 1 name
+	METHOD a getDamageVsEntity (Lle;)I
+		ARG 1 entity
+	METHOD a canHarvestBlock (Lmn;)Z
+		ARG 1 block
+	METHOD a setContainerItem (Lue;)Lue;
+		ARG 1 item
+	METHOD a getItemNameIS (Lvw;)Ljava/lang/String;
+		ARG 1 itemStack
+	METHOD a onBlockDestroyed (Lvw;IIIILxq;)Z
+		ARG 1 itemStack
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 id
+		ARG 6 living
+	METHOD a getStrVsBlock (Lvw;Lmn;)F
+		ARG 1 itemStack
+		ARG 2 block
+	METHOD a onUpdate (Lvw;Ltd;Lle;IZ)V
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 entity
+		ARG 4 id
+	METHOD a onItemRightClick (Lvw;Ltd;Lui;)Lvw;
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 player
+	METHOD a onPlayerStoppedUsing (Lvw;Ltd;Lui;I)V
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 player
+		ARG 4 id
+	METHOD a onItemUse (Lvw;Lui;Ltd;IIII)Z
+		ARG 1 itemStack
+		ARG 2 player
+		ARG 3 world
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 side
+	METHOD a useItemOnEntity (Lvw;Lxq;)V
+		ARG 1 itemStack
+		ARG 2 living
+	METHOD a hitEntity (Lvw;Lxq;Lxq;)Z
+		ARG 1 itemStack
+		ARG 2 hitter
+		ARG 3 target
+	METHOD a setHasSubtypes (Z)Lue;
+		ARG 1 hasSubtypes
+	METHOD b getPlacedBlockMetadata (I)I
+		ARG 1 meta
+	METHOD b getItemUseAction (Lvw;)Lvy;
+		ARG 1 itemStack
+	METHOD b onFoodEaten (Lvw;Ltd;Lui;)Lvw;
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 player
+	METHOD c getItemName ()Ljava/lang/String;
+	METHOD c getColorFromDamage (I)I
+		ARG 1 damage
+	METHOD c getMaxItemUseDuration (Lvw;)I
+		ARG 1 itemStack
+	METHOD c onCreated (Lvw;Ltd;Lui;)V
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 player
+	METHOD d getItemStackLimit ()I
+	METHOD d setIconIndex (I)Lue;
+		ARG 1 index
+	METHOD d getIconIndex (Lvw;)I
+		ARG 1 itemStack
+	METHOD e getHasSubtypes ()Z
+	METHOD e setMaxStackSize (I)Lue;
+		ARG 1 stackSize
+	METHOD f getMaxDamage ()I
+	METHOD f setMaxDamage (I)Lue;
+		ARG 1 maxDamage
+	METHOD g isDamageable ()Z
+	METHOD h setFull3D ()Lue;
+	METHOD i getContainerItem ()Lue;
+	METHOD j hasContainerItem ()Z
+	METHOD k getStatName ()Ljava/lang/String;
+	METHOD r_ shouldRotateAroundWhenRendering ()Z

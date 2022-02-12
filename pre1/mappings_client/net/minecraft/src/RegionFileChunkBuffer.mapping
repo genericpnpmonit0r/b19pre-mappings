@@ -1,0 +1,4 @@
+CLASS ve net/minecraft/src/RegionFileChunkBuffer
+	FIELD a regionFile Ljw;
+	FIELD b chunkX I
+	FIELD c chunkZ I

@@ -1,0 +1,2 @@
+CLASS aas net/minecraft/src/ItemPiston
+	METHOD b getPlacedBlockMetadata (I)I

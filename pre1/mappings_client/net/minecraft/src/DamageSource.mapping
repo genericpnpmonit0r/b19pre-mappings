@@ -1,0 +1,39 @@
+CLASS jz net/minecraft/src/DamageSource
+	FIELD a inFire Ljz;
+	FIELD b onFire Ljz;
+	FIELD c lava Ljz;
+	FIELD d inWall Ljz;
+	FIELD e drown Ljz;
+	FIELD f starve Ljz;
+	FIELD g cactus Ljz;
+	FIELD h fall Ljz;
+	FIELD i outOfWorld Ljz;
+	FIELD j generic Ljz;
+	FIELD k explosion Ljz;
+	FIELD l magic Ljz;
+	FIELD m damageType Ljava/lang/String;
+	FIELD n isBlockable Z
+	FIELD o isDamageAllowedInCreativeMode Z
+	FIELD p hungerDamage F
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 typeName
+	METHOD a getEntity ()Lle;
+	METHOD a causeFireballDamage (Lbd;Lle;)Ljz;
+		ARG 0 fireball
+		ARG 1 entity
+	METHOD a causeArrowDamage (Lld;Lle;)Ljz;
+		ARG 0 arrow
+		ARG 1 entity
+	METHOD a causeThrownDamage (Lle;Lle;)Ljz;
+		ARG 0 thrower
+		ARG 1 target
+	METHOD a causePlayerDamage (Lui;)Ljz;
+		ARG 0 player
+	METHOD a causeMobDamage (Lxq;)Ljz;
+		ARG 0 living
+	METHOD b unblockable ()Z
+	METHOD c getHungerDamage ()F
+	METHOD d canHarmInCreative ()Z
+	METHOD e getSourceOfDamage ()Lle;
+	METHOD f setDamageBypassesArmor ()Ljz;
+	METHOD g setDamageAllowedInCreativeMode ()Ljz;

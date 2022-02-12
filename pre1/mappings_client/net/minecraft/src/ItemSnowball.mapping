@@ -1,0 +1,2 @@
+CLASS cc net/minecraft/src/ItemSnowball
+	METHOD a onItemRightClick (Lvw;Ltd;Lui;)Lvw;

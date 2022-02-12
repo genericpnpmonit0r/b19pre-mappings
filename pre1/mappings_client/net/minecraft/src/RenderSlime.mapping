@@ -1,0 +1,5 @@
+CLASS hm net/minecraft/src/RenderSlime
+	METHOD a scaleSlime (Ladg;F)V
+	METHOD a preRenderCallback (Lxq;F)V
+	METHOD b shouldRenderPass (Lxq;IF)Z
+	FIELD c scaleAmount Lge;

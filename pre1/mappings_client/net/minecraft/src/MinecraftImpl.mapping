@@ -1,0 +1,3 @@
+CLASS gg net/minecraft/src/MinecraftImpl
+	METHOD a displayUnexpectedThrowable (Lhi;)V
+	FIELD a mcFrame Ljava/awt/Frame;
