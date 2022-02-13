@@ -1,0 +1,6 @@
+CLASS ic net/minecraft/src/EnumAction
+	FIELD a none Lic;
+	FIELD b eat Lic;
+	FIELD c block Lic;
+	FIELD d bow Lic;
+	FIELD e field_35603_e [Lic;

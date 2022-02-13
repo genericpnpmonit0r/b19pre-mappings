@@ -1,4 +1,4 @@
 CLASS wy net/minecraft/src/RenderFireball
+	FIELD a field_40269_a F
 	METHOD a doRenderFireball (Lbd;DDDFF)V
 	METHOD a doRender (Lle;DDDFF)V
-	FIELD a field_40269_a F

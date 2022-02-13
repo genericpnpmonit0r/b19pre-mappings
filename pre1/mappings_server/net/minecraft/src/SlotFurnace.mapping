@@ -1,0 +1,4 @@
+CLASS sm net/minecraft/src/SlotFurnace
+	METHOD a onPickupFromSlot (Lhz;)V
+	METHOD b isItemValid (Lhz;)Z
+	FIELD e thePlayer Lga;

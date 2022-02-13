@@ -2,3 +2,7 @@ CLASS ach net/minecraft/src/ThreadDownloadImage
 	FIELD a location Ljava/lang/String;
 	FIELD b buffer Lib;
 	FIELD c imageData Lct;
+	METHOD <init> (Lct;Ljava/lang/String;Lib;)V
+		ARG 1 threadDownloadImagedata
+		ARG 2 location
+		ARG 3 buffer

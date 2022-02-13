@@ -1,6 +1,6 @@
 CLASS di net/minecraft/src/EntityLavaFX
+	FIELD a lavaParticleScale F
 	METHOD a renderParticle (Lyu;FFFFFF)V
 	METHOD b getEntityBrightness (F)F
 	METHOD c getEntityBrightnessForRender (F)I
 	METHOD w_ onUpdate ()V
-	FIELD a lavaParticleScale F

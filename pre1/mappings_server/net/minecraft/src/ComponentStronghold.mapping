@@ -1,0 +1,7 @@
+CLASS gf net/minecraft/src/ComponentStronghold
+	METHOD a func_35323_a (Lep;Ljava/util/Random;Lst;Lnw;III)V
+	METHOD a func_35322_a (Ljava/util/Random;)Lnw;
+	METHOD a func_35324_a (Ls;Ljava/util/List;Ljava/util/Random;II)Liv;
+	METHOD a func_35319_a (Lst;)Z
+	METHOD b func_35321_b (Ls;Ljava/util/List;Ljava/util/Random;II)Liv;
+	METHOD c func_35320_c (Ls;Ljava/util/List;Ljava/util/Random;II)Liv;

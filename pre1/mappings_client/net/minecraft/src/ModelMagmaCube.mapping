@@ -1,7 +1,7 @@
 CLASS pw net/minecraft/src/ModelMagmaCube
+	FIELD a field_40345_a [Lnv;
+	FIELD b field_40344_b Lnv;
 	METHOD a func_40343_a ()I
 	METHOD a setRotationAngles (FFFFFF)V
 	METHOD a render (Lle;FFFFFF)V
 	METHOD a setLivingAnimations (Lxq;FFF)V
-	FIELD a field_40345_a [Lnv;
-	FIELD b field_40344_b Lnv;

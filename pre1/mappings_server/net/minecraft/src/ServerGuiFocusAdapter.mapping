@@ -1,0 +1,2 @@
+CLASS y net/minecraft/src/ServerGuiFocusAdapter
+	FIELD a mcServerGui Lrt;

@@ -1,0 +1,3 @@
+CLASS ug net/minecraft/src/BlockSponge
+	METHOD a onBlockAdded (Lep;III)V
+	METHOD d onBlockRemoval (Lep;III)V

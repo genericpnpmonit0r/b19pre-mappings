@@ -1,0 +1,17 @@
+CLASS uc net/minecraft/src/WorldProvider
+	METHOD a registerWorldChunkManager ()V
+	METHOD a getProviderForDimension (I)Luc;
+	METHOD a canCoordinateBeSpawn (II)Z
+	METHOD a calculateCelestialAngle (JF)F
+	METHOD a registerWorld (Lep;)V
+	METHOD b getChunkProvider ()Lcc;
+	METHOD c generateLightBrightnessTable ()V
+	METHOD d canRespawnHere ()Z
+	FIELD a worldObj Lep;
+	FIELD b worldChunkMgr Lut;
+	FIELD c canSleepInWorld Z
+	FIELD d isHellWorld Z
+	FIELD e hasNoSky Z
+	FIELD f lightBrightnessTable [F
+	FIELD g worldType I
+	FIELD h colorsSunriseSunset [F

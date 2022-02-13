@@ -1,0 +1,5 @@
+CLASS dr net/minecraft/src/EnumSkyBlock
+	FIELD a Sky Ldr;
+	FIELD b Block Ldr;
+	FIELD c field_984_c I
+	FIELD d allSkyBlocks [Ldr;

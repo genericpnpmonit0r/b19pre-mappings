@@ -1,0 +1,6 @@
+CLASS ck net/minecraft/src/ConvertProgressUpdater
+	METHOD a setLoadingProgress (I)V
+	METHOD a func_438_a (Ljava/lang/String;)V
+	METHOD b displayLoadingString (Ljava/lang/String;)V
+	FIELD a mcServer Lnet/minecraft/server/MinecraftServer;
+	FIELD b lastTimeMillis J

@@ -1,9 +1,9 @@
 CLASS zh net/minecraft/src/EntityPortalFX
-	METHOD a renderParticle (Lyu;FFFFFF)V
-	METHOD b getEntityBrightness (F)F
-	METHOD c getEntityBrightnessForRender (F)I
-	METHOD w_ onUpdate ()V
 	FIELD aA portalPosZ D
 	FIELD a portalParticleScale F
 	FIELD ay portalPosX D
 	FIELD az portalPosY D
+	METHOD a renderParticle (Lyu;FFFFFF)V
+	METHOD b getEntityBrightness (F)F
+	METHOD c getEntityBrightnessForRender (F)I
+	METHOD w_ onUpdate ()V

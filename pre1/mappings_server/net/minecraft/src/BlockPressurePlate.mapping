@@ -1,0 +1,18 @@
+CLASS bq net/minecraft/src/BlockPressurePlate
+	METHOD a isOpaqueCube ()Z
+	METHOD a onBlockAdded (Lep;III)V
+	METHOD a onNeighborBlockChange (Lep;IIII)V
+	METHOD a updateTick (Lep;IIILjava/util/Random;)V
+	METHOD a onEntityCollidedWithBlock (Lep;IIILpp;)V
+	METHOD a setBlockBoundsBasedOnState (Lun;III)V
+	METHOD a isPoweringTo (Lun;IIII)Z
+	METHOD b isACube ()Z
+	METHOD c tickRate ()I
+	METHOD c canPlaceBlockAt (Lep;III)Z
+	METHOD d canProvidePower ()Z
+	METHOD d onBlockRemoval (Lep;III)V
+	METHOD d isIndirectlyPoweringTo (Lep;IIII)Z
+	METHOD e getMobilityFlag ()I
+	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;
+	METHOD g setStateIfMobInteractsWithPlate (Lep;III)V
+	FIELD a triggerMobType Lov;

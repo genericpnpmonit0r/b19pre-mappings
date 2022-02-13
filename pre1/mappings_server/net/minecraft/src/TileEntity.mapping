@@ -1,0 +1,23 @@
+CLASS ms net/minecraft/src/TileEntity
+	METHOD a addMapping (Ljava/lang/Class;Ljava/lang/String;)V
+	METHOD a readFromNBT (Lls;)V
+	METHOD b func_35163_b (II)V
+	METHOD b writeToNBT (Lls;)V
+	METHOD c createAndLoadEntity (Lls;)Lms;
+	METHOD g func_35164_g ()V
+	METHOD h_ updateEntity ()V
+	METHOD i invalidate ()V
+	METHOD j getBlockMetadata ()I
+	METHOD k onInventoryChanged ()V
+	METHOD l getDescriptionPacket ()Ljc;
+	METHOD m isInvalid ()Z
+	METHOD n validate ()V
+	FIELD a nameToClassMap Ljava/util/Map;
+	FIELD b classToNameMap Ljava/util/Map;
+	FIELD i worldObj Lep;
+	FIELD j xCoord I
+	FIELD k yCoord I
+	FIELD l zCoord I
+	FIELD m tileEntityInvalid Z
+	FIELD n field_35165_n I
+	FIELD o field_35166_o Lrj;

@@ -1,0 +1,6 @@
+CLASS nw net/minecraft/src/EnumDoor
+	FIELD a OPENING Lnw;
+	FIELD b WOOD_DOOR Lnw;
+	FIELD c GRATES Lnw;
+	FIELD d IRON_DOOR Lnw;
+	FIELD e field_35598_e [Lnw;

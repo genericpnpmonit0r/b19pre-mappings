@@ -1,4 +1,4 @@
 CLASS uz net/minecraft/src/TexturePortalFX
-	METHOD a onTick ()V
 	FIELD a portalTickCounter I
 	FIELD b portalTextureData [[B
+	METHOD a onTick ()V

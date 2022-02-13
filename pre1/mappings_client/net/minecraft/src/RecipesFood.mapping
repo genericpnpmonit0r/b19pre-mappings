@@ -1,2 +1,3 @@
 CLASS za net/minecraft/src/RecipesFood
 	METHOD a addRecipes (Leq;)V
+		ARG 1 craftingManager

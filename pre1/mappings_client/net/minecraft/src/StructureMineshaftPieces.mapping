@@ -1,6 +1,6 @@
 CLASS fj net/minecraft/src/StructureMineshaftPieces
+	FIELD a lootArray [Lew;
 	METHOD a getTreasurePieces ()[Lew;
 	METHOD a getNextComponent (Lfw;Ljava/util/List;Ljava/util/Random;IIIII)Lfw;
 	METHOD a getRandomComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lfw;
 	METHOD b getNextMineShaftComponent (Lfw;Ljava/util/List;Ljava/util/Random;IIIII)Lfw;
-	FIELD a lootArray [Lew;

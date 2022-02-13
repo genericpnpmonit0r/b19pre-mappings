@@ -1,3 +1,5 @@
 CLASS jt net/minecraft/src/WorldGenHellLava
-	METHOD a generate (Ltd;Ljava/util/Random;III)Z
 	FIELD a hellLavaID I
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a generate (Ltd;Ljava/util/Random;III)Z

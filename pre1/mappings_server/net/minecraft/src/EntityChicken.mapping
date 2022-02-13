@@ -1,0 +1,17 @@
+CLASS ua net/minecraft/src/EntityChicken
+	METHOD a fall (F)V
+	METHOD a readEntityFromNBT (Lls;)V
+	METHOD a dropFewItems (Z)V
+	METHOD b writeEntityToNBT (Lls;)V
+	METHOD b_ getDeathSound ()Ljava/lang/String;
+	METHOD c onLivingUpdate ()V
+	METHOD d getLivingSound ()Ljava/lang/String;
+	METHOD e getHurtSound ()Ljava/lang/String;
+	METHOD g getDropItemId ()I
+	FIELD a field_392_a Z
+	FIELD b field_391_b F
+	FIELD c destPos F
+	FIELD g field_394_ae F
+	FIELD h field_393_af F
+	FIELD i field_390_ai F
+	FIELD j timeUntilNextEgg I

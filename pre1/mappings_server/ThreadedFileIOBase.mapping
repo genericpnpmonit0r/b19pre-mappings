@@ -1,0 +1,3 @@
+CLASS ch ThreadedFileIOBase
+	FIELD a threadedIOInstance Lch;
+	METHOD a queueIO (Lfq;)V

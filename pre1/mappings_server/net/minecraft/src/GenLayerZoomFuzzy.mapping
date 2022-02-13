@@ -1,0 +1,4 @@
+CLASS tt net/minecraft/src/GenLayerZoomFuzzy
+	METHOD a func_35032_a (II)I
+	METHOD a func_35018_a (IIII)[I
+	METHOD b func_35031_b (IIII)I

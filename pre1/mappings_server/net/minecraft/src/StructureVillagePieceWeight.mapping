@@ -1,0 +1,7 @@
+CLASS eg net/minecraft/src/StructureVillagePieceWeight
+	METHOD a func_35492_a ()Z
+	METHOD a func_35491_a (I)Z
+	FIELD a field_35496_a Ljava/lang/Class;
+	FIELD b field_35494_b I
+	FIELD c field_35495_c I
+	FIELD d field_35493_d I

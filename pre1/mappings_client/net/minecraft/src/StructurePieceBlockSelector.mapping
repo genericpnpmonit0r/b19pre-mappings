@@ -1,6 +1,6 @@
 CLASS rf net/minecraft/src/StructurePieceBlockSelector
+	FIELD a selectedBlockId I
+	FIELD b selectedBlockMetaData I
 	METHOD a getSelectedBlockId ()I
 	METHOD a selectBlocks (Ljava/util/Random;IIIZ)V
 	METHOD b getSelectedBlockMetaData ()I
-	FIELD a selectedBlockId I
-	FIELD b selectedBlockMetaData I

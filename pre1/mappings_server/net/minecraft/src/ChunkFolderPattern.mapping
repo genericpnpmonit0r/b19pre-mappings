@@ -1,0 +1,2 @@
+CLASS ca net/minecraft/src/ChunkFolderPattern
+	FIELD a folderRegexPattern Ljava/util/regex/Pattern;

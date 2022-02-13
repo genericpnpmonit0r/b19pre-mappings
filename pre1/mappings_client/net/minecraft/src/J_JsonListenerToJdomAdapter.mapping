@@ -3,10 +3,12 @@ CLASS xr net/minecraft/src/J_JsonListenerToJdomAdapter
 	FIELD b root Lxe;
 	METHOD a getDocument ()Ljv;
 	METHOD a func_27205_a (Ljava/lang/String;)V
-	METHOD a func_27207_a (Lxe;)V
+	METHOD a addRootNode (Lxe;)V
+		ARG 1 jsonNodeBuilder
 	METHOD b func_27195_b ()V
 	METHOD b func_27201_b (Ljava/lang/String;)V
-	METHOD b func_27206_b (Lxe;)V
+	METHOD b addValue (Lxe;)V
+		ARG 1 jsonNodeBuilder
 	METHOD c func_27204_c ()V
 	METHOD c func_27198_c (Ljava/lang/String;)V
 	METHOD d func_27200_d ()V

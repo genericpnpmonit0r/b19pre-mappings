@@ -1,0 +1,8 @@
+CLASS gg net/minecraft/src/WorldSettings
+	METHOD a func_35038_a ()J
+	METHOD a func_35037_a (I)I
+	METHOD b func_35039_b ()I
+	METHOD c func_35040_c ()Z
+	FIELD a field_35043_a J
+	FIELD b field_35041_b I
+	FIELD c field_35042_c Z

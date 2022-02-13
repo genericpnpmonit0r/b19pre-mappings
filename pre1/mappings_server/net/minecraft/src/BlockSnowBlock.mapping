@@ -1,0 +1,4 @@
+CLASS v net/minecraft/src/BlockSnowBlock
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a updateTick (Lep;IIILjava/util/Random;)V
+	METHOD a quantityDropped (Ljava/util/Random;)I

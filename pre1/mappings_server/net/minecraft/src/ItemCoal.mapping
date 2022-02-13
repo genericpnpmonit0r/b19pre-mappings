@@ -1,0 +1,2 @@
+CLASS oz net/minecraft/src/ItemCoal
+	METHOD a func_35407_a (Lhz;)Ljava/lang/String;

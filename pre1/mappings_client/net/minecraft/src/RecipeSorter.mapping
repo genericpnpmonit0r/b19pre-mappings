@@ -1,3 +1,8 @@
 CLASS gm net/minecraft/src/RecipeSorter
-	METHOD a compareRecipes (Lsh;Lsh;)I
 	FIELD a craftingManager Leq;
+	METHOD <init> (Leq;)V
+		ARG 1 craftingManager
+	METHOD a compareRecipes (Lsh;Lsh;)I
+	METHOD compare (Ljava/lang/Object;Ljava/lang/Object;)I
+		ARG 1 recipe1
+		ARG 2 recipe2

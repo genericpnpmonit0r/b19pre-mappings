@@ -1,5 +1,5 @@
 CLASS abo net/minecraft/src/ModelChest
-	METHOD a func_35402_a ()V
 	FIELD a chestLid Lnv;
 	FIELD b chestBelow Lnv;
 	FIELD c chestKnob Lnv;
+	METHOD a renderAll ()V

@@ -1,0 +1,5 @@
+CLASS vq net/minecraft/src/SlotCrafting
+	METHOD a onPickupFromSlot (Lhz;)V
+	METHOD b isItemValid (Lhz;)Z
+	FIELD e craftMatrix Lkd;
+	FIELD f thePlayer Lga;

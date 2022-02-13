@@ -1,0 +1,2 @@
+CLASS fq IThreadedFileIO
+	METHOD c writeNextIO ()Z

@@ -1,0 +1,3 @@
+CLASS cz net/minecraft/src/WorldGenLakes
+	METHOD a generate (Lep;Ljava/util/Random;III)Z
+	FIELD a blockIndex I

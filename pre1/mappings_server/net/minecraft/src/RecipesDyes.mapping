@@ -1,0 +1,2 @@
+CLASS lc net/minecraft/src/RecipesDyes
+	METHOD a addRecipes (Lgs;)V

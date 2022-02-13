@@ -1,7 +1,10 @@
 CLASS acq net/minecraft/src/ShapelessRecipes
+	FIELD a recipeOutput Lvw;
+	FIELD b recipeItems Ljava/util/List;
+	METHOD <init> (Lvw;Ljava/util/List;)V
+		ARG 1 output
+		ARG 2 ingredients
 	METHOD a getRecipeSize ()I
 	METHOD a matches (Lya;)Z
 	METHOD b getRecipeOutput ()Lvw;
 	METHOD b getCraftingResult (Lya;)Lvw;
-	FIELD a recipeOutput Lvw;
-	FIELD b recipeItems Ljava/util/List;

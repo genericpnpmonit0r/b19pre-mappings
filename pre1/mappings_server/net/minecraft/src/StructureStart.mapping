@@ -1,0 +1,8 @@
+CLASS ro net/minecraft/src/StructureStart
+	METHOD a func_35542_a ()Z
+	METHOD a func_35545_a (Lep;Ljava/util/Random;I)V
+	METHOD a func_35541_a (Lep;Ljava/util/Random;Lst;)V
+	METHOD b func_35543_b ()Lst;
+	METHOD d func_35544_c ()V
+	FIELD a field_35547_a Ljava/util/LinkedList;
+	FIELD b field_35546_b Lst;

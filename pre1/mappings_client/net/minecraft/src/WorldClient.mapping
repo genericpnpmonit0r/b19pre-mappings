@@ -1,10 +1,15 @@
 CLASS hn net/minecraft/src/WorldClient
 	FIELD M blocksToReceive Ljava/util/LinkedList;
 	FIELD N sendQueue Lyh;
-	FIELD O field_20915_C Lmo;
+	FIELD O clientChunkProvider Lmo;
 	FIELD P entityHashSet Lwo;
 	FIELD Q entityList Ljava/util/Set;
 	FIELD R entitySpawnQueue Ljava/util/Set;
+	METHOD <init> (Lyh;Lej;II)V
+		ARG 1 clientHandler
+		ARG 2 worldSettings
+		ARG 3 dimension
+		ARG 4 difficulty
 	METHOD a getEntityByID (I)Lle;
 	METHOD a scheduleBlockUpdate (IIIII)V
 	METHOD a invalidateBlockReceiveRegion (IIIIII)V

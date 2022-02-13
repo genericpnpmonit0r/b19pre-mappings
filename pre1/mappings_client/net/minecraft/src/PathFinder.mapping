@@ -1,4 +1,10 @@
 CLASS tq net/minecraft/src/PathFinder
+	FIELD a worldMap Lafd;
+	FIELD b path Lxg;
+	FIELD c pointMap Lwo;
+	FIELD d pathOptions [Ld;
+	METHOD <init> (Lafd;)V
+		ARG 1 blockAccess
 	METHOD a openPoint (III)Ld;
 	METHOD a createEntityPath (Ld;Ld;)Lsb;
 	METHOD a createEntityPathTo (Lle;DDDF)Lsb;
@@ -7,8 +13,7 @@ CLASS tq net/minecraft/src/PathFinder
 	METHOD a getSafePoint (Lle;IIILd;I)Ld;
 	METHOD a addToPath (Lle;Ld;Ld;Ld;F)Lsb;
 	METHOD a createEntityPathTo (Lle;Lle;F)Lsb;
+		ARG 1 source
+		ARG 2 target
+		ARG 3 weight
 	METHOD b findPathOptions (Lle;Ld;Ld;Ld;F)I
-	FIELD a worldMap Lafd;
-	FIELD b path Lxg;
-	FIELD c pointMap Lwo;
-	FIELD d pathOptions [Ld;

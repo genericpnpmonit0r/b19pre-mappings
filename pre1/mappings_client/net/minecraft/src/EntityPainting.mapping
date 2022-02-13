@@ -1,4 +1,10 @@
 CLASS kg net/minecraft/src/EntityPainting
+	FIELD a direction I
+	FIELD ap tickCounter1 I
+	FIELD b xPosition I
+	FIELD c yPosition I
+	FIELD d zPosition I
+	FIELD e art Lfi;
 	METHOD a attackEntityFrom (Ljz;I)Z
 	METHOD a readEntityFromNBT (Lyr;)V
 	METHOD b entityInit ()V
@@ -10,9 +16,3 @@ CLASS kg net/minecraft/src/EntityPainting
 	METHOD c func_411_c (I)F
 	METHOD m canStay ()Z
 	METHOD w_ onUpdate ()V
-	FIELD a direction I
-	FIELD ap tickCounter1 I
-	FIELD b xPosition I
-	FIELD c yPosition I
-	FIELD d zPosition I
-	FIELD e art Lfi;

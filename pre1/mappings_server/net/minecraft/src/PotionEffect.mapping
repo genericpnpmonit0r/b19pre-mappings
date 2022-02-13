@@ -1,0 +1,11 @@
+CLASS ul net/minecraft/src/PotionEffect
+	METHOD a func_35649_a ()I
+	METHOD a func_35648_a (Ljz;)Z
+	METHOD a func_35650_a (Lul;)V
+	METHOD b func_35653_b ()I
+	METHOD b func_35651_b (Ljz;)V
+	METHOD c func_35652_c ()I
+	METHOD d func_35647_d ()I
+	FIELD a field_35656_a I
+	FIELD b field_35654_b I
+	FIELD c field_35655_c I

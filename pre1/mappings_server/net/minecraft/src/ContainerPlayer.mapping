@@ -1,0 +1,8 @@
+CLASS u net/minecraft/src/ContainerPlayer
+	METHOD a getStackInSlot (I)Lhz;
+	METHOD a onCraftGuiClosed (Lga;)V
+	METHOD a onCraftMatrixChanged (Lkd;)V
+	METHOD b canInteractWith (Lga;)Z
+	FIELD a craftMatrix Lkq;
+	FIELD b craftResult Lkd;
+	FIELD c isMultiPlayer Z

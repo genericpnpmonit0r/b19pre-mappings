@@ -1,0 +1,4 @@
+CLASS pi net/minecraft/src/MaterialLiquid
+	METHOD a isSolid ()Z
+	METHOD c getIsSolid ()Z
+	METHOD d getIsLiquid ()Z

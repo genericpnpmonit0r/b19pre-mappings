@@ -1,8 +1,8 @@
 CLASS mp net/minecraft/src/Packet40EntityMetadata
+	FIELD a entityId I
+	FIELD b metadata Ljava/util/List;
 	METHOD a getPacketSize ()I
 	METHOD a readPacketData (Ljava/io/DataInputStream;)V
 	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
 	METHOD a processPacket (Llt;)V
 	METHOD b getMetadata ()Ljava/util/List;
-	FIELD a entityId I
-	FIELD b metadata Ljava/util/List;

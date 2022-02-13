@@ -1,0 +1,10 @@
+CLASS ol net/minecraft/src/BlockReed
+	METHOD a isOpaqueCube ()Z
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a onNeighborBlockChange (Lep;IIII)V
+	METHOD a updateTick (Lep;IIILjava/util/Random;)V
+	METHOD b isACube ()Z
+	METHOD c canPlaceBlockAt (Lep;III)Z
+	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;
+	METHOD f canBlockStay (Lep;III)Z
+	METHOD g checkBlockCoordValid (Lep;III)V

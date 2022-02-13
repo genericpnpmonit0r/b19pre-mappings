@@ -1,0 +1,2 @@
+CLASS gk net/minecraft/src/GenLayerSmooth
+	METHOD a func_35018_a (IIII)[I

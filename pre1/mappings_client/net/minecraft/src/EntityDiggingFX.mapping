@@ -1,5 +1,5 @@
 CLASS jy net/minecraft/src/EntityDiggingFX
+	FIELD a blockInstance Lmn;
 	METHOD a func_4041_a (III)Ljy;
 	METHOD a renderParticle (Lyu;FFFFFF)V
 	METHOD m getFXLayer ()I
-	FIELD a blockInstance Lmn;

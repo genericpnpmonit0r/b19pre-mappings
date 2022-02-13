@@ -1,0 +1,3 @@
+CLASS tb net/minecraft/src/WorldGenBigMushroom
+	METHOD a generate (Lep;Ljava/util/Random;III)Z
+	FIELD a field_35293_a I

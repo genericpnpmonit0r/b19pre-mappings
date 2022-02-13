@@ -1,0 +1,11 @@
+CLASS ql net/minecraft/src/ChunkLoader
+	METHOD a func_661_a ()V
+	METHOD a chunkFileForXZ (II)Ljava/io/File;
+	METHOD a loadChunk (Lep;II)Ljv;
+	METHOD a saveChunk (Lep;Ljv;)V
+	METHOD a loadChunkIntoWorldFromCompound (Lep;Lls;)Ljv;
+	METHOD a storeChunkInCompound (Ljv;Lep;Lls;)V
+	METHOD b saveExtraData ()V
+	METHOD b saveExtraChunkData (Lep;Ljv;)V
+	FIELD a saveDir Ljava/io/File;
+	FIELD b createIfNecessary Z

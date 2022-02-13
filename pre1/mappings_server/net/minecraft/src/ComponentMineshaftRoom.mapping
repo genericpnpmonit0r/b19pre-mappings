@@ -1,0 +1,4 @@
+CLASS f net/minecraft/src/ComponentMineshaftRoom
+	METHOD a func_35310_a (Lep;Ljava/util/Random;Lst;)Z
+	METHOD a func_35308_a (Liv;Ljava/util/List;Ljava/util/Random;)V
+	FIELD a field_35356_a Ljava/util/LinkedList;

@@ -1,0 +1,9 @@
+CLASS dj net/minecraft/src/Packet41EntityEffect
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lqf;)V
+	FIELD a field_35116_a I
+	FIELD b field_35114_b B
+	FIELD c field_35115_c B
+	FIELD d field_35113_d S

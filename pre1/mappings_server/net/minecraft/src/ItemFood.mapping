@@ -1,0 +1,20 @@
+CLASS vp net/minecraft/src/ItemFood
+	METHOD a func_35422_a (IIIF)Lvp;
+	METHOD a onItemRightClick (Lhz;Lep;Lga;)Lhz;
+	METHOD a setItemName (Ljava/lang/String;)Lfy;
+	METHOD b func_35406_b (Lhz;)Lic;
+	METHOD b func_35405_b (Lhz;Lep;Lga;)Lhz;
+	METHOD c func_35404_c (Lhz;)I
+	METHOD k getHealAmount ()I
+	METHOD l func_35424_l ()F
+	METHOD m getIsWolfsFavoriteMeat ()Z
+	METHOD n func_35423_n ()Lvp;
+	FIELD a field_35427_a I
+	FIELD bA field_35428_bw Z
+	FIELD bB field_35430_bx I
+	FIELD bC field_35429_by I
+	FIELD bD field_35425_bz I
+	FIELD bE field_35426_bA F
+	FIELD bx healAmount I
+	FIELD by field_35431_bu F
+	FIELD bz isWolfsFavoriteMeat Z

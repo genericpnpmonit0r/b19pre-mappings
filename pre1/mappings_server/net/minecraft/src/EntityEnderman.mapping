@@ -1,0 +1,24 @@
+CLASS kp net/minecraft/src/EntityEnderman
+	METHOD a func_35228_a (DDD)Z
+	METHOD a readEntityFromNBT (Lls;)V
+	METHOD a dropFewItems (Z)V
+	METHOD b entityInit ()V
+	METHOD b getEntityBrightness (F)F
+	METHOD b func_35226_b (I)V
+	METHOD b writeEntityToNBT (Lls;)V
+	METHOD b_ getDeathSound ()Ljava/lang/String;
+	METHOD c onLivingUpdate ()V
+	METHOD c func_35232_c (Lga;)Z
+	METHOD d getLivingSound ()Ljava/lang/String;
+	METHOD e getHurtSound ()Ljava/lang/String;
+	METHOD e func_35229_d (I)V
+	METHOD e func_35230_e (Lpp;)Z
+	METHOD g getDropItemId ()I
+	METHOD p findPlayerToAttack ()Lpp;
+	METHOD x func_35227_w ()Z
+	METHOD y func_35225_x ()I
+	METHOD z func_35231_y ()I
+	FIELD a field_35235_a Z
+	FIELD b field_35234_b [Z
+	FIELD g field_35233_g I
+	FIELD h field_35236_h I

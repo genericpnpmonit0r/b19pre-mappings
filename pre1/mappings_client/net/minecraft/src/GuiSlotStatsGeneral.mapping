@@ -1,8 +1,8 @@
 CLASS lj net/minecraft/src/GuiSlotStatsGeneral
+	FIELD a field_27276_a Lcl;
 	METHOD a getSize ()I
 	METHOD a drawSlot (IIIILyu;)V
 	METHOD a elementClicked (IZ)V
 	METHOD a_ isSelected (I)Z
 	METHOD b getContentHeight ()I
 	METHOD c drawBackground ()V
-	FIELD a field_27276_a Lcl;

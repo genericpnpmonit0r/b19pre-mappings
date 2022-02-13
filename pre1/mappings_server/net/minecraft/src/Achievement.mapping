@@ -1,0 +1,12 @@
+CLASS lv net/minecraft/src/Achievement
+	METHOD a setIndependent ()Llv;
+	METHOD b setSpecial ()Llv;
+	METHOD c registerAchievement ()Llv;
+	METHOD d registerStat ()Lso;
+	METHOD e initIndependentStat ()Lso;
+	FIELD a displayColumn I
+	FIELD b displayRow I
+	FIELD c parentAchievement Llv;
+	FIELD d theItemStack Lhz;
+	FIELD l achievementDescription Ljava/lang/String;
+	FIELD m isSpecial Z

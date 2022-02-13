@@ -1,0 +1,2 @@
+CLASS vb net/minecraft/src/ItemFlintAndSteel
+	METHOD a onItemUse (Lhz;Lga;Lep;IIII)Z

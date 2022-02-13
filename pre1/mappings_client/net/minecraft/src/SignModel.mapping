@@ -1,4 +1,4 @@
 CLASS abb net/minecraft/src/SignModel
-	METHOD a renderSign ()V
 	FIELD a signBoard Lnv;
 	FIELD b signStick Lnv;
+	METHOD a renderSign ()V

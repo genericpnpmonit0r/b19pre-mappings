@@ -1,0 +1,3 @@
+CLASS im net/minecraft/src/BlockBreakable
+	METHOD a isOpaqueCube ()Z
+	FIELD a localFlag Z

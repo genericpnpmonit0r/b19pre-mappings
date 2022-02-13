@@ -1,0 +1,2 @@
+CLASS vj net/minecraft/src/ItemPainting
+	METHOD a onItemUse (Lhz;Lga;Lep;IIII)Z

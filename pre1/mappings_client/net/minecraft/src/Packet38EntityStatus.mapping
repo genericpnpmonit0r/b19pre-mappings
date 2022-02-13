@@ -1,7 +1,7 @@
 CLASS fo net/minecraft/src/Packet38EntityStatus
+	FIELD a entityId I
+	FIELD b entityStatus B
 	METHOD a getPacketSize ()I
 	METHOD a readPacketData (Ljava/io/DataInputStream;)V
 	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
 	METHOD a processPacket (Llt;)V
-	FIELD a entityId I
-	FIELD b entityStatus B

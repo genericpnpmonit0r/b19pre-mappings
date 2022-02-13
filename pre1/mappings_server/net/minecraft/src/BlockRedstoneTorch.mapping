@@ -1,0 +1,15 @@
+CLASS cs net/minecraft/src/BlockRedstoneTorch
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a onBlockAdded (Lep;III)V
+	METHOD a onNeighborBlockChange (Lep;IIII)V
+	METHOD a updateTick (Lep;IIILjava/util/Random;)V
+	METHOD a checkForBurnout (Lep;IIIZ)Z
+	METHOD a isPoweringTo (Lun;IIII)Z
+	METHOD c tickRate ()I
+	METHOD d canProvidePower ()Z
+	METHOD d onBlockRemoval (Lep;III)V
+	METHOD d isIndirectlyPoweringTo (Lep;IIII)Z
+	METHOD g func_30003_g (Lep;III)Z
+	FIELD a torchActive Z
+	FIELD b torchUpdates Ljava/util/List;

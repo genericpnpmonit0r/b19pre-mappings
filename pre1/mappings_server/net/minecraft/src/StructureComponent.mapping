@@ -1,0 +1,26 @@
+CLASS iv net/minecraft/src/StructureComponent
+	METHOD a func_35306_a (II)I
+	METHOD a func_35309_a (Lep;IIIIILst;)V
+	METHOD a func_35297_a (Lep;IIILst;)I
+	METHOD a func_35310_a (Lep;Ljava/util/Random;Lst;)Z
+	METHOD a func_35295_a (Lep;Lst;)Z
+	METHOD a func_35294_a (Lep;Lst;IIIIIIIIZ)V
+	METHOD a func_35304_a (Lep;Lst;IIIIIIIZ)V
+	METHOD a func_35307_a (Lep;Lst;IIIIIIZLjava/util/Random;Lbs;)V
+	METHOD a func_35302_a (Lep;Lst;Ljava/util/Random;FIIIII)V
+	METHOD a func_35315_a (Lep;Lst;Ljava/util/Random;FIIIIIIIIZ)V
+	METHOD a func_35298_a (Lep;Lst;Ljava/util/Random;IIII)V
+	METHOD a func_35299_a (Lep;Lst;Ljava/util/Random;III[Lhc;I)V
+	METHOD a func_35308_a (Liv;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a func_35312_a (Ljava/util/List;Lst;)Liv;
+	METHOD a func_35311_a (Ljava/util/Random;[Lhc;Liq;I)V
+	METHOD b func_35313_b ()Lst;
+	METHOD b func_35300_a (I)I
+	METHOD b func_35296_b (II)I
+	METHOD b func_35303_b (Lep;IIIIILst;)V
+	METHOD b func_35314_b (Lep;IIILst;)V
+	METHOD c func_35305_c ()I
+	METHOD c func_35301_c (II)I
+	FIELD g field_35316_g Lst;
+	FIELD h field_35317_h I
+	FIELD i field_35318_i I

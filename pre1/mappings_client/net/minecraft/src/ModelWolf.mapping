@@ -1,12 +1,15 @@
 CLASS pv net/minecraft/src/ModelWolf
-	METHOD a setRotationAngles (FFFFFF)V
-	METHOD a render (Lle;FFFFFF)V
-	METHOD a setLivingAnimations (Lxq;FFF)V
 	FIELD a wolfHeadMain Lnv;
 	FIELD b wolfBody Lnv;
 	FIELD c wolfLeg1 Lnv;
 	FIELD d wolfLeg2 Lnv;
 	FIELD e wolfLeg3 Lnv;
 	FIELD f wolfLeg4 Lnv;
+	FIELD g wolfPart1 Lnv;
+	FIELD k wolfPart2 Lnv;
+	FIELD l wolfPart3 Lnv;
 	FIELD m wolfTail Lnv;
 	FIELD n wolfMane Lnv;
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Lle;FFFFFF)V
+	METHOD a setLivingAnimations (Lxq;FFF)V

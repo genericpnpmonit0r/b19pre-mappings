@@ -1,0 +1,2 @@
+CLASS l net/minecraft/src/BlockOreStorage
+	METHOD a getBlockTextureFromSide (I)I

@@ -1,0 +1,13 @@
+CLASS mj net/minecraft/src/BlockFlowing
+	METHOD a onBlockAdded (Lep;III)V
+	METHOD a updateTick (Lep;IIILjava/util/Random;)V
+	METHOD b calculateFlowCost (Lep;IIIII)I
+	METHOD f getSmallestFlowDecay (Lep;IIII)I
+	METHOD h flowIntoBlock (Lep;IIII)V
+	METHOD i func_30004_i (Lep;III)V
+	METHOD j getOptimalFlowDirections (Lep;III)[Z
+	METHOD k blockBlocksFlow (Lep;III)Z
+	METHOD l liquidCanDisplaceBlock (Lep;III)Z
+	FIELD a numAdjacentSources I
+	FIELD b isOptimalFlowDirection [Z
+	FIELD c flowCost [I

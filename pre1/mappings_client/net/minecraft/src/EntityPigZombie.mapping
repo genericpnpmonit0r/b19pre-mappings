@@ -1,4 +1,7 @@
 CLASS afl net/minecraft/src/EntityPigZombie
+	FIELD a angerLevel I
+	FIELD b randomSoundDelay I
+	FIELD d defaultHeldItem Lvw;
 	METHOD S getHeldItem ()Lvw;
 	METHOD a attackEntityFrom (Ljz;I)Z
 	METHOD a readEntityFromNBT (Lyr;)V
@@ -13,6 +16,3 @@ CLASS afl net/minecraft/src/EntityPigZombie
 	METHOD h getCanSpawnHere ()Z
 	METHOD l findPlayerToAttack ()Lle;
 	METHOD w_ onUpdate ()V
-	FIELD a angerLevel I
-	FIELD b randomSoundDelay I
-	FIELD d defaultHeldItem Lvw;

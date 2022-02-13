@@ -1,16 +1,24 @@
 CLASS zw net/minecraft/src/PlayerControllerCreative
+	FIELD c blockClickTimer I
 	METHOD a resetBlockRemoving ()V
 	METHOD a clickBlock (IIII)V
-	METHOD a func_35644_a (Lnet/minecraft/client/Minecraft;Lio;IIII)V
+	METHOD a sendRemoveBlock (Lnet/minecraft/client/Minecraft;Lio;IIII)V
+		ARG 0 minecraft
+		ARG 1 playerController
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 side
 	METHOD a onWorldChange (Ltd;)V
 	METHOD a sendPlaceBlock (Lui;Ltd;Lvw;IIII)Z
 	METHOD b getBlockReachDistance ()F
 	METHOD b func_6473_b (Lui;)V
 	METHOD c sendBlockRemoving (IIII)V
 	METHOD d shouldDrawHUD ()Z
-	METHOD d func_35646_d (Lui;)V
-	METHOD e func_35645_e (Lui;)V
+	METHOD d setCapabilities (Lui;)V
+		ARG 0 player
+	METHOD e resetCapabilities (Lui;)V
+		ARG 0 player
 	METHOD g func_35641_g ()Z
 	METHOD h isInCreativeMode ()Z
 	METHOD i extendedReach ()Z
-	FIELD c field_35647_c I

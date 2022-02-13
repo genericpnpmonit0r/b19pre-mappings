@@ -1,0 +1,14 @@
+CLASS fh net/minecraft/src/Pathfinder
+	METHOD a openPoint (III)Ld;
+	METHOD a createEntityPath (Ld;Ld;)Lcx;
+	METHOD a createEntityPathTo (Lpp;DDDF)Lcx;
+	METHOD a createEntityPathTo (Lpp;IIIF)Lcx;
+	METHOD a getVerticalOffset (Lpp;IIILd;)I
+	METHOD a getSafePoint (Lpp;IIILd;I)Ld;
+	METHOD a addToPath (Lpp;Ld;Ld;Ld;F)Lcx;
+	METHOD a createEntityPathTo (Lpp;Lpp;F)Lcx;
+	METHOD b findPathOptions (Lpp;Ld;Ld;Ld;F)I
+	FIELD a worldMap Lun;
+	FIELD b path Ljp;
+	FIELD c pointMap Liu;
+	FIELD d pathOptions [Ld;

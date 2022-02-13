@@ -1,0 +1,12 @@
+CLASS tk net/minecraft/src/InventoryCraftResult
+	METHOD a getSizeInventory ()I
+	METHOD a decrStackSize (II)Lhz;
+	METHOD a setInventorySlotContents (ILhz;)V
+	METHOD a canInteractWith (Lga;)Z
+	METHOD b_ getStackInSlot (I)Lhz;
+	METHOD c getInvName ()Ljava/lang/String;
+	METHOD d getInventoryStackLimit ()I
+	METHOD e func_35161_e ()V
+	METHOD k onInventoryChanged ()V
+	METHOD r_ func_35162_t_ ()V
+	FIELD a stackResult [Lhz;

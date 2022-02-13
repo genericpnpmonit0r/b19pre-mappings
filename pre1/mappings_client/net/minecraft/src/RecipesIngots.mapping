@@ -1,3 +1,4 @@
 CLASS ack net/minecraft/src/RecipesIngots
-	METHOD a addRecipes (Leq;)V
 	FIELD a recipeItems [[Ljava/lang/Object;
+	METHOD a addRecipes (Leq;)V
+		ARG 1 craftingManager

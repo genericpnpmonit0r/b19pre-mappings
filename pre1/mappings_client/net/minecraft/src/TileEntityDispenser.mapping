@@ -1,4 +1,6 @@
 CLASS aq net/minecraft/src/TileEntityDispenser
+	FIELD a dispenserContents [Lvw;
+	FIELD b dispenserRandom Ljava/util/Random;
 	METHOD a getSizeInventory ()I
 	METHOD a decrStackSize (II)Lvw;
 	METHOD a setInventorySlotContents (ILvw;)V
@@ -11,5 +13,3 @@ CLASS aq net/minecraft/src/TileEntityDispenser
 	METHOD e_ getStackInSlot (I)Lvw;
 	METHOD f closeChest ()V
 	METHOD j_ getRandomStackFromInventory ()Lvw;
-	FIELD a dispenserContents [Lvw;
-	FIELD b dispenserRandom Ljava/util/Random;

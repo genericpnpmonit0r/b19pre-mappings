@@ -1,0 +1,8 @@
+CLASS fx net/minecraft/src/BlockSand
+	METHOD a onBlockAdded (Lep;III)V
+	METHOD a onNeighborBlockChange (Lep;IIII)V
+	METHOD a updateTick (Lep;IIILjava/util/Random;)V
+	METHOD c tickRate ()I
+	METHOD g canFallBelow (Lep;III)Z
+	METHOD h tryToFall (Lep;III)V
+	FIELD a fallInstantly Z

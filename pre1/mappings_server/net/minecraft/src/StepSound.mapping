@@ -1,0 +1,7 @@
+CLASS co net/minecraft/src/StepSound
+	METHOD a getVolume ()F
+	METHOD b getPitch ()F
+	METHOD c stepSoundDir ()Ljava/lang/String;
+	FIELD a stepSoundName Ljava/lang/String;
+	FIELD b stepSoundVolume F
+	FIELD c stepSoundPitch F

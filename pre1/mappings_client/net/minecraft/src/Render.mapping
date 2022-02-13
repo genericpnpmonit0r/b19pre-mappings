@@ -3,14 +3,23 @@ CLASS rc net/minecraft/src/Render
 	FIELD e renderManager Lacf;
 	FIELD f renderBlocks Lru;
 	FIELD g shadowSize F
-	FIELD h field_194_c F
+	FIELD h size F
 	METHOD a getFontRendererFromRenderManager ()Llc;
 	METHOD a setRenderManager (Lacf;)V
+		ARG 1 rendeRmanager
 	METHOD a loadTexture (Ljava/lang/String;)V
+		ARG 1 textureFilepath
 	METHOD a loadDownloadableImageTexture (Ljava/lang/String;Ljava/lang/String;)Z
+		ARG 1 name1
+		ARG 2 name2
 	METHOD a renderEntityOnFire (Lle;DDDF)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 f
 	METHOD a doRender (Lle;DDDFF)V
-		ARG 1 living
+		ARG 1 entity
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
@@ -18,7 +27,18 @@ CLASS rc net/minecraft/src/Render
 		ARG 9 pitch
 	METHOD a renderShadowOnBlock (Lmn;DDDIIIFFDDD)V
 	METHOD a renderAABB (Lsw;)V
+		ARG 0 aabb
 	METHOD a renderOffsetAABB (Lsw;DDD)V
+		ARG 0 aabb
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD b getWorldFromRenderManager ()Ltd;
 	METHOD b doRenderShadowAndFire (Lle;DDDFF)V
 	METHOD c renderShadow (Lle;DDDFF)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 yaw
+		ARG 9 pitch

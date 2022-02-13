@@ -1,17 +1,53 @@
 CLASS no net/minecraft/src/StructureBoundingBox
-	METHOD a getNewBoundingBox ()Lno;
-	METHOD a offset (III)V
-	METHOD a isInsideStructureBB (IIII)Z
-	METHOD a getComponentToAddBoundingBox (IIIIIIIIII)Lno;
-	METHOD a intersectsWith (Lno;)Z
-	METHOD b getXSize ()I
-	METHOD b isVecInside (III)Z
-	METHOD b resizeBoundingBoxTo (Lno;)V
-	METHOD c getYSize ()I
-	METHOD d getZSize ()I
 	FIELD a minX I
 	FIELD b minY I
 	FIELD c minZ I
 	FIELD d maxX I
 	FIELD e maxY I
 	FIELD f maxZ I
+	METHOD <init> (IIII)V
+		ARG 1 minX
+		ARG 2 minZ
+		ARG 3 maxX
+		ARG 4 maxZ
+	METHOD <init> (IIIIII)V
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+		ARG 5 maxY
+		ARG 6 maxZ
+	METHOD <init> (Lno;)V
+		ARG 1 boundingBox
+	METHOD a getNewBoundingBox ()Lno;
+	METHOD a offset (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a isInsideStructureBB (IIII)Z
+		ARG 1 x
+		ARG 2 z
+		ARG 3 x2
+		ARG 4 z2
+	METHOD a getComponentToAddBoundingBox (IIIIIIIIII)Lno;
+		ARG 0 minX
+		ARG 1 minY
+		ARG 2 minZ
+		ARG 3 maxX
+		ARG 4 maxY
+		ARG 5 maxZ
+		ARG 6 i
+		ARG 7 j
+		ARG 8 k
+		ARG 9 mode
+	METHOD a intersectsWith (Lno;)Z
+		ARG 1 boundingBox
+	METHOD b getXSize ()I
+	METHOD b isVecInside (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b resizeBoundingBoxTo (Lno;)V
+		ARG 1 boundingBox
+	METHOD c getYSize ()I
+	METHOD d getZSize ()I

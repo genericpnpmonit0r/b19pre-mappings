@@ -1,7 +1,9 @@
 CLASS gi net/minecraft/src/TextureWatchFX
-	METHOD a onTick ()V
 	FIELD a mc Lnet/minecraft/client/Minecraft;
 	FIELD b watchIconImageData [I
 	FIELD c dialImageData [I
-	FIELD d field_4222_j D
-	FIELD e field_4221_k D
+	FIELD d currentAngle D
+	FIELD e angleDelta D
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD a onTick ()V

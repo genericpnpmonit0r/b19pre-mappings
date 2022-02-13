@@ -1,11 +1,35 @@
 CLASS fx net/minecraft/src/J_JsonNodeSelectors
-	METHOD a func_27347_a (I)Lwl;
-	METHOD a func_27348_a (Ljava/lang/String;)Lwl;
-	METHOD a func_27350_a (Ljs;)Lwl;
-	METHOD a func_27345_a (Lwl;Lwl;)Lwl;
-	METHOD a func_27349_a ([Ljava/lang/Object;)Lwl;
-	METHOD a func_27352_a ([Ljava/lang/Object;Lwl;)Lwl;
-	METHOD b func_27354_b (I)Lwl;
-	METHOD b func_27351_b (Ljava/lang/String;)Lwl;
-	METHOD b func_27346_b ([Ljava/lang/Object;)Lwl;
-	METHOD c func_27353_c ([Ljava/lang/Object;)Lwl;
+	COMMENT <p>Factories for <code>JsonNodeSelectors</code>.</p>
+	COMMENT <p/>
+	COMMENT <p>Methods in this class fall into two broad categories - those that take a varargs argument of <code>Object</code>s
+	COMMENT and navigate down an entire hierarchy, and those that address a single node in a hierarchy.</p>
+	COMMENT <p>For example,
+	COMMENT <code>aStringNode(Object... pathElements)</code> takes a series of <code>String</code>s and
+	COMMENT <code>Integer</code>s as its argument which tell it how to navigate down a hierarchy to a particular JSON string.
+	COMMENT The <code>String</code>s tell it to select a field with the given name from an object, and the <code>Integer</code>s
+	COMMENT tell it to select an element with the given index from an array.</p>
+	COMMENT <p/>
+	COMMENT <p>By contrast, <code>anArrayNodeWithElement(int index)</code> addresses a single array node only, selecting the
+	COMMENT element at the given index from it.</p>
+	METHOD a aNullableBooleanNode (I)Lwl;
+		ARG 0 index
+	METHOD a aNumberNode (Ljava/lang/String;)Lwl;
+		ARG 0 value
+	METHOD a aNullableNumberNode (Ljs;)Lwl;
+		ARG 0 jsonStringNode
+	METHOD a chainedJsonNodeSelector (Lwl;Lwl;)Lwl;
+		ARG 0 parent
+		ARG 1 child
+	METHOD a anyNode ([Ljava/lang/Object;)Lwl;
+		ARG 0 pathElements
+	METHOD a chainOn ([Ljava/lang/Object;Lwl;)Lwl;
+		ARG 0 pathElements
+		ARG 1 jsonNodeSelector
+	METHOD b anArrayNodeWithElement (I)Lwl;
+		ARG 0 index
+	METHOD b aBooleanNode (Ljava/lang/String;)Lwl;
+		ARG 0 value
+	METHOD b anArrayNode ([Ljava/lang/Object;)Lwl;
+		ARG 0 pathElements
+	METHOD c aNullableStringNode ([Ljava/lang/Object;)Lwl;
+		ARG 0 pathElements

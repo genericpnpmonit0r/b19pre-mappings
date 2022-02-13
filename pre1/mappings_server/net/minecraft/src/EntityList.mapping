@@ -1,0 +1,10 @@
+CLASS ib net/minecraft/src/EntityList
+	METHOD a addMapping (Ljava/lang/Class;Ljava/lang/String;I)V
+	METHOD a createEntityInWorld (Ljava/lang/String;Lep;)Lpp;
+	METHOD a createEntityFromNBT (Lls;Lep;)Lpp;
+	METHOD a getEntityID (Lpp;)I
+	METHOD b getEntityString (Lpp;)Ljava/lang/String;
+	FIELD a stringToClassMapping Ljava/util/Map;
+	FIELD b classToStringMapping Ljava/util/Map;
+	FIELD c IDtoClassMapping Ljava/util/Map;
+	FIELD d classToIDMapping Ljava/util/Map;

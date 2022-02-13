@@ -1,0 +1,4 @@
+CLASS k net/minecraft/src/PlayerListBox
+	METHOD a update ()V
+	FIELD a mcServer Lnet/minecraft/server/MinecraftServer;
+	FIELD b updateCounter I

@@ -1,0 +1,41 @@
+CLASS ns net/minecraft/src/DamageSource
+	FIELD a inFire Lns;
+	FIELD b onLava Lns;
+	FIELD c lava Lns;
+	FIELD d inWall Lns;
+	FIELD e drown Lns;
+	FIELD f starve Lns;
+	FIELD g cactus Lns;
+	FIELD h fall Lns;
+	FIELD i outOfWorld Lns;
+	FIELD j generic Lns;
+	FIELD k explosion Lns;
+	FIELD l magic Lns;
+	FIELD m damageType Ljava/lang/String;
+	FIELD n isBlockable Z
+	FIELD o isDamageAllowedInCreativeMode Z
+	FIELD p hungerDamage F
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 typeName
+	METHOD a getEntity ()Lpp;
+	METHOD a causeFireballDamage (Lby;Lpp;)Lns;
+		ARG 0 fireball
+		ARG 1 entity
+	METHOD a getDeathMsg (Lga;)Ljava/lang/String;
+		ARG 1 player
+	METHOD a causeMobDamage (Ljz;)Lns;
+		ARG 0 living
+	METHOD a causeArrowDamage (Lpm;Lpp;)Lns;
+		ARG 0 arrow
+		ARG 1 entity
+	METHOD a causeThrownDamage (Lpp;Lpp;)Lns;
+		ARG 0 thrower
+		ARG 1 target
+	METHOD b unblockable ()Z
+	METHOD b causePlayerDamage (Lga;)Lns;
+		ARG 0 player
+	METHOD c getHungerDamage ()F
+	METHOD d canHarmInCreative ()Z
+	METHOD e getSourceOfDamage ()Lpp;
+	METHOD f setDamageBypassesArmor ()Lns;
+	METHOD g setDamageAllowedInCreativeMode ()Lns;

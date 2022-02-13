@@ -1,7 +1,4 @@
 CLASS gk net/minecraft/src/Particle
-	METHOD a preUpdate ()V
-	METHOD a update (Lsi;)V
-	METHOD b setDead ()V
 	FIELD a posX D
 	FIELD b posY D
 	FIELD c prevPosX D
@@ -21,3 +18,6 @@ CLASS gk net/minecraft/src/Particle
 	FIELD q prevTintBlue D
 	FIELD r prevTintAlpha D
 	FIELD s rand Ljava/util/Random;
+	METHOD a preUpdate ()V
+	METHOD a update (Lsi;)V
+	METHOD b setDead ()V

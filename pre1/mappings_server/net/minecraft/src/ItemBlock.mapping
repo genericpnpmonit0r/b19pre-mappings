@@ -1,0 +1,6 @@
+CLASS bz net/minecraft/src/ItemBlock
+	METHOD a func_35419_a ()I
+	METHOD a func_35407_a (Lhz;)Ljava/lang/String;
+	METHOD a onItemUse (Lhz;Lga;Lep;IIII)Z
+	METHOD b getItemName ()Ljava/lang/String;
+	FIELD a blockID I

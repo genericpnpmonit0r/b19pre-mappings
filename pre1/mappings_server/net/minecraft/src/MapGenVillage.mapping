@@ -1,0 +1,4 @@
+CLASS ai net/minecraft/src/MapGenVillage
+	METHOD a func_35531_a (II)Z
+	METHOD b func_35533_b (II)Lro;
+	FIELD a field_35538_a Ljava/util/List;

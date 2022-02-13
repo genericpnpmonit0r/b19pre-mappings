@@ -1,7 +1,4 @@
 CLASS d net/minecraft/src/PathPoint
-	METHOD a isAssigned ()Z
-	METHOD a func_22329_a (III)I
-	METHOD a distanceTo (Ld;)F
 	FIELD a xCoord I
 	FIELD b yCoord I
 	FIELD c zCoord I
@@ -12,3 +9,6 @@ CLASS d net/minecraft/src/PathPoint
 	FIELD h previous Ld;
 	FIELD i isFirst Z
 	FIELD j hash I
+	METHOD a isAssigned ()Z
+	METHOD a getHash (III)I
+	METHOD a distanceTo (Ld;)F

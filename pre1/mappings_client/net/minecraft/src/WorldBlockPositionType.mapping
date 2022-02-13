@@ -6,3 +6,10 @@ CLASS lu net/minecraft/src/WorldBlockPositionType
 	FIELD e blockID I
 	FIELD f metadata I
 	FIELD g worldClient Lhn;
+	METHOD <init> (Lhn;IIIII)V
+		ARG 1 worldClient
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 id
+		ARG 6 meta

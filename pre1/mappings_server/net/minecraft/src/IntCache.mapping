@@ -1,0 +1,8 @@
+CLASS z net/minecraft/src/IntCache
+	METHOD a func_35550_a ()V
+	METHOD a func_35549_a (I)[I
+	FIELD a field_35555_a I
+	FIELD b field_35553_b Ljava/util/List;
+	FIELD c field_35554_c Ljava/util/List;
+	FIELD d field_35551_d Ljava/util/List;
+	FIELD e field_35552_e Ljava/util/List;

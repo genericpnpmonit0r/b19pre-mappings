@@ -1,0 +1,9 @@
+CLASS dh net/minecraft/src/ItemTool
+	METHOD a onBlockDestroyed (Lhz;IIIILjz;)Z
+	METHOD a hitEntity (Lhz;Ljz;Ljz;)Z
+	METHOD a getStrVsBlock (Lhz;Lrj;)F
+	METHOD a getDamageVsEntity (Lpp;)I
+	FIELD a toolMaterial Lbp;
+	FIELD bx blocksEffectiveAgainst [Lrj;
+	FIELD by efficiencyOnProperMaterial F
+	FIELD bz damageVsEntity I

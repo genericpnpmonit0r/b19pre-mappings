@@ -1,0 +1,17 @@
+CLASS mr ThreadedChunkLoader
+	FIELD a chunksToRemove Ljava/util/List;
+	FIELD b pendingChunksCoordinates Ljava/util/Set;
+	FIELD c syncLockObject Ljava/lang/Object;
+	FIELD d chunkSaveLocation Ljava/io/File;
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 saveLocation
+	METHOD a func_661_a ()V
+	METHOD a loadChunk (Lep;II)Ljv;
+	METHOD a saveChunk (Lep;Ljv;)V
+	METHOD a writeChunkNBTTags (Lvd;)V
+		ARG 1 threadedChunkLoaderPending
+	METHOD a addChunkToPending (Lvs;Lls;)V
+		ARG 1 chunkCoordIntPair
+		ARG 2 compoundTag
+	METHOD b saveExtraData ()V
+	METHOD b saveExtraChunkData (Lep;Ljv;)V

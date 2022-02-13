@@ -1,0 +1,16 @@
+CLASS up net/minecraft/src/BlockLever
+	METHOD a isOpaqueCube ()Z
+	METHOD a onNeighborBlockChange (Lep;IIII)V
+	METHOD a blockActivated (Lep;IIILga;)Z
+	METHOD a setBlockBoundsBasedOnState (Lun;III)V
+	METHOD a isPoweringTo (Lun;IIII)Z
+	METHOD b isACube ()Z
+	METHOD b canPlaceBlockOnSide (Lep;IIII)Z
+	METHOD b onBlockClicked (Lep;IIILga;)V
+	METHOD c canPlaceBlockAt (Lep;III)Z
+	METHOD d canProvidePower ()Z
+	METHOD d onBlockRemoval (Lep;III)V
+	METHOD d isIndirectlyPoweringTo (Lep;IIII)Z
+	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;
+	METHOD e onBlockPlaced (Lep;IIII)V
+	METHOD g checkIfAttachedToBlock (Lep;III)Z

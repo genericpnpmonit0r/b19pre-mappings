@@ -1,0 +1,3 @@
+CLASS pa net/minecraft/src/NetworkAcceptThread
+	FIELD a mcServer Lnet/minecraft/server/MinecraftServer;
+	FIELD b field_985_b Ldy;

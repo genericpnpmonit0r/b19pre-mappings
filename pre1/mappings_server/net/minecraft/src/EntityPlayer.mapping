@@ -1,0 +1,145 @@
+CLASS ga net/minecraft/src/EntityPlayer
+	FIELD A field_20050_aB D
+	FIELD B field_20049_aC D
+	FIELD C field_20048_aD D
+	FIELD D sleeping Z
+	FIELD E playerLocation Lbm;
+	FIELD F specialRenderX F
+	FIELD G specialRenderZ F
+	FIELD H timeUntilPortal I
+	FIELD I inPortal Z
+	FIELD J timeInPortal F
+	FIELD K capabilities Ltl;
+	FIELD L xp I
+	FIELD M playerLevel I
+	FIELD N xpLevel I
+	FIELD O field_35213_O F
+	FIELD P field_35215_P F
+	FIELD Q fishEntity Lkf;
+	FIELD a sleepTimer I
+	FIELD b spawnChunk Lbm;
+	FIELD c startMinecartRidingCoordinate Lbm;
+	FIELD d itemInUse Lhz;
+	FIELD e itemInUseCount I
+	FIELD j inventory Lhy;
+	FIELD k personalCraftingInventory Ldm;
+	FIELD l currentCraftingInventory Ldm;
+	FIELD m foodStats Lpf;
+	FIELD n field_35216_n I
+	FIELD o field_9152_am B
+	FIELD p score I
+	FIELD q prevCameraYaw F
+	FIELD r cameraYaw F
+	FIELD s isSwinging Z
+	FIELD t swingProgressInt I
+	FIELD u username Ljava/lang/String;
+	FIELD v dimension I
+	FIELD w field_35218_w I
+	FIELD x field_20047_ay D
+	FIELD y field_20046_az D
+	FIELD z field_20051_aA D
+	METHOD D func_35199_C ()V
+	METHOD E func_35209_o_ ()Z
+	METHOD F func_35196_E ()V
+	METHOD G func_35205_F ()V
+	METHOD H func_35180_G ()Z
+	METHOD I isMovementBlocked ()Z
+	METHOD J updateRidden ()V
+	METHOD K dropCurrentItem ()V
+	METHOD M getCurrentEquippedItem ()Lhz;
+	METHOD N destroyCurrentEquippedItem ()V
+	METHOD O getYOffset ()D
+	METHOD P setEntityDead ()V
+	METHOD Q isEntityInsideOpaqueBlock ()Z
+	METHOD R isPlayerSleeping ()Z
+	METHOD S isPlayerFullyAsleep ()Z
+	METHOD T getSpawnChunk ()Lbm;
+	METHOD U jump ()V
+	METHOD V setInPortal ()V
+	METHOD W xpBarCap ()I
+	METHOD X getFoodStats ()Lpf;
+	METHOD Y shouldHeal ()Z
+	METHOD Z func_35188_X ()Z
+	METHOD a addMovementStat (DDD)V
+	METHOD a fall (F)V
+	METHOD a moveEntityWithHeading (FF)V
+	METHOD a sleepInBedAt (III)Lcq;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a displayGUIDispenser (Lax;)V
+	METHOD a setSpawnChunk (Lbm;)V
+		ARG 1 chunkCoords
+	METHOD a verifyBedCoordinates (Lep;Lbm;)Lbm;
+		ARG 0 world
+		ARG 1 chunkCoords
+	METHOD a joinEntityItemWithWorld (Lgr;)V
+	METHOD a onItemStackChanged (Lhz;)V
+		ARG 1 itemStack
+	METHOD a setItemInUse (Lhz;I)V
+		ARG 1 itemStack
+		ARG 2 count
+	METHOD a dropPlayerItemWithRandomChoice (Lhz;Z)V
+	METHOD a addChatMessage (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD a onKillEntity (Ljz;)V
+	METHOD a alertWolves (Ljz;Z)V
+	METHOD a displayGUIChest (Lkd;)V
+	METHOD a readEntityFromNBT (Lls;)V
+	METHOD a onDeath (Lns;)V
+	METHOD a attackEntityFrom (Lns;I)Z
+	METHOD a displayGUIFurnace (Lpl;)V
+	METHOD a onItemPickup (Lpp;I)V
+	METHOD a getCurrentPlayerStrVsBlock (Lrj;)F
+	METHOD a triggerAchievement (Lso;)V
+		ARG 1 statBase
+	METHOD a addStat (Lso;I)V
+		ARG 1 statBase
+		ARG 2 id
+	METHOD a displayGUIEditSign (Lvh;)V
+	METHOD a wakeUpPlayer (ZZZ)V
+		ARG 1 resetSleepTimer
+		ARG 2 allPlayersSleeping
+		ARG 3 setSpawnChunk
+	METHOD aa func_35150_Y ()Ljava/lang/String;
+	METHOD b entityInit ()V
+	METHOD b setSpecialRenderXZ (I)V
+		ARG 1 i
+	METHOD b displayWorkbenchGUI (III)V
+	METHOD b dropPlayerItem (Lhz;)V
+	METHOD b func_35208_b (Lhz;I)V
+	METHOD b writeEntityToNBT (Lls;)V
+	METHOD b damageEntity (Lns;I)V
+	METHOD b addToPlayerScore (Lpp;I)V
+	METHOD b canHarvestBlock (Lrj;)Z
+	METHOD c onLivingUpdate ()V
+	METHOD c addExhaustion (F)V
+		ARG 1 exhaustionAmount
+	METHOD c canPlayerEdit (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD c useCurrentItemOnEntity (Lpp;)V
+	METHOD c canEat (Z)Z
+		ARG 1 canEatToggle
+	METHOD d attackTargetEntityWithCurrentItem (Lpp;)V
+		ARG 1 entity
+	METHOD e increaseXP (I)V
+		ARG 1 xpAmount
+	METHOD e onCriticalHit (Lpp;)V
+		ARG 1 entity
+	METHOD h addMountedMovementStat (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD j collideWithPlayer (Lpp;)V
+	METHOD l updateEntityActionState ()V
+	METHOD m_ resetHeight ()V
+	METHOD p func_35204_o ()I
+	METHOD q_ onUpdate ()V
+	METHOD u getEyeHeight ()F
+	METHOD v isPVPEnabled ()Z
+	METHOD w swingItem ()V
+	METHOD x isInBed ()Z
+	METHOD y usePersonalCraftingInventory ()V
+	METHOD z increaseLevel ()V

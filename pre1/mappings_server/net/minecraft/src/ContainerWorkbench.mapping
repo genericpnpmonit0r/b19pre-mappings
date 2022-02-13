@@ -1,0 +1,11 @@
+CLASS hu net/minecraft/src/ContainerWorkbench
+	METHOD a getStackInSlot (I)Lhz;
+	METHOD a onCraftGuiClosed (Lga;)V
+	METHOD a onCraftMatrixChanged (Lkd;)V
+	METHOD b canInteractWith (Lga;)Z
+	FIELD a craftMatrix Lkq;
+	FIELD b craftResult Lkd;
+	FIELD c worldObj Lep;
+	FIELD h posX I
+	FIELD i posY I
+	FIELD j posZ I

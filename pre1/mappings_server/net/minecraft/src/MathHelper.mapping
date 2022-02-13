@@ -1,0 +1,13 @@
+CLASS hn net/minecraft/src/MathHelper
+	METHOD a sqrt_double (D)F
+	METHOD a abs_max (DD)D
+	METHOD a sin (F)F
+	METHOD a func_35475_a (I)I
+	METHOD a func_35476_a (Ljava/util/Random;II)I
+	METHOD b floor_double (D)I
+	METHOD b cos (F)F
+	METHOD c func_35477_c (D)J
+	METHOD c sqrt_float (F)F
+	METHOD d floor_float (F)I
+	METHOD e abs (F)F
+	FIELD a SIN_TABLE [F

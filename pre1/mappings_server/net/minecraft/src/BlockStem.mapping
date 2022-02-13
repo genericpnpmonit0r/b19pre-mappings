@@ -1,0 +1,11 @@
+CLASS mb net/minecraft/src/BlockStem
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a dropBlockAsItemWithChance (Lep;IIIIF)V
+	METHOD a updateTick (Lep;IIILjava/util/Random;)V
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a setBlockBoundsBasedOnState (Lun;III)V
+	METHOD c canThisPlantGrowOnThisBlockID (I)Z
+	METHOD g func_35066_f_ (Lep;III)V
+	METHOD i func_35067_h (Lep;III)F
+	FIELD a field_35068_a Lrj;

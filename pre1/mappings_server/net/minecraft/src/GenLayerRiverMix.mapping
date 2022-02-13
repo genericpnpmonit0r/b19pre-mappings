@@ -1,0 +1,5 @@
+CLASS tm net/minecraft/src/GenLayerRiverMix
+	METHOD a func_35018_a (IIII)[I
+	METHOD b func_35015_b (J)V
+	FIELD b field_35033_b Ldu;
+	FIELD c field_35034_c Ldu;

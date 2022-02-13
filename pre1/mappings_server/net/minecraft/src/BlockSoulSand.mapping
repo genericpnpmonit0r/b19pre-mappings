@@ -1,0 +1,3 @@
+CLASS lw net/minecraft/src/BlockSoulSand
+	METHOD a onEntityCollidedWithBlock (Lep;IIILpp;)V
+	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;

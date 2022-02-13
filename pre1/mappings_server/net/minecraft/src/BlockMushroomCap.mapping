@@ -1,0 +1,5 @@
+CLASS sl net/minecraft/src/BlockMushroomCap
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	FIELD a field_35069_a I

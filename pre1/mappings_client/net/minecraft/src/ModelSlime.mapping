@@ -1,7 +1,7 @@
 CLASS ym net/minecraft/src/ModelSlime
-	METHOD a setRotationAngles (FFFFFF)V
-	METHOD a render (Lle;FFFFFF)V
 	FIELD a slimeBodies Lnv;
 	FIELD b slimeRightEye Lnv;
 	FIELD c slimeLeftEye Lnv;
 	FIELD d slimeMouth Lnv;
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Lle;FFFFFF)V

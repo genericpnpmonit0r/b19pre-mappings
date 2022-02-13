@@ -1,0 +1,2 @@
+CLASS nu net/minecraft/src/ItemPiston
+	METHOD a getMetadata (I)I

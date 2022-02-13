@@ -1,4 +1,17 @@
 CLASS acg net/minecraft/src/EntityClientPlayerMP
+	FIELD ci sendQueue Lyh;
+	FIELD cj inventoryUpdateTickCounter I
+	FIELD ck field_21093_bH Z
+	FIELD cl oldPosX D
+	FIELD cm field_9378_bz D
+	FIELD cn oldPosY D
+	FIELD co oldPosZ D
+	FIELD cp oldRotationYaw F
+	FIELD cq oldRotationPitch F
+	FIELD cr field_9382_bF Z
+	FIELD cs field_35227_cs Z
+	FIELD ct wasSneaking Z
+	FIELD cu field_12242_bI I
 	METHOD T closeScreen ()V
 	METHOD V respawnPlayer ()V
 	METHOD a addStat (Ladw;I)V
@@ -14,16 +27,3 @@ CLASS acg net/minecraft/src/EntityClientPlayerMP
 	METHOD b damageEntity (Ljz;I)V
 	METHOD f heal (I)V
 	METHOD w_ onUpdate ()V
-	FIELD ci sendQueue Lyh;
-	FIELD cj inventoryUpdateTickCounter I
-	FIELD ck field_21093_bH Z
-	FIELD cl oldPosX D
-	FIELD cm field_9378_bz D
-	FIELD cn oldPosY D
-	FIELD co oldPosZ D
-	FIELD cp oldRotationYaw F
-	FIELD cq oldRotationPitch F
-	FIELD cr field_9382_bF Z
-	FIELD cs field_35227_cs Z
-	FIELD ct wasSneaking Z
-	FIELD cu field_12242_bI I

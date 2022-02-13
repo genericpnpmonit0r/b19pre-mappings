@@ -1,0 +1,6 @@
+CLASS or net/minecraft/src/BlockWeb
+	METHOD a isOpaqueCube ()Z
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a onEntityCollidedWithBlock (Lep;IIILpp;)V
+	METHOD b isACube ()Z
+	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;

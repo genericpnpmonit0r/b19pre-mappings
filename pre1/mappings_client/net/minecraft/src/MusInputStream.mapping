@@ -3,3 +3,12 @@ CLASS yn net/minecraft/src/MusInputStream
 	FIELD b codec Lvm;
 	FIELD c hash I
 	FIELD d inputStream Ljava/io/InputStream;
+	METHOD <init> (Lvm;Ljava/net/URL;Ljava/io/InputStream;)V
+		ARG 1 codec
+		ARG 2 url
+		ARG 3 inputStream
+	METHOD read ()I
+	METHOD read ([BII)I
+		ARG 1 fileContents
+		ARG 2 size
+		ARG 3 i

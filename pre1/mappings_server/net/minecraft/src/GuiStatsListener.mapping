@@ -1,0 +1,2 @@
+CLASS ka net/minecraft/src/GuiStatsListener
+	FIELD a statsComponent Ljj;

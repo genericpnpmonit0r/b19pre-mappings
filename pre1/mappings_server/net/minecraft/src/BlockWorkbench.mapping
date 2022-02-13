@@ -1,0 +1,3 @@
+CLASS ev net/minecraft/src/BlockWorkbench
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a blockActivated (Lep;IIILga;)Z

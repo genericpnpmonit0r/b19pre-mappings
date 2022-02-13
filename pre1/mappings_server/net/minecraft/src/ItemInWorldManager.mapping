@@ -1,0 +1,27 @@
+CLASS rl net/minecraft/src/ItemInWorldManager
+	METHOD a func_35697_a ()I
+	METHOD a func_35696_a (I)V
+	METHOD a blockRemoving (III)V
+	METHOD a blockClicked (IIII)V
+	METHOD a func_35694_a (Lew;)V
+	METHOD a itemUsed (Lga;Lep;Lhz;)Z
+	METHOD a activeBlockOrUseItem (Lga;Lep;Lhz;IIII)Z
+	METHOD b func_35698_b ()Z
+	METHOD b func_35695_b (I)V
+	METHOD b removeBlock (III)Z
+	METHOD c func_328_a ()V
+	METHOD c blockHarvessted (III)Z
+	FIELD a thisWorld Lep;
+	FIELD b thisPlayer Lga;
+	FIELD c field_35699_c I
+	FIELD d field_672_d F
+	FIELD e field_22055_d I
+	FIELD f curBlockX I
+	FIELD g curBlockY I
+	FIELD h curBlockZ I
+	FIELD i field_22051_j I
+	FIELD j field_22050_k Z
+	FIELD k field_22049_l I
+	FIELD l field_22048_m I
+	FIELD m field_22047_n I
+	FIELD n field_22046_o I

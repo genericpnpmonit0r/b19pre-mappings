@@ -1,4 +1,6 @@
 CLASS qv net/minecraft/src/BlockLeaves
+	FIELD b adjacentTreeBlocks [I
+	FIELD c baseIndexInPNG I
 	METHOD a isOpaqueCube ()Z
 	METHOD a getBlockTextureFromSideAndMetadata (II)I
 	METHOD a idDropped (ILjava/util/Random;)I
@@ -13,5 +15,3 @@ CLASS qv net/minecraft/src/BlockLeaves
 	METHOD c getRenderColor (I)I
 	METHOD h removeLeaves (Ltd;III)V
 	METHOD i getBlockColor ()I
-	FIELD b adjacentTreeBlocks [I
-	FIELD c baseIndexInPNG I

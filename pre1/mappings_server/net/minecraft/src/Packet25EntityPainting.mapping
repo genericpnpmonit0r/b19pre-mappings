@@ -1,0 +1,11 @@
+CLASS sr net/minecraft/src/Packet25EntityPainting
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lqf;)V
+	FIELD a entityId I
+	FIELD b xPosition I
+	FIELD c yPosition I
+	FIELD d zPosition I
+	FIELD e direction I
+	FIELD f title Ljava/lang/String;

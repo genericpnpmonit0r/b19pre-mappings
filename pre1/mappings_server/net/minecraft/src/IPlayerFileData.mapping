@@ -1,0 +1,3 @@
+CLASS hi net/minecraft/src/IPlayerFileData
+	METHOD a writePlayerData (Lga;)V
+	METHOD b readPlayerData (Lga;)V

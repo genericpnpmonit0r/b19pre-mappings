@@ -1,12 +1,12 @@
 CLASS rm net/minecraft/src/ModelVillager
-	METHOD a setRotationAngles (FFFFFF)V
-	METHOD a render (Lle;FFFFFF)V
-	FIELD a field_40340_a Lnv;
-	FIELD b field_40338_b Lnv;
-	FIELD c field_40339_c Lnv;
-	FIELD d field_40336_d Lnv;
-	FIELD e field_40337_e Lnv;
+	FIELD a head Lnv;
+	FIELD b body Lnv;
+	FIELD c arm Lnv;
+	FIELD d rightLeg Lnv;
+	FIELD e leftLeg Lnv;
 	FIELD f field_40334_f I
 	FIELD g field_40335_g I
 	FIELD k field_40341_n Z
 	FIELD l field_40342_o Z
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Lle;FFFFFF)V

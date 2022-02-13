@@ -1,4 +1,14 @@
 CLASS fu net/minecraft/src/TileEntityChest
+	FIELD a adjacentChestChecked Z
+	FIELD b adjacentChestZNeg Lfu;
+	FIELD c adjacentChestXPos Lfu;
+	FIELD d adjacentChestXNeg Lfu;
+	FIELD e adjacentChestZPosition Lfu;
+	FIELD f lidAngle F
+	FIELD g prevLidAngle F
+	FIELD h numUsingPlayers I
+	FIELD p chestContents [Lvw;
+	FIELD q ticksSinceSync I
 	METHOD a getSizeInventory ()I
 	METHOD a decrStackSize (II)Lvw;
 	METHOD a setInventorySlotContents (ILvw;)V
@@ -12,16 +22,6 @@ CLASS fu net/minecraft/src/TileEntityChest
 	METHOD e openChest ()V
 	METHOD e_ getStackInSlot (I)Lvw;
 	METHOD f closeChest ()V
-	METHOD g func_35147_g ()V
+	METHOD g checkAdjacentChests ()V
 	METHOD h invalidate ()V
 	METHOD k_ updateEntity ()V
-	FIELD a field_35155_a Z
-	FIELD b field_35152_b Lfu;
-	FIELD c field_35153_c Lfu;
-	FIELD d field_35150_d Lfu;
-	FIELD e field_35151_e Lfu;
-	FIELD f field_35148_f F
-	FIELD g field_35149_g F
-	FIELD h field_35156_h I
-	FIELD p chestContents [Lvw;
-	FIELD q field_35154_q I

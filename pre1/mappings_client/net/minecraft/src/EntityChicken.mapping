@@ -1,4 +1,11 @@
 CLASS oi net/minecraft/src/EntityChicken
+	FIELD a field_753_a Z
+	FIELD ap field_755_h F
+	FIELD aq timeUntilNextEgg I
+	FIELD b field_752_b F
+	FIELD c destPos F
+	FIELD d field_757_d F
+	FIELD e field_756_e F
 	METHOD a fall (F)V
 	METHOD a readEntityFromNBT (Lyr;)V
 	METHOD a dropFewItems (Z)V
@@ -8,10 +15,3 @@ CLASS oi net/minecraft/src/EntityChicken
 	METHOD e getHurtSound ()Ljava/lang/String;
 	METHOD f getDeathSound ()Ljava/lang/String;
 	METHOD g getDropItemId ()I
-	FIELD a field_753_a Z
-	FIELD ap field_755_h F
-	FIELD aq timeUntilNextEgg I
-	FIELD b field_752_b F
-	FIELD c destPos F
-	FIELD d field_757_d F
-	FIELD e field_756_e F

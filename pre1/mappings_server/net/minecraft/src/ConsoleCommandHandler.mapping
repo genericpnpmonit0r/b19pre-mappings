@@ -1,0 +1,8 @@
+CLASS qe net/minecraft/src/ConsoleCommandHandler
+	METHOD a handleCommand (Lap;)V
+	METHOD a tryParse (Ljava/lang/String;I)I
+	METHOD a sendNoticeToOps (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a handleWhitelist (Ljava/lang/String;Ljava/lang/String;Lqd;)V
+	METHOD a printHelp (Lqd;)V
+	FIELD a minecraftLogger Ljava/util/logging/Logger;
+	FIELD b minecraftServer Lnet/minecraft/server/MinecraftServer;

@@ -1,0 +1,10 @@
+CLASS nn net/minecraft/src/ItemSword
+	METHOD a onBlockDestroyed (Lhz;IIIILjz;)Z
+	METHOD a onItemRightClick (Lhz;Lep;Lga;)Lhz;
+	METHOD a hitEntity (Lhz;Ljz;Ljz;)Z
+	METHOD a getStrVsBlock (Lhz;Lrj;)F
+	METHOD a getDamageVsEntity (Lpp;)I
+	METHOD a canHarvestBlock (Lrj;)Z
+	METHOD b func_35406_b (Lhz;)Lic;
+	METHOD c func_35404_c (Lhz;)I
+	FIELD a weaponDamage I

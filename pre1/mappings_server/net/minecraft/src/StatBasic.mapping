@@ -1,0 +1,2 @@
+CLASS vc net/minecraft/src/StatBasic
+	METHOD d registerStat ()Lso;

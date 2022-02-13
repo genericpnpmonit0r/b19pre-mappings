@@ -1,6 +1,10 @@
 CLASS bn net/minecraft/src/ThreadedFileIOBase
-	METHOD a func_40566_a ()V
-	METHOD a func_40567_a (Ldv;)V
-	METHOD b func_40568_b ()V
-	FIELD a field_40573_a Lbn;
-	FIELD d field_40571_b Ljava/util/List;
+	FIELD a threadedIOInstance Lbn;
+	FIELD b threadedIOQueue Ljava/lang/Object;
+	FIELD c writeQueuedSet Ljava/util/Set;
+	FIELD d savedIOList Ljava/util/List;
+	FIELD e isThreadWaiting Z
+	METHOD a waitForFinish ()V
+	METHOD a queueIO (Ldv;)V
+		ARG 1 threadedFileio
+	METHOD b processQueue ()V

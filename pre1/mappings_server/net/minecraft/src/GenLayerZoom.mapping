@@ -1,0 +1,5 @@
+CLASS dq net/minecraft/src/GenLayerZoom
+	METHOD a func_35026_a (II)I
+	METHOD a func_35018_a (IIII)[I
+	METHOD a func_35025_a (JLdu;I)Ldu;
+	METHOD b func_35024_b (IIII)I

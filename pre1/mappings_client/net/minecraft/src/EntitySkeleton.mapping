@@ -1,4 +1,5 @@
 CLASS tm net/minecraft/src/EntitySkeleton
+	FIELD a defaultHeldItem Lvw;
 	METHOD S getHeldItem ()Lvw;
 	METHOD a onDeath (Ljz;)V
 	METHOD a attackEntityFrom (Ljz;I)Z
@@ -11,4 +12,3 @@ CLASS tm net/minecraft/src/EntitySkeleton
 	METHOD e getHurtSound ()Ljava/lang/String;
 	METHOD f getDeathSound ()Ljava/lang/String;
 	METHOD g getDropItemId ()I
-	FIELD a defaultHeldItem Lvw;

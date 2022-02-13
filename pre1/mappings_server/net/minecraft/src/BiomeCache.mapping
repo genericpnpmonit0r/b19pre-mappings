@@ -1,0 +1,10 @@
+CLASS rw net/minecraft/src/BiomeCache
+	METHOD a func_35681_a ()V
+	METHOD a func_35680_c (II)Lra;
+	METHOD a func_35679_a (Lrw;)Lut;
+	METHOD b func_35683_a (II)Liz;
+	METHOD d func_35682_b (II)[Liz;
+	FIELD a field_35687_a Lut;
+	FIELD b field_35685_b J
+	FIELD c field_35686_c Lff;
+	FIELD d field_35684_d Ljava/util/List;

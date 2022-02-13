@@ -1,0 +1,2 @@
+CLASS uj net/minecraft/src/NetworkReaderThread
+	FIELD a netManager Lmy;

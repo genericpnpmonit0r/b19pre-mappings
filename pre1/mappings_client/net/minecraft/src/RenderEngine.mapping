@@ -1,4 +1,17 @@
 CLASS wd net/minecraft/src/RenderEngine
+	FIELD a useMipmaps Z
+	FIELD b clampTexture Z
+	FIELD c blurTexture Z
+	FIELD d textureMap Ljava/util/HashMap;
+	FIELD e textureContentsMap Ljava/util/HashMap;
+	FIELD f textureNameToImageMap Lwo;
+	FIELD g singleIntBuffer Ljava/nio/IntBuffer;
+	FIELD h imageData Ljava/nio/ByteBuffer;
+	FIELD i textureList Ljava/util/List;
+	FIELD j urlToImageDataMap Ljava/util/Map;
+	FIELD k options Lgj;
+	FIELD l texturePack Lfd;
+	FIELD m missingTextureImage Ljava/awt/image/BufferedImage;
 	METHOD a updateDynamicTextures ()V
 	METHOD a deleteTexture (I)V
 	METHOD a allocateAndSetupTexture (Ljava/awt/image/BufferedImage;)I
@@ -17,16 +30,3 @@ CLASS wd net/minecraft/src/RenderEngine
 	METHOD b getTexture (Ljava/lang/String;)I
 	METHOD c unwrapImageByColumns (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
 	METHOD c releaseImageData (Ljava/lang/String;)V
-	FIELD a useMipmaps Z
-	FIELD b clampTexture Z
-	FIELD c blurTexture Z
-	FIELD d textureMap Ljava/util/HashMap;
-	FIELD e textureContentsMap Ljava/util/HashMap;
-	FIELD f textureNameToImageMap Lwo;
-	FIELD g singleIntBuffer Ljava/nio/IntBuffer;
-	FIELD h imageData Ljava/nio/ByteBuffer;
-	FIELD i textureList Ljava/util/List;
-	FIELD j urlToImageDataMap Ljava/util/Map;
-	FIELD k options Lgj;
-	FIELD l texturePack Lfd;
-	FIELD m missingTextureImage Ljava/awt/image/BufferedImage;

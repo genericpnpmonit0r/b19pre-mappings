@@ -6,5 +6,11 @@ CLASS aaa net/minecraft/src/IWorldAccess
 	METHOD a playRecord (Ljava/lang/String;III)V
 	METHOD a obtainEntitySkin (Lle;)V
 	METHOD a playAuxSFX (Lui;IIIII)V
+		ARG 1 player
+		ARG 2 id
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 vol
 	METHOD b markBlockRangeNeedsUpdate (IIIIII)V
 	METHOD b releaseEntitySkin (Lle;)V

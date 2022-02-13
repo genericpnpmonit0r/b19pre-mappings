@@ -1,0 +1,20 @@
+CLASS mw net/minecraft/src/BlockRail
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a onBlockAdded (Lep;III)V
+	METHOD a onNeighborBlockChange (Lep;IIII)V
+	METHOD a func_27032_a (Lep;IIIIZI)Z
+	METHOD a collisionRayTrace (Lep;IIILbo;Lbo;)Lrz;
+	METHOD a func_4038_g (Lep;IIIZ)V
+	METHOD a func_27031_a (Lep;IIIZII)Z
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a isPoweredBlockRail (Lmw;)Z
+	METHOD a setBlockBoundsBasedOnState (Lun;III)V
+	METHOD b isACube ()Z
+	METHOD c isRailBlock (I)Z
+	METHOD c canPlaceBlockAt (Lep;III)Z
+	METHOD e getMobilityFlag ()I
+	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;
+	METHOD f getIsPowered ()Z
+	METHOD g isRailBlockAt (Lep;III)Z
+	FIELD a isPowered Z

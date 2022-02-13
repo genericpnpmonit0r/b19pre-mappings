@@ -1,0 +1,4 @@
+CLASS kw net/minecraft/src/SaveOldDir
+	METHOD a saveWorldInfoAndPlayer (Ldx;Ljava/util/List;)V
+	METHOD a getChunkLoader (Luc;)Laz;
+	METHOD e func_22093_e ()V

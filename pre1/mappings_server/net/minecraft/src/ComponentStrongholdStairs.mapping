@@ -1,0 +1,6 @@
+CLASS hg net/minecraft/src/ComponentStrongholdStairs
+	METHOD a func_35310_a (Lep;Ljava/util/Random;Lst;)Z
+	METHOD a func_35308_a (Liv;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a func_35325_a (Ljava/util/List;Ljava/util/Random;IIIII)Lhg;
+	FIELD a field_35327_a Z
+	FIELD b field_35326_b Lnw;

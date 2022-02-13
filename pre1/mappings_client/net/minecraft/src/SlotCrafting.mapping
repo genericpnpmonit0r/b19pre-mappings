@@ -1,5 +1,9 @@
 CLASS aga net/minecraft/src/SlotCrafting
-	METHOD a onPickupFromSlot (Lvw;)V
-	METHOD b isItemValid (Lvw;)Z
 	FIELD e craftMatrix Lha;
 	FIELD f thePlayer Lui;
+	METHOD <init> (Lui;Lha;Lha;III)V
+		ARG 1 player
+		ARG 2 craftingGrid
+		ARG 3 inventory
+	METHOD a onPickupFromSlot (Lvw;)V
+	METHOD b isItemValid (Lvw;)Z

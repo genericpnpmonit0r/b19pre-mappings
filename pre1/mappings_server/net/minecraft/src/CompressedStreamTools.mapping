@@ -1,0 +1,11 @@
+CLASS aq net/minecraft/src/CompressedStreamTools
+	METHOD a readDataInput (Ljava/io/DataInput;)Lls;
+		ARG 0 dataInput
+	METHOD a loadGzippedCompoundFromOutputStream (Ljava/io/InputStream;)Lls;
+		ARG 0 inputStream
+	METHOD a write (Lls;Ljava/io/DataOutput;)V
+		ARG 0 compoundTag
+		ARG 1 dataOutput
+	METHOD a writeGzippedCompoundToOutputStream (Lls;Ljava/io/OutputStream;)V
+		ARG 0 compoundTag
+		ARG 1 outputStream

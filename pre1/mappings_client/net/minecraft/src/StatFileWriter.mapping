@@ -1,4 +1,8 @@
 CLASS afa net/minecraft/src/StatFileWriter
+	FIELD a field_25102_a Ljava/util/Map;
+	FIELD b field_25101_b Ljava/util/Map;
+	FIELD c field_27189_c Z
+	FIELD d statsSyncher Lrn;
 	METHOD a func_27176_a ()Ljava/util/Map;
 	METHOD a writeStat (Ladw;)I
 	METHOD a readStat (Ladw;I)V
@@ -13,7 +17,3 @@ CLASS afa net/minecraft/src/StatFileWriter
 	METHOD c syncStats ()V
 	METHOD c func_27187_c (Ljava/util/Map;)V
 	METHOD d func_27178_d ()V
-	FIELD a field_25102_a Ljava/util/Map;
-	FIELD b field_25101_b Ljava/util/Map;
-	FIELD c field_27189_c Z
-	FIELD d statsSyncher Lrn;

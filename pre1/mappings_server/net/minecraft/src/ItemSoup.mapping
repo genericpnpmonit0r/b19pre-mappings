@@ -1,0 +1,2 @@
+CLASS bu net/minecraft/src/ItemSoup
+	METHOD b func_35405_b (Lhz;Lep;Lga;)Lhz;

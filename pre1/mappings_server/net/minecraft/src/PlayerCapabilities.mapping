@@ -1,0 +1,5 @@
+CLASS tl net/minecraft/src/PlayerCapabilities
+	FIELD a disableDamage Z
+	FIELD b field_35658_b Z
+	FIELD c allowFlying Z
+	FIELD d field_35657_d Z

@@ -1,0 +1,9 @@
+CLASS pt net/minecraft/src/NBTTagList
+	METHOD a getType ()B
+	METHOD a tagAt (I)Lhk;
+	METHOD a setTag (Lhk;)V
+	METHOD a readTagContents (Ljava/io/DataInput;)V
+	METHOD a writeTagContents (Ljava/io/DataOutput;)V
+	METHOD c tagCount ()I
+	FIELD a tagList Ljava/util/List;
+	FIELD b tagType B

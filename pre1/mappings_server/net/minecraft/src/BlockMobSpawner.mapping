@@ -1,0 +1,5 @@
+CLASS ct net/minecraft/src/BlockMobSpawner
+	METHOD a isOpaqueCube ()Z
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a_ getBlockEntity ()Lms;

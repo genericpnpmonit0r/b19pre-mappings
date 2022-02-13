@@ -1,0 +1,4 @@
+CLASS nd net/minecraft/src/MapGenCavesHell
+	METHOD a generateLargeCaveNode (II[BDDD)V
+	METHOD a generateCaveNode (II[BDDDFFFIID)V
+	METHOD a recursiveGenerate (Lep;IIII[B)V

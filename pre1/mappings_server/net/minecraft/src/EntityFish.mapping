@@ -1,0 +1,24 @@
+CLASS kf net/minecraft/src/EntityFish
+	METHOD a calculateVelocity (DDDFF)V
+	METHOD a readEntityFromNBT (Lls;)V
+	METHOD b entityInit ()V
+	METHOD b writeEntityToNBT (Lls;)V
+	METHOD i catchFish ()I
+	METHOD q_ onUpdate ()V
+	FIELD a shake I
+	FIELD b angler Lga;
+	FIELD c bobber Lpp;
+	FIELD d xTile I
+	FIELD e yTile I
+	FIELD f zTile I
+	FIELD g inTile I
+	FIELD h inGround Z
+	FIELD i ticksInGround I
+	FIELD j ticksInAir I
+	FIELD k ticksCatchable I
+	FIELD l field_6149_an I
+	FIELD m field_6148_ao D
+	FIELD n field_6147_ap D
+	FIELD o field_6146_aq D
+	FIELD p field_6145_ar D
+	FIELD q field_6144_as D

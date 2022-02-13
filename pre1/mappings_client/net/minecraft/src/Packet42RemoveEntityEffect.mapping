@@ -1,7 +1,7 @@
 CLASS yk net/minecraft/src/Packet42RemoveEntityEffect
+	FIELD a entityId I
+	FIELD b effectId B
 	METHOD a getPacketSize ()I
 	METHOD a readPacketData (Ljava/io/DataInputStream;)V
 	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
 	METHOD a processPacket (Llt;)V
-	FIELD a entityId I
-	FIELD b effectId B

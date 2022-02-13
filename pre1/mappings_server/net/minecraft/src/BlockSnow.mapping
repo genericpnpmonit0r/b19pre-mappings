@@ -1,0 +1,12 @@
+CLASS ip net/minecraft/src/BlockSnow
+	METHOD a isOpaqueCube ()Z
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a onNeighborBlockChange (Lep;IIII)V
+	METHOD a updateTick (Lep;IIILjava/util/Random;)V
+	METHOD a harvestBlock (Lep;Lga;IIII)V
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a setBlockBoundsBasedOnState (Lun;III)V
+	METHOD b isACube ()Z
+	METHOD c canPlaceBlockAt (Lep;III)Z
+	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;
+	METHOD g func_275_g (Lep;III)Z

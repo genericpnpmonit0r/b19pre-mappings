@@ -1,0 +1,4 @@
+CLASS gw net/minecraft/src/EntityDamageSourceIndirect
+	METHOD a func_35080_a ()Lpp;
+	METHOD a func_35075_a (Lga;)Ljava/lang/String;
+	FIELD n field_35102_n Lpp;

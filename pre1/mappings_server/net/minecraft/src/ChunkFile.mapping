@@ -1,0 +1,8 @@
+CLASS do net/minecraft/src/ChunkFile
+	METHOD a getChunkFile ()Ljava/io/File;
+	METHOD a compareChunks (Ldo;)I
+	METHOD b getXChunk ()I
+	METHOD c getYChunk ()I
+	FIELD a chunkFile Ljava/io/File;
+	FIELD b xChunk I
+	FIELD c yChunk I

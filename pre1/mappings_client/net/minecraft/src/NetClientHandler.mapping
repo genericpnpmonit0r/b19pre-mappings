@@ -1,7 +1,7 @@
 CLASS yh net/minecraft/src/NetClientHandler
 	FIELD a field_1209_a Ljava/lang/String;
 	FIELD b mapStorage Lum;
-	FIELD c field_35786_c Ljava/util/List;
+	FIELD c savingLevelStringList Ljava/util/List;
 	FIELD d field_35785_d I
 	FIELD e rand Ljava/util/Random;
 	FIELD f disconnected Z
@@ -9,7 +9,7 @@ CLASS yh net/minecraft/src/NetClientHandler
 	FIELD h mc Lnet/minecraft/client/Minecraft;
 	FIELD i worldClient Lhn;
 	FIELD j field_1210_g Z
-	FIELD k field_35787_k Ljava/util/Map;
+	FIELD k playerInfoMap Ljava/util/Map;
 	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
 		ARG 1 minecraft
 		ARG 2 socketInetAddr

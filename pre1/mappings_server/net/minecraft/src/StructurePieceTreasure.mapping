@@ -1,0 +1,5 @@
+CLASS hc net/minecraft/src/StructurePieceTreasure
+	FIELD a field_35489_a I
+	FIELD b field_35487_b I
+	FIELD c field_35488_c I
+	FIELD e field_35486_e I

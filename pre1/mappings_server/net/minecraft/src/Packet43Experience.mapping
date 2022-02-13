@@ -1,0 +1,8 @@
+CLASS js net/minecraft/src/Packet43Experience
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lqf;)V
+	FIELD a field_35136_a I
+	FIELD b field_35134_b I
+	FIELD c field_35135_c I

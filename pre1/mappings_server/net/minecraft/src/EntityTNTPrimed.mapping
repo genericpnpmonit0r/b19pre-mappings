@@ -1,0 +1,9 @@
+CLASS oc net/minecraft/src/EntityTNTPrimed
+	METHOD a readEntityFromNBT (Lls;)V
+	METHOD b entityInit ()V
+	METHOD b writeEntityToNBT (Lls;)V
+	METHOD c_ canBeCollidedWith ()Z
+	METHOD e_ canTriggerWalking ()Z
+	METHOD i explode ()V
+	METHOD q_ onUpdate ()V
+	FIELD a fuse I

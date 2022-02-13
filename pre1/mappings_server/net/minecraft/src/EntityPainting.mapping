@@ -1,0 +1,18 @@
+CLASS oa net/minecraft/src/EntityPainting
+	METHOD a readEntityFromNBT (Lls;)V
+	METHOD a attackEntityFrom (Lns;I)Z
+	METHOD a_ moveEntity (DDD)V
+	METHOD b entityInit ()V
+	METHOD b addVelocity (DDD)V
+	METHOD b func_179_a (I)V
+	METHOD b writeEntityToNBT (Lls;)V
+	METHOD c func_180_c (I)F
+	METHOD c_ canBeCollidedWith ()Z
+	METHOD i onValidSurface ()Z
+	METHOD q_ onUpdate ()V
+	FIELD a direction I
+	FIELD b xPosition I
+	FIELD c yPosition I
+	FIELD d zPosition I
+	FIELD e art Lhr;
+	FIELD f tickCounter1 I

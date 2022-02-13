@@ -1,6 +1,6 @@
 CLASS pr net/minecraft/src/J_ChainedFunctor
+	FIELD a parentJsonNodeSelector Lwl;
+	FIELD b childJsonNodeSelector Lwl;
 	METHOD a shortForm ()Ljava/lang/String;
 	METHOD a applyTo (Ljava/lang/Object;)Ljava/lang/Object;
 	METHOD c matchsNode (Ljava/lang/Object;)Z
-	FIELD a parentJsonNodeSelector Lwl;
-	FIELD b childJsonNodeSelector Lwl;

@@ -1,0 +1,2 @@
+CLASS ci net/minecraft/src/ThreadServerApplication
+	FIELD a mcServer Lnet/minecraft/server/MinecraftServer;

@@ -1,0 +1,10 @@
+CLASS ei net/minecraft/src/ChunkCache
+	METHOD a getBlockId (III)I
+	METHOD b getBlockTileEntity (III)Lms;
+	METHOD c getBlockMetadata (III)I
+	METHOD d getBlockMaterial (III)Ljw;
+	METHOD e isBlockNormalCube (III)Z
+	FIELD a chunkX I
+	FIELD b chunkZ I
+	FIELD c chunkArray [[Ljv;
+	FIELD d worldObj Lep;

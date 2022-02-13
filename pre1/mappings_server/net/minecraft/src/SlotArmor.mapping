@@ -1,0 +1,5 @@
+CLASS nh net/minecraft/src/SlotArmor
+	METHOD b isItemValid (Lhz;)Z
+	METHOD d getSlotStackLimit ()I
+	FIELD e armorType I
+	FIELD f inventory Lu;

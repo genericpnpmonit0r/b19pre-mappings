@@ -1,1 +1,6 @@
-CLASS cq net/minecraft/src/ModelCow
+CLASS uq net/minecraft/src/ModelCow
+	FIELD a udders Lnv;
+	FIELD k horn1 Lnv;
+	FIELD l horn2 Lnv;
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Lle;FFFFFF)V

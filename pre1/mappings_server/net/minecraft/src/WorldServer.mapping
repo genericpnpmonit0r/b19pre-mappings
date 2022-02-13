@@ -1,0 +1,20 @@
+CLASS ew net/minecraft/src/WorldServer
+	METHOD a func_6158_a (I)Lpp;
+	METHOD a canMineBlock (Lga;III)Z
+	METHOD a addLightningBolt (Lpp;)Z
+	METHOD a sendTrackedEntityStatusUpdatePacket (Lpp;B)V
+	METHOD a newExplosion (Lpp;DDDFZ)Lob;
+	METHOD a updateEntityWithOptionalForce (Lpp;Z)V
+	METHOD b createChunkProvider ()Lcc;
+	METHOD b func_12017_b (Lpp;Z)V
+	METHOD c obtainEntitySkin (Lpp;)V
+	METHOD d playNoteAt (IIIII)V
+	METHOD d getTileEntityList (IIIIII)Ljava/util/List;
+	METHOD d releaseEntitySkin (Lpp;)V
+	METHOD h updateWeather ()V
+	METHOD w func_30006_w ()V
+	FIELD M chunkProviderServer Ljq;
+	FIELD N field_819_z Z
+	FIELD O levelSaving Z
+	FIELD P mcServer Lnet/minecraft/server/MinecraftServer;
+	FIELD Q field_34902_Q Liu;

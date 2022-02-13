@@ -2,3 +2,7 @@ CLASS ve net/minecraft/src/RegionFileChunkBuffer
 	FIELD a regionFile Ljw;
 	FIELD b chunkX I
 	FIELD c chunkZ I
+	METHOD <init> (Ljw;II)V
+		ARG 1 regionFile
+		ARG 2 x
+		ARG 3 z

@@ -1,0 +1,2 @@
+CLASS ui net/minecraft/src/ThreadMonitorConnection
+	FIELD a netManager Lmy;

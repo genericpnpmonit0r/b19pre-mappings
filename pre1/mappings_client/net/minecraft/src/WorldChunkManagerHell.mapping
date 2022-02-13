@@ -1,4 +1,11 @@
 CLASS em net/minecraft/src/WorldChunkManagerHell
+	FIELD c biomeBase Lwt;
+	FIELD d hellTemperature F
+	FIELD e hellHumidity F
+	METHOD <init> (Lwt;FF)V
+		ARG 1 base
+		ARG 2 temp
+		ARG 3 humidity
 	METHOD a getBiomeGenAt (II)Lwt;
 	METHOD a func_4069_a (IIII)[Lwt;
 	METHOD a areBiomesViable (IIILjava/util/List;)Z
@@ -10,6 +17,3 @@ CLASS em net/minecraft/src/WorldChunkManagerHell
 	METHOD b func_35558_c (II)F
 	METHOD b func_40539_b (IIII)[F
 	METHOD b getRainfall ([FIIII)[F
-	FIELD c field_4201_e Lwt;
-	FIELD d hellTemperature F
-	FIELD e field_4199_g F

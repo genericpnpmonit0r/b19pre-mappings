@@ -1,0 +1,2 @@
+CLASS ot net/minecraft/src/ChunkFilePattern
+	FIELD a dataFilenamePattern Ljava/util/regex/Pattern;

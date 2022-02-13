@@ -1,0 +1,6 @@
+CLASS un net/minecraft/src/IBlockAccess
+	METHOD a getBlockId (III)I
+	METHOD b getBlockTileEntity (III)Lms;
+	METHOD c getBlockMetadata (III)I
+	METHOD d getBlockMaterial (III)Ljw;
+	METHOD e isBlockNormalCube (III)Z

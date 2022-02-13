@@ -1,10 +1,4 @@
 CLASS adw net/minecraft/src/StatBase
-	METHOD a registerStat ()Ladw;
-	METHOD a func_27084_a (I)Ljava/lang/String;
-	METHOD e isAchievement ()Z
-	METHOD h initIndependentStat ()Ladw;
-	METHOD i getNumberFormat ()Ljava/text/NumberFormat;
-	METHOD j getDecimalFormat ()Ljava/text/DecimalFormat;
 	FIELD a type Lnz;
 	FIELD b numberFormat Ljava/text/NumberFormat;
 	FIELD c decimalFormat Ljava/text/DecimalFormat;
@@ -15,3 +9,17 @@ CLASS adw net/minecraft/src/StatBase
 	FIELD i simpleStatType Lnz;
 	FIELD j timeStatType Lnz;
 	FIELD k distanceStatType Lnz;
+	METHOD <init> (ILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 name
+	METHOD <init> (ILjava/lang/String;Lnz;)V
+		ARG 1 id
+		ARG 2 name
+		ARG 3 type
+	METHOD a registerStat ()Ladw;
+	METHOD a formatStat (I)Ljava/lang/String;
+		ARG 1 formatStr
+	METHOD e isAchievement ()Z
+	METHOD h initIndependentStat ()Ladw;
+	METHOD i getNumberFormat ()Ljava/text/NumberFormat;
+	METHOD j getDecimalFormat ()Ljava/text/DecimalFormat;

@@ -1,0 +1,7 @@
+CLASS mc net/minecraft/src/Packet200Statistic
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lqf;)V
+	FIELD a statisticId I
+	FIELD b amount I

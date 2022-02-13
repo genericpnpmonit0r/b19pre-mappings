@@ -1,2 +1,5 @@
 CLASS oo net/minecraft/src/NetworkReaderThread
 	FIELD a netManager Lji;
+	METHOD <init> (Lji;Ljava/lang/String;)V
+		ARG 1 networkManager
+		ARG 2 name

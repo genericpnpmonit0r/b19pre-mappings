@@ -1,0 +1,9 @@
+CLASS bh net/minecraft/src/ContainerFurnace
+	METHOD a updateCraftingResults ()V
+	METHOD a getStackInSlot (I)Lhz;
+	METHOD a onCraftGuiOpened (Lds;)V
+	METHOD b canInteractWith (Lga;)Z
+	FIELD a furnace Lpl;
+	FIELD b lastCookTime I
+	FIELD c lastBurnTime I
+	FIELD h lastItemBurnTime I

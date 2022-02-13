@@ -1,0 +1,12 @@
+CLASS ob net/minecraft/src/Explosion
+	METHOD a doExplosionA ()V
+	METHOD a doExplosionB (Z)V
+	FIELD a isFlaming Z
+	FIELD b explosionX D
+	FIELD c explosionY D
+	FIELD d explosionZ D
+	FIELD e exploder Lpp;
+	FIELD f explosionSize F
+	FIELD g destroyedBlockPositions Ljava/util/Set;
+	FIELD h ExplosionRNG Ljava/util/Random;
+	FIELD i worldObj Lep;

@@ -1,0 +1,2 @@
+CLASS rx net/minecraft/src/ItemBoat
+	METHOD a onItemRightClick (Lhz;Lep;Lga;)Lhz;

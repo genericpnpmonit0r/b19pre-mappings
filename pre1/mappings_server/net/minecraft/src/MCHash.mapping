@@ -1,0 +1,20 @@
+CLASS iu net/minecraft/src/MCHash
+	METHOD a clearMap ()V
+	METHOD a lookup (I)Ljava/lang/Object;
+	METHOD a getSlotIndex (II)I
+	METHOD a insert (IILjava/lang/Object;I)V
+	METHOD a addKey (ILjava/lang/Object;)V
+	METHOD a copyTo ([Ltn;)V
+	METHOD b containsItem (I)Z
+	METHOD c lookupEntry (I)Ltn;
+	METHOD d removeObject (I)Ljava/lang/Object;
+	METHOD e removeEntry (I)Ltn;
+	METHOD f getHash (I)I
+	METHOD g computeHash (I)I
+	METHOD h grow (I)V
+	FIELD a slots [Ltn;
+	FIELD b count I
+	FIELD c threshold I
+	FIELD d growFactor F
+	FIELD e versionStamp I
+	FIELD f field_35619_f Ljava/util/Set;

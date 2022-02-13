@@ -1,8 +1,8 @@
 CLASS lh net/minecraft/src/Frustrum
-	METHOD a setPosition (DDD)V
-	METHOD a isBoxInFrustum (DDDDDD)Z
-	METHOD a isBoundingBoxInFrustum (Lsw;)Z
 	FIELD a clippingHelper Lsf;
 	FIELD b xPosition D
 	FIELD c yPosition D
 	FIELD d zPosition D
+	METHOD a setPosition (DDD)V
+	METHOD a isBoxInFrustum (DDDDDD)Z
+	METHOD a isBoundingBoxInFrustum (Lsw;)Z

@@ -1,0 +1,9 @@
+CLASS ac net/minecraft/src/BlockTNT
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a onBlockAdded (Lep;III)V
+	METHOD a onNeighborBlockChange (Lep;IIII)V
+	METHOD a blockActivated (Lep;IIILga;)Z
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a_ onBlockDestroyedByExplosion (Lep;III)V
+	METHOD b onBlockClicked (Lep;IIILga;)V
+	METHOD c onBlockDestroyedByPlayer (Lep;IIII)V

@@ -1,11 +1,15 @@
 CLASS acl net/minecraft/src/SaveFormatOld
+	FIELD a savesDirectory Ljava/io/File;
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 file
 	METHOD a func_22178_a ()Ljava/lang/String;
 	METHOD a isOldMapFormat (Ljava/lang/String;)Z
 	METHOD a renameWorld (Ljava/lang/String;Ljava/lang/String;)V
 	METHOD a convertMapFormat (Ljava/lang/String;Loz;)Z
 	METHOD a getSaveLoader (Ljava/lang/String;Z)Laen;
+	METHOD a deleteOldFiles ([Ljava/io/File;)V
+		ARG 0 files
 	METHOD b getSaveList ()Ljava/util/List;
 	METHOD b getWorldInfo (Ljava/lang/String;)Lss;
 	METHOD c flushCache ()V
 	METHOD c deleteWorldDirectory (Ljava/lang/String;)V
-	FIELD a savesDirectory Ljava/io/File;

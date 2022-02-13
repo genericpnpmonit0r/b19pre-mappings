@@ -1,0 +1,4 @@
+CLASS be net/minecraft/src/SpawnListEntry
+	FIELD a entityClass Ljava/lang/Class;
+	FIELD b field_35484_b I
+	FIELD c field_35485_c I

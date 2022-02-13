@@ -149,7 +149,6 @@ CLASS net/minecraft/client/Minecraft
 	METHOD p func_6262_n ()Ljava/lang/String;
 	METHOD q func_21002_o ()Ljava/lang/String;
 	METHOD r debugInfoEntities ()Ljava/lang/String;
-	METHOD run ()V
 	METHOD s getSendQueue ()Lyh;
 	METHOD t isGuiEnabled ()Z
 	METHOD u isFancyGraphicsEnabled ()Z

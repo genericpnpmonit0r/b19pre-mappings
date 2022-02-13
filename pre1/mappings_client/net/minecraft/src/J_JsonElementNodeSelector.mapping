@@ -1,7 +1,7 @@
 CLASS aam net/minecraft/src/J_JsonElementNodeSelector
+	FIELD a index I
 	METHOD a shortForm ()Ljava/lang/String;
 	METHOD a matchsNode_ (Ljava/util/List;)Z
 	METHOD b typeSafeApplyTo (Ljava/lang/Object;)Ljava/lang/Object;
 	METHOD b typeSafeApplyTo_ (Ljava/util/List;)Led;
 	METHOD c matchsNode (Ljava/lang/Object;)Z
-	FIELD a index I

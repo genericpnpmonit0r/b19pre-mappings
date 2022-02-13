@@ -1,0 +1,21 @@
+CLASS in net/minecraft/src/BlockPistonBase
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a canPushBlock (ILep;IIIZ)Z
+	METHOD a onBlockAdded (Lep;III)V
+	METHOD a onNeighborBlockChange (Lep;IIII)V
+	METHOD a playBlock (Lep;IIIII)V
+	METHOD a getCollidingBoundingBoxes (Lep;IIILed;Ljava/util/ArrayList;)V
+	METHOD a blockActivated (Lep;IIILga;)Z
+	METHOD a onBlockPlacedBy (Lep;IIILjz;)V
+	METHOD a setBlockBoundsBasedOnState (Lun;III)V
+	METHOD b isACube ()Z
+	METHOD c getOrientation (I)I
+	METHOD c determineOrientation (Lep;IIILga;)I
+	METHOD d isExtended (I)Z
+	METHOD f isIndirectlyPowered (Lep;IIII)Z
+	METHOD g updatePistonState (Lep;III)V
+	METHOD h canExtend (Lep;IIII)Z
+	METHOD i tryExtend (Lep;IIII)Z
+	FIELD a isSticky Z
+	FIELD b ignoreUpdates Z

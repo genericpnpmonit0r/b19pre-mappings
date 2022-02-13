@@ -1,18 +1,49 @@
 CLASS ai net/minecraft/src/J_SajParser
-	METHOD a func_27463_a (Ljava/io/Reader;Laei;)V
+	COMMENT Converts a character stream into calls to a <code>JsonListener</code>.
+	COMMENT <p/>
+	COMMENT Instances of <code>SajParser</code> are threadsafe in that concurrent calls to <code>parse</code> are safe, provided
+	COMMENT each call is made with a different <code>Reader</code> and a different <code>JsonListener</code>.
+	COMMENT
+	COMMENT @see J_JsonListener
+	METHOD a parse (Ljava/io/Reader;Laei;)V
+		COMMENT Parses the given character stream into calls to the given JsonListener.
+		ARG 1 in
+			COMMENT the character stream to parse
+		ARG 2 jsonListener
+			COMMENT the JsonListener to notify of parsing events
 	METHOD a numberToken (Lxh;)Ljava/lang/String;
+		ARG 1 pushbackReader
 	METHOD a arrayString (Lxh;Laei;)V
+		ARG 1 pushbackReader
+		ARG 2 jsonListener
 	METHOD b nonNegativeNumberToken (Lxh;)Ljava/lang/String;
+		ARG 1 pushbackReader
 	METHOD b objectString (Lxh;Laei;)V
+		ARG 1 pushbackReader
+		ARG 2 jsonListener
 	METHOD c nonZeroDigitToken (Lxh;)C
+		ARG 1 pushbackReader
 	METHOD c aFieldToken (Lxh;Laei;)V
+		ARG 1 pushbackReader
+		ARG 2 jsonListener
 	METHOD d digitToken (Lxh;)C
+		ARG 1 pushbackReader
 	METHOD d aJsonValue (Lxh;Laei;)V
+		ARG 1 pushbackReader
+		ARG 2 jsonListener
 	METHOD e digitString (Lxh;)Ljava/lang/String;
+		ARG 1 pushbackReader
 	METHOD f possibleFractionalComponent (Lxh;)Ljava/lang/String;
+		ARG 1 pushbackReader
 	METHOD g possibleExponent (Lxh;)Ljava/lang/String;
+		ARG 1 pushbackReader
 	METHOD h possibleSign (Lxh;)Ljava/lang/String;
-	METHOD i func_27452_i (Lxh;)Ljava/lang/String;
+		ARG 1 pushbackReader
+	METHOD i stringToken (Lxh;)Ljava/lang/String;
+		ARG 1 pushbackReader
 	METHOD j escapedStringChar (Lxh;)C
+		ARG 1 pushbackReader
 	METHOD k hexadecimalNumber (Lxh;)I
+		ARG 1 pushbackReader
 	METHOD l readNextNonWhitespaceChar (Lxh;)I
+		ARG 1 pushbackReader

@@ -4,4 +4,3 @@ CLASS wg net/minecraft/src/EnumOS
 	FIELD c windows Lwg;
 	FIELD d macos Lwg;
 	FIELD e unknown Lwg;
-	METHOD values ()[Lwg;

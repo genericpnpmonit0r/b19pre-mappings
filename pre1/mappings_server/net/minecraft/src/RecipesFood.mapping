@@ -1,0 +1,2 @@
+CLASS ma net/minecraft/src/RecipesFood
+	METHOD a addRecipes (Lgs;)V

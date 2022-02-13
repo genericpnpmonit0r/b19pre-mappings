@@ -1,0 +1,10 @@
+CLASS ou net/minecraft/src/PropertyManager
+	METHOD a generateNewProperties ()V
+	METHOD a getIntProperty (Ljava/lang/String;I)I
+	METHOD a getStringProperty (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+	METHOD a getBooleanProperty (Ljava/lang/String;Z)Z
+	METHOD b saveProperties ()V
+	METHOD b setProperty (Ljava/lang/String;Z)V
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b serverProperties Ljava/util/Properties;
+	FIELD c serverPropertiesFile Ljava/io/File;

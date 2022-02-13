@@ -1,4 +1,8 @@
 CLASS abs net/minecraft/src/TileEntityFurnace
+	FIELD a furnaceBurnTime I
+	FIELD b currentItemBurnTime I
+	FIELD c furnaceCookTime I
+	FIELD d furnaceItemStacks [Lvw;
 	METHOD a getSizeInventory ()I
 	METHOD a decrStackSize (II)Lvw;
 	METHOD a setInventorySlotContents (ILvw;)V
@@ -17,7 +21,3 @@ CLASS abs net/minecraft/src/TileEntityFurnace
 	METHOD k_ updateEntity ()V
 	METHOD n smeltItem ()V
 	METHOD o canSmelt ()Z
-	FIELD a furnaceBurnTime I
-	FIELD b currentItemBurnTime I
-	FIELD c furnaceCookTime I
-	FIELD d furnaceItemStacks [Lvw;

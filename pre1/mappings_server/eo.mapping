@@ -1,0 +1,6 @@
+CLASS eo
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a onBlockAdded (Lep;III)V
+	METHOD a onBlockPlacedBy (Lep;IIILjz;)V
+	METHOD c canPlaceBlockAt (Lep;III)Z

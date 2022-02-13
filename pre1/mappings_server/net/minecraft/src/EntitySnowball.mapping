@@ -1,0 +1,16 @@
+CLASS bt net/minecraft/src/EntitySnowball
+	METHOD a setSnowballHeading (DDDFF)V
+	METHOD a readEntityFromNBT (Lls;)V
+	METHOD a_ onCollideWithPlayer (Lga;)V
+	METHOD b entityInit ()V
+	METHOD b writeEntityToNBT (Lls;)V
+	METHOD q_ onUpdate ()V
+	FIELD a shakeSnowball I
+	FIELD b xTileSnowball I
+	FIELD c yTileSnowball I
+	FIELD d zTileSnowball I
+	FIELD e inTileSnowball I
+	FIELD f inGroundSnowball Z
+	FIELD g shootingEntity Ljz;
+	FIELD h ticksOnGround I
+	FIELD i ticksInAir I

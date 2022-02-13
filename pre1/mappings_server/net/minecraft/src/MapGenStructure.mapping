@@ -1,0 +1,7 @@
+CLASS oq net/minecraft/src/MapGenStructure
+	METHOD a func_35531_a (II)Z
+	METHOD a generate (Lcc;Lep;II[B)V
+	METHOD a recursiveGenerate (Lep;IIII[B)V
+	METHOD a func_35532_a (Lep;Ljava/util/Random;II)Z
+	METHOD b func_35533_b (II)Lro;
+	FIELD e field_35534_e Ljava/util/HashMap;

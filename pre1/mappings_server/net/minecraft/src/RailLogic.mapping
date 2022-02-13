@@ -1,0 +1,20 @@
+CLASS sj net/minecraft/src/RailLogic
+	METHOD a func_591_b ()V
+	METHOD a setConnections (I)V
+	METHOD a isMinecartTrack (III)Z
+	METHOD a getNAdjacentTracks (Lsj;)I
+	METHOD a getMinecartTrackLogic (Ltf;)Lsj;
+	METHOD a func_596_a (ZZ)V
+	METHOD b getAdjacentTracks ()I
+	METHOD b isInTrack (III)Z
+	METHOD b isConnectedTo (Lsj;)Z
+	METHOD c func_592_c (III)Z
+	METHOD c handleKeyPress (Lsj;)Z
+	METHOD d func_598_d (Lsj;)V
+	FIELD a rail Lmw;
+	FIELD b worldObj Lep;
+	FIELD c trackX I
+	FIELD d trackY I
+	FIELD e trackZ I
+	FIELD f isPoweredRail Z
+	FIELD g connectedTracks Ljava/util/List;

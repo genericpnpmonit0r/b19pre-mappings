@@ -1,0 +1,3 @@
+CLASS cf net/minecraft/src/ItemMapBase
+	METHOD c func_28022_b (Lhz;Lep;Lga;)Ljc;
+	METHOD i_ func_28019_b ()Z

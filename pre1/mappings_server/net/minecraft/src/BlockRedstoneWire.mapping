@@ -1,0 +1,20 @@
+CLASS po net/minecraft/src/BlockRedstoneWire
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a onBlockAdded (Lep;III)V
+	METHOD a onNeighborBlockChange (Lep;IIII)V
+	METHOD a calculateCurrentChanges (Lep;IIIIII)V
+	METHOD a isPoweringTo (Lun;IIII)Z
+	METHOD b isACube ()Z
+	METHOD c canPlaceBlockAt (Lep;III)Z
+	METHOD c isPowerProviderOrWire (Lun;IIII)Z
+	METHOD d canProvidePower ()Z
+	METHOD d onBlockRemoval (Lep;III)V
+	METHOD d isIndirectlyPoweringTo (Lep;IIII)Z
+	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;
+	METHOD f getMaxCurrentStrength (Lep;IIII)I
+	METHOD g updateAndPropagateCurrentStrength (Lep;III)V
+	METHOD h notifyWireNeighborsOfNeighborChange (Lep;III)V
+	FIELD a wiresProvidePower Z
+	FIELD b blocksNeedingUpdate Ljava/util/Set;

@@ -1,0 +1,8 @@
+CLASS bb net/minecraft/src/EntityAnimal
+	METHOD a getBlockPathWeight (III)F
+	METHOD a readEntityFromNBT (Lls;)V
+	METHOD a attackEntityFrom (Lns;I)Z
+	METHOD b writeEntityToNBT (Lls;)V
+	METHOD i getCanSpawnHere ()Z
+	METHOD j getTalkInterval ()I
+	METHOD k canDespawn ()Z

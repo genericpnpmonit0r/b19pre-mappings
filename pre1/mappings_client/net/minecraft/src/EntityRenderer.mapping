@@ -1,23 +1,4 @@
 CLASS jq net/minecraft/src/EntityRenderer
-	METHOD a updateRenderer ()V
-	METHOD a disableLightmap (D)V
-	METHOD a getMouseOver (F)V
-	METHOD a setFogColorBuffer (FFFF)Ljava/nio/FloatBuffer;
-	METHOD a setupCameraTransform (FI)V
-	METHOD a renderWorld (FJ)V
-	METHOD a setupFog (IF)V
-	METHOD b setupOverlayRendering ()V
-	METHOD b enableLightmap (D)V
-	METHOD b renderHand (FI)V
-	METHOD c updateFovModifierHand ()V
-	METHOD c renderRainSnow (F)V
-	METHOD d updateTorchFlicker ()V
-	METHOD d hurtCameraEffect (F)V
-	METHOD e updateLightmap ()V
-	METHOD e setupViewBobbing (F)V
-	METHOD f addRainParticles ()V
-	METHOD f orientCamera (F)V
-	METHOD g updateFogColor (F)V
 	FIELD A mouseFilterDummy4 Lbq;
 	FIELD B thirdPersonDistance F
 	FIELD C thirdPersonDistanceTemp F
@@ -37,6 +18,8 @@ CLASS jq net/minecraft/src/EntityRenderer
 	FIELD Q cameraZoom D
 	FIELD R cameraYaw D
 	FIELD S cameraPitch D
+	FIELD T systemTime J
+	FIELD U systemNanoTime J
 	FIELD V lightmapUpdateNeeded Z
 	FIELD W random Ljava/util/Random;
 	FIELD X rainSoundCounter I
@@ -63,6 +46,31 @@ CLASS jq net/minecraft/src/EntityRenderer
 	FIELD s farPlaneDistance F
 	FIELD t rendererUpdateCount I
 	FIELD u pointedEntity Lle;
+	FIELD v mouseFilterXAxis Lbq;
+	FIELD w mouseFilterYAxis Lbq;
 	FIELD x mouseFilterDummy1 Lbq;
 	FIELD y mouseFilterDummy2 Lbq;
 	FIELD z mouseFilterDummy3 Lbq;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD a updateRenderer ()V
+	METHOD a disableLightmap (D)V
+	METHOD a getMouseOver (F)V
+	METHOD a setFogColorBuffer (FFFF)Ljava/nio/FloatBuffer;
+	METHOD a setupCameraTransform (FI)V
+	METHOD a renderWorld (FJ)V
+	METHOD a getFOVModifier (FZ)F
+	METHOD a setupFog (IF)V
+	METHOD b setupOverlayRendering ()V
+	METHOD b enableLightmap (D)V
+	METHOD b updateCameraAndRender (F)V
+	METHOD b renderHand (FI)V
+	METHOD c updateFovModifierHand ()V
+	METHOD c renderRainSnow (F)V
+	METHOD d updateTorchFlicker ()V
+	METHOD d hurtCameraEffect (F)V
+	METHOD e updateLightmap ()V
+	METHOD e setupViewBobbing (F)V
+	METHOD f addRainParticles ()V
+	METHOD f orientCamera (F)V
+	METHOD g updateFogColor (F)V

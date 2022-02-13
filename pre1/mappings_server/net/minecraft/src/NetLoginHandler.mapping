@@ -1,0 +1,22 @@
+CLASS ft net/minecraft/src/NetLoginHandler
+	METHOD a tryLogin ()V
+	METHOD a func_35007_a (Ldi;)V
+	METHOD a getServerId (Lft;)Ljava/lang/String;
+	METHOD a setLoginPacket (Lft;Lly;)Lly;
+	METHOD a kickUser (Ljava/lang/String;)V
+	METHOD a handleErrorMessage (Ljava/lang/String;[Ljava/lang/Object;)V
+	METHOD a registerPacket (Ljc;)V
+	METHOD a handleHandshake (Lko;)V
+	METHOD a handleLogin (Lly;)V
+	METHOD b getUserAndIPString ()Ljava/lang/String;
+	METHOD b doLogin (Lly;)V
+	METHOD c isServerHandler ()Z
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b netManager Lmy;
+	FIELD c finishedProcessing Z
+	FIELD d rand Ljava/util/Random;
+	FIELD e mcServer Lnet/minecraft/server/MinecraftServer;
+	FIELD f loginTimer I
+	FIELD g username Ljava/lang/String;
+	FIELD h packet1login Lly;
+	FIELD i serverId Ljava/lang/String;

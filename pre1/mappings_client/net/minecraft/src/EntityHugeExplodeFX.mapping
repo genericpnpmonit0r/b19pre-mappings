@@ -1,6 +1,6 @@
 CLASS aes net/minecraft/src/EntityHugeExplodeFX
+	FIELD a field_35139_a I
+	FIELD ay field_35138_ay I
 	METHOD a renderParticle (Lyu;FFFFFF)V
 	METHOD m getFXLayer ()I
 	METHOD w_ onUpdate ()V
-	FIELD a field_35139_a I
-	FIELD ay field_35138_ay I

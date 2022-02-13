@@ -1,0 +1,7 @@
+CLASS qr net/minecraft/src/ShapelessRecipes
+	METHOD a getRecipeSize ()I
+	METHOD a matches (Lkq;)Z
+	METHOD b getRecipeOutput ()Lhz;
+	METHOD b getCraftingResult (Lkq;)Lhz;
+	FIELD a recipeOutput Lhz;
+	FIELD b recipeItems Ljava/util/List;

@@ -1,0 +1,6 @@
+CLASS ll net/minecraft/src/ComponentMineshaftCross
+	METHOD a func_35310_a (Lep;Ljava/util/Random;Lst;)Z
+	METHOD a func_35308_a (Liv;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a func_35362_a (Ljava/util/List;Ljava/util/Random;IIII)Lst;
+	FIELD a field_35364_a I
+	FIELD b field_35363_b Z

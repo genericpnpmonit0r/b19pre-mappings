@@ -1,8 +1,11 @@
 CLASS lt net/minecraft/src/NetHandler
 	METHOD a isServerHandler ()Z
 	METHOD a handleUseEntity (La;)V
+		ARG 1 packet7UseEntity
 	METHOD a handlePosition (Laaq;)V
+		ARG 1 packet27Position
 	METHOD a handleWindowClick (Laav;)V
+		ARG 1 packet102WindowClick
 	METHOD a handleSpawnPosition (Laba;)V
 		ARG 1 packet6SpawnPosition
 	METHOD a handleExplosion (Labf;)V
@@ -14,6 +17,7 @@ CLASS lt net/minecraft/src/NetHandler
 	METHOD a processItemData (Lac;)V
 		ARG 1 packet131MapData
 	METHOD a handleEntityAction (Lacr;)V
+		ARG 1 packet19EntityAnimation
 	METHOD a handleEntity (Lacy;)V
 		ARG 1 packet30Entity
 	METHOD a handleUpdateSign (Ladb;)V
@@ -23,11 +27,13 @@ CLASS lt net/minecraft/src/NetHandler
 	METHOD a handleKickDisconnect (Lafv;)V
 		ARG 1 packet255KickDisconnect
 	METHOD a handleCreativeSetSlot (Lck;)V
+		ARG 1 packet107CreativeSetSlot
 	METHOD a handleHealth (Lcz;)V
 		ARG 1 packet8UpdateHealth
 	METHOD a handleAuxSFX (Ldn;)V
 		ARG 1 packet61DoorChange
 	METHOD a handlePlace (Leg;)V
+		ARG 1 packet15Place
 	METHOD a handleSetSlot (Let;)V
 		ARG 1 packet103SetSlot
 	METHOD a handleFlying (Lfb;)V
@@ -37,6 +43,7 @@ CLASS lt net/minecraft/src/NetHandler
 	METHOD a handleEntityStatus (Lfo;)V
 		ARG 1 packet38EntityStatus
 	METHOD a handleBlockDig (Lfv;)V
+		ARG 1 packet14BlockDig
 	METHOD a handleExperience (Lgu;)V
 		ARG 1 packet43Experience
 	METHOD a handleNamedEntitySpawn (Lhj;)V
@@ -79,6 +86,7 @@ CLASS lt net/minecraft/src/NetHandler
 	METHOD a handleCollect (Lsc;)V
 		ARG 1 packet22Collect
 	METHOD a handleServerPing (Lsd;)V
+		ARG 1 packet254ServerPing
 	METHOD a handleEntityEffect (Lse;)V
 		ARG 1 packet41EntityEffect
 	METHOD a handlePlayerInfo (Lsk;)V
@@ -92,6 +100,7 @@ CLASS lt net/minecraft/src/NetHandler
 	METHOD a handleUpdateTime (Lur;)V
 		ARG 1 packet4UpdateTime
 	METHOD a handleBlockItemSwitch (Luw;)V
+		ARG 1 packet16BlockItemSwitch
 	METHOD a handleMobSpawn (Lwf;)V
 		ARG 1 packet24MobSpawn
 	METHOD a handleSleep (Lwq;)V
@@ -99,6 +108,7 @@ CLASS lt net/minecraft/src/NetHandler
 	METHOD a handleWindowItems (Lwr;)V
 		ARG 1 packet104WindowItems
 	METHOD a registerPacket (Lwx;)V
+		ARG 1 packet
 	METHOD a handleKeepAlive (Lxu;)V
 		ARG 1 packet0KeepAlive
 	METHOD a handleCloseWindow (Lxy;)V

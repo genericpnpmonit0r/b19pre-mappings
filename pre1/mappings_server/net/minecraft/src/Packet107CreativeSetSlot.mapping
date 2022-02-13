@@ -1,0 +1,9 @@
+CLASS dk net/minecraft/src/Packet107CreativeSetSlot
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lqf;)V
+	FIELD a field_35108_a I
+	FIELD b field_35106_b I
+	FIELD c field_35107_c I
+	FIELD d field_35105_d I

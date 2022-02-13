@@ -1,9 +1,9 @@
 CLASS fl net/minecraft/src/Packet100OpenWindow
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Llt;)V
 	FIELD a windowId I
 	FIELD b inventoryType I
 	FIELD c windowTitle Ljava/lang/String;
 	FIELD d slotsCount I
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Llt;)V

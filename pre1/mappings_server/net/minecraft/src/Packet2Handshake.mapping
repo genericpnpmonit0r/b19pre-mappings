@@ -1,0 +1,6 @@
+CLASS ko net/minecraft/src/Packet2Handshake
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lqf;)V
+	FIELD a username Ljava/lang/String;

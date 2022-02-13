@@ -1,4 +1,4 @@
 CLASS kz net/minecraft/src/TextureFlamesFX
+	FIELD a currentFireFrame [F
+	FIELD b lastFireFrame [F
 	METHOD a onTick ()V
-	FIELD a field_1133_g [F
-	FIELD b field_1132_h [F

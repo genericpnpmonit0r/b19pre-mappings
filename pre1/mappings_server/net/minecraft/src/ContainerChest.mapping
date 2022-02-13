@@ -1,0 +1,6 @@
+CLASS bw net/minecraft/src/ContainerChest
+	METHOD a getStackInSlot (I)Lhz;
+	METHOD a onCraftGuiClosed (Lga;)V
+	METHOD b canInteractWith (Lga;)Z
+	FIELD a lowerChestInventory Lkd;
+	FIELD b numRows I

@@ -1,0 +1,10 @@
+CLASS sz net/minecraft/src/BlockFlower
+	METHOD a isOpaqueCube ()Z
+	METHOD a onNeighborBlockChange (Lep;IIII)V
+	METHOD a updateTick (Lep;IIILjava/util/Random;)V
+	METHOD b isACube ()Z
+	METHOD c canThisPlantGrowOnThisBlockID (I)Z
+	METHOD c canPlaceBlockAt (Lep;III)Z
+	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;
+	METHOD f canBlockStay (Lep;III)Z
+	METHOD h checkFlowerChange (Lep;III)V

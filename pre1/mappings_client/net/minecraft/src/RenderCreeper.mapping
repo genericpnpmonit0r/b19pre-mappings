@@ -1,4 +1,5 @@
 CLASS pu net/minecraft/src/RenderCreeper
+	FIELD c field_27008_a Lge;
 	METHOD a updateCreeperScale (Ltv;F)V
 	METHOD a updateCreeperColorMultiplier (Ltv;FF)I
 	METHOD a preRenderCallback (Lxq;F)V
@@ -6,4 +7,3 @@ CLASS pu net/minecraft/src/RenderCreeper
 	METHOD a inheritRenderPass (Lxq;IF)Z
 	METHOD b func_27007_b (Ltv;IF)Z
 	METHOD b shouldRenderPass (Lxq;IF)Z
-	FIELD c field_27008_a Lge;

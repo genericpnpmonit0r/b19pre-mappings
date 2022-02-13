@@ -1,5 +1,5 @@
 CLASS vg net/minecraft/src/PositionTextureVertex
-	METHOD a setTexturePosition (FF)Lvg;
 	FIELD a vector3D Lba;
 	FIELD b texturePositionX F
 	FIELD c texturePositionY F
+	METHOD a setTexturePosition (FF)Lvg;

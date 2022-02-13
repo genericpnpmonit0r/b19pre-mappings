@@ -1,0 +1,4 @@
+CLASS kt net/minecraft/src/BlockOre
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a_ damageDropped (I)I

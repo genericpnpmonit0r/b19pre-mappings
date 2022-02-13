@@ -1,4 +1,12 @@
 CLASS qy net/minecraft/src/EntityGhast
+	FIELD a courseChangeCooldown I
+	FIELD ap attackCounter I
+	FIELD aq targetedEntity Lle;
+	FIELD ar aggroCooldown I
+	FIELD b waypointX D
+	FIELD c waypointY D
+	FIELD d waypointZ D
+	FIELD e prevAttackCounter I
 	METHOD R getMaxSpawnedInChunk ()I
 	METHOD a isCourseTraversable (DDDD)Z
 	METHOD a dropFewItems (Z)V
@@ -11,11 +19,3 @@ CLASS qy net/minecraft/src/EntityGhast
 	METHOD l_ updateEntityActionState ()V
 	METHOD q_ getSoundVolume ()F
 	METHOD w_ onUpdate ()V
-	FIELD a courseChangeCooldown I
-	FIELD ap attackCounter I
-	FIELD aq targetedEntity Lle;
-	FIELD ar aggroCooldown I
-	FIELD b waypointX D
-	FIELD c waypointY D
-	FIELD d waypointZ D
-	FIELD e prevAttackCounter I

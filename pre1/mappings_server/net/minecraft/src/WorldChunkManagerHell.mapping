@@ -1,0 +1,12 @@
+CLASS gl net/minecraft/src/WorldChunkManagerHell
+	METHOD a getBiomeGenAt (II)Liz;
+	METHOD a func_35141_a (IIILjava/util/List;)Z
+	METHOD a func_35139_a (IIILjava/util/List;Ljava/util/Random;)Ltf;
+	METHOD a getBiomeGenAtChunkCoord (Lvs;)Liz;
+	METHOD a getTemperatures ([FIIII)[F
+	METHOD a loadBlockGeneratorData ([Liz;IIII)[Liz;
+	METHOD a func_35140_a ([Liz;IIIIZ)[Liz;
+	METHOD b func_4065_a ([FIIII)[F
+	FIELD b field_4262_e Liz;
+	FIELD c field_4261_f F
+	FIELD d field_4260_g F

@@ -12,7 +12,7 @@ I will __NOT__ be providing any help with using these mappings. You will have to
 
 I will not be making mappings for b1.9pre5 since MCP is available for that version.
 
-Note that there will be weirdly or stupidly named classes, fields and methods when i was going insane at several points in time.
+There will be field_ and func_ names from 1.0.0 MCP as that was used as a base for these mappings.
 
 # Versions
 

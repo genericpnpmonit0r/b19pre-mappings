@@ -1,8 +1,12 @@
 CLASS iv net/minecraft/src/Packet106Transaction
+	FIELD a windowId I
+	FIELD b shortWindowId S
+	FIELD c accepted Z
+	METHOD <init> (ISZ)V
+		ARG 1 wid
+		ARG 2 swid
+		ARG 3 accepted
 	METHOD a getPacketSize ()I
 	METHOD a readPacketData (Ljava/io/DataInputStream;)V
 	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
 	METHOD a processPacket (Llt;)V
-	FIELD a windowId I
-	FIELD b shortWindowId S
-	FIELD c accepted Z

@@ -1,0 +1,18 @@
+CLASS dy net/minecraft/src/NetworkListenThread
+	METHOD a handleNetworkListenThread ()V
+	METHOD a func_713_a (Ldy;)Ljava/net/ServerSocket;
+	METHOD a func_716_a (Ldy;Lft;)V
+	METHOD a addPendingConnection (Lft;)V
+	METHOD a func_35505_a (Ljava/net/Socket;)V
+	METHOD a addPlayer (Ljn;)V
+	METHOD b func_35504_b (Ldy;)Ljava/util/HashMap;
+	METHOD c func_712_b (Ldy;)I
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b field_973_b Z
+	FIELD c mcServer Lnet/minecraft/server/MinecraftServer;
+	FIELD d serverSocket Ljava/net/ServerSocket;
+	FIELD e networkAcceptThread Ljava/lang/Thread;
+	FIELD f field_977_f I
+	FIELD g pendingConnections Ljava/util/ArrayList;
+	FIELD h playerList Ljava/util/ArrayList;
+	FIELD i field_35506_i Ljava/util/HashMap;

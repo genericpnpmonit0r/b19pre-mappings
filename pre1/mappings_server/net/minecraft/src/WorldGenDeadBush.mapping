@@ -1,0 +1,3 @@
+CLASS jg net/minecraft/src/WorldGenDeadBush
+	METHOD a generate (Lep;Ljava/util/Random;III)Z
+	FIELD a field_28055_a I

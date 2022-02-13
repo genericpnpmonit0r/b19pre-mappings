@@ -1,0 +1,3 @@
+CLASS ay net/minecraft/src/ItemBucket
+	METHOD a onItemRightClick (Lhz;Lep;Lga;)Lhz;
+	FIELD a isFull I

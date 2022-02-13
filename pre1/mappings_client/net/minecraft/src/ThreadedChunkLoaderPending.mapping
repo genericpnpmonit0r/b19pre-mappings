@@ -1,3 +1,6 @@
 CLASS pb net/minecraft/src/ThreadedChunkLoaderPending
-	FIELD a field_40739_a Lpk;
-	FIELD b field_40738_b Lyr;
+	FIELD a chunkCoordinate Lpk;
+	FIELD b nbtTags Lyr;
+	METHOD <init> (Lpk;Lyr;)V
+		ARG 1 coordPair
+		ARG 2 tags

@@ -1,0 +1,6 @@
+CLASS qx net/minecraft/src/NoiseGeneratorOctaves
+	METHOD a func_647_a (DD)D
+	METHOD a func_4103_a ([DIIIIDDD)[D
+	METHOD a generateNoiseOctaves ([DIIIIIIDDD)[D
+	FIELD a generatorCollection [Laj;
+	FIELD b field_938_b I

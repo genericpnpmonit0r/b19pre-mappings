@@ -1,0 +1,17 @@
+CLASS st net/minecraft/src/StructureBoundingBox
+	METHOD a func_35672_a ()Lst;
+	METHOD a func_35670_a (III)V
+	METHOD a func_35671_a (IIII)Z
+	METHOD a func_35663_a (IIIIIIIIII)Lst;
+	METHOD a func_35664_a (Lst;)Z
+	METHOD b func_35669_b ()I
+	METHOD b func_35667_b (III)Z
+	METHOD b func_35666_b (Lst;)V
+	METHOD c func_35668_c ()I
+	METHOD d func_35665_d ()I
+	FIELD a field_35678_a I
+	FIELD b field_35676_b I
+	FIELD c field_35677_c I
+	FIELD d field_35674_d I
+	FIELD e field_35675_e I
+	FIELD f field_35673_f I

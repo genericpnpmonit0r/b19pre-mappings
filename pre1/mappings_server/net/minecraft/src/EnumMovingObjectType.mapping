@@ -1,0 +1,4 @@
+CLASS ig net/minecraft/src/EnumMovingObjectType
+	FIELD a TILE Lig;
+	FIELD b ENTITY Lig;
+	FIELD c allMovingObjectTypes [Lig;

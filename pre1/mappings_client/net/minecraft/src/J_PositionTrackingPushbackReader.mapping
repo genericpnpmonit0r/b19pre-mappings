@@ -1,12 +1,18 @@
 CLASS xh net/minecraft/src/J_PositionTrackingPushbackReader
+	FIELD a pushbackReader Ljava/io/PushbackReader;
+	FIELD b characterCount I
+	FIELD c lineCount I
+	FIELD d lastCharacterWasCarriageReturn Z
+	METHOD <init> (Ljava/io/Reader;)V
+		ARG 1 in
 	METHOD a getColumn ()I
-	METHOD a func_27334_a (C)V
-	METHOD a func_27332_a (I)V
-	METHOD a func_27335_a ([C)V
+	METHOD a unread (C)V
+		ARG 1 c
+	METHOD a updateCharacterAndLineCounts (I)V
+		ARG 1 result
+	METHOD a uncount ([C)V
+		ARG 1 resultCharArray
 	METHOD b getRow ()I
-	METHOD b func_27336_b ([C)I
+	METHOD b read ([C)I
+		ARG 1 buffer
 	METHOD c read ()I
-	FIELD a field_27338_a Ljava/io/PushbackReader;
-	FIELD b field_27337_b I
-	FIELD c field_27340_c I
-	FIELD d field_27339_d Z

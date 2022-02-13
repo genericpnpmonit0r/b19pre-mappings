@@ -1,6 +1,6 @@
 CLASS pf net/minecraft/src/TileEntitySign
-	METHOD a readFromNBT (Lyr;)V
-	METHOD b writeToNBT (Lyr;)V
 	FIELD a signText [Ljava/lang/String;
 	FIELD b lineBeingEdited I
 	FIELD c isEditable Z
+	METHOD a readFromNBT (Lyr;)V
+	METHOD b writeToNBT (Lyr;)V

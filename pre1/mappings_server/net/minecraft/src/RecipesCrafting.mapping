@@ -1,0 +1,2 @@
+CLASS iw net/minecraft/src/RecipesCrafting
+	METHOD a addRecipes (Lgs;)V

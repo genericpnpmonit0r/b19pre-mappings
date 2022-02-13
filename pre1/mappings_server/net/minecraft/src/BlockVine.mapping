@@ -1,0 +1,14 @@
+CLASS mi net/minecraft/src/BlockVine
+	METHOD a isOpaqueCube ()Z
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a onNeighborBlockChange (Lep;IIII)V
+	METHOD a updateTick (Lep;IIILjava/util/Random;)V
+	METHOD a harvestBlock (Lep;Lga;IIII)V
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a setBlockBoundsBasedOnState (Lun;III)V
+	METHOD b isACube ()Z
+	METHOD b canPlaceBlockOnSide (Lep;IIII)Z
+	METHOD c func_35058_c (I)Z
+	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;
+	METHOD e onBlockPlaced (Lep;IIII)V
+	METHOD g func_35059_g (Lep;III)Z

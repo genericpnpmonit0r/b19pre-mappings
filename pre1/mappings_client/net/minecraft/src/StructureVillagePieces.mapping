@@ -10,7 +10,10 @@ CLASS pc net/minecraft/src/StructureVillagePieces
 		ARG 7 type
 	METHOD a getNextStructureComponent (Lf;Ljava/util/List;Ljava/util/Random;IIIII)Lfw;
 	METHOD a getAvailablePieceWeight (Ljava/util/ArrayList;)I
+		ARG 0 weights
 	METHOD a getStructureVillageWeightedPieceList (Ljava/util/Random;I)Ljava/util/ArrayList;
+		ARG 0 rand
+		ARG 1 mode
 	METHOD b getNextStructureComponentVillagePath (Lf;Ljava/util/List;Ljava/util/Random;IIIII)Lfw;
 	METHOD c getNextVillageComponent (Lf;Ljava/util/List;Ljava/util/Random;IIIII)Lacp;
 	METHOD d getNextVillageStructureComponent (Lf;Ljava/util/List;Ljava/util/Random;IIIII)Lfw;

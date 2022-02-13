@@ -1,0 +1,10 @@
+CLASS su net/minecraft/src/Packet54PlayNoteBlock
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lqf;)V
+	FIELD a xLocation I
+	FIELD b yLocation I
+	FIELD c zLocation I
+	FIELD d instrumentType I
+	FIELD e pitch I

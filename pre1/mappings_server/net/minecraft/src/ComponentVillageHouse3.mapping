@@ -1,0 +1,5 @@
+CLASS fl net/minecraft/src/ComponentVillageHouse3
+	METHOD a func_35310_a (Lep;Ljava/util/Random;Lst;)Z
+	METHOD a func_35308_a (Liv;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a func_35372_a (Ljava/util/List;Ljava/util/Random;IIIII)Lfl;
+	FIELD a field_35373_a I

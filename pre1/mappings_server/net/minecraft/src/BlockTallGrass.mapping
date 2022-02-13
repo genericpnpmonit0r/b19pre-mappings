@@ -1,0 +1,4 @@
+CLASS ow net/minecraft/src/BlockTallGrass
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a harvestBlock (Lep;Lga;IIII)V

@@ -1,0 +1,15 @@
+CLASS pf net/minecraft/src/FoodStats
+	FIELD a field_35595_a I
+	FIELD b field_35593_b F
+	FIELD c field_35594_c F
+	FIELD d field_35591_d I
+	FIELD e field_35592_e I
+	METHOD a func_35585_a ()I
+	METHOD a addExhaustion (F)V
+	METHOD a func_35590_a (IF)V
+	METHOD a func_35584_a (Lga;)V
+	METHOD a func_35589_a (Lls;)V
+	METHOD a func_35582_a (Lvp;)V
+	METHOD b needFood ()Z
+	METHOD b func_35588_b (Lls;)V
+	METHOD c func_35586_c ()F

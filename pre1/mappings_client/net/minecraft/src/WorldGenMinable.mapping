@@ -1,4 +1,7 @@
 CLASS dm net/minecraft/src/WorldGenMinable
-	METHOD a generate (Ltd;Ljava/util/Random;III)Z
 	FIELD a minableBlockId I
 	FIELD b numberOfBlocks I
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 count
+	METHOD a generate (Ltd;Ljava/util/Random;III)Z

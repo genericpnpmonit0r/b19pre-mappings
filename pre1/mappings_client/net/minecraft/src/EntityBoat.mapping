@@ -1,4 +1,13 @@
 CLASS dr net/minecraft/src/EntityBoat
+	FIELD ap boatY D
+	FIELD aq boatZ D
+	FIELD ar boatYaw D
+	FIELD as boatPitch D
+	FIELD at velocityX D
+	FIELD au velocityY D
+	FIELD av velocityZ D
+	FIELD d boatPosRotationIncrements I
+	FIELD e boatX D
 	METHOD a setVelocity (DDD)V
 	METHOD a setPositionAndRotation2 (DDDFFI)V
 	METHOD a attackEntityFrom (Ljz;I)Z
@@ -16,12 +25,3 @@ CLASS dr net/minecraft/src/EntityBoat
 	METHOD j performHurtAnimation ()V
 	METHOD k getMountedYOffset ()D
 	METHOD w_ onUpdate ()V
-	FIELD ap boatY D
-	FIELD aq boatZ D
-	FIELD ar boatYaw D
-	FIELD as boatPitch D
-	FIELD at velocityX D
-	FIELD au velocityY D
-	FIELD av velocityZ D
-	FIELD d boatPosRotationIncrements I
-	FIELD e boatX D

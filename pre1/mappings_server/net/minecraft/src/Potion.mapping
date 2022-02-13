@@ -1,0 +1,46 @@
+CLASS hp net/minecraft/src/Potion
+	FIELD A potionUnused6 Lhp;
+	FIELD B potionUnused7 Lhp;
+	FIELD C potionUnused8 Lhp;
+	FIELD D potionUnused9 Lhp;
+	FIELD E potionUnused10 Lhp;
+	FIELD F potionUnused11 Lhp;
+	FIELD G potionUnused12 Lhp;
+	FIELD H id I
+	FIELD I name Ljava/lang/String;
+	FIELD a potionTypes [Lhp;
+	FIELD b potionUnused13 Lhp;
+	FIELD c moveSpeed Lhp;
+	FIELD d moveSlowdown Lhp;
+	FIELD e digSpeed Lhp;
+	FIELD f digSlowdown Lhp;
+	FIELD g damageBoost Lhp;
+	FIELD h heal Lhp;
+	FIELD i harm Lhp;
+	FIELD j jump Lhp;
+	FIELD k confusion Lhp;
+	FIELD l regeneration Lhp;
+	FIELD m resistance Lhp;
+	FIELD n fireResistance Lhp;
+	FIELD o waterBreathing Lhp;
+	FIELD p invisibility Lhp;
+	FIELD q blindness Lhp;
+	FIELD r nightVision Lhp;
+	FIELD s hunger Lhp;
+	FIELD t weakness Lhp;
+	FIELD u poison Lhp;
+	FIELD v potionUnused1 Lhp;
+	FIELD w potionUnused2 Lhp;
+	FIELD x potionUnused3 Lhp;
+	FIELD y potionUnused4 Lhp;
+	FIELD z potionUnused5 Lhp;
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a isReady (II)Z
+		ARG 1 i
+		ARG 2 j
+	METHOD a setPotionName (Ljava/lang/String;)Lhp;
+		ARG 1 name
+	METHOD a performEffect (Ljz;I)V
+		ARG 1 living
+		ARG 2 amplifier

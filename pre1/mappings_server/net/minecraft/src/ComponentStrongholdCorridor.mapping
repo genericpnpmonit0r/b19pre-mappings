@@ -1,0 +1,5 @@
+CLASS lz net/minecraft/src/ComponentStrongholdCorridor
+	METHOD a func_35310_a (Lep;Ljava/util/Random;Lst;)Z
+	METHOD a func_35308_a (Liv;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a func_35342_a (Ljava/util/List;Ljava/util/Random;IIII)Lst;
+	FIELD a field_35343_a I

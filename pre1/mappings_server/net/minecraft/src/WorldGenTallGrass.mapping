@@ -1,0 +1,4 @@
+CLASS al net/minecraft/src/WorldGenTallGrass
+	METHOD a generate (Lep;Ljava/util/Random;III)Z
+	FIELD a field_28057_a I
+	FIELD b field_28056_b I

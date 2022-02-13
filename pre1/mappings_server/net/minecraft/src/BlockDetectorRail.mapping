@@ -1,0 +1,8 @@
+CLASS mz net/minecraft/src/BlockDetectorRail
+	METHOD a updateTick (Lep;IIILjava/util/Random;)V
+	METHOD a onEntityCollidedWithBlock (Lep;IIILpp;)V
+	METHOD a isPoweringTo (Lun;IIII)Z
+	METHOD c tickRate ()I
+	METHOD d canProvidePower ()Z
+	METHOD d isIndirectlyPoweringTo (Lep;IIII)Z
+	METHOD f setStateIfMinecartInteractsWithRail (Lep;IIII)V

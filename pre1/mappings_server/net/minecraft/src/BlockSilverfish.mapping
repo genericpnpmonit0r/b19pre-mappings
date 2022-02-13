@@ -1,0 +1,7 @@
+CLASS nx net/minecraft/src/BlockSilverfish
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a harvestBlock (Lep;Lga;IIII)V
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD c func_35060_c (I)Z
+	METHOD c onBlockDestroyedByPlayer (Lep;IIII)V
+	METHOD d func_35061_d (I)I

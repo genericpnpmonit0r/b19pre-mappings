@@ -1,11 +1,18 @@
 CLASS aav net/minecraft/src/Packet102WindowClick
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Llt;)V
 	FIELD a window_Id I
 	FIELD b inventorySlot I
 	FIELD c mouseClick I
 	FIELD d action S
 	FIELD e itemStack Lvw;
 	FIELD f holdingShift Z
+	METHOD <init> (IIIZLvw;S)V
+		ARG 1 wid
+		ARG 2 slot
+		ARG 3 click
+		ARG 4 shiftFlag
+		ARG 5 itemStack
+		ARG 6 act
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Llt;)V

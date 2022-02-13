@@ -1,16 +1,4 @@
 CLASS pg net/minecraft/src/SoundManager
-	METHOD a onSoundOptionsChanged ()V
-	METHOD a loadSoundSettings (Lgj;)V
-	METHOD a playSoundFX (Ljava/lang/String;FF)V
-	METHOD a playStreaming (Ljava/lang/String;FFFFF)V
-	METHOD a addSound (Ljava/lang/String;Ljava/io/File;)V
-	METHOD a func_338_a (Lxq;F)V
-	METHOD b closeMinecraft ()V
-	METHOD b playSound (Ljava/lang/String;FFFFF)V
-	METHOD b addStreaming (Ljava/lang/String;Ljava/io/File;)V
-	METHOD c playRandomMusicIfReady ()V
-	METHOD c addMusic (Ljava/lang/String;Ljava/io/File;)V
-	METHOD d tryToSetLibraryAndCodecs ()V
 	FIELD a sndSystem Lpaulscode/sound/SoundSystem;
 	FIELD b soundPoolSounds Luy;
 	FIELD c soundPoolStreaming Luy;
@@ -20,3 +8,39 @@ CLASS pg net/minecraft/src/SoundManager
 	FIELD g loaded Z
 	FIELD h rand Ljava/util/Random;
 	FIELD i ticksBeforeMusic I
+	METHOD a onSoundOptionsChanged ()V
+	METHOD a loadSoundSettings (Lgj;)V
+		ARG 1 options
+	METHOD a playSoundFX (Ljava/lang/String;FF)V
+		ARG 1 name
+		ARG 2 volume
+		ARG 3 pitch
+	METHOD a playStreaming (Ljava/lang/String;FFFFF)V
+		ARG 1 name
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 volume
+		ARG 6 pitch
+	METHOD a addSound (Ljava/lang/String;Ljava/io/File;)V
+		ARG 1 name
+		ARG 2 file
+	METHOD a playLivingSound (Lxq;F)V
+		ARG 1 living
+		ARG 2 pos
+	METHOD b closeMinecraft ()V
+	METHOD b playSound (Ljava/lang/String;FFFFF)V
+		ARG 1 name
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 volume
+		ARG 6 pitch
+	METHOD b addStreaming (Ljava/lang/String;Ljava/io/File;)V
+		ARG 1 name
+		ARG 2 file
+	METHOD c playRandomMusicIfReady ()V
+	METHOD c addMusic (Ljava/lang/String;Ljava/io/File;)V
+		ARG 1 name
+		ARG 2 file
+	METHOD d tryToSetLibraryAndCodecs ()V

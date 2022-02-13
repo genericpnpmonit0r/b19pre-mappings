@@ -1,4 +1,6 @@
 CLASS wm net/minecraft/src/EntityFallingSand
+	FIELD a blockID I
+	FIELD b fallTime I
 	METHOD a readEntityFromNBT (Lyr;)V
 	METHOD b entityInit ()V
 	METHOD b writeEntityToNBT (Lyr;)V
@@ -7,5 +9,3 @@ CLASS wm net/minecraft/src/EntityFallingSand
 	METHOD g_ getShadowSize ()F
 	METHOD m getWorld ()Ltd;
 	METHOD w_ onUpdate ()V
-	FIELD a blockID I
-	FIELD b fallTime I

@@ -1,4 +1,10 @@
 CLASS ep net/minecraft/src/EntityItem
+	FIELD a item Lvw;
+	FIELD ap health I
+	FIELD b age I
+	FIELD c delayBeforeCanPickup I
+	FIELD d field_804_d F
+	FIELD e field_803_e I
 	METHOD a dealFireDamage (I)V
 	METHOD a attackEntityFrom (Ljz;I)Z
 	METHOD a readEntityFromNBT (Lyr;)V
@@ -8,9 +14,3 @@ CLASS ep net/minecraft/src/EntityItem
 	METHOD d_ canTriggerWalking ()Z
 	METHOD f_ handleWaterMovement ()Z
 	METHOD w_ onUpdate ()V
-	FIELD a item Lvw;
-	FIELD ap health I
-	FIELD b age I
-	FIELD c delayBeforeCanPickup I
-	FIELD d field_804_d F
-	FIELD e field_803_e I

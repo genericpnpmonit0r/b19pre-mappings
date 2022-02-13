@@ -1,0 +1,2 @@
+CLASS oi net/minecraft/src/BlockSandStone
+	METHOD a getBlockTextureFromSide (I)I

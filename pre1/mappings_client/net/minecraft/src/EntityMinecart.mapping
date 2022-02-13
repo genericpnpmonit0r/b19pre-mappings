@@ -1,4 +1,29 @@
 CLASS afr net/minecraft/src/EntityMinecart
+	FIELD aA velocityX D
+	FIELD aB velocityY D
+	FIELD aC velocityZ D
+	FIELD a animHurtCur I
+	FIELD ap pushX D
+	FIELD aq pushZ D
+	FIELD ar cargoItems [Lvw;
+	FIELD as field_856_i Z
+	FIELD at field_855_j [[[I
+	FIELD au minecartPosRotationIncrements I
+	FIELD av minecartX D
+	FIELD aw minecartY D
+	FIELD ax minecartZ D
+	FIELD ay minecartYaw D
+	FIELD az minecartPitch D
+	FIELD b animHurtPrev I
+	FIELD c animHurt I
+	FIELD d minecartType I
+	FIELD e fuel I
+	METHOD <init> (Ltd;DDDI)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 type
 	METHOD a getSizeInventory ()I
 	METHOD a setVelocity (DDD)V
 	METHOD a func_515_a (DDDD)Lba;
@@ -29,19 +54,3 @@ CLASS afr net/minecraft/src/EntityMinecart
 	METHOD l onInventoryChanged ()V
 	METHOD t setEntityDead ()V
 	METHOD w_ onUpdate ()V
-	FIELD aA velocityX D
-	FIELD aB velocityY D
-	FIELD aC velocityZ D
-	FIELD ap pushX D
-	FIELD aq pushZ D
-	FIELD ar cargoItems [Lvw;
-	FIELD as field_856_i Z
-	FIELD at field_855_j [[[I
-	FIELD au minecartPosRotationIncrements I
-	FIELD av minecartX D
-	FIELD aw minecartY D
-	FIELD ax minecartZ D
-	FIELD ay minecartYaw D
-	FIELD az minecartPitch D
-	FIELD d minecartType I
-	FIELD e fuel I

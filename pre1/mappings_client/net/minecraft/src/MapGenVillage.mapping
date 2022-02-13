@@ -1,4 +1,4 @@
 CLASS ag net/minecraft/src/MapGenVillage
+	FIELD a villageSpawnBiomes Ljava/util/List;
 	METHOD a canSpawnStructureAtCoords (II)Z
 	METHOD b getStructureStart (II)Lmq;
-	FIELD a villageSpawnBiomes Ljava/util/List;

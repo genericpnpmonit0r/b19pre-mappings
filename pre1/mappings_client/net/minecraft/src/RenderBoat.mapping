@@ -1,3 +1,3 @@
 CLASS dg net/minecraft/src/RenderBoat
-	METHOD a doRender (Lle;DDDFF)V
 	FIELD a modelBoat Lge;
+	METHOD a doRender (Lle;DDDFF)V

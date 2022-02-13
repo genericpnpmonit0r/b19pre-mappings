@@ -1,0 +1,11 @@
+CLASS vm net/minecraft/src/BlockStep
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a onBlockAdded (Lep;III)V
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a_ damageDropped (I)I
+	METHOD b isACube ()Z
+	FIELD a field_35062_a [Ljava/lang/String;
+	FIELD b blockType Z

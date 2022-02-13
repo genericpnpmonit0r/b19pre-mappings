@@ -1,0 +1,5 @@
+CLASS rg net/minecraft/src/Teleporter
+	METHOD a setExitLocation (Lep;Lpp;)V
+	METHOD b findExitLocation (Lep;Lpp;)Z
+	METHOD c createExitLocation (Lep;Lpp;)Z
+	FIELD a random Ljava/util/Random;

@@ -1,0 +1,6 @@
+CLASS bm net/minecraft/src/ChunkCoordinates
+	METHOD a getSqDistanceTo (III)D
+	METHOD a compareChunkCoordinate (Lbm;)I
+	FIELD a posX I
+	FIELD b posY I
+	FIELD c posZ I

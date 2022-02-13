@@ -1,0 +1,2 @@
+CLASS pw net/minecraft/src/ItemAxe
+	FIELD bx blocksEffectiveAgainst [Lrj;

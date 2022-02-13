@@ -1,7 +1,11 @@
 CLASS lw net/minecraft/src/TileEntityNote
-	METHOD a changePitch ()V
-	METHOD a triggerNote (Ltd;III)V
-	METHOD a readFromNBT (Lyr;)V
-	METHOD b writeToNBT (Lyr;)V
 	FIELD a note B
 	FIELD b previousRedstoneState Z
+	METHOD a changePitch ()V
+	METHOD a triggerNote (Ltd;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a readFromNBT (Lyr;)V
+	METHOD b writeToNBT (Lyr;)V

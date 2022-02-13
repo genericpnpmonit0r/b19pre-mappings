@@ -1,3 +1,5 @@
 CLASS aag net/minecraft/src/J_NodeContainer
-	METHOD a func_27289_a (Laab;)V
-	METHOD a func_27290_a (Lxe;)V
+	METHOD a addField (Laab;)V
+		ARG 1 jsonFieldBuilder
+	METHOD a addNode (Lxe;)V
+		ARG 1 jsonNodeBuilder

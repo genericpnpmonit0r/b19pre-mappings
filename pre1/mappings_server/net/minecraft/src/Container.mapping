@@ -1,0 +1,23 @@
+CLASS dm net/minecraft/src/Container
+	METHOD a updateCraftingResults ()V
+	METHOD a getStackInSlot (I)Lhz;
+	METHOD a slotClick (IIZLga;)Lhz;
+	METHOD a func_35498_a (ILhz;)V
+	METHOD a onCraftGuiOpened (Lds;)V
+	METHOD a addSlot (Lfz;)V
+	METHOD a onCraftGuiClosed (Lga;)V
+	METHOD a setCanCraft (Lga;Z)V
+	METHOD a func_28126_a (Lhz;IIZ)Z
+	METHOD a onCraftMatrixChanged (Lkd;)V
+	METHOD a func_20127_a (Lkd;I)Lfz;
+	METHOD b func_28127_b ()Ljava/util/List;
+	METHOD b getSlot (I)Lfz;
+	METHOD b func_35497_b (IIZLga;)V
+	METHOD b canInteractWith (Lga;)Z
+	METHOD c getCanCraft (Lga;)Z
+	FIELD a field_20132_a S
+	FIELD b field_20131_b Ljava/util/Set;
+	FIELD d inventoryItemStacks Ljava/util/List;
+	FIELD e inventorySlots Ljava/util/List;
+	FIELD f windowId I
+	FIELD g crafters Ljava/util/List;

@@ -1,0 +1,2 @@
+CLASS jm net/minecraft/src/ItemHoe
+	METHOD a onItemUse (Lhz;Lga;Lep;IIII)Z

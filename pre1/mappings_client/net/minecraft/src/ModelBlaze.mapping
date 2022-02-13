@@ -1,6 +1,6 @@
 CLASS aee net/minecraft/src/ModelBlaze
-	METHOD a func_40321_a ()I
+	FIELD a blazeSticks [Lnv;
+	FIELD b head Lnv;
+	METHOD a getStickCount ()I
 	METHOD a setRotationAngles (FFFFFF)V
 	METHOD a render (Lle;FFFFFF)V
-	FIELD a field_40323_a [Lnv;
-	FIELD b field_40322_b Lnv;

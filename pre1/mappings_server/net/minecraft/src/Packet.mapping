@@ -1,0 +1,20 @@
+CLASS jc net/minecraft/src/Packet
+	METHOD a getPacketSize ()I
+	METHOD a getNewPacket (I)Ljc;
+	METHOD a addIdClassMapping (IZZLjava/lang/Class;)V
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a readString (Ljava/io/DataInputStream;I)Ljava/lang/String;
+	METHOD a readPacket (Ljava/io/DataInputStream;Z)Ljc;
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a writeString (Ljava/lang/String;Ljava/io/DataOutputStream;)V
+	METHOD a writePacket (Ljc;Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lqf;)V
+	METHOD b getPacketId ()I
+	FIELD a packetIdToClassMap Liu;
+	FIELD b packetClassToIdMap Ljava/util/Map;
+	FIELD c clientPacketIdList Ljava/util/Set;
+	FIELD d serverPacketIdList Ljava/util/Set;
+	FIELD e packetStats Liu;
+	FIELD f totalPacketsCount I
+	FIELD j creationTimeMillis J
+	FIELD k isChunkDataPacket Z

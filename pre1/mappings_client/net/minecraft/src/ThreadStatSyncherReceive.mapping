@@ -1,2 +1,4 @@
 CLASS nc net/minecraft/src/ThreadStatSyncherReceive
 	FIELD a syncher Lrn;
+	METHOD <init> (Lrn;)V
+		ARG 1 syncer

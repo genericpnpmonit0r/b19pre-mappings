@@ -1,3 +1,7 @@
 CLASS acs net/minecraft/src/StatCrafting
-	METHOD b func_25072_b ()I
-	FIELD a field_25073_a I
+	FIELD a type1 I
+	METHOD <init> (ILjava/lang/String;I)V
+		ARG 1 id
+		ARG 2 name
+		ARG 3 type
+	METHOD b getType0 ()I

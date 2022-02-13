@@ -1,0 +1,3 @@
+CLASS lm net/minecraft/src/ISaveFormat
+	METHOD a isOldSaveType (Ljava/lang/String;)Z
+	METHOD a convertMapFormat (Ljava/lang/String;Luy;)Z

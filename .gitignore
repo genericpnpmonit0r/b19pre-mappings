@@ -1,2 +1,6 @@
 # Package Files #
 *.jar
+
+# Unfinished mapping export files #
+*.tiny
+*.tinyv2

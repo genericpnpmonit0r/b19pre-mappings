@@ -1,0 +1,18 @@
+CLASS hl net/minecraft/src/EntityCreature
+	METHOD A func_31021_B ()V
+	METHOD B hasPath ()Z
+	METHOD C getEntityToAttack ()Lpp;
+	METHOD a getBlockPathWeight (III)F
+	METHOD a setPathToEntity (Lcx;)V
+	METHOD a attackEntity (Lpp;F)V
+	METHOD b attackBlockedEntity (Lpp;F)V
+	METHOD d setTarget (Lpp;)V
+	METHOD i getCanSpawnHere ()Z
+	METHOD l updateEntityActionState ()V
+	METHOD n_ func_35178_D ()F
+	METHOD p findPlayerToAttack ()Lpp;
+	METHOD v isMovementCeased ()Z
+	FIELD a pathToEntity Lcx;
+	FIELD d entityToAttack Lpp;
+	FIELD e hasAttacked Z
+	FIELD f field_35223_f I

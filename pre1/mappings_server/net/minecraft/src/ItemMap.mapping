@@ -1,0 +1,6 @@
+CLASS ts net/minecraft/src/ItemMap
+	METHOD a updateMapData (Lep;Lpp;Lhw;)V
+	METHOD a func_28023_a (Lhz;Lep;)Lhw;
+	METHOD a onUpdate (Lhz;Lep;Lpp;IZ)V
+	METHOD c func_28022_b (Lhz;Lep;Lga;)Ljc;
+	METHOD d onCreated (Lhz;Lep;Lga;)V

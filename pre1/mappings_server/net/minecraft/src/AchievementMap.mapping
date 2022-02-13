@@ -1,0 +1,4 @@
+CLASS b net/minecraft/src/AchievementMap
+	METHOD a getGuid (I)Ljava/lang/String;
+	FIELD a instance Lb;
+	FIELD b guidMap Ljava/util/Map;

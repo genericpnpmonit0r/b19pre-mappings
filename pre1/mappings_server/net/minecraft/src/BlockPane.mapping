@@ -1,0 +1,7 @@
+CLASS tw net/minecraft/src/BlockPane
+	METHOD a isOpaqueCube ()Z
+	METHOD a getCollidingBoundingBoxes (Lep;IIILed;Ljava/util/ArrayList;)V
+	METHOD a setBlockBoundsBasedOnState (Lun;III)V
+	METHOD b isACube ()Z
+	METHOD c func_35063_c (I)Z
+	FIELD a field_35064_a I

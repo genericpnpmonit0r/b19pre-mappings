@@ -1,0 +1,3 @@
+CLASS oo net/minecraft/src/ItemMinecart
+	METHOD a onItemUse (Lhz;Lga;Lep;IIII)Z
+	FIELD a minecartType I

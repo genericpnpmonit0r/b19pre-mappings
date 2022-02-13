@@ -1,0 +1,19 @@
+CLASS tx net/minecraft/src/PlayerManager
+	METHOD a getMinecraftServer ()Lew;
+	METHOD a markBlockNeedsUpdate (III)V
+	METHOD a func_544_a (IIII)Z
+	METHOD a getPlayerInstance (IIZ)Laf;
+	METHOD a addPlayer (Les;)V
+	METHOD a getPlayerInstances (Ltx;)Lff;
+	METHOD b updatePlayerInstances ()V
+	METHOD b removePlayer (Les;)V
+	METHOD b getPlayerInstancesToUpdate (Ltx;)Ljava/util/List;
+	METHOD c getMaxTrackingDistance ()I
+	METHOD c func_543_c (Les;)V
+	FIELD a players Ljava/util/List;
+	FIELD b playerInstances Lff;
+	FIELD c playerInstancesToUpdate Ljava/util/List;
+	FIELD d mcServer Lnet/minecraft/server/MinecraftServer;
+	FIELD e field_28110_e I
+	FIELD f playerViewRadius I
+	FIELD g field_22089_e [[I

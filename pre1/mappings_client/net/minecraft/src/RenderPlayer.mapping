@@ -1,4 +1,8 @@
 CLASS sg net/minecraft/src/RenderPlayer
+	FIELD c modelBipedMain Ltf;
+	FIELD d modelArmorChestplate Ltf;
+	FIELD i modelArmor Ltf;
+	FIELD j armorFilenamePrefix [Ljava/lang/String;
 	METHOD a doRender (Lle;DDDFF)V
 	METHOD a renderName (Lui;DDD)V
 	METHOD a renderPlayer (Lui;DDDFF)V
@@ -15,7 +19,3 @@ CLASS sg net/minecraft/src/RenderPlayer
 	METHOD b passSpecialRender (Lxq;DDD)V
 	METHOD b renderEquippedItems (Lxq;F)V
 	METHOD b shouldRenderPass (Lxq;IF)Z
-	FIELD c modelBipedMain Ltf;
-	FIELD d modelArmorChestplate Ltf;
-	FIELD i modelArmor Ltf;
-	FIELD j armorFilenamePrefix [Ljava/lang/String;

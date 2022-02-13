@@ -1,0 +1,9 @@
+CLASS ag net/minecraft/src/BlockPortal
+	METHOD a isOpaqueCube ()Z
+	METHOD a onNeighborBlockChange (Lep;IIII)V
+	METHOD a onEntityCollidedWithBlock (Lep;IIILpp;)V
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a setBlockBoundsBasedOnState (Lun;III)V
+	METHOD b isACube ()Z
+	METHOD b_ tryToCreatePortal (Lep;III)Z
+	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;

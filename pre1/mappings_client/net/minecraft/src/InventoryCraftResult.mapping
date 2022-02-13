@@ -1,4 +1,5 @@
 CLASS aej net/minecraft/src/InventoryCraftResult
+	FIELD a stackResult [Lvw;
 	METHOD a getSizeInventory ()I
 	METHOD a decrStackSize (II)Lvw;
 	METHOD a setInventorySlotContents (ILvw;)V
@@ -9,4 +10,3 @@ CLASS aej net/minecraft/src/InventoryCraftResult
 	METHOD e_ getStackInSlot (I)Lvw;
 	METHOD f closeChest ()V
 	METHOD l onInventoryChanged ()V
-	FIELD a stackResult [Lvw;

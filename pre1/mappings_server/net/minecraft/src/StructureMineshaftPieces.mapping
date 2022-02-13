@@ -1,0 +1,6 @@
+CLASS ht net/minecraft/src/StructureMineshaftPieces
+	METHOD a func_35432_a ()[Lhc;
+	METHOD a func_35433_a (Liv;Ljava/util/List;Ljava/util/Random;IIIII)Liv;
+	METHOD a func_35434_a (Ljava/util/List;Ljava/util/Random;IIIII)Liv;
+	METHOD b func_35435_b (Liv;Ljava/util/List;Ljava/util/Random;IIIII)Liv;
+	FIELD a field_35436_a [Lhc;

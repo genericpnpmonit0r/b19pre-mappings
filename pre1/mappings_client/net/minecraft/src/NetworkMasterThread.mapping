@@ -1,2 +1,4 @@
 CLASS om net/minecraft/src/NetworkMasterThread
 	FIELD a netManager Lji;
+	METHOD <init> (Lji;)V
+		ARG 1 networkManager

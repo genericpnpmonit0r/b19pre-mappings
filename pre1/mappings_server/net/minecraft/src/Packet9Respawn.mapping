@@ -1,0 +1,10 @@
+CLASS mu net/minecraft/src/Packet9Respawn
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lqf;)V
+	FIELD a field_35120_a J
+	FIELD b respawnDimension I
+	FIELD c field_35119_c I
+	FIELD d field_35117_d I
+	FIELD e field_35118_e I

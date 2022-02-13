@@ -1,0 +1,8 @@
+CLASS ef net/minecraft/src/Packet8UpdateHealth
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lqf;)V
+	FIELD a healthMP I
+	FIELD b field_35103_b I
+	FIELD c field_35104_c F

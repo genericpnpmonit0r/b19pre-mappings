@@ -1,0 +1,7 @@
+CLASS ng net/minecraft/src/BlockNote
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a onNeighborBlockChange (Lep;IIII)V
+	METHOD a playBlock (Lep;IIIII)V
+	METHOD a blockActivated (Lep;IIILga;)Z
+	METHOD a_ getBlockEntity ()Lms;
+	METHOD b onBlockClicked (Lep;IIILga;)V

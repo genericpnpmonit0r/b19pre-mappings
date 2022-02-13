@@ -1,21 +1,4 @@
 CLASS ji net/minecraft/src/NetworkManager
-	METHOD a wakeThreads ()V
-	METHOD a onNetworkError (Ljava/lang/Exception;)V
-	METHOD a networkShutdown (Ljava/lang/String;[Ljava/lang/Object;)V
-	METHOD a isRunning (Lji;)Z
-	METHOD a func_30005_a (Lji;Ljava/lang/Exception;)V
-	METHOD a addToSendQueue (Lwx;)V
-	METHOD b processReadPackets ()V
-	METHOD b isServerTerminating (Lji;)Z
-	METHOD c func_28142_c ()V
-	METHOD c readNetworkPacket (Lji;)Z
-	METHOD d sendPacket ()Z
-	METHOD d sendNetworkPacket (Lji;)Z
-	METHOD e readPacket ()Z
-	METHOD e getOutputStream (Lji;)Ljava/io/DataOutputStream;
-	METHOD f getIsTerminating (Lji;)Z
-	METHOD g getReadThread (Lji;)Ljava/lang/Thread;
-	METHOD h getWriteThread (Lji;)Ljava/lang/Thread;
 	FIELD a threadSyncObject Ljava/lang/Object;
 	FIELD b numReadThreads I
 	FIELD c numWriteThreads I
@@ -37,7 +20,32 @@ CLASS ji net/minecraft/src/NetworkManager
 	FIELD s readThread Ljava/lang/Thread;
 	FIELD t isTerminating Z
 	FIELD u terminationReason Ljava/lang/String;
-	FIELD v field_20101_t [Ljava/lang/Object;
+	FIELD v netShutdownObject [Ljava/lang/Object;
 	FIELD w timeSinceLastRead I
 	FIELD x sendQueueByteLength I
 	FIELD y field_20100_w I
+	METHOD <init> (Ljava/net/Socket;Ljava/lang/String;Llt;)V
+		ARG 1 socket
+		ARG 2 string
+		ARG 3 netHandler
+	METHOD a wakeThreads ()V
+	METHOD a onNetworkError (Ljava/lang/Exception;)V
+		ARG 1 ex
+	METHOD a networkShutdown (Ljava/lang/String;[Ljava/lang/Object;)V
+		ARG 1 terminationReason
+		ARG 2 netShutdownObj
+	METHOD a isRunning (Lji;)Z
+	METHOD a func_30005_a (Lji;Ljava/lang/Exception;)V
+	METHOD a addToSendQueue (Lwx;)V
+		ARG 1 packet
+	METHOD b processReadPackets ()V
+	METHOD b isServerTerminating (Lji;)Z
+	METHOD c terminate ()V
+	METHOD c readNetworkPacket (Lji;)Z
+	METHOD d sendPacket ()Z
+	METHOD d sendNetworkPacket (Lji;)Z
+	METHOD e readPacket ()Z
+	METHOD e getOutputStream (Lji;)Ljava/io/DataOutputStream;
+	METHOD f getIsTerminating (Lji;)Z
+	METHOD g getReadThread (Lji;)Ljava/lang/Thread;
+	METHOD h getWriteThread (Lji;)Ljava/lang/Thread;

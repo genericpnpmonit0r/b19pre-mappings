@@ -1,0 +1,3 @@
+CLASS kc net/minecraft/src/ItemReed
+	METHOD a onItemUse (Lhz;Lga;Lep;IIII)Z
+	FIELD a spawnID I

@@ -3,3 +3,6 @@ CLASS ct net/minecraft/src/ThreadDownloadImageData
 	FIELD b referenceCount I
 	FIELD c textureName I
 	FIELD d textureSetupComplete Z
+	METHOD <init> (Ljava/lang/String;Lib;)V
+		ARG 1 location
+		ARG 2 buffer

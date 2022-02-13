@@ -1,0 +1,11 @@
+CLASS bn net/minecraft/src/BlockRedstoneOre
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a blockActivated (Lep;IIILga;)Z
+	METHOD a updateTick (Lep;IIILjava/util/Random;)V
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD b onBlockClicked (Lep;IIILga;)V
+	METHOD b onEntityWalking (Lep;IIILpp;)V
+	METHOD c tickRate ()I
+	METHOD g func_321_g (Lep;III)V
+	METHOD h func_320_h (Lep;III)V
+	FIELD a glowing Z

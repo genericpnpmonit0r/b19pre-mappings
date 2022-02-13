@@ -1,15 +1,4 @@
 CLASS cb net/minecraft/src/WorldRenderer
-	METHOD a updateRenderer ()V
-	METHOD a getGLCallListForPass (I)I
-	METHOD a setPosition (III)V
-	METHOD a updateInFrustrum (Laft;)V
-	METHOD a distanceToEntitySquared (Lle;)F
-	METHOD b setDontDraw ()V
-	METHOD c stopRendering ()V
-	METHOD d callOcclusionQueryList ()V
-	METHOD e skipAllRenderPasses ()Z
-	METHOD f markDirty ()V
-	METHOD g setupGLTranslation ()V
 	FIELD A isChunkLit Z
 	FIELD B tileEntityRenderers Ljava/util/List;
 	FIELD C glRenderList I
@@ -42,3 +31,27 @@ CLASS cb net/minecraft/src/WorldRenderer
 	FIELD x isVisible Z
 	FIELD y isWaitingOnOcclusionQuery Z
 	FIELD z glOcclusionQuery I
+	METHOD <init> (Ltd;Ljava/util/List;IIIII)V
+		ARG 1 world
+		ARG 2 tileEntities
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 depth
+		ARG 7 renderList
+	METHOD a updateRenderer ()V
+	METHOD a getGLCallListForPass (I)I
+	METHOD a setPosition (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a updateInFrustrum (Laft;)V
+		ARG 1 camera
+	METHOD a distanceToEntitySquared (Lle;)F
+		ARG 1 entity
+	METHOD b setDontDraw ()V
+	METHOD c stopRendering ()V
+	METHOD d callOcclusionQueryList ()V
+	METHOD e skipAllRenderPasses ()Z
+	METHOD f markDirty ()V
+	METHOD g setupGLTranslation ()V

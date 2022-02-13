@@ -1,5 +1,7 @@
 CLASS bq net/minecraft/src/MouseFilter
-	METHOD a func_22386_a (FF)F
-	FIELD a field_22388_a F
-	FIELD b field_22387_b F
-	FIELD c field_22389_c F
+	FIELD a mouseFilterFloat1 F
+	FIELD b mouseFilterFloat2 F
+	FIELD c mouseFilterFloat3 F
+	METHOD a smooth (FF)F
+		ARG 1 x
+		ARG 2 y

@@ -1,3 +1,5 @@
 CLASS qr net/minecraft/src/WorldGenFlowers
-	METHOD a generate (Ltd;Ljava/util/Random;III)Z
 	FIELD a plantBlockId I
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a generate (Ltd;Ljava/util/Random;III)Z

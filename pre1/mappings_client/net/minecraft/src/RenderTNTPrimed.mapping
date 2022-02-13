@@ -1,4 +1,4 @@
 CLASS zf net/minecraft/src/RenderTNTPrimed
+	FIELD a blockRenderer Lru;
 	METHOD a func_153_a (Laax;DDDFF)V
 	METHOD a doRender (Lle;DDDFF)V
-	FIELD a blockRenderer Lru;

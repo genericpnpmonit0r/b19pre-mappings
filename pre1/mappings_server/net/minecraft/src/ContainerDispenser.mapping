@@ -1,0 +1,4 @@
+CLASS pj net/minecraft/src/ContainerDispenser
+	METHOD a getStackInSlot (I)Lhz;
+	METHOD b canInteractWith (Lga;)Z
+	FIELD a tileEntityDispenser Lax;

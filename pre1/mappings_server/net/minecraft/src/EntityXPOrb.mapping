@@ -1,0 +1,17 @@
+CLASS cb net/minecraft/src/EntityXPOrb
+	METHOD a dealFireDamage (I)V
+	METHOD a readEntityFromNBT (Lls;)V
+	METHOD a attackEntityFrom (Lns;I)Z
+	METHOD a_ onCollideWithPlayer (Lga;)V
+	METHOD b entityInit ()V
+	METHOD b func_35152_b (I)I
+	METHOD b writeEntityToNBT (Lls;)V
+	METHOD e_ canTriggerWalking ()Z
+	METHOD f_ handleWaterMovement ()Z
+	METHOD j_ func_35153_j_ ()I
+	METHOD q_ onUpdate ()V
+	FIELD a field_35159_a I
+	FIELD b field_35157_b I
+	FIELD c field_35158_c I
+	FIELD d field_35156_e I
+	FIELD e field_35154_f I

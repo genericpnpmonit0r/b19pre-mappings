@@ -1,0 +1,3 @@
+CLASS on net/minecraft/src/ItemSeeds
+	METHOD a onItemUse (Lhz;Lga;Lep;IIII)Z
+	FIELD a field_271_a I

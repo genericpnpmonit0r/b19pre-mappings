@@ -1,14 +1,4 @@
 CLASS fq net/minecraft/src/StatList
-	METHOD a func_27360_a ()V
-	METHOD a func_27361_a (I)Ladw;
-	METHOD a initMinableStats (Ljava/lang/String;I)[Ladw;
-	METHOD a replaceAllSimilarBlocks ([Ladw;)V
-	METHOD a replaceSimilarBlocks ([Ladw;II)V
-	METHOD a initUsableStats ([Ladw;Ljava/lang/String;III)[Ladw;
-	METHOD b initBreakableStats ()V
-	METHOD b func_25149_b ([Ladw;Ljava/lang/String;III)[Ladw;
-	METHOD c initStats ()V
-	METHOD d initCraftableStats ()V
 	FIELD A playerKillsStat Ladw;
 	FIELD B fishCaughtStat Ladw;
 	FIELD C mineBlockStatArray [Ladw;
@@ -43,3 +33,13 @@ CLASS fq net/minecraft/src/StatList
 	FIELD x damageTakenStat Ladw;
 	FIELD y deathsStat Ladw;
 	FIELD z mobKillsStat Ladw;
+	METHOD a func_27360_a ()V
+	METHOD a func_27361_a (I)Ladw;
+	METHOD a initMinableStats (Ljava/lang/String;I)[Ladw;
+	METHOD a replaceAllSimilarBlocks ([Ladw;)V
+	METHOD a replaceSimilarBlocks ([Ladw;II)V
+	METHOD a initUsableStats ([Ladw;Ljava/lang/String;III)[Ladw;
+	METHOD b initBreakableStats ()V
+	METHOD b func_25149_b ([Ladw;Ljava/lang/String;III)[Ladw;
+	METHOD c initStats ()V
+	METHOD d initCraftableStats ()V

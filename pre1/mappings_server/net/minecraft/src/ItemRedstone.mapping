@@ -1,0 +1,2 @@
+CLASS hh net/minecraft/src/ItemRedstone
+	METHOD a onItemUse (Lhz;Lga;Lep;IIII)Z

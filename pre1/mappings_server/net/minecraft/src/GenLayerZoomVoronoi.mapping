@@ -1,0 +1,2 @@
+CLASS ja net/minecraft/src/GenLayerZoomVoronoi
+	METHOD a func_35018_a (IIII)[I

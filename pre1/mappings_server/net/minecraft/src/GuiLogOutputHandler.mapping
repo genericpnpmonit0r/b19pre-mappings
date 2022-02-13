@@ -1,0 +1,5 @@
+CLASS dg net/minecraft/src/GuiLogOutputHandler
+	FIELD a field_999_a Ljava/util/logging/Formatter;
+	FIELD b field_998_b [I
+	FIELD c field_1001_c I
+	FIELD d field_1000_d Ljavax/swing/JTextArea;

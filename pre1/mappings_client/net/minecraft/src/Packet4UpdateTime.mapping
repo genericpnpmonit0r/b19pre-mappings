@@ -1,6 +1,6 @@
 CLASS ur net/minecraft/src/Packet4UpdateTime
+	FIELD a time J
 	METHOD a getPacketSize ()I
 	METHOD a readPacketData (Ljava/io/DataInputStream;)V
 	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
 	METHOD a processPacket (Llt;)V
-	FIELD a time J

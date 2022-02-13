@@ -1,0 +1,3 @@
+CLASS qi net/minecraft/src/GenLayerVillageLandscape
+	METHOD a func_35018_a (IIII)[I
+	FIELD b field_35029_b [Liz;

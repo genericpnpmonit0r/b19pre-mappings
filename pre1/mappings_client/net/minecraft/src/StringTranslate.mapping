@@ -1,7 +1,11 @@
 CLASS yj net/minecraft/src/StringTranslate
-	METHOD a getInstance ()Lyj;
-	METHOD a translateKey (Ljava/lang/String;)Ljava/lang/String;
-	METHOD a translateKeyFormat (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-	METHOD b translateNamedKey (Ljava/lang/String;)Ljava/lang/String;
 	FIELD a instance Lyj;
 	FIELD b translateTable Ljava/util/Properties;
+	METHOD a getInstance ()Lyj;
+	METHOD a translateKey (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 key
+	METHOD a translateKeyFormat (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+		ARG 1 key
+		ARG 2 value
+	METHOD b translateNamedKey (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 key

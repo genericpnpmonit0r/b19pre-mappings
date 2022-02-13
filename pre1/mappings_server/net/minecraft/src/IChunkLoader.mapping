@@ -1,0 +1,13 @@
+CLASS az net/minecraft/src/IChunkLoader
+	METHOD a chunkTick ()V
+	METHOD a loadChunk (Lep;II)Ljv;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 z
+	METHOD a saveChunk (Lep;Ljv;)V
+		ARG 1 world
+		ARG 2 chunk
+	METHOD b saveExtraData ()V
+	METHOD b saveExtraChunkData (Lep;Ljv;)V
+		ARG 1 world
+		ARG 2 chunk

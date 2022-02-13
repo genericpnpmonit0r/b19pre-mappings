@@ -1,0 +1,22 @@
+CLASS bo net/minecraft/src/Vec3D
+	METHOD a initialize ()V
+	METHOD a createVectorHelper (DDD)Lbo;
+	METHOD a func_35571_a (F)V
+	METHOD a func_35570_a (Lbo;)D
+	METHOD a getIntermediateWithXValue (Lbo;D)Lbo;
+	METHOD b normalize ()Lbo;
+	METHOD b createVector (DDD)Lbo;
+	METHOD b func_35572_b (F)V
+	METHOD b distanceTo (Lbo;)D
+	METHOD b getIntermediateWithYValue (Lbo;D)Lbo;
+	METHOD c lengthVector ()D
+	METHOD c addVector (DDD)Lbo;
+	METHOD c squareDistanceTo (Lbo;)D
+	METHOD c getIntermediateWithZValue (Lbo;D)Lbo;
+	METHOD d squareDistanceTo (DDD)D
+	METHOD e setComponents (DDD)Lbo;
+	FIELD a xCoord D
+	FIELD b yCoord D
+	FIELD c zCoord D
+	FIELD d vectorList Ljava/util/List;
+	FIELD e nextVector I

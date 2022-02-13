@@ -1,0 +1,15 @@
+CLASS bp net/minecraft/src/EnumToolMaterial
+	METHOD a getMaxUses ()I
+	METHOD b getEfficiencyOnProperMaterial ()F
+	METHOD c getDamageVsEntity ()I
+	METHOD d getHarvestLevel ()I
+	FIELD a WOOD Lbp;
+	FIELD b STONE Lbp;
+	FIELD c IRON Lbp;
+	FIELD d EMERALD Lbp;
+	FIELD e GOLD Lbp;
+	FIELD f harvestLevel I
+	FIELD g maxUses I
+	FIELD h efficiencyOnProperMaterial F
+	FIELD i damageVsEntity I
+	FIELD j allToolMaterials [Lbp;

@@ -1,4 +1,11 @@
 CLASS zk net/minecraft/src/PlayerControllerSP
+	FIELD c curBlockX I
+	FIELD d curBlockY I
+	FIELD e curBlockZ I
+	FIELD f curBlockDamage F
+	FIELD g prevBlockDamage F
+	FIELD h field_1069_h F
+	FIELD i blockHitWait I
 	METHOD a resetBlockRemoving ()V
 	METHOD a setPartialTime (F)V
 	METHOD a clickBlock (IIII)V
@@ -12,10 +19,3 @@ CLASS zk net/minecraft/src/PlayerControllerSP
 	METHOD c sendBlockRemoving (IIII)V
 	METHOD d shouldDrawHUD ()Z
 	METHOD f func_35642_f ()Z
-	FIELD c curBlockX I
-	FIELD d curBlockY I
-	FIELD e curBlockZ I
-	FIELD f curBlockDamage F
-	FIELD g prevBlockDamage F
-	FIELD h field_1069_h F
-	FIELD i blockHitWait I

@@ -1,0 +1,8 @@
+CLASS by EntityFireball
+	METHOD a readEntityFromNBT (Lls;)V
+	METHOD a attackEntityFrom (Lns;I)Z
+	METHOD b entityInit ()V
+	METHOD b getEntityBrightness (F)F
+	METHOD b writeEntityToNBT (Lls;)V
+	METHOD c_ canBeCollidedWith ()Z
+	METHOD q_ onUpdate ()V

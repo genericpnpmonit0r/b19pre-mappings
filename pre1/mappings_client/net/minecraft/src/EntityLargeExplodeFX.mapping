@@ -1,9 +1,9 @@
 CLASS gy net/minecraft/src/EntityLargeExplodeFX
-	METHOD a renderParticle (Lyu;FFFFFF)V
-	METHOD c getEntityBrightnessForRender (F)I
-	METHOD m getFXLayer ()I
-	METHOD w_ onUpdate ()V
 	FIELD aA field_35131_aA F
 	FIELD a field_35130_a I
 	FIELD ay field_35129_ay I
 	FIELD az field_35128_az Lwd;
+	METHOD a renderParticle (Lyu;FFFFFF)V
+	METHOD c getEntityBrightnessForRender (F)I
+	METHOD m getFXLayer ()I
+	METHOD w_ onUpdate ()V

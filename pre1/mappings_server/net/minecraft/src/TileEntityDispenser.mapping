@@ -1,0 +1,15 @@
+CLASS ax net/minecraft/src/TileEntityDispenser
+	METHOD a getSizeInventory ()I
+	METHOD a decrStackSize (II)Lhz;
+	METHOD a setInventorySlotContents (ILhz;)V
+	METHOD a canInteractWith (Lga;)Z
+	METHOD a readFromNBT (Lls;)V
+	METHOD b getRandomStackFromInventory ()Lhz;
+	METHOD b writeToNBT (Lls;)V
+	METHOD b_ getStackInSlot (I)Lhz;
+	METHOD c getInvName ()Ljava/lang/String;
+	METHOD d getInventoryStackLimit ()I
+	METHOD e func_35161_e ()V
+	METHOD r_ func_35162_t_ ()V
+	FIELD a dispenserContents [Lhz;
+	FIELD b dispenserRandom Ljava/util/Random;

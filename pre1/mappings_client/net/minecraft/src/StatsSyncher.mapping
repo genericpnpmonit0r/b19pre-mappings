@@ -1,4 +1,17 @@
 CLASS rn net/minecraft/src/StatsSyncher
+	FIELD a isBusy Z
+	FIELD b field_27437_b Ljava/util/Map;
+	FIELD c field_27436_c Ljava/util/Map;
+	FIELD d statFileWriter Lafa;
+	FIELD e unsentDataFile Ljava/io/File;
+	FIELD f dataFile Ljava/io/File;
+	FIELD g unsentTempFile Ljava/io/File;
+	FIELD h tempFile Ljava/io/File;
+	FIELD i unsentOldFile Ljava/io/File;
+	FIELD j oldFile Ljava/io/File;
+	FIELD k theSession Leb;
+	FIELD l field_27427_l I
+	FIELD m field_27426_m I
 	METHOD a beginReceiveStats ()V
 	METHOD a func_27408_a (Ljava/io/File;)Ljava/util/Map;
 	METHOD a func_27415_a (Ljava/io/File;Ljava/io/File;Ljava/io/File;)Ljava/util/Map;
@@ -19,16 +32,3 @@ CLASS rn net/minecraft/src/StatsSyncher
 	METHOD e getUnsentDataFile (Lrn;)Ljava/io/File;
 	METHOD f getUnsentTempFile (Lrn;)Ljava/io/File;
 	METHOD g getUnsentOldFile (Lrn;)Ljava/io/File;
-	FIELD a isBusy Z
-	FIELD b field_27437_b Ljava/util/Map;
-	FIELD c field_27436_c Ljava/util/Map;
-	FIELD d statFileWriter Lafa;
-	FIELD e unsentDataFile Ljava/io/File;
-	FIELD f dataFile Ljava/io/File;
-	FIELD g unsentTempFile Ljava/io/File;
-	FIELD h tempFile Ljava/io/File;
-	FIELD i unsentOldFile Ljava/io/File;
-	FIELD j oldFile Ljava/io/File;
-	FIELD k theSession Leb;
-	FIELD l field_27427_l I
-	FIELD m field_27426_m I

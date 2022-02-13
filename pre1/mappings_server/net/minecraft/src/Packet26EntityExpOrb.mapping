@@ -1,0 +1,10 @@
+CLASS nc net/minecraft/src/Packet26EntityExpOrb
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lqf;)V
+	FIELD a field_35125_a I
+	FIELD b field_35123_b I
+	FIELD c field_35124_c I
+	FIELD d field_35121_d I
+	FIELD e field_35122_e I

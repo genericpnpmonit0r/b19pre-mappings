@@ -1,0 +1,4 @@
+CLASS ds net/minecraft/src/ICrafting
+	METHOD a updateCraftingInventoryInfo (Ldm;II)V
+	METHOD a updateCraftingInventorySlot (Ldm;ILhz;)V
+	METHOD a updateCraftingInventory (Ldm;Ljava/util/List;)V

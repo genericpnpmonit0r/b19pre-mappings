@@ -1,5 +1,9 @@
 CLASS aah net/minecraft/src/SlotArmor
-	METHOD b isItemValid (Lvw;)Z
-	METHOD d getSlotStackLimit ()I
 	FIELD e armorType I
 	FIELD f inventory Ls;
+	METHOD <init> (Ls;Lha;IIII)V
+		ARG 1 playerInventory
+		ARG 2 inventory
+		ARG 6 type
+	METHOD b isItemValid (Lvw;)Z
+	METHOD d getSlotStackLimit ()I

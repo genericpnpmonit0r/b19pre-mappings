@@ -1,0 +1,17 @@
+CLASS gr net/minecraft/src/EntityItem
+	METHOD a dealFireDamage (I)V
+	METHOD a readEntityFromNBT (Lls;)V
+	METHOD a attackEntityFrom (Lns;I)Z
+	METHOD a_ onCollideWithPlayer (Lga;)V
+	METHOD aa func_35150_Y ()Ljava/lang/String;
+	METHOD b entityInit ()V
+	METHOD b writeEntityToNBT (Lls;)V
+	METHOD e_ canTriggerWalking ()Z
+	METHOD f_ handleWaterMovement ()Z
+	METHOD q_ onUpdate ()V
+	FIELD a item Lhz;
+	FIELD b age I
+	FIELD c delayBeforeCanPickup I
+	FIELD d field_432_ae F
+	FIELD e field_9170_e I
+	FIELD f health I

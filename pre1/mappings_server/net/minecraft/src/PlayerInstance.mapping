@@ -1,0 +1,20 @@
+CLASS af net/minecraft/src/PlayerInstance
+	METHOD a onUpdate ()V
+	METHOD a markBlockNeedsUpdate (III)V
+	METHOD a addPlayer (Les;)V
+	METHOD a sendPacketToPlayersInInstance (Ljc;)V
+	METHOD a updateTileEntity (Lms;)V
+	METHOD b removePlayer (Les;)V
+	FIELD a playerManager Ltx;
+	FIELD b players Ljava/util/List;
+	FIELD c chunkX I
+	FIELD d chunkZ I
+	FIELD e currentChunk Lvs;
+	FIELD f blocksToUpdate [S
+	FIELD g numBlocksToUpdate I
+	FIELD h minX I
+	FIELD i maxX I
+	FIELD j minY I
+	FIELD k maxY I
+	FIELD l minZ I
+	FIELD m maxZ I

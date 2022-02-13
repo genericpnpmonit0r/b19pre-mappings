@@ -1,0 +1,4 @@
+CLASS fo net/minecraft/src/WorldGenSand
+	METHOD a generate (Lep;Ljava/util/Random;III)Z
+	FIELD a field_35291_a I
+	FIELD b field_35290_b I

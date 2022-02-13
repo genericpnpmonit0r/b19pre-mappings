@@ -1,0 +1,4 @@
+CLASS jf net/minecraft/src/BlockLockedChest
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a updateTick (Lep;IIILjava/util/Random;)V
+	METHOD c canPlaceBlockAt (Lep;III)Z

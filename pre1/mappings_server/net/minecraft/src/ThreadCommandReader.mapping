@@ -1,0 +1,2 @@
+CLASS cl net/minecraft/src/ThreadCommandReader
+	FIELD a mcServer Lnet/minecraft/server/MinecraftServer;

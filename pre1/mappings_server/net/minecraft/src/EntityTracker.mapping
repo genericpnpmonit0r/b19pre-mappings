@@ -1,0 +1,14 @@
+CLASS sd net/minecraft/src/EntityTracker
+	METHOD a updateTrackedEntities ()V
+	METHOD a removeTrackedPlayerSymmetric (Les;)V
+	METHOD a trackEntity (Lpp;)V
+	METHOD a trackEntity (Lpp;II)V
+	METHOD a trackEntity (Lpp;IIZ)V
+	METHOD a sendPacketToTrackedPlayers (Lpp;Ljc;)V
+	METHOD b untrackEntity (Lpp;)V
+	METHOD b sendPacketToTrackedPlayersAndTrackedEntity (Lpp;Ljc;)V
+	FIELD a trackedEntitySet Ljava/util/Set;
+	FIELD b trackedEntityHashTable Liu;
+	FIELD c mcServer Lnet/minecraft/server/MinecraftServer;
+	FIELD d maxTrackingDistanceThreshold I
+	FIELD e field_28113_e I

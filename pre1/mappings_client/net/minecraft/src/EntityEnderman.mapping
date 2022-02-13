@@ -1,4 +1,8 @@
 CLASS hp net/minecraft/src/EntityEnderman
+	FIELD a isAttacking Z
+	FIELD b canCarryBlocks [Z
+	FIELD d teleportDelay I
+	FIELD e field_35185_e I
 	METHOD a readEntityFromNBT (Lyr;)V
 	METHOD a dropFewItems (Z)V
 	METHOD a_ teleportTo (DDD)Z
@@ -19,7 +23,3 @@ CLASS hp net/minecraft/src/EntityEnderman
 	METHOD o teleportRandomly ()Z
 	METHOD p getCarried ()I
 	METHOD q getCarryingData ()I
-	FIELD a isAttacking Z
-	FIELD b canCarryBlocks [Z
-	FIELD d teleportDelay I
-	FIELD e field_35185_e I

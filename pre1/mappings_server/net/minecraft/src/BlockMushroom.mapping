@@ -1,0 +1,5 @@
+CLASS qh net/minecraft/src/BlockMushroom
+	METHOD a updateTick (Lep;IIILjava/util/Random;)V
+	METHOD b func_35065_b (Lep;IIILjava/util/Random;)Z
+	METHOD c canThisPlantGrowOnThisBlockID (I)Z
+	METHOD f canBlockStay (Lep;III)Z

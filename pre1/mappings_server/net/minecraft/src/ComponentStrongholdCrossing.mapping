@@ -1,0 +1,9 @@
+CLASS sk net/minecraft/src/ComponentStrongholdCrossing
+	METHOD a func_35310_a (Lep;Ljava/util/Random;Lst;)Z
+	METHOD a func_35308_a (Liv;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a func_35350_a (Ljava/util/List;Ljava/util/Random;IIIII)Lsk;
+	FIELD a field_35355_a Lnw;
+	FIELD b field_35353_b Z
+	FIELD c field_35354_c Z
+	FIELD d field_35351_d Z
+	FIELD e field_35352_e Z

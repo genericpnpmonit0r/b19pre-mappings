@@ -1,0 +1,9 @@
+CLASS rq net/minecraft/src/BlockFenceGate
+	METHOD a isOpaqueCube ()Z
+	METHOD a blockActivated (Lep;IIILga;)Z
+	METHOD a onBlockPlacedBy (Lep;IIILjz;)V
+	METHOD b isACube ()Z
+	METHOD c func_35070_c (I)Z
+	METHOD c canPlaceBlockAt (Lep;III)Z
+	METHOD d func_35071_d (I)I
+	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;

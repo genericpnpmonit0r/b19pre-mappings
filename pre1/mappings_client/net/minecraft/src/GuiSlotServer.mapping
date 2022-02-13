@@ -1,5 +1,5 @@
 CLASS nm net/minecraft/src/GuiSlotServer
-	FIELD a field_35410_a Lxo;
+	FIELD a multiplayerGui Lxo;
 	METHOD <init> (Lxo;)V
 		ARG 1 guiMP
 	METHOD a getSize ()I
