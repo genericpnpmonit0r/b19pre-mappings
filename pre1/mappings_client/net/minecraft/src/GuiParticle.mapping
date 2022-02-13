@@ -1,5 +1,8 @@
 CLASS si net/minecraft/src/GuiParticle
-	METHOD a update ()V
-	METHOD a draw (F)V
 	FIELD a particles Ljava/util/List;
 	FIELD b mc Lnet/minecraft/client/Minecraft;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD a update ()V
+	METHOD a draw (F)V
+		ARG 1 layer

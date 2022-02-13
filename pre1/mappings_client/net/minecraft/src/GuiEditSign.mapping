@@ -1,12 +1,14 @@
 CLASS afn net/minecraft/src/GuiEditSign
+	FIELD a screenTitle Ljava/lang/String;
+	FIELD b entitySign Lpf;
+	FIELD c updateCounter I
+	FIELD d editLine I
+	FIELD f allowedCharacters Ljava/lang/String;
+	METHOD <init> (Lpf;)V
+		ARG 1 tileEntitySign
 	METHOD a initGui ()V
 	METHOD a keyTyped (CI)V
 	METHOD a drawScreen (IIF)V
 	METHOD a actionPerformed (Lwv;)V
 	METHOD d onGuiClosed ()V
 	METHOD p_ updateScreen ()V
-	FIELD a screenTitle Ljava/lang/String;
-	FIELD b entitySign Lpf;
-	FIELD c updateCounter I
-	FIELD d editLine I
-	FIELD f allowedCharacters Ljava/lang/String;

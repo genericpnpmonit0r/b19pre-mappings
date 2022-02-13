@@ -1,24 +1,30 @@
 CLASS tg net/minecraft/src/GuiCreateWorld
+	FIELD a parentGuiScreen Lrx;
+	FIELD b guiTextFieldWorldName Labh;
+	FIELD c guiTextFieldSeed Labh;
+	FIELD d folderName Ljava/lang/String;
+	FIELD f gameModeName Ljava/lang/String;
+	FIELD g onOffFlag Z
+	FIELD h createClicked Z
+	FIELD i worldNameFieldClicked Z
+	FIELD j gameModeButton Lwv;
+	FIELD k moreWorldOptionsButton Lwv;
+	FIELD s mapFeaturesButton Lwv;
+	FIELD t mapTypeButton Lwv;
+	FIELD u gameModeString1 Ljava/lang/String;
+	FIELD v gameModeString2 Ljava/lang/String;
+	METHOD <init> (Lrx;)V
+		ARG 1 screen
 	METHOD a initGui ()V
 	METHOD a keyTyped (CI)V
 	METHOD a drawScreen (IIF)V
 	METHOD a mouseClicked (III)V
 	METHOD a generateUnusedFolderName (Lij;Ljava/lang/String;)Ljava/lang/String;
+		ARG 0 saveFormat
+		ARG 1 worldName
 	METHOD a actionPerformed (Lwv;)V
 	METHOD c makeUseableName ()V
 	METHOD d onGuiClosed ()V
 	METHOD g func_35363_g ()V
 	METHOD l selectNextField ()V
 	METHOD p_ updateScreen ()V
-	FIELD a parentGuiScreen Lrx;
-	FIELD d folderName Ljava/lang/String;
-	FIELD f field_35364_f Ljava/lang/String;
-	FIELD g field_35365_g Z
-	FIELD h createClicked Z
-	FIELD i field_35368_i Z
-	FIELD j field_35366_j Lwv;
-	FIELD k field_35367_k Lwv;
-	FIELD s field_35372_s Lwv;
-	FIELD t field_35371_t Lwv;
-	FIELD u field_35370_u Ljava/lang/String;
-	FIELD v field_35369_v Ljava/lang/String;

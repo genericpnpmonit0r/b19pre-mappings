@@ -1,8 +1,8 @@
 CLASS kr net/minecraft/src/ImageBufferDownload
-	METHOD a func_885_a (IIII)V
-	METHOD a parseUserSkin (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
-	METHOD b func_884_b (IIII)V
-	METHOD c func_886_c (IIII)Z
 	FIELD a imageData [I
 	FIELD b imageWidth I
 	FIELD c imageHeight I
+	METHOD a setAreaTransparent (IIII)V
+	METHOD a parseUserSkin (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+	METHOD b setAreaOpaque (IIII)V
+	METHOD c hasTransparency (IIII)Z

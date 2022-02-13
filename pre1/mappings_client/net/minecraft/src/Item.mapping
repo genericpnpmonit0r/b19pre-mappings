@@ -161,6 +161,7 @@ CLASS ue net/minecraft/src/Item
 		ARG 2 world
 		ARG 3 entity
 		ARG 4 id
+		ARG 5 updateMapDataFlag
 	METHOD a onItemRightClick (Lvw;Ltd;Lui;)Lvw;
 		ARG 1 itemStack
 		ARG 2 world

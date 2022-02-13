@@ -1,23 +1,4 @@
 CLASS kq net/minecraft/src/GuiSelectWorld
-	METHOD a initGui ()V
-	METHOD a getSaveFileName (I)Ljava/lang/String;
-	METHOD a drawScreen (IIF)V
-	METHOD a getSize (Lkq;)Ljava/util/List;
-	METHOD a onElementSelected (Lkq;I)I
-	METHOD a actionPerformed (Lwv;)V
-	METHOD a deleteWorld (ZI)V
-	METHOD b getSaveName (I)Ljava/lang/String;
-	METHOD b getSelectedWorld (Lkq;)I
-	METHOD c initButtons ()V
-	METHOD c selectWorld (I)V
-	METHOD c getSelectButton (Lkq;)Lwv;
-	METHOD d getDeleteButton (Lkq;)Lwv;
-	METHOD e getRenameButton (Lkq;)Lwv;
-	METHOD f func_22087_f (Lkq;)Ljava/lang/String;
-	METHOD g loadSaves ()V
-	METHOD g getDateFormatter (Lkq;)Ljava/text/DateFormat;
-	METHOD h func_22088_h (Lkq;)Ljava/lang/String;
-	METHOD i func_35315_i (Lkq;)[Ljava/lang/String;
 	FIELD a parentScreen Lrx;
 	FIELD b screenTitle Ljava/lang/String;
 	FIELD c dateFormatter Ljava/text/DateFormat;
@@ -32,3 +13,27 @@ CLASS kq net/minecraft/src/GuiSelectWorld
 	FIELD t buttonDelete Lwv;
 	FIELD u buttonSelect Lwv;
 	FIELD v buttonRename Lwv;
+	METHOD <init> (Lrx;)V
+		ARG 1 screen
+	METHOD a initGui ()V
+	METHOD a getSaveFileName (I)Ljava/lang/String;
+		ARG 1 index
+	METHOD a drawScreen (IIF)V
+	METHOD a getSize (Lkq;)Ljava/util/List;
+	METHOD a onElementSelected (Lkq;I)I
+	METHOD a actionPerformed (Lwv;)V
+	METHOD a deleteWorld (ZI)V
+	METHOD b getSaveName (I)Ljava/lang/String;
+		ARG 1 index
+	METHOD b getSelectedWorld (Lkq;)I
+	METHOD c initButtons ()V
+	METHOD c selectWorld (I)V
+		ARG 1 index
+	METHOD c getSelectButton (Lkq;)Lwv;
+	METHOD d getDeleteButton (Lkq;)Lwv;
+	METHOD e getRenameButton (Lkq;)Lwv;
+	METHOD f func_22087_f (Lkq;)Ljava/lang/String;
+	METHOD g loadSaves ()V
+	METHOD g getDateFormatter (Lkq;)Ljava/text/DateFormat;
+	METHOD h func_22088_h (Lkq;)Ljava/lang/String;
+	METHOD i func_35315_i (Lkq;)[Ljava/lang/String;

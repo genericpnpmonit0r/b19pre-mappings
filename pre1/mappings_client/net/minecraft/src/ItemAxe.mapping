@@ -1,2 +1,5 @@
 CLASS lo net/minecraft/src/ItemAxe
 	FIELD b blocksEffectiveAgainst [Lmn;
+	METHOD <init> (ILra;)V
+		ARG 1 id
+		ARG 2 toolMaterial

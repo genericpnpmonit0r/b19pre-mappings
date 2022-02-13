@@ -1,3 +1,6 @@
 CLASS aed net/minecraft/src/ItemSpade
-	METHOD a canHarvestBlock (Lmn;)Z
 	FIELD b blocksEffectiveAgainst [Lmn;
+	METHOD <init> (ILra;)V
+		ARG 1 id
+		ARG 2 toolMaterial
+	METHOD a canHarvestBlock (Lmn;)Z

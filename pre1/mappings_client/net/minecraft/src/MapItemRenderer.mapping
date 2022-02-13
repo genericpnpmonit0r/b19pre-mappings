@@ -1,6 +1,13 @@
 CLASS vu net/minecraft/src/MapItemRenderer
-	METHOD a renderMap (Lui;Lwd;Lvs;)V
 	FIELD a intArray [I
 	FIELD b bufferedImage I
 	FIELD c gameSettings Lgj;
 	FIELD d fontRenderer Llc;
+	METHOD <init> (Llc;Lgj;Lwd;)V
+		ARG 1 fontRenderer
+		ARG 2 settings
+		ARG 3 renderer
+	METHOD a renderMap (Lui;Lwd;Lvs;)V
+		ARG 1 player
+		ARG 2 renderer
+		ARG 3 data

@@ -1,6 +1,13 @@
 CLASS og net/minecraft/src/ItemMap
 	METHOD a updateMapData (Ltd;Lle;Lvs;)V
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 mapData
 	METHOD a getMapData (Lvw;Ltd;)Lvs;
+		ARG 1 itemStack
+		ARG 2 world
 	METHOD a onUpdate (Lvw;Ltd;Lle;IZ)V
 	METHOD a getMPMapData (SLtd;)Lvs;
+		ARG 0 mapCount
+		ARG 1 world
 	METHOD c onCreated (Lvw;Ltd;Lui;)V

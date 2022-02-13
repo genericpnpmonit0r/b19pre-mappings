@@ -3,5 +3,8 @@ CLASS lb net/minecraft/src/MapInfo
 	FIELD b field_28119_b [I
 	FIELD c field_28124_c [I
 	FIELD d mapDataObj Lvs;
-	FIELD e field_28122_e I
-	FIELD f field_28121_f I
+	FIELD e currentNum I
+	FIELD f ticksUntilPlayerLocationMapUpdate I
+	METHOD <init> (Lvs;Lui;)V
+		ARG 1 data
+		ARG 2 player

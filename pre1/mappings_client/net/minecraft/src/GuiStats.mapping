@@ -1,6 +1,19 @@
 CLASS cl net/minecraft/src/GuiStats
+	FIELD a parentGui Lrx;
+	FIELD b statsTitle Ljava/lang/String;
+	FIELD c renderItem Lqo;
+	FIELD d slotGeneral Llj;
+	FIELD f slotItem Lbf;
+	FIELD g slotBlock Lds;
+	FIELD h statFileWriter Lafa;
+	FIELD i selectedSlot Lgs;
+	METHOD <init> (Lrx;Lafa;)V
+		ARG 1 screen
+		ARG 2 statfilewriter
 	METHOD a initGui ()V
 	METHOD a drawButtonBackground (II)V
+		ARG 1 x
+		ARG 2 y
 	METHOD a drawScreen (IIF)V
 	METHOD a getMinecraft (Lcl;)Lnet/minecraft/client/Minecraft;
 	METHOD a drawItemSprite (Lcl;III)V
@@ -11,7 +24,14 @@ CLASS cl net/minecraft/src/GuiStats
 	METHOD b getFontRenderer1 (Lcl;)Llc;
 	METHOD b drawGradientRect1 (Lcl;IIIIII)V
 	METHOD c drawItemSprite (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 layer
 	METHOD c drawSprite (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 i
+		ARG 4 j
 	METHOD c getStatsFileWriter (Lcl;)Lafa;
 	METHOD d getFontRenderer2 (Lcl;)Llc;
 	METHOD e getFontRenderer3 (Lcl;)Llc;
@@ -25,11 +45,3 @@ CLASS cl net/minecraft/src/GuiStats
 	METHOD m getFontRenderer9 (Lcl;)Llc;
 	METHOD n getFontRenderer10 (Lcl;)Llc;
 	METHOD o getFontRenderer11 (Lcl;)Llc;
-	FIELD a parentGui Lrx;
-	FIELD b statsTitle Ljava/lang/String;
-	FIELD c renderItem Lqo;
-	FIELD d slotGeneral Llj;
-	FIELD f slotItem Lbf;
-	FIELD g slotBlock Lds;
-	FIELD h statFileWriter Lafa;
-	FIELD i selectedSlot Lgs;

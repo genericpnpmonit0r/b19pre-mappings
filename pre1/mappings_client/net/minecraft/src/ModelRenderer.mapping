@@ -1,3 +1,4 @@
 CLASS nv net/minecraft/src/ModelRenderer
+	FIELD i mirror Z
 	METHOD a setRotationPoint (FFF)V
 	METHOD a addBox (FFFIIIF)V

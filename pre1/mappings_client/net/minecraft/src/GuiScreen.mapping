@@ -26,6 +26,8 @@ CLASS rx net/minecraft/src/GuiScreen
 	METHOD a actionPerformed (Lwv;)V
 		ARG 1 button
 	METHOD a deleteWorld (ZI)V
+		ARG 1 join
+		ARG 2 index
 	METHOD b mouseMovedOrUp (III)V
 		ARG 1 x
 		ARG 2 y

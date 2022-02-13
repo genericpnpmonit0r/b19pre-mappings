@@ -1,4 +1,8 @@
 CLASS ko net/minecraft/src/ItemSeeds
-	METHOD a onItemUse (Lvw;Lui;Ltd;IIII)Z
 	FIELD a blockType I
-	FIELD b field_40438_b I
+	FIELD b blockTypeToSet I
+	METHOD <init> (III)V
+		ARG 1 id
+		ARG 2 blockType
+		ARG 3 blockType2
+	METHOD a onItemUse (Lvw;Lui;Ltd;IIII)Z

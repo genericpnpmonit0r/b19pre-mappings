@@ -1,12 +1,36 @@
 CLASS xo net/minecraft/src/GuiMultiplayer
+	FIELD a threadsPending I
+	FIELD b lock Ljava/lang/Object;
+	FIELD c parentScreen Lrx;
+	FIELD d serverSlotContainer Lnm;
+	FIELD f serverList Ljava/util/List;
+	FIELD g selectedServer I
+	FIELD h buttonEdit Lwv;
+	FIELD i buttonSelect Lwv;
+	FIELD j buttonDelete Lwv;
+	FIELD k deleteClicked Z
+	FIELD s addClicked Z
+	FIELD t editClicked Z
+	FIELD u directClicked Z
+	FIELD v serverName Ljava/lang/String;
+	FIELD w tempServer Llq;
+	METHOD <init> (Lrx;)V
+		ARG 1 screen
 	METHOD a initGui ()V
 	METHOD a keyTyped (CI)V
 	METHOD a joinServer (I)V
+		ARG 1 index
 	METHOD a drawScreen (IIF)V
 	METHOD a mouseClicked (III)V
 	METHOD a parseIntWithDefault (Ljava/lang/String;I)I
-	METHOD a func_35325_a (Ljava/lang/String;II)V
+		ARG 1 hostname
+		ARG 2 i
+	METHOD a drawTooltip (Ljava/lang/String;II)V
+		ARG 1 string
+		ARG 2 x
+		ARG 3 y
 	METHOD a joinServer (Llq;)V
+		ARG 1 serverNBTStorage
 	METHOD a actionPerformed (Lwv;)V
 	METHOD a getServerList (Lxo;)Ljava/util/List;
 	METHOD a setSelectedServer (Lxo;I)I
@@ -14,6 +38,7 @@ CLASS xo net/minecraft/src/GuiMultiplayer
 	METHOD a pollServer (Lxo;Llq;)V
 	METHOD a deleteWorld (ZI)V
 	METHOD b pollServer (Llq;)V
+		ARG 1 serverNBTStorage
 	METHOD b getSelectedServer (Lxo;)I
 	METHOD b joinServer (Lxo;I)V
 	METHOD c initGuiControls ()V
@@ -28,18 +53,3 @@ CLASS xo net/minecraft/src/GuiMultiplayer
 	METHOD p loadServerList ()V
 	METHOD p_ updateScreen ()V
 	METHOD q saveServerList ()V
-	FIELD a threadsPending I
-	FIELD b lock Ljava/lang/Object;
-	FIELD c parentScreen Lrx;
-	FIELD d serverSlotContainer Lnm;
-	FIELD f serverList Ljava/util/List;
-	FIELD g selectedServer I
-	FIELD h buttonEdit Lwv;
-	FIELD i buttonSelect Lwv;
-	FIELD j buttonDelete Lwv;
-	FIELD k deleteClicked Z
-	FIELD s addClicked Z
-	FIELD t editClicked Z
-	FIELD u directClicked Z
-	FIELD v field_35350_v Ljava/lang/String;
-	FIELD w tempServer Llq;

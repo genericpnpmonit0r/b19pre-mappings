@@ -1,4 +1,10 @@
 CLASS pq net/minecraft/src/GuiContainerCreative
+	FIELD f inventory Lka;
+	FIELD g field_35312_g F
+	FIELD h field_35313_h Z
+	FIELD i field_35314_i Z
+	METHOD <init> (Lui;)V
+		ARG 1 player
 	METHOD a initGui ()V
 	METHOD a drawGuiContainerBackgroundLayer (F)V
 	METHOD a drawScreen (IIF)V
@@ -8,7 +14,3 @@ CLASS pq net/minecraft/src/GuiContainerCreative
 	METHOD f handleMouseInput ()V
 	METHOD g getInventory ()Lka;
 	METHOD p_ updateScreen ()V
-	FIELD f inventory Lka;
-	FIELD g field_35312_g F
-	FIELD h field_35313_h Z
-	FIELD i field_35314_i Z

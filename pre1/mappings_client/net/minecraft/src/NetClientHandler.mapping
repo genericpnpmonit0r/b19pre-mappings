@@ -1,6 +1,22 @@
 CLASS yh net/minecraft/src/NetClientHandler
+	FIELD a field_1209_a Ljava/lang/String;
+	FIELD b mapStorage Lum;
+	FIELD c field_35786_c Ljava/util/List;
+	FIELD d field_35785_d I
+	FIELD e rand Ljava/util/Random;
+	FIELD f disconnected Z
+	FIELD g netManager Lji;
+	FIELD h mc Lnet/minecraft/client/Minecraft;
+	FIELD i worldClient Lhn;
+	FIELD j field_1210_g Z
+	FIELD k field_35787_k Ljava/util/Map;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 1 minecraft
+		ARG 2 socketInetAddr
+		ARG 3 port
 	METHOD a isServerHandler ()Z
 	METHOD a getEntityByID (I)Lle;
+		ARG 1 id
 	METHOD a handleSpawnPosition (Laba;)V
 	METHOD a handleExplosion (Labf;)V
 	METHOD a handleDestroyEntity (Labl;)V
@@ -52,17 +68,8 @@ CLASS yh net/minecraft/src/NetClientHandler
 	METHOD a handleLogin (Lyx;)V
 	METHOD a handleChat (Lzt;)V
 	METHOD b processReadPackets ()V
-	METHOD b func_28117_a (Lwx;)V
+	METHOD b addToSendQueue2 (Lwx;)V
+		ARG 1 packet
 	METHOD c disconnect ()V
 	METHOD c addToSendQueue (Lwx;)V
-	FIELD a field_1209_a Ljava/lang/String;
-	FIELD b mapStorage Lum;
-	FIELD c field_35786_c Ljava/util/List;
-	FIELD d field_35785_d I
-	FIELD e rand Ljava/util/Random;
-	FIELD f disconnected Z
-	FIELD g netManager Lji;
-	FIELD h mc Lnet/minecraft/client/Minecraft;
-	FIELD i worldClient Lhn;
-	FIELD j field_1210_g Z
-	FIELD k field_35787_k Ljava/util/Map;
+		ARG 1 packet

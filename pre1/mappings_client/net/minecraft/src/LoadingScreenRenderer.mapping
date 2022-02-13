@@ -1,11 +1,15 @@
 CLASS hl net/minecraft/src/LoadingScreenRenderer
-	METHOD a setLoadingProgress (I)V
-	METHOD a printText (Ljava/lang/String;)V
-	METHOD b displaySavingString (Ljava/lang/String;)V
-	METHOD c func_597_c (Ljava/lang/String;)V
-	METHOD d displayLoadingString (Ljava/lang/String;)V
-	FIELD a field_1004_a Ljava/lang/String;
+	FIELD a prevDisplayedText Ljava/lang/String;
 	FIELD b mc Lnet/minecraft/client/Minecraft;
 	FIELD c currentlyDisplayedText Ljava/lang/String;
-	FIELD d field_1006_d J
-	FIELD e field_1005_e Z
+	FIELD d systemTime J
+	FIELD e startedLoading Z
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD a setLoadingProgress (I)V
+	METHOD a printText (Ljava/lang/String;)V
+		ARG 1 text
+	METHOD b displaySavingString (Ljava/lang/String;)V
+	METHOD c setCurrDisplayedText (Ljava/lang/String;)V
+		ARG 1 text
+	METHOD d displayLoadingString (Ljava/lang/String;)V

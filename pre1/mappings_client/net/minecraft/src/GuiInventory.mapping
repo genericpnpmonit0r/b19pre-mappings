@@ -1,9 +1,11 @@
 CLASS acx net/minecraft/src/GuiInventory
+	FIELD f xSize_lo F
+	FIELD g ySize_lo F
+	METHOD <init> (Lui;)V
+		ARG 1 player
 	METHOD a initGui ()V
 	METHOD a drawGuiContainerBackgroundLayer (F)V
 	METHOD a drawScreen (IIF)V
 	METHOD a actionPerformed (Lwv;)V
 	METHOD c drawGuiContainerForegroundLayer ()V
 	METHOD p_ updateScreen ()V
-	FIELD f xSize_lo F
-	FIELD g ySize_lo F

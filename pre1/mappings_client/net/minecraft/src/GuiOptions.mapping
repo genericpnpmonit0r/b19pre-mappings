@@ -1,8 +1,11 @@
 CLASS bm net/minecraft/src/GuiOptions
-	METHOD a initGui ()V
-	METHOD a drawScreen (IIF)V
-	METHOD a actionPerformed (Lwv;)V
 	FIELD a screenTitle Ljava/lang/String;
 	FIELD b parentScreen Lrx;
 	FIELD c options Lgj;
 	FIELD d relevantOptions [Lva;
+	METHOD <init> (Lrx;Lgj;)V
+		ARG 1 guiScreen
+		ARG 2 gameSettings
+	METHOD a initGui ()V
+	METHOD a drawScreen (IIF)V
+	METHOD a actionPerformed (Lwv;)V

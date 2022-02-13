@@ -3,3 +3,8 @@ CLASS aev net/minecraft/src/ThreadConnectToServer
 	FIELD b hostName Ljava/lang/String;
 	FIELD c port I
 	FIELD d connectingGui Lady;
+	METHOD <init> (Lady;Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 1 connectingGui
+		ARG 2 minecraft
+		ARG 3 hostname
+		ARG 4 port

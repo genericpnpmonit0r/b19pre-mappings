@@ -1,5 +1,7 @@
 CLASS sh net/minecraft/src/IRecipe
 	METHOD a getRecipeSize ()I
 	METHOD a matches (Lya;)Z
+		ARG 1 invCrafting
 	METHOD b getRecipeOutput ()Lvw;
 	METHOD b getCraftingResult (Lya;)Lvw;
+		ARG 1 invCrafting

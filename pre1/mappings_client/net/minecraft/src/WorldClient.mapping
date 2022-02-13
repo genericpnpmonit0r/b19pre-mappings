@@ -1,9 +1,15 @@
 CLASS hn net/minecraft/src/WorldClient
-	METHOD a func_709_b (I)Lle;
+	FIELD M blocksToReceive Ljava/util/LinkedList;
+	FIELD N sendQueue Lyh;
+	FIELD O field_20915_C Lmo;
+	FIELD P entityHashSet Lwo;
+	FIELD Q entityList Ljava/util/Set;
+	FIELD R entitySpawnQueue Ljava/util/Set;
+	METHOD a getEntityByID (I)Lle;
 	METHOD a scheduleBlockUpdate (IIIII)V
 	METHOD a invalidateBlockReceiveRegion (IIIIII)V
 	METHOD a doPreChunk (IIZ)V
-	METHOD a func_712_a (ILle;)V
+	METHOD a getEntityId (ILle;)V
 	METHOD a entityJoinedWorld (Lle;)Z
 	METHOD a tickUpdates (Z)Z
 	METHOD b removeEntityFromWorld (I)Lle;
@@ -20,9 +26,3 @@ CLASS hn net/minecraft/src/WorldClient
 	METHOD f updateBlocksAndPlayCaveSounds ()V
 	METHOD g sendQuittingDisconnectingPacket ()V
 	METHOD h updateWeather ()V
-	FIELD M blocksToReceive Ljava/util/LinkedList;
-	FIELD N sendQueue Lyh;
-	FIELD O field_20915_C Lmo;
-	FIELD P entityHashSet Lwo;
-	FIELD Q entityList Ljava/util/Set;
-	FIELD R entitySpawnQueue Ljava/util/Set;

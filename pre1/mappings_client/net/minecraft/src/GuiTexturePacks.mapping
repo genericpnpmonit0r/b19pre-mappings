@@ -1,4 +1,10 @@
 CLASS do net/minecraft/src/GuiTexturePacks
+	FIELD a guiScreen Lrx;
+	FIELD b updateCounterNegative I
+	FIELD c fileLocation Ljava/lang/String;
+	FIELD d guiTexturePackSlot Lbw;
+	METHOD <init> (Lrx;)V
+		ARG 1 screen
 	METHOD a initGui ()V
 	METHOD a drawScreen (IIF)V
 	METHOD a mouseClicked (III)V
@@ -19,7 +25,3 @@ CLASS do net/minecraft/src/GuiTexturePacks
 	METHOD m func_22120_k (Ldo;)Llc;
 	METHOD n func_22125_l (Ldo;)Llc;
 	METHOD p_ updateScreen ()V
-	FIELD a guiScreen Lrx;
-	FIELD b field_6454_o I
-	FIELD c fileLocation Ljava/lang/String;
-	FIELD d guiTexturePackSlot Lbw;

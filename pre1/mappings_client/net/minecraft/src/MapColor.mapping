@@ -16,3 +16,6 @@ CLASS sj net/minecraft/src/MapColor
 	FIELD o woodColor Lsj;
 	FIELD p colorValue I
 	FIELD q colorIndex I
+	METHOD <init> (II)V
+		ARG 1 index
+		ARG 2 value

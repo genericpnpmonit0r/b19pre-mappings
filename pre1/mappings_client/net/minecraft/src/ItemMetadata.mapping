@@ -1,4 +1,7 @@
 CLASS wh net/minecraft/src/ItemMetadata
+	FIELD a theBlock Lmn;
+	METHOD <init> (ILmn;)V
+		ARG 1 id
+		ARG 2 block
 	METHOD a getIconFromDamage (I)I
 	METHOD b getPlacedBlockMetadata (I)I
-	FIELD a field_35437_a Lmn;

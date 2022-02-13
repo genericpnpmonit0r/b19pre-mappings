@@ -1,8 +1,10 @@
 CLASS uu net/minecraft/src/WorldSavedData
+	FIELD a mapName Ljava/lang/String;
+	FIELD b dirty Z
 	METHOD a markDirty ()V
 	METHOD a readFromNBT (Lyr;)V
+		ARG 1 compoundTag
 	METHOD a setDirty (Z)V
 	METHOD b isDirty ()Z
 	METHOD b writeToNBT (Lyr;)V
-	FIELD a mapName Ljava/lang/String;
-	FIELD b dirty Z
+		ARG 1 compoundTag

@@ -1,11 +1,14 @@
 CLASS mj net/minecraft/src/GuiControls
+	FIELD a screenTitle Ljava/lang/String;
+	FIELD b parentScreen Lrx;
+	FIELD c options Lgj;
+	FIELD d buttonId I
+	METHOD <init> (Lrx;Lgj;)V
+		ARG 1 screen
+		ARG 2 settings
 	METHOD a initGui ()V
 	METHOD a keyTyped (CI)V
 	METHOD a drawScreen (IIF)V
 	METHOD a mouseClicked (III)V
 	METHOD a actionPerformed (Lwv;)V
 	METHOD c func_20080_j ()I
-	FIELD a screenTitle Ljava/lang/String;
-	FIELD b parentScreen Lrx;
-	FIELD c options Lgj;
-	FIELD d buttonId I

@@ -1,3 +1,9 @@
 CLASS t net/minecraft/src/GuiSmallButton
-	METHOD a returnEnumOptions ()Lva;
 	FIELD j enumOptions Lva;
+	METHOD <init> (IIILva;Ljava/lang/String;)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 option
+		ARG 5 text
+	METHOD a returnEnumOptions ()Lva;

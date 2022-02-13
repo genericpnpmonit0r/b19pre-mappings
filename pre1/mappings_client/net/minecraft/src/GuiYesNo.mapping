@@ -1,10 +1,17 @@
 CLASS ke net/minecraft/src/GuiYesNo
-	METHOD a initGui ()V
-	METHOD a drawScreen (IIF)V
-	METHOD a actionPerformed (Lwv;)V
 	FIELD a parentScreen Lrx;
 	FIELD b message1 Ljava/lang/String;
 	FIELD c message2 Ljava/lang/String;
 	FIELD d buttonText1 Ljava/lang/String;
 	FIELD f buttonText2 Ljava/lang/String;
 	FIELD g worldNumber I
+	METHOD <init> (Lrx;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
+		ARG 1 parent
+		ARG 2 msg1
+		ARG 3 msg2
+		ARG 4 buttonTxt1
+		ARG 5 buttonTxt2
+		ARG 6 worldNum
+	METHOD a initGui ()V
+	METHOD a drawScreen (IIF)V
+	METHOD a actionPerformed (Lwv;)V
