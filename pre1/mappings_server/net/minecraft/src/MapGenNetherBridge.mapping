@@ -1,0 +1,5 @@
+CLASS je net/minecraft/src/MapGenNetherBridge
+	FIELD a spawnList Ljava/util/List;
+	METHOD a getSpawnList ()Ljava/util/List;
+	METHOD a func_35531_a (II)Z
+	METHOD b func_35533_b (II)Lro;

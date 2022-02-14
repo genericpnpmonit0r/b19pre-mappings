@@ -6,7 +6,7 @@ CLASS pc net/minecraft/src/StructureVillagePieces
 		ARG 3 x
 		ARG 4 y
 		ARG 5 z
-		ARG 6 i
+		ARG 6 coordBase
 		ARG 7 type
 	METHOD a getNextStructureComponent (Lf;Ljava/util/List;Ljava/util/Random;IIIII)Lfw;
 	METHOD a getAvailablePieceWeight (Ljava/util/ArrayList;)I

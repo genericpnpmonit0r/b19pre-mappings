@@ -1,13 +1,4 @@
 CLASS ii net/minecraft/src/StatList
-	METHOD a func_27092_a ()V
-	METHOD a initMinableStats (Ljava/lang/String;I)[Lso;
-	METHOD a replaceAllSimilarBlocks ([Lso;)V
-	METHOD a replaceSimilarBlocks ([Lso;II)V
-	METHOD a initUsableStats ([Lso;Ljava/lang/String;III)[Lso;
-	METHOD b initBreakableStats ()V
-	METHOD b func_25087_b ([Lso;Ljava/lang/String;III)[Lso;
-	METHOD c func_25086_b ()V
-	METHOD d initCraftableStats ()V
 	FIELD A playerKillsStat Lso;
 	FIELD B fishCaughtStat Lso;
 	FIELD C mineBlockStatArray [Lso;
@@ -42,3 +33,12 @@ CLASS ii net/minecraft/src/StatList
 	FIELD x damageTakenStat Lso;
 	FIELD y deathsStat Lso;
 	FIELD z mobKillsStat Lso;
+	METHOD a initStats ()V
+	METHOD a initMinableStats (Ljava/lang/String;I)[Lso;
+	METHOD a replaceAllSimilarBlocks ([Lso;)V
+	METHOD a replaceSimilarBlocks ([Lso;II)V
+	METHOD a initUsableStats ([Lso;Ljava/lang/String;III)[Lso;
+	METHOD b initBreakableStats ()V
+	METHOD b initBreakableStats ([Lso;Ljava/lang/String;III)[Lso;
+	METHOD c initItemStats ()V
+	METHOD d initCraftableStats ()V

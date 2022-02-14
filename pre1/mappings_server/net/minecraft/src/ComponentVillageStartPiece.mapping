@@ -1,8 +1,8 @@
 CLASS h net/minecraft/src/ComponentVillageStartPiece
-	METHOD a func_35386_a ()Lut;
 	FIELD a field_35392_a Lut;
-	FIELD b field_35390_b I
-	FIELD c field_35391_c Leg;
-	FIELD d field_35388_d Ljava/util/ArrayList;
-	FIELD e field_35389_e Ljava/util/ArrayList;
-	FIELD f field_35387_f Ljava/util/ArrayList;
+	FIELD b terrainType I
+	FIELD c structVillagePieceWeight Leg;
+	FIELD d structureVillageWeightedPieceList Ljava/util/ArrayList;
+	FIELD e weightList1 Ljava/util/ArrayList;
+	FIELD f weightList2 Ljava/util/ArrayList;
+	METHOD a getWorldChunkMgr ()Lut;

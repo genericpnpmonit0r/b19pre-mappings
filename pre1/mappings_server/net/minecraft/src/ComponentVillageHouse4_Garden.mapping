@@ -1,6 +1,6 @@
 CLASS fs net/minecraft/src/ComponentVillageHouse4_Garden
-	METHOD a func_35310_a (Lep;Ljava/util/Random;Lst;)Z
-	METHOD a func_35308_a (Liv;Ljava/util/List;Ljava/util/Random;)V
-	METHOD a func_35401_a (Ljava/util/List;Ljava/util/Random;IIIII)Lfs;
 	FIELD a field_35403_a I
 	FIELD b field_35402_b Z
+	METHOD a func_35310_a (Lep;Ljava/util/Random;Lst;)Z
+	METHOD a func_35308_a (Liv;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lfs;

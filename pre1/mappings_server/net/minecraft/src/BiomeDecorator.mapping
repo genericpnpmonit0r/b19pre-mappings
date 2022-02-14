@@ -1,36 +1,56 @@
 CLASS fr net/minecraft/src/BiomeDecorator
-	METHOD a func_35253_a ()V
-	METHOD a func_35257_a (ILna;II)V
-	METHOD a func_35255_a (Lep;Ljava/util/Random;II)V
-	METHOD b func_35256_b ()V
-	METHOD b func_35254_b (ILna;II)V
-	FIELD A field_35289_x I
-	FIELD B field_35288_y I
-	FIELD C field_35287_z I
-	FIELD D field_35261_A I
-	FIELD F field_35262_B Lep;
-	FIELD G field_35263_C Ljava/util/Random;
-	FIELD H field_35258_D I
-	FIELD I field_35259_E I
-	FIELD J field_35260_F Liz;
-	FIELD a field_35270_a Lna;
-	FIELD b field_35268_b Lna;
-	FIELD c field_35269_c Lna;
-	FIELD d field_35266_d Lna;
-	FIELD e field_35267_e Lna;
-	FIELD f field_35264_f Lna;
-	FIELD g field_35265_g Lna;
-	FIELD h field_35277_h Lna;
-	FIELD i field_35278_i Lna;
-	FIELD j field_35275_j Lna;
-	FIELD k field_35276_k Lna;
-	FIELD l field_35273_l Lna;
-	FIELD m field_35274_m Lna;
-	FIELD n field_35271_n Lna;
-	FIELD o field_35272_o Lna;
-	FIELD q field_35286_p Lna;
-	FIELD r field_35285_q Lna;
-	FIELD u field_35284_r I
-	FIELD w field_35282_t I
-	FIELD x field_35281_u I
-	FIELD z field_35279_w I
+	FIELD A cactiPerChunk I
+	FIELD B sandPerChunk I
+	FIELD C sandPerChunk2 I
+	FIELD D clayPerChunk I
+	FIELD E bigMushroomsPerChunk I
+	FIELD F currentWorld Lep;
+	FIELD G decoRNG Ljava/util/Random;
+	FIELD H chunk_X I
+	FIELD I chunk_Z I
+	FIELD J biome Liz;
+	FIELD a clayGen Lna;
+	FIELD b sandGen Lna;
+	FIELD c gravelAsSandGen Lna;
+	FIELD d dirtGen Lna;
+	FIELD e gravelGen Lna;
+	FIELD f coalGen Lna;
+	FIELD g ironGen Lna;
+	FIELD h goldGen Lna;
+	FIELD i redstoneGen Lna;
+	FIELD j diamondGen Lna;
+	FIELD k lapisGen Lna;
+	FIELD l plantYellowGen Lna;
+	FIELD m plantRedGen Lna;
+	FIELD n mushroomBrownGen Lna;
+	FIELD o mushroomRedGen Lna;
+	FIELD p bigMushroomGen Lna;
+	FIELD q reedGen Lna;
+	FIELD r cactusGen Lna;
+	FIELD s waterlilyGen Lna;
+	FIELD t waterlilyPerChunk I
+	FIELD u treesPerChunk I
+	FIELD v flowersPerChunk I
+	FIELD w grassPerChunk I
+	FIELD x deadBushPerChunk I
+	FIELD y mushroomsPerChunk I
+	FIELD z reedsPerChunk I
+	METHOD <init> (Liz;)V
+		ARG 1 biomeGenBase
+	METHOD a generateOres ()V
+	METHOD a genStandardOre1 (ILna;II)V
+		ARG 1 oreCount
+		ARG 2 generator
+		ARG 3 x
+		ARG 4 z
+	METHOD a decorate (Lep;Ljava/util/Random;II)V
+		ARG 1 world
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 z
+	METHOD b decorate_do ()V
+	METHOD b genStandardOre2 (ILna;II)V
+		ARG 1 oreCount
+		ARG 2 generator
+		ARG 3 x
+		ARG 4 z

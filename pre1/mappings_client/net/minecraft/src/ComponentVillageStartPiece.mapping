@@ -13,4 +13,4 @@ CLASS f net/minecraft/src/ComponentVillageStartPiece
 		ARG 5 type3
 		ARG 6 weightList
 		ARG 7 terrainType
-	METHOD a getWorldChunkMngr ()Lov;
+	METHOD a getWorldChunkMgr ()Lov;

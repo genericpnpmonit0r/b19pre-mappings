@@ -1,46 +1,69 @@
 CLASS iz net/minecraft/src/BiomeGenBase
-	METHOD a func_35514_a ()Lfr;
-	METHOD a func_4080_a (I)Liz;
-	METHOD a func_35513_a (Lep;Ljava/util/Random;II)V
-	METHOD a setBiomeName (Ljava/lang/String;)Liz;
-	METHOD a getRandomWorldGenForTrees (Ljava/util/Random;)Lna;
-	METHOD a getSpawnableList (Lju;)Ljava/util/List;
-	METHOD b getEnableSnow ()Z
-	METHOD b func_35511_b (FF)Liz;
-	METHOD b setColor (I)Liz;
-	METHOD c canSpawnLightningBolt ()Z
-	METHOD d getBiome ()F
-	METHOD e func_35510_e ()I
-	METHOD f func_35509_f ()I
-	METHOD g setDisableRain ()Liz;
-	FIELD B field_35523_u Lfr;
+	FIELD A waterColorMultiplier I
+	FIELD B biomeDecorator Lfr;
 	FIELD C spawnableMonsterList Ljava/util/List;
 	FIELD D spawnableCreatureList Ljava/util/List;
 	FIELD E spawnableWaterCreatureList Ljava/util/List;
-	FIELD F field_35529_y I
-	FIELD G field_35528_z Lvf;
-	FIELD H field_35515_A Lhm;
-	FIELD I field_35516_B Lj;
-	FIELD J field_35517_C Lbd;
+	FIELD F biomeId I
+	FIELD G worldGenTrees Lvf;
+	FIELD H worldGenBigTree Lhm;
+	FIELD I worldGenTreesBirch Lj;
+	FIELD J worldGenSwamp Lbd;
 	FIELD K enableSnow Z
 	FIELD L enableRain Z
-	FIELD a field_35521_a [Liz;
-	FIELD b field_35519_b Liz;
-	FIELD c field_35520_c Liz;
+	FIELD a biomeList [Liz;
+	FIELD b ocean Liz;
+	FIELD c plains Liz;
 	FIELD d desert Liz;
-	FIELD e field_35518_e Liz;
+	FIELD e hills Liz;
 	FIELD f forest Liz;
 	FIELD g taiga Liz;
 	FIELD h swampland Liz;
-	FIELD i field_35522_i Liz;
+	FIELD i river Liz;
 	FIELD j hell Liz;
 	FIELD k sky Liz;
+	FIELD l frozenOcean Liz;
+	FIELD m frozenRiver Liz;
+	FIELD n icePlains Liz;
+	FIELD o iceMountains Liz;
+	FIELD p mushroomIsland Liz;
+	FIELD q mushroomIslandShore Liz;
 	FIELD r biomeName Ljava/lang/String;
 	FIELD s color I
 	FIELD t topBlock B
 	FIELD u fillerBlock B
-	FIELD v field_6161_q I
-	FIELD w field_35527_q F
-	FIELD x field_35526_r F
-	FIELD y field_35525_s F
-	FIELD z field_35524_t F
+	FIELD v defaultColor I
+	FIELD w minHeight F
+	FIELD x maxHeight F
+	FIELD y temperature F
+	FIELD z rainfall F
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a createBiomeDecorator ()Lfr;
+	METHOD a setTemperatureRainfall (FF)Liz;
+		ARG 1 temp
+		ARG 2 rainfall
+	METHOD a setDefaultColor (I)Liz;
+		ARG 1 color
+	METHOD a decorate (Lep;Ljava/util/Random;II)V
+		ARG 1 world
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 z
+	METHOD a setBiomeName (Ljava/lang/String;)Liz;
+		ARG 1 name
+	METHOD a getRandomWorldGenForTrees (Ljava/util/Random;)Lna;
+		ARG 1 rand
+	METHOD a getSpawnableList (Lju;)Ljava/util/List;
+		ARG 1 creatureType
+	METHOD b getEnableSnow ()Z
+	METHOD b setMinMaxHeight (FF)Liz;
+		ARG 1 minHeight
+		ARG 2 maxHeight
+	METHOD b setColor (I)Liz;
+		ARG 1 color
+	METHOD c canSpawnLightningBolt ()Z
+	METHOD d getBiome ()F
+	METHOD e getIntRainfall ()I
+	METHOD f getIntTemperature ()I
+	METHOD g setDisableRain ()Liz;

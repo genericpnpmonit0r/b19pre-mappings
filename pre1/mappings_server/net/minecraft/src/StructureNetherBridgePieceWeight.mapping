@@ -1,0 +1,6 @@
+CLASS pq net/minecraft/src/StructureNetherBridgePieceWeight
+	FIELD a weightClass Ljava/lang/Class;
+	FIELD c weight I
+	FIELD d weight2 I
+	FIELD e mode Z
+	METHOD a a2 ()Z

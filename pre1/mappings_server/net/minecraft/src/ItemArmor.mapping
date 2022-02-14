@@ -1,0 +1,10 @@
+CLASS sy net/minecraft/src/ItemArmor
+	FIELD a armorType I
+	FIELD bx damageReduceAmount I
+	FIELD by renderIndex I
+	FIELD bz getMaxDamageArray [I
+	METHOD <init> (ILcm;II)V
+		ARG 1 id
+		ARG 2 armorMaterial
+		ARG 3 index
+		ARG 4 type

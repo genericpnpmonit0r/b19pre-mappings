@@ -1,6 +1,6 @@
 CLASS fg net/minecraft/src/MapGenBase
-	METHOD a generate (Lcc;Lep;II[B)V
-	METHOD a recursiveGenerate (Lep;IIII[B)V
 	FIELD b field_947_a I
 	FIELD c rand Ljava/util/Random;
-	FIELD d field_35530_d Lep;
+	FIELD d worldObj Lep;
+	METHOD a generate (Lcc;Lep;II[B)V
+	METHOD a recursiveGenerate (Lep;IIII[B)V

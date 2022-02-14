@@ -1,37 +1,4 @@
 CLASS fy net/minecraft/src/Item
-	METHOD a getMetadata (I)I
-	METHOD a setIconCoord (II)Lfy;
-	METHOD a setContainerItem (Lfy;)Lfy;
-	METHOD a func_35407_a (Lhz;)Ljava/lang/String;
-	METHOD a onBlockDestroyed (Lhz;IIIILjz;)Z
-	METHOD a onItemRightClick (Lhz;Lep;Lga;)Lhz;
-	METHOD a func_35408_a (Lhz;Lep;Lga;I)V
-	METHOD a onUpdate (Lhz;Lep;Lpp;IZ)V
-	METHOD a onItemUse (Lhz;Lga;Lep;IIII)Z
-	METHOD a saddleEntity (Lhz;Ljz;)V
-	METHOD a hitEntity (Lhz;Ljz;Ljz;)Z
-	METHOD a getStrVsBlock (Lhz;Lrj;)F
-	METHOD a setItemName (Ljava/lang/String;)Lfy;
-	METHOD a getDamageVsEntity (Lpp;)I
-	METHOD a canHarvestBlock (Lrj;)Z
-	METHOD a setHasSubtypes (Z)Lfy;
-	METHOD b getItemName ()Ljava/lang/String;
-	METHOD b setIconIndex (I)Lfy;
-	METHOD b func_35406_b (Lhz;)Lic;
-	METHOD b func_35405_b (Lhz;Lep;Lga;)Lhz;
-	METHOD c getItemStackLimit ()I
-	METHOD c setMaxStackSize (I)Lfy;
-	METHOD c func_35404_c (Lhz;)I
-	METHOD d getHasSubtypes ()Z
-	METHOD d setMaxDamage (I)Lfy;
-	METHOD d onCreated (Lhz;Lep;Lga;)V
-	METHOD e getMaxDamage ()I
-	METHOD f isDamageable ()Z
-	METHOD g setFull3D ()Lfy;
-	METHOD h getContainerItem ()Lfy;
-	METHOD i hasContainerItem ()Z
-	METHOD i_ func_28019_b ()Z
-	METHOD j getStatName ()Ljava/lang/String;
 	FIELD A axeDiamond Lfy;
 	FIELD B stick Lfy;
 	FIELD C bowlEmpty Lfy;
@@ -115,15 +82,19 @@ CLASS fy net/minecraft/src/Item
 	FIELD ba cookie Lfy;
 	FIELD bb map Lts;
 	FIELD bc shears Lbi;
-	FIELD bd field_35416_bd Lfy;
-	FIELD be field_35417_be Lfy;
-	FIELD bf field_35412_bf Lfy;
-	FIELD bg field_35413_bg Lfy;
-	FIELD bh field_35414_bh Lfy;
-	FIELD bi field_35415_bi Lfy;
-	FIELD bj field_35409_bj Lfy;
-	FIELD bk field_35410_bk Lfy;
-	FIELD bl field_35411_bl Lfy;
+	FIELD bd melon Lfy;
+	FIELD be pumpkinSeeds Lfy;
+	FIELD bf melonSeeds Lfy;
+	FIELD bg beefRaw Lfy;
+	FIELD bh beefCooked Lfy;
+	FIELD bi chickenRaw Lfy;
+	FIELD bj chickenCooked Lfy;
+	FIELD bk rottenFlesh Lfy;
+	FIELD bl enderPearl Lfy;
+	FIELD bm blazeRod Lfy;
+	FIELD bn ghastTear Lfy;
+	FIELD bo goldNugget Lfy;
+	FIELD bp netherWarts Lfy;
 	FIELD bq record13 Lfy;
 	FIELD br recordCat Lfy;
 	FIELD bs shiftedIndex I
@@ -157,3 +128,90 @@ CLASS fy net/minecraft/src/Item
 	FIELD x swordDiamond Lfy;
 	FIELD y shovelDiamond Lfy;
 	FIELD z pickaxeDiamond Lfy;
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getMetadata (I)I
+		ARG 1 meta
+	METHOD a setIconCoord (II)Lfy;
+		ARG 1 x
+		ARG 2 y
+	METHOD a setContainerItem (Lfy;)Lfy;
+		ARG 1 item
+	METHOD a getItemNameIS (Lhz;)Ljava/lang/String;
+		ARG 1 itemStack
+	METHOD a onBlockDestroyed (Lhz;IIIILjz;)Z
+		ARG 1 itemStack
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 side
+		ARG 6 living
+	METHOD a onItemRightClick (Lhz;Lep;Lga;)Lhz;
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 player
+	METHOD a onPlayerStoppedUsing (Lhz;Lep;Lga;I)V
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 player
+		ARG 4 id
+	METHOD a onUpdate (Lhz;Lep;Lpp;IZ)V
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 entity
+		ARG 4 id
+		ARG 5 updateMapDataFlag
+	METHOD a onItemUse (Lhz;Lga;Lep;IIII)Z
+		ARG 1 itemStack
+		ARG 2 player
+		ARG 3 world
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 side
+	METHOD a saddleEntity (Lhz;Ljz;)V
+		ARG 1 itemStack
+		ARG 2 living
+	METHOD a hitEntity (Lhz;Ljz;Ljz;)Z
+		ARG 1 itemStack
+		ARG 2 hitter
+		ARG 3 target
+	METHOD a getStrVsBlock (Lhz;Lrj;)F
+		ARG 1 itemStack
+		ARG 2 block
+	METHOD a setItemName (Ljava/lang/String;)Lfy;
+		ARG 1 name
+	METHOD a getDamageVsEntity (Lpp;)I
+		ARG 1 entity
+	METHOD a canHarvestBlock (Lrj;)Z
+		ARG 1 block
+	METHOD a setHasSubtypes (Z)Lfy;
+		ARG 1 hasSubtypes
+	METHOD b getItemName ()Ljava/lang/String;
+	METHOD b setIconIndex (I)Lfy;
+		ARG 1 iconIndex
+	METHOD b getItemUseAction (Lhz;)Lic;
+		ARG 1 itemStack
+	METHOD b onFoodEaten (Lhz;Lep;Lga;)Lhz;
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 player
+	METHOD c getItemStackLimit ()I
+	METHOD c setMaxStackSize (I)Lfy;
+		ARG 1 stackSize
+	METHOD c getMaxItemUseDuration (Lhz;)I
+		ARG 1 itemStack
+	METHOD d getHasSubtypes ()Z
+	METHOD d setMaxDamage (I)Lfy;
+		ARG 1 meta
+	METHOD d onCreated (Lhz;Lep;Lga;)V
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 player
+	METHOD e getMaxDamage ()I
+	METHOD f isDamageable ()Z
+	METHOD g setFull3D ()Lfy;
+	METHOD h getContainerItem ()Lfy;
+	METHOD i hasContainerItem ()Z
+	METHOD i_ unused ()Z
+	METHOD j getStatName ()Ljava/lang/String;

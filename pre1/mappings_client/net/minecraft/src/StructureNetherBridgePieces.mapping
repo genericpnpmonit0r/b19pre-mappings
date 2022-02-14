@@ -8,8 +8,8 @@ CLASS hd net/minecraft/src/StructureNetherBridgePieces
 		ARG 0 pieceWeight
 		ARG 1 components
 		ARG 2 rand
-		ARG 3 i
-		ARG 4 j
-		ARG 5 k
-		ARG 6 l
-		ARG 7 m
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 type
+		ARG 7 coordBase

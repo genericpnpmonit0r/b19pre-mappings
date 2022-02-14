@@ -58,7 +58,7 @@ CLASS pp net/minecraft/src/Entity
 	FIELD by yOffset F
 	FIELD bz width F
 	FIELD c firstUpdate Z
-	FIELD ca field_35151_ca Z
+	FIELD ca isAirBorne Z
 	FIELD d entityRiderPitchDelta D
 	FIELD e entityRiderYawDelta D
 	METHOD <init> (Lep;)V
@@ -84,6 +84,8 @@ CLASS pp net/minecraft/src/Entity
 	METHOD a readEntityFromNBT (Lls;)V
 		ARG 1 compoundTag
 	METHOD a attackEntityFrom (Lns;I)Z
+		ARG 1 damageSrc
+		ARG 2 damageAmount
 	METHOD a mountEntity (Lpp;)V
 	METHOD a newDoubleNBTList ([D)Lpt;
 	METHOD a newFloatNBTList ([F)Lpt;
@@ -97,6 +99,7 @@ CLASS pp net/minecraft/src/Entity
 	METHOD ak getLookVec ()Lbo;
 	METHOD an getDataWatcher ()Lqw;
 	METHOD ao setOnFireFromLava ()V
+	METHOD ap getIsImmuneToFire ()Z
 	METHOD aq isWet ()Z
 	METHOD ar isInWater ()Z
 	METHOD as handleLavaMovement ()Z
@@ -108,9 +111,11 @@ CLASS pp net/minecraft/src/Entity
 	METHOD b addVelocity (DDD)V
 	METHOD b setPositionAndRotation (DDDFF)V
 	METHOD b getEntityBrightness (F)F
+		ARG 1 brightness
 	METHOD b setSize (FF)V
 	METHOD b dropItem (II)Lgr;
 	METHOD b interact (Lga;)Z
+		ARG 1 player
 	METHOD b writeEntityToNBT (Lls;)V
 		ARG 1 compoundTag
 	METHOD b getCollisionBox (Lpp;)Led;

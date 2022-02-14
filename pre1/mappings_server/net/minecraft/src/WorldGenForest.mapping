@@ -1,2 +1,0 @@
-CLASS j net/minecraft/src/WorldGenForest
-	METHOD a generate (Lep;Ljava/util/Random;III)Z

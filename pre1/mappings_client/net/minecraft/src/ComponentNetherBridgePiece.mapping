@@ -16,8 +16,8 @@ CLASS wa net/minecraft/src/ComponentNetherBridgePiece
 		ARG 4 x
 		ARG 5 y
 		ARG 6 z
-		ARG 7 y2
-		ARG 8 z2
+		ARG 7 coordBaseMode
+		ARG 8 type
 		ARG 9 modeFlag
 	METHOD a getNextComponentNormal (Laap;Ljava/util/List;Ljava/util/Random;IIZ)Lfw;
 		ARG 1 startPiece

@@ -1,7 +1,7 @@
 CLASS vn net/minecraft/src/ComponentVillageWoodHut
-	METHOD a func_35310_a (Lep;Ljava/util/Random;Lst;)Z
-	METHOD a func_35308_a (Liv;Ljava/util/List;Ljava/util/Random;)V
-	METHOD a func_35393_a (Ljava/util/List;Ljava/util/Random;IIIII)Lvn;
 	FIELD a field_35396_a I
 	FIELD b field_35394_b Z
 	FIELD c field_35395_c I
+	METHOD a func_35310_a (Lep;Ljava/util/Random;Lst;)Z
+	METHOD a func_35308_a (Liv;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lvn;

@@ -1,7 +1,13 @@
 CLASS ut net/minecraft/src/WorldChunkManager
+	FIELD b field_34907_a Ldu;
+	FIELD c field_34906_b Ldu;
+	FIELD d field_34905_c Ldu;
+	FIELD e field_35144_d Ldu;
+	FIELD f field_35145_e Lrw;
+	FIELD g field_35143_f Ljava/util/List;
 	METHOD a func_35137_a ()Ljava/util/List;
 	METHOD a getBiomeGenAt (II)Liz;
-	METHOD a func_35141_a (IIILjava/util/List;)Z
+	METHOD a areBiomesViable (IIILjava/util/List;)Z
 	METHOD a func_35139_a (IIILjava/util/List;Ljava/util/Random;)Ltf;
 	METHOD a getBiomeGenAtChunkCoord (Lvs;)Liz;
 	METHOD a getTemperatures ([FIIII)[F
@@ -10,9 +16,3 @@ CLASS ut net/minecraft/src/WorldChunkManager
 	METHOD b func_35138_b ()V
 	METHOD b func_4065_a ([FIIII)[F
 	METHOD b func_35142_b ([Liz;IIII)[Liz;
-	FIELD b field_34907_a Ldu;
-	FIELD c field_34906_b Ldu;
-	FIELD d field_34905_c Ldu;
-	FIELD e field_35144_d Ldu;
-	FIELD f field_35145_e Lrw;
-	FIELD g field_35143_f Ljava/util/List;

@@ -1,3 +1,11 @@
 CLASS na net/minecraft/src/WorldGenerator
-	METHOD a func_420_a (DDD)V
+	METHOD a recursiveGenerate (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD a generate (Lep;Ljava/util/Random;III)Z
+		ARG 1 world
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z

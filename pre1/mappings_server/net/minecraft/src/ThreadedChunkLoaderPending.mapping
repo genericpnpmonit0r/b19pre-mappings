@@ -1,0 +1,6 @@
+CLASS vd net/minecraft/src/ThreadedChunkLoaderPending
+	FIELD a chunkCoordinate Lvs;
+	FIELD b nbtTags Lls;
+	METHOD <init> (Lvs;Lls;)V
+		ARG 1 coordIntPair
+		ARG 2 tags

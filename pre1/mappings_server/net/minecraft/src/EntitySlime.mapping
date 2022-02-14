@@ -1,0 +1,28 @@
+CLASS rk net/minecraft/src/EntitySlime
+	FIELD a size1 F
+	FIELD b size2 F
+	FIELD c size3 F
+	FIELD d slimeJumpDelay I
+	METHOD A getSlimeSound ()Ljava/lang/String;
+	METHOD B getSlimeSize ()I
+	METHOD P setEntityDead ()V
+	METHOD a readEntityFromNBT (Lls;)V
+	METHOD a_ onCollideWithPlayer (Lga;)V
+	METHOD b entityInit ()V
+	METHOD b setSlimeSize (I)V
+		ARG 1 size
+	METHOD b writeEntityToNBT (Lls;)V
+	METHOD b_ getDeathSound ()Ljava/lang/String;
+	METHOD e getHurtSound ()Ljava/lang/String;
+	METHOD g getDropItemId ()I
+	METHOD i getCanSpawnHere ()Z
+	METHOD l updateEntityActionState ()V
+	METHOD m getSoundVolume ()F
+	METHOD p getSlimeParticle ()Ljava/lang/String;
+	METHOD q_ onUpdate ()V
+	METHOD t getVerticalFaceSpeed ()I
+	METHOD v newSlime ()Lrk;
+	METHOD w getJumpDelay ()I
+	METHOD x setSizeSmallM ()V
+	METHOD y getSlimeSizeGreaterThan1 ()Z
+	METHOD z getSlimeSize_do ()I

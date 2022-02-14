@@ -1,17 +1,53 @@
 CLASS st net/minecraft/src/StructureBoundingBox
-	METHOD a func_35672_a ()Lst;
-	METHOD a func_35670_a (III)V
-	METHOD a func_35671_a (IIII)Z
-	METHOD a func_35663_a (IIIIIIIIII)Lst;
-	METHOD a func_35664_a (Lst;)Z
-	METHOD b func_35669_b ()I
-	METHOD b func_35667_b (III)Z
-	METHOD b func_35666_b (Lst;)V
-	METHOD c func_35668_c ()I
-	METHOD d func_35665_d ()I
-	FIELD a field_35678_a I
-	FIELD b field_35676_b I
-	FIELD c field_35677_c I
-	FIELD d field_35674_d I
-	FIELD e field_35675_e I
-	FIELD f field_35673_f I
+	FIELD a minX I
+	FIELD b minY I
+	FIELD c minZ I
+	FIELD d maxX I
+	FIELD e maxY I
+	FIELD f maxZ I
+	METHOD <init> (IIII)V
+		ARG 1 minX
+		ARG 2 minZ
+		ARG 3 maxX
+		ARG 4 maxZ
+	METHOD <init> (IIIIII)V
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+		ARG 5 maxY
+		ARG 6 maxZ
+	METHOD <init> (Lst;)V
+		ARG 1 boundingBox
+	METHOD a getNewBoundingBox ()Lst;
+	METHOD a offset (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a isInsideStructureBB (IIII)Z
+		ARG 1 maxX
+		ARG 2 maxZ
+		ARG 3 minX
+		ARG 4 minZ
+	METHOD a getComponentToAddBoundingBox (IIIIIIIIII)Lst;
+		ARG 0 minX
+		ARG 1 minY
+		ARG 2 minZ
+		ARG 3 maxX
+		ARG 4 maxY
+		ARG 5 maxZ
+		ARG 6 totalX
+		ARG 7 totalY
+		ARG 8 totalZ
+		ARG 9 rotation
+	METHOD a intersectsWith (Lst;)Z
+		ARG 1 boundingBox
+	METHOD b getXSize ()I
+	METHOD b isVecInside (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b resizeBoundingBoxTo (Lst;)V
+		ARG 1 boundingBox
+	METHOD c getYSize ()I
+	METHOD d getZSize ()I

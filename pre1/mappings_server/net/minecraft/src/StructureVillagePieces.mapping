@@ -1,9 +1,20 @@
 CLASS ve net/minecraft/src/StructureVillagePieces
-	METHOD a func_35639_a (Leg;Ljava/util/List;Ljava/util/Random;IIIII)Lqt;
+	METHOD a getVillageComponentFromWeightedPiece (Leg;Ljava/util/List;Ljava/util/Random;IIIII)Lqt;
+		ARG 0 pieceWeight
+		ARG 1 components
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 coordBase
+		ARG 7 type
 	METHOD a func_35640_a (Lh;Ljava/util/List;Ljava/util/Random;IIIII)Liv;
-	METHOD a func_35645_a (Ljava/util/ArrayList;)I
-	METHOD a func_35646_a (Ljava/util/Random;I)Ljava/util/ArrayList;
+	METHOD a getAvailablePieceWeight (Ljava/util/ArrayList;)I
+		ARG 0 weights
+	METHOD a getStructureVillageWeightedPieceList (Ljava/util/Random;I)Ljava/util/ArrayList;
+		ARG 0 rand
+		ARG 1 mode
 	METHOD b func_35642_b (Lh;Ljava/util/List;Ljava/util/Random;IIIII)Liv;
-	METHOD c func_35643_c (Lh;Ljava/util/List;Ljava/util/Random;IIIII)Lqt;
-	METHOD d func_35641_d (Lh;Ljava/util/List;Ljava/util/Random;IIIII)Liv;
-	METHOD e func_35644_e (Lh;Ljava/util/List;Ljava/util/Random;IIIII)Liv;
+	METHOD c getNextVillageComponent (Lh;Ljava/util/List;Ljava/util/Random;IIIII)Lqt;
+	METHOD d getNextVillageStructureComponent (Lh;Ljava/util/List;Ljava/util/Random;IIIII)Liv;
+	METHOD e getNextComponentVillagePath (Lh;Ljava/util/List;Ljava/util/Random;IIIII)Liv;

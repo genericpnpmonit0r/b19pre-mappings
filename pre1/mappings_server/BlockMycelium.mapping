@@ -1,4 +1,0 @@
-CLASS uw BlockMycelium
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a updateTick (Lep;IIILjava/util/Random;)V

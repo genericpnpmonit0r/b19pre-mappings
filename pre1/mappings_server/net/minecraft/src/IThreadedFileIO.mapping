@@ -1,0 +1,2 @@
+CLASS fq net/minecraft/src/IThreadedFileIO
+	METHOD c writeNextIO ()Z

@@ -1,3 +1,0 @@
-CLASS sq
-	METHOD a attackEntityFrom (Lns;I)Z
-	METHOD c_ canBeCollidedWith ()Z

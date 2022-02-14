@@ -1,10 +1,17 @@
 CLASS du net/minecraft/src/GenLayer
-	METHOD a func_35016_a (I)I
-	METHOD a func_35018_a (IIII)[I
-	METHOD a func_35019_a (J)[Ldu;
-	METHOD a func_35017_a (JJ)V
-	METHOD b func_35015_b (J)V
-	FIELD a field_35023_a Ldu;
-	FIELD b field_35021_b J
-	FIELD c field_35022_c J
-	FIELD d field_35020_d J
+	FIELD a parent Ldu;
+	FIELD b worldGenSeed J
+	FIELD c chunkSeed J
+	FIELD d baseSeed J
+	METHOD <init> (J)V
+		ARG 1 seed
+	METHOD a nextInt (I)I
+		ARG 1 x
+	METHOD a getInts (IIII)[I
+	METHOD a initializeAllBiomeGenerators (J)[Ldu;
+		ARG 0 seed
+	METHOD a initChunkSeed (JJ)V
+		ARG 1 x
+		ARG 3 z
+	METHOD b initWorldGenSeed (J)V
+		ARG 1 seed

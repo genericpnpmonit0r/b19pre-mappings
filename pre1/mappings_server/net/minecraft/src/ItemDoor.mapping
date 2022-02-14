@@ -1,4 +1,4 @@
 CLASS hb net/minecraft/src/ItemDoor
-	METHOD a func_35418_a (Lep;IIIILrj;)V
-	METHOD a onItemUse (Lhz;Lga;Lep;IIII)Z
 	FIELD a doorMaterial Ljw;
+	METHOD a placeDoorBlock (Lep;IIIILrj;)V
+	METHOD a onItemUse (Lhz;Lga;Lep;IIII)Z

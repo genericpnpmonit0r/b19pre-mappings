@@ -1,4 +1,5 @@
 CLASS gd net/minecraft/src/EntityMob
+	FIELD c attackStrength I
 	METHOD a getBlockPathWeight (III)F
 	METHOD a readEntityFromNBT (Lls;)V
 	METHOD a attackEntityFrom (Lns;I)Z
@@ -9,4 +10,4 @@ CLASS gd net/minecraft/src/EntityMob
 	METHOD i getCanSpawnHere ()Z
 	METHOD p findPlayerToAttack ()Lpp;
 	METHOD q_ onUpdate ()V
-	FIELD c attackStrength I
+	METHOD w getOnFire ()Z

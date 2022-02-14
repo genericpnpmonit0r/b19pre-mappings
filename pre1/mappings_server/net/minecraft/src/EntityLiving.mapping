@@ -39,7 +39,7 @@ CLASS jz net/minecraft/src/EntityLiving
 	FIELD ag scoreValue I
 	FIELD ah field_9113_aM F
 	FIELD ai isMultiplayerEntity Z
-	FIELD aj field_35194_aj F
+	FIELD aj landMovementFactor F
 	FIELD ak field_35193_ak F
 	FIELD al prevSwingProgress F
 	FIELD am swingProgress F
@@ -63,6 +63,7 @@ CLASS jz net/minecraft/src/EntityLiving
 	METHOD H func_35180_G ()Z
 	METHOD I isMovementBlocked ()Z
 	METHOD J updateRidden ()V
+	METHOD L getSlimeSizeM ()I
 	METHOD R isPlayerSleeping ()Z
 	METHOD U jump ()V
 	METHOD Z func_35188_X ()Z
@@ -75,11 +76,13 @@ CLASS jz net/minecraft/src/EntityLiving
 	METHOD a func_35184_a (Lhp;)Z
 	METHOD a readEntityFromNBT (Lls;)V
 	METHOD a onDeath (Lns;)V
+		ARG 1 damageSrc
 	METHOD a attackEntityFrom (Lns;I)Z
 	METHOD a faceEntity (Lpp;FF)V
 	METHOD a knockBack (Lpp;IDD)V
 	METHOD a func_35181_a (Lul;)V
 	METHOD a dropFewItems (Z)V
+		ARG 1 itemBool
 	METHOD ab playLivingSound ()V
 	METHOD ac onEntityUpdate ()V
 	METHOD ad spawnExplosionParticle ()V

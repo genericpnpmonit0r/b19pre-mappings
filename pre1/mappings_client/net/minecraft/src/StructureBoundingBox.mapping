@@ -25,10 +25,10 @@ CLASS no net/minecraft/src/StructureBoundingBox
 		ARG 2 y
 		ARG 3 z
 	METHOD a isInsideStructureBB (IIII)Z
-		ARG 1 x
-		ARG 2 z
-		ARG 3 x2
-		ARG 4 z2
+		ARG 1 maxX
+		ARG 2 maxZ
+		ARG 3 minX
+		ARG 4 minZ
 	METHOD a getComponentToAddBoundingBox (IIIIIIIIII)Lno;
 		ARG 0 minX
 		ARG 1 minY
@@ -36,10 +36,10 @@ CLASS no net/minecraft/src/StructureBoundingBox
 		ARG 3 maxX
 		ARG 4 maxY
 		ARG 5 maxZ
-		ARG 6 i
-		ARG 7 j
-		ARG 8 k
-		ARG 9 mode
+		ARG 6 totalX
+		ARG 7 totalY
+		ARG 8 totalZ
+		ARG 9 rotation
 	METHOD a intersectsWith (Lno;)Z
 		ARG 1 boundingBox
 	METHOD b getXSize ()I
