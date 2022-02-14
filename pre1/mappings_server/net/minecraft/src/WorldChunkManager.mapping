@@ -12,7 +12,7 @@ CLASS ut net/minecraft/src/WorldChunkManager
 	METHOD a getBiomeGenAtChunkCoord (Lvs;)Liz;
 	METHOD a getTemperatures ([FIIII)[F
 	METHOD a loadBlockGeneratorData ([Liz;IIII)[Liz;
-	METHOD a func_35140_a ([Liz;IIIIZ)[Liz;
+	METHOD a getBiomeGenAt ([Liz;IIIIZ)[Liz;
 	METHOD b func_35138_b ()V
-	METHOD b func_4065_a ([FIIII)[F
+	METHOD b getRainfall ([FIIII)[F
 	METHOD b func_35142_b ([Liz;IIII)[Liz;

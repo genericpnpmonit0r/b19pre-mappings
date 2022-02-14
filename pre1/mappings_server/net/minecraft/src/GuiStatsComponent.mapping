@@ -1,6 +1,8 @@
 CLASS jj net/minecraft/src/GuiStatsComponent
-	METHOD a updateStats ()V
-	METHOD a update (Ljj;)V
 	FIELD a memoryUse [I
 	FIELD b updateCounter I
 	FIELD c displayStrings [Ljava/lang/String;
+	METHOD a updateStats ()V
+	METHOD a update (Ljj;)V
+	METHOD paint (Ljava/awt/Graphics;)V
+		ARG 1 graphics

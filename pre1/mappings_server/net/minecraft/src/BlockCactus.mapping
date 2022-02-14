@@ -1,4 +1,7 @@
 CLASS ml net/minecraft/src/BlockCactus
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
 	METHOD a isOpaqueCube ()Z
 	METHOD a getBlockTextureFromSide (I)I
 	METHOD a onNeighborBlockChange (Lep;IIII)V

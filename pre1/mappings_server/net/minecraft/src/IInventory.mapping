@@ -1,11 +1,17 @@
 CLASS kd net/minecraft/src/IInventory
 	METHOD a getSizeInventory ()I
 	METHOD a decrStackSize (II)Lhz;
+		ARG 1 prevStackSize
+		ARG 2 curStackSize
 	METHOD a setInventorySlotContents (ILhz;)V
+		ARG 1 slotId
+		ARG 2 itemStack
 	METHOD a canInteractWith (Lga;)Z
+		ARG 1 player
 	METHOD b_ getStackInSlot (I)Lhz;
+		ARG 1 stackInSlot
 	METHOD c getInvName ()Ljava/lang/String;
 	METHOD d getInventoryStackLimit ()I
-	METHOD e func_35161_e ()V
+	METHOD e openChest ()V
 	METHOD k onInventoryChanged ()V
-	METHOD r_ func_35162_t_ ()V
+	METHOD r_ closeChest ()V

@@ -1,3 +1,5 @@
 CLASS hi net/minecraft/src/IPlayerFileData
 	METHOD a writePlayerData (Lga;)V
+		ARG 1 player
 	METHOD b readPlayerData (Lga;)V
+		ARG 1 player

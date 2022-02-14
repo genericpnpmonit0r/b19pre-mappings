@@ -12,3 +12,7 @@ CLASS sz net/minecraft/src/BlockFlower
 	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;
 	METHOD f canBlockStay (Lep;III)Z
 	METHOD h checkFlowerChange (Lep;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

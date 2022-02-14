@@ -1,5 +1,4 @@
 CLASS ec net/minecraft/src/AchievementList
-	METHOD a func_27097_a ()V
 	FIELD a minDisplayColumn I
 	FIELD b minDisplayRow I
 	FIELD c maxDisplayColumn I
@@ -21,4 +20,5 @@ CLASS ec net/minecraft/src/AchievementList
 	FIELD s killEnemy Llv;
 	FIELD t killCow Llv;
 	FIELD u flyPig Llv;
-	FIELD v field_35490_v Llv;
+	FIELD v snipeSkeleton Llv;
+	METHOD a init ()V

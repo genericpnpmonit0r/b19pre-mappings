@@ -183,7 +183,7 @@ CLASS mn net/minecraft/src/Block
 		ARG 1 meta
 		ARG 2 rand
 	METHOD a canCollideCheck (IZ)Z
-		ARG 1 id
+		ARG 1 meta
 		ARG 2 collideable
 	METHOD a setBlockBoundsBasedOnState (Lafd;III)V
 		ARG 1 blockAccess
@@ -229,7 +229,7 @@ CLASS mn net/minecraft/src/Block
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-		ARG 5 id
+		ARG 5 meta
 		ARG 6 chance
 	METHOD a powerBlock (Ltd;IIIII)V
 		ARG 1 world
@@ -308,7 +308,7 @@ CLASS mn net/minecraft/src/Block
 		ARG 1 resistance
 			COMMENT the resistance value
 	METHOD b damageDropped (I)I
-		ARG 1 id
+		ARG 1 meta
 	METHOD b colorMultiplier (Lafd;III)I
 		ARG 1 blockAccess
 		ARG 2 x
@@ -441,7 +441,7 @@ CLASS mn net/minecraft/src/Block
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-		ARG 5 id
+		ARG 5 meta
 	METHOD h setBlockBoundsForItemRender ()V
 	METHOD i getBlockColor ()I
 	METHOD j isCollidable ()Z

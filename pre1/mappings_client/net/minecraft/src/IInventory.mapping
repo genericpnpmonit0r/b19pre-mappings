@@ -5,7 +5,7 @@ CLASS ha net/minecraft/src/IInventory
 		ARG 2 curStackSize
 	METHOD a setInventorySlotContents (ILvw;)V
 		ARG 1 slotId
-		ARG 2 ItemStack
+		ARG 2 itemStack
 	METHOD a isUseableByPlayer (Lui;)Z
 		ARG 1 player
 	METHOD c getInvName ()Ljava/lang/String;

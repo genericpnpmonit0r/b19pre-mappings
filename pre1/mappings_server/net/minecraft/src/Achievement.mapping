@@ -1,12 +1,33 @@
 CLASS lv net/minecraft/src/Achievement
-	METHOD a setIndependent ()Llv;
-	METHOD b setSpecial ()Llv;
-	METHOD c registerAchievement ()Llv;
-	METHOD d registerStat ()Lso;
-	METHOD e initIndependentStat ()Lso;
 	FIELD a displayColumn I
 	FIELD b displayRow I
 	FIELD c parentAchievement Llv;
 	FIELD d theItemStack Lhz;
 	FIELD l achievementDescription Ljava/lang/String;
 	FIELD m isSpecial Z
+	METHOD <init> (ILjava/lang/String;IILfy;Llv;)V
+		ARG 1 id
+		ARG 2 name
+		ARG 3 col
+		ARG 4 row
+		ARG 5 item
+		ARG 6 achievement
+	METHOD <init> (ILjava/lang/String;IILhz;Llv;)V
+		ARG 1 id
+		ARG 2 name
+		ARG 3 col
+		ARG 4 row
+		ARG 5 item
+		ARG 6 achievement
+	METHOD <init> (ILjava/lang/String;IILrj;Llv;)V
+		ARG 1 id
+		ARG 2 name
+		ARG 3 col
+		ARG 4 row
+		ARG 5 block
+		ARG 6 achievement
+	METHOD a setIndependent ()Llv;
+	METHOD b setSpecial ()Llv;
+	METHOD c registerAchievement ()Llv;
+	METHOD d registerStat ()Lso;
+	METHOD e initIndependentStat ()Lso;

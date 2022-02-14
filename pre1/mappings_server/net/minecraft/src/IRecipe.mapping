@@ -1,5 +1,7 @@
 CLASS dl net/minecraft/src/IRecipe
 	METHOD a getRecipeSize ()I
 	METHOD a matches (Lkq;)Z
+		ARG 1 crafting
 	METHOD b getRecipeOutput ()Lhz;
 	METHOD b getCraftingResult (Lkq;)Lhz;
+		ARG 1 crafting

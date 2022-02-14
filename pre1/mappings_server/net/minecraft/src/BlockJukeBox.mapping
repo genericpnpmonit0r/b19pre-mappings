@@ -1,4 +1,6 @@
 CLASS fb net/minecraft/src/BlockJukeBox
+	METHOD <init> (II)V
+		ARG 1 id
 	METHOD a getBlockTextureFromSide (I)I
 	METHOD a dropBlockAsItemWithChance (Lep;IIIIF)V
 	METHOD a blockActivated (Lep;IIILga;)Z

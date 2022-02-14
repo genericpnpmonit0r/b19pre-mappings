@@ -11,6 +11,7 @@ CLASS rj net/minecraft/src/Block
 	FIELD J oreCoal Lrj;
 	FIELD K wood Lrj;
 	FIELD L leaves Lbf;
+	FIELD M sponge Lrj;
 	FIELD N glass Lrj;
 	FIELD O oreLapis Lrj;
 	FIELD P blockLapis Lrj;
@@ -147,9 +148,23 @@ CLASS rj net/minecraft/src/Block
 	FIELD x cobblestone Lrj;
 	FIELD y planks Lrj;
 	FIELD z sapling Lrj;
+	METHOD <init> (IILjw;)V
+		ARG 1 id
+		ARG 2 texIndex
+		ARG 3 material
+	METHOD <init> (ILjw;)V
+		ARG 1 id
+		ARG 2 material
 	METHOD a isOpaqueCube ()Z
 	METHOD a setLightValue (F)Lrj;
+		ARG 1 lightValue
 	METHOD a setBlockBounds (FFFFFF)V
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+		ARG 5 maxY
+		ARG 6 maxZ
 	METHOD a getBlockTextureFromSide (I)I
 		ARG 1 side
 	METHOD a getBlockTextureFromSideAndMetadata (II)I
@@ -159,26 +174,63 @@ CLASS rj net/minecraft/src/Block
 		ARG 1 meta
 		ARG 2 rand
 	METHOD a canCollideCheck (IZ)Z
+		ARG 1 meta
+		ARG 2 collideable
 	METHOD a isVecInsideYZBounds (Lbo;)Z
+		ARG 1 vector
 	METHOD a setStepSound (Lco;)Lrj;
+		ARG 1 stepSound
 	METHOD a onBlockAdded (Lep;III)V
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 	METHOD a onNeighborBlockChange (Lep;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 side
 	METHOD a dropBlockAsItemWithChance (Lep;IIIIF)V
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-		ARG 5 id
+		ARG 5 meta
 		ARG 6 chacne
 	METHOD a playBlock (Lep;IIIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 id
+		ARG 6 meta
 	METHOD a collisionRayTrace (Lep;IIILbo;Lbo;)Lrz;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 vector1
+		ARG 6 vector2
 	METHOD a getCollidingBoundingBoxes (Lep;IIILed;Ljava/util/ArrayList;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 aabb
+		ARG 6 boxes
 	METHOD a blockActivated (Lep;IIILga;)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 player
 	METHOD a dropBlockAsItem_do (Lep;IIILhz;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 itemStack
 	METHOD a updateTick (Lep;IIILjava/util/Random;)V
 		ARG 1 world
 		ARG 2 x
@@ -192,41 +244,124 @@ CLASS rj net/minecraft/src/Block
 		ARG 4 z
 		ARG 5 living
 	METHOD a onEntityCollidedWithBlock (Lep;IIILpp;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 entity
 	METHOD a velocityToAddToEntity (Lep;IIILpp;Lbo;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 entity
+		ARG 6 vecloityVec
 	METHOD a harvestBlock (Lep;Lga;IIII)V
+		ARG 1 world
+		ARG 2 player
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 id
 	METHOD a blockStrength (Lga;)F
+		ARG 1 player
 	METHOD a setBlockName (Ljava/lang/String;)Lrj;
+		ARG 1 name
 	METHOD a quantityDropped (Ljava/util/Random;)I
 		ARG 1 rand
 	METHOD a getExplosionResistance (Lpp;)F
+		ARG 1 entity
 	METHOD a setBlockBoundsBasedOnState (Lun;III)V
+		ARG 1 blockAcess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD a isPoweringTo (Lun;IIII)Z
+		ARG 1 blockAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 side
 	METHOD a setTickOnLoad (Z)Lrj;
+		ARG 1 ticksOnLoad
 	METHOD a_ damageDropped (I)I
+		ARG 1 meta
 	METHOD a_ onBlockDestroyedByExplosion (Lep;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD b isACube ()Z
 	METHOD b setResistance (F)Lrj;
+		ARG 1 resistance
 	METHOD b isVecInsideXZBounds (Lbo;)Z
+		ARG 1 vector
 	METHOD b canPlaceBlockOnSide (Lep;IIII)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 side
 	METHOD b onBlockClicked (Lep;IIILga;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 player
 	METHOD b onEntityWalking (Lep;IIILpp;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 entity
 	METHOD b shouldSideBeRendered (Lun;IIII)Z
+		ARG 1 blockAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 side
 	METHOD c tickRate ()I
 	METHOD c setHardness (F)Lrj;
+		ARG 1 harness
 	METHOD c isVecInsideXYBounds (Lbo;)Z
+		ARG 1 vector
 	METHOD c canPlaceBlockAt (Lep;III)Z
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 	METHOD c onBlockDestroyedByPlayer (Lep;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 side
 	METHOD d canProvidePower ()Z
 	METHOD d onBlockRemoval (Lep;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD d isIndirectlyPoweringTo (Lep;IIII)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 side
 	METHOD e getMobilityFlag ()I
 	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD e onBlockPlaced (Lep;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 side
 	METHOD f setLightOpacity (I)Lrj;
+		ARG 1 opacity
 	METHOD f canBlockStay (Lep;III)Z
 		ARG 1 world
 		ARG 2 x
@@ -234,6 +369,11 @@ CLASS rj net/minecraft/src/Block
 		ARG 4 z
 	METHOD g setRequiresSelfNotify ()Lrj;
 	METHOD g dropBlockAsItem (Lep;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 meta
 	METHOD h setFireBurnRates ()V
 	METHOD i setBlockUnbreakable ()Lrj;
 	METHOD j getHardness ()F

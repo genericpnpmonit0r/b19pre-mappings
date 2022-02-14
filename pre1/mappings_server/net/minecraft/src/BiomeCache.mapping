@@ -1,10 +1,21 @@
 CLASS rw net/minecraft/src/BiomeCache
-	METHOD a func_35681_a ()V
-	METHOD a func_35680_c (II)Lra;
+	FIELD a chunkmanager Lut;
+	FIELD b lastCleanupTime J
+	FIELD c cacheMap Lff;
+	FIELD d cache Ljava/util/List;
+	METHOD <init> (Lut;)V
+		ARG 1 chunkMgr
+	METHOD a cleanupCache ()V
+	METHOD a getBiomeCacheBlock (II)Lra;
+		ARG 1 x
+		ARG 2 z
 	METHOD a func_35679_a (Lrw;)Lut;
-	METHOD b func_35683_a (II)Liz;
-	METHOD d func_35682_b (II)[Liz;
-	FIELD a field_35687_a Lut;
-	FIELD b field_35685_b J
-	FIELD c field_35686_c Lff;
-	FIELD d field_35684_d Ljava/util/List;
+	METHOD b getBiomeGenAt (II)Liz;
+		ARG 1 x
+		ARG 2 z
+	METHOD c getTemperatureValueAt (II)F
+		ARG 1 x
+		ARG 2 z
+	METHOD d getCachedBiomes (II)[Liz;
+		ARG 1 x
+		ARG 2 z

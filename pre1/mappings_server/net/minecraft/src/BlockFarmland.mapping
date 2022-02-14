@@ -1,4 +1,6 @@
 CLASS sh net/minecraft/src/BlockFarmland
+	METHOD <init> (I)V
+		ARG 1 id
 	METHOD a isOpaqueCube ()Z
 	METHOD a getBlockTextureFromSideAndMetadata (II)I
 	METHOD a idDropped (ILjava/util/Random;)I
@@ -8,4 +10,12 @@ CLASS sh net/minecraft/src/BlockFarmland
 	METHOD b onEntityWalking (Lep;IIILpp;)V
 	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;
 	METHOD g isCropsNearby (Lep;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD h isWaterNearby (Lep;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

@@ -1,3 +1,8 @@
 CLASS im net/minecraft/src/BlockBreakable
-	METHOD a isOpaqueCube ()Z
 	FIELD a localFlag Z
+	METHOD <init> (IILjw;Z)V
+		ARG 1 id
+		ARG 2 texIndex
+		ARG 3 material
+		ARG 4 flg
+	METHOD a isOpaqueCube ()Z
