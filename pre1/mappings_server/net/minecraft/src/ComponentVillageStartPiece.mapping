@@ -1,8 +1,16 @@
 CLASS h net/minecraft/src/ComponentVillageStartPiece
-	FIELD a field_35392_a Lut;
+	FIELD a worldChunkMngr Lut;
 	FIELD b terrainType I
 	FIELD c structVillagePieceWeight Leg;
 	FIELD d structureVillageWeightedPieceList Ljava/util/ArrayList;
 	FIELD e weightList1 Ljava/util/ArrayList;
 	FIELD f weightList2 Ljava/util/ArrayList;
+	METHOD <init> (Lut;ILjava/util/Random;IILjava/util/ArrayList;I)V
+		ARG 1 chunkManager
+		ARG 2 type
+		ARG 3 rand
+		ARG 4 type1
+		ARG 5 type2
+		ARG 6 weightList
+		ARG 7 terrainType
 	METHOD a getWorldChunkMgr ()Lut;

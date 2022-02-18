@@ -1,9 +1,0 @@
-CLASS ih net/minecraft/src/ModelBed
-	FIELD a field_35612_a [I
-	FIELD b field_35610_b [I
-	FIELD c field_35611_c [I
-	FIELD d field_35609_d [I
-	FIELD e footInvisibleFaceRemap [I
-	FIELD f field_35607_f [I
-	FIELD g field_35608_g [I
-	FIELD h bedDirection [[I

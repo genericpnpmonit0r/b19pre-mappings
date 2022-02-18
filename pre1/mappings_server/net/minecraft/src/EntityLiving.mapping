@@ -4,24 +4,25 @@ CLASS jz net/minecraft/src/EntityLiving
 	FIELD T field_9096_ay F
 	FIELD U renderYawOffset F
 	FIELD V prevRenderYawOffset F
-	FIELD W field_9124_aB F
-	FIELD X field_9123_aC F
+	FIELD W prevRidingRot F
+	FIELD X curRidingRot F
 	FIELD Y field_9122_aD F
 	FIELD Z field_9121_aE F
-	FIELD aA field_9142_bc F
-	FIELD aB field_9141_bd F
-	FIELD aC field_386_ba F
+	FIELD aA posY2 F
+	FIELD aB prevPosY2 F
+	FIELD aC prevPosy3 F
 	FIELD aD field_35189_aD I
 	FIELD aE field_35190_aE I
-	FIELD aF field_35191_aF Ljava/util/HashMap;
+	FIELD aF activePotionsMap Ljava/util/HashMap;
 	FIELD aG newPosRotationIncrements I
 	FIELD aH newPosX D
+	FIELD a carryoverDamage I
 	FIELD aI newPosY D
 	FIELD aJ newPosZ D
 	FIELD aK newRotationYaw D
 	FIELD aL newRotationPitch D
 	FIELD aM field_9134_bl F
-	FIELD aN field_9133_bm I
+	FIELD aN naturalArmorRating I
 	FIELD aO entityAge I
 	FIELD aP moveStrafing F
 	FIELD aQ moveForward F
@@ -57,13 +58,14 @@ CLASS jz net/minecraft/src/EntityLiving
 	FIELD ay field_9144_ba I
 	FIELD az field_9143_bb F
 	FIELD b livingSoundTime I
-	FIELD c field_34903_b Lga;
+	FIELD c thePlayer Lga;
 	FIELD d field_34904_c I
+	FIELD e bool1 Z
 	FIELD f currentTarget Lpp;
-	METHOD H func_35180_G ()Z
+	METHOD H getIsBlocking ()Z
 	METHOD I isMovementBlocked ()Z
 	METHOD J updateRidden ()V
-	METHOD L getSlimeSizeM ()I
+	METHOD L getTotalArmorValue ()I
 	METHOD R isPlayerSleeping ()Z
 	METHOD U jump ()V
 	METHOD Z func_35188_X ()Z
@@ -73,14 +75,23 @@ CLASS jz net/minecraft/src/EntityLiving
 		ARG 2 pitch
 	METHOD a getExperiencePoints (Lga;)I
 		ARG 1 player
-	METHOD a func_35184_a (Lhp;)Z
+	METHOD a isPotionActive (Lhp;)Z
+		ARG 1 potion
 	METHOD a readEntityFromNBT (Lls;)V
 	METHOD a onDeath (Lns;)V
 		ARG 1 damageSrc
 	METHOD a attackEntityFrom (Lns;I)Z
 	METHOD a faceEntity (Lpp;FF)V
+		ARG 1 entity
+		ARG 2 yaw
+		ARG 3 pitch
 	METHOD a knockBack (Lpp;IDD)V
-	METHOD a func_35181_a (Lul;)V
+		ARG 1 entity
+		ARG 2 dist
+		ARG 3 x
+		ARG 5 z
+	METHOD a onNewPotionEffect (Lul;)V
+		ARG 1 potionEffect
 	METHOD a dropFewItems (Z)V
 		ARG 1 itemBool
 	METHOD ab playLivingSound ()V
@@ -93,26 +104,43 @@ CLASS jz net/minecraft/src/EntityLiving
 	METHOD ai onEntityDeath ()V
 	METHOD aj kill ()V
 	METHOD ak getLookVec ()Lbo;
-	METHOD al func_35186_aj ()V
-	METHOD am func_35183_ak ()Ljava/util/Collection;
+	METHOD al clearActivePotions ()V
+	METHOD am getPotionMapValues ()Ljava/util/Collection;
 	METHOD b entityInit ()V
 	METHOD b setSize (FF)V
 	METHOD b updateRotation (FFF)F
-	METHOD b func_35187_b (Lhp;)Lul;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b getActivePotionEffect (Lhp;)Lul;
+		ARG 1 potion
 	METHOD b writeEntityToNBT (Lls;)V
 	METHOD b damageEntity (Lns;I)V
-	METHOD b func_35179_b (Lul;)V
+		ARG 1 damageSrc
+		ARG 2 amount
+	METHOD b onChangedPotionEffect (Lul;)V
+		ARG 1 potionEffect
 	METHOD b_ getDeathSound ()Ljava/lang/String;
 	METHOD c onLivingUpdate ()V
 	METHOD c heal (I)V
-	METHOD c func_35185_c (Lul;)V
+		ARG 1 amount
+	METHOD c applyArmorCalculations (Lns;I)I
+		ARG 1 damageSrc
+		ARG 2 amount
+	METHOD c onFinishedPotionEffect (Lul;)V
+		ARG 1 potionEffect
 	METHOD c_ canBeCollidedWith ()Z
 	METHOD d getLivingSound ()Ljava/lang/String;
 	METHOD d getLook (F)Lbo;
-	METHOD d func_35182_d (Lul;)V
+		ARG 1 lookVectorFloat
+	METHOD d damageArmor (I)V
+		ARG 1 amount
+	METHOD d addPotionEffect (Lul;)V
+		ARG 1 potionEffect
 	METHOD d_ canBePushed ()Z
 	METHOD e getHurtSound ()Ljava/lang/String;
 	METHOD f canEntityBeSeen (Lpp;)Z
+		ARG 1 entity
 	METHOD g getDropItemId ()I
 	METHOD h canBreatheUnderwater ()Z
 	METHOD i getCanSpawnHere ()Z
@@ -121,7 +149,7 @@ CLASS jz net/minecraft/src/EntityLiving
 	METHOD l updateEntityActionState ()V
 	METHOD m getSoundVolume ()F
 	METHOD n getMaxSpawnedInChunk ()I
-	METHOD n_ func_35178_D ()F
+	METHOD n_ applyMoveSpeedPotionEffectModifier ()F
 	METHOD q isOnLadder ()Z
 	METHOD q_ onUpdate ()V
 	METHOD t getVerticalFaceSpeed ()I

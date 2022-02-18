@@ -1,3 +1,5 @@
 CLASS of net/minecraft/src/BlockStoneBrick
+	METHOD <init> (I)V
+		ARG 1 id
 	METHOD a getBlockTextureFromSideAndMetadata (II)I
 	METHOD a_ damageDropped (I)I

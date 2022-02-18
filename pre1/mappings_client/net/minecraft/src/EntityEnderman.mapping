@@ -14,6 +14,7 @@ CLASS hp net/minecraft/src/EntityEnderman
 	METHOD c getEntityBrightnessForRender (F)I
 	METHOD c teleportToEntity (Lle;)Z
 	METHOD c shouldAttackPlayer (Lui;)Z
+		ARG 1 player
 	METHOD c_ setCarryingData (I)V
 	METHOD d getLivingSound ()Ljava/lang/String;
 	METHOD e getHurtSound ()Ljava/lang/String;

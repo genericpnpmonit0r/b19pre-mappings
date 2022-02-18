@@ -1,7 +1,7 @@
 CLASS pn net/minecraft/src/StructureStrongholdPieceWeight
-	METHOD a func_35576_a ()Z
-	METHOD a func_35575_a (I)Z
-	FIELD a field_35580_a Ljava/lang/Class;
-	FIELD b field_35578_b I
-	FIELD c field_35579_c I
-	FIELD d field_35577_d I
+	FIELD a pieceClass Ljava/lang/Class;
+	FIELD b pieceWeight I
+	FIELD c instancesSpawned I
+	FIELD d instancesLimit I
+	METHOD a canSpawnMoreStructures ()Z
+	METHOD a canSpawnMoreStructuresOfType (I)Z

@@ -1,19 +1,4 @@
 CLASS jw net/minecraft/src/Material
-	METHOD a isSolid ()Z
-	METHOD b getCanBlockGrass ()Z
-	METHOD c getIsSolid ()Z
-	METHOD d getIsLiquid ()Z
-	METHOD e setNoHarvest ()Ljw;
-	METHOD f setBurning ()Ljw;
-	METHOD g getBurning ()Z
-	METHOD h setIsGroundCover ()Ljw;
-	METHOD i getIsGroundCover ()Z
-	METHOD j getIsOpaque ()Z
-	METHOD k getIsHarvestable ()Z
-	METHOD l getMaterialMobility ()I
-	METHOD m setNoPushMobility ()Ljw;
-	METHOD n setImmovableMobility ()Ljw;
-	METHOD o setIsTranslucent ()Ljw;
 	FIELD A cakeMaterial Ljw;
 	FIELD B web Ljw;
 	FIELD C piston Ljw;
@@ -33,7 +18,7 @@ CLASS jw net/minecraft/src/Material
 	FIELD h lava Ljw;
 	FIELD i leaves Ljw;
 	FIELD j plants Ljw;
-	FIELD k field_35574_k Ljw;
+	FIELD k vine Ljw;
 	FIELD l sponge Ljw;
 	FIELD m cloth Ljw;
 	FIELD n fire Ljw;
@@ -49,3 +34,20 @@ CLASS jw net/minecraft/src/Material
 	FIELD x clay Ljw;
 	FIELD y pumpkin Ljw;
 	FIELD z portal Ljw;
+	METHOD <init> (Ldn;)V
+		ARG 1 mapColor
+	METHOD a isSolid ()Z
+	METHOD b getCanBlockGrass ()Z
+	METHOD c getIsSolid ()Z
+	METHOD d getIsLiquid ()Z
+	METHOD e setNoHarvest ()Ljw;
+	METHOD f setBurning ()Ljw;
+	METHOD g getBurning ()Z
+	METHOD h setIsGroundCover ()Ljw;
+	METHOD i getIsGroundCover ()Z
+	METHOD j getIsOpaque ()Z
+	METHOD k getIsHarvestable ()Z
+	METHOD l getMaterialMobility ()I
+	METHOD m setNoPushMobility ()Ljw;
+	METHOD n setImmovableMobility ()Ljw;
+	METHOD o setIsTranslucent ()Ljw;

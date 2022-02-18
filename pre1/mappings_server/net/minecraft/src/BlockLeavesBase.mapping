@@ -1,3 +1,8 @@
 CLASS lo net/minecraft/src/BlockLeavesBase
-	METHOD a isOpaqueCube ()Z
 	FIELD b graphicsLevel Z
+	METHOD <init> (IILjw;Z)V
+		ARG 1 id
+		ARG 2 texIndex
+		ARG 3 material
+		ARG 4 gfxLevel
+	METHOD a isOpaqueCube ()Z

@@ -1,8 +1,13 @@
 CLASS gs net/minecraft/src/CraftingManager
-	METHOD a getInstance ()Lgs;
-	METHOD a addRecipe (Lhz;[Ljava/lang/Object;)V
-	METHOD a findMatchingRecipe (Lkq;)Lhz;
-	METHOD b getRecipeList ()Ljava/util/List;
-	METHOD b addShapelessRecipe (Lhz;[Ljava/lang/Object;)V
 	FIELD a instance Lgs;
 	FIELD b recipes Ljava/util/List;
+	METHOD a getInstance ()Lgs;
+	METHOD a addRecipe (Lhz;[Ljava/lang/Object;)V
+		ARG 1 output
+		ARG 2 patternAndIngredients
+	METHOD a findMatchingRecipe (Lkq;)Lhz;
+		ARG 1 inventoryCrafting
+	METHOD b getRecipeList ()Ljava/util/List;
+	METHOD b addShapelessRecipe (Lhz;[Ljava/lang/Object;)V
+		ARG 1 output
+		ARG 2 patternAndIngredients

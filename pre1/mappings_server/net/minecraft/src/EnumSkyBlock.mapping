@@ -1,5 +1,7 @@
 CLASS dr net/minecraft/src/EnumSkyBlock
 	FIELD a Sky Ldr;
 	FIELD b Block Ldr;
-	FIELD c field_984_c I
+	FIELD c defaultLightValue I
 	FIELD d allSkyBlocks [Ldr;
+	METHOD <init> (Ljava/lang/String;II)V
+		ARG 3 lightValue

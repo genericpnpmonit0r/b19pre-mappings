@@ -1,7 +1,12 @@
 CLASS jh net/minecraft/src/ComponentStrongholdRoomCrossing
+	FIELD a randomDoor Lnw;
+	FIELD b picker I
+	FIELD c lootArray [Lhc;
+	METHOD <init> (ILjava/util/Random;Lst;I)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 boundingBox
+		ARG 4 coordBaseMode
 	METHOD a func_35310_a (Lep;Ljava/util/Random;Lst;)Z
 	METHOD a func_35308_a (Liv;Ljava/util/List;Ljava/util/Random;)V
-	METHOD a func_35346_a (Ljava/util/List;Ljava/util/Random;IIIII)Ljh;
-	FIELD a field_35349_a Lnw;
-	FIELD b field_35347_b I
-	FIELD c field_35348_c [Lhc;
+	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIIII)Ljh;

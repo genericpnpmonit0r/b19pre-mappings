@@ -1,14 +1,8 @@
 CLASS pm net/minecraft/src/EntityArrow
-	METHOD a setArrowHeading (DDDFF)V
-	METHOD a readEntityFromNBT (Lls;)V
-	METHOD a_ onCollideWithPlayer (Lga;)V
-	METHOD b entityInit ()V
-	METHOD b writeEntityToNBT (Lls;)V
-	METHOD q_ onUpdate ()V
 	FIELD a doesArrowBelongToPlayer Z
 	FIELD b arrowShake I
 	FIELD c shootingEntity Lpp;
-	FIELD d field_35160_d Z
+	FIELD d arrowCritical Z
 	FIELD e xTile I
 	FIELD f yTile I
 	FIELD g zTile I
@@ -17,3 +11,23 @@ CLASS pm net/minecraft/src/EntityArrow
 	FIELD j inGround Z
 	FIELD k ticksInGround I
 	FIELD l ticksInAir I
+	METHOD <init> (Lep;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD <init> (Lep;Ljz;F)V
+		ARG 1 world
+		ARG 2 living
+		ARG 3 motion
+	METHOD a setArrowHeading (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
+	METHOD a readEntityFromNBT (Lls;)V
+	METHOD a_ onCollideWithPlayer (Lga;)V
+	METHOD b entityInit ()V
+	METHOD b writeEntityToNBT (Lls;)V
+	METHOD q_ onUpdate ()V

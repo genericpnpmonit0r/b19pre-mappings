@@ -1,6 +1,13 @@
 CLASS ht net/minecraft/src/StructureMineshaftPieces
+	FIELD a lootArray [Lhc;
 	METHOD a func_35432_a ()[Lhc;
 	METHOD a func_35433_a (Liv;Ljava/util/List;Ljava/util/Random;IIIII)Liv;
-	METHOD a func_35434_a (Ljava/util/List;Ljava/util/Random;IIIII)Liv;
-	METHOD b func_35435_b (Liv;Ljava/util/List;Ljava/util/Random;IIIII)Liv;
-	FIELD a field_35436_a [Lhc;
+	METHOD a getRandomComponent (Ljava/util/List;Ljava/util/Random;IIIII)Liv;
+		ARG 0 components
+		ARG 1 rand
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 coordBaseMode
+		ARG 6 type
+	METHOD b getNextMineShaftComponent (Liv;Ljava/util/List;Ljava/util/Random;IIIII)Liv;

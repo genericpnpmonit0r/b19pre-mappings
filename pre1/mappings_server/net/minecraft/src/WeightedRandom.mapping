@@ -1,6 +1,6 @@
 CLASS ru net/minecraft/src/WeightedRandom
 	METHOD a func_35692_a (Ljava/util/Collection;)I
-	METHOD a func_35689_a (Ljava/util/Random;Ljava/util/Collection;)Lcd;
+	METHOD a getRandomItem1 (Ljava/util/Random;Ljava/util/Collection;)Lcd;
 	METHOD a func_35693_a (Ljava/util/Random;Ljava/util/Collection;I)Lcd;
 	METHOD a getRandomItem3 (Ljava/util/Random;[Lcd;)Lcd;
 	METHOD a func_35688_a (Ljava/util/Random;[Lcd;I)Lcd;

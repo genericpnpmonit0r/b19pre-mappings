@@ -1,4 +1,10 @@
 CLASS tp net/minecraft/src/BlockRedstoneRepeater
+	FIELD a repeaterTorchOffset [D
+	FIELD b repeaterState [I
+	FIELD c isRepeaterPowered Z
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 powered
 	METHOD a isOpaqueCube ()Z
 	METHOD a getBlockTextureFromSide (I)I
 	METHOD a getBlockTextureFromSideAndMetadata (II)I
@@ -15,6 +21,8 @@ CLASS tp net/minecraft/src/BlockRedstoneRepeater
 	METHOD d isIndirectlyPoweringTo (Lep;IIII)Z
 	METHOD f canBlockStay (Lep;III)Z
 	METHOD f ignoreTick (Lep;IIII)Z
-	FIELD a repeaterTorchOffset [D
-	FIELD b repeaterState [I
-	FIELD c isRepeaterPowered Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 meta

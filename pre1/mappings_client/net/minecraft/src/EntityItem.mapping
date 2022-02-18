@@ -3,8 +3,14 @@ CLASS ep net/minecraft/src/EntityItem
 	FIELD ap health I
 	FIELD b age I
 	FIELD c delayBeforeCanPickup I
-	FIELD d field_804_d F
-	FIELD e field_803_e I
+	FIELD d itemRotation F
+	FIELD e timer I
+	METHOD <init> (Ltd;DDDLvw;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 itemStack
 	METHOD a dealFireDamage (I)V
 	METHOD a attackEntityFrom (Ljz;I)Z
 	METHOD a readEntityFromNBT (Lyr;)V

@@ -6,7 +6,8 @@ CLASS gd net/minecraft/src/EntityMob
 	METHOD a attackEntity (Lpp;F)V
 	METHOD b writeEntityToNBT (Lls;)V
 	METHOD c onLivingUpdate ()V
-	METHOD c func_35224_c (Lpp;)Z
+	METHOD c attackEntityAsMob (Lpp;)Z
+		ARG 1 entity
 	METHOD i getCanSpawnHere ()Z
 	METHOD p findPlayerToAttack ()Lpp;
 	METHOD q_ onUpdate ()V

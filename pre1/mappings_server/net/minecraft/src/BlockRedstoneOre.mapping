@@ -1,4 +1,9 @@
 CLASS bn net/minecraft/src/BlockRedstoneOre
+	FIELD a glowing Z
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 texIndex
+		ARG 3 glowing
 	METHOD a idDropped (ILjava/util/Random;)I
 	METHOD a blockActivated (Lep;IIILga;)Z
 	METHOD a updateTick (Lep;IIILjava/util/Random;)V
@@ -6,6 +11,13 @@ CLASS bn net/minecraft/src/BlockRedstoneOre
 	METHOD b onBlockClicked (Lep;IIILga;)V
 	METHOD b onEntityWalking (Lep;IIILpp;)V
 	METHOD c tickRate ()I
-	METHOD g func_321_g (Lep;III)V
-	METHOD h func_320_h (Lep;III)V
-	FIELD a glowing Z
+	METHOD g setGlowing (Lep;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h emitParticles (Lep;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

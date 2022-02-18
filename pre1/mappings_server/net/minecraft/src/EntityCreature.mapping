@@ -2,17 +2,22 @@ CLASS hl net/minecraft/src/EntityCreature
 	FIELD a pathToEntity Lcx;
 	FIELD d entityToAttack Lpp;
 	FIELD e hasAttacked Z
-	FIELD f field_35223_f I
-	METHOD A func_31021_B ()V
+	FIELD f fleeingTick I
+	METHOD A updateWanderPath ()V
 	METHOD B hasPath ()Z
 	METHOD C getEntityToAttack ()Lpp;
 	METHOD a getBlockPathWeight (III)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD a setPathToEntity (Lcx;)V
+		ARG 1 pathEntity
 	METHOD a attackEntity (Lpp;F)V
 		ARG 1 entity
 		ARG 2 amount
 	METHOD b attackBlockedEntity (Lpp;F)V
 	METHOD d setTarget (Lpp;)V
+		ARG 1 entity
 	METHOD i getCanSpawnHere ()Z
 	METHOD l updateEntityActionState ()V
 	METHOD n_ func_35178_D ()F

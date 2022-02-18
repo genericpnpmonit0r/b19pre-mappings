@@ -1,5 +1,13 @@
 CLASS yt net/minecraft/src/BlockStationary
 	METHOD a onNeighborBlockChange (Ltd;IIII)V
 	METHOD a updateTick (Ltd;IIILjava/util/Random;)V
-	METHOD j func_30004_j (Ltd;III)V
-	METHOD k func_301_k (Ltd;III)Z
+	METHOD j updateBlockMeta (Ltd;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD k getMaterialFlammable (Ltd;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

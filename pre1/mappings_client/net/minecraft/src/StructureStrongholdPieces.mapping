@@ -2,7 +2,7 @@ CLASS wi net/minecraft/src/StructureStrongholdPieces
 	FIELD a totalWeight I
 	FIELD b pieceWeightArray [Labt;
 	FIELD c structurePieceList Ljava/util/List;
-	FIELD d field_35854_d Lado;
+	FIELD d structureStrongholdstones Lado;
 	METHOD a prepareStructurePieces ()V
 	METHOD a getStrongholdComponentFromWeightedPiece (Labt;Ljava/util/List;Ljava/util/Random;IIIII)Leh;
 		ARG 0 pieceWeight
@@ -15,7 +15,7 @@ CLASS wi net/minecraft/src/StructureStrongholdPieces
 		ARG 7 type
 	METHOD a func_35850_a (Lq;Ljava/util/List;Ljava/util/Random;IIIII)Lfw;
 	METHOD b getStrongholdStones ()Lado;
-	METHOD b func_35847_b (Lq;Ljava/util/List;Ljava/util/Random;IIIII)Leh;
+	METHOD b createStairsPart (Lq;Ljava/util/List;Ljava/util/Random;IIIII)Leh;
 		ARG 0 staris2
 		ARG 1 components
 		ARG 2 rand

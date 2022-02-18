@@ -1,12 +1,36 @@
 CLASS il net/minecraft/src/StructureStrongholdPieces
-	METHOD a func_35625_a ()V
-	METHOD a func_35620_a (Lpn;Ljava/util/List;Ljava/util/Random;IIIII)Lgf;
+	FIELD a totalWeight I
+	FIELD b pieceWeightArray [Lpn;
+	FIELD c structurePiecesList Ljava/util/List;
+	FIELD d structureStrongholdstones Lsa;
+	METHOD a prepareStructurePieces ()V
+	METHOD a getStrongholdComponentFromWeightedPiece (Lpn;Ljava/util/List;Ljava/util/Random;IIIII)Lgf;
+		ARG 0 pieceWeight
+		ARG 1 components
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 i
+		ARG 7 type
 	METHOD a func_35624_a (Ls;Ljava/util/List;Ljava/util/Random;IIIII)Liv;
 	METHOD b func_35622_b ()Lsa;
-	METHOD b func_35623_b (Ls;Ljava/util/List;Ljava/util/Random;IIIII)Lgf;
-	METHOD c func_35626_c ()Z
-	METHOD c func_35621_c (Ls;Ljava/util/List;Ljava/util/Random;IIIII)Liv;
-	FIELD a field_35630_a I
-	FIELD b field_35628_b [Lpn;
-	FIELD c field_35629_c Ljava/util/List;
-	FIELD d field_35627_d Lsa;
+	METHOD b createStairsPart (Ls;Ljava/util/List;Ljava/util/Random;IIIII)Lgf;
+		ARG 0 stairs2
+		ARG 1 components
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 i
+		ARG 7 type
+	METHOD c canAddStructurePieces ()Z
+	METHOD c getNextValidComponentAccess (Ls;Ljava/util/List;Ljava/util/Random;IIIII)Liv;
+		ARG 0 stairs
+		ARG 1 components
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 i
+		ARG 7 type

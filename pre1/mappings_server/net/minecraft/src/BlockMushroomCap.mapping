@@ -1,5 +1,10 @@
 CLASS sl net/minecraft/src/BlockMushroomCap
+	FIELD a mushroomType I
+	METHOD <init> (ILjw;II)V
+		ARG 1 id
+		ARG 2 material
+		ARG 3 texIndex
+		ARG 4 mushroomType
 	METHOD a getBlockTextureFromSideAndMetadata (II)I
 	METHOD a idDropped (ILjava/util/Random;)I
 	METHOD a quantityDropped (Ljava/util/Random;)I
-	FIELD a field_35069_a I

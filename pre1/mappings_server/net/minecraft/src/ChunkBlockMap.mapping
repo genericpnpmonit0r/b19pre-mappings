@@ -1,3 +1,4 @@
 CLASS se net/minecraft/src/ChunkBlockMap
-	METHOD a func_26001_a ([B)V
-	FIELD a field_26002_a [B
+	FIELD a blockArray [B
+	METHOD a setBlockArray ([B)V
+		ARG 0 blocks

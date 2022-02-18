@@ -1,4 +1,9 @@
 CLASS bf net/minecraft/src/BlockLeaves
+	FIELD a adjacentTreeBlocks [I
+	FIELD c baseIndexInPNG I
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
 	METHOD a isOpaqueCube ()Z
 	METHOD a getBlockTextureFromSideAndMetadata (II)I
 	METHOD a idDropped (ILjava/util/Random;)I
@@ -9,5 +14,7 @@ CLASS bf net/minecraft/src/BlockLeaves
 	METHOD b onEntityWalking (Lep;IIILpp;)V
 	METHOD d onBlockRemoval (Lep;III)V
 	METHOD g removeLeaves (Lep;III)V
-	FIELD a adjacentTreeBlocks [I
-	FIELD c baseIndexInPNG I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

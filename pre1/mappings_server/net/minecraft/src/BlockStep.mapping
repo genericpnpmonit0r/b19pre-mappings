@@ -1,4 +1,9 @@
 CLASS vm net/minecraft/src/BlockStep
+	FIELD a stepBlockTranslateNames [Ljava/lang/String;
+	FIELD b blockType Z
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 type
 	METHOD a isOpaqueCube ()Z
 	METHOD a getBlockTextureFromSide (I)I
 	METHOD a getBlockTextureFromSideAndMetadata (II)I
@@ -7,5 +12,3 @@ CLASS vm net/minecraft/src/BlockStep
 	METHOD a quantityDropped (Ljava/util/Random;)I
 	METHOD a_ damageDropped (I)I
 	METHOD b isACube ()Z
-	FIELD a field_35062_a [Ljava/lang/String;
-	FIELD b blockType Z

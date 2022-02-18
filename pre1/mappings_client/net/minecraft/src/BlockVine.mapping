@@ -15,7 +15,12 @@ CLASS ze net/minecraft/src/BlockVine
 	METHOD c onBlockPlaced (Ltd;IIII)V
 	METHOD d getRenderType ()I
 	METHOD d canBePlacedOn (I)Z
+		ARG 1 side
 	METHOD d canPlaceBlockOnSide (Ltd;IIII)Z
 	METHOD h setBlockBoundsForItemRender ()V
 	METHOD h canVineStay (Ltd;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD i getBlockColor ()I

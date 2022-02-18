@@ -20,7 +20,7 @@ CLASS xq net/minecraft/src/EntityLiving
 	FIELD bP field_35172_bP I
 	FIELD bQ field_35173_bQ I
 	FIELD bR activePotionsMap Ljava/util/HashMap;
-	FIELD bS rot2 I
+	FIELD bS newPosRotationIncrements I
 	FIELD bT newPosX D
 	FIELD bU newPosY D
 	FIELD bV newPosZ D
@@ -33,8 +33,8 @@ CLASS xq net/minecraft/src/EntityLiving
 	FIELD bf field_9363_r F
 	FIELD bg renderYawOffset F
 	FIELD bh prevRenderYawOffset F
-	FIELD bi field_9362_u F
-	FIELD bj field_9361_v F
+	FIELD bi prevRidingRot F
+	FIELD bj curRidingRot F
 	FIELD bk field_9360_w F
 	FIELD bl field_9359_x F
 	FIELD bm field_9358_y Z
@@ -87,8 +87,8 @@ CLASS xq net/minecraft/src/EntityLiving
 		ARG 3 pitch
 	METHOD a knockBack (Lle;IDD)V
 		ARG 1 entity
-		ARG 2 x
-		ARG 3 y
+		ARG 2 dist
+		ARG 3 x
 		ARG 5 z
 	METHOD a getExperiencePoints (Lui;)I
 		ARG 1 player

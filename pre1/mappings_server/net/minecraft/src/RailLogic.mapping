@@ -1,16 +1,4 @@
 CLASS sj net/minecraft/src/RailLogic
-	METHOD a func_591_b ()V
-	METHOD a setConnections (I)V
-	METHOD a isMinecartTrack (III)Z
-	METHOD a getNAdjacentTracks (Lsj;)I
-	METHOD a getMinecartTrackLogic (Ltf;)Lsj;
-	METHOD a func_596_a (ZZ)V
-	METHOD b getAdjacentTracks ()I
-	METHOD b isInTrack (III)Z
-	METHOD b isConnectedTo (Lsj;)Z
-	METHOD c func_592_c (III)Z
-	METHOD c handleKeyPress (Lsj;)Z
-	METHOD d func_598_d (Lsj;)V
 	FIELD a rail Lmw;
 	FIELD b worldObj Lep;
 	FIELD c trackX I
@@ -18,3 +6,35 @@ CLASS sj net/minecraft/src/RailLogic
 	FIELD e trackZ I
 	FIELD f isPoweredRail Z
 	FIELD g connectedTracks Ljava/util/List;
+	METHOD <init> (Lmw;Lep;III)V
+		ARG 1 rail
+		ARG 2 world
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+	METHOD a refreshConnectedTracks ()V
+	METHOD a setConnections (I)V
+		ARG 1 side
+	METHOD a isMinecartTrack (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a getNAdjacentTracks (Lsj;)I
+	METHOD a getMinecartTrackLogic (Ltf;)Lsj;
+		ARG 1 chunkPos
+	METHOD a refreshTrackShape (ZZ)V
+	METHOD b getAdjacentTracks ()I
+	METHOD b isInTrack (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b isConnectedTo (Lsj;)Z
+		ARG 1 logic
+	METHOD c canConnectFrom (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD c canConnectTo (Lsj;)Z
+		ARG 1 logic
+	METHOD d connectToNeighbor (Lsj;)V
+		ARG 1 logic

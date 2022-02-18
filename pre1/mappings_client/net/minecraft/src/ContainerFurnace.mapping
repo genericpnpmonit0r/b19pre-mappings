@@ -5,7 +5,7 @@ CLASS qw net/minecraft/src/ContainerFurnace
 	FIELD h lastItemBurnTime I
 	METHOD <init> (Lvt;Labs;)V
 		ARG 1 inventoryPlayer
-		ARG 2 tileEntityFurnace
+		ARG 2 furnace
 	METHOD a updateCraftingResults ()V
 	METHOD a transferStackInSlot (I)Lvw;
 	METHOD a updateProgressBar (II)V

@@ -1,9 +1,13 @@
 CLASS cg net/minecraft/src/SpawnerAnimals
-	METHOD a getRandomSpawningPointInChunk (Lep;II)Ltf;
-	METHOD a func_35573_a (Lep;Liz;IIIILjava/util/Random;)V
-	METHOD a performSleepSpawning (Lep;Ljava/util/List;)Z
-	METHOD a performSpawning (Lep;ZZ)I
-	METHOD a canCreatureTypeSpawnAtLocation (Lju;Lep;III)Z
-	METHOD a creatureSpecificInit (Ljz;Lep;FFF)V
 	FIELD a nightSpawnEntities [Ljava/lang/Class;
 	FIELD b eligibleChunksForSpawning Ljava/util/Set;
+	METHOD a getRandomSpawningPointInChunk (Lep;II)Ltf;
+		ARG 0 world
+		ARG 1 x
+		ARG 2 z
+	METHOD a performSpawning1 (Lep;Liz;IIIILjava/util/Random;)V
+	METHOD a performSleepSpawning (Lep;Ljava/util/List;)Z
+	METHOD a performSpawning (Lep;ZZ)I
+		ARG 0 world
+	METHOD a canCreatureTypeSpawnAtLocation (Lju;Lep;III)Z
+	METHOD a creatureSpecificInit (Ljz;Lep;FFF)V

@@ -1,20 +1,30 @@
 CLASS mh net/minecraft/src/ChunkProvider
-	METHOD a unload100OldestChunks ()Z
-	METHOD a chunkExists (II)Z
-	METHOD a populate (Lcc;II)V
-	METHOD a func_28060_a (Ljv;)V
-	METHOD a saveChunks (ZLuy;)Z
-	METHOD b canSave ()Z
-	METHOD b provideChunk (II)Ljv;
-	METHOD b func_28059_b (Ljv;)V
-	METHOD c loadChunk (II)Ljv;
-	METHOD d func_35556_d (II)V
-	METHOD e loadChunkFromFile (II)Ljv;
 	FIELD a droppedChunksSet Ljava/util/Set;
-	FIELD b field_28061_b Ljv;
+	FIELD b emptyChunk Ljv;
 	FIELD c chunkProvider Lcc;
 	FIELD d chunkLoader Laz;
 	FIELD e chunkMap Lff;
 	FIELD f chunkList Ljava/util/List;
 	FIELD g worldObj Lep;
-	FIELD h field_35557_h I
+	FIELD h chunkCounter I
+	METHOD <init> (Lep;Laz;Lcc;)V
+		ARG 1 world
+		ARG 2 chunkLoader
+		ARG 3 chunkProvider
+	METHOD a unload100OldestChunks ()Z
+	METHOD a chunkExists (II)Z
+	METHOD a populate (Lcc;II)V
+	METHOD a unloadAndSaveChunkData (Ljv;)V
+		ARG 1 chunk
+	METHOD a saveChunks (ZLuy;)Z
+	METHOD b canSave ()Z
+	METHOD b provideChunk (II)Ljv;
+	METHOD b unloadAndSaveChunk (Ljv;)V
+		ARG 1 chunk
+	METHOD c loadChunk (II)Ljv;
+	METHOD d dropChunk (II)V
+		ARG 1 x
+		ARG 2 z
+	METHOD e loadChunkFromFile (II)Ljv;
+		ARG 1 x
+		ARG 2 z

@@ -1,23 +1,44 @@
 CLASS dm net/minecraft/src/Container
-	METHOD a updateCraftingResults ()V
-	METHOD a getStackInSlot (I)Lhz;
-	METHOD a slotClick (IIZLga;)Lhz;
-	METHOD a func_35498_a (ILhz;)V
-	METHOD a onCraftGuiOpened (Lds;)V
-	METHOD a addSlot (Lfz;)V
-	METHOD a onCraftGuiClosed (Lga;)V
-	METHOD a setCanCraft (Lga;Z)V
-	METHOD a func_28126_a (Lhz;IIZ)Z
-	METHOD a onCraftMatrixChanged (Lkd;)V
-	METHOD a func_20127_a (Lkd;I)Lfz;
-	METHOD b func_28127_b ()Ljava/util/List;
-	METHOD b getSlot (I)Lfz;
-	METHOD b func_35497_b (IIZLga;)V
-	METHOD b canInteractWith (Lga;)Z
-	METHOD c getCanCraft (Lga;)Z
-	FIELD a field_20132_a S
-	FIELD b field_20131_b Ljava/util/Set;
+	FIELD a transactionId S
+	FIELD b playerList Ljava/util/Set;
 	FIELD d inventoryItemStacks Ljava/util/List;
 	FIELD e inventorySlots Ljava/util/List;
 	FIELD f windowId I
 	FIELD g crafters Ljava/util/List;
+	METHOD a updateCraftingResults ()V
+	METHOD a getStackInSlot (I)Lhz;
+		ARG 1 slotIndex
+	METHOD a slotClick (IIZLga;)Lhz;
+	METHOD a getSlotAndPut (ILhz;)V
+		ARG 1 index
+		ARG 2 itemStack
+	METHOD a onCraftGuiOpened (Lds;)V
+		ARG 1 crafting
+	METHOD a addSlot (Lfz;)V
+		ARG 1 slot
+	METHOD a onCraftGuiClosed (Lga;)V
+		ARG 1 player
+	METHOD a setCanCraft (Lga;Z)V
+		ARG 1 player
+		ARG 2 addRemove
+	METHOD a mergeItemStack (Lhz;IIZ)Z
+		ARG 1 itemstack
+		ARG 2 x
+		ARG 3 y
+		ARG 4 clickFlag
+	METHOD a onCraftMatrixChanged (Lkd;)V
+		ARG 1 inventory
+	METHOD a transfer (Lkd;I)Lfz;
+		ARG 1 inventory
+		ARG 2 index
+	METHOD b getItemStackLst ()Ljava/util/List;
+	METHOD b getSlot (I)Lfz;
+	METHOD b retrySlotClick (IIZLga;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 clickFlag
+		ARG 4 player
+	METHOD b canInteractWith (Lga;)Z
+		ARG 1 player
+	METHOD c getCanCraft (Lga;)Z
+		ARG 1 player

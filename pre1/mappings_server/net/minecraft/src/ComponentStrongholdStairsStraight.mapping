@@ -1,5 +1,10 @@
 CLASS lx net/minecraft/src/ComponentStrongholdStairsStraight
+	FIELD a randomDoor Lnw;
+	METHOD <init> (ILjava/util/Random;Lst;I)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 boundingBox
+		ARG 4 coordBaseMode
 	METHOD a func_35310_a (Lep;Ljava/util/Random;Lst;)Z
 	METHOD a func_35308_a (Liv;Ljava/util/List;Ljava/util/Random;)V
-	METHOD a func_35344_a (Ljava/util/List;Ljava/util/Random;IIIII)Llx;
-	FIELD a field_35345_a Lnw;
+	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIIII)Llx;

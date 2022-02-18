@@ -1,4 +1,6 @@
 CLASS er net/minecraft/src/BlockMelon
+	METHOD <init> (I)V
+		ARG 1 id
 	METHOD a getBlockTextureFromSide (I)I
 	METHOD a getBlockTextureFromSideAndMetadata (II)I
 	METHOD a idDropped (ILjava/util/Random;)I

@@ -1,4 +1,8 @@
 CLASS hz net/minecraft/src/ItemStack
+	FIELD a stackSize I
+	FIELD b animationsToGo I
+	FIELD c itemID I
+	FIELD d itemDamage I
 	METHOD a getItem ()Lfy;
 	METHOD a splitStack (I)Lhz;
 	METHOD a onDestroyBlock (IIIILga;)V
@@ -12,19 +16,22 @@ CLASS hz net/minecraft/src/ItemStack
 	METHOD a areItemStacksEqual (Lhz;Lhz;)Z
 	METHOD a useItemOnEntity (Ljz;)V
 	METHOD a hitEntity (Ljz;Lga;)V
-	METHOD a func_35618_a (Lls;)Lhz;
+	METHOD a loadItemStackFromNBT (Lls;)Lhz;
+		ARG 0 compoundTag
 	METHOD a getDamageVsEntity (Lpp;)I
 	METHOD a getStrVsBlock (Lrj;)F
 	METHOD b getMaxStackSize ()I
 	METHOD b setItemDamage (I)V
-	METHOD b func_35617_b (Lep;Lga;)Lhz;
+	METHOD b onFoodEaten (Lep;Lga;)Lhz;
 	METHOD b copyItemStack (Lhz;)Lhz;
 	METHOD b writeToNBT (Lls;)Lls;
+		ARG 1 compoundTag
 	METHOD b canHarvestBlock (Lrj;)Z
 	METHOD c isStackable ()Z
 	METHOD c onCrafting (Lep;Lga;)V
 	METHOD c isStackEqual (Lhz;)Z
 	METHOD c readFromNBT (Lls;)V
+		ARG 1 compoundTag
 	METHOD d isItemStackDamageable ()Z
 	METHOD d isItemStackEqual (Lhz;)Z
 	METHOD e getHasSubtypes ()Z
@@ -32,10 +39,6 @@ CLASS hz net/minecraft/src/ItemStack
 	METHOD g getItemDamage ()I
 	METHOD h getMaxDamage ()I
 	METHOD i copy ()Lhz;
-	METHOD j func_35616_k ()Ljava/lang/String;
-	METHOD k func_35614_l ()I
-	METHOD l func_35615_m ()Lic;
-	FIELD a stackSize I
-	FIELD b animationsToGo I
-	FIELD c itemID I
-	FIELD d itemDamage I
+	METHOD j getItemStackName ()Ljava/lang/String;
+	METHOD k getMaxItemUseDuration ()I
+	METHOD l getItemUseAction ()Lic;

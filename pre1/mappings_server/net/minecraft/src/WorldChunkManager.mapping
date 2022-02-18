@@ -5,14 +5,16 @@ CLASS ut net/minecraft/src/WorldChunkManager
 	FIELD e field_35144_d Ldu;
 	FIELD f field_35145_e Lrw;
 	FIELD g field_35143_f Ljava/util/List;
-	METHOD a func_35137_a ()Ljava/util/List;
+	METHOD a getBiomesToSpawnIn ()Ljava/util/List;
 	METHOD a getBiomeGenAt (II)Liz;
+	METHOD a getTemperatureAt (III)F
+	METHOD a getTemperaturesFrom (IIII)[F
 	METHOD a areBiomesViable (IIILjava/util/List;)Z
-	METHOD a func_35139_a (IIILjava/util/List;Ljava/util/Random;)Ltf;
+	METHOD a findBiomePosition (IIILjava/util/List;Ljava/util/Random;)Ltf;
 	METHOD a getBiomeGenAtChunkCoord (Lvs;)Liz;
 	METHOD a getTemperatures ([FIIII)[F
 	METHOD a loadBlockGeneratorData ([Liz;IIII)[Liz;
 	METHOD a getBiomeGenAt ([Liz;IIIIZ)[Liz;
-	METHOD b func_35138_b ()V
+	METHOD b worldTick ()V
 	METHOD b getRainfall ([FIIII)[F
 	METHOD b func_35142_b ([Liz;IIII)[Liz;

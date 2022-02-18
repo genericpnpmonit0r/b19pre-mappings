@@ -1,10 +1,20 @@
 CLASS fb net/minecraft/src/BlockJukeBox
 	METHOD <init> (II)V
 		ARG 1 id
+		ARG 2 texIndex
 	METHOD a getBlockTextureFromSide (I)I
 	METHOD a dropBlockAsItemWithChance (Lep;IIIIF)V
 	METHOD a blockActivated (Lep;IIILga;)Z
 	METHOD a_ getBlockEntity ()Lms;
-	METHOD c_ func_28035_b_ (Lep;III)V
+	METHOD c_ playRecord (Lep;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD d onBlockRemoval (Lep;III)V
 	METHOD f ejectRecord (Lep;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 record

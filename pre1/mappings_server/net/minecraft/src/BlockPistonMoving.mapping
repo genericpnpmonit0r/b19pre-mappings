@@ -1,4 +1,6 @@
 CLASS ri net/minecraft/src/BlockPistonMoving
+	METHOD <init> (I)V
+		ARG 1 id
 	METHOD a isOpaqueCube ()Z
 	METHOD a getTileEntity (IIIZZ)Lms;
 	METHOD a idDropped (ILjava/util/Random;)I

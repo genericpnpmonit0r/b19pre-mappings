@@ -1,4 +1,10 @@
 CLASS bq net/minecraft/src/BlockPressurePlate
+	FIELD a triggerMobType Lov;
+	METHOD <init> (IILov;Ljw;)V
+		ARG 1 id
+		ARG 2 texIndex
+		ARG 3 mobType
+		ARG 4 material
 	METHOD a isOpaqueCube ()Z
 	METHOD a onBlockAdded (Lep;III)V
 	METHOD a onNeighborBlockChange (Lep;IIII)V
@@ -15,4 +21,7 @@ CLASS bq net/minecraft/src/BlockPressurePlate
 	METHOD e getMobilityFlag ()I
 	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;
 	METHOD g setStateIfMobInteractsWithPlate (Lep;III)V
-	FIELD a triggerMobType Lov;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

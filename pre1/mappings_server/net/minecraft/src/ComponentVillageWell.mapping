@@ -1,5 +1,10 @@
 CLASS nb net/minecraft/src/ComponentVillageWell
+	FIELD a unusedBoolean Z
+	FIELD b averageGroundLevel I
+	METHOD <init> (ILjava/util/Random;II)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 z
 	METHOD a func_35310_a (Lep;Ljava/util/Random;Lst;)Z
 	METHOD a func_35308_a (Liv;Ljava/util/List;Ljava/util/Random;)V
-	FIELD a field_35385_a Z
-	FIELD b field_35384_b I

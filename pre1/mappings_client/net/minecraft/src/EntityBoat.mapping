@@ -1,4 +1,5 @@
 CLASS dr net/minecraft/src/EntityBoat
+	FIELD a damageTaken I
 	FIELD ap boatY D
 	FIELD aq boatZ D
 	FIELD ar boatYaw D
@@ -6,6 +7,8 @@ CLASS dr net/minecraft/src/EntityBoat
 	FIELD at velocityX D
 	FIELD au velocityY D
 	FIELD av velocityZ D
+	FIELD b timeSinceHit I
+	FIELD c forwardDirection I
 	FIELD d boatPosRotationIncrements I
 	FIELD e boatX D
 	METHOD a setVelocity (DDD)V

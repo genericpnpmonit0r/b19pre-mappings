@@ -1,4 +1,7 @@
 CLASS pj net/minecraft/src/ContainerDispenser
+	FIELD a tileEntityDispenser Lax;
+	METHOD <init> (Lkd;Lax;)V
+		ARG 1 inventory
+		ARG 2 dispenser
 	METHOD a getStackInSlot (I)Lhz;
 	METHOD b canInteractWith (Lga;)Z
-	FIELD a tileEntityDispenser Lax;

@@ -1,4 +1,7 @@
 CLASS si net/minecraft/src/BlockTorch
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
 	METHOD a isOpaqueCube ()Z
 	METHOD a onBlockAdded (Lep;III)V
 	METHOD a onNeighborBlockChange (Lep;IIII)V
@@ -8,5 +11,13 @@ CLASS si net/minecraft/src/BlockTorch
 	METHOD c canPlaceBlockAt (Lep;III)Z
 	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;
 	METHOD e onBlockPlaced (Lep;IIII)V
-	METHOD g func_31028_g (Lep;III)Z
+	METHOD g canPlaceTorchOn (Lep;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD h dropTorchIfCantStay (Lep;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

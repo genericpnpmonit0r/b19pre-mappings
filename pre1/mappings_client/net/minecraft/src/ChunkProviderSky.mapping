@@ -16,9 +16,9 @@ CLASS fn net/minecraft/src/ChunkProviderSky
 	FIELD o noiseGen5 Lmd;
 	FIELD p worldObj Ltd;
 	FIELD q noiseData1p [D
-	FIELD r noiseData2p [D
-	FIELD s noiseData3p [D
-	FIELD t noiseData4p [D
+	FIELD r sandNoise [D
+	FIELD s gravelNoise [D
+	FIELD t stoneNoise [D
 	FIELD u caveGenerator Ltp;
 	FIELD v biomesForGeneration [Lwt;
 	METHOD <init> (Ltd;J)V

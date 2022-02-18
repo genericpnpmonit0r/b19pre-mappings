@@ -1,4 +1,8 @@
 CLASS pu net/minecraft/src/BlockStairs
+	FIELD a modelBlock Lrj;
+	METHOD <init> (ILrj;)V
+		ARG 1 id
+		ARG 2 block
 	METHOD a isOpaqueCube ()Z
 	METHOD a getBlockTextureFromSide (I)I
 	METHOD a getBlockTextureFromSideAndMetadata (II)I
@@ -24,4 +28,3 @@ CLASS pu net/minecraft/src/BlockStairs
 	METHOD d onBlockRemoval (Lep;III)V
 	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;
 	METHOD p_ isCollidable ()Z
-	FIELD a modelBlock Lrj;

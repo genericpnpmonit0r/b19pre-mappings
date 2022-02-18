@@ -3,4 +3,12 @@ CLASS fj net/minecraft/src/StructureMineshaftPieces
 	METHOD a getTreasurePieces ()[Lew;
 	METHOD a getNextComponent (Lfw;Ljava/util/List;Ljava/util/Random;IIIII)Lfw;
 	METHOD a getRandomComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lfw;
+		ARG 0 components
+		ARG 1 rand
+		ARG 2 y
+		ARG 3 x
+		ARG 4 z
+		ARG 5 coordBaseMode
+		ARG 6 type
 	METHOD b getNextMineShaftComponent (Lfw;Ljava/util/List;Ljava/util/Random;IIIII)Lfw;
+		ARG 0 component

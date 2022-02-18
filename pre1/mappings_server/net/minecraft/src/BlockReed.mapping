@@ -1,4 +1,7 @@
 CLASS ol net/minecraft/src/BlockReed
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
 	METHOD a isOpaqueCube ()Z
 	METHOD a idDropped (ILjava/util/Random;)I
 	METHOD a onNeighborBlockChange (Lep;IIII)V
@@ -8,3 +11,7 @@ CLASS ol net/minecraft/src/BlockReed
 	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;
 	METHOD f canBlockStay (Lep;III)Z
 	METHOD g checkBlockCoordValid (Lep;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

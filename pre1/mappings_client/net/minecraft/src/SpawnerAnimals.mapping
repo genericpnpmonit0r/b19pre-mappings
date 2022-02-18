@@ -5,7 +5,7 @@ CLASS rq net/minecraft/src/SpawnerAnimals
 		ARG 0 world
 		ARG 1 x
 		ARG 2 z
-	METHOD a performBedSpawning (Ltd;Ljava/util/List;)Z
+	METHOD a performSleepSpawning (Ltd;Ljava/util/List;)Z
 		ARG 0 world
 		ARG 1 entities
 	METHOD a performSpawning1 (Ltd;Lwt;IIIILjava/util/Random;)V

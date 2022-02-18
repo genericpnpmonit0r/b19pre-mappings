@@ -1,20 +1,30 @@
 CLASS jq net/minecraft/src/ChunkProviderServer
+	FIELD a chunkLoadOverride Z
+	FIELD b droppedChunksSet Ljava/util/Set;
+	FIELD c dummyChunk Ljv;
+	FIELD d serverChunkGenerator Lcc;
+	FIELD e chunkLoader Laz;
+	FIELD f id2ChunkMap Lff;
+	FIELD g loadedChunks Ljava/util/List;
+	FIELD h world Lew;
+	METHOD <init> (Lew;Laz;Lcc;)V
+		ARG 1 worldServer
+		ARG 2 chunkLoader
+		ARG 3 chunkProvider
 	METHOD a unload100OldestChunks ()Z
 	METHOD a chunkExists (II)Z
 	METHOD a populate (Lcc;II)V
-	METHOD a func_375_a (Ljv;)V
+	METHOD a saveChunkExtraData (Ljv;)V
+		ARG 1 chunk
 	METHOD a saveChunks (ZLuy;)Z
 	METHOD b canSave ()Z
 	METHOD b provideChunk (II)Ljv;
-	METHOD b func_373_b (Ljv;)V
+	METHOD b saveChunkData (Ljv;)V
+		ARG 1 chunk
 	METHOD c loadChunk (II)Ljv;
-	METHOD d func_374_c (II)V
-	METHOD e func_4063_e (II)Ljv;
-	FIELD a chunkLoadOverride Z
-	FIELD b field_725_a Ljava/util/Set;
-	FIELD c dummyChunk Ljv;
-	FIELD d serverChunkGenerator Lcc;
-	FIELD e field_729_d Laz;
-	FIELD f id2ChunkMap Lff;
-	FIELD g field_727_f Ljava/util/List;
-	FIELD h world Lew;
+	METHOD d dropChunk (II)V
+		ARG 1 x
+		ARG 2 z
+	METHOD e loadChunkFromFile (II)Ljv;
+		ARG 1 x
+		ARG 2 z

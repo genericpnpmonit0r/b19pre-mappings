@@ -1,33 +1,51 @@
 CLASS id net/minecraft/src/ChunkProviderSky
+	FIELD a noiseGen6 Lqx;
+	FIELD b noiseGen7 Lqx;
+	FIELD c noiseGen8 Lqx;
+	FIELD d noiseData1 [D
+	FIELD e noiseData2 [D
+	FIELD f noiseData3 [D
+	FIELD g noiseData4 [D
+	FIELD h noiseData5 [D
+	FIELD i unusedIntArray32x32 [[I
+	FIELD j random Ljava/util/Random;
+	FIELD k noiseGen1 Lqx;
+	FIELD l noiseGen2 Lqx;
+	FIELD m noiseGen3 Lqx;
+	FIELD n noiseGen4 Lqx;
+	FIELD o noiseGen5 Lqx;
+	FIELD p worldObj Lep;
+	FIELD q noiseData1p [D
+	FIELD r sandNoise [D
+	FIELD s gravelNoise [D
+	FIELD t stoneNoise [D
+	FIELD u caveGen Lfg;
+	FIELD v biomesForGeneration [Liz;
+	METHOD <init> (Lep;J)V
+		ARG 1 world
+		ARG 2 seed
 	METHOD a unload100OldestChunks ()Z
 	METHOD a chunkExists (II)Z
 	METHOD a generateTerrain (II[B[Liz;)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+		ARG 4 biomes
 	METHOD a populate (Lcc;II)V
 	METHOD a saveChunks (ZLuy;)Z
-	METHOD a func_28071_a ([DIIIIII)[D
+	METHOD a initializeNoiseField ([DIIIIII)[D
+		ARG 1 noiseArray
+		ARG 2 offset1
+		ARG 3 offset2
+		ARG 4 offset3
+		ARG 5 x
+		ARG 6 y
+		ARG 7 z
 	METHOD b canSave ()Z
 	METHOD b provideChunk (II)Ljv;
 	METHOD b replaceBlocksForBiome (II[B[Liz;)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+		ARG 4 biomes
 	METHOD c loadChunk (II)Ljv;
-	FIELD a field_28094_a Lqx;
-	FIELD b field_28093_b Lqx;
-	FIELD c field_28092_c Lqx;
-	FIELD d field_28091_d [D
-	FIELD e field_28090_e [D
-	FIELD f field_28089_f [D
-	FIELD g field_28088_g [D
-	FIELD h field_28087_h [D
-	FIELD i field_28086_i [[I
-	FIELD j random Ljava/util/Random;
-	FIELD k field_28084_k Lqx;
-	FIELD l field_28083_l Lqx;
-	FIELD m field_28082_m Lqx;
-	FIELD n field_28081_n Lqx;
-	FIELD o field_28080_o Lqx;
-	FIELD p worldObj Lep;
-	FIELD q field_28078_q [D
-	FIELD r unusedSandNoise [D
-	FIELD s unusedGravelNoise [D
-	FIELD t stoneNoise [D
-	FIELD u caveGen Lfg;
-	FIELD v field_28073_v [Liz;

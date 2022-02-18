@@ -1,9 +1,15 @@
 CLASS ir net/minecraft/src/EntityFallingSand
+	FIELD a blockID I
+	FIELD b fallTime I
+	METHOD <init> (Lep;DDDI)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 id
 	METHOD a readEntityFromNBT (Lls;)V
 	METHOD b entityInit ()V
 	METHOD b writeEntityToNBT (Lls;)V
 	METHOD c_ canBeCollidedWith ()Z
 	METHOD e_ canTriggerWalking ()Z
 	METHOD q_ onUpdate ()V
-	FIELD a blockID I
-	FIELD b fallTime I

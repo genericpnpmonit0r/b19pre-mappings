@@ -8,9 +8,9 @@ CLASS td net/minecraft/src/World
 	FIELD G spawnPeacefulMobs Z
 	FIELD H lightUpdateBlockList [I
 	FIELD I multiplayerWorld Z
-	FIELD J unusedJ D
-	FIELD K unusedK D
-	FIELD L unusedL D
+	FIELD J prevTick D
+	FIELD K curTick D
+	FIELD L curTick2 D
 	FIELD M unloadedEntityList Ljava/util/List;
 	FIELD N scheduledTickTreeSet Ljava/util/TreeSet;
 	FIELD O scheduledTickSet Ljava/util/Set;
@@ -23,7 +23,7 @@ CLASS td net/minecraft/src/World
 	FIELD V scanningTileEntities Z
 	FIELD W positionsToUpdate Ljava/util/Set;
 	FIELD X soundCounter I
-	FIELD Y field_1012_M Ljava/util/List;
+	FIELD Y entityAABBExclusionList Ljava/util/List;
 	FIELD a worldYBits I
 	FIELD b worldXZBits I
 	FIELD c worldYmax I
@@ -79,7 +79,7 @@ CLASS td net/minecraft/src/World
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
-		ARG 7 weight
+		ARG 7 dist
 	METHOD a playSoundEffect (DDDLjava/lang/String;FF)V
 		ARG 1 x
 		ARG 3 y
@@ -105,7 +105,7 @@ CLASS td net/minecraft/src/World
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-		ARG 5 lightValueTable
+		ARG 5 lightValue
 		ARG 6 lightValueNegated
 	METHOD a setChunkData (IIIIII[B)V
 		ARG 1 x
@@ -331,6 +331,7 @@ CLASS td net/minecraft/src/World
 	METHOD b getUniqueDataId (Ljava/lang/String;)I
 		ARG 1 dataId
 	METHOD b unloadEntities (Ljava/util/List;)V
+		ARG 1 entities
 	METHOD b setEntityDead (Lle;)V
 		ARG 1 entity
 	METHOD b getEntitiesWithinAABBExcludingEntity (Lle;Lsw;)Ljava/util/List;
@@ -402,7 +403,7 @@ CLASS td net/minecraft/src/World
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-		ARG 5 lightValueTable
+		ARG 5 lightValue
 		ARG 6 lightValueNegated
 	METHOD d releaseEntitySkin (Lle;)V
 		ARG 1 entity
@@ -477,7 +478,7 @@ CLASS td net/minecraft/src/World
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-		ARG 4 id
+		ARG 4 y2
 	METHOD j emptyMethod1 ()V
 	METHOD j setRainStrength (F)V
 		ARG 1 rainStrength

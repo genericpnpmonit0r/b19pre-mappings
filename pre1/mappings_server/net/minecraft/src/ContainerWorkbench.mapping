@@ -1,11 +1,17 @@
 CLASS hu net/minecraft/src/ContainerWorkbench
-	METHOD a getStackInSlot (I)Lhz;
-	METHOD a onCraftGuiClosed (Lga;)V
-	METHOD a onCraftMatrixChanged (Lkd;)V
-	METHOD b canInteractWith (Lga;)Z
 	FIELD a craftMatrix Lkq;
 	FIELD b craftResult Lkd;
 	FIELD c worldObj Lep;
 	FIELD h posX I
 	FIELD i posY I
 	FIELD j posZ I
+	METHOD <init> (Lhy;Lep;III)V
+		ARG 1 player
+		ARG 2 world
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+	METHOD a getStackInSlot (I)Lhz;
+	METHOD a onCraftGuiClosed (Lga;)V
+	METHOD a onCraftMatrixChanged (Lkd;)V
+	METHOD b canInteractWith (Lga;)Z
