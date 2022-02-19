@@ -1,2 +1,4 @@
 CLASS cn net/minecraft/src/ThreadSleepForever
 	FIELD a mc Lnet/minecraft/server/MinecraftServer;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 minecraftServer

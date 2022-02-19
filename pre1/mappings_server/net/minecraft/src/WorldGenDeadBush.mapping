@@ -1,3 +1,5 @@
 CLASS jg net/minecraft/src/WorldGenDeadBush
+	FIELD a deadBushId I
+	METHOD <init> (I)V
+		ARG 1 id
 	METHOD a generate (Lep;Ljava/util/Random;III)Z
-	FIELD a field_28055_a I

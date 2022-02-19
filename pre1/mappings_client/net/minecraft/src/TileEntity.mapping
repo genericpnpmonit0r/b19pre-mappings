@@ -19,8 +19,8 @@ CLASS jb net/minecraft/src/TileEntity
 		ARG 1 compoundTag
 	METHOD b updateContainingBlockInfo ()V
 	METHOD b receiveEvent (II)V
-		ARG 1 i
-		ARG 2 j
+		ARG 1 id
+		ARG 2 playersUsing
 	METHOD b writeToNBT (Lyr;)V
 		ARG 1 compoundTag
 	METHOD c createAndLoadEntity (Lyr;)Ljb;

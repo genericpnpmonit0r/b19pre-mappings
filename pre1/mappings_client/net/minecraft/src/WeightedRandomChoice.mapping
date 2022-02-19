@@ -1,2 +1,2 @@
 CLASS bl net/minecraft/src/WeightedRandomChoice
-	FIELD d getRandomItem3 I
+	FIELD d randomItem3 I

@@ -1,4 +1,14 @@
 CLASS iq net/minecraft/src/TileEntityChest
+	FIELD a adjacentChestsChecked Z
+	FIELD b adjacentChestZNeg Liq;
+	FIELD c adjacentChestXPos Liq;
+	FIELD d adjacentChestXNeg Liq;
+	FIELD e adjacentChestZPosition Liq;
+	FIELD f lidAngle F
+	FIELD g prevLidAngle F
+	FIELD h numUsingPlayers I
+	FIELD p chestContents [Lhz;
+	FIELD q ticksSinceSync I
 	METHOD a getSizeInventory ()I
 	METHOD a decrStackSize (II)Lhz;
 	METHOD a setInventorySlotContents (ILhz;)V
@@ -11,17 +21,7 @@ CLASS iq net/minecraft/src/TileEntityChest
 	METHOD d getInventoryStackLimit ()I
 	METHOD e func_35161_e ()V
 	METHOD g func_35164_g ()V
-	METHOD h func_35167_h ()V
+	METHOD h chekcAdjacentChests ()V
 	METHOD h_ updateEntity ()V
 	METHOD i invalidate ()V
 	METHOD r_ func_35162_t_ ()V
-	FIELD a field_35175_a Z
-	FIELD b field_35172_b Liq;
-	FIELD c field_35173_c Liq;
-	FIELD d field_35170_d Liq;
-	FIELD e field_35171_e Liq;
-	FIELD f field_35168_f F
-	FIELD g field_35169_g F
-	FIELD h field_35176_h I
-	FIELD p chestContents [Lhz;
-	FIELD q field_35174_q I

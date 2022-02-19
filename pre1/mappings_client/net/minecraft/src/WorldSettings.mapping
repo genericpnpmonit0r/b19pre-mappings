@@ -1,6 +1,6 @@
 CLASS ej net/minecraft/src/WorldSettings
 	FIELD a worldSeed J
-	FIELD b worldType I
+	FIELD b gameType I
 	FIELD c mapFeaturesEnabled Z
 	METHOD <init> (JIZ)V
 		ARG 1 seed

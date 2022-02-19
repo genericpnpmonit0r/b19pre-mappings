@@ -21,7 +21,7 @@ CLASS ne net/minecraft/src/IWorldAccess
 		ARG 3 x
 		ARG 4 y
 		ARG 5 z
-		ARG 6 vol
+		ARG 6 data
 	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
 		ARG 1 name
 		ARG 2 x

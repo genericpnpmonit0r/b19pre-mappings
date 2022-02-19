@@ -1,11 +1,16 @@
 CLASS hv net/minecraft/src/ShapedRecipes
-	METHOD a getRecipeSize ()I
-	METHOD a matches (Lkq;)Z
-	METHOD a func_21139_a (Lkq;IIZ)Z
-	METHOD b getRecipeOutput ()Lhz;
-	METHOD b getCraftingResult (Lkq;)Lhz;
 	FIELD a recipeOutputItemID I
 	FIELD b recipeWidth I
 	FIELD c recipeHeight I
 	FIELD d recipeItems [Lhz;
 	FIELD e recipeOutput Lhz;
+	METHOD <init> (II[Lhz;Lhz;)V
+		ARG 1 width
+		ARG 2 height
+		ARG 3 items
+		ARG 4 output
+	METHOD a getRecipeSize ()I
+	METHOD a matches (Lkq;)Z
+	METHOD a checkItemDamaged (Lkq;IIZ)Z
+	METHOD b getRecipeOutput ()Lhz;
+	METHOD b getCraftingResult (Lkq;)Lhz;

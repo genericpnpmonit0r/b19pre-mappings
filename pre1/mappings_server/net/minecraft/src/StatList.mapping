@@ -9,8 +9,8 @@ CLASS ii net/minecraft/src/StatList
 	FIELD H itemStatsInitialized Z
 	FIELD a oneShotStats Ljava/util/Map;
 	FIELD b field_25123_a Ljava/util/List;
-	FIELD c field_25122_b Ljava/util/List;
-	FIELD d field_25121_c Ljava/util/List;
+	FIELD c generalStats Ljava/util/List;
+	FIELD d itemStats Ljava/util/List;
 	FIELD e objectMineStats Ljava/util/List;
 	FIELD f startGameStat Lso;
 	FIELD g createWorldStat Lso;

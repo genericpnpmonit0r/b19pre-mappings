@@ -17,8 +17,8 @@ CLASS aew net/minecraft/src/WorldProvider
 		ARG 1 x
 		ARG 2 z
 	METHOD a calculateCelestialAngle (JF)F
-		ARG 1 angle1
-		ARG 3 angle2
+		ARG 1 time
+		ARG 3 angle
 	METHOD a registerWorld (Ltd;)V
 		ARG 1 world
 	METHOD b getChunkProvider ()Lbh;

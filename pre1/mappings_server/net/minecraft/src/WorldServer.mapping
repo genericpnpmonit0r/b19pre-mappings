@@ -1,9 +1,15 @@
 CLASS ew net/minecraft/src/WorldServer
 	FIELD M chunkProviderServer Ljq;
-	FIELD N field_819_z Z
+	FIELD N disableSpawnProtection Z
 	FIELD O levelSaving Z
 	FIELD P mcServer Lnet/minecraft/server/MinecraftServer;
 	FIELD Q inthashmap Liu;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Ltv;Ljava/lang/String;ILgg;)V
+		ARG 1 minecraftServer
+		ARG 2 saveHandler
+		ARG 3 worldName
+		ARG 4 dimension
+		ARG 5 worldSettings
 	METHOD a entityLookup (I)Lpp;
 		ARG 1 index
 	METHOD a canMineBlock (Lga;III)Z
@@ -12,10 +18,18 @@ CLASS ew net/minecraft/src/WorldServer
 	METHOD a newExplosion (Lpp;DDDFZ)Lob;
 	METHOD a updateEntityWithOptionalForce (Lpp;Z)V
 	METHOD b createChunkProvider ()Lcc;
-	METHOD b func_12017_b (Lpp;Z)V
+	METHOD b updateEntityWithOptForce (Lpp;Z)V
+		ARG 1 entity
+		ARG 2 force
 	METHOD c obtainEntitySkin (Lpp;)V
 	METHOD d playNoteAt (IIIII)V
 	METHOD d getTileEntityList (IIIIII)Ljava/util/List;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 x2
+		ARG 5 y2
+		ARG 6 z2
 	METHOD d releaseEntitySkin (Lpp;)V
 	METHOD h updateWeather ()V
-	METHOD w func_30006_w ()V
+	METHOD w flushWorldFile ()V

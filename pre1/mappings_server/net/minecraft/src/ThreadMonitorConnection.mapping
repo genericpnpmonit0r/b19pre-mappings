@@ -1,2 +1,4 @@
 CLASS ui net/minecraft/src/ThreadMonitorConnection
 	FIELD a netManager Lmy;
+	METHOD <init> (Lmy;)V
+		ARG 1 networkManager

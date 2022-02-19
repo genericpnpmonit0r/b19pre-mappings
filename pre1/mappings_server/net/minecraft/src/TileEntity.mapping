@@ -7,12 +7,19 @@ CLASS ms net/minecraft/src/TileEntity
 	FIELD l zCoord I
 	FIELD m tileEntityInvalid Z
 	FIELD n blockMetadata I
-	FIELD o field_35166_o Lrj;
+	FIELD o blockType Lrj;
 	METHOD a addMapping (Ljava/lang/Class;Ljava/lang/String;)V
+		ARG 0 tileEntityClass
+		ARG 1 id
 	METHOD a readFromNBT (Lls;)V
-	METHOD b func_35163_b (II)V
+		ARG 1 compoundTag
+	METHOD b reveiveEvent (II)V
+		ARG 1 id
+		ARG 2 playersUsing
 	METHOD b writeToNBT (Lls;)V
+		ARG 1 compoundTag
 	METHOD c createAndLoadEntity (Lls;)Lms;
+		ARG 0 compoundTag
 	METHOD g updateContainingBlockInfo ()V
 	METHOD h_ updateEntity ()V
 	METHOD i invalidate ()V

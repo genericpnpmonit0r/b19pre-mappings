@@ -1,2 +1,2 @@
 CLASS cd net/minecraft/src/WeightedRandomChoice
-	FIELD d field_35483_d I
+	FIELD d randomItem3 I

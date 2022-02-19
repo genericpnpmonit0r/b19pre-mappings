@@ -1,15 +1,26 @@
 CLASS fz net/minecraft/src/Slot
-	METHOD a getStack ()Lhz;
-	METHOD a decrStackSize (I)Lhz;
-	METHOD a onPickupFromSlot (Lhz;)V
-	METHOD a isHere (Lkd;I)Z
-	METHOD b getHasStack ()Z
-	METHOD b isItemValid (Lhz;)Z
-	METHOD c onSlotChanged ()V
-	METHOD c putStack (Lhz;)V
-	METHOD d getSlotStackLimit ()I
 	FIELD a inventory Lkd;
 	FIELD b id I
 	FIELD c xDisplayPosition I
 	FIELD d yDisplayPosition I
 	FIELD e slotIndex I
+	METHOD <init> (Lkd;III)V
+		ARG 1 inventory
+		ARG 2 index
+		ARG 3 x
+		ARG 4 y
+	METHOD a getStack ()Lhz;
+	METHOD a decrStackSize (I)Lhz;
+		ARG 1 stackSize
+	METHOD a onPickupFromSlot (Lhz;)V
+		ARG 1 itemStack
+	METHOD a isHere (Lkd;I)Z
+		ARG 1 inventory
+		ARG 2 index
+	METHOD b getHasStack ()Z
+	METHOD b isItemValid (Lhz;)Z
+		ARG 1 itemStack
+	METHOD c onSlotChanged ()V
+	METHOD c putStack (Lhz;)V
+		ARG 1 itemStack
+	METHOD d getSlotStackLimit ()I

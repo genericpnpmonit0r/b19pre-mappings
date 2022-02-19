@@ -1,3 +1,5 @@
 CLASS um net/minecraft/src/WorldGenLiquids
-	METHOD a generate (Lep;Ljava/util/Random;III)Z
 	FIELD a liquidBlockId I
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a generate (Lep;Ljava/util/Random;III)Z

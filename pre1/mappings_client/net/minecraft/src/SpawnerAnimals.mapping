@@ -8,7 +8,7 @@ CLASS rq net/minecraft/src/SpawnerAnimals
 	METHOD a performSleepSpawning (Ltd;Ljava/util/List;)Z
 		ARG 0 world
 		ARG 1 entities
-	METHOD a performSpawning1 (Ltd;Lwt;IIIILjava/util/Random;)V
+	METHOD a performWorldGenSpawning (Ltd;Lwt;IIIILjava/util/Random;)V
 		ARG 0 world
 		ARG 1 biomeGenBase
 		ARG 2 x

@@ -1,3 +1,5 @@
 CLASS ba net/minecraft/src/WorldGenFlowers
-	METHOD a generate (Lep;Ljava/util/Random;III)Z
 	FIELD a plantBlockId I
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a generate (Lep;Ljava/util/Random;III)Z

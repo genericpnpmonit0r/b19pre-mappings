@@ -1,4 +1,7 @@
 CLASS sm net/minecraft/src/SlotFurnace
+	FIELD e thePlayer Lga;
+	METHOD <init> (Lga;Lkd;III)V
+		ARG 1 player
+		ARG 2 inventory
 	METHOD a onPickupFromSlot (Lhz;)V
 	METHOD b isItemValid (Lhz;)Z
-	FIELD e thePlayer Lga;

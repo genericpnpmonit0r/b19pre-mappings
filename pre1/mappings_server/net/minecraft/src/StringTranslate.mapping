@@ -1,6 +1,9 @@
 CLASS le net/minecraft/src/StringTranslate
-	METHOD a getInstance ()Lle;
-	METHOD a translateKey (Ljava/lang/String;)Ljava/lang/String;
-	METHOD a translateKeyFormat (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 	FIELD a instance Lle;
 	FIELD b translateTable Ljava/util/Properties;
+	METHOD a getInstance ()Lle;
+	METHOD a translateKey (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 key
+	METHOD a translateKeyFormat (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+		ARG 1 key
+		ARG 2 value

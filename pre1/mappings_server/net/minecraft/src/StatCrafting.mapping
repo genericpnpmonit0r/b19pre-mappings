@@ -1,2 +1,6 @@
 CLASS qv net/minecraft/src/StatCrafting
-	FIELD a field_27990_a I
+	FIELD a type1 I
+	METHOD <init> (ILjava/lang/String;I)V
+		ARG 1 id
+		ARG 2 name
+		ARG 3 type

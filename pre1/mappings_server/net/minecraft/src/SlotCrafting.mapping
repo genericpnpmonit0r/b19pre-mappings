@@ -1,5 +1,9 @@
 CLASS vq net/minecraft/src/SlotCrafting
-	METHOD a onPickupFromSlot (Lhz;)V
-	METHOD b isItemValid (Lhz;)Z
 	FIELD e craftMatrix Lkd;
 	FIELD f thePlayer Lga;
+	METHOD <init> (Lga;Lkd;Lkd;III)V
+		ARG 1 player
+		ARG 2 craftingGrid
+		ARG 3 inventory
+	METHOD a onPickupFromSlot (Lhz;)V
+	METHOD b isItemValid (Lhz;)Z

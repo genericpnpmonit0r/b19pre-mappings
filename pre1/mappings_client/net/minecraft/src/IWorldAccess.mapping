@@ -36,7 +36,7 @@ CLASS aaa net/minecraft/src/IWorldAccess
 		ARG 3 x
 		ARG 4 y
 		ARG 5 z
-		ARG 6 vol
+		ARG 6 data
 	METHOD b markBlockRangeNeedsUpdate (IIIIII)V
 		ARG 1 x
 		ARG 2 y

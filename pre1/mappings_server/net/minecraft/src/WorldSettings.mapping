@@ -1,8 +1,13 @@
 CLASS gg net/minecraft/src/WorldSettings
-	METHOD a func_35038_a ()J
-	METHOD a func_35037_a (I)I
-	METHOD b func_35039_b ()I
-	METHOD c func_35040_c ()Z
-	FIELD a field_35043_a J
-	FIELD b field_35041_b I
-	FIELD c field_35042_c Z
+	FIELD a seed J
+	FIELD b gameType I
+	FIELD c mapFeaturesEnabled Z
+	METHOD <init> (JIZ)V
+		ARG 1 seed
+		ARG 3 type
+		ARG 4 features
+	METHOD a getSeed ()J
+	METHOD a modeSwitcher (I)I
+		ARG 0 mode
+	METHOD b getGameType ()I
+	METHOD c getFeatures ()Z

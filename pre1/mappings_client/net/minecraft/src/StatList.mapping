@@ -40,6 +40,6 @@ CLASS fq net/minecraft/src/StatList
 	METHOD a replaceSimilarBlocks ([Ladw;II)V
 	METHOD a initUsableStats ([Ladw;Ljava/lang/String;III)[Ladw;
 	METHOD b initBreakableStats ()V
-	METHOD b func_25149_b ([Ladw;Ljava/lang/String;III)[Ladw;
+	METHOD b initBreakableStats ([Ladw;Ljava/lang/String;III)[Ladw;
 	METHOD c initItemStats ()V
 	METHOD d initCraftableStats ()V
