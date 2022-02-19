@@ -6,16 +6,6 @@ CLASS kq net/minecraft/src/InventoryCrafting
 		ARG 1 container
 		ARG 2 width
 		ARG 3 height
-	METHOD a getSizeInventory ()I
-	METHOD a decrStackSize (II)Lhz;
-	METHOD a setInventorySlotContents (ILhz;)V
-	METHOD a canInteractWith (Lga;)Z
 	METHOD b getStackInRowAndColumn (II)Lhz;
 		ARG 1 row
 		ARG 2 col
-	METHOD b_ getStackInSlot (I)Lhz;
-	METHOD c getInvName ()Ljava/lang/String;
-	METHOD d getInventoryStackLimit ()I
-	METHOD e func_35161_e ()V
-	METHOD k onInventoryChanged ()V
-	METHOD r_ func_35162_t_ ()V

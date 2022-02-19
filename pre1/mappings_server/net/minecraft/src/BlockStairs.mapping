@@ -3,28 +3,3 @@ CLASS pu net/minecraft/src/BlockStairs
 	METHOD <init> (ILrj;)V
 		ARG 1 id
 		ARG 2 block
-	METHOD a isOpaqueCube ()Z
-	METHOD a getBlockTextureFromSide (I)I
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a canCollideCheck (IZ)Z
-	METHOD a onBlockAdded (Lep;III)V
-	METHOD a dropBlockAsItemWithChance (Lep;IIIIF)V
-	METHOD a getCollidingBoundingBoxes (Lep;IIILed;Ljava/util/ArrayList;)V
-	METHOD a blockActivated (Lep;IIILga;)Z
-	METHOD a updateTick (Lep;IIILjava/util/Random;)V
-	METHOD a onBlockPlacedBy (Lep;IIILjz;)V
-	METHOD a velocityToAddToEntity (Lep;IIILpp;Lbo;)V
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD a getExplosionResistance (Lpp;)F
-	METHOD a setBlockBoundsBasedOnState (Lun;III)V
-	METHOD a_ onBlockDestroyedByExplosion (Lep;III)V
-	METHOD b isACube ()Z
-	METHOD b onBlockClicked (Lep;IIILga;)V
-	METHOD b onEntityWalking (Lep;IIILpp;)V
-	METHOD c tickRate ()I
-	METHOD c canPlaceBlockAt (Lep;III)Z
-	METHOD c onBlockDestroyedByPlayer (Lep;IIII)V
-	METHOD d onBlockRemoval (Lep;III)V
-	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;
-	METHOD p_ isCollidable ()Z

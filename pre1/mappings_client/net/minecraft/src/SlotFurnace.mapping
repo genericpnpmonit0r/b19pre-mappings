@@ -3,5 +3,3 @@ CLASS adv net/minecraft/src/SlotFurnace
 	METHOD <init> (Lui;Lha;III)V
 		ARG 1 player
 		ARG 2 inventory
-	METHOD a onPickupFromSlot (Lvw;)V
-	METHOD b isItemValid (Lvw;)Z

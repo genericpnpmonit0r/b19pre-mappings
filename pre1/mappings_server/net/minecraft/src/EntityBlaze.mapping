@@ -2,19 +2,5 @@ CLASS kv net/minecraft/src/EntityBlaze
 	FIELD a heightOffset F
 	FIELD b heightOffsetUpdateTime I
 	FIELD g attackTimer I
-	METHOD a fall (F)V
-	METHOD a readEntityFromNBT (Lls;)V
-	METHOD a onDeath (Lns;)V
-	METHOD a attackEntityFrom (Lns;I)Z
-	METHOD a attackEntity (Lpp;F)V
-	METHOD a dropFewItems (Z)V
-	METHOD b entityInit ()V
-	METHOD b getEntityBrightness (F)F
-	METHOD b writeEntityToNBT (Lls;)V
 	METHOD b getOnFireStatus (Z)V
 		ARG 1 flag
-	METHOD b_ getDeathSound ()Ljava/lang/String;
-	METHOD c onLivingUpdate ()V
-	METHOD d getLivingSound ()Ljava/lang/String;
-	METHOD e getHurtSound ()Ljava/lang/String;
-	METHOD g getDropItemId ()I

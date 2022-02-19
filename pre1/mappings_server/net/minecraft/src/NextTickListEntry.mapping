@@ -13,7 +13,6 @@ CLASS od net/minecraft/src/NextTickListEntry
 		ARG 4 id
 	METHOD a setScheduledTime (J)Lod;
 		ARG 1 time
-	METHOD a comparer (Lod;)I
 	METHOD compareTo (Ljava/lang/Object;)I
 		ARG 1 nextTickListEntry
 	METHOD equals (Ljava/lang/Object;)Z

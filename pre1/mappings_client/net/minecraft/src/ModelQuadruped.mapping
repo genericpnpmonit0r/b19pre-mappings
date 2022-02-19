@@ -5,5 +5,3 @@ CLASS il net/minecraft/src/ModelQuadruped
 	FIELD e leg2 Lnv;
 	FIELD f leg3 Lnv;
 	FIELD g leg4 Lnv;
-	METHOD a setRotationAngles (FFFFFF)V
-	METHOD a render (Lle;FFFFFF)V

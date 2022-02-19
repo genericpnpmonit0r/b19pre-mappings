@@ -14,59 +14,8 @@ CLASS yh net/minecraft/src/NetClientHandler
 		ARG 1 minecraft
 		ARG 2 socketInetAddr
 		ARG 3 port
-	METHOD a isServerHandler ()Z
 	METHOD a getEntityByID (I)Lle;
 		ARG 1 id
-	METHOD a handleSpawnPosition (Laba;)V
-	METHOD a handleExplosion (Labf;)V
-	METHOD a handleDestroyEntity (Labl;)V
-	METHOD a handlePreChunk (Labq;)V
-	METHOD a processItemData (Lac;)V
-	METHOD a handleEntity (Lacy;)V
-	METHOD a handleUpdateSign (Ladb;)V
-	METHOD a handleMultiBlockChange (Laeq;)V
-	METHOD a handleKickDisconnect (Lafv;)V
-	METHOD a handleHealth (Lcz;)V
-	METHOD a handleAuxSFX (Ldn;)V
-	METHOD a handleSetSlot (Let;)V
-	METHOD a handleFlying (Lfb;)V
-	METHOD a handleOpenWindow (Lfl;)V
-	METHOD a handleEntityStatus (Lfo;)V
-	METHOD a handleExperience (Lgu;)V
-	METHOD a handleNamedEntitySpawn (Lhj;)V
-	METHOD a handleHandshake (Lho;)V
-	METHOD a handleCraftingProgress (Lhu;)V
-	METHOD a handlePickupSpawn (Lhy;)V
-	METHOD a handleArmAnimation (Lik;)V
-	METHOD a handleStatistic (Liq;)V
-	METHOD a handleContainerTransaction (Liv;)V
-	METHOD a handleErrorMessage (Ljava/lang/String;[Ljava/lang/Object;)V
-	METHOD a handleRespawn (Ljc;)V
-	METHOD a handleXPOrb (Ljk;)V
-	METHOD a handleEntityTeleport (Lkm;)V
-	METHOD a handleVehicleSpawn (Llg;)V
-	METHOD a handleBlockChange (Lly;)V
-	METHOD a handleEntityMetadata (Lmp;)V
-	METHOD a handleEntityPainting (Lnj;)V
-	METHOD a handleNotePlay (Lnn;)V
-	METHOD a handlePlayerInventory (Lpx;)V
-	METHOD a handleBedUpdate (Lrh;)V
-	METHOD a handleCollect (Lsc;)V
-	METHOD a handleEntityEffect (Lse;)V
-	METHOD a handlePlayerInfo (Lsk;)V
-	METHOD a handleMapChunk (Lsr;)V
-	METHOD a handleWeather (Lta;)V
-	METHOD a handleEntityVelocity (Lua;)V
-	METHOD a handleUpdateTime (Lur;)V
-	METHOD a handleMobSpawn (Lwf;)V
-	METHOD a handleSleep (Lwq;)V
-	METHOD a handleWindowItems (Lwr;)V
-	METHOD a handleKeepAlive (Lxu;)V
-	METHOD a handleCloseWindow (Lxy;)V
-	METHOD a handleRemoveEntityEffect (Lyk;)V
-	METHOD a handleAttachEntity (Lyp;)V
-	METHOD a handleLogin (Lyx;)V
-	METHOD a handleChat (Lzt;)V
 	METHOD b processReadPackets ()V
 	METHOD b addToSendQueue2 (Lwx;)V
 		ARG 1 packet

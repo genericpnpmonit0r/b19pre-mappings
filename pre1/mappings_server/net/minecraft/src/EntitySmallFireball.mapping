@@ -1,3 +1,1 @@
 CLASS sq net/minecraft/src/EntitySmallFireball
-	METHOD a attackEntityFrom (Lns;I)Z
-	METHOD c_ canBeCollidedWith ()Z

@@ -15,7 +15,5 @@ CLASS vs net/minecraft/src/MapData
 	METHOD a updateVisiblePlayers (Lui;Lvw;)V
 		ARG 1 player
 		ARG 2 itemStack
-	METHOD a readFromNBT (Lyr;)V
 	METHOD a updateMPMapdata ([B)V
 		ARG 1 blocks
-	METHOD b writeToNBT (Lyr;)V

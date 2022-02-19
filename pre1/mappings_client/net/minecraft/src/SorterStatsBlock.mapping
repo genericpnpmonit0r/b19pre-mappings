@@ -4,4 +4,3 @@ CLASS aaf net/minecraft/src/SorterStatsBlock
 	METHOD <init> (Lds;Lcl;)V
 		ARG 1 guiSlotStatsBlock
 		ARG 2 statsGui
-	METHOD a func_27297_a (Lacs;Lacs;)I

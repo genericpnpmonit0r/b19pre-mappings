@@ -7,15 +7,8 @@ CLASS fk net/minecraft/src/GuiSlotStats
 	FIELD g statsGui Lcl;
 	METHOD <init> (Lcl;)V
 		ARG 1 guiStats
-	METHOD a getSize ()I
 	METHOD a func_27263_a (I)Ljava/lang/String;
-	METHOD a func_27255_a (II)V
-	METHOD a func_27260_a (IILyu;)V
-	METHOD a elementClicked (IZ)V
 	METHOD a func_27267_a (Lacs;II)V
 	METHOD a func_27265_a (Lacs;IIZ)V
-	METHOD a_ isSelected (I)Z
 	METHOD b func_27264_b (I)Lacs;
-	METHOD b func_27257_b (II)V
-	METHOD c drawBackground ()V
 	METHOD c func_27266_c (I)V

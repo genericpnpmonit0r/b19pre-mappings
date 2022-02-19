@@ -5,12 +5,8 @@ CLASS tn net/minecraft/src/GuiMainMenu
 	FIELD d multiplayerButton Lwv;
 	FIELD f updateCounter I
 	FIELD g viewportTexture I
-	METHOD a initGui ()V
-	METHOD a keyTyped (CI)V
 	METHOD a rotateAndBlurSkybox (F)V
 		ARG 1 layer
-	METHOD a drawScreen (IIF)V
-	METHOD a actionPerformed (Lwv;)V
 	METHOD b drawPanorama (IIF)V
 		ARG 1 x
 		ARG 2 y
@@ -19,5 +15,3 @@ CLASS tn net/minecraft/src/GuiMainMenu
 		ARG 1 x
 		ARG 2 y
 		ARG 3 layer
-	METHOD e doesGuiPauseGame ()Z
-	METHOD p_ updateScreen ()V

@@ -6,7 +6,3 @@ CLASS bh net/minecraft/src/ContainerFurnace
 	METHOD <init> (Lhy;Lpl;)V
 		ARG 1 inventoryPlayer
 		ARG 2 furnace
-	METHOD a updateCraftingResults ()V
-	METHOD a getStackInSlot (I)Lhz;
-	METHOD a onCraftGuiOpened (Lds;)V
-	METHOD b canInteractWith (Lga;)Z

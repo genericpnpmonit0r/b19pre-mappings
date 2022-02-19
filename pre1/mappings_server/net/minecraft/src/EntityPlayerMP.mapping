@@ -23,8 +23,6 @@ CLASS es net/minecraft/src/EntityPlayerMP
 	METHOD A closeCraftingGui ()V
 	METHOD B setRiding ()V
 	METHOD C setLastHealth ()V
-	METHOD D func_35199_C ()V
-	METHOD a updateFallState (DZ)V
 	METHOD a setMovementType (FFZZFF)V
 		ARG 1 strafing
 		ARG 2 forward
@@ -32,49 +30,18 @@ CLASS es net/minecraft/src/EntityPlayerMP
 		ARG 4 sneaking
 		ARG 5 pitch
 		ARG 6 yaw
-	METHOD a sleepInBedAt (III)Lcq;
-	METHOD a displayGUIDispenser (Lax;)V
 	METHOD a updateContainerContents (Ldm;)V
 		ARG 1 container
-	METHOD a updateCraftingInventoryInfo (Ldm;II)V
-	METHOD a updateCraftingInventorySlot (Ldm;ILhz;)V
-	METHOD a updateCraftingInventory (Ldm;Ljava/util/List;)V
-	METHOD a Sets (Lep;)V
-	METHOD a onItemStackChanged (Lhz;)V
-	METHOD a func_35201_a (Lhz;I)V
-	METHOD a addChatMessage (Ljava/lang/String;)V
-	METHOD a displayGUIChest (Lkd;)V
-	METHOD a readEntityFromNBT (Lls;)V
 	METHOD a getTileEntityInfo (Lms;)V
 		ARG 1 tileEntity
-	METHOD a onDeath (Lns;)V
-	METHOD a attackEntityFrom (Lns;I)Z
-	METHOD a displayGUIFurnace (Lpl;)V
-	METHOD a mountEntity (Lpp;)V
-	METHOD a onItemPickup (Lpp;I)V
-	METHOD a addStat (Lso;I)V
-	METHOD a func_35181_a (Lul;)V
-	METHOD a wakeUpPlayer (ZZZ)V
 	METHOD ax getNextWidowId ()V
 	METHOD b handleFalling (DZ)V
 		ARG 1 fallDistance
 		ARG 3 falling
 	METHOD b getEquipmentInSlot (I)Lhz;
 		ARG 1 index
-	METHOD b displayWorkbenchGUI (III)V
-	METHOD b writeEntityToNBT (Lls;)V
-	METHOD b func_35179_b (Lul;)V
 	METHOD b onUpdateEntity (Z)V
 		ARG 1 inUnloadedChunk
-	METHOD c heal (I)V
-	METHOD c func_35185_c (Lul;)V
-	METHOD l_ getInventory ()[Lhz;
-	METHOD m_ resetHeight ()V
 	METHOD p openCraftingGUI ()V
-	METHOD q_ onUpdate ()V
-	METHOD u getEyeHeight ()F
-	METHOD v isPVPEnabled ()Z
-	METHOD w swingItem ()V
 	METHOD x func_22068_s ()V
-	METHOD y usePersonalCraftingInventory ()V
 	METHOD z updateHeldItem ()V

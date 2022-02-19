@@ -1,4 +1,2 @@
 CLASS w net/minecraft/src/EntityNoteFX
 	FIELD a noteParticleScale F
-	METHOD a renderParticle (Lyu;FFFFFF)V
-	METHOD w_ onUpdate ()V

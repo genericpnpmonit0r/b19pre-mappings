@@ -16,20 +16,3 @@ CLASS dr net/minecraft/src/EntityBoat
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
-	METHOD a setVelocity (DDD)V
-	METHOD a setPositionAndRotation2 (DDDFFI)V
-	METHOD a attackEntityFrom (Ljz;I)Z
-	METHOD a getCollisionBox (Lle;)Lsw;
-	METHOD a readEntityFromNBT (Lyr;)V
-	METHOD b entityInit ()V
-	METHOD b interact (Lui;)Z
-	METHOD b writeEntityToNBT (Lyr;)V
-	METHOD b_ canBeCollidedWith ()Z
-	METHOD c_ canBePushed ()Z
-	METHOD d_ canTriggerWalking ()Z
-	METHOD e_ getBoundingBox ()Lsw;
-	METHOD g_ getShadowSize ()F
-	METHOD h_ updateRiderPosition ()V
-	METHOD j performHurtAnimation ()V
-	METHOD k getMountedYOffset ()D
-	METHOD w_ onUpdate ()V

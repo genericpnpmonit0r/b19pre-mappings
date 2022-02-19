@@ -7,7 +7,3 @@ CLASS s net/minecraft/src/ContainerPlayer
 	METHOD <init> (Lvt;Z)V
 		ARG 1 inventoryPlayer
 		ARG 2 isSPFlag
-	METHOD a transferStackInSlot (I)Lvw;
-	METHOD a onCraftMatrixChanged (Lha;)V
-	METHOD a onCraftGuiClosed (Lui;)V
-	METHOD b canInteractWith (Lui;)Z

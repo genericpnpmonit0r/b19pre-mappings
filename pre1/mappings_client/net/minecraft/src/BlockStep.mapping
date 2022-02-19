@@ -4,12 +4,3 @@ CLASS afw net/minecraft/src/BlockStep
 	METHOD <init> (IZ)V
 		ARG 1 id
 		ARG 2 type
-	METHOD a isOpaqueCube ()Z
-	METHOD a getBlockTextureFromSide (I)I
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a shouldSideBeRendered (Lafd;IIII)Z
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD a onBlockAdded (Ltd;III)V
-	METHOD b renderAsNormalBlock ()Z
-	METHOD b damageDropped (I)I

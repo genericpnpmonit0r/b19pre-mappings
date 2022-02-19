@@ -7,7 +7,3 @@ CLASS sr net/minecraft/src/Packet51MapChunk
 	FIELD f zSize I
 	FIELD g chunk [B
 	FIELD h chunkSize I
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Llt;)V

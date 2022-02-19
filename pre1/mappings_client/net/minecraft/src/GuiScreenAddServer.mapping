@@ -6,10 +6,3 @@ CLASS to net/minecraft/src/GuiScreenAddServer
 	METHOD <init> (Lrx;Llq;)V
 		ARG 1 screen
 		ARG 2 serveNBTStorage
-	METHOD a initGui ()V
-	METHOD a keyTyped (CI)V
-	METHOD a drawScreen (IIF)V
-	METHOD a mouseClicked (III)V
-	METHOD a actionPerformed (Lwv;)V
-	METHOD d onGuiClosed ()V
-	METHOD p_ updateScreen ()V

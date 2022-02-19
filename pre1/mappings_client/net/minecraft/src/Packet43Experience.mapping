@@ -2,7 +2,3 @@ CLASS gu net/minecraft/src/Packet43Experience
 	FIELD a experienceValue I
 	FIELD b experienceTotal I
 	FIELD c experienceLevel I
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Llt;)V

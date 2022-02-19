@@ -16,14 +16,10 @@ CLASS mg net/minecraft/src/TileEntityPiston
 	METHOD a getStoredBlockID ()I
 	METHOD a getRotation (F)F
 	METHOD a extend (FF)V
-	METHOD a readFromNBT (Lyr;)V
 	METHOD b getRotationX (F)F
-	METHOD b writeToNBT (Lyr;)V
 	METHOD c getRotationY (F)F
 	METHOD d getExtending ()Z
 	METHOD d getRotationZ (F)F
 	METHOD e getStoredOrientation ()I
 	METHOD f getUnusedBool ()Z
 	METHOD g clearPistonTileEntity ()V
-	METHOD i getBlockMetadata ()I
-	METHOD k_ updateEntity ()V

@@ -1,6 +1,1 @@
 CLASS ww net/minecraft/src/J_JsonArrayNodeSelector
-	METHOD a shortForm ()Ljava/lang/String;
-	METHOD a matchsNode_ (Led;)Z
-	METHOD b typeSafeApplyTo (Led;)Ljava/util/List;
-	METHOD b typeSafeApplyTo (Ljava/lang/Object;)Ljava/lang/Object;
-	METHOD c matchsNode (Ljava/lang/Object;)Z

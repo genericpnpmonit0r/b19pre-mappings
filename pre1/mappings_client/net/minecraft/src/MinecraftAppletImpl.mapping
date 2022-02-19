@@ -8,4 +8,3 @@ CLASS l net/minecraft/src/MinecraftAppletImpl
 		ARG 5 width
 		ARG 6 height
 		ARG 7 fullscreen
-	METHOD a displayUnexpectedThrowable (Lhi;)V

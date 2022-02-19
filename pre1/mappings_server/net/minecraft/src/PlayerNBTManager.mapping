@@ -9,16 +9,6 @@ CLASS ez net/minecraft/src/PlayerNBTManager
 		ARG 2 dirName
 		ARG 3 createIfNeeded
 	METHOD a getWorldDir ()Ljava/io/File;
-	METHOD a saveWorldInfo (Ldx;)V
-	METHOD a saveWorldInfoAndPlayer (Ldx;Ljava/util/List;)V
-	METHOD a writePlayerData (Lga;)V
 	METHOD a getPlayerData (Ljava/lang/String;)Lls;
 		ARG 1 playername
-	METHOD a getChunkLoader (Luc;)Laz;
-	METHOD b checkSessionLock ()V
-	METHOD b readPlayerData (Lga;)V
-	METHOD b func_28111_b (Ljava/lang/String;)Ljava/io/File;
-	METHOD c loadWorldInfo ()Ldx;
-	METHOD d getPlayerNBTManager ()Lhi;
-	METHOD e func_22093_e ()V
 	METHOD f setSessionLock ()V

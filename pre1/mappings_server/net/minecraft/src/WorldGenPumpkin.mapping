@@ -1,2 +1,1 @@
 CLASS ty net/minecraft/src/WorldGenPumpkin
-	METHOD a generate (Lep;Ljava/util/Random;III)Z

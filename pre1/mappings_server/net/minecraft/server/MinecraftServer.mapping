@@ -40,11 +40,9 @@ CLASS net/minecraft/server/MinecraftServer
 	METHOD b commandLineParser ()V
 	METHOD b getEntityTracker (I)Lsd;
 		ARG 1 dimension
-	METHOD b log (Ljava/lang/String;)V
 	METHOD c startServer ()Z
 	METHOD c logWarning (Ljava/lang/String;)V
 		ARG 1 str
-	METHOD d getUsername ()Ljava/lang/String;
 	METHOD e clearCurrentTask ()V
 	METHOD f saveServerWorld ()V
 	METHOD g stopServer ()V

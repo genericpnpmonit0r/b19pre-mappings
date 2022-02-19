@@ -2,7 +2,3 @@ CLASS aba net/minecraft/src/Packet6SpawnPosition
 	FIELD a xPosition I
 	FIELD b yPosition I
 	FIELD c zPosition I
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Llt;)V

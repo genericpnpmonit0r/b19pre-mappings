@@ -2,7 +2,6 @@ CLASS jy net/minecraft/src/GenLayerSmoothZoom
 	METHOD <init> (JLdu;)V
 		ARG 1 seed
 		ARG 3 layer
-	METHOD a func_35018_a (IIII)[I
 	METHOD a smoothMagnify (JLdu;I)Ldu;
 		ARG 0 seedAdj
 		ARG 2 layer

@@ -64,12 +64,10 @@ CLASS jz net/minecraft/src/EntityLiving
 	FIELD f currentTarget Lpp;
 	METHOD H getIsBlocking ()Z
 	METHOD I isMovementBlocked ()Z
-	METHOD J updateRidden ()V
 	METHOD L getTotalArmorValue ()I
 	METHOD R isPlayerSleeping ()Z
 	METHOD U jump ()V
 	METHOD Z func_35188_X ()Z
-	METHOD a fall (F)V
 	METHOD a moveEntityWithHeading (FF)V
 		ARG 1 yaw
 		ARG 2 pitch
@@ -77,10 +75,8 @@ CLASS jz net/minecraft/src/EntityLiving
 		ARG 1 player
 	METHOD a isPotionActive (Lhp;)Z
 		ARG 1 potion
-	METHOD a readEntityFromNBT (Lls;)V
 	METHOD a onDeath (Lns;)V
 		ARG 1 damageSrc
-	METHOD a attackEntityFrom (Lns;I)Z
 	METHOD a faceEntity (Lpp;FF)V
 		ARG 1 entity
 		ARG 2 yaw
@@ -95,26 +91,19 @@ CLASS jz net/minecraft/src/EntityLiving
 	METHOD a dropFewItems (Z)V
 		ARG 1 itemBool
 	METHOD ab playLivingSound ()V
-	METHOD ac onEntityUpdate ()V
 	METHOD ad spawnExplosionParticle ()V
-	METHOD ae isEntityAlive ()Z
 	METHOD af despawnEntity ()V
 	METHOD ag hasCurrentTarget ()Z
 	METHOD ah getCurrentTarget ()Lpp;
 	METHOD ai onEntityDeath ()V
-	METHOD aj kill ()V
-	METHOD ak getLookVec ()Lbo;
 	METHOD al clearActivePotions ()V
 	METHOD am getPotionMapValues ()Ljava/util/Collection;
-	METHOD b entityInit ()V
-	METHOD b setSize (FF)V
 	METHOD b updateRotation (FFF)F
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 	METHOD b getActivePotionEffect (Lhp;)Lul;
 		ARG 1 potion
-	METHOD b writeEntityToNBT (Lls;)V
 	METHOD b damageEntity (Lns;I)V
 		ARG 1 damageSrc
 		ARG 2 amount
@@ -129,7 +118,6 @@ CLASS jz net/minecraft/src/EntityLiving
 		ARG 2 amount
 	METHOD c onFinishedPotionEffect (Lul;)V
 		ARG 1 potionEffect
-	METHOD c_ canBeCollidedWith ()Z
 	METHOD d getLivingSound ()Ljava/lang/String;
 	METHOD d getLook (F)Lbo;
 		ARG 1 lookVectorFloat
@@ -137,7 +125,6 @@ CLASS jz net/minecraft/src/EntityLiving
 		ARG 1 amount
 	METHOD d addPotionEffect (Lul;)V
 		ARG 1 potionEffect
-	METHOD d_ canBePushed ()Z
 	METHOD e getHurtSound ()Ljava/lang/String;
 	METHOD f canEntityBeSeen (Lpp;)Z
 		ARG 1 entity
@@ -151,6 +138,4 @@ CLASS jz net/minecraft/src/EntityLiving
 	METHOD n getMaxSpawnedInChunk ()I
 	METHOD n_ applyMoveSpeedPotionEffectModifier ()F
 	METHOD q isOnLadder ()Z
-	METHOD q_ onUpdate ()V
 	METHOD t getVerticalFaceSpeed ()I
-	METHOD u getEyeHeight ()F

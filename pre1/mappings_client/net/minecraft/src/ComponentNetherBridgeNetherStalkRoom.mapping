@@ -4,6 +4,4 @@ CLASS sy net/minecraft/src/ComponentNetherBridgeNetherStalkRoom
 		ARG 2 rand
 		ARG 3 boundingBox
 		ARG 4 coordBaseMode
-	METHOD a buildComponent (Lfw;Ljava/util/List;Ljava/util/Random;)V
 	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lsy;
-	METHOD a addComponentParts (Ltd;Ljava/util/Random;Lno;)Z

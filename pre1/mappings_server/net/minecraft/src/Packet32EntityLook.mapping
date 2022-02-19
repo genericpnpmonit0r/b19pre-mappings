@@ -3,6 +3,3 @@ CLASS pe net/minecraft/src/Packet32EntityLook
 		ARG 1 id
 		ARG 2 yaw
 		ARG 3 pitch
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V

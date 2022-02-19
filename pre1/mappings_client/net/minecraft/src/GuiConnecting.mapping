@@ -5,11 +5,6 @@ CLASS ady net/minecraft/src/GuiConnecting
 		ARG 1 minecraft
 		ARG 2 hostname
 		ARG 3 port
-	METHOD a initGui ()V
-	METHOD a keyTyped (CI)V
-	METHOD a drawScreen (IIF)V
 	METHOD a isCancelled (Lady;)Z
 	METHOD a setNetClientHandler (Lady;Lyh;)Lyh;
-	METHOD a actionPerformed (Lwv;)V
 	METHOD b getNetClientHandler (Lady;)Lyh;
-	METHOD p_ updateScreen ()V

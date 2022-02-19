@@ -1,5 +1,3 @@
 CLASS yi net/minecraft/src/J_FieldNodeContainer
 	FIELD a fieldBuilder Laab;
 	FIELD b field_27291_b Lxr;
-	METHOD a func_27289_a (Laab;)V
-	METHOD a func_27290_a (Lxe;)V

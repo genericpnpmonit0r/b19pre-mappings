@@ -28,8 +28,6 @@ CLASS afo net/minecraft/src/ChunkProviderGenerate
 		ARG 1 world
 		ARG 2 seed
 		ARG 4 featuresEnabledFlag
-	METHOD a unload100OldestChunks ()Z
-	METHOD a chunkExists (II)Z
 	METHOD a generateTerrain (II[B)V
 		ARG 1 x
 		ARG 2 z
@@ -39,9 +37,6 @@ CLASS afo net/minecraft/src/ChunkProviderGenerate
 		ARG 2 z
 		ARG 3 blocks
 		ARG 4 biomes
-	METHOD a populate (Lbh;II)V
-	METHOD a func_40377_a (Lxj;III)Ljava/util/List;
-	METHOD a saveChunks (ZLoz;)Z
 	METHOD a initializeNoiseField ([DIIIIII)[D
 		ARG 1 noiseArray
 		ARG 2 offset1
@@ -50,7 +45,3 @@ CLASS afo net/minecraft/src/ChunkProviderGenerate
 		ARG 5 x
 		ARG 6 y
 		ARG 7 z
-	METHOD b canSave ()Z
-	METHOD b provideChunk (II)Lxl;
-	METHOD c makeString ()Ljava/lang/String;
-	METHOD c loadChunk (II)Lxl;

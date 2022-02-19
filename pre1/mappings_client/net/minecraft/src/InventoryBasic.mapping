@@ -6,13 +6,3 @@ CLASS ka net/minecraft/src/InventoryBasic
 	METHOD <init> (Ljava/lang/String;I)V
 		ARG 1 title
 		ARG 2 slotCount
-	METHOD a getSizeInventory ()I
-	METHOD a decrStackSize (II)Lvw;
-	METHOD a setInventorySlotContents (ILvw;)V
-	METHOD a isUseableByPlayer (Lui;)Z
-	METHOD c getInvName ()Ljava/lang/String;
-	METHOD d getInventoryStackLimit ()I
-	METHOD e openChest ()V
-	METHOD e_ getStackInSlot (I)Lvw;
-	METHOD f closeChest ()V
-	METHOD l onInventoryChanged ()V

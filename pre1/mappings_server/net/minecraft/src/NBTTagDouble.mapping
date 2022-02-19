@@ -2,6 +2,3 @@ CLASS px net/minecraft/src/NBTTagDouble
 	FIELD a doubleValue D
 	METHOD <init> (D)V
 		ARG 1 value
-	METHOD a getType ()B
-	METHOD a readTagContents (Ljava/io/DataInput;)V
-	METHOD a writeTagContents (Ljava/io/DataOutput;)V

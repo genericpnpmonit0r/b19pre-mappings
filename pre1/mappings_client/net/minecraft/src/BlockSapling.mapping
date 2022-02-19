@@ -1,7 +1,4 @@
 CLASS uo net/minecraft/src/BlockSapling
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD a updateTick (Ltd;IIILjava/util/Random;)V
-	METHOD b damageDropped (I)I
 	METHOD c growTree (Ltd;IIILjava/util/Random;)V
 		ARG 1 world
 		ARG 2 x

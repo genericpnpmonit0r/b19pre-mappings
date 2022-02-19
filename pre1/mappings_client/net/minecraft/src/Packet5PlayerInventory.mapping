@@ -3,7 +3,3 @@ CLASS px net/minecraft/src/Packet5PlayerInventory
 	FIELD b slot I
 	FIELD c itemID I
 	FIELD d itemDamage I
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Llt;)V

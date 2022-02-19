@@ -7,9 +7,6 @@ CLASS vt net/minecraft/src/InventoryPlayer
 	FIELD f itemStack Lvw;
 	METHOD <init> (Lui;)V
 		ARG 1 player
-	METHOD a getSizeInventory ()I
-	METHOD a decrStackSize (II)Lvw;
-	METHOD a setInventorySlotContents (ILvw;)V
 	METHOD a setCurrentItem (IZ)V
 		ARG 1 itemId
 		ARG 2 b
@@ -19,7 +16,6 @@ CLASS vt net/minecraft/src/InventoryPlayer
 		ARG 1 listTag
 	METHOD a getStrVsBlock (Lmn;)F
 		ARG 1 block
-	METHOD a isUseableByPlayer (Lui;)Z
 	METHOD a addItemStackToInventory (Lvw;)Z
 		ARG 1 itemStack
 	METHOD b getCurrentItem ()Lvw;
@@ -31,23 +27,18 @@ CLASS vt net/minecraft/src/InventoryPlayer
 		ARG 1 block
 	METHOD b setItemStack (Lvw;)V
 		ARG 1 itemStack
-	METHOD c getInvName ()Ljava/lang/String;
 	METHOD c consumeInventoryItem (I)Z
 		ARG 1 item
 	METHOD c getHasItemStack (Lvw;)Z
 		ARG 1 ItemStack
-	METHOD d getInventoryStackLimit ()I
 	METHOD d hasItem (I)Z
 		ARG 1 item
 	METHOD d storeItemStack (Lvw;)I
 		ARG 1 itemStack
-	METHOD e openChest ()V
 	METHOD e armorItemInSlot (I)Lvw;
 		ARG 1 index
 	METHOD e storePartialItemStack (Lvw;)I
 		ARG 1 itemStack
-	METHOD e_ getStackInSlot (I)Lvw;
-	METHOD f closeChest ()V
 	METHOD f damageArmor (I)V
 		ARG 1 amount
 	METHOD g decrementAnimations ()V
@@ -57,4 +48,3 @@ CLASS vt net/minecraft/src/InventoryPlayer
 	METHOD i dropAllItems ()V
 	METHOD j getItemStack ()Lvw;
 	METHOD k getFirstEmptyStack ()I
-	METHOD l onInventoryChanged ()V

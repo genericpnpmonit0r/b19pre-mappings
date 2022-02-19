@@ -10,15 +10,6 @@ CLASS cb net/minecraft/src/EntityXPOrb
 		ARG 4 y
 		ARG 6 z
 		ARG 8 value
-	METHOD a dealFireDamage (I)V
-	METHOD a readEntityFromNBT (Lls;)V
-	METHOD a attackEntityFrom (Lns;I)Z
-	METHOD a_ onCollideWithPlayer (Lga;)V
-	METHOD b entityInit ()V
 	METHOD b getXPSplit (I)I
 		ARG 0 splitPoint
-	METHOD b writeEntityToNBT (Lls;)V
-	METHOD e_ canTriggerWalking ()Z
-	METHOD f_ handleWaterMovement ()Z
 	METHOD j_ getXpValue ()I
-	METHOD q_ onUpdate ()V

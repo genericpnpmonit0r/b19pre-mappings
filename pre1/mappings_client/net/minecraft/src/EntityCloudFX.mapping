@@ -1,4 +1,2 @@
 CLASS adh net/minecraft/src/EntityCloudFX
 	FIELD a field_35135_a F
-	METHOD a renderParticle (Lyu;FFFFFF)V
-	METHOD w_ onUpdate ()V

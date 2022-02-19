@@ -11,7 +11,3 @@ CLASS tz net/minecraft/src/Packet52MultiBlockChange
 		ARG 3 blocks
 		ARG 4 size
 		ARG 5 world
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqf;)V

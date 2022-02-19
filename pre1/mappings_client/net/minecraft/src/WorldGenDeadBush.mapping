@@ -2,4 +2,3 @@ CLASS xc net/minecraft/src/WorldGenDeadBush
 	FIELD a deadBushID I
 	METHOD <init> (I)V
 		ARG 1 id
-	METHOD a generate (Ltd;Ljava/util/Random;III)Z

@@ -18,8 +18,5 @@ CLASS hl net/minecraft/src/EntityCreature
 	METHOD b attackBlockedEntity (Lpp;F)V
 	METHOD d setTarget (Lpp;)V
 		ARG 1 entity
-	METHOD i getCanSpawnHere ()Z
-	METHOD l updateEntityActionState ()V
-	METHOD n_ func_35178_D ()F
 	METHOD p findPlayerToAttack ()Lpp;
 	METHOD v isMovementCeased ()Z

@@ -73,7 +73,6 @@ CLASS ep net/minecraft/src/World
 	METHOD a getFirstUncoveredBlock (II)I
 		ARG 1 x
 		ARG 2 z
-	METHOD a getBlockId (III)I
 	METHOD a doChunksNearChunkExist (IIII)Z
 		ARG 1 x
 		ARG 2 z
@@ -267,7 +266,6 @@ CLASS ep net/minecraft/src/World
 	METHOD b getChunkFromBlockCoords (II)Ljv;
 		ARG 1 x
 		ARG 2 z
-	METHOD b getBlockTileEntity (III)Lms;
 	METHOD b setBlock (IIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -323,7 +321,6 @@ CLASS ep net/minecraft/src/World
 	METHOD c getChunkFromChunkCoords (II)Ljv;
 		ARG 1 x
 		ARG 2 z
-	METHOD c getBlockMetadata (III)I
 	METHOD c setBlockMetadataWithNotify (IIII)V
 		ARG 1 x
 		ARG 2 y
@@ -352,7 +349,6 @@ CLASS ep net/minecraft/src/World
 	METHOD d getHeightValue (II)I
 		ARG 1 x
 		ARG 2 z
-	METHOD d getBlockMaterial (III)Ljw;
 	METHOD d setBlockMetadata (IIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -379,7 +375,6 @@ CLASS ep net/minecraft/src/World
 	METHOD e getTopSolidOrLiquidBlock (II)I
 		ARG 1 x
 		ARG 2 z
-	METHOD e isBlockNormalCube (III)Z
 	METHOD e setBlockWithNotify (IIII)Z
 		ARG 1 x
 		ARG 2 y

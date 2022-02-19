@@ -4,11 +4,6 @@ CLASS po net/minecraft/src/BlockRedstoneWire
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 texIndex
-	METHOD a isOpaqueCube ()Z
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a onBlockAdded (Lep;III)V
-	METHOD a onNeighborBlockChange (Lep;IIII)V
 	METHOD a calculateCurrentChanges (Lep;IIIIII)V
 		ARG 1 world
 		ARG 2 x
@@ -17,19 +12,12 @@ CLASS po net/minecraft/src/BlockRedstoneWire
 		ARG 5 x2
 		ARG 6 y2
 		ARG 7 z2
-	METHOD a isPoweringTo (Lun;IIII)Z
-	METHOD b isACube ()Z
-	METHOD c canPlaceBlockAt (Lep;III)Z
 	METHOD c isPowerProviderOrWire (Lun;IIII)Z
 		ARG 0 blockAccess
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 power
-	METHOD d canProvidePower ()Z
-	METHOD d onBlockRemoval (Lep;III)V
-	METHOD d isIndirectlyPoweringTo (Lep;IIII)Z
-	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;
 	METHOD f getMaxCurrentStrength (Lep;IIII)I
 		ARG 1 world
 		ARG 2 x

@@ -8,5 +8,3 @@ CLASS rm net/minecraft/src/ModelVillager
 	FIELD g field_40335_g I
 	FIELD k field_40341_n Z
 	FIELD l field_40342_o Z
-	METHOD a setRotationAngles (FFFFFF)V
-	METHOD a render (Lle;FFFFFF)V

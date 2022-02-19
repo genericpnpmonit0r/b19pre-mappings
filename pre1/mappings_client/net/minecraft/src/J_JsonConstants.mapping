@@ -3,7 +3,3 @@ CLASS ne net/minecraft/src/J_JsonConstants
 	FIELD b TRUE Lne;
 	FIELD c FALSE Lne;
 	FIELD d jsonNodeType Lqj;
-	METHOD a getType ()Lqj;
-	METHOD b getText ()Ljava/lang/String;
-	METHOD c getFields ()Ljava/util/Map;
-	METHOD d getElements ()Ljava/util/List;

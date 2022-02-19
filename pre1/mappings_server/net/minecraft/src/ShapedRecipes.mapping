@@ -9,8 +9,4 @@ CLASS hv net/minecraft/src/ShapedRecipes
 		ARG 2 height
 		ARG 3 items
 		ARG 4 output
-	METHOD a getRecipeSize ()I
-	METHOD a matches (Lkq;)Z
 	METHOD a checkItemDamaged (Lkq;IIZ)Z
-	METHOD b getRecipeOutput ()Lhz;
-	METHOD b getCraftingResult (Lkq;)Lhz;

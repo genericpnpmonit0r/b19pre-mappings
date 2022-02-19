@@ -5,12 +5,7 @@ CLASS do net/minecraft/src/GuiTexturePacks
 	FIELD d guiTexturePackSlot Lbw;
 	METHOD <init> (Lrx;)V
 		ARG 1 screen
-	METHOD a initGui ()V
-	METHOD a drawScreen (IIF)V
-	METHOD a mouseClicked (III)V
 	METHOD a func_22124_a (Ldo;)Lnet/minecraft/client/Minecraft;
-	METHOD a actionPerformed (Lwv;)V
-	METHOD b mouseMovedOrUp (III)V
 	METHOD b func_22126_b (Ldo;)Lnet/minecraft/client/Minecraft;
 	METHOD c func_22119_c (Ldo;)Lnet/minecraft/client/Minecraft;
 	METHOD d func_22122_d (Ldo;)Lnet/minecraft/client/Minecraft;
@@ -24,4 +19,3 @@ CLASS do net/minecraft/src/GuiTexturePacks
 	METHOD l func_22127_j (Ldo;)Llc;
 	METHOD m func_22120_k (Ldo;)Llc;
 	METHOD n func_22125_l (Ldo;)Llc;
-	METHOD p_ updateScreen ()V

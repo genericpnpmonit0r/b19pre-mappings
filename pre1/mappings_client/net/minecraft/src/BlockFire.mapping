@@ -4,14 +4,10 @@ CLASS afu net/minecraft/src/BlockFire
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 texIndex
-	METHOD a isOpaqueCube ()Z
 	METHOD a setBurnRate (III)V
 		ARG 1 rate
 		ARG 2 chanceToEncourage
 		ARG 3 abilityToCatch
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD a onBlockAdded (Ltd;III)V
-	METHOD a onNeighborBlockChange (Ltd;IIII)V
 	METHOD a tryToCatchBlockOnFire (Ltd;IIIILjava/util/Random;I)V
 		ARG 1 world
 		ARG 2 x
@@ -20,13 +16,6 @@ CLASS afu net/minecraft/src/BlockFire
 		ARG 5 side
 		ARG 6 rand
 		ARG 7 meta
-	METHOD a updateTick (Ltd;IIILjava/util/Random;)V
-	METHOD b renderAsNormalBlock ()Z
-	METHOD b randomDisplayTick (Ltd;IIILjava/util/Random;)V
-	METHOD c getCollisionBoundingBoxFromPool (Ltd;III)Lsw;
-	METHOD d getRenderType ()I
-	METHOD e canPlaceBlockAt (Ltd;III)Z
-	METHOD f tickRate ()I
 	METHOD f canBlockCatchFire (Lafd;III)Z
 		ARG 1 blockAccess
 		ARG 2 x
@@ -48,5 +37,3 @@ CLASS afu net/minecraft/src/BlockFire
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD j isCollidable ()Z
-	METHOD l initializeBlock ()V

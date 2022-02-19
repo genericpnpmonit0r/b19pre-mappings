@@ -4,6 +4,3 @@ CLASS bw net/minecraft/src/ContainerChest
 	METHOD <init> (Lkd;Lkd;)V
 		ARG 1 inventory1
 		ARG 2 inventory2
-	METHOD a getStackInSlot (I)Lhz;
-	METHOD a onCraftGuiClosed (Lga;)V
-	METHOD b canInteractWith (Lga;)Z

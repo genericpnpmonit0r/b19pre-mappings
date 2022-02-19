@@ -1,4 +1,3 @@
 CLASS qu net/minecraft/src/ModelEnderman
 	FIELD a isCarrying Z
 	FIELD b isAttacking Z
-	METHOD a setRotationAngles (FFFFFF)V

@@ -25,8 +25,4 @@ CLASS kf net/minecraft/src/EntityFishHook
 		ARG 5 z
 		ARG 7 yaw
 		ARG 8 pitch
-	METHOD a readEntityFromNBT (Lls;)V
-	METHOD b entityInit ()V
-	METHOD b writeEntityToNBT (Lls;)V
 	METHOD i catchFish ()I
-	METHOD q_ onUpdate ()V

@@ -1,4 +1,3 @@
 CLASS aak net/minecraft/src/GenLayerTemperature
 	METHOD <init> (Lsq;)V
 		ARG 1 layer
-	METHOD a func_35500_a (IIII)[I

@@ -3,4 +3,3 @@ CLASS acj net/minecraft/src/GenLayerVillageLandscape
 	METHOD <init> (JLsq;)V
 		ARG 1 seed
 		ARG 3 layer
-	METHOD a func_35500_a (IIII)[I

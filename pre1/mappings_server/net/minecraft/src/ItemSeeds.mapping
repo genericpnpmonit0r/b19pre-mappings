@@ -5,4 +5,3 @@ CLASS on net/minecraft/src/ItemSeeds
 		ARG 1 id
 		ARG 2 blockType
 		ARG 3 blockTypeToSet
-	METHOD a onItemUse (Lhz;Lga;Lep;IIII)Z

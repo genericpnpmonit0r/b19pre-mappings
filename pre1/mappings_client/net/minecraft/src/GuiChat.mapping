@@ -2,9 +2,3 @@ CLASS tx net/minecraft/src/GuiChat
 	FIELD a message Ljava/lang/String;
 	FIELD b updateCounter I
 	FIELD c allowedCharacters Ljava/lang/String;
-	METHOD a initGui ()V
-	METHOD a keyTyped (CI)V
-	METHOD a drawScreen (IIF)V
-	METHOD a mouseClicked (III)V
-	METHOD d onGuiClosed ()V
-	METHOD p_ updateScreen ()V

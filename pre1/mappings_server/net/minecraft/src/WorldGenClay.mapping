@@ -3,4 +3,3 @@ CLASS ks net/minecraft/src/WorldGenClay
 	FIELD b numberOfBlocks I
 	METHOD <init> (I)V
 		ARG 1 count
-	METHOD a generate (Lep;Ljava/util/Random;III)Z

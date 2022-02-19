@@ -3,4 +3,3 @@ CLASS cf net/minecraft/src/ItemMapBase
 		ARG 1 itemStack
 		ARG 2 world
 		ARG 3 player
-	METHOD i_ func_28019_b ()Z

@@ -5,5 +5,3 @@ CLASS aah net/minecraft/src/SlotArmor
 		ARG 1 playerInventory
 		ARG 2 inventory
 		ARG 6 type
-	METHOD b isItemValid (Lvw;)Z
-	METHOD d getSlotStackLimit ()I

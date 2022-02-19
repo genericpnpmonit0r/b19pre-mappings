@@ -6,7 +6,3 @@ CLASS ef net/minecraft/src/Packet8UpdateHealth
 		ARG 1 health
 		ARG 2 food
 		ARG 3 saturation
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqf;)V

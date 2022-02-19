@@ -27,32 +27,10 @@ CLASS jn net/minecraft/src/NetServerHandler
 		ARG 5 z
 		ARG 7 yaw
 		ARG 8 pitch
-	METHOD a handleUseEntity (La;)V
-	METHOD a func_35004_a (Ldk;)V
-	METHOD a handlePlace (Lgc;)V
-	METHOD a handleBlockItemSwitch (Lgy;)V
-	METHOD a handleFlying (Lhj;)V
-	METHOD a handleBlockDig (Lis;)V
 	METHOD a kickPlayer (Ljava/lang/String;)V
 		ARG 1 reason
-	METHOD a handleErrorMessage (Ljava/lang/String;[Ljava/lang/Object;)V
-	METHOD a registerPacket (Ljc;)V
-	METHOD a func_35005_a (Lkh;)V
-	METHOD a handleCraftingGuiClosedPacked (Lkm;)V
-	METHOD a handleArmAnimation (Lln;)V
-	METHOD a handleTransaction (Lmg;)V
-	METHOD a handleRespawn (Lmu;)V
-	METHOD a handleChat (Lmx;)V
-	METHOD a handleMovementTypePacket (Lnq;)V
-	METHOD a handleWindowClick (Lnz;)V
-	METHOD a handleEntityAction (Lqs;)V
-	METHOD a handleUpdateSign (Lrb;)V
-	METHOD a handleKickDisconnect (Lvl;)V
 	METHOD b getNumChunkDataPackets ()I
-	METHOD b log (Ljava/lang/String;)V
 	METHOD b sendPacket (Ljc;)V
 		ARG 1 packet
-	METHOD c isServerHandler ()Z
 	METHOD c handleSlashCommand (Ljava/lang/String;)V
 		ARG 1 cmdName
-	METHOD d getUsername ()Ljava/lang/String;

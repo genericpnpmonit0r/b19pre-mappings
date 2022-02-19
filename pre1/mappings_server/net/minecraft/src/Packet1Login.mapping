@@ -16,7 +16,3 @@ CLASS ly net/minecraft/src/Packet1Login
 		ARG 7 worldType
 		ARG 8 worldHeight
 		ARG 9 maxPlayers
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqf;)V

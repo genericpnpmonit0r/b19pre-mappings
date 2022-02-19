@@ -9,7 +9,3 @@ CLASS adz net/minecraft/src/GuiSlider
 		ARG 4 enumOptions
 		ARG 5 text
 		ARG 6 floatValue
-	METHOD a mouseReleased (II)V
-	METHOD a getHoverState (Z)I
-	METHOD b mouseDragged (Lnet/minecraft/client/Minecraft;II)V
-	METHOD c mousePressed (Lnet/minecraft/client/Minecraft;II)Z

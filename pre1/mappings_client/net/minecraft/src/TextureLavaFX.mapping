@@ -3,4 +3,3 @@ CLASS be net/minecraft/src/TextureLavaFX
 	FIELD b green [F
 	FIELD c blue [F
 	FIELD d alpha [F
-	METHOD a onTick ()V

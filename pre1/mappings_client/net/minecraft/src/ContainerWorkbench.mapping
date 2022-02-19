@@ -11,7 +11,3 @@ CLASS vq net/minecraft/src/ContainerWorkbench
 		ARG 3 x
 		ARG 4 y
 		ARG 5 z
-	METHOD a transferStackInSlot (I)Lvw;
-	METHOD a onCraftMatrixChanged (Lha;)V
-	METHOD a onCraftGuiClosed (Lui;)V
-	METHOD b canInteractWith (Lui;)Z

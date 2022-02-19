@@ -1,14 +1,6 @@
 CLASS adr net/minecraft/src/BlockFarmland
 	METHOD <init> (I)V
 		ARG 1 id
-	METHOD a isOpaqueCube ()Z
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a onNeighborBlockChange (Ltd;IIII)V
-	METHOD a updateTick (Ltd;IIILjava/util/Random;)V
-	METHOD b renderAsNormalBlock ()Z
-	METHOD b onEntityWalking (Ltd;IIILle;)V
-	METHOD c getCollisionBoundingBoxFromPool (Ltd;III)Lsw;
 	METHOD h isCropsNearby (Ltd;III)Z
 		ARG 1 world
 		ARG 2 x

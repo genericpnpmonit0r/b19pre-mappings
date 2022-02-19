@@ -6,7 +6,3 @@ CLASS gz net/minecraft/src/Packet103SetSlot
 		ARG 1 wid
 		ARG 2 slotIndex
 		ARG 3 ItemStack
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqf;)V

@@ -42,30 +42,18 @@ CLASS ga net/minecraft/src/EntityPlayer
 	METHOD E isUsingItem ()Z
 	METHOD F stopUsingItem ()V
 	METHOD G clearItemInUse ()V
-	METHOD H func_35180_G ()Z
-	METHOD I isMovementBlocked ()Z
-	METHOD J updateRidden ()V
 	METHOD K dropCurrentItem ()V
 	METHOD M getCurrentEquippedItem ()Lhz;
 	METHOD N destroyCurrentEquippedItem ()V
-	METHOD O getYOffset ()D
-	METHOD P setEntityDead ()V
-	METHOD Q isEntityInsideOpaqueBlock ()Z
-	METHOD R isPlayerSleeping ()Z
 	METHOD S isPlayerFullyAsleep ()Z
 	METHOD T getSpawnChunk ()Lbm;
-	METHOD U jump ()V
-	METHOD V setInPortal ()V
 	METHOD W xpBarCap ()I
 	METHOD X getFoodStats ()Lpf;
 	METHOD Y shouldHeal ()Z
-	METHOD Z func_35188_X ()Z
 	METHOD a addMovementStat (DDD)V
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
-	METHOD a fall (F)V
-	METHOD a moveEntityWithHeading (FF)V
 	METHOD a sleepInBedAt (III)Lcq;
 		ARG 1 x
 		ARG 2 y
@@ -89,15 +77,11 @@ CLASS ga net/minecraft/src/EntityPlayer
 		ARG 2 useRand
 	METHOD a addChatMessage (Ljava/lang/String;)V
 		ARG 1 message
-	METHOD a onKillEntity (Ljz;)V
 	METHOD a alertWolves (Ljz;Z)V
 		ARG 1 living
 		ARG 2 sitting
 	METHOD a displayGUIChest (Lkd;)V
 		ARG 1 inventory
-	METHOD a readEntityFromNBT (Lls;)V
-	METHOD a onDeath (Lns;)V
-	METHOD a attackEntityFrom (Lns;I)Z
 	METHOD a displayGUIFurnace (Lpl;)V
 		ARG 1 furnace
 	METHOD a onItemPickup (Lpp;I)V
@@ -116,8 +100,6 @@ CLASS ga net/minecraft/src/EntityPlayer
 		ARG 1 resetSleepTimer
 		ARG 2 allPlayersSleeping
 		ARG 3 setSpawnChunk
-	METHOD aa func_35150_Y ()Ljava/lang/String;
-	METHOD b entityInit ()V
 	METHOD b setSpecialRenderXZ (I)V
 		ARG 1 specialRenderCase
 	METHOD b displayWorkbenchGUI (III)V
@@ -129,12 +111,8 @@ CLASS ga net/minecraft/src/EntityPlayer
 	METHOD b updateItemInUse (Lhz;I)V
 		ARG 1 itemStack
 		ARG 2 count
-	METHOD b writeEntityToNBT (Lls;)V
-	METHOD b damageEntity (Lns;I)V
-	METHOD b addToPlayerScore (Lpp;I)V
 	METHOD b canHarvestBlock (Lrj;)Z
 		ARG 1 block
-	METHOD c onLivingUpdate ()V
 	METHOD c addExhaustion (F)V
 		ARG 1 exhaustionAmount
 	METHOD c canPlayerEdit (III)Z
@@ -157,11 +135,8 @@ CLASS ga net/minecraft/src/EntityPlayer
 		ARG 5 z
 	METHOD j collideWithPlayer (Lpp;)V
 		ARG 1 entity
-	METHOD l updateEntityActionState ()V
 	METHOD m_ resetHeight ()V
 	METHOD p applyPotionDigSpeedEffects ()I
-	METHOD q_ onUpdate ()V
-	METHOD u getEyeHeight ()F
 	METHOD v isPVPEnabled ()Z
 	METHOD w swingItem ()V
 	METHOD x isInBed ()Z

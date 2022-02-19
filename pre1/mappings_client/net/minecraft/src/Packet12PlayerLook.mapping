@@ -3,6 +3,3 @@ CLASS mz net/minecraft/src/Packet12PlayerLook
 		ARG 1 yaw
 		ARG 2 pitch
 		ARG 3 onGroundFlag
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V

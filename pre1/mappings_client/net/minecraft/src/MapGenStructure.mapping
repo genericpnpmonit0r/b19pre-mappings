@@ -7,8 +7,6 @@ CLASS abg net/minecraft/src/MapGenStructure
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD a generate (Lbh;Ltd;II[B)V
-	METHOD a recursiveGenerate (Ltd;IIII[B)V
 	METHOD a generateStructuresInChunk (Ltd;Ljava/util/Random;II)Z
 		ARG 1 world
 		ARG 2 rand

@@ -16,17 +16,9 @@ CLASS nl net/minecraft/src/EntityEgg
 	METHOD <init> (Ltd;Lxq;)V
 		ARG 1 world
 		ARG 2 living
-	METHOD a isInRangeToRenderDist (D)Z
-	METHOD a setVelocity (DDD)V
 	METHOD a setEggHeading (DDDFF)V
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
 		ARG 7 yaw
 		ARG 8 pitch
-	METHOD a readEntityFromNBT (Lyr;)V
-	METHOD a_ onCollideWithPlayer (Lui;)V
-	METHOD b entityInit ()V
-	METHOD b writeEntityToNBT (Lyr;)V
-	METHOD g_ getShadowSize ()F
-	METHOD w_ onUpdate ()V

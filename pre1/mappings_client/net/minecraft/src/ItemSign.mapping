@@ -1,2 +1,1 @@
 CLASS adm net/minecraft/src/ItemSign
-	METHOD a onItemUse (Lvw;Lui;Ltd;IIII)Z

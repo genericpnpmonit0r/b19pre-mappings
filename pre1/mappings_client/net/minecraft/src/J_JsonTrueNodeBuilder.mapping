@@ -1,2 +1,1 @@
 CLASS acu net/minecraft/src/J_JsonTrueNodeBuilder
-	METHOD b buildNode ()Led;

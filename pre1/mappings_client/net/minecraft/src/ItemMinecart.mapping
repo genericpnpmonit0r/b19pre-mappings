@@ -3,4 +3,3 @@ CLASS abe net/minecraft/src/ItemMinecart
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 type
-	METHOD a onItemUse (Lvw;Lui;Ltd;IIII)Z

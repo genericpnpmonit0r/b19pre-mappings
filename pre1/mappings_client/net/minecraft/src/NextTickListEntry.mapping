@@ -13,7 +13,6 @@ CLASS kh net/minecraft/src/NextTickListEntry
 		ARG 4 id
 	METHOD a setScheduledTime (J)Lkh;
 		ARG 1 time
-	METHOD a comparer (Lkh;)I
 	METHOD compareTo (Ljava/lang/Object;)I
 		ARG 1 nextTickListEntry
 	METHOD equals (Ljava/lang/Object;)Z

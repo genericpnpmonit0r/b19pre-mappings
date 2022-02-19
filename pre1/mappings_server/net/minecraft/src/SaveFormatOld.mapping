@@ -2,8 +2,6 @@ CLASS qn net/minecraft/src/SaveFormatOld
 	FIELD a savesDirectory Ljava/io/File;
 	METHOD <init> (Ljava/io/File;)V
 		ARG 1 file
-	METHOD a isOldSaveType (Ljava/lang/String;)Z
-	METHOD a convertMapFormat (Ljava/lang/String;Luy;)Z
 	METHOD a getSaveLoader (Ljava/lang/String;Z)Ltv;
 		ARG 1 worldName
 		ARG 2 isNew

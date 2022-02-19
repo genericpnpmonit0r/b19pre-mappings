@@ -14,7 +14,3 @@ CLASS oj net/minecraft/src/Packet34EntityTeleport
 		ARG 6 pitch
 	METHOD <init> (Lpp;)V
 		ARG 1 entity
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqf;)V

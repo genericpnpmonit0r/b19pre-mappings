@@ -5,7 +5,6 @@ CLASS qq net/minecraft/src/ComponentVillagePathGen
 		ARG 2 rand
 		ARG 3 boundingBox
 		ARG 4 coordBaseMode
-	METHOD a func_35310_a (Lep;Ljava/util/Random;Lst;)Z
 	METHOD a createValidComponent (Lh;Ljava/util/List;Ljava/util/Random;IIII)Lst;
 		ARG 0 startPiece
 		ARG 1 pieces
@@ -14,4 +13,3 @@ CLASS qq net/minecraft/src/ComponentVillagePathGen
 		ARG 4 y
 		ARG 5 z
 		ARG 6 type
-	METHOD a func_35308_a (Liv;Ljava/util/List;Ljava/util/Random;)V

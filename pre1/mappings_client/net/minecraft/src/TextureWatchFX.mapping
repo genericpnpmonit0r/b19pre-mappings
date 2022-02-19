@@ -6,4 +6,3 @@ CLASS gi net/minecraft/src/TextureWatchFX
 	FIELD e angleDelta D
 	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
 		ARG 1 minecraft
-	METHOD a onTick ()V

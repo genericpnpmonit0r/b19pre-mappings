@@ -4,8 +4,3 @@ CLASS tb net/minecraft/src/BlockPumpkin
 		ARG 1 id
 		ARG 2 texIndex
 		ARG 3 isLit
-	METHOD a getBlockTextureFromSide (I)I
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD a onBlockAdded (Ltd;III)V
-	METHOD a onBlockPlacedBy (Ltd;IIILxq;)V
-	METHOD e canPlaceBlockAt (Ltd;III)Z

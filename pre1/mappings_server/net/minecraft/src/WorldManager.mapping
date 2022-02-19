@@ -4,12 +4,3 @@ CLASS eu net/minecraft/src/WorldManager
 	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lew;)V
 		ARG 1 minecraftServer
 		ARG 2 worldServer
-	METHOD a markBlockNeedsUpdate (III)V
-	METHOD a markBlockRangeNeedsUpdate (IIIIII)V
-	METHOD a doNothingWithTileEntity (IIILms;)V
-	METHOD a playAuxSFX (Lga;IIIII)V
-	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
-	METHOD a playSound (Ljava/lang/String;DDDFF)V
-	METHOD a playRecord (Ljava/lang/String;III)V
-	METHOD a obtainEntitySkin (Lpp;)V
-	METHOD b releaseEntitySkin (Lpp;)V

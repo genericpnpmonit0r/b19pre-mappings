@@ -10,7 +10,3 @@ CLASS fv net/minecraft/src/Packet14BlockDig
 		ARG 3 y
 		ARG 4 z
 		ARG 5 side
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Llt;)V

@@ -7,7 +7,3 @@ CLASS u net/minecraft/src/ContainerPlayer
 	METHOD <init> (Lhy;Z)V
 		ARG 1 inventoryPlayer
 		ARG 2 multiplayer
-	METHOD a getStackInSlot (I)Lhz;
-	METHOD a onCraftGuiClosed (Lga;)V
-	METHOD a onCraftMatrixChanged (Lkd;)V
-	METHOD b canInteractWith (Lga;)Z

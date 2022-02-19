@@ -10,5 +10,3 @@ CLASS ky net/minecraft/src/ModelSpider
 	FIELD l spiderLeg6 Lnv;
 	FIELD m spiderLeg7 Lnv;
 	FIELD n spiderLeg8 Lnv;
-	METHOD a setRotationAngles (FFFFFF)V
-	METHOD a render (Lle;FFFFFF)V

@@ -5,5 +5,3 @@ CLASS aga net/minecraft/src/SlotCrafting
 		ARG 1 player
 		ARG 2 craftingGrid
 		ARG 3 inventory
-	METHOD a onPickupFromSlot (Lvw;)V
-	METHOD b isItemValid (Lvw;)Z

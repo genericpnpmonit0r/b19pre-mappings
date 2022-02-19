@@ -8,8 +8,3 @@ CLASS cj net/minecraft/src/ItemTool
 		ARG 2 dmgVsEntity
 		ARG 3 toolMaterial
 		ARG 4 blocksEffectiveAgainstArr
-	METHOD a isFull3D ()Z
-	METHOD a getDamageVsEntity (Lle;)I
-	METHOD a onBlockDestroyed (Lvw;IIIILxq;)Z
-	METHOD a getStrVsBlock (Lvw;Lmn;)F
-	METHOD a hitEntity (Lvw;Lxq;Lxq;)Z

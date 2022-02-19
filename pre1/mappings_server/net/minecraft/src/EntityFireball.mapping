@@ -16,12 +16,5 @@ CLASS by net/minecraft/src/EntityFireball
 		ARG 3 x
 		ARG 5 y
 		ARG 7 z
-	METHOD a readEntityFromNBT (Lls;)V
-	METHOD a attackEntityFrom (Lns;I)Z
 	METHOD a collideOn (Lrz;)V
 		ARG 1 movingObjectPos
-	METHOD b entityInit ()V
-	METHOD b getEntityBrightness (F)F
-	METHOD b writeEntityToNBT (Lls;)V
-	METHOD c_ canBeCollidedWith ()Z
-	METHOD q_ onUpdate ()V

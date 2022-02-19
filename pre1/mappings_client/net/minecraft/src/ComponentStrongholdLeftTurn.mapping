@@ -5,7 +5,6 @@ CLASS lv net/minecraft/src/ComponentStrongholdLeftTurn
 		ARG 2 rand
 		ARG 3 boundingBox
 		ARG 4 coordBaseMode
-	METHOD a buildComponent (Lfw;Ljava/util/List;Ljava/util/Random;)V
 	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIIII)Llv;
 		ARG 0 list
 		ARG 1 rand
@@ -14,4 +13,3 @@ CLASS lv net/minecraft/src/ComponentStrongholdLeftTurn
 		ARG 4 z
 		ARG 5 i
 		ARG 6 type
-	METHOD a addComponentParts (Ltd;Ljava/util/Random;Lno;)Z

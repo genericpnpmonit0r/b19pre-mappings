@@ -15,7 +15,6 @@ CLASS hm net/minecraft/src/WorldGenBigTree
 	FIELD n leafDistanceLimit I
 	FIELD o leafNodes [[I
 	METHOD a generateLeafNodeList ()V
-	METHOD a func_420_a (DDD)V
 	METHOD a layerSize (I)F
 		ARG 1 size
 	METHOD a generateLeafNode (III)V
@@ -29,7 +28,6 @@ CLASS hm net/minecraft/src/WorldGenBigTree
 		ARG 4 randChance
 		ARG 5 coordPairs
 		ARG 6 id
-	METHOD a generate (Lep;Ljava/util/Random;III)Z
 	METHOD a checkBlockLine ([I[I)I
 		ARG 1 blockLine1
 		ARG 2 blockLine2

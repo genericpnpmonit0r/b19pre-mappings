@@ -10,7 +10,3 @@ CLASS ix net/minecraft/src/Packet17Sleep
 		ARG 3 x
 		ARG 4 y
 		ARG 5 z
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqf;)V

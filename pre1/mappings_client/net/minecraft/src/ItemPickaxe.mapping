@@ -3,4 +3,3 @@ CLASS am net/minecraft/src/ItemPickaxe
 	METHOD <init> (ILra;)V
 		ARG 1 id
 		ARG 2 toolMaterial
-	METHOD a canHarvestBlock (Lmn;)Z

@@ -4,6 +4,3 @@ CLASS su net/minecraft/src/EntityPickupFX
 	FIELD a field_675_a Lle;
 	FIELD ay field_679_o Lle;
 	FIELD az age I
-	METHOD a renderParticle (Lyu;FFFFFF)V
-	METHOD m getFXLayer ()I
-	METHOD w_ onUpdate ()V

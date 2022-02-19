@@ -5,4 +5,3 @@ CLASS im net/minecraft/src/BlockBreakable
 		ARG 2 texIndex
 		ARG 3 material
 		ARG 4 flg
-	METHOD a isOpaqueCube ()Z

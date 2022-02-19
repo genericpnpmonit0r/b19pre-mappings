@@ -7,5 +7,3 @@ CLASS lw net/minecraft/src/TileEntityNote
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD a readFromNBT (Lyr;)V
-	METHOD b writeToNBT (Lyr;)V

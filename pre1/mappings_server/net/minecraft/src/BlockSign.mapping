@@ -5,10 +5,3 @@ CLASS rc net/minecraft/src/BlockSign
 		ARG 1 id
 		ARG 2 signEntityClass
 		ARG 3 isFreestanding
-	METHOD a isOpaqueCube ()Z
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a onNeighborBlockChange (Lep;IIII)V
-	METHOD a setBlockBoundsBasedOnState (Lun;III)V
-	METHOD a_ getBlockEntity ()Lms;
-	METHOD b isACube ()Z
-	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;

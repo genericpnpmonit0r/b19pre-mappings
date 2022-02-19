@@ -5,4 +5,3 @@ CLASS qm net/minecraft/src/TextureCompassFX
 	FIELD d angleDelta D
 	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
 		ARG 1 minecraft
-	METHOD a onTick ()V

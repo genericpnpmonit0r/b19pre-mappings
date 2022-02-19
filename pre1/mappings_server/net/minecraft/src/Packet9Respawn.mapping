@@ -10,7 +10,3 @@ CLASS mu net/minecraft/src/Packet9Respawn
 		ARG 3 seed
 		ARG 5 worldHeight
 		ARG 6 gamemode
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqf;)V

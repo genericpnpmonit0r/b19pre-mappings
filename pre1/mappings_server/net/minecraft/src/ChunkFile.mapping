@@ -5,7 +5,6 @@ CLASS do net/minecraft/src/ChunkFile
 	METHOD <init> (Ljava/io/File;)V
 		ARG 1 file
 	METHOD a getChunkFile ()Ljava/io/File;
-	METHOD a compareChunks (Ldo;)I
 	METHOD b getXChunk ()I
 	METHOD c getYChunk ()I
 	METHOD compareTo (Ljava/lang/Object;)I

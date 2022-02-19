@@ -1,14 +1,5 @@
 CLASS gd net/minecraft/src/EntityMob
 	FIELD c attackStrength I
-	METHOD a getBlockPathWeight (III)F
-	METHOD a readEntityFromNBT (Lls;)V
-	METHOD a attackEntityFrom (Lns;I)Z
-	METHOD a attackEntity (Lpp;F)V
-	METHOD b writeEntityToNBT (Lls;)V
-	METHOD c onLivingUpdate ()V
 	METHOD c attackEntityAsMob (Lpp;)Z
 		ARG 1 entity
-	METHOD i getCanSpawnHere ()Z
-	METHOD p findPlayerToAttack ()Lpp;
-	METHOD q_ onUpdate ()V
 	METHOD w getOnFire ()Z

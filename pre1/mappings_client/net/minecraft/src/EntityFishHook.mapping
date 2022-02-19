@@ -27,18 +27,10 @@ CLASS xt net/minecraft/src/EntityFishHook
 	METHOD <init> (Ltd;Lui;)V
 		ARG 1 world
 		ARG 2 player
-	METHOD a isInRangeToRenderDist (D)Z
-	METHOD a setVelocity (DDD)V
 	METHOD a calculateVelocity (DDDFF)V
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
 		ARG 7 yaw
 		ARG 8 pitch
-	METHOD a setPositionAndRotation2 (DDDFFI)V
-	METHOD a readEntityFromNBT (Lyr;)V
-	METHOD b entityInit ()V
-	METHOD b writeEntityToNBT (Lyr;)V
-	METHOD g_ getShadowSize ()F
 	METHOD m catchFish ()I
-	METHOD w_ onUpdate ()V

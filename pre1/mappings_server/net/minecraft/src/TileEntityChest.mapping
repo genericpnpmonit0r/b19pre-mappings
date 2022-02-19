@@ -9,19 +9,4 @@ CLASS iq net/minecraft/src/TileEntityChest
 	FIELD h numUsingPlayers I
 	FIELD p chestContents [Lhz;
 	FIELD q ticksSinceSync I
-	METHOD a getSizeInventory ()I
-	METHOD a decrStackSize (II)Lhz;
-	METHOD a setInventorySlotContents (ILhz;)V
-	METHOD a canInteractWith (Lga;)Z
-	METHOD a readFromNBT (Lls;)V
-	METHOD b func_35163_b (II)V
-	METHOD b writeToNBT (Lls;)V
-	METHOD b_ getStackInSlot (I)Lhz;
-	METHOD c getInvName ()Ljava/lang/String;
-	METHOD d getInventoryStackLimit ()I
-	METHOD e func_35161_e ()V
-	METHOD g func_35164_g ()V
 	METHOD h chekcAdjacentChests ()V
-	METHOD h_ updateEntity ()V
-	METHOD i invalidate ()V
-	METHOD r_ func_35162_t_ ()V

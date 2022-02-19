@@ -1,3 +1,2 @@
 CLASS uf net/minecraft/src/RenderFallingSand
 	FIELD a blockRenderer Lru;
-	METHOD a doRender (Lle;DDDFF)V

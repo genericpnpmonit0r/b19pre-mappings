@@ -1,5 +1,4 @@
 CLASS eo net/minecraft/src/SaveConverterMcRegion
-	METHOD a func_22178_a ()Ljava/lang/String;
 	METHOD a setConversionProgressRegionFileReferences (Ljava/io/File;Ljava/util/ArrayList;IILoz;)V
 		ARG 1 file
 		ARG 2 chunks
@@ -10,13 +9,8 @@ CLASS eo net/minecraft/src/SaveConverterMcRegion
 		ARG 1 file
 		ARG 2 oldFiles
 		ARG 3 newFiles
-	METHOD a isOldMapFormat (Ljava/lang/String;)Z
-	METHOD a convertMapFormat (Ljava/lang/String;Loz;)Z
-	METHOD a getSaveLoader (Ljava/lang/String;Z)Laen;
 	METHOD a setProgressClearOldFiles (Ljava/util/ArrayList;IILoz;)V
 		ARG 1 files
 		ARG 2 count
 		ARG 3 progressCount
 		ARG 4 progressUpdate
-	METHOD b getSaveList ()Ljava/util/List;
-	METHOD c flushCache ()V

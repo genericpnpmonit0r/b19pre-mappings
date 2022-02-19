@@ -2,5 +2,3 @@ CLASS pf net/minecraft/src/TileEntitySign
 	FIELD a signText [Ljava/lang/String;
 	FIELD b lineBeingEdited I
 	FIELD c isEditable Z
-	METHOD a readFromNBT (Lyr;)V
-	METHOD b writeToNBT (Lyr;)V

@@ -12,7 +12,3 @@ CLASS aav net/minecraft/src/Packet102WindowClick
 		ARG 4 shiftFlag
 		ARG 5 itemStack
 		ARG 6 act
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Llt;)V

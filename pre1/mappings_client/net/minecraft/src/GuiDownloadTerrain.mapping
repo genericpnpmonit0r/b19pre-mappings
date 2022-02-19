@@ -3,8 +3,3 @@ CLASS ea net/minecraft/src/GuiDownloadTerrain
 	FIELD b updateCounter I
 	METHOD <init> (Lyh;)V
 		ARG 1 netClientHandler
-	METHOD a initGui ()V
-	METHOD a keyTyped (CI)V
-	METHOD a drawScreen (IIF)V
-	METHOD a actionPerformed (Lwv;)V
-	METHOD p_ updateScreen ()V

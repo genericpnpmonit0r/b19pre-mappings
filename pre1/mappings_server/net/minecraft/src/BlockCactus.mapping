@@ -2,12 +2,3 @@ CLASS ml net/minecraft/src/BlockCactus
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 texIndex
-	METHOD a isOpaqueCube ()Z
-	METHOD a getBlockTextureFromSide (I)I
-	METHOD a onNeighborBlockChange (Lep;IIII)V
-	METHOD a updateTick (Lep;IIILjava/util/Random;)V
-	METHOD a onEntityCollidedWithBlock (Lep;IIILpp;)V
-	METHOD b isACube ()Z
-	METHOD c canPlaceBlockAt (Lep;III)Z
-	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;
-	METHOD f canBlockStay (Lep;III)Z

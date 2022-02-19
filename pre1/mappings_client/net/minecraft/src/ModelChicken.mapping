@@ -7,5 +7,3 @@ CLASS acb net/minecraft/src/ModelChicken
 	FIELD f leftWing Lnv;
 	FIELD g bill Lnv;
 	FIELD k chin Lnv;
-	METHOD a setRotationAngles (FFFFFF)V
-	METHOD a render (Lle;FFFFFF)V

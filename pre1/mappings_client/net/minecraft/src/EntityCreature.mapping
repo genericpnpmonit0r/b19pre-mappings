@@ -16,8 +16,5 @@ CLASS vj net/minecraft/src/EntityCreature
 	METHOD ad hasPath ()Z
 	METHOD af getEntityToAttack ()Lle;
 	METHOD b attackBlockedEntity (Lle;F)V
-	METHOD h getCanSpawnHere ()Z
 	METHOD h setEntityToAttack (Lle;)V
 	METHOD l findPlayerToAttack ()Lle;
-	METHOD l_ updateEntityActionState ()V
-	METHOD s_ func_35166_t_ ()F

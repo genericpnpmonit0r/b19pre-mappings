@@ -7,9 +7,3 @@ CLASS ir net/minecraft/src/EntityFallingSand
 		ARG 4 y
 		ARG 6 z
 		ARG 8 id
-	METHOD a readEntityFromNBT (Lls;)V
-	METHOD b entityInit ()V
-	METHOD b writeEntityToNBT (Lls;)V
-	METHOD c_ canBeCollidedWith ()Z
-	METHOD e_ canTriggerWalking ()Z
-	METHOD q_ onUpdate ()V

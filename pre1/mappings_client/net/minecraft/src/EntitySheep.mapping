@@ -2,18 +2,9 @@ CLASS cd net/minecraft/src/EntitySheep
 	FIELD a fleeceColorTable [[F
 	METHOD a getRandomFleeceColor (Ljava/util/Random;)I
 		ARG 0 rand
-	METHOD a readEntityFromNBT (Lyr;)V
-	METHOD a dropFewItems (Z)V
-	METHOD b entityInit ()V
 	METHOD b setFleeceColor (I)V
 		ARG 1 color
-	METHOD b interact (Lui;)Z
-	METHOD b writeEntityToNBT (Lyr;)V
 	METHOD b setSheared (Z)V
 		ARG 1 sheared
-	METHOD d getLivingSound ()Ljava/lang/String;
-	METHOD e getHurtSound ()Ljava/lang/String;
-	METHOD f getDeathSound ()Ljava/lang/String;
-	METHOD g getDropItemId ()I
 	METHOD o getFleeceColor ()I
 	METHOD p getSheared ()Z

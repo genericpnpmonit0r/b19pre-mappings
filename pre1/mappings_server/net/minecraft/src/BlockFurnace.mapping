@@ -5,19 +5,12 @@ CLASS pz net/minecraft/src/BlockFurnace
 	METHOD <init> (IZ)V
 		ARG 1 id
 		ARG 2 active
-	METHOD a getBlockTextureFromSide (I)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a onBlockAdded (Lep;III)V
-	METHOD a blockActivated (Lep;IIILga;)Z
-	METHOD a onBlockPlacedBy (Lep;IIILjz;)V
 	METHOD a updateFurnaceBlockState (ZLep;III)V
 		ARG 0 active
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD a_ getBlockEntity ()Lms;
-	METHOD d onBlockRemoval (Lep;III)V
 	METHOD g setDefaultDirection (Lep;III)V
 		ARG 1 world
 		ARG 2 x

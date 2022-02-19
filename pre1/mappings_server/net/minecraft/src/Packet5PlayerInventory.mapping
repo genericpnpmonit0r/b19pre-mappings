@@ -7,7 +7,3 @@ CLASS o net/minecraft/src/Packet5PlayerInventory
 		ARG 1 id
 		ARG 2 slot
 		ARG 3 itemStack
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqf;)V

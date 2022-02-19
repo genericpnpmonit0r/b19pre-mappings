@@ -1,13 +1,1 @@
 CLASS ce net/minecraft/src/EntitySpider
-	METHOD a readEntityFromNBT (Lls;)V
-	METHOD a attackEntity (Lpp;F)V
-	METHOD b writeEntityToNBT (Lls;)V
-	METHOD b_ getDeathSound ()Ljava/lang/String;
-	METHOD d getLivingSound ()Ljava/lang/String;
-	METHOD e getHurtSound ()Ljava/lang/String;
-	METHOD e_ canTriggerWalking ()Z
-	METHOD g getDropItemId ()I
-	METHOD o getMountedYOffset ()D
-	METHOD p findPlayerToAttack ()Lpp;
-	METHOD q isOnLadder ()Z
-	METHOD r func_35147_q ()V

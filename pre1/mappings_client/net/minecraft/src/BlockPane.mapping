@@ -5,13 +5,6 @@ CLASS aeo net/minecraft/src/BlockPane
 		ARG 2 texIndex
 		ARG 3 type
 		ARG 4 material
-	METHOD a isOpaqueCube ()Z
-	METHOD a setBlockBoundsBasedOnState (Lafd;III)V
-	METHOD a shouldSideBeRendered (Lafd;IIII)Z
-	METHOD a getCollidingBoundingBoxes (Ltd;IIILsw;Ljava/util/ArrayList;)V
-	METHOD b renderAsNormalBlock ()Z
-	METHOD d getRenderType ()I
 	METHOD d canThisPaneConnectToThisBlockID (I)Z
 		ARG 1 id
-	METHOD h setBlockBoundsForItemRender ()V
 	METHOD s getPaneType ()I

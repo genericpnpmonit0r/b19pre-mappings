@@ -2,17 +2,6 @@ CLASS nd net/minecraft/src/BlockTorch
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 texIndex
-	METHOD a isOpaqueCube ()Z
-	METHOD a onBlockAdded (Ltd;III)V
-	METHOD a onNeighborBlockChange (Ltd;IIII)V
-	METHOD a collisionRayTrace (Ltd;IIILba;Lba;)Lmv;
-	METHOD a updateTick (Ltd;IIILjava/util/Random;)V
-	METHOD b renderAsNormalBlock ()Z
-	METHOD b randomDisplayTick (Ltd;IIILjava/util/Random;)V
-	METHOD c getCollisionBoundingBoxFromPool (Ltd;III)Lsw;
-	METHOD c onBlockPlaced (Ltd;IIII)V
-	METHOD d getRenderType ()I
-	METHOD e canPlaceBlockAt (Ltd;III)Z
 	METHOD h canPlaceTorchOn (Ltd;III)Z
 		ARG 1 world
 		ARG 2 x

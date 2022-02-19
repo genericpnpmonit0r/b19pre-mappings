@@ -1,6 +1,2 @@
 CLASS gy net/minecraft/src/Packet16BlockItemSwitch
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqf;)V
 	FIELD a id I

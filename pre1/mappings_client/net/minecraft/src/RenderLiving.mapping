@@ -6,7 +6,6 @@ CLASS ee net/minecraft/src/RenderLiving
 		ARG 2 shadowSize
 	METHOD a setRenderPassModel (Lge;)V
 		ARG 1 renderPassModel
-	METHOD a doRender (Lle;DDDFF)V
 	METHOD a getDeathMaxRotation (Lxq;)F
 		ARG 1 living
 	METHOD a renderLivingAt (Lxq;DDD)V
@@ -14,7 +13,6 @@ CLASS ee net/minecraft/src/RenderLiving
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
-	METHOD a doRenderLiving (Lxq;DDDFF)V
 	METHOD a preRenderCallback (Lxq;F)V
 		ARG 1 player
 	METHOD a getColorMultiplier (Lxq;FF)I

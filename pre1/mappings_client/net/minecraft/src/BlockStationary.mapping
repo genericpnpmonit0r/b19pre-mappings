@@ -1,6 +1,4 @@
 CLASS yt net/minecraft/src/BlockStationary
-	METHOD a onNeighborBlockChange (Ltd;IIII)V
-	METHOD a updateTick (Ltd;IIILjava/util/Random;)V
 	METHOD j updateBlockMeta (Ltd;III)V
 		ARG 1 world
 		ARG 2 x

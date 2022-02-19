@@ -1,6 +1,1 @@
 CLASS oe net/minecraft/src/ItemBow
-	METHOD a onItemRightClick (Lhz;Lep;Lga;)Lhz;
-	METHOD a func_35408_a (Lhz;Lep;Lga;I)V
-	METHOD b func_35406_b (Lhz;)Lic;
-	METHOD b func_35405_b (Lhz;Lep;Lga;)Lhz;
-	METHOD c func_35404_c (Lhz;)I

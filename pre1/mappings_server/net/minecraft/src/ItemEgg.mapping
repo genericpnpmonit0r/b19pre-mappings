@@ -1,2 +1,1 @@
 CLASS kn net/minecraft/src/ItemEgg
-	METHOD a onItemRightClick (Lhz;Lep;Lga;)Lhz;

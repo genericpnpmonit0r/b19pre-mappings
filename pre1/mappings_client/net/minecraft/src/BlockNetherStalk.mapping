@@ -1,10 +1,3 @@
 CLASS ou net/minecraft/src/BlockNetherStalk
 	METHOD <init> (I)V
 		ARG 1 id
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD a dropBlockAsItemWithChance (Ltd;IIIIF)V
-	METHOD a updateTick (Ltd;IIILjava/util/Random;)V
-	METHOD b_ canThisPlantGrowOnThisBlockID (I)Z
-	METHOD d getRenderType ()I

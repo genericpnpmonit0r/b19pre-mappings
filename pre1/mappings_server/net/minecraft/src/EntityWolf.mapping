@@ -7,32 +7,11 @@ CLASS fw net/minecraft/src/EntityWolf
 	FIELD i timeWolfIsShaking F
 	FIELD j prevTimeWolfIsShaking F
 	METHOD a setOwner (Ljava/lang/String;)V
-	METHOD a readEntityFromNBT (Lls;)V
-	METHOD a attackEntityFrom (Lns;I)Z
-	METHOD a attackEntity (Lpp;F)V
-	METHOD b entityInit ()V
-	METHOD b interact (Lga;)Z
-	METHOD b writeEntityToNBT (Lls;)V
 	METHOD b isNowTamed (Z)V
-	METHOD b_ getDeathSound ()Ljava/lang/String;
-	METHOD c onLivingUpdate ()V
 	METHOD c setPathEntity (Lpp;F)V
 	METHOD c setIsSitting (Z)V
-	METHOD d getLivingSound ()Ljava/lang/String;
 	METHOD d setIsAngry (Z)V
-	METHOD e getHurtSound ()Ljava/lang/String;
 	METHOD e setIsTamed (Z)V
-	METHOD e_ canTriggerWalking ()Z
-	METHOD g getDropItemId ()I
-	METHOD k canDespawn ()Z
-	METHOD l updateEntityActionState ()V
-	METHOD m getSoundVolume ()F
-	METHOD n getMaxSpawnedInChunk ()I
-	METHOD p findPlayerToAttack ()Lpp;
-	METHOD q_ onUpdate ()V
-	METHOD t getVerticalFaceSpeed ()I
-	METHOD u getEyeHeight ()F
-	METHOD v isMovementCeased ()Z
 	METHOD w getOwner ()Ljava/lang/String;
 	METHOD x getIsSitting ()Z
 	METHOD y getIsAngry ()Z

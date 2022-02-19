@@ -2,7 +2,3 @@ CLASS cz net/minecraft/src/Packet8UpdateHealth
 	FIELD a healthMP I
 	FIELD b food I
 	FIELD c foodSaturation F
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Llt;)V

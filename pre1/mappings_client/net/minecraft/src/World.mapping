@@ -74,7 +74,6 @@ CLASS td net/minecraft/src/World
 	METHOD E saveLevel ()V
 	METHOD F calculateInitialWeather ()V
 	METHOD G stopPrecipitation ()V
-	METHOD a getWorldChunkManager ()Lov;
 	METHOD a getClosestPlayer (DDDD)Lui;
 		ARG 1 x
 		ARG 3 y
@@ -92,8 +91,6 @@ CLASS td net/minecraft/src/World
 	METHOD a getFirstUncoveredBlock (II)I
 		ARG 1 x
 		ARG 2 z
-	METHOD a getBlockId (III)I
-	METHOD a getBrightness (IIII)F
 	METHOD a scheduleBlockUpdate (IIIII)V
 		ARG 1 x
 		ARG 2 y
@@ -293,14 +290,11 @@ CLASS td net/minecraft/src/World
 	METHOD a setAllowedMobSpawns (ZZ)V
 		ARG 1 hostileMobs
 		ARG 2 peacefulMobs
-	METHOD b func_35452_b ()I
 	METHOD b calculateWeatherStrength (F)F
 		ARG 1 value
 	METHOD b getChunkFromBlockCoords (II)Lxl;
 		ARG 1 x
 		ARG 2 z
-	METHOD b getBlockTileEntity (III)Ljb;
-	METHOD b getLightBrightnessForSkyBlocks (IIII)I
 	METHOD b setBlockAndMetadata (IIIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -355,7 +349,6 @@ CLASS td net/minecraft/src/World
 	METHOD c getChunkFromChunkCoords (II)Lxl;
 		ARG 1 x
 		ARG 2 z
-	METHOD c getLightBrightness (III)F
 	METHOD c setBlockMetadata (IIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -413,7 +406,6 @@ CLASS td net/minecraft/src/World
 	METHOD e lightningFlashCheck (II)I
 		ARG 1 x
 		ARG 2 z
-	METHOD e getBlockMetadata (III)I
 	METHOD e doChunksNearChunkExist (IIII)Z
 		ARG 1 x
 		ARG 2 z
@@ -433,7 +425,6 @@ CLASS td net/minecraft/src/World
 	METHOD f getTopSolidOrLiquidBlock (II)I
 		ARG 1 x
 		ARG 2 z
-	METHOD f getBlockMaterial (III)Lxn;
 	METHOD f setBlockMetadataWithNotify (IIII)V
 		ARG 1 x
 		ARG 2 y
@@ -453,7 +444,6 @@ CLASS td net/minecraft/src/World
 	METHOD g chunkExists (II)Z
 		ARG 1 x
 		ARG 2 z
-	METHOD g isBlockOpaqueCube (III)Z
 	METHOD g setBlockWithNotify (IIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -464,7 +454,6 @@ CLASS td net/minecraft/src/World
 	METHOD h updateWeather ()V
 	METHOD h getWeightedThunderStrength (F)F
 		ARG 1 thunderStrength
-	METHOD h isBlockNormalCube (III)Z
 	METHOD h notifyBlockChange (IIII)V
 		ARG 1 x
 		ARG 2 y
@@ -473,7 +462,6 @@ CLASS td net/minecraft/src/World
 	METHOD i getInitialSpawnLocation ()V
 	METHOD i getRainStrength (F)F
 		ARG 1 rainStrength
-	METHOD i isAirBlock (III)Z
 	METHOD i markBlocksDirtyVertical (IIII)V
 		ARG 1 x
 		ARG 2 y

@@ -22,11 +22,6 @@ CLASS afz net/minecraft/src/ItemFood
 		ARG 2 duration
 		ARG 3 amplifier
 		ARG 4 probability
-	METHOD a setItemName (Ljava/lang/String;)Lue;
-	METHOD a onItemRightClick (Lvw;Ltd;Lui;)Lvw;
-	METHOD b getItemUseAction (Lvw;)Lvy;
-	METHOD b onFoodEaten (Lvw;Ltd;Lui;)Lvw;
-	METHOD c getMaxItemUseDuration (Lvw;)I
 	METHOD l getHealAmount ()I
 	METHOD m getSaturationModifier ()F
 	METHOD n getIsWolfsFavoriteMeat ()Z

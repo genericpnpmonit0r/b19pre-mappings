@@ -1,2 +1,1 @@
 CLASS fi net/minecraft/src/WorldGenCactus
-	METHOD a generate (Lep;Ljava/util/Random;III)Z

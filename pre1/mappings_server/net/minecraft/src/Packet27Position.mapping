@@ -5,10 +5,6 @@ CLASS nq net/minecraft/src/Packet27Position
 	FIELD d isInJump Z
 	FIELD e pitchRotation F
 	FIELD f yawRotation F
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqf;)V
 	METHOD c getStrafeMovement ()F
 	METHOD d getPitchRotation ()F
 	METHOD e getForwardMovement ()F

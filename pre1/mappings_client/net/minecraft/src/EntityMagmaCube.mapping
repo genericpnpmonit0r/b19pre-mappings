@@ -1,19 +1,1 @@
 CLASS acm net/minecraft/src/EntityMagmaCube
-	METHOD M isBurning ()Z
-	METHOD T func_40135_ac ()Ljava/lang/String;
-	METHOD V func_40132_ae ()Ladg;
-	METHOD W func_40131_af ()I
-	METHOD X func_40136_ag ()V
-	METHOD Y func_40137_ah ()Z
-	METHOD Z func_40130_ai ()I
-	METHOD a fall (F)V
-	METHOD aa func_40138_aj ()Ljava/lang/String;
-	METHOD ai func_40119_ar ()I
-	METHOD ar jump ()V
-	METHOD b getEntityBrightness (F)F
-	METHOD c getEntityBrightnessForRender (F)I
-	METHOD e getHurtSound ()Ljava/lang/String;
-	METHOD f getDeathSound ()Ljava/lang/String;
-	METHOD g getDropItemId ()I
-	METHOD h getCanSpawnHere ()Z
-	METHOD x func_40047_D ()Z

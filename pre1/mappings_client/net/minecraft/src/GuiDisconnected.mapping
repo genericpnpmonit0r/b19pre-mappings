@@ -5,8 +5,3 @@ CLASS dd net/minecraft/src/GuiDisconnected
 		ARG 1 errorDetail1
 		ARG 2 errorDetail2
 		ARG 3 errorObj
-	METHOD a initGui ()V
-	METHOD a keyTyped (CI)V
-	METHOD a drawScreen (IIF)V
-	METHOD a actionPerformed (Lwv;)V
-	METHOD p_ updateScreen ()V

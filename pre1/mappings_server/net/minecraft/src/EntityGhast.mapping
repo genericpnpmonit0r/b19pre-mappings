@@ -1,16 +1,4 @@
 CLASS bk net/minecraft/src/EntityGhast
-	METHOD a isCourseTraversable (DDDD)Z
-	METHOD a dropFewItems (Z)V
-	METHOD b entityInit ()V
-	METHOD b_ getDeathSound ()Ljava/lang/String;
-	METHOD d getLivingSound ()Ljava/lang/String;
-	METHOD e getHurtSound ()Ljava/lang/String;
-	METHOD g getDropItemId ()I
-	METHOD i getCanSpawnHere ()Z
-	METHOD l updateEntityActionState ()V
-	METHOD m getSoundVolume ()F
-	METHOD n getMaxSpawnedInChunk ()I
-	METHOD q_ onUpdate ()V
 	FIELD a courseChangeCooldown I
 	FIELD b waypointX D
 	FIELD c waypointY D
@@ -19,3 +7,4 @@ CLASS bk net/minecraft/src/EntityGhast
 	FIELD f attackCounter I
 	FIELD g targetedEntity Lpp;
 	FIELD h aggroCooldown I
+	METHOD a isCourseTraversable (DDDD)Z

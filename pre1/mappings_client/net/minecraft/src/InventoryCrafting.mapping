@@ -6,16 +6,6 @@ CLASS ya net/minecraft/src/InventoryCrafting
 		ARG 1 container
 		ARG 2 width
 		ARG 3 height
-	METHOD a getSizeInventory ()I
-	METHOD a decrStackSize (II)Lvw;
-	METHOD a setInventorySlotContents (ILvw;)V
-	METHOD a isUseableByPlayer (Lui;)Z
 	METHOD b getStackInRowAndColumn (II)Lvw;
 		ARG 1 row
 		ARG 2 col
-	METHOD c getInvName ()Ljava/lang/String;
-	METHOD d getInventoryStackLimit ()I
-	METHOD e openChest ()V
-	METHOD e_ getStackInSlot (I)Lvw;
-	METHOD f closeChest ()V
-	METHOD l onInventoryChanged ()V

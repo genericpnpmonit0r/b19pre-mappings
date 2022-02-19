@@ -1,4 +1,3 @@
 CLASS dc net/minecraft/src/GenLayerTemperatureMix
-	METHOD a func_35018_a (IIII)[I
 	FIELD b field_35027_b Ldu;
 	FIELD c field_35028_c I

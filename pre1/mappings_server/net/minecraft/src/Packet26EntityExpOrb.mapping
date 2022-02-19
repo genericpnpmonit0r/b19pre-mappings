@@ -6,7 +6,3 @@ CLASS nc net/minecraft/src/Packet26EntityExpOrb
 	FIELD e xpValue I
 	METHOD <init> (Lcb;)V
 		ARG 1 xpOrb
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqf;)V

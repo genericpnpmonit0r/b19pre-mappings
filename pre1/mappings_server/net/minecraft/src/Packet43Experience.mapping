@@ -6,7 +6,3 @@ CLASS js net/minecraft/src/Packet43Experience
 		ARG 1 xpValue
 		ARG 2 xpTotal
 		ARG 3 xpLevel
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqf;)V

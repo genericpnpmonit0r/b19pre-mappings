@@ -1,3 +1,1 @@
 CLASS cs net/minecraft/src/ModelPig
-	METHOD a setRotationAngles (FFFFFF)V
-	METHOD a render (Lle;FFFFFF)V

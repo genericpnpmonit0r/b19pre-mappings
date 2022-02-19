@@ -1,3 +1,1 @@
 CLASS yd net/minecraft/src/SaveOldDir
-	METHOD a getChunkLoader (Laew;)Lqq;
-	METHOD a saveWorldInfoAndPlayer (Lss;Ljava/util/List;)V

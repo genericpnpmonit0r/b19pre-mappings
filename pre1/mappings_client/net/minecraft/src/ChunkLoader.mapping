@@ -4,12 +4,9 @@ CLASS lx net/minecraft/src/ChunkLoader
 	METHOD <init> (Ljava/io/File;Z)V
 		ARG 1 file
 		ARG 2 createIfNecessaryFlag
-	METHOD a func_814_a ()V
 	METHOD a chunkFileForXZ (II)Ljava/io/File;
 		ARG 1 x
 		ARG 2 z
-	METHOD a loadChunk (Ltd;II)Lxl;
-	METHOD a saveChunk (Ltd;Lxl;)V
 	METHOD a loadChunkIntoWorldFromCompound (Ltd;Lyr;)Lxl;
 		ARG 0 world
 		ARG 1 compoundTag
@@ -17,5 +14,3 @@ CLASS lx net/minecraft/src/ChunkLoader
 		ARG 0 chunk
 		ARG 1 world
 		ARG 2 compoundTag
-	METHOD b saveExtraData ()V
-	METHOD b saveExtraChunkData (Ltd;Lxl;)V

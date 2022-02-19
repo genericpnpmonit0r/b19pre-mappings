@@ -1,5 +1,3 @@
 CLASS xm net/minecraft/src/ModelGhast
 	FIELD a body Lnv;
 	FIELD b tentacles [Lnv;
-	METHOD a setRotationAngles (FFFFFF)V
-	METHOD a render (Lle;FFFFFF)V

@@ -3,15 +3,5 @@ CLASS i net/minecraft/src/BlockPistonExtension
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 texIndex
-	METHOD a isOpaqueCube ()Z
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD a onNeighborBlockChange (Lep;IIII)V
-	METHOD a getCollidingBoundingBoxes (Lep;IIILed;Ljava/util/ArrayList;)V
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD a setBlockBoundsBasedOnState (Lun;III)V
-	METHOD b isACube ()Z
 	METHOD b getState (I)I
 		ARG 0 meta
-	METHOD b canPlaceBlockOnSide (Lep;IIII)Z
-	METHOD c canPlaceBlockAt (Lep;III)Z
-	METHOD d onBlockRemoval (Lep;III)V

@@ -4,4 +4,3 @@ CLASS dm net/minecraft/src/WorldGenMinable
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 count
-	METHOD a generate (Ltd;Ljava/util/Random;III)Z

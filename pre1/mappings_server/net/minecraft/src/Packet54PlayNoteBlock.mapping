@@ -10,7 +10,3 @@ CLASS su net/minecraft/src/Packet54PlayNoteBlock
 		ARG 3 z
 		ARG 4 type
 		ARG 5 pitch
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqf;)V

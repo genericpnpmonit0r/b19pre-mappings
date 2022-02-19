@@ -1,18 +1,12 @@
 CLASS mm net/minecraft/src/BlockPistonMoving
 	METHOD <init> (I)V
 		ARG 1 id
-	METHOD a isOpaqueCube ()Z
 	METHOD a getNewTileEntity (IIIZZ)Ljb;
 		ARG 0 x
 		ARG 1 y
 		ARG 2 z
 		ARG 3 flag1
 		ARG 4 flag2
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a setBlockBoundsBasedOnState (Lafd;III)V
-	METHOD a onBlockAdded (Ltd;III)V
-	METHOD a onNeighborBlockChange (Ltd;IIII)V
-	METHOD a dropBlockAsItemWithChance (Ltd;IIIIF)V
 	METHOD a getBoundingBox (Ltd;IIIIFI)Lsw;
 		ARG 1 world
 		ARG 2 x
@@ -21,16 +15,8 @@ CLASS mm net/minecraft/src/BlockPistonMoving
 		ARG 5 id
 		ARG 6 offset
 		ARG 7 side
-	METHOD b renderAsNormalBlock ()Z
-	METHOD b blockActivated (Ltd;IIILui;)Z
-	METHOD b_ onBlockRemoval (Ltd;III)V
-	METHOD c getCollisionBoundingBoxFromPool (Ltd;III)Lsw;
-	METHOD d getRenderType ()I
-	METHOD d canPlaceBlockOnSide (Ltd;IIII)Z
-	METHOD e canPlaceBlockAt (Ltd;III)Z
 	METHOD f getTileEntityAtLocation (Lafd;III)Lmg;
 		ARG 1 blockAccess
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD n_ getBlockEntity ()Ljb;

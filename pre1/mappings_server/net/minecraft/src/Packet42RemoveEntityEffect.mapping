@@ -4,7 +4,3 @@ CLASS lj net/minecraft/src/Packet42RemoveEntityEffect
 	METHOD <init> (ILul;)V
 		ARG 1 id
 		ARG 2 effect
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqf;)V

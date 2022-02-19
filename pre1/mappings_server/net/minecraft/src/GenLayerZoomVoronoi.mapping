@@ -2,4 +2,3 @@ CLASS ja net/minecraft/src/GenLayerZoomVoronoi
 	METHOD <init> (JLdu;)V
 		ARG 1 seed
 		ARG 3 layer
-	METHOD a func_35018_a (IIII)[I

@@ -3,19 +3,4 @@ CLASS sg net/minecraft/src/RenderPlayer
 	FIELD d modelArmorChestplate Ltf;
 	FIELD i modelArmor Ltf;
 	FIELD j armorFilenamePrefix [Ljava/lang/String;
-	METHOD a doRender (Lle;DDDFF)V
-	METHOD a renderName (Lui;DDD)V
-	METHOD a renderPlayer (Lui;DDDFF)V
-	METHOD a renderSpecials (Lui;F)V
-	METHOD a rotatePlayer (Lui;FFF)V
-	METHOD a setArmorModel (Lui;IF)Z
-	METHOD a renderLivingAt (Lxq;DDD)V
-	METHOD a doRenderLiving (Lxq;DDDFF)V
-	METHOD a preRenderCallback (Lxq;F)V
-	METHOD a rotateCorpse (Lxq;FFF)V
 	METHOD b drawFirstPersonHand ()V
-	METHOD b renderPlayerSleep (Lui;DDD)V
-	METHOD b renderPlayerScale (Lui;F)V
-	METHOD b passSpecialRender (Lxq;DDD)V
-	METHOD b renderEquippedItems (Lxq;F)V
-	METHOD b shouldRenderPass (Lxq;IF)Z

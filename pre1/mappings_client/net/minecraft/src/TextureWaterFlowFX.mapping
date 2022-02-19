@@ -4,4 +4,3 @@ CLASS zd net/minecraft/src/TextureWaterFlowFX
 	FIELD c blue [F
 	FIELD d alpha [F
 	FIELD e tickCounter I
-	METHOD a onTick ()V

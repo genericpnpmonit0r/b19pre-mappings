@@ -3,5 +3,3 @@ CLASS gj net/minecraft/src/EntityDamageSource
 	METHOD <init> (Ljava/lang/String;Lpp;)V
 		ARG 1 damageName
 		ARG 2 entity
-	METHOD a func_35080_a ()Lpp;
-	METHOD a func_35075_a (Lga;)Ljava/lang/String;

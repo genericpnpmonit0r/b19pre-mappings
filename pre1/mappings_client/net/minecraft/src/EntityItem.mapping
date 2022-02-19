@@ -11,12 +11,3 @@ CLASS ep net/minecraft/src/EntityItem
 		ARG 4 y
 		ARG 6 z
 		ARG 8 itemStack
-	METHOD a dealFireDamage (I)V
-	METHOD a attackEntityFrom (Ljz;I)Z
-	METHOD a readEntityFromNBT (Lyr;)V
-	METHOD a_ onCollideWithPlayer (Lui;)V
-	METHOD b entityInit ()V
-	METHOD b writeEntityToNBT (Lyr;)V
-	METHOD d_ canTriggerWalking ()Z
-	METHOD f_ handleWaterMovement ()Z
-	METHOD w_ onUpdate ()V

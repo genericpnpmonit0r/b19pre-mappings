@@ -1,7 +1,2 @@
 CLASS aao net/minecraft/src/J_JsonFieldNodeSelector
 	FIELD a field_27066_a Ljs;
-	METHOD a shortForm ()Ljava/lang/String;
-	METHOD a func_27065_a (Ljava/util/Map;)Z
-	METHOD b typeSafeApplyTo (Ljava/lang/Object;)Ljava/lang/Object;
-	METHOD b func_27064_b (Ljava/util/Map;)Led;
-	METHOD c matchsNode (Ljava/lang/Object;)Z

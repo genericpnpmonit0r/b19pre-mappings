@@ -2,17 +2,4 @@ CLASS rf net/minecraft/src/BlockCake
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 texIndex
-	METHOD a isOpaqueCube ()Z
-	METHOD a getBlockTextureFromSide (I)I
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a onNeighborBlockChange (Lep;IIII)V
-	METHOD a blockActivated (Lep;IIILga;)Z
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD a setBlockBoundsBasedOnState (Lun;III)V
-	METHOD b isACube ()Z
-	METHOD b onBlockClicked (Lep;IIILga;)V
-	METHOD c canPlaceBlockAt (Lep;III)Z
 	METHOD c eatCakeSlice (Lep;IIILga;)V
-	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;
-	METHOD f canBlockStay (Lep;III)Z

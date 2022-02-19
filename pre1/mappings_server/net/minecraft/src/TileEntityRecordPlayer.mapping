@@ -1,4 +1,2 @@
 CLASS dw net/minecraft/src/TileEntityRecordPlayer
-	METHOD a readFromNBT (Lls;)V
-	METHOD b writeToNBT (Lls;)V
 	FIELD a record I

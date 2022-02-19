@@ -1,7 +1,1 @@
 CLASS aet net/minecraft/src/SaveHandlerMP
-	METHOD a getChunkLoader (Laew;)Lqq;
-	METHOD a getMapFile (Ljava/lang/String;)Ljava/io/File;
-	METHOD a saveWorldInfo (Lss;)V
-	METHOD a saveWorldInfoAndPlayer (Lss;Ljava/util/List;)V
-	METHOD b checkSessionLock ()V
-	METHOD c loadWorldInfo ()Lss;

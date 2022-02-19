@@ -1,4 +1,3 @@
 CLASS acz net/minecraft/src/GenLayerDownfallMix
 	FIELD b theLayer Lsq;
 	FIELD c field_35508_c I
-	METHOD a func_35500_a (IIII)[I

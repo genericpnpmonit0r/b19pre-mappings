@@ -9,8 +9,4 @@ CLASS vr net/minecraft/src/ShapedRecipes
 		ARG 2 height
 		ARG 3 items
 		ARG 4 output
-	METHOD a getRecipeSize ()I
-	METHOD a matches (Lya;)Z
 	METHOD a checkItemDamaged (Lya;IIZ)Z
-	METHOD b getRecipeOutput ()Lvw;
-	METHOD b getCraftingResult (Lya;)Lvw;

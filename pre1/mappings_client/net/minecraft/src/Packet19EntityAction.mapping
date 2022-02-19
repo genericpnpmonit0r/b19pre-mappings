@@ -4,7 +4,3 @@ CLASS acr net/minecraft/src/Packet19EntityAction
 	METHOD <init> (Lle;I)V
 		ARG 1 entity
 		ARG 2 state
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Llt;)V

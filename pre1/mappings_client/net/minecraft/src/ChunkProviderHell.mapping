@@ -22,15 +22,10 @@ CLASS aar net/minecraft/src/ChunkProviderHell
 	METHOD <init> (Ltd;J)V
 		ARG 1 world
 		ARG 2 seed
-	METHOD a unload100OldestChunks ()Z
-	METHOD a chunkExists (II)Z
 	METHOD a generateNetherTerrain (II[B)V
 		ARG 1 x
 		ARG 2 z
 		ARG 3 blocks
-	METHOD a populate (Lbh;II)V
-	METHOD a func_40377_a (Lxj;III)Ljava/util/List;
-	METHOD a saveChunks (ZLoz;)Z
 	METHOD a initializeNoiseField ([DIIIIII)[D
 		ARG 1 noiseArray
 		ARG 2 offset1
@@ -39,11 +34,7 @@ CLASS aar net/minecraft/src/ChunkProviderHell
 		ARG 5 x
 		ARG 6 y
 		ARG 7 z
-	METHOD b canSave ()Z
-	METHOD b provideChunk (II)Lxl;
 	METHOD b replaceBlocksForBiome (II[B)V
 		ARG 1 x
 		ARG 2 z
 		ARG 3 blocks
-	METHOD c makeString ()Ljava/lang/String;
-	METHOD c loadChunk (II)Lxl;

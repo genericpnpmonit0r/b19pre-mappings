@@ -6,7 +6,3 @@ CLASS acy net/minecraft/src/Packet30Entity
 	FIELD e yaw B
 	FIELD f pitch B
 	FIELD g rotating Z
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Llt;)V

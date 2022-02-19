@@ -6,6 +6,3 @@ CLASS bm net/minecraft/src/GuiOptions
 	METHOD <init> (Lrx;Lgj;)V
 		ARG 1 guiScreen
 		ARG 2 gameSettings
-	METHOD a initGui ()V
-	METHOD a drawScreen (IIF)V
-	METHOD a actionPerformed (Lwv;)V

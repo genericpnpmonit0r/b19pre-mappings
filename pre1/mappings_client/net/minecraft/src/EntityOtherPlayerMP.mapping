@@ -7,12 +7,3 @@ CLASS oy net/minecraft/src/EntityOtherPlayerMP
 	FIELD c otherPlayerMPPosRotationIncrements I
 	FIELD d otherPlayerMPX D
 	FIELD e otherPlayerMPY D
-	METHOD A getEyeHeight ()F
-	METHOD a setPositionAndRotation2 (DDDFFI)V
-	METHOD a attackEntityFrom (Ljz;I)Z
-	METHOD b outfitWithItem (III)V
-	METHOD c onLivingUpdate ()V
-	METHOD g_ getShadowSize ()F
-	METHOD p resetHeight ()V
-	METHOD q func_6420_o ()V
-	METHOD w_ onUpdate ()V

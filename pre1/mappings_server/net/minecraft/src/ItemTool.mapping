@@ -8,7 +8,3 @@ CLASS dh net/minecraft/src/ItemTool
 		ARG 2 dmgVsEntity
 		ARG 3 toolMaterial
 		ARG 4 blocksEffectiveAgainstArr
-	METHOD a onBlockDestroyed (Lhz;IIIILjz;)Z
-	METHOD a hitEntity (Lhz;Ljz;Ljz;)Z
-	METHOD a getStrVsBlock (Lhz;Lrj;)F
-	METHOD a getDamageVsEntity (Lpp;)I

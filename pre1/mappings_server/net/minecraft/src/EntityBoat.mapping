@@ -13,16 +13,3 @@ CLASS fk net/minecraft/src/EntityBoat
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
-	METHOD a readEntityFromNBT (Lls;)V
-	METHOD a attackEntityFrom (Lns;I)Z
-	METHOD b entityInit ()V
-	METHOD b interact (Lga;)Z
-	METHOD b writeEntityToNBT (Lls;)V
-	METHOD b getCollisionBox (Lpp;)Led;
-	METHOD c_ canBeCollidedWith ()Z
-	METHOD d_ canBePushed ()Z
-	METHOD e_ canTriggerWalking ()Z
-	METHOD f getBoundingBox ()Led;
-	METHOD g_ updateRiderPosition ()V
-	METHOD o getMountedYOffset ()D
-	METHOD q_ onUpdate ()V

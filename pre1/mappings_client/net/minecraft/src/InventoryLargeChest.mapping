@@ -6,13 +6,3 @@ CLASS ir net/minecraft/src/InventoryLargeChest
 		ARG 1 name
 		ARG 2 upperChest
 		ARG 3 lowerChest
-	METHOD a getSizeInventory ()I
-	METHOD a decrStackSize (II)Lvw;
-	METHOD a setInventorySlotContents (ILvw;)V
-	METHOD a isUseableByPlayer (Lui;)Z
-	METHOD c getInvName ()Ljava/lang/String;
-	METHOD d getInventoryStackLimit ()I
-	METHOD e openChest ()V
-	METHOD e_ getStackInSlot (I)Lvw;
-	METHOD f closeChest ()V
-	METHOD l onInventoryChanged ()V

@@ -5,14 +5,8 @@ CLASS zm net/minecraft/src/ThreadedChunkLoader
 	FIELD d chunkSaveLocation Ljava/io/File;
 	METHOD <init> (Ljava/io/File;)V
 		ARG 1 saveLocation
-	METHOD a func_814_a ()V
 	METHOD a writeChunkNBTTags (Lpb;)V
 		ARG 1 threadedChunkLoaderPending
 	METHOD a addChunkToPending (Lpk;Lyr;)V
 		ARG 1 coordPair
 		ARG 2 compoundTag
-	METHOD a loadChunk (Ltd;II)Lxl;
-	METHOD a saveChunk (Ltd;Lxl;)V
-	METHOD b saveExtraData ()V
-	METHOD b saveExtraChunkData (Ltd;Lxl;)V
-	METHOD v_ func_40550_A_ ()Z

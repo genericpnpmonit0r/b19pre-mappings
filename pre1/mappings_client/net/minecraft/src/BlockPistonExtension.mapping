@@ -3,19 +3,8 @@ CLASS pp net/minecraft/src/BlockPistonExtension
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 texIndex
-	METHOD a isOpaqueCube ()Z
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD a setBlockBoundsBasedOnState (Lafd;III)V
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD a onNeighborBlockChange (Ltd;IIII)V
-	METHOD a getCollidingBoundingBoxes (Ltd;IIILsw;Ljava/util/ArrayList;)V
-	METHOD b renderAsNormalBlock ()Z
-	METHOD b_ onBlockRemoval (Ltd;III)V
-	METHOD d getRenderType ()I
 	METHOD d setPistonHeadType (I)V
 		ARG 1 id
-	METHOD d canPlaceBlockOnSide (Ltd;IIII)Z
-	METHOD e canPlaceBlockAt (Ltd;III)Z
 	METHOD f getState (I)I
 		ARG 0 meta
 	METHOD s clearPistonHeadType ()V

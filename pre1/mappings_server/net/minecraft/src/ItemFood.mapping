@@ -22,11 +22,6 @@ CLASS vp net/minecraft/src/ItemFood
 		ARG 2 duration
 		ARG 3 amplifier
 		ARG 4 probability
-	METHOD a onItemRightClick (Lhz;Lep;Lga;)Lhz;
-	METHOD a setItemName (Ljava/lang/String;)Lfy;
-	METHOD b func_35406_b (Lhz;)Lic;
-	METHOD b func_35405_b (Lhz;Lep;Lga;)Lhz;
-	METHOD c func_35404_c (Lhz;)I
 	METHOD k getHealAmount ()I
 	METHOD l getSaturationModifier ()F
 	METHOD m getIsWolfsFavoriteMeat ()Z

@@ -10,4 +10,3 @@ CLASS vc net/minecraft/src/ItemDoor
 		ARG 3 z
 		ARG 4 side
 		ARG 5 block
-	METHOD a onItemUse (Lvw;Lui;Ltd;IIII)Z

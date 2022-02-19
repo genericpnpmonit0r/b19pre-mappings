@@ -1,2 +1,1 @@
 CLASS jn net/minecraft/src/WorldGenTaiga1
-	METHOD a generate (Ltd;Ljava/util/Random;III)Z

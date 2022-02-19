@@ -5,7 +5,4 @@ CLASS by net/minecraft/src/ComponentVillageHouse2
 		ARG 2 rand
 		ARG 3 boundingBox
 		ARG 4 coordBaseMode
-	METHOD a func_40043_a (I)I
-	METHOD a buildComponent (Lfw;Ljava/util/List;Ljava/util/Random;)V
 	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lby;
-	METHOD a addComponentParts (Ltd;Ljava/util/Random;Lno;)Z

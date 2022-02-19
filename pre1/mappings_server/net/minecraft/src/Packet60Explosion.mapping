@@ -10,7 +10,3 @@ CLASS op net/minecraft/src/Packet60Explosion
 		ARG 5 z
 		ARG 7 size
 		ARG 8 blocksDestroyedByExplosion
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqf;)V

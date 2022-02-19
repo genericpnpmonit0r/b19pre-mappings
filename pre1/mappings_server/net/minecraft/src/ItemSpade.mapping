@@ -3,4 +3,3 @@ CLASS ta net/minecraft/src/ItemSpade
 	METHOD <init> (ILbp;)V
 		ARG 1 id
 		ARG 2 toolMaterial
-	METHOD a canHarvestBlock (Lrj;)Z

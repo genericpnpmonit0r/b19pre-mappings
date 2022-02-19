@@ -8,8 +8,6 @@ CLASS nr net/minecraft/src/ComponentNetherBridgeCrossing3
 		ARG 1 rand
 		ARG 2 x
 		ARG 3 z
-	METHOD a func_35310_a (Lep;Ljava/util/Random;Lst;)Z
-	METHOD a func_35308_a (Liv;Ljava/util/List;Ljava/util/Random;)V
 	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lnr;
 		ARG 0 list
 		ARG 1 rand

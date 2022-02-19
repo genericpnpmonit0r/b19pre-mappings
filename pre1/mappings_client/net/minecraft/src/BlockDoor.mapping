@@ -1,26 +1,12 @@
 CLASS xf net/minecraft/src/BlockDoor
-	METHOD a isOpaqueCube ()Z
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a setBlockBoundsBasedOnState (Lafd;III)V
-	METHOD a onNeighborBlockChange (Ltd;IIII)V
-	METHOD a collisionRayTrace (Ltd;IIILba;Lba;)Lmv;
-	METHOD a onBlockClicked (Ltd;IIILui;)V
 	METHOD a onPoweredBlockChange (Ltd;IIIZ)V
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 changeFlag
-	METHOD b renderAsNormalBlock ()Z
-	METHOD b blockActivated (Ltd;IIILui;)Z
-	METHOD c getCollisionBoundingBoxFromPool (Ltd;III)Lsw;
-	METHOD d getRenderType ()I
 	METHOD d setDoorRotation (I)V
 		ARG 1 meta
-	METHOD d getSelectedBoundingBoxFromPool (Ltd;III)Lsw;
-	METHOD e getMobilityFlag ()I
-	METHOD e canPlaceBlockAt (Ltd;III)Z
 	METHOD f getState (I)I
 		ARG 1 meta
 	METHOD g isOpen (I)Z

@@ -12,6 +12,3 @@ CLASS ke net/minecraft/src/GuiYesNo
 		ARG 4 buttonTxt1
 		ARG 5 buttonTxt2
 		ARG 6 worldNum
-	METHOD a initGui ()V
-	METHOD a drawScreen (IIF)V
-	METHOD a actionPerformed (Lwv;)V

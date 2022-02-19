@@ -3,22 +3,11 @@ CLASS zb net/minecraft/src/BlockStem
 	METHOD <init> (ILmn;)V
 		ARG 1 id
 		ARG 2 block
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a setBlockBoundsBasedOnState (Lafd;III)V
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD a dropBlockAsItemWithChance (Ltd;IIIIF)V
-	METHOD a updateTick (Ltd;IIILjava/util/Random;)V
-	METHOD b colorMultiplier (Lafd;III)I
-	METHOD b_ canThisPlantGrowOnThisBlockID (I)Z
-	METHOD c getRenderColor (I)I
-	METHOD d getRenderType ()I
 	METHOD f getBlockIdsFomMetadata (Lafd;III)I
 		ARG 1 blockAccess
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD h setBlockBoundsForItemRender ()V
 	METHOD i fertilize (Ltd;III)V
 		ARG 1 world
 		ARG 2 x

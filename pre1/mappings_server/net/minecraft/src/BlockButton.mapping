@@ -2,22 +2,6 @@ CLASS me net/minecraft/src/BlockButton
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 texIndex
-	METHOD a isOpaqueCube ()Z
-	METHOD a onNeighborBlockChange (Lep;IIII)V
-	METHOD a blockActivated (Lep;IIILga;)Z
-	METHOD a updateTick (Lep;IIILjava/util/Random;)V
-	METHOD a setBlockBoundsBasedOnState (Lun;III)V
-	METHOD a isPoweringTo (Lun;IIII)Z
-	METHOD b isACube ()Z
-	METHOD b canPlaceBlockOnSide (Lep;IIII)Z
-	METHOD b onBlockClicked (Lep;IIILga;)V
-	METHOD c tickRate ()I
-	METHOD c canPlaceBlockAt (Lep;III)Z
-	METHOD d canProvidePower ()Z
-	METHOD d onBlockRemoval (Lep;III)V
-	METHOD d isIndirectlyPoweringTo (Lep;IIII)Z
-	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;
-	METHOD e onBlockPlaced (Lep;IIII)V
 	METHOD g getOrientation (Lep;III)I
 		ARG 1 world
 		ARG 2 x

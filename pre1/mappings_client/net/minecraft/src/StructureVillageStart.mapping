@@ -5,4 +5,3 @@ CLASS ts net/minecraft/src/StructureVillageStart
 		ARG 2 rand
 		ARG 3 x
 		ARG 4 z
-	METHOD d isSizeableStructure ()Z

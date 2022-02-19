@@ -18,15 +18,7 @@ CLASS kg net/minecraft/src/EntityPainting
 		ARG 4 z
 		ARG 5 type
 		ARG 6 title
-	METHOD a attackEntityFrom (Ljz;I)Z
-	METHOD a readEntityFromNBT (Lyr;)V
-	METHOD b entityInit ()V
-	METHOD b moveEntity (DDD)V
 	METHOD b setDirection (I)V
 		ARG 1 direction
-	METHOD b writeEntityToNBT (Lyr;)V
-	METHOD b_ canBeCollidedWith ()Z
-	METHOD c addVelocity (DDD)V
 	METHOD c func_411_c (I)F
 	METHOD m canStay ()Z
-	METHOD w_ onUpdate ()V

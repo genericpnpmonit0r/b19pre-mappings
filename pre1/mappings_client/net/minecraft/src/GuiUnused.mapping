@@ -1,6 +1,3 @@
 CLASS rj net/minecraft/src/GuiUnused
 	FIELD a message1 Ljava/lang/String;
 	FIELD b message2 Ljava/lang/String;
-	METHOD a initGui ()V
-	METHOD a keyTyped (CI)V
-	METHOD a drawScreen (IIF)V

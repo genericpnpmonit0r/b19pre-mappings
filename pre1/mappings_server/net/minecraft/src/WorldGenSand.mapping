@@ -4,4 +4,3 @@ CLASS fo net/minecraft/src/WorldGenSand
 	METHOD <init> (II)V
 		ARG 1 count
 		ARG 2 id
-	METHOD a generate (Lep;Ljava/util/Random;III)Z

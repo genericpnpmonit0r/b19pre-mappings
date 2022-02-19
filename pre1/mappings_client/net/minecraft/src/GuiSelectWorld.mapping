@@ -15,14 +15,10 @@ CLASS kq net/minecraft/src/GuiSelectWorld
 	FIELD v buttonRename Lwv;
 	METHOD <init> (Lrx;)V
 		ARG 1 screen
-	METHOD a initGui ()V
 	METHOD a getSaveFileName (I)Ljava/lang/String;
 		ARG 1 index
-	METHOD a drawScreen (IIF)V
 	METHOD a getSize (Lkq;)Ljava/util/List;
 	METHOD a onElementSelected (Lkq;I)I
-	METHOD a actionPerformed (Lwv;)V
-	METHOD a deleteWorld (ZI)V
 	METHOD b getSaveName (I)Ljava/lang/String;
 		ARG 1 index
 	METHOD b getSelectedWorld (Lkq;)I

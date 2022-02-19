@@ -3,4 +3,3 @@ CLASS k net/minecraft/src/PlayerListBox
 	FIELD b updateCounter I
 	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
 		ARG 1 minecraftServer
-	METHOD a update ()V

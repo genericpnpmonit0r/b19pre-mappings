@@ -7,7 +7,3 @@ CLASS c net/minecraft/src/EntityLightningBolt
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
-	METHOD a readEntityFromNBT (Lls;)V
-	METHOD b entityInit ()V
-	METHOD b writeEntityToNBT (Lls;)V
-	METHOD q_ onUpdate ()V

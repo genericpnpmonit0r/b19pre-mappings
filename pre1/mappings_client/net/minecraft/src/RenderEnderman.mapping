@@ -1,9 +1,3 @@
 CLASS ps net/minecraft/src/RenderEnderman
 	FIELD c endermanModel Lqu;
 	FIELD d rnd Ljava/util/Random;
-	METHOD a renderEnderman (Lhp;DDDFF)V
-	METHOD a renderCarrying (Lhp;F)V
-	METHOD a doRender (Lle;DDDFF)V
-	METHOD a doRenderLiving (Lxq;DDDFF)V
-	METHOD b renderEquippedItems (Lxq;F)V
-	METHOD b shouldRenderPass (Lxq;IF)Z

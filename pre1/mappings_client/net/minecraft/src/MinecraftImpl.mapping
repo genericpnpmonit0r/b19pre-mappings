@@ -8,4 +8,3 @@ CLASS gg net/minecraft/src/MinecraftImpl
 		ARG 5 height
 		ARG 6 fullscreen
 		ARG 7 frame
-	METHOD a displayUnexpectedThrowable (Lhi;)V

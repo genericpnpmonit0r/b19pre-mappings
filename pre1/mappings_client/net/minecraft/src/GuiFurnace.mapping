@@ -3,5 +3,3 @@ CLASS ja net/minecraft/src/GuiFurnace
 	METHOD <init> (Lvt;Labs;)V
 		ARG 1 inventoryPlayer
 		ARG 2 tileEntityFurnace
-	METHOD a drawGuiContainerBackgroundLayer (F)V
-	METHOD c drawGuiContainerForegroundLayer ()V

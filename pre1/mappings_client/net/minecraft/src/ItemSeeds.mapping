@@ -5,4 +5,3 @@ CLASS ko net/minecraft/src/ItemSeeds
 		ARG 1 id
 		ARG 2 blockType
 		ARG 3 blockTypeToSet
-	METHOD a onItemUse (Lvw;Lui;Ltd;IIII)Z

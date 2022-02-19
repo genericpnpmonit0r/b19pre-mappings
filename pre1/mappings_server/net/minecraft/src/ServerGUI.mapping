@@ -8,6 +8,4 @@ CLASS rt net/minecraft/src/ServerGUI
 		ARG 0 minecraftServer
 	METHOD a getMinecraftServer (Lrt;)Lnet/minecraft/server/MinecraftServer;
 	METHOD b getPlayerListComponent ()Ljavax/swing/JComponent;
-	METHOD b log (Ljava/lang/String;)V
 	METHOD c getLogComponent ()Ljavax/swing/JComponent;
-	METHOD d getUsername ()Ljava/lang/String;

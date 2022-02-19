@@ -22,8 +22,3 @@ CLASS ss net/minecraft/src/EntityEgg
 		ARG 5 z
 		ARG 7 yaw
 		ARG 8 pitch
-	METHOD a readEntityFromNBT (Lls;)V
-	METHOD a_ onCollideWithPlayer (Lga;)V
-	METHOD b entityInit ()V
-	METHOD b writeEntityToNBT (Lls;)V
-	METHOD q_ onUpdate ()V

@@ -2,4 +2,3 @@ CLASS ns net/minecraft/src/WorldGenBigMushroom
 	FIELD a mushroomType I
 	METHOD <init> (I)V
 		ARG 1 mushroomType
-	METHOD a generate (Ltd;Ljava/util/Random;III)Z

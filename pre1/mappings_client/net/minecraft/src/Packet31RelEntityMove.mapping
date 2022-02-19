@@ -1,4 +1,1 @@
 CLASS lk net/minecraft/src/Packet31RelEntityMove
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V

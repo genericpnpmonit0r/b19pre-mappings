@@ -1,10 +1,3 @@
 CLASS oe net/minecraft/src/BlockGrass
 	METHOD <init> (I)V
 		ARG 1 id
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a updateTick (Ltd;IIILjava/util/Random;)V
-	METHOD b colorMultiplier (Lafd;III)I
-	METHOD c getRenderColor (I)I
-	METHOD d getBlockTexture (Lafd;IIII)I
-	METHOD i getBlockColor ()I

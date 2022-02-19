@@ -19,5 +19,3 @@ CLASS hw net/minecraft/src/MapData
 		ARG 1 itemStack
 		ARG 2 world
 		ARG 3 player
-	METHOD a readFromNBT (Lls;)V
-	METHOD b writeToNBT (Lls;)V

@@ -5,5 +5,3 @@ CLASS ux net/minecraft/src/GuiChest
 	METHOD <init> (Lha;Lha;)V
 		ARG 1 inventory1
 		ARG 2 inventory2
-	METHOD a drawGuiContainerBackgroundLayer (F)V
-	METHOD c drawGuiContainerForegroundLayer ()V

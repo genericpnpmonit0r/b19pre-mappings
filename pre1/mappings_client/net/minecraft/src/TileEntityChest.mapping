@@ -9,19 +9,4 @@ CLASS fu net/minecraft/src/TileEntityChest
 	FIELD h numUsingPlayers I
 	FIELD p chestContents [Lvw;
 	FIELD q ticksSinceSync I
-	METHOD a getSizeInventory ()I
-	METHOD a decrStackSize (II)Lvw;
-	METHOD a setInventorySlotContents (ILvw;)V
-	METHOD a isUseableByPlayer (Lui;)Z
-	METHOD a readFromNBT (Lyr;)V
-	METHOD b func_35144_b ()V
-	METHOD b func_35143_b (II)V
-	METHOD b writeToNBT (Lyr;)V
-	METHOD c getInvName ()Ljava/lang/String;
-	METHOD d getInventoryStackLimit ()I
-	METHOD e openChest ()V
-	METHOD e_ getStackInSlot (I)Lvw;
-	METHOD f closeChest ()V
 	METHOD g checkAdjacentChests ()V
-	METHOD h invalidate ()V
-	METHOD k_ updateEntity ()V

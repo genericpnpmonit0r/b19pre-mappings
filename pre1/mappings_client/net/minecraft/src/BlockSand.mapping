@@ -3,10 +3,6 @@ CLASS uc net/minecraft/src/BlockSand
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 texIndex
-	METHOD a onBlockAdded (Ltd;III)V
-	METHOD a onNeighborBlockChange (Ltd;IIII)V
-	METHOD a updateTick (Ltd;IIILjava/util/Random;)V
-	METHOD f tickRate ()I
 	METHOD h canFallBelow (Ltd;III)Z
 		ARG 0 world
 		ARG 1 x

@@ -12,17 +12,9 @@ CLASS ew net/minecraft/src/WorldServer
 		ARG 5 worldSettings
 	METHOD a entityLookup (I)Lpp;
 		ARG 1 index
-	METHOD a canMineBlock (Lga;III)Z
-	METHOD a addLightningBolt (Lpp;)Z
-	METHOD a sendTrackedEntityStatusUpdatePacket (Lpp;B)V
-	METHOD a newExplosion (Lpp;DDDFZ)Lob;
-	METHOD a updateEntityWithOptionalForce (Lpp;Z)V
-	METHOD b createChunkProvider ()Lcc;
 	METHOD b updateEntityWithOptForce (Lpp;Z)V
 		ARG 1 entity
 		ARG 2 force
-	METHOD c obtainEntitySkin (Lpp;)V
-	METHOD d playNoteAt (IIIII)V
 	METHOD d getTileEntityList (IIIIII)Ljava/util/List;
 		ARG 1 x
 		ARG 2 y
@@ -30,6 +22,4 @@ CLASS ew net/minecraft/src/WorldServer
 		ARG 4 x2
 		ARG 5 y2
 		ARG 6 z2
-	METHOD d releaseEntitySkin (Lpp;)V
-	METHOD h updateWeather ()V
 	METHOD w flushWorldFile ()V

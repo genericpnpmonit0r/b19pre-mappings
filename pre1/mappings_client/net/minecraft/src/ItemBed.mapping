@@ -1,2 +1,1 @@
 CLASS xp net/minecraft/src/ItemBed
-	METHOD a onItemUse (Lvw;Lui;Ltd;IIII)Z

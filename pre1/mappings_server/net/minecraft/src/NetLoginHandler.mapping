@@ -13,16 +13,10 @@ CLASS ft net/minecraft/src/NetLoginHandler
 		ARG 2 socket
 		ARG 3 str
 	METHOD a tryLogin ()V
-	METHOD a func_35007_a (Ldi;)V
 	METHOD a getServerId (Lft;)Ljava/lang/String;
 	METHOD a setLoginPacket (Lft;Lly;)Lly;
 	METHOD a kickUser (Ljava/lang/String;)V
 		ARG 1 reason
-	METHOD a handleErrorMessage (Ljava/lang/String;[Ljava/lang/Object;)V
-	METHOD a registerPacket (Ljc;)V
-	METHOD a handleHandshake (Lko;)V
-	METHOD a handleLogin (Lly;)V
 	METHOD b getUserAndIPString ()Ljava/lang/String;
 	METHOD b doLogin (Lly;)V
 		ARG 1 packet1Login
-	METHOD c isServerHandler ()Z

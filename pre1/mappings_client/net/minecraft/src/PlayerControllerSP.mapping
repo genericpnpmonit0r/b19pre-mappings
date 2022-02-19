@@ -6,16 +6,3 @@ CLASS zk net/minecraft/src/PlayerControllerSP
 	FIELD g prevBlockDamage F
 	FIELD h field_1069_h F
 	FIELD i blockHitWait I
-	METHOD a resetBlockRemoving ()V
-	METHOD a setPartialTime (F)V
-	METHOD a clickBlock (IIII)V
-	METHOD a onWorldChange (Ltd;)V
-	METHOD a flipPlayer (Lui;)V
-	METHOD a sendPlaceBlock (Lui;Ltd;Lvw;IIII)Z
-	METHOD b getBlockReachDistance ()F
-	METHOD b sendBlockRemoved (IIII)Z
-	METHOD b createPlayer (Ltd;)Lui;
-	METHOD c updateController ()V
-	METHOD c sendBlockRemoving (IIII)V
-	METHOD d shouldDrawHUD ()Z
-	METHOD f func_35642_f ()Z

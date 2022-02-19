@@ -6,6 +6,3 @@ CLASS ts net/minecraft/src/ItemMap
 	METHOD a getMPMapData (Lhz;Lep;)Lhw;
 		ARG 1 itemStack
 		ARG 2 world
-	METHOD a onUpdate (Lhz;Lep;Lpp;IZ)V
-	METHOD c func_28022_b (Lhz;Lep;Lga;)Ljc;
-	METHOD d onCreated (Lhz;Lep;Lga;)V

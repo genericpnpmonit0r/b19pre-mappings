@@ -11,7 +11,3 @@ CLASS hu net/minecraft/src/ContainerWorkbench
 		ARG 3 x
 		ARG 4 y
 		ARG 5 z
-	METHOD a getStackInSlot (I)Lhz;
-	METHOD a onCraftGuiClosed (Lga;)V
-	METHOD a onCraftMatrixChanged (Lkd;)V
-	METHOD b canInteractWith (Lga;)Z

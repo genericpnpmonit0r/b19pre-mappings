@@ -1,3 +1,2 @@
 CLASS ga net/minecraft/src/StatStringFormatKeyInv
 	FIELD a mc Lnet/minecraft/client/Minecraft;
-	METHOD a formatString (Ljava/lang/String;)Ljava/lang/String;

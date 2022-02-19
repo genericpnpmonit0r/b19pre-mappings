@@ -2,9 +2,3 @@ CLASS bw net/minecraft/src/GuiTexturePackSlot
 	FIELD a parentTexturePackGui Ldo;
 	METHOD <init> (Ldo;)V
 		ARG 1 guiTexturePacks
-	METHOD a getSize ()I
-	METHOD a drawSlot (IIIILyu;)V
-	METHOD a elementClicked (IZ)V
-	METHOD a_ isSelected (I)Z
-	METHOD b getContentHeight ()I
-	METHOD c drawBackground ()V

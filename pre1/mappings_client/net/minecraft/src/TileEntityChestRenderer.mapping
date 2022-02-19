@@ -1,5 +1,3 @@
 CLASS ads net/minecraft/src/TileEntityChestRenderer
 	FIELD b chestModel Labo;
 	FIELD c largeChestModel Labo;
-	METHOD a func_35376_a (Lfu;DDDF)V
-	METHOD a renderTileEntityAt (Ljb;DDDF)V

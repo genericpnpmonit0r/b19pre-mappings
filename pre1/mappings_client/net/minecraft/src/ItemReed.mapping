@@ -3,4 +3,3 @@ CLASS xs net/minecraft/src/ItemReed
 	METHOD <init> (ILmn;)V
 		ARG 1 id
 		ARG 2 block
-	METHOD a onItemUse (Lvw;Lui;Ltd;IIII)Z

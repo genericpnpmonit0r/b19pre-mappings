@@ -2,8 +2,6 @@ CLASS mj net/minecraft/src/BlockFlowing
 	FIELD a numAdjacentSources I
 	FIELD b isOptimalFlowDirection [Z
 	FIELD c flowCost [I
-	METHOD a onBlockAdded (Lep;III)V
-	METHOD a updateTick (Lep;IIILjava/util/Random;)V
 	METHOD b calculateFlowCost (Lep;IIIII)I
 		ARG 1 world
 		ARG 2 x

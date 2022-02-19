@@ -4,7 +4,6 @@ CLASS fr net/minecraft/src/EntitySorter
 	FIELD c entityPosZ D
 	METHOD <init> (Lle;)V
 		ARG 1 entity
-	METHOD a sortByDistanceToEntity (Lcb;Lcb;)I
 	METHOD compare (Ljava/lang/Object;Ljava/lang/Object;)I
 		ARG 1 worldRenderer
 		ARG 2 worldRenderer2

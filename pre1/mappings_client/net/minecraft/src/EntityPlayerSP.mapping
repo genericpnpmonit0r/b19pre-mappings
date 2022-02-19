@@ -15,37 +15,17 @@ CLASS ry net/minecraft/src/EntityPlayerSP
 		ARG 2 world
 		ARG 3 session
 		ARG 4 dimension
-	METHOD O isSneaking ()Z
-	METHOD T closeScreen ()V
 	METHOD U getPlayerArmorValue ()I
-	METHOD V respawnPlayer ()V
-	METHOD a displayWorkbenchGUI (III)V
-	METHOD a displayGUIFurnace (Labs;)V
-	METHOD a addStat (Ladw;I)V
-	METHOD a displayGUIDispenser (Laq;)V
-	METHOD a displayGUIChest (Lha;)V
 	METHOD a sendChatMessage (Ljava/lang/String;)V
 		ARG 1 message
-	METHOD a displayGUIEditSign (Lpf;)V
-	METHOD a readEntityFromNBT (Lyr;)V
-	METHOD b moveEntity (DDD)V
 	METHOD b setHealth (I)V
 		ARG 1 health
-	METHOD b addChatMessage (Ljava/lang/String;)V
-	METHOD b onCriticalHit (Lle;)V
-	METHOD b onItemPickup (Lle;I)V
-	METHOD b writeEntityToNBT (Lyr;)V
-	METHOD c onLivingUpdate ()V
 	METHOD c setXPStats (III)V
 		ARG 1 xp
 		ARG 2 xpLevel
 		ARG 3 playerLevel
-	METHOD c setSprinting (Z)V
 	METHOD f isBlockTranslucent (III)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD h pushOutOfBlocks (DDD)Z
-	METHOD l_ updateEntityActionState ()V
-	METHOD q func_6420_o ()V
 	METHOD t_ getFOVMultiplier ()F

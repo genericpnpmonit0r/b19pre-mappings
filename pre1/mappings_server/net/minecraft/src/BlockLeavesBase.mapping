@@ -5,4 +5,3 @@ CLASS lo net/minecraft/src/BlockLeavesBase
 		ARG 2 texIndex
 		ARG 3 material
 		ARG 4 gfxLevel
-	METHOD a isOpaqueCube ()Z

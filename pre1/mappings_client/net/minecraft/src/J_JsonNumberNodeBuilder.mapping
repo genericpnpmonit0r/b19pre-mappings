@@ -1,3 +1,2 @@
 CLASS yz net/minecraft/src/J_JsonNumberNodeBuilder
 	FIELD a field_27239_a Led;
-	METHOD b buildNode ()Led;

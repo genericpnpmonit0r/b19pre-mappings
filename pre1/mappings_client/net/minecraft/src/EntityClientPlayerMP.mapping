@@ -12,20 +12,8 @@ CLASS acg net/minecraft/src/EntityClientPlayerMP
 	FIELD cs sneaking Z
 	FIELD ct wasSneaking Z
 	FIELD cu ticker I
-	METHOD T closeScreen ()V
-	METHOD V respawnPlayer ()V
-	METHOD a addStat (Ladw;I)V
-	METHOD a joinEntityItemWithWorld (Lep;)V
-	METHOD a sendChatMessage (Ljava/lang/String;)V
-	METHOD a attackEntityFrom (Ljz;I)Z
 	METHOD aE onUpdate2 ()V
 	METHOD aF sendInventoryChanged ()V
-	METHOD ag dropCurrentItem ()V
-	METHOD al swingItem ()V
-	METHOD b setHealth (I)V
 	METHOD b addStat2 (Ladw;I)V
 		ARG 1 statBase
 		ARG 2 id
-	METHOD b damageEntity (Ljz;I)V
-	METHOD f heal (I)V
-	METHOD w_ onUpdate ()V

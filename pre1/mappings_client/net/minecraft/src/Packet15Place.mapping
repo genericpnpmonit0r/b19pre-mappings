@@ -10,7 +10,3 @@ CLASS eg net/minecraft/src/Packet15Place
 		ARG 3 z
 		ARG 4 dir
 		ARG 5 ItemStack
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Llt;)V

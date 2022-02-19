@@ -1,3 +1,1 @@
 CLASS jm net/minecraft/src/RenderGhast
-	METHOD a func_4014_a (Lqy;F)V
-	METHOD a preRenderCallback (Lxq;F)V

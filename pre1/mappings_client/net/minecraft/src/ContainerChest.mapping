@@ -4,6 +4,3 @@ CLASS bc net/minecraft/src/ContainerChest
 	METHOD <init> (Lha;Lha;)V
 		ARG 1 inventory1
 		ARG 2 inventory2
-	METHOD a transferStackInSlot (I)Lvw;
-	METHOD a onCraftGuiClosed (Lui;)V
-	METHOD b canInteractWith (Lui;)Z

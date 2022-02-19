@@ -2,6 +2,3 @@ CLASS er net/minecraft/src/EntityCrit2FX
 	FIELD a field_35134_a Lle;
 	FIELD ay field_35133_ay I
 	FIELD az field_35132_az I
-	METHOD a renderParticle (Lyu;FFFFFF)V
-	METHOD m getFXLayer ()I
-	METHOD w_ onUpdate ()V

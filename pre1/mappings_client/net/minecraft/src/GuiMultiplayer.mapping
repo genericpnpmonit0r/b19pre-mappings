@@ -16,12 +16,8 @@ CLASS xo net/minecraft/src/GuiMultiplayer
 	FIELD w tempServer Llq;
 	METHOD <init> (Lrx;)V
 		ARG 1 screen
-	METHOD a initGui ()V
-	METHOD a keyTyped (CI)V
 	METHOD a joinServer (I)V
 		ARG 1 index
-	METHOD a drawScreen (IIF)V
-	METHOD a mouseClicked (III)V
 	METHOD a parseIntWithDefault (Ljava/lang/String;I)I
 		ARG 1 hostname
 		ARG 2 i
@@ -31,19 +27,16 @@ CLASS xo net/minecraft/src/GuiMultiplayer
 		ARG 3 y
 	METHOD a joinServer (Llq;)V
 		ARG 1 serverNBTStorage
-	METHOD a actionPerformed (Lwv;)V
 	METHOD a getServerList (Lxo;)Ljava/util/List;
 	METHOD a setSelectedServer (Lxo;I)I
 	METHOD a func_35327_a (Lxo;Ljava/lang/String;)Ljava/lang/String;
 	METHOD a pollServer (Lxo;Llq;)V
-	METHOD a deleteWorld (ZI)V
 	METHOD b pollServer (Llq;)V
 		ARG 1 serverNBTStorage
 	METHOD b getSelectedServer (Lxo;)I
 	METHOD b joinServer (Lxo;I)V
 	METHOD c initGuiControls ()V
 	METHOD c getButtonSelect (Lxo;)Lwv;
-	METHOD d onGuiClosed ()V
 	METHOD d getButtonEdit (Lxo;)Lwv;
 	METHOD e getButtonDelete (Lxo;)Lwv;
 	METHOD g getLock ()Ljava/lang/Object;
@@ -51,5 +44,4 @@ CLASS xo net/minecraft/src/GuiMultiplayer
 	METHOD n incrementThreadsPending ()I
 	METHOD o decrementThreadsPending ()I
 	METHOD p loadServerList ()V
-	METHOD p_ updateScreen ()V
 	METHOD q saveServerList ()V

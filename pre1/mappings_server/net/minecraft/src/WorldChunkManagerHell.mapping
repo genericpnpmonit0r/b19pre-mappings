@@ -6,11 +6,3 @@ CLASS gl net/minecraft/src/WorldChunkManagerHell
 		ARG 1 base
 		ARG 2 temp
 		ARG 3 humidity
-	METHOD a getBiomeGenAt (II)Liz;
-	METHOD a func_35141_a (IIILjava/util/List;)Z
-	METHOD a func_35139_a (IIILjava/util/List;Ljava/util/Random;)Ltf;
-	METHOD a getBiomeGenAtChunkCoord (Lvs;)Liz;
-	METHOD a getTemperatures ([FIIII)[F
-	METHOD a loadBlockGeneratorData ([Liz;IIII)[Liz;
-	METHOD a func_35140_a ([Liz;IIIIZ)[Liz;
-	METHOD b func_4065_a ([FIIII)[F

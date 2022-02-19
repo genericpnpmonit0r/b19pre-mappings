@@ -1,5 +1,3 @@
 CLASS py net/minecraft/src/RenderXPOrb
 	FIELD a xpBool Z
 	FIELD b blockRenderer Lru;
-	METHOD a func_35438_a (Lbi;DDDFF)V
-	METHOD a doRender (Lle;DDDFF)V

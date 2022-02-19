@@ -3,5 +3,3 @@ CLASS abr net/minecraft/src/ContainerDispenser
 	METHOD <init> (Lha;Laq;)V
 		ARG 1 inventory
 		ARG 2 dispenser
-	METHOD a transferStackInSlot (I)Lvw;
-	METHOD b canInteractWith (Lui;)Z

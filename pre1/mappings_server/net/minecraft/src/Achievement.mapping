@@ -26,8 +26,4 @@ CLASS lv net/minecraft/src/Achievement
 		ARG 4 row
 		ARG 5 block
 		ARG 6 achievement
-	METHOD a setIndependent ()Llv;
 	METHOD b setSpecial ()Llv;
-	METHOD c registerAchievement ()Llv;
-	METHOD d registerStat ()Lso;
-	METHOD e initIndependentStat ()Lso;

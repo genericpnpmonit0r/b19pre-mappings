@@ -17,11 +17,5 @@ CLASS or net/minecraft/src/GuiAchievements
 	FIELD x statFileWriter Lafa;
 	METHOD <init> (Lafa;)V
 		ARG 1 statFileWriter
-	METHOD a initGui ()V
-	METHOD a keyTyped (CI)V
-	METHOD a drawScreen (IIF)V
-	METHOD a actionPerformed (Lwv;)V
 	METHOD b genAchievementBackground (IIF)V
 	METHOD c func_27110_k ()V
-	METHOD e doesGuiPauseGame ()Z
-	METHOD p_ updateScreen ()V

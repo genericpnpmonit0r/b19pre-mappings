@@ -4,7 +4,3 @@ CLASS qr net/minecraft/src/ShapelessRecipes
 	METHOD <init> (Lhz;Ljava/util/List;)V
 		ARG 1 output
 		ARG 2 items
-	METHOD a getRecipeSize ()I
-	METHOD a matches (Lkq;)Z
-	METHOD b getRecipeOutput ()Lhz;
-	METHOD b getCraftingResult (Lkq;)Lhz;

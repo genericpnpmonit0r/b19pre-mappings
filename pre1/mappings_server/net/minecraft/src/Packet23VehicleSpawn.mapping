@@ -15,7 +15,3 @@ CLASS ps net/minecraft/src/Packet23VehicleSpawn
 		ARG 1 entity
 		ARG 2 type
 		ARG 3 i
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqf;)V

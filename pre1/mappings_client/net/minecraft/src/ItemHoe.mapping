@@ -2,5 +2,3 @@ CLASS gq net/minecraft/src/ItemHoe
 	METHOD <init> (ILra;)V
 		ARG 1 id
 		ARG 2 toolMaterial
-	METHOD a isFull3D ()Z
-	METHOD a onItemUse (Lvw;Lui;Ltd;IIII)Z

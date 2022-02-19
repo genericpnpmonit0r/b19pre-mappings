@@ -6,7 +6,3 @@ CLASS kx net/minecraft/src/Packet105UpdateProgressbar
 		ARG 1 wid
 		ARG 2 progressBar
 		ARG 3 progressValue
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqf;)V

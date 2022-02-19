@@ -13,6 +13,4 @@ CLASS tf net/minecraft/src/ModelBiped
 	FIELD q isSneak Z
 	FIELD r aimingBow Z
 	METHOD a renderEars (F)V
-	METHOD a setRotationAngles (FFFFFF)V
-	METHOD a render (Lle;FFFFFF)V
 	METHOD b renderCloak (F)V

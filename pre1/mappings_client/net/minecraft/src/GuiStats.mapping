@@ -10,16 +10,13 @@ CLASS cl net/minecraft/src/GuiStats
 	METHOD <init> (Lrx;Lafa;)V
 		ARG 1 screen
 		ARG 2 statfilewriter
-	METHOD a initGui ()V
 	METHOD a drawButtonBackground (II)V
 		ARG 1 x
 		ARG 2 y
-	METHOD a drawScreen (IIF)V
 	METHOD a getMinecraft (Lcl;)Lnet/minecraft/client/Minecraft;
 	METHOD a drawItemSprite (Lcl;III)V
 	METHOD a drawSprite (Lcl;IIII)V
 	METHOD a drawGradientRect (Lcl;IIIIII)V
-	METHOD a actionPerformed (Lwv;)V
 	METHOD b addHeaderButtons ()V
 	METHOD b getFontRenderer1 (Lcl;)Llc;
 	METHOD b drawGradientRect1 (Lcl;IIIIII)V

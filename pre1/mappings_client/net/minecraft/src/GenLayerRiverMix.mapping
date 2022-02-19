@@ -5,5 +5,3 @@ CLASS aek net/minecraft/src/GenLayerRiverMix
 		ARG 1 seed
 		ARG 3 biomePatternGeneratorChain
 		ARG 4 riverPatternGeneratorChain
-	METHOD a func_35500_a (IIII)[I
-	METHOD b func_35496_b (J)V

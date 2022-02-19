@@ -1,5 +1,2 @@
 CLASS oy net/minecraft/src/BlockContainer
-	METHOD a onBlockAdded (Lep;III)V
-	METHOD a playBlock (Lep;IIIII)V
 	METHOD a_ getBlockEntity ()Lms;
-	METHOD d onBlockRemoval (Lep;III)V

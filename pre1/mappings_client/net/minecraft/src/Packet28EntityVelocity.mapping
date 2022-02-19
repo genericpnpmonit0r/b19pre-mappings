@@ -10,7 +10,3 @@ CLASS ua net/minecraft/src/Packet28EntityVelocity
 		ARG 6 z
 	METHOD <init> (Lle;)V
 		ARG 1 entity
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Llt;)V

@@ -7,5 +7,3 @@ CLASS qk net/minecraft/src/TileEntityNote
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD a readFromNBT (Lls;)V
-	METHOD b writeToNBT (Lls;)V

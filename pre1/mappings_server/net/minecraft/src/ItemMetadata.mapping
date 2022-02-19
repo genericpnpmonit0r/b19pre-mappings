@@ -3,4 +3,3 @@ CLASS ik net/minecraft/src/ItemMetadata
 	METHOD <init> (ILrj;)V
 		ARG 1 id
 		ARG 2 block
-	METHOD a getMetadata (I)I

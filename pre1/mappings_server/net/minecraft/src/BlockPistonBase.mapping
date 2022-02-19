@@ -5,8 +5,6 @@ CLASS in net/minecraft/src/BlockPistonBase
 		ARG 1 id
 		ARG 2 texIndex
 		ARG 3 sticky
-	METHOD a isOpaqueCube ()Z
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
 	METHOD a canPushBlock (ILep;IIIZ)Z
 		ARG 0 id
 		ARG 1 world
@@ -14,14 +12,6 @@ CLASS in net/minecraft/src/BlockPistonBase
 		ARG 3 y
 		ARG 4 z
 		ARG 5 mobilityFlagBool
-	METHOD a onBlockAdded (Lep;III)V
-	METHOD a onNeighborBlockChange (Lep;IIII)V
-	METHOD a playBlock (Lep;IIIII)V
-	METHOD a getCollidingBoundingBoxes (Lep;IIILed;Ljava/util/ArrayList;)V
-	METHOD a blockActivated (Lep;IIILga;)Z
-	METHOD a onBlockPlacedBy (Lep;IIILjz;)V
-	METHOD a setBlockBoundsBasedOnState (Lun;III)V
-	METHOD b isACube ()Z
 	METHOD c getOrientation (I)I
 		ARG 0 meta
 	METHOD c determineOrientation (Lep;IIILga;)I

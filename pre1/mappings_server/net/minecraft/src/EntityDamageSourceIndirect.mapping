@@ -4,5 +4,3 @@ CLASS gw net/minecraft/src/EntityDamageSourceIndirect
 		ARG 1 damageName
 		ARG 2 entity1
 		ARG 3 entity2
-	METHOD a func_35080_a ()Lpp;
-	METHOD a func_35075_a (Lga;)Ljava/lang/String;

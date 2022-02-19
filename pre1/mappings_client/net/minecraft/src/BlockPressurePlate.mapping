@@ -5,22 +5,6 @@ CLASS rb net/minecraft/src/BlockPressurePlate
 		ARG 2 texIndex
 		ARG 3 mobType
 		ARG 4 material
-	METHOD a isOpaqueCube ()Z
-	METHOD a setBlockBoundsBasedOnState (Lafd;III)V
-	METHOD a onBlockAdded (Ltd;III)V
-	METHOD a onNeighborBlockChange (Ltd;IIII)V
-	METHOD a updateTick (Ltd;IIILjava/util/Random;)V
-	METHOD a onEntityCollidedWithBlock (Ltd;IIILle;)V
-	METHOD b renderAsNormalBlock ()Z
-	METHOD b isPoweringTo (Lafd;IIII)Z
-	METHOD b_ onBlockRemoval (Ltd;III)V
-	METHOD c getCollisionBoundingBoxFromPool (Ltd;III)Lsw;
-	METHOD e getMobilityFlag ()I
-	METHOD e canPlaceBlockAt (Ltd;III)Z
-	METHOD e isIndirectlyPoweringTo (Ltd;IIII)Z
-	METHOD f tickRate ()I
-	METHOD g canProvidePower ()Z
-	METHOD h setBlockBoundsForItemRender ()V
 	METHOD h setStateIfMobInteractsWithPlate (Ltd;III)V
 		ARG 1 world
 		ARG 2 x

@@ -12,7 +12,6 @@ CLASS qx net/minecraft/src/ChunkCoordinates
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD a compareChunkCoordinate (Lqx;)I
 	METHOD compareTo (Ljava/lang/Object;)I
 		ARG 1 chunkCoordinates
 	METHOD equals (Ljava/lang/Object;)Z

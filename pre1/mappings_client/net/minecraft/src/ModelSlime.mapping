@@ -3,5 +3,3 @@ CLASS ym net/minecraft/src/ModelSlime
 	FIELD b slimeRightEye Lnv;
 	FIELD c slimeLeftEye Lnv;
 	FIELD d slimeMouth Lnv;
-	METHOD a setRotationAngles (FFFFFF)V
-	METHOD a render (Lle;FFFFFF)V

@@ -5,9 +5,5 @@ CLASS tw net/minecraft/src/BlockPane
 		ARG 2 texIndex
 		ARG 3 type
 		ARG 4 material
-	METHOD a isOpaqueCube ()Z
-	METHOD a getCollidingBoundingBoxes (Lep;IIILed;Ljava/util/ArrayList;)V
-	METHOD a setBlockBoundsBasedOnState (Lun;III)V
-	METHOD b isACube ()Z
 	METHOD c canThisPaneConnectToThisBlockID (I)Z
 		ARG 1 id

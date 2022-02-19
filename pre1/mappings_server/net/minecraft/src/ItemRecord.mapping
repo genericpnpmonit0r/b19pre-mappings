@@ -3,4 +3,3 @@ CLASS qp net/minecraft/src/ItemRecord
 	METHOD <init> (ILjava/lang/String;)V
 		ARG 1 id
 		ARG 2 name
-	METHOD a onItemUse (Lhz;Lga;Lep;IIII)Z

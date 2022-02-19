@@ -6,7 +6,6 @@ CLASS sl net/minecraft/src/GenLayerZoom
 		COMMENT Chooses one of the two inputs randomly.
 		ARG 1 input1
 		ARG 2 input2
-	METHOD a func_35500_a (IIII)[I
 	METHOD a magnify (JLsq;I)Lsq;
 		COMMENT Magnify a layer
 		ARG 0 seedAdj

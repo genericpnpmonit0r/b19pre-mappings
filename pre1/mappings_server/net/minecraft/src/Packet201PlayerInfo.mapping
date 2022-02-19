@@ -6,7 +6,3 @@ CLASS dp net/minecraft/src/Packet201PlayerInfo
 		ARG 1 playername
 		ARG 2 connected
 		ARG 3 ping
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqf;)V
