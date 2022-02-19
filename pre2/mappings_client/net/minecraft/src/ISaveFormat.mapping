@@ -1,5 +1,5 @@
 CLASS il net/minecraft/src/ISaveFormat
-	METHOD a func_22178_a ()Ljava/lang/String;
+	METHOD a getSaveFormatName ()Ljava/lang/String;
 	METHOD a isOldMapFormat (Ljava/lang/String;)Z
 		ARG 1 worldName
 	METHOD a renameWorld (Ljava/lang/String;Ljava/lang/String;)V

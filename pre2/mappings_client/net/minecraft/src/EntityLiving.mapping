@@ -1,5 +1,6 @@
 CLASS xx net/minecraft/src/EntityLiving
 	FIELD a health I
+	FIELD ao jumpedDist I
 	FIELD ap currentTarget Llh;
 	FIELD bA maxHurtTime I
 	FIELD bB attackedAtYaw F
@@ -104,6 +105,7 @@ CLASS xx net/minecraft/src/EntityLiving
 	METHOD aF func_35159_aC ()F
 	METHOD aG clearActivePotions ()V
 	METHOD aH clearAllPotionEffects ()V
+	METHOD aI getActivePotionValues ()Ljava/util/Collection;
 	METHOD a_ getDropItemId ()I
 	METHOD a_ moveEntityWithHeading (FF)V
 		ARG 1 yaw

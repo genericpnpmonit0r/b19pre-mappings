@@ -11,6 +11,11 @@ CLASS dr net/minecraft/src/EntityBoat
 	FIELD c forwardDirection I
 	FIELD d boatPosRotationIncrements I
 	FIELD e boatX D
+	METHOD <init> (Ltd;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
 	METHOD a setVelocity (DDD)V
 	METHOD a setPositionAndRotation2 (DDDFFI)V
 	METHOD a attackEntityFrom (Ljz;I)Z

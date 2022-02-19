@@ -2,10 +2,10 @@ CLASS oi net/minecraft/src/EntityChicken
 	FIELD a field_753_a Z
 	FIELD ap field_755_h F
 	FIELD aq timeUntilNextEgg I
-	FIELD b field_752_b F
+	FIELD b curPos1 F
 	FIELD c destPos F
-	FIELD d field_757_d F
-	FIELD e field_756_e F
+	FIELD d prevPos F
+	FIELD e prevPos1 F
 	METHOD a fall (F)V
 	METHOD a readEntityFromNBT (Lyr;)V
 	METHOD a dropFewItems (Z)V

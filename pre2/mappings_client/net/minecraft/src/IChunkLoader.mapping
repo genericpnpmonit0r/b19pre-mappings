@@ -1,5 +1,5 @@
 CLASS qv net/minecraft/src/IChunkLoader
-	METHOD a func_814_a ()V
+	METHOD a chunkTick ()V
 	METHOD a loadChunk (Lti;II)Lxs;
 		ARG 1 world
 		ARG 2 x
