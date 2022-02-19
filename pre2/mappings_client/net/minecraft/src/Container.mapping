@@ -1,4 +1,10 @@
 CLASS cm net/minecraft/src/Container
+	FIELD a transactionID S
+	FIELD b playerList Ljava/util/Set;
+	FIELD d inventoryItemStacks Ljava/util/List;
+	FIELD e inventorySlots Ljava/util/List;
+	FIELD f windowId I
+	FIELD g crafters Ljava/util/List;
 	METHOD a updateCraftingResults ()V
 	METHOD a transferStackInSlot (I)Lwc;
 		ARG 1 slotIndex
@@ -32,7 +38,7 @@ CLASS cm net/minecraft/src/Container
 		ARG 1 contents
 	METHOD b getSlot (I)Lum;
 		ARG 1 slotIndex
-	METHOD b func_35373_b (IIZLuo;)V
+	METHOD b retrySlotClick (IIZLuo;)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 clickFlag
@@ -41,9 +47,3 @@ CLASS cm net/minecraft/src/Container
 		ARG 1 player
 	METHOD b doNothingWithShort2 (S)V
 		ARG 1 s
-	FIELD a transactionID S
-	FIELD b playerList Ljava/util/Set;
-	FIELD d inventoryItemStacks Ljava/util/List;
-	FIELD e inventorySlots Ljava/util/List;
-	FIELD f windowId I
-	FIELD g crafters Ljava/util/List;

@@ -1,4 +1,25 @@
 CLASS xs net/minecraft/src/Chunk
+	FIELD a isLit Z
+	FIELD b blocks [B
+	FIELD c precipitationHeightMap [I
+	FIELD d updateSkylightColumns [Z
+	FIELD e isChunkLoaded Z
+	FIELD f worldObj Lti;
+	FIELD g data Lob;
+	FIELD h skylightMap Lob;
+	FIELD i blocklightMap Lob;
+	FIELD j heightMap [B
+	FIELD k lowestBlockHeight I
+	FIELD l xPosition I
+	FIELD m zPosition I
+	FIELD n chunkTileEntityMap Ljava/util/Map;
+	FIELD o entities [Ljava/util/List;
+	FIELD p isTerrainPopulated Z
+	FIELD q isModified Z
+	FIELD r neverSave Z
+	FIELD s hasEntities Z
+	FIELD t lastSaveTime J
+	FIELD u sendUpdates Z
 	METHOD <init> (Lti;II)V
 		ARG 1 world
 		ARG 2 x
@@ -88,6 +109,7 @@ CLASS xs net/minecraft/src/Chunk
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+		ARG 4 meta
 	METHOD b removeEntity (Llh;)V
 		ARG 1 entity
 	METHOD c generateSkylightMap ()V
@@ -136,24 +158,3 @@ CLASS xs net/minecraft/src/Chunk
 	METHOD j updateSkylight ()V
 	METHOD k getChunkCoordIntPair ()Lpp;
 	METHOD l updateSkylight_do ()V
-	FIELD a isLit Z
-	FIELD b blocks [B
-	FIELD c precipitationHeightMap [I
-	FIELD d updateSkylightColumns [Z
-	FIELD e isChunkLoaded Z
-	FIELD f worldObj Lti;
-	FIELD g data Lob;
-	FIELD h skylightMap Lob;
-	FIELD i blocklightMap Lob;
-	FIELD j heightMap [B
-	FIELD k lowestBlockHeight I
-	FIELD l xPosition I
-	FIELD m zPosition I
-	FIELD n chunkTileEntityMap Ljava/util/Map;
-	FIELD o entities [Ljava/util/List;
-	FIELD p isTerrainPopulated Z
-	FIELD q isModified Z
-	FIELD r neverSave Z
-	FIELD s hasEntities Z
-	FIELD t lastSaveTime J
-	FIELD u sendUpdates Z

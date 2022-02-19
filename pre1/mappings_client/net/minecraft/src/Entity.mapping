@@ -231,7 +231,8 @@ CLASS le net/minecraft/src/Entity
 	METHOD f_ handleWaterMovement ()Z
 	METHOD g getDistance (DDD)D
 		ARG 1 x
-		ARG 3 z
+		ARG 3 y
+		ARG 5 z
 	METHOD g mountEntity (Lle;)V
 		ARG 1 entity
 	METHOD g_ getShadowSize ()F

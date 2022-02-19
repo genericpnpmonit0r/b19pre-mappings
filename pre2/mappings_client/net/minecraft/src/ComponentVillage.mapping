@@ -1,5 +1,6 @@
 CLASS acy net/minecraft/src/ComponentVillage
-	METHOD a func_40043_a (I)I
+	FIELD a villagersSpawned I
+	METHOD a getVillagerType (I)I
 		ARG 1 type
 	METHOD a getNextComponentNN (Lf;Ljava/util/List;Ljava/util/Random;II)Lfx;
 		ARG 1 startPiece
@@ -25,4 +26,3 @@ CLASS acy net/minecraft/src/ComponentVillage
 	METHOD b getAverageGroundLevel (Lti;Lns;)I
 		ARG 1 world
 		ARG 2 boundingBox
-	FIELD a villagersSpawned I
