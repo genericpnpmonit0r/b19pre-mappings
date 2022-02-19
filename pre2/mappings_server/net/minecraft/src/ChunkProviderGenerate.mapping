@@ -1,33 +1,4 @@
 CLASS vg net/minecraft/src/ChunkProviderGenerate
-	METHOD <init> (Lep;JZ)V
-		ARG 1 world
-		ARG 2 seed
-		ARG 4 featuresEnabledFlag
-	METHOD a unload100OldestChunks ()Z
-	METHOD a chunkExists (II)Z
-	METHOD a generateTerrain (II[B)V
-		ARG 1 x
-		ARG 2 z
-		ARG 3 blocks
-	METHOD a replaceBlocksForBiome (II[B[Lja;)V
-		ARG 1 x
-		ARG 2 z
-		ARG 3 blocks
-		ARG 4 biomes
-	METHOD a populate (Lcc;II)V
-	METHOD a getPossibleCreatures (Ljx;III)Ljava/util/List;
-	METHOD a saveChunks (ZLve;)Z
-	METHOD a initializeNoiseField ([DIIIIII)[D
-		ARG 1 noiseArray
-		ARG 2 offset1
-		ARG 3 offset2
-		ARG 4 offset3
-		ARG 5 x
-		ARG 6 y
-		ARG 7 z
-	METHOD b canSave ()Z
-	METHOD b provideChunk (II)Ljy;
-	METHOD c loadChunk (II)Ljy;
 	FIELD a noiseGen5 Lrc;
 	FIELD b noiseGen6 Lrc;
 	FIELD c mobSpawnerNoise Lrc;
@@ -53,3 +24,24 @@ CLASS vg net/minecraft/src/ChunkProviderGenerate
 	FIELD w caveGenerator Lfh;
 	FIELD x ravineGenerator Lfh;
 	FIELD y biomesForGeneration [Lja;
+	METHOD <init> (Lep;JZ)V
+		ARG 1 world
+		ARG 2 seed
+		ARG 4 featuresEnabledFlag
+	METHOD a generateTerrain (II[B)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+	METHOD a replaceBlocksForBiome (II[B[Lja;)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+		ARG 4 biomes
+	METHOD a initializeNoiseField ([DIIIIII)[D
+		ARG 1 noiseArray
+		ARG 2 offset1
+		ARG 3 offset2
+		ARG 4 offset3
+		ARG 5 x
+		ARG 6 y
+		ARG 7 z

@@ -1,25 +1,17 @@
 CLASS of net/minecraft/src/EntityPainting
-	METHOD <init> (Lep;IIII)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 type
-	METHOD a readEntityFromNBT (Llx;)V
-	METHOD a attackEntityFrom (Lny;I)Z
-	METHOD a_ moveEntity (DDD)V
-	METHOD b entityInit ()V
-	METHOD b addVelocity (DDD)V
-	METHOD b setDirection (I)V
-		ARG 1 direction
-	METHOD b writeEntityToNBT (Llx;)V
-	METHOD c func_180_c (I)F
-	METHOD d_ canBeCollidedWith ()Z
-	METHOD i canStay ()Z
-	METHOD s_ onUpdate ()V
 	FIELD a direction I
 	FIELD b xPosition I
 	FIELD c yPosition I
 	FIELD d zPosition I
 	FIELD e art Lhs;
 	FIELD f tickCounter1 I
+	METHOD <init> (Lep;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 type
+	METHOD b setDirection (I)V
+		ARG 1 direction
+	METHOD c func_180_c (I)F
+	METHOD i canStay ()Z

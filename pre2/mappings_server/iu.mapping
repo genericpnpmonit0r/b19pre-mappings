@@ -1,5 +1,1 @@
 CLASS iu
-	METHOD a isOpaqueCube ()Z
-	METHOD b isACube ()Z
-	METHOD c canPlaceBlockAt (Lep;III)Z
-	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;

@@ -1,8 +1,4 @@
 CLASS tk net/minecraft/src/ModelBiped
-	METHOD a renderEars (F)V
-	METHOD a setRotationAngles (FFFFFF)V
-	METHOD a render (Llh;FFFFFF)V
-	METHOD b renderCloak (F)V
 	FIELD c bipedHead Lnz;
 	FIELD d bipedHeadwear Lnz;
 	FIELD e bipedBody Lnz;
@@ -16,3 +12,5 @@ CLASS tk net/minecraft/src/ModelBiped
 	FIELD p heldItemRight I
 	FIELD q isSneak Z
 	FIELD r aimingBow Z
+	METHOD a renderEars (F)V
+	METHOD b renderCloak (F)V

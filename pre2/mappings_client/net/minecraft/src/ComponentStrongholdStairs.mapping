@@ -1,4 +1,6 @@
 CLASS fa net/minecraft/src/ComponentStrongholdStairs
+	FIELD a modeFlag Z
+	FIELD b doorType Lke;
 	METHOD <init> (ILjava/util/Random;II)V
 		ARG 1 type
 		ARG 2 rand
@@ -9,8 +11,4 @@ CLASS fa net/minecraft/src/ComponentStrongholdStairs
 		ARG 2 rand
 		ARG 3 boundingBox
 		ARG 4 coordBaseMode
-	METHOD a buildComponent (Lfx;Ljava/util/List;Ljava/util/Random;)V
 	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIIII)Lfa;
-	METHOD a addComponentParts (Lti;Ljava/util/Random;Lns;)Z
-	FIELD a modeFlag Z
-	FIELD b doorType Lke;

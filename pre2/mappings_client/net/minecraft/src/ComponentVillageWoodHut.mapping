@@ -1,12 +1,10 @@
 CLASS agh net/minecraft/src/ComponentVillageWoodHut
+	FIELD a averageGroundLevel I
+	FIELD b isTallHouse Z
+	FIELD c tablePosition I
 	METHOD <init> (ILjava/util/Random;Lns;I)V
 		ARG 1 type
 		ARG 2 rand
 		ARG 3 boundingBox
 		ARG 4 coordBaseMode
-	METHOD a buildComponent (Lfx;Ljava/util/List;Ljava/util/Random;)V
 	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lagh;
-	METHOD a addComponentParts (Lti;Ljava/util/Random;Lns;)Z
-	FIELD a averageGroundLevel I
-	FIELD b isTallHouse Z
-	FIELD c tablePosition I

@@ -4,6 +4,4 @@ CLASS vf net/minecraft/src/ComponentNetherBridgeCrossing2
 		ARG 2 rand
 		ARG 3 boundingBox
 		ARG 4 coordBaseMode
-	METHOD a func_35310_a (Lep;Ljava/util/Random;Lsz;)Z
-	METHOD a func_35308_a (Liw;Ljava/util/List;Ljava/util/Random;)V
 	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lvf;

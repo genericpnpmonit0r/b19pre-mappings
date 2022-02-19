@@ -1,10 +1,4 @@
 CLASS ud net/minecraft/src/GuiChat
-	METHOD a initGui ()V
-	METHOD a keyTyped (CI)V
-	METHOD a drawScreen (IIF)V
-	METHOD a mouseClicked (III)V
-	METHOD d onGuiClosed ()V
-	METHOD q_ updateScreen ()V
 	FIELD a message Ljava/lang/String;
 	FIELD b updateCounter I
 	FIELD c allowedCharacters Ljava/lang/String;

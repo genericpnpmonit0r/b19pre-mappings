@@ -1,4 +1,2 @@
 CLASS afz net/minecraft/src/RenderGiantZombie
-	METHOD a preRenderScale (Lip;F)V
-	METHOD a preRenderCallback (Lxx;F)V
 	FIELD c scale F

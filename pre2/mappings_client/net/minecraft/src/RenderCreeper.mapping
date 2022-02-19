@@ -1,9 +1,2 @@
 CLASS pz net/minecraft/src/RenderCreeper
-	METHOD a updateCreeperScale (Lub;F)V
-	METHOD a updateCreeperColorMultiplier (Lub;FF)I
-	METHOD a preRenderCallback (Lxx;F)V
-	METHOD a getColorMultiplier (Lxx;FF)I
-	METHOD a inheritRenderPass (Lxx;IF)Z
-	METHOD b func_27007_b (Lub;IF)Z
-	METHOD b shouldRenderPass (Lxx;IF)Z
 	FIELD c field_27008_a Lgf;

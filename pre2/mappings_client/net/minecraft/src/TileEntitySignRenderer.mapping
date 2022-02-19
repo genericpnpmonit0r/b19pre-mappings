@@ -1,4 +1,2 @@
 CLASS jo net/minecraft/src/TileEntitySignRenderer
-	METHOD a renderTileEntityAt (Lje;DDDF)V
-	METHOD a renderTileEntitySignAt (Lpj;DDDF)V
 	FIELD b signModel Labk;

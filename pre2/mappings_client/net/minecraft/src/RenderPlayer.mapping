@@ -1,21 +1,6 @@
 CLASS sl net/minecraft/src/RenderPlayer
-	METHOD a doRender (Llh;DDDFF)V
-	METHOD a renderName (Luo;DDD)V
-	METHOD a renderPlayer (Luo;DDDFF)V
-	METHOD a renderSpecials (Luo;F)V
-	METHOD a rotatePlayer (Luo;FFF)V
-	METHOD a setArmorModel (Luo;IF)Z
-	METHOD a renderLivingAt (Lxx;DDD)V
-	METHOD a doRenderLiving (Lxx;DDDFF)V
-	METHOD a preRenderCallback (Lxx;F)V
-	METHOD a rotateCorpse (Lxx;FFF)V
-	METHOD b drawFirstPersonHand ()V
-	METHOD b renderPlayerSleep (Luo;DDD)V
-	METHOD b renderPlayerScale (Luo;F)V
-	METHOD b passSpecialRender (Lxx;DDD)V
-	METHOD b renderEquippedItems (Lxx;F)V
-	METHOD b shouldRenderPass (Lxx;IF)Z
 	FIELD c modelBipedMain Ltk;
 	FIELD d modelArmorChestplate Ltk;
 	FIELD i modelArmor Ltk;
 	FIELD j armorFilenamePrefix [Ljava/lang/String;
+	METHOD b drawFirstPersonHand ()V

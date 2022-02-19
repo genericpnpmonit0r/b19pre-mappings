@@ -1,4 +1,8 @@
 CLASS ug net/minecraft/src/Packet28EntityVelocity
+	FIELD a entityId I
+	FIELD b motionX I
+	FIELD c motionY I
+	FIELD d motionZ I
 	METHOD <init> (IDDD)V
 		ARG 1 entityId
 		ARG 2 x
@@ -6,11 +10,3 @@ CLASS ug net/minecraft/src/Packet28EntityVelocity
 		ARG 6 z
 	METHOD <init> (Llh;)V
 		ARG 1 entity
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Llw;)V
-	FIELD a entityId I
-	FIELD b motionX I
-	FIELD c motionY I
-	FIELD d motionZ I

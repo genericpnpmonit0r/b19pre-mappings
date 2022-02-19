@@ -1,7 +1,2 @@
 CLASS aaw net/minecraft/src/J_JsonElementNodeSelector
-	METHOD a shortForm ()Ljava/lang/String;
-	METHOD a matchsNode_ (Ljava/util/List;)Z
-	METHOD b typeSafeApplyTo (Ljava/lang/Object;)Ljava/lang/Object;
-	METHOD b typeSafeApplyTo_ (Ljava/util/List;)Lee;
-	METHOD c matchsNode (Ljava/lang/Object;)Z
 	FIELD a index I

@@ -1,12 +1,8 @@
 CLASS tf net/minecraft/src/Packet71Weather
-	METHOD <init> (Llh;)V
-		ARG 1 entity
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Llw;)V
 	FIELD a entityID I
 	FIELD b posX I
 	FIELD c posY I
 	FIELD d posZ I
 	FIELD e isLightningBolt I
+	METHOD <init> (Llh;)V
+		ARG 1 entity

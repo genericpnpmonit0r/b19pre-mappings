@@ -1,2 +1,1 @@
 CLASS lv net/minecraft/src/EntityMooshroom
-	METHOD b interact (Luo;)Z

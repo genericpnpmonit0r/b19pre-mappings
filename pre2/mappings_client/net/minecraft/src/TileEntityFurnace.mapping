@@ -1,23 +1,11 @@
 CLASS acb net/minecraft/src/TileEntityFurnace
-	METHOD a getSizeInventory ()I
-	METHOD a decrStackSize (II)Lwc;
-	METHOD a setInventorySlotContents (ILwc;)V
-	METHOD a isUseableByPlayer (Luo;)Z
-	METHOD a getItemBurnTime (Lwc;)I
-	METHOD a readFromNBT (Lza;)V
-	METHOD b getCookProgressScaled (I)I
-	METHOD b writeToNBT (Lza;)V
-	METHOD c getInvName ()Ljava/lang/String;
-	METHOD c getBurnTimeRemainingScaled (I)I
-	METHOD d getInventoryStackLimit ()I
-	METHOD e openChest ()V
-	METHOD e_ getStackInSlot (I)Lwc;
-	METHOD f closeChest ()V
-	METHOD g isBurning ()Z
-	METHOD k_ updateEntity ()V
-	METHOD n smeltItem ()V
-	METHOD o canSmelt ()Z
 	FIELD a furnaceBurnTime I
 	FIELD b currentItemBurnTime I
 	FIELD c furnaceCookTime I
 	FIELD d furnaceItemStacks [Lwc;
+	METHOD a getItemBurnTime (Lwc;)I
+	METHOD b getCookProgressScaled (I)I
+	METHOD c getBurnTimeRemainingScaled (I)I
+	METHOD g isBurning ()Z
+	METHOD n smeltItem ()V
+	METHOD o canSmelt ()Z

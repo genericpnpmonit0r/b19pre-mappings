@@ -1,2 +1,1 @@
 CLASS tx net/minecraft/src/WorldGenCactus
-	METHOD a generate (Lti;Ljava/util/Random;III)Z

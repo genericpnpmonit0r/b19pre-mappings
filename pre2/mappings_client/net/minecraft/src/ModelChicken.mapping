@@ -1,6 +1,4 @@
 CLASS ack net/minecraft/src/ModelChicken
-	METHOD a setRotationAngles (FFFFFF)V
-	METHOD a render (Llh;FFFFFF)V
 	FIELD a head Lnz;
 	FIELD b body Lnz;
 	FIELD c rightLeg Lnz;

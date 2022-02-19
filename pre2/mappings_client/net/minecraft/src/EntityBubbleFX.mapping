@@ -1,2 +1,1 @@
 CLASS rw net/minecraft/src/EntityBubbleFX
-	METHOD x_ onUpdate ()V

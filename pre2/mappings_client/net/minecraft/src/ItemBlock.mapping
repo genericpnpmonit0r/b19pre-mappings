@@ -1,6 +1,3 @@
 CLASS rt net/minecraft/src/ItemBlock
-	METHOD a getItemNameIS (Lwc;)Ljava/lang/String;
-	METHOD a onItemUse (Lwc;Luo;Lti;IIII)Z
-	METHOD b getBlockID ()I
-	METHOD c getItemName ()Ljava/lang/String;
 	FIELD a blockID I
+	METHOD b getBlockID ()I

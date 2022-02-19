@@ -1,7 +1,1 @@
 CLASS kv net/minecraft/src/BlockTallGrass
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a harvestBlock (Lti;Luo;IIII)V
-	METHOD b colorMultiplier (Lafm;III)I
-	METHOD c getRenderColor (I)I
-	METHOD i getBlockColor ()I

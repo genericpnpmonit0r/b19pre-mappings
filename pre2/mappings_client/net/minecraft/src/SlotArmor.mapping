@@ -1,9 +1,7 @@
 CLASS aap net/minecraft/src/SlotArmor
+	FIELD e armorType I
+	FIELD f inventory Ls;
 	METHOD <init> (Ls;Lhc;IIII)V
 		ARG 1 playerInventory
 		ARG 2 inventory
 		ARG 6 type
-	METHOD b isItemValid (Lwc;)Z
-	METHOD d getSlotStackLimit ()I
-	FIELD e armorType I
-	FIELD f inventory Ls;

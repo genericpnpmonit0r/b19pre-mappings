@@ -1,3 +1,2 @@
 CLASS zi net/minecraft/src/J_JsonNumberNodeBuilder
-	METHOD b buildNode ()Lee;
 	FIELD a field_27239_a Lee;

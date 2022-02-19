@@ -1,13 +1,4 @@
 CLASS pa net/minecraft/src/EntityFX
-	METHOD a readEntityFromNBT (Lza;)V
-	METHOD a renderParticle (Lzd;FFFFFF)V
-	METHOD b entityInit ()V
-	METHOD b writeEntityToNBT (Lza;)V
-	METHOD d multiplyVelocity (F)Lpa;
-	METHOD e func_405_d (F)Lpa;
-	METHOD e_ canTriggerWalking ()Z
-	METHOD l getFXLayer ()I
-	METHOD x_ onUpdate ()V
 	FIELD ao particleMaxAge I
 	FIELD ap particleScale F
 	FIELD aq particleGravity F
@@ -21,3 +12,7 @@ CLASS pa net/minecraft/src/EntityFX
 	FIELD c particleTextureJitterX F
 	FIELD d particleTextureJitterY F
 	FIELD e particleAge I
+	METHOD a renderParticle (Lzd;FFFFFF)V
+	METHOD d multiplyVelocity (F)Lpa;
+	METHOD e func_405_d (F)Lpa;
+	METHOD l getFXLayer ()I

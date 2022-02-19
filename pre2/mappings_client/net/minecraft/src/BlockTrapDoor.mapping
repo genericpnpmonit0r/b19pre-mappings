@@ -1,24 +1,11 @@
 CLASS jb net/minecraft/src/BlockTrapDoor
-	METHOD a isOpaqueCube ()Z
-	METHOD a setBlockBoundsBasedOnState (Lafm;III)V
-	METHOD a onNeighborBlockChange (Lti;IIII)V
-	METHOD a collisionRayTrace (Lti;IIILba;Lba;)Lmz;
-	METHOD a onBlockClicked (Lti;IIILuo;)V
 	METHOD a onPoweredBlockChange (Lti;IIIZ)V
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 opened
-	METHOD b renderAsNormalBlock ()Z
-	METHOD b blockActivated (Lti;IIILuo;)Z
-	METHOD c getCollisionBoundingBoxFromPool (Lti;III)Ltb;
-	METHOD c onBlockPlaced (Lti;IIII)V
-	METHOD d getRenderType ()I
 	METHOD d isTrapdoorOpen (I)Z
 		ARG 0 state
-	METHOD d getSelectedBoundingBoxFromPool (Lti;III)Ltb;
-	METHOD d canPlaceBlockOnSide (Lti;IIII)Z
 	METHOD d_ setBlockBoundsForBlockRender (I)V
 		ARG 1 meta
-	METHOD h setBlockBoundsForItemRender ()V

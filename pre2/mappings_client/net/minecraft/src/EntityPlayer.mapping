@@ -1,145 +1,4 @@
 CLASS uo net/minecraft/src/EntityPlayer
-	METHOD C getEyeHeight ()F
-	METHOD I isEntityInsideOpaqueBlock ()Z
-	METHOD J updateRidden ()V
-	METHOD K getYOffset ()D
-	METHOD M setInPortal ()V
-	METHOD N updateCloak ()V
-	METHOD V closeScreen ()V
-	METHOD X respawnPlayer ()V
-	METHOD Y getItemInUse ()Lwc;
-	METHOD Z getItemInUseCount ()I
-	METHOD a handleHealthUpdate (B)V
-	METHOD a fall (F)V
-	METHOD a displayWorkbenchGUI (III)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD a displayGUIFurnace (Lacb;)V
-		ARG 1 furnace
-	METHOD a triggerAchievement (Laef;)V
-		ARG 1 statBase
-	METHOD a addStat (Laef;I)V
-		ARG 1 statBase
-		ARG 2 id
-	METHOD a displayGUIDispenser (Laq;)V
-		ARG 1 dispenser
-	METHOD a joinEntityItemWithWorld (Leq;)V
-		ARG 1 entityItem
-	METHOD a displayGUIChest (Lhc;)V
-		ARG 1 inventory
-	METHOD a onDeath (Lkc;)V
-	METHOD a attackEntityFrom (Lkc;I)Z
-	METHOD a addToPlayerScore (Llh;I)V
-	METHOD a getCurrentPlayerStrVsBlock (Lmq;)F
-		ARG 1 block
-	METHOD a displayGUIEditSign (Lpj;)V
-		ARG 1 sign
-	METHOD a setPlayerSpawnCoordinate (Lrc;)V
-		ARG 1 chunkCoords
-	METHOD a verifyRespawnCoordinates (Lti;Lrc;)Lrc;
-		ARG 0 world
-		ARG 1 chunkCoords
-	METHOD a func_36001_a (Luo;)I
-	METHOD a dropPlayerItem (Lwc;)V
-		ARG 1 itemStack
-	METHOD a updateItemUse (Lwc;I)V
-		ARG 1 itemStack
-		ARG 2 particleCounter
-	METHOD a dropPlayerItemWithRandomChoice (Lwc;Z)V
-		ARG 1 itemStack
-		ARG 2 useRand
-	METHOD a onKillEntity (Lxx;)V
-	METHOD a alertWolves (Lxx;Z)V
-		ARG 1 living
-		ARG 2 sitting
-	METHOD a readEntityFromNBT (Lza;)V
-	METHOD a wakeUpPlayer (ZZZ)V
-		ARG 1 resetSleepTimer
-		ARG 2 allPlayersSleeping
-		ARG 3 setSpawnChunk
-	METHOD aJ applyPotionDigSpeedEffects ()I
-	METHOD aK isInBed ()Z
-	METHOD aL increaseLevel ()V
-	METHOD a_ moveEntityWithHeading (FF)V
-	METHOD aa isUsingItem ()Z
-	METHOD ab getItemInUseDuration ()I
-	METHOD ac stopUsingItem ()V
-	METHOD ad clearItemInUse ()V
-	METHOD ae func_35162_ad ()Z
-	METHOD af onItemUseFinish ()V
-	METHOD ag isMovementBlocked ()Z
-	METHOD ah getScore ()I
-	METHOD ai dropCurrentItem ()V
-	METHOD aj isPVPEnabled ()Z
-	METHOD ak func_40119_ar ()I
-	METHOD al getCurrentEquippedItem ()Lwc;
-	METHOD am destroyCurrentEquippedItem ()V
-	METHOD an swingItem ()V
-	METHOD ao getBedOrientationInDegrees ()F
-	METHOD ap isPlayerSleeping ()Z
-	METHOD aq isPlayerFullyAsleep ()Z
-	METHOD ar getSleepTimer ()I
-	METHOD as getPlayerSpawnCoordinate ()Lrc;
-	METHOD at jump ()V
-	METHOD av getFoodStats ()Lla;
-	METHOD ax func_35163_av ()Z
-	METHOD b entityInit ()V
-	METHOD b setSpecialRenderXZ (I)V
-		ARG 1 specialRenderCase
-	METHOD b addChatMessage (Ljava/lang/String;)V
-		ARG 1 message
-	METHOD b damageEntity (Lkc;I)V
-	METHOD b onCriticalHit (Llh;)V
-		ARG 1 entity
-	METHOD b onItemPickup (Llh;I)V
-		ARG 1 entity
-		ARG 2 id
-	METHOD b canHarvestBlock (Lmq;)Z
-		ARG 1 block
-	METHOD b onItemStackChanged (Lwc;)V
-		ARG 1 itemStack
-	METHOD b getItemIcon (Lwc;I)I
-	METHOD b writeEntityToNBT (Lza;)V
-	METHOD b canEat (Z)Z
-		ARG 1 canEatToggle
-	METHOD c func_40125_g (I)V
-	METHOD c useCurrentItemOnEntity (Llh;)V
-		ARG 1 entity
-	METHOD c setItemInUse (Lwc;I)V
-		ARG 1 itemStack
-		ARG 2 count
-	METHOD d onLivingUpdate ()V
-	METHOD d addExhaustion (F)V
-		ARG 1 exhaustionAmount
-	METHOD d sleepInBedAt (III)Lbr;
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD e canPlayerEdit (III)Z
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD f increaseXP (I)V
-		ARG 1 xpAmount
-	METHOD h attackTargetEntityWithCurrentItem (Llh;)V
-		ARG 1 entity
-	METHOD i addMovementStat (DDD)V
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-	METHOD j addMountedMovementStat (DDD)V
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-	METHOD j collideWithPlayer (Llh;)V
-		ARG 1 entity
-	METHOD m_ updateEntityActionState ()V
-	METHOD q resetHeight ()V
-	METHOD r func_6420_o ()V
-	METHOD t preparePlayerToSpawn ()V
-	METHOD u setEntityDead ()V
-	METHOD x_ onUpdate ()V
 	FIELD aA isSwinging Z
 	FIELD aB swingProgressInt I
 	FIELD aC username Ljava/lang/String;
@@ -182,3 +41,113 @@ CLASS uo net/minecraft/src/EntityPlayer
 	FIELD c startMinecartRidingCoordinate Lrc;
 	FIELD d itemInUse Lwc;
 	FIELD e itemInUseCount I
+	METHOD V closeScreen ()V
+	METHOD X respawnPlayer ()V
+	METHOD Y getItemInUse ()Lwc;
+	METHOD Z getItemInUseCount ()I
+	METHOD a displayWorkbenchGUI (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a displayGUIFurnace (Lacb;)V
+		ARG 1 furnace
+	METHOD a triggerAchievement (Laef;)V
+		ARG 1 statBase
+	METHOD a addStat (Laef;I)V
+		ARG 1 statBase
+		ARG 2 id
+	METHOD a displayGUIDispenser (Laq;)V
+		ARG 1 dispenser
+	METHOD a joinEntityItemWithWorld (Leq;)V
+		ARG 1 entityItem
+	METHOD a displayGUIChest (Lhc;)V
+		ARG 1 inventory
+	METHOD a getCurrentPlayerStrVsBlock (Lmq;)F
+		ARG 1 block
+	METHOD a displayGUIEditSign (Lpj;)V
+		ARG 1 sign
+	METHOD a setPlayerSpawnCoordinate (Lrc;)V
+		ARG 1 chunkCoords
+	METHOD a verifyRespawnCoordinates (Lti;Lrc;)Lrc;
+		ARG 0 world
+		ARG 1 chunkCoords
+	METHOD a dropPlayerItem (Lwc;)V
+		ARG 1 itemStack
+	METHOD a updateItemUse (Lwc;I)V
+		ARG 1 itemStack
+		ARG 2 particleCounter
+	METHOD a dropPlayerItemWithRandomChoice (Lwc;Z)V
+		ARG 1 itemStack
+		ARG 2 useRand
+	METHOD a alertWolves (Lxx;Z)V
+		ARG 1 living
+		ARG 2 sitting
+	METHOD a wakeUpPlayer (ZZZ)V
+		ARG 1 resetSleepTimer
+		ARG 2 allPlayersSleeping
+		ARG 3 setSpawnChunk
+	METHOD aJ applyPotionDigSpeedEffects ()I
+	METHOD aK isInBed ()Z
+	METHOD aL increaseLevel ()V
+	METHOD aa isUsingItem ()Z
+	METHOD ab getItemInUseDuration ()I
+	METHOD ac stopUsingItem ()V
+	METHOD ad clearItemInUse ()V
+	METHOD af onItemUseFinish ()V
+	METHOD ah getScore ()I
+	METHOD ai dropCurrentItem ()V
+	METHOD aj isPVPEnabled ()Z
+	METHOD al getCurrentEquippedItem ()Lwc;
+	METHOD am destroyCurrentEquippedItem ()V
+	METHOD an swingItem ()V
+	METHOD ao getBedOrientationInDegrees ()F
+	METHOD aq isPlayerFullyAsleep ()Z
+	METHOD ar getSleepTimer ()I
+	METHOD as getPlayerSpawnCoordinate ()Lrc;
+	METHOD av getFoodStats ()Lla;
+	METHOD b setSpecialRenderXZ (I)V
+		ARG 1 specialRenderCase
+	METHOD b addChatMessage (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD b onCriticalHit (Llh;)V
+		ARG 1 entity
+	METHOD b onItemPickup (Llh;I)V
+		ARG 1 entity
+		ARG 2 id
+	METHOD b canHarvestBlock (Lmq;)Z
+		ARG 1 block
+	METHOD b onItemStackChanged (Lwc;)V
+		ARG 1 itemStack
+	METHOD b canEat (Z)Z
+		ARG 1 canEatToggle
+	METHOD c useCurrentItemOnEntity (Llh;)V
+		ARG 1 entity
+	METHOD c setItemInUse (Lwc;I)V
+		ARG 1 itemStack
+		ARG 2 count
+	METHOD d addExhaustion (F)V
+		ARG 1 exhaustionAmount
+	METHOD d sleepInBedAt (III)Lbr;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD e canPlayerEdit (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD f increaseXP (I)V
+		ARG 1 xpAmount
+	METHOD h attackTargetEntityWithCurrentItem (Llh;)V
+		ARG 1 entity
+	METHOD i addMovementStat (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD j addMountedMovementStat (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD j collideWithPlayer (Llh;)V
+		ARG 1 entity
+	METHOD q resetHeight ()V
+	METHOD r func_6420_o ()V

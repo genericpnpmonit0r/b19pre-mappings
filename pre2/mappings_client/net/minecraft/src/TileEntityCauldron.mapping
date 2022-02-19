@@ -4,8 +4,6 @@ CLASS yf net/minecraft/src/TileEntityCauldron
 	METHOD a hasLiquid ()Z
 	METHOD a itemStackUsedOnBlock (Lwc;)Z
 		ARG 1 itemStack
-	METHOD a readFromNBT (Lza;)V
-	METHOD b writeToNBT (Lza;)V
 	METHOD d resetLiquidData ()Z
 	METHOD e setLiquidLevels ()Z
 	METHOD f drecreaseLiquidLevel ()V

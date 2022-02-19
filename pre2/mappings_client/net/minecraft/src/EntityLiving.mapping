@@ -62,25 +62,15 @@ CLASS xx net/minecraft/src/EntityLiving
 	FIELD cf numTicksToChaseTarget I
 	FIELD d thePlayer Luo;
 	FIELD e field_34905_c I
-	METHOD C getEyeHeight ()F
-	METHOD F getEntityTexture ()Ljava/lang/String;
-	METHOD H isEntityAlive ()Z
-	METHOD J updateRidden ()V
-	METHOD L getLookVec ()Lba;
 	METHOD T getMaxSpawnedInChunk ()I
 	METHOD U getHeldItem ()Lwc;
-	METHOD a handleHealthUpdate (B)V
-	METHOD a setPositionAndRotation2 (DDDFFI)V
 	METHOD a rayTrace (DF)Lmz;
 		ARG 1 source
 		ARG 3 target
-	METHOD a fall (F)V
-	METHOD a setSize (FF)V
 	METHOD a addPotionEffect (Lafk;)V
 		ARG 1 potionEffect
 	METHOD a onDeath (Lkc;)V
 		ARG 1 damageSrc
-	METHOD a attackEntityFrom (Lkc;I)Z
 	METHOD a faceEntity (Llh;FF)V
 		ARG 1 entity
 		ARG 2 yaw
@@ -94,7 +84,6 @@ CLASS xx net/minecraft/src/EntityLiving
 		ARG 1 player
 	METHOD a isPotionActive (Lvt;)Z
 		ARG 1 potion
-	METHOD a readEntityFromNBT (Lza;)V
 	METHOD a dropFewItems (Z)V
 		ARG 1 itemBool
 	METHOD aA getHealth ()I
@@ -118,7 +107,6 @@ CLASS xx net/minecraft/src/EntityLiving
 	METHOD ax func_35163_av ()Z
 	METHOD ay playLivingSound ()V
 	METHOD az spawnExplosionParticle ()V
-	METHOD b entityInit ()V
 	METHOD b updateRotation (FFF)F
 		ARG 1 x
 		ARG 2 y
@@ -132,7 +120,6 @@ CLASS xx net/minecraft/src/EntityLiving
 		ARG 1 potion
 	METHOD b getItemIcon (Lwc;I)I
 		ARG 1 itemStack
-	METHOD b writeEntityToNBT (Lza;)V
 	METHOD b_ getCanSpawnHere ()Z
 	METHOD c getMaxHealth ()I
 	METHOD c damageArmor (I)V
@@ -142,14 +129,12 @@ CLASS xx net/minecraft/src/EntityLiving
 	METHOD c applyArmorCalculations (Lkc;I)I
 		ARG 1 damageSrc
 		ARG 2 amount
-	METHOD c_ canBeCollidedWith ()Z
 	METHOD d onLivingUpdate ()V
 	METHOD d onFinishedPotionEffect (Lafk;)V
 		ARG 1 potionEffect
 	METHOD d applyPotionDamageCalculations (Lkc;I)I
 		ARG 1 damageSrc
 		ARG 2 amount
-	METHOD d_ canBePushed ()Z
 	METHOD e getLivingSound ()Ljava/lang/String;
 	METHOD f getHurtSound ()Ljava/lang/String;
 	METHOD f getSwingProgress (F)F
@@ -167,7 +152,6 @@ CLASS xx net/minecraft/src/EntityLiving
 		ARG 1 index
 	METHOD i canEntityBeSeen (Llh;)Z
 		ARG 1 entity
-	METHOD j performHurtAnimation ()V
 	METHOD k getTalkInterval ()I
 	METHOD l canDespawn ()Z
 	METHOD m_ updateEntityActionState ()V
@@ -175,7 +159,4 @@ CLASS xx net/minecraft/src/EntityLiving
 	METHOD p_ canBreatheUnderwater ()Z
 	METHOD r_ getSoundVolume ()F
 	METHOD t_ applyMoveSpeedPotionEffectModifier ()F
-	METHOD v onEntityUpdate ()V
 	METHOD v_ getVerticalFaceSpeed ()I
-	METHOD x_ onUpdate ()V
-	METHOD y kill ()V

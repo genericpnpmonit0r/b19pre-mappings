@@ -1,15 +1,6 @@
 CLASS agf net/minecraft/src/BlockStep
+	FIELD a stepBlockTranslateNames [Ljava/lang/String;
+	FIELD b blockType Z
 	METHOD <init> (IZ)V
 		ARG 1 id
 		ARG 2 type
-	METHOD a isOpaqueCube ()Z
-	METHOD a getBlockTextureFromSide (I)I
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a shouldSideBeRendered (Lafm;IIII)Z
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD a onBlockAdded (Lti;III)V
-	METHOD b renderAsNormalBlock ()Z
-	METHOD b damageDropped (I)I
-	FIELD a stepBlockTranslateNames [Ljava/lang/String;
-	FIELD b blockType Z

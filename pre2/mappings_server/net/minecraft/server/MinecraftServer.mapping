@@ -1,4 +1,24 @@
 CLASS net/minecraft/server/MinecraftServer
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b hashmap Ljava/util/HashMap;
+	FIELD c networkServer Ldy;
+	FIELD d propertyManagerObj Loz;
+	FIELD e worldMngr [Lew;
+	FIELD f configManager Lgy;
+	FIELD g serverStopped Z
+	FIELD h deathTime I
+	FIELD i currentTask Ljava/lang/String;
+	FIELD j percentDone I
+	FIELD k entityTracker [Lsj;
+	FIELD l onlineMode Z
+	FIELD m spawnPeacefulMobs Z
+	FIELD n pvpOn Z
+	FIELD o allowFlight Z
+	FIELD p serverMOTD Ljava/lang/String;
+	FIELD q commandHandler Lqj;
+	FIELD r serverRunning Z
+	FIELD s playerList Ljava/util/List;
+	FIELD t commands Ljava/util/List;
 	METHOD a initiateShutdown ()V
 	METHOD a getWorldManager (I)Lew;
 		ARG 1 dimension
@@ -20,34 +40,12 @@ CLASS net/minecraft/server/MinecraftServer
 	METHOD b commandLineParser ()V
 	METHOD b getEntityTracker (I)Lsj;
 		ARG 1 dimension
-	METHOD b log (Ljava/lang/String;)V
 	METHOD c startServer ()Z
 	METHOD c logWarning (Ljava/lang/String;)V
 		ARG 1 str
-	METHOD d getUsername ()Ljava/lang/String;
 	METHOD e clearCurrentTask ()V
 	METHOD f saveServerWorld ()V
 	METHOD g stopServer ()V
 	METHOD h doTick ()V
 	METHOD main ([Ljava/lang/String;)V
 		ARG 0 args
-	FIELD a logger Ljava/util/logging/Logger;
-	FIELD b hashmap Ljava/util/HashMap;
-	FIELD c networkServer Ldy;
-	FIELD d propertyManagerObj Loz;
-	FIELD e worldMngr [Lew;
-	FIELD f configManager Lgy;
-	FIELD g serverStopped Z
-	FIELD h deathTime I
-	FIELD i currentTask Ljava/lang/String;
-	FIELD j percentDone I
-	FIELD k entityTracker [Lsj;
-	FIELD l onlineMode Z
-	FIELD m spawnPeacefulMobs Z
-	FIELD n pvpOn Z
-	FIELD o allowFlight Z
-	FIELD p serverMOTD Ljava/lang/String;
-	FIELD q commandHandler Lqj;
-	FIELD r serverRunning Z
-	FIELD s playerList Ljava/util/List;
-	FIELD t commands Ljava/util/List;

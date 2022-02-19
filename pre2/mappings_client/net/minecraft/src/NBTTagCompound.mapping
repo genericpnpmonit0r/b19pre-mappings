@@ -1,7 +1,5 @@
 CLASS za net/minecraft/src/NBTTagCompound
-	METHOD a getType ()B
-	METHOD a readTagContents (Ljava/io/DataInput;)V
-	METHOD a writeTagContents (Ljava/io/DataOutput;)V
+	FIELD a tagMap Ljava/util/Map;
 	METHOD a setByte (Ljava/lang/String;B)V
 		ARG 1 key
 		ARG 2 value
@@ -60,4 +58,3 @@ CLASS za net/minecraft/src/NBTTagCompound
 		ARG 1 key
 	METHOD m getBoolean (Ljava/lang/String;)Z
 		ARG 1 key
-	FIELD a tagMap Ljava/util/Map;

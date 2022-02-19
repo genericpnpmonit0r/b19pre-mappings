@@ -1,6 +1,5 @@
 CLASS cx net/minecraft/src/WorldGenDungeons
 	METHOD a pickChestLootItem (Ljava/util/Random;)Lwc;
 		ARG 1 rand
-	METHOD a generate (Lti;Ljava/util/Random;III)Z
 	METHOD b pickMobSpawner (Ljava/util/Random;)Ljava/lang/String;
 		ARG 1 rand

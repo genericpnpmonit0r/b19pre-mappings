@@ -2,14 +2,7 @@ CLASS ads net/minecraft/src/BlockFenceGate
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 material
-	METHOD a isOpaqueCube ()Z
-	METHOD a onBlockPlacedBy (Lti;IIILxx;)V
-	METHOD b renderAsNormalBlock ()Z
-	METHOD b blockActivated (Lti;IIILuo;)Z
-	METHOD c getCollisionBoundingBoxFromPool (Lti;III)Ltb;
-	METHOD d getRenderType ()I
 	METHOD d isFenceGateOpen (I)Z
 		ARG 0 meta
-	METHOD e canPlaceBlockAt (Lti;III)Z
 	METHOD f getFenceGateState (I)I
 		ARG 0 meta

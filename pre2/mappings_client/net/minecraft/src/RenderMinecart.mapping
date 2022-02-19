@@ -1,4 +1,2 @@
 CLASS ach net/minecraft/src/RenderMinecart
-	METHOD a func_152_a (Laga;DDDFF)V
-	METHOD a doRender (Llh;DDDFF)V
 	FIELD a modelMinecart Lgf;

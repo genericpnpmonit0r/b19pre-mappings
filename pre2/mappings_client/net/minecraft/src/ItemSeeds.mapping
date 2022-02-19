@@ -1,8 +1,7 @@
 CLASS kr net/minecraft/src/ItemSeeds
+	FIELD a blockType I
+	FIELD b blockTypeToSet I
 	METHOD <init> (III)V
 		ARG 1 id
 		ARG 2 blockType
 		ARG 3 blockTypeToSet
-	METHOD a onItemUse (Lwc;Luo;Lti;IIII)Z
-	FIELD a blockType I
-	FIELD b blockTypeToSet I

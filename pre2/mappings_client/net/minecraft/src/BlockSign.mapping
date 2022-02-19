@@ -1,16 +1,7 @@
 CLASS mi net/minecraft/src/BlockSign
+	FIELD a signEntityClass Ljava/lang/Class;
+	FIELD b isFreestanding Z
 	METHOD <init> (ILjava/lang/Class;Z)V
 		ARG 1 id
 		ARG 2 signEntityClass
 		ARG 3 isFreestanding
-	METHOD a isOpaqueCube ()Z
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a setBlockBoundsBasedOnState (Lafm;III)V
-	METHOD a onNeighborBlockChange (Lti;IIII)V
-	METHOD b renderAsNormalBlock ()Z
-	METHOD c getCollisionBoundingBoxFromPool (Lti;III)Ltb;
-	METHOD d getRenderType ()I
-	METHOD d getSelectedBoundingBoxFromPool (Lti;III)Ltb;
-	METHOD o_ getBlockEntity ()Lje;
-	FIELD a signEntityClass Ljava/lang/Class;
-	FIELD b isFreestanding Z

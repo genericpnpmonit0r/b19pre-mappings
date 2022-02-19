@@ -1,14 +1,5 @@
 CLASS uq net/minecraft/src/EntityMob
+	FIELD c attackStrength I
 	METHOD Y getOnFire ()Z
-	METHOD a getBlockPathWeight (III)F
-	METHOD a attackEntityFrom (Lkc;I)Z
-	METHOD a attackEntity (Llh;F)V
-	METHOD a readEntityFromNBT (Lza;)V
 	METHOD b attackEntityAsMob (Llh;)Z
 		ARG 1 entity
-	METHOD b writeEntityToNBT (Lza;)V
-	METHOD b_ getCanSpawnHere ()Z
-	METHOD d onLivingUpdate ()V
-	METHOD i findPlayerToAttack ()Llh;
-	METHOD x_ onUpdate ()V
-	FIELD c attackStrength I

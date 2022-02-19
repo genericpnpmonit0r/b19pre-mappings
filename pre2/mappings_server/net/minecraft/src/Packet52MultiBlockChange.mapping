@@ -1,17 +1,13 @@
 CLASS uf net/minecraft/src/Packet52MultiBlockChange
-	METHOD <init> (II[SILep;)V
-		ARG 1 x
-		ARG 2 z
-		ARG 3 blocks
-		ARG 4 size
-		ARG 5 world
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqk;)V
 	FIELD a xPosition I
 	FIELD b zPosition I
 	FIELD c coordinateArray [S
 	FIELD d typeArray [B
 	FIELD e metadataArray [B
 	FIELD f size I
+	METHOD <init> (II[SILep;)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+		ARG 4 size
+		ARG 5 world

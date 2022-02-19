@@ -1,8 +1,5 @@
 CLASS ck net/minecraft/src/ConvertProgressUpdater
-	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
-		ARG 1 minecraftServer
-	METHOD a setLoadingProgress (I)V
-	METHOD a displaySavingString (Ljava/lang/String;)V
-	METHOD b displayLoadingString (Ljava/lang/String;)V
 	FIELD a mcServer Lnet/minecraft/server/MinecraftServer;
 	FIELD b lastTimeMillis J
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 minecraftServer

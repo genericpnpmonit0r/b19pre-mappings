@@ -1,4 +1,5 @@
 CLASS vi net/minecraft/src/ItemDoor
+	FIELD a doorMaterial Lxu;
 	METHOD <init> (ILxu;)V
 		ARG 1 id
 		ARG 2 material
@@ -9,5 +10,3 @@ CLASS vi net/minecraft/src/ItemDoor
 		ARG 3 z
 		ARG 4 side
 		ARG 5 block
-	METHOD a onItemUse (Lwc;Luo;Lti;IIII)Z
-	FIELD a doorMaterial Lxu;

@@ -1,9 +1,2 @@
 CLASS sf net/minecraft/src/RenderSilverfish
-	METHOD a doRender (Llh;DDDFF)V
-	METHOD a getSilverfishDeathRotation (Lnx;)F
-	METHOD a renderSilverfish (Lnx;DDDFF)V
-	METHOD a shouldSilverfishRenderPass (Lnx;IF)Z
-	METHOD a getDeathMaxRotation (Lxx;)F
-	METHOD a doRenderLiving (Lxx;DDDFF)V
-	METHOD b shouldRenderPass (Lxx;IF)Z
 	FIELD c field_35450_c I

@@ -1,6 +1,1 @@
 CLASS kl net/minecraft/src/ItemBow
-	METHOD a onItemRightClick (Lwc;Lti;Luo;)Lwc;
-	METHOD a onPlayerStoppedUsing (Lwc;Lti;Luo;I)V
-	METHOD b getMaxItemUseDuration (Lwc;)I
-	METHOD b onFoodEaten (Lwc;Lti;Luo;)Lwc;
-	METHOD c getItemUseAction (Lwc;)Lwe;

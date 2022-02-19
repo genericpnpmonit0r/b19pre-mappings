@@ -1,6 +1,3 @@
 CLASS tw net/minecraft/src/BlockGrass
 	METHOD <init> (I)V
 		ARG 1 id
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a updateTick (Lep;IIILjava/util/Random;)V

@@ -1,8 +1,4 @@
 CLASS ni net/minecraft/src/J_JsonConstants
-	METHOD a getType ()Lqp;
-	METHOD b getText ()Ljava/lang/String;
-	METHOD c getFields ()Ljava/util/Map;
-	METHOD d getElements ()Ljava/util/List;
 	FIELD a NULL Lni;
 	FIELD b TRUE Lni;
 	FIELD c FALSE Lni;

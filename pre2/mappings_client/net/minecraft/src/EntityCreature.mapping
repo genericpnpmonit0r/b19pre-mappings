@@ -18,8 +18,5 @@ CLASS vp net/minecraft/src/EntityCreature
 	METHOD b attackBlockedEntity (Llh;F)V
 		ARG 1 entity
 		ARG 2 amount
-	METHOD b_ getCanSpawnHere ()Z
 	METHOD h setEntityToAttack (Llh;)V
 	METHOD i findPlayerToAttack ()Llh;
-	METHOD m_ updateEntityActionState ()V
-	METHOD t_ applyMoveSpeedPotionEffectModifier ()F

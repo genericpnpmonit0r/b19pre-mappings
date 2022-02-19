@@ -3,4 +3,3 @@ CLASS is net/minecraft/src/TexturePotionFluidFX
 	FIELD b green [F
 	FIELD c blue [F
 	FIELD d alpha [F
-	METHOD a onTick ()V

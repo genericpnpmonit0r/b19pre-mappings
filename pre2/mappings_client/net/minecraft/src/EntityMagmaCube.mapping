@@ -1,19 +1,1 @@
 CLASS acv net/minecraft/src/EntityMagmaCube
-	METHOD D handleLavaMovement ()Z
-	METHOD O isBurning ()Z
-	METHOD V getSlimeParticle ()Ljava/lang/String;
-	METHOD X newSlime ()Ladp;
-	METHOD Y getJumpDelay ()I
-	METHOD Z setSizeSmallM ()V
-	METHOD a fall (F)V
-	METHOD a_ getDropItemId ()I
-	METHOD aa getSlimeSizeGreaterThan1 ()Z
-	METHOD ab getSlimeSize_do ()I
-	METHOD ac getSlimeSound ()Ljava/lang/String;
-	METHOD ak func_40119_ar ()I
-	METHOD at jump ()V
-	METHOD b getEntityBrightness (F)F
-	METHOD b_ getCanSpawnHere ()Z
-	METHOD c getEntityBrightnessForRender (F)I
-	METHOD f getHurtSound ()Ljava/lang/String;
-	METHOD g getDeathSound ()Ljava/lang/String;

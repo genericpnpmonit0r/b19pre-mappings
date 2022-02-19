@@ -1,10 +1,4 @@
 CLASS lk net/minecraft/src/BlockCrops
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a dropBlockAsItemWithChance (Lep;IIIIF)V
-	METHOD a updateTick (Lep;IIILjava/util/Random;)V
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD c canThisPlantGrowOnThisBlockID (I)Z
 	METHOD g fertilize (Lep;III)V
 		ARG 1 world
 		ARG 2 x

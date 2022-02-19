@@ -1,15 +1,11 @@
 CLASS qz net/minecraft/src/Packet53BlockChange
-	METHOD <init> (IIILep;)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-		ARG 4 world
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqk;)V
 	FIELD a xPosition I
 	FIELD b yPosition I
 	FIELD c zPosition I
 	FIELD d type I
 	FIELD e metadata I
+	METHOD <init> (IIILep;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 world

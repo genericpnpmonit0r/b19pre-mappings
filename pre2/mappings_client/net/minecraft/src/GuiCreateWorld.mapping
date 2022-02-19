@@ -1,17 +1,4 @@
 CLASS tl net/minecraft/src/GuiCreateWorld
-	METHOD a initGui ()V
-	METHOD a keyTyped (CI)V
-	METHOD a drawScreen (IIF)V
-	METHOD a mouseClicked (III)V
-	METHOD a generateUnusedFolderName (Lil;Ljava/lang/String;)Ljava/lang/String;
-		ARG 0 saveFormat
-		ARG 1 worldName
-	METHOD a actionPerformed (Lxb;)V
-	METHOD c makeUseableName ()V
-	METHOD d onGuiClosed ()V
-	METHOD g func_35363_g ()V
-	METHOD l selectNextField ()V
-	METHOD q_ updateScreen ()V
 	FIELD a parentGuiScreen Lsc;
 	FIELD b guiTextFieldWorldName Labq;
 	FIELD c guiTextFieldSeed Labq;
@@ -26,3 +13,8 @@ CLASS tl net/minecraft/src/GuiCreateWorld
 	FIELD u mapTypeButton Lxb;
 	FIELD v gameModeString1 Ljava/lang/String;
 	FIELD w gameModeString2 Ljava/lang/String;
+	METHOD a generateUnusedFolderName (Lil;Ljava/lang/String;)Ljava/lang/String;
+		ARG 0 saveFormat
+		ARG 1 worldName
+	METHOD c makeUseableName ()V
+	METHOD g func_35363_g ()V

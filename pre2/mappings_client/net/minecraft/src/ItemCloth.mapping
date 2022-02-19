@@ -1,4 +1,1 @@
 CLASS qy net/minecraft/src/ItemCloth
-	METHOD a getItemNameIS (Lwc;)Ljava/lang/String;
-	METHOD b getIconFromDamage (I)I
-	METHOD c getPlacedBlockMetadata (I)I

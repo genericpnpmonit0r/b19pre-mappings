@@ -1,6 +1,1 @@
 CLASS rq net/minecraft/src/GuiGameOver
-	METHOD a initGui ()V
-	METHOD a keyTyped (CI)V
-	METHOD a drawScreen (IIF)V
-	METHOD a actionPerformed (Lxb;)V
-	METHOD e doesGuiPauseGame ()Z

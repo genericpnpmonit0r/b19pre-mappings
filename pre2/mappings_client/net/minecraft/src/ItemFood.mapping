@@ -1,4 +1,13 @@
 CLASS agi net/minecraft/src/ItemFood
+	FIELD a maxItemUseDuration I
+	FIELD b healAmount I
+	FIELD bO isWolfsFavoriteMeat Z
+	FIELD bP isEating Z
+	FIELD bQ potionId I
+	FIELD bR potionDuration I
+	FIELD bS potionAmplifier I
+	FIELD bT potionEffectProbability F
+	FIELD c saturationModifier F
 	METHOD <init> (IIFZ)V
 		ARG 1 id
 		ARG 2 healAmount
@@ -13,21 +22,7 @@ CLASS agi net/minecraft/src/ItemFood
 		ARG 2 duration
 		ARG 3 amplifier
 		ARG 4 probability
-	METHOD a setItemName (Ljava/lang/String;)Luk;
-	METHOD a onItemRightClick (Lwc;Lti;Luo;)Lwc;
-	METHOD b getMaxItemUseDuration (Lwc;)I
-	METHOD b onFoodEaten (Lwc;Lti;Luo;)Lwc;
-	METHOD c getItemUseAction (Lwc;)Lwe;
 	METHOD n getHealAmount ()I
 	METHOD o getSaturationModifier ()F
 	METHOD p getIsWolfsFavoriteMeat ()Z
 	METHOD q getIsEating ()Lagi;
-	FIELD a maxItemUseDuration I
-	FIELD b healAmount I
-	FIELD bO isWolfsFavoriteMeat Z
-	FIELD bP isEating Z
-	FIELD bQ potionId I
-	FIELD bR potionDuration I
-	FIELD bS potionAmplifier I
-	FIELD bT potionEffectProbability F
-	FIELD c saturationModifier F

@@ -1,10 +1,8 @@
 CLASS mc net/minecraft/src/ComponentStrongholdStairsStraight
+	FIELD a randomDoor Lob;
 	METHOD <init> (ILjava/util/Random;Lsz;I)V
 		ARG 1 type
 		ARG 2 rand
 		ARG 3 boundingBox
 		ARG 4 coordBaseMode
-	METHOD a func_35310_a (Lep;Ljava/util/Random;Lsz;)Z
-	METHOD a func_35308_a (Liw;Ljava/util/List;Ljava/util/Random;)V
 	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIIII)Lmc;
-	FIELD a randomDoor Lob;

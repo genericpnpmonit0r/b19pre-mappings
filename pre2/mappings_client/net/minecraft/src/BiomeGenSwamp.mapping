@@ -1,4 +1,1 @@
 CLASS acn net/minecraft/src/BiomeGenSwamp
-	METHOD a func_40254_a (Lafm;III)I
-	METHOD a getRandomWorldGenForTrees (Ljava/util/Random;)Ljm;
-	METHOD b func_40255_b (Lafm;III)I

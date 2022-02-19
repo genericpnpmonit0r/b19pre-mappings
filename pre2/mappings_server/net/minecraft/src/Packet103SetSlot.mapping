@@ -1,12 +1,8 @@
 CLASS ha net/minecraft/src/Packet103SetSlot
+	FIELD a windowId I
+	FIELD b itemSlot I
+	FIELD c myItemStack Lia;
 	METHOD <init> (IILia;)V
 		ARG 1 wid
 		ARG 2 slotIndex
 		ARG 3 ItemStack
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqk;)V
-	FIELD a windowId I
-	FIELD b itemSlot I
-	FIELD c myItemStack Lia;

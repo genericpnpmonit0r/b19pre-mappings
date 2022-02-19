@@ -1,6 +1,4 @@
 CLASS uw net/minecraft/src/ModelCow
-	METHOD a setRotationAngles (FFFFFF)V
-	METHOD a render (Llh;FFFFFF)V
 	FIELD a udders Lnz;
 	FIELD k horn1 Lnz;
 	FIELD l horn2 Lnz;

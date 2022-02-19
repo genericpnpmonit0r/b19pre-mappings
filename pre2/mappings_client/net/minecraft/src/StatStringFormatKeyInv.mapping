@@ -1,3 +1,2 @@
 CLASS gb net/minecraft/src/StatStringFormatKeyInv
-	METHOD a formatString (Ljava/lang/String;)Ljava/lang/String;
 	FIELD a mc Lnet/minecraft/client/Minecraft;

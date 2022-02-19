@@ -1,8 +1,7 @@
 CLASS qs net/minecraft/src/SaveFormatOld
+	FIELD a savesDirectory Ljava/io/File;
 	METHOD <init> (Ljava/io/File;)V
 		ARG 1 file
-	METHOD a isOldSaveType (Ljava/lang/String;)Z
-	METHOD a convertMapFormat (Ljava/lang/String;Lve;)Z
 	METHOD a getSaveLoader (Ljava/lang/String;Z)Lub;
 		ARG 1 worldName
 		ARG 2 isNew
@@ -10,4 +9,3 @@ CLASS qs net/minecraft/src/SaveFormatOld
 		ARG 0 files
 	METHOD b getWorldInfo (Ljava/lang/String;)Ldx;
 		ARG 1 name
-	FIELD a savesDirectory Ljava/io/File;

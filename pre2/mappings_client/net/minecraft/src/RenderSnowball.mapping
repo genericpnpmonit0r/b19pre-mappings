@@ -1,3 +1,2 @@
 CLASS bz net/minecraft/src/RenderSnowball
-	METHOD a doRender (Llh;DDDFF)V
 	FIELD a itemIconIndex I

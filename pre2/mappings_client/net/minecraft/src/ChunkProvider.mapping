@@ -1,27 +1,4 @@
 CLASS ix net/minecraft/src/ChunkProvider
-	METHOD <init> (Lti;Lqv;Lbh;)V
-		ARG 1 world
-		ARG 2 chunkLoader
-		ARG 3 chunkProvider
-	METHOD a unload100OldestChunks ()Z
-	METHOD a chunkExists (II)Z
-	METHOD a populate (Lbh;II)V
-	METHOD a getPossibleCreatures (Lxq;III)Ljava/util/List;
-	METHOD a unloadAndSaveChunkData (Lxs;)V
-		ARG 1 chunk
-	METHOD a saveChunks (ZLpd;)Z
-	METHOD b canSave ()Z
-	METHOD b provideChunk (II)Lxs;
-	METHOD b unloadAndSaveChunk (Lxs;)V
-		ARG 1 chbunk
-	METHOD c makeString ()Ljava/lang/String;
-	METHOD c loadChunk (II)Lxs;
-	METHOD d dropChunk (II)V
-		ARG 1 x
-		ARG 2 z
-	METHOD e loadChunkFromFile (II)Lxs;
-		ARG 1 x
-		ARG 2 z
 	FIELD a droppedChunksSet Ljava/util/Set;
 	FIELD b emptyChunk Lxs;
 	FIELD c chunkProvider Lbh;
@@ -30,3 +7,17 @@ CLASS ix net/minecraft/src/ChunkProvider
 	FIELD f chunkList Ljava/util/List;
 	FIELD g worldObj Lti;
 	FIELD h field_35392_h I
+	METHOD <init> (Lti;Lqv;Lbh;)V
+		ARG 1 world
+		ARG 2 chunkLoader
+		ARG 3 chunkProvider
+	METHOD a unloadAndSaveChunkData (Lxs;)V
+		ARG 1 chunk
+	METHOD b unloadAndSaveChunk (Lxs;)V
+		ARG 1 chbunk
+	METHOD d dropChunk (II)V
+		ARG 1 x
+		ARG 2 z
+	METHOD e loadChunkFromFile (II)Lxs;
+		ARG 1 x
+		ARG 2 z

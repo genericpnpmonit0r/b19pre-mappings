@@ -1,15 +1,2 @@
 CLASS bk net/minecraft/src/EntitySpider
-	METHOD a attackEntity (Llh;F)V
-	METHOD a readEntityFromNBT (Lza;)V
-	METHOD a dropFewItems (Z)V
-	METHOD a_ getDropItemId ()I
-	METHOD b writeEntityToNBT (Lza;)V
-	METHOD e getLivingSound ()Ljava/lang/String;
-	METHOD e_ canTriggerWalking ()Z
-	METHOD f getHurtSound ()Ljava/lang/String;
-	METHOD g getDeathSound ()Ljava/lang/String;
-	METHOD i findPlayerToAttack ()Llh;
-	METHOD m getMountedYOffset ()D
-	METHOD n isOnLadder ()Z
-	METHOD o setInWeb ()V
 	METHOD p spiderScaleAmount ()F

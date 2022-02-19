@@ -1,8 +1,4 @@
 CLASS ww net/minecraft/src/Packet17Sleep
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Llw;)V
 	FIELD a entityID I
 	FIELD b bedX I
 	FIELD c bedY I

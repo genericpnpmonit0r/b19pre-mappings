@@ -1,6 +1,4 @@
 CLASS lp net/minecraft/src/J_JsonObjectNodeBuilder
-	METHOD a func_27235_a ()Ljy;
+	FIELD a field_27238_a Ljava/util/List;
 	METHOD a withFieldBuilder (Laak;)Llp;
 	METHOD a func_27236_a (Llp;)Ljava/util/List;
-	METHOD b buildNode ()Lee;
-	FIELD a field_27238_a Ljava/util/List;

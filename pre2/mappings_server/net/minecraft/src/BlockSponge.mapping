@@ -1,5 +1,3 @@
 CLASS um net/minecraft/src/BlockSponge
 	METHOD <init> (I)V
 		ARG 1 is
-	METHOD a onBlockAdded (Lep;III)V
-	METHOD d onBlockRemoval (Lep;III)V

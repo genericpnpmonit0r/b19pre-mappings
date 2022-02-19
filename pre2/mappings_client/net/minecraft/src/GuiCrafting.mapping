@@ -5,6 +5,3 @@ CLASS zp net/minecraft/src/GuiCrafting
 		ARG 3 x
 		ARG 4 y
 		ARG 5 z
-	METHOD a drawGuiContainerBackgroundLayer (F)V
-	METHOD c drawGuiContainerForegroundLayer ()V
-	METHOD d onGuiClosed ()V

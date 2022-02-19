@@ -1,14 +1,1 @@
 CLASS bb
-	METHOD a getBlockPathWeight (III)F
-	METHOD a getExperiencePoints (Lgb;)I
-	METHOD a readEntityFromNBT (Llx;)V
-	METHOD a attackEntityFrom (Lny;I)Z
-	METHOD a attackEntity (Lpu;F)V
-	METHOD b interact (Lgb;)Z
-	METHOD b writeEntityToNBT (Llx;)V
-	METHOD b attackBlockedEntity (Lpu;F)V
-	METHOD d onLivingUpdate ()V
-	METHOD j getCanSpawnHere ()Z
-	METHOD k getTalkInterval ()I
-	METHOD l canDespawn ()Z
-	METHOD m findPlayerToAttack ()Lpu;

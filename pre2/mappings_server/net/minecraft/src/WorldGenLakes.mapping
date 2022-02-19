@@ -1,5 +1,4 @@
 CLASS cz net/minecraft/src/WorldGenLakes
+	FIELD a blockIndex I
 	METHOD <init> (I)V
 		ARG 1 index
-	METHOD a generate (Lep;Ljava/util/Random;III)Z
-	FIELD a blockIndex I

@@ -1,8 +1,1 @@
 CLASS aeo net/minecraft/src/WorldProviderHell
-	METHOD a registerWorldChunkManager ()V
-	METHOD a canCoordinateBeSpawn (II)Z
-	METHOD a calculateCelestialAngle (JF)F
-	METHOD b getChunkProvider ()Lbh;
-	METHOD b getFogColor (FF)Lba;
-	METHOD e generateLightBrightnessTable ()V
-	METHOD f canRespawnHere ()Z

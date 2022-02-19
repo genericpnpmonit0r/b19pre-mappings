@@ -1,2 +1,1 @@
 CLASS sy net/minecraft/src/ModelZombie
-	METHOD a setRotationAngles (FFFFFF)V

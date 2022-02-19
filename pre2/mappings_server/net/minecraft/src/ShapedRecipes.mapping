@@ -1,16 +1,12 @@
 CLASS hw net/minecraft/src/ShapedRecipes
-	METHOD <init> (II[Lia;Lia;)V
-		ARG 1 width
-		ARG 2 height
-		ARG 3 items
-		ARG 4 output
-	METHOD a getRecipeSize ()I
-	METHOD a matches (Lku;)Z
-	METHOD a checkItemDamaged (Lku;IIZ)Z
-	METHOD b getRecipeOutput ()Lia;
-	METHOD b getCraftingResult (Lku;)Lia;
 	FIELD a recipeOutputItemID I
 	FIELD b recipeWidth I
 	FIELD c recipeHeight I
 	FIELD d recipeItems [Lia;
 	FIELD e recipeOutput Lia;
+	METHOD <init> (II[Lia;Lia;)V
+		ARG 1 width
+		ARG 2 height
+		ARG 3 items
+		ARG 4 output
+	METHOD a checkItemDamaged (Lku;IIZ)Z

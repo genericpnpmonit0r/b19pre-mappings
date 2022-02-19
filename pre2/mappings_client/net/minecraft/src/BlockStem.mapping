@@ -1,23 +1,13 @@
 CLASS zk net/minecraft/src/BlockStem
+	FIELD a stemBlockType Lmq;
 	METHOD <init> (ILmq;)V
 		ARG 1 id
 		ARG 2 block
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a setBlockBoundsBasedOnState (Lafm;III)V
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD a dropBlockAsItemWithChance (Lti;IIIIF)V
-	METHOD a updateTick (Lti;IIILjava/util/Random;)V
-	METHOD b colorMultiplier (Lafm;III)I
-	METHOD b_ canThisPlantGrowOnThisBlockID (I)Z
-	METHOD c getRenderColor (I)I
-	METHOD d getRenderType ()I
 	METHOD f getBlockIdsFomMetadata (Lafm;III)I
 		ARG 1 blockAccess
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD h setBlockBoundsForItemRender ()V
 	METHOD i fertilize (Lti;III)V
 		ARG 1 world
 		ARG 2 x
@@ -28,4 +18,3 @@ CLASS zk net/minecraft/src/BlockStem
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	FIELD a stemBlockType Lmq;

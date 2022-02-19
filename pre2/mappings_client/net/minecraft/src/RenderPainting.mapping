@@ -1,9 +1,7 @@
 CLASS co net/minecraft/src/RenderPainting
-	METHOD a func_158_a (Lkj;DDDFF)V
+	FIELD a rand Ljava/util/Random;
 	METHOD a setPaintingRenderDirection (Lkj;FF)V
 		ARG 1 painting
 		ARG 2 x
 		ARG 3 y
 	METHOD a doRenderPainting (Lkj;IIII)V
-	METHOD a doRender (Llh;DDDFF)V
-	FIELD a rand Ljava/util/Random;

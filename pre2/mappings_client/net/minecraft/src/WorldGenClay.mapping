@@ -1,6 +1,5 @@
 CLASS hs net/minecraft/src/WorldGenClay
-	METHOD <init> (I)V
-		ARG 1 count
-	METHOD a generate (Lti;Ljava/util/Random;III)Z
 	FIELD a clayBlockId I
 	FIELD b numberOfBlocks I
+	METHOD <init> (I)V
+		ARG 1 count

@@ -1,4 +1,2 @@
 CLASS afl net/minecraft/src/EntitySmokeFX
-	METHOD a renderParticle (Lzd;FFFFFF)V
-	METHOD x_ onUpdate ()V
 	FIELD a smokeParticleScale F

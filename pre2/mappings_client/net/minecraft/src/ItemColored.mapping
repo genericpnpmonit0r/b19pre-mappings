@@ -1,8 +1,5 @@
 CLASS afd net/minecraft/src/ItemColored
+	FIELD a theBlock Lmq;
 	METHOD <init> (IZ)V
 		ARG 1 id
 		ARG 2 doesHaveSubtypes
-	METHOD a getColorFromDamage (I)I
-	METHOD b getIconFromDamage (I)I
-	METHOD c getPlacedBlockMetadata (I)I
-	FIELD a theBlock Lmq;

@@ -4,4 +4,3 @@ CLASS et net/minecraft/src/EntityDamageSourceIndirect
 		ARG 1 name
 		ARG 2 entity
 		ARG 3 sourceProjectile
-	METHOD a getEntity ()Llh;

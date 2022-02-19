@@ -1,4 +1,2 @@
 CLASS yw net/minecraft/src/ModelMinecart
-	METHOD a setRotationAngles (FFFFFF)V
-	METHOD a render (Llh;FFFFFF)V
 	FIELD a sideModels [Lnz;

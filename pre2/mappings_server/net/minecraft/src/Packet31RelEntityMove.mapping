@@ -4,6 +4,3 @@ CLASS qa net/minecraft/src/Packet31RelEntityMove
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V

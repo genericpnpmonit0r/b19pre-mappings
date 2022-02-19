@@ -1,3 +1,2 @@
 CLASS fk net/minecraft/src/StructureVillageStart
-	METHOD a func_35542_a ()Z
 	FIELD c field_35548_c Z

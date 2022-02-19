@@ -1,3 +1,1 @@
 CLASS ky net/minecraft/src/ItemSaddle
-	METHOD a useItemOnEntity (Lwc;Lxx;)V
-	METHOD a hitEntity (Lwc;Lxx;Lxx;)Z

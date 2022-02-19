@@ -1,2 +1,1 @@
 CLASS ht net/minecraft/src/WorldGenReed
-	METHOD a generate (Lep;Ljava/util/Random;III)Z

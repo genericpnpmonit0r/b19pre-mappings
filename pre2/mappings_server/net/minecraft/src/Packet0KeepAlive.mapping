@@ -1,8 +1,4 @@
 CLASS kk net/minecraft/src/Packet0KeepAlive
+	FIELD a randomId I
 	METHOD <init> (I)V
 		ARG 1 id
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqk;)V
-	FIELD a randomId I

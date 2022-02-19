@@ -1,7 +1,4 @@
 CLASS qa net/minecraft/src/ModelWolf
-	METHOD a setRotationAngles (FFFFFF)V
-	METHOD a render (Llh;FFFFFF)V
-	METHOD a setLivingAnimations (Lxx;FFF)V
 	FIELD a wolfHeadMain Lnz;
 	FIELD b wolfBody Lnz;
 	FIELD c wolfLeg1 Lnz;

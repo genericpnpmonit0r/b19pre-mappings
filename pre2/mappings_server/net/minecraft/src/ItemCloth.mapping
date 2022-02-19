@@ -1,3 +1,1 @@
 CLASS bc net/minecraft/src/ItemCloth
-	METHOD a getMetadata (I)I
-	METHOD a func_35407_a (Lia;)Ljava/lang/String;

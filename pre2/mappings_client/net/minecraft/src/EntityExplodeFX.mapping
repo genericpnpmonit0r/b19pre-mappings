@@ -1,3 +1,1 @@
 CLASS up net/minecraft/src/EntityExplodeFX
-	METHOD a renderParticle (Lzd;FFFFFF)V
-	METHOD x_ onUpdate ()V

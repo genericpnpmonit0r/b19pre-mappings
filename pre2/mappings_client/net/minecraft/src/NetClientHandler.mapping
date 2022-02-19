@@ -1,67 +1,4 @@
 CLASS yp net/minecraft/src/NetClientHandler
-	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
-		ARG 1 minecraft
-		ARG 2 socketInetAddr
-		ARG 3 port
-	METHOD a isServerHandler ()Z
-	METHOD a getEntityByID (I)Llh;
-		ARG 1 id
-	METHOD a handleChat (Laac;)V
-	METHOD a handleSpawnPosition (Labj;)V
-	METHOD a handleExplosion (Labo;)V
-	METHOD a handleDestroyEntity (Labu;)V
-	METHOD a handlePreChunk (Labz;)V
-	METHOD a processItemData (Lac;)V
-	METHOD a handleEntity (Ladh;)V
-	METHOD a handleUpdateSign (Ladk;)V
-	METHOD a handleMultiBlockChange (Laez;)V
-	METHOD a handleKickDisconnect (Lage;)V
-	METHOD a handleHealth (Lcz;)V
-	METHOD a handleAuxSFX (Ldo;)V
-	METHOD a handleSetSlot (Leu;)V
-	METHOD a handleFlying (Lfc;)V
-	METHOD a handleOpenWindow (Lfm;)V
-	METHOD a handleEntityStatus (Lfp;)V
-	METHOD a handleExperience (Lgw;)V
-	METHOD a handleNamedEntitySpawn (Lhl;)V
-	METHOD a handleHandshake (Lhq;)V
-	METHOD a handleCraftingProgress (Lhw;)V
-	METHOD a handlePickupSpawn (Lia;)V
-	METHOD a handleArmAnimation (Lim;)V
-	METHOD a handleStatistic (Lit;)V
-	METHOD a handleContainerTransaction (Liy;)V
-	METHOD a handleErrorMessage (Ljava/lang/String;[Ljava/lang/Object;)V
-	METHOD a handleRespawn (Ljf;)V
-	METHOD a handleXPOrb (Ljn;)V
-	METHOD a handleEntityTeleport (Lkp;)V
-	METHOD a handleVehicleSpawn (Llj;)V
-	METHOD a handleBlockChange (Lmb;)V
-	METHOD a handleEntityMetadata (Lmt;)V
-	METHOD a handleEntityPainting (Lnn;)V
-	METHOD a handleNotePlay (Lnr;)V
-	METHOD a handlePlayerInventory (Lqc;)V
-	METHOD a handleBedUpdate (Lrm;)V
-	METHOD a handleCollect (Lsh;)V
-	METHOD a handleEntityEffect (Lsj;)V
-	METHOD a handlePlayerInfo (Lsp;)V
-	METHOD a handleMapChunk (Lsw;)V
-	METHOD a handleWeather (Ltf;)V
-	METHOD a handleEntityVelocity (Lug;)V
-	METHOD a handleUpdateTime (Lux;)V
-	METHOD a handleMobSpawn (Lwl;)V
-	METHOD a handleSleep (Lww;)V
-	METHOD a handleWindowItems (Lwx;)V
-	METHOD a handleKeepAlive (Lyb;)V
-	METHOD a handleCloseWindow (Lyg;)V
-	METHOD a handleRemoveEntityEffect (Lys;)V
-	METHOD a handleAttachEntity (Lyx;)V
-	METHOD a handleLogin (Lzg;)V
-	METHOD b processReadPackets ()V
-	METHOD b addToSendQueue2 (Lxe;)V
-		ARG 1 packet
-	METHOD c disconnect ()V
-	METHOD c addToSendQueue (Lxe;)V
-		ARG 1 packet
 	FIELD a field_1209_a Ljava/lang/String;
 	FIELD b mapStorage Lus;
 	FIELD c savingLevelStringList Ljava/util/List;
@@ -73,3 +10,15 @@ CLASS yp net/minecraft/src/NetClientHandler
 	FIELD i worldClient Lhp;
 	FIELD j field_1210_g Z
 	FIELD k playerInfoMap Ljava/util/Map;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 1 minecraft
+		ARG 2 socketInetAddr
+		ARG 3 port
+	METHOD a getEntityByID (I)Llh;
+		ARG 1 id
+	METHOD b processReadPackets ()V
+	METHOD b addToSendQueue2 (Lxe;)V
+		ARG 1 packet
+	METHOD c disconnect ()V
+	METHOD c addToSendQueue (Lxe;)V
+		ARG 1 packet

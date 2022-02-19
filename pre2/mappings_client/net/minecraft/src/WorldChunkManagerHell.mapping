@@ -1,19 +1,8 @@
 CLASS en net/minecraft/src/WorldChunkManagerHell
+	FIELD c biomeBase Lwz;
+	FIELD d hellTemperature F
+	FIELD e hellHumidity F
 	METHOD <init> (Lwz;FF)V
 		ARG 1 base
 		ARG 2 temp
 		ARG 3 humidity
-	METHOD a getBiomeGenAt (II)Lwz;
-	METHOD a func_4069_a (IIII)[Lwz;
-	METHOD a areBiomesViable (IIILjava/util/List;)Z
-	METHOD a func_35556_a (IIILjava/util/List;Ljava/util/Random;)Lny;
-	METHOD a getBiomeGenAtChunkCoord (Lpp;)Lwz;
-	METHOD a getTemperatures ([FIIII)[F
-	METHOD a loadBlockGeneratorData ([Lwz;IIII)[Lwz;
-	METHOD a func_35555_a ([Lwz;IIIIZ)[Lwz;
-	METHOD b func_35558_c (II)F
-	METHOD b func_40539_b (IIII)[F
-	METHOD b getRainfall ([FIIII)[F
-	FIELD c biomeBase Lwz;
-	FIELD d hellTemperature F
-	FIELD e hellHumidity F

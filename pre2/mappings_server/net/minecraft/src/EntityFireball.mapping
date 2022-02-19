@@ -1,19 +1,4 @@
 CLASS by net/minecraft/src/EntityFireball
-	METHOD <init> (Lep;Lkc;DDD)V
-		ARG 1 world
-		ARG 2 living
-		ARG 3 x
-		ARG 5 y
-		ARG 7 z
-	METHOD a readEntityFromNBT (Llx;)V
-	METHOD a attackEntityFrom (Lny;I)Z
-	METHOD a collideOn (Lsf;)V
-		ARG 1 movingObjectPos
-	METHOD b entityInit ()V
-	METHOD b getEntityBrightness (F)F
-	METHOD b writeEntityToNBT (Llx;)V
-	METHOD d_ canBeCollidedWith ()Z
-	METHOD s_ onUpdate ()V
 	FIELD a shooter Lkc;
 	FIELD b accelerationX D
 	FIELD c accelerationY D
@@ -25,3 +10,11 @@ CLASS by net/minecraft/src/EntityFireball
 	FIELD i inGround Z
 	FIELD j ticksAlive I
 	FIELD k ticksInAir I
+	METHOD <init> (Lep;Lkc;DDD)V
+		ARG 1 world
+		ARG 2 living
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+	METHOD a collideOn (Lsf;)V
+		ARG 1 movingObjectPos

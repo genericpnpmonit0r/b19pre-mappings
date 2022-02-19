@@ -1,10 +1,8 @@
 CLASS aah net/minecraft/src/ComponentVillageWell
+	FIELD a unusedBoolean Z
+	FIELD b averageGroundLevel I
 	METHOD <init> (ILjava/util/Random;II)V
 		ARG 1 type
 		ARG 2 rand
 		ARG 3 x
 		ARG 4 z
-	METHOD a buildComponent (Lfx;Ljava/util/List;Ljava/util/Random;)V
-	METHOD a addComponentParts (Lti;Ljava/util/Random;Lns;)Z
-	FIELD a unusedBoolean Z
-	FIELD b averageGroundLevel I

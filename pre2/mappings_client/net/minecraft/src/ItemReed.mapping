@@ -1,6 +1,5 @@
 CLASS xz net/minecraft/src/ItemReed
+	FIELD a spawnID I
 	METHOD <init> (ILmq;)V
 		ARG 1 id
 		ARG 2 block
-	METHOD a onItemUse (Lwc;Luo;Lti;IIII)Z
-	FIELD a spawnID I

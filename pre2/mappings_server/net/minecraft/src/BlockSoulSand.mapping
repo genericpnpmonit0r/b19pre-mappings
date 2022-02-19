@@ -2,5 +2,3 @@ CLASS mb net/minecraft/src/BlockSoulSand
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 texIndex
-	METHOD a onEntityCollidedWithBlock (Lep;IIILpu;)V
-	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;

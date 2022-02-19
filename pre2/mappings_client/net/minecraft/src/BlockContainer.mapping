@@ -1,5 +1,2 @@
 CLASS abv net/minecraft/src/BlockContainer
-	METHOD a onBlockAdded (Lti;III)V
-	METHOD a powerBlock (Lti;IIIII)V
-	METHOD b_ onBlockRemoval (Lti;III)V
 	METHOD o_ getBlockEntity ()Lje;

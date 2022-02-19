@@ -1,16 +1,12 @@
 CLASS ou net/minecraft/src/Packet60Explosion
+	FIELD a explosionX D
+	FIELD b explosionY D
+	FIELD c explosionZ D
+	FIELD d explosionSize F
+	FIELD e destroyedBlockPositions Ljava/util/Set;
 	METHOD <init> (DDDFLjava/util/Set;)V
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
 		ARG 7 size
 		ARG 8 blocksDestroyedByExplosion
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqk;)V
-	FIELD a explosionX D
-	FIELD b explosionY D
-	FIELD c explosionZ D
-	FIELD d explosionSize F
-	FIELD e destroyedBlockPositions Ljava/util/Set;

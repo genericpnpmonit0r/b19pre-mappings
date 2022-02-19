@@ -1,8 +1,6 @@
 CLASS gx net/minecraft/src/EntityDamageSourceIndirect
+	FIELD n damageSourceEntity Lpu;
 	METHOD <init> (Ljava/lang/String;Lpu;Lpu;)V
 		ARG 1 damageName
 		ARG 2 entity1
 		ARG 3 entity2
-	METHOD a func_35080_a ()Lpu;
-	METHOD a func_35075_a (Lgb;)Ljava/lang/String;
-	FIELD n damageSourceEntity Lpu;

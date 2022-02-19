@@ -1,21 +1,10 @@
 CLASS pr net/minecraft/src/BlockChest
+	FIELD a random Ljava/util/Random;
 	METHOD <init> (I)V
 		ARG 1 id
-	METHOD a isOpaqueCube ()Z
-	METHOD a getBlockTextureFromSide (I)I
-	METHOD a onBlockAdded (Lti;III)V
-	METHOD a onNeighborBlockChange (Lti;IIII)V
-	METHOD a onBlockPlacedBy (Lti;IIILxx;)V
-	METHOD b blockActivated (Lti;IIILuo;)Z
-	METHOD b_ onBlockRemoval (Lti;III)V
-	METHOD d getRenderType ()I
-	METHOD d getBlockTexture (Lafm;IIII)I
-	METHOD e canPlaceBlockAt (Lti;III)Z
 	METHOD h unifyAdjacentChests (Lti;III)V
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 	METHOD i isThereANeighborChest (Lti;III)Z
-	METHOD o_ getBlockEntity ()Lje;
-	FIELD a random Ljava/util/Random;

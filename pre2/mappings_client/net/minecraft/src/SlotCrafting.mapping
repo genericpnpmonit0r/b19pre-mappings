@@ -1,9 +1,7 @@
 CLASS agj net/minecraft/src/SlotCrafting
+	FIELD e craftMatrix Lhc;
+	FIELD f thePlayer Luo;
 	METHOD <init> (Luo;Lhc;Lhc;III)V
 		ARG 1 player
 		ARG 2 craftingGrid
 		ARG 3 inventory
-	METHOD a onPickupFromSlot (Lwc;)V
-	METHOD b isItemValid (Lwc;)Z
-	FIELD e craftMatrix Lhc;
-	FIELD f thePlayer Luo;

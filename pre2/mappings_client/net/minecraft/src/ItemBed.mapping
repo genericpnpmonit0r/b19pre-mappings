@@ -1,2 +1,1 @@
 CLASS xw net/minecraft/src/ItemBed
-	METHOD a onItemUse (Lwc;Luo;Lti;IIII)Z

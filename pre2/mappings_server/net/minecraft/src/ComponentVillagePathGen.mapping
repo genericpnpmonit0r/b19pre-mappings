@@ -1,10 +1,10 @@
 CLASS qv net/minecraft/src/ComponentVillagePathGen
+	FIELD a averageGroundLevel I
 	METHOD <init> (ILjava/util/Random;Lsz;I)V
 		ARG 1 type
 		ARG 2 rand
 		ARG 3 boundingBox
 		ARG 4 coordBaseMode
-	METHOD a func_35310_a (Lep;Ljava/util/Random;Lsz;)Z
 	METHOD a createValidComponent (Lh;Ljava/util/List;Ljava/util/Random;IIII)Lsz;
 		ARG 0 startPiece
 		ARG 1 pieces
@@ -13,5 +13,3 @@ CLASS qv net/minecraft/src/ComponentVillagePathGen
 		ARG 4 y
 		ARG 5 z
 		ARG 6 type
-	METHOD a func_35308_a (Liw;Ljava/util/List;Ljava/util/Random;)V
-	FIELD a averageGroundLevel I

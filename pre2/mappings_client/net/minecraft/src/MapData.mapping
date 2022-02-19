@@ -1,15 +1,4 @@
 CLASS vy net/minecraft/src/MapData
-	METHOD a setColumnDirty (III)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD a updateVisiblePlayers (Luo;Lwc;)V
-		ARG 1 player
-		ARG 2 itemStack
-	METHOD a readFromNBT (Lza;)V
-	METHOD a updateMPMapdata ([B)V
-		ARG 1 blocks
-	METHOD b writeToNBT (Lza;)V
 	FIELD b xCenter I
 	FIELD c zCenter I
 	FIELD d dimension B
@@ -19,3 +8,12 @@ CLASS vy net/minecraft/src/MapData
 	FIELD h markedDirtyAreas Ljava/util/List;
 	FIELD i playersVisibleOnMap Ljava/util/List;
 	FIELD j mpPlayerMap Ljava/util/Map;
+	METHOD a setColumnDirty (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a updateVisiblePlayers (Luo;Lwc;)V
+		ARG 1 player
+		ARG 2 itemStack
+	METHOD a updateMPMapdata ([B)V
+		ARG 1 blocks

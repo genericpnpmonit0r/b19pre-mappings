@@ -1,4 +1,11 @@
 CLASS ze net/minecraft/src/Achievement
+	FIELD a displayColumn I
+	FIELD b displayRow I
+	FIELD c parentAchievement Lze;
+	FIELD d theItemStack Lwc;
+	FIELD l achievementDescription Ljava/lang/String;
+	FIELD m statStringFormatter Lun;
+	FIELD n isSpecial Z
 	METHOD <init> (ILjava/lang/String;IILmq;Lze;)V
 		ARG 1 id
 		ARG 2 name
@@ -20,20 +27,8 @@ CLASS ze net/minecraft/src/Achievement
 		ARG 4 row
 		ARG 5 itemStack
 		ARG 6 achievement
-	METHOD a registerStat ()Laef;
 	METHOD a setStatStringFormatter (Lun;)Lze;
 		ARG 1 statStringFormat
-	METHOD b setIndependent ()Lze;
 	METHOD c setSpecial ()Lze;
-	METHOD d registerAchievement ()Lze;
-	METHOD e isAchievement ()Z
 	METHOD f getDescription ()Ljava/lang/String;
 	METHOD g getSpecial ()Z
-	METHOD h initIndependentStat ()Laef;
-	FIELD a displayColumn I
-	FIELD b displayRow I
-	FIELD c parentAchievement Lze;
-	FIELD d theItemStack Lwc;
-	FIELD l achievementDescription Ljava/lang/String;
-	FIELD m statStringFormatter Lun;
-	FIELD n isSpecial Z

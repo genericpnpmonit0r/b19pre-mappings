@@ -1,8 +1,4 @@
 CLASS rm net/minecraft/src/Packet70Bed
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Llw;)V
 	FIELD a bedChat [Ljava/lang/String;
 	FIELD b bedState I
 	FIELD c gameMode I

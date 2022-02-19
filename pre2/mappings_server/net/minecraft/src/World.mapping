@@ -1,4 +1,55 @@
 CLASS ep net/minecraft/src/World
+	FIELD A chunkProvider Lcc;
+	FIELD B worldFile Lub;
+	FIELD C worldInfo Ldx;
+	FIELD D worldChunkLoadOverride Z
+	FIELD E mapStorage Lgi;
+	FIELD F spawnHostileMobs Z
+	FIELD G spawnPeacefulMobs Z
+	FIELD H lightUpdateBlocksList [I
+	FIELD I singleplayerWorld Z
+	FIELD J prevTick D
+	FIELD K curTick D
+	FIELD L curTick2 D
+	FIELD M unloadedEntityList Ljava/util/List;
+	FIELD N scheduledTickTreeSet Ljava/util/TreeSet;
+	FIELD O scheduledTickSet Ljava/util/Set;
+	FIELD P addedTileEntityList Ljava/util/List;
+	FIELD Q entityRemoval Ljava/util/List;
+	FIELD R cloudColour J
+	FIELD S lockTimestamp J
+	FIELD T allPlayersSleeping Z
+	FIELD U collidingBoundingBoxes Ljava/util/ArrayList;
+	FIELD V scanningTileEntities Z
+	FIELD W activeChunkSet Ljava/util/Set;
+	FIELD X ambientTickCountdown I
+	FIELD Y entityAABBExclusionList Ljava/util/List;
+	FIELD a worldYBits I
+	FIELD b worldXZBits I
+	FIELD c worldYMax I
+	FIELD d worldYMask I
+	FIELD e worldOceanHeight I
+	FIELD f scheduledUpdatesAreImmediate Z
+	FIELD g loadedEntityList Ljava/util/List;
+	FIELD h loadedTileEntityList Ljava/util/List;
+	FIELD i playerEntities Ljava/util/List;
+	FIELD j weatherEffects Ljava/util/List;
+	FIELD k skylightSubtracted I
+	FIELD l distHashCounter I
+	FIELD m DIST_HASH_MAGIC I
+	FIELD n prevRainingStrength F
+	FIELD o rainingStrength F
+	FIELD p prevThunderingStrength F
+	FIELD q thunderingStrength F
+	FIELD r lastLightningBolt I
+	FIELD s lightningFlash I
+	FIELD t editingBlocks Z
+	FIELD u autosavePeriod I
+	FIELD v difficultySetting I
+	FIELD w rand Ljava/util/Random;
+	FIELD x isNewWorld Z
+	FIELD y worldProvider Lui;
+	FIELD z worldAccesses Ljava/util/List;
 	METHOD <init> (Lub;Ljava/lang/String;Lgh;Lui;)V
 		ARG 1 saveHandler
 		ARG 2 worldName
@@ -22,7 +73,6 @@ CLASS ep net/minecraft/src/World
 	METHOD a getFirstUncoveredBlock (II)I
 		ARG 1 x
 		ARG 2 z
-	METHOD a getBlockId (III)I
 	METHOD a doChunksNearChunkExist (IIII)Z
 		ARG 1 x
 		ARG 2 z
@@ -216,7 +266,6 @@ CLASS ep net/minecraft/src/World
 	METHOD b getChunkFromBlockCoords (II)Ljy;
 		ARG 1 x
 		ARG 2 z
-	METHOD b getBlockTileEntity (III)Lmx;
 	METHOD b setBlock (IIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -272,7 +321,6 @@ CLASS ep net/minecraft/src/World
 	METHOD c getChunkFromChunkCoords (II)Ljy;
 		ARG 1 x
 		ARG 2 z
-	METHOD c getBlockMetadata (III)I
 	METHOD c setBlockMetadataWithNotify (IIII)V
 		ARG 1 x
 		ARG 2 y
@@ -301,7 +349,6 @@ CLASS ep net/minecraft/src/World
 	METHOD d getHeightValue (II)I
 		ARG 1 x
 		ARG 2 z
-	METHOD d getBlockMaterial (III)Ljz;
 	METHOD d setBlockMetadata (IIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -328,7 +375,6 @@ CLASS ep net/minecraft/src/World
 	METHOD e getTopSolidOrLiquidBlock (II)I
 		ARG 1 x
 		ARG 2 z
-	METHOD e isBlockNormalCube (III)Z
 	METHOD e setBlockWithNotify (IIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -481,54 +527,3 @@ CLASS ep net/minecraft/src/World
 		ARG 3 seed3
 	METHOD x calculateInitialWeather ()V
 	METHOD y stopPrecipitation ()V
-	FIELD A chunkProvider Lcc;
-	FIELD B worldFile Lub;
-	FIELD C worldInfo Ldx;
-	FIELD D worldChunkLoadOverride Z
-	FIELD E mapStorage Lgi;
-	FIELD F spawnHostileMobs Z
-	FIELD G spawnPeacefulMobs Z
-	FIELD H lightUpdateBlocksList [I
-	FIELD I singleplayerWorld Z
-	FIELD J prevTick D
-	FIELD K curTick D
-	FIELD L curTick2 D
-	FIELD M unloadedEntityList Ljava/util/List;
-	FIELD N scheduledTickTreeSet Ljava/util/TreeSet;
-	FIELD O scheduledTickSet Ljava/util/Set;
-	FIELD P addedTileEntityList Ljava/util/List;
-	FIELD Q entityRemoval Ljava/util/List;
-	FIELD R cloudColour J
-	FIELD S lockTimestamp J
-	FIELD T allPlayersSleeping Z
-	FIELD U collidingBoundingBoxes Ljava/util/ArrayList;
-	FIELD V scanningTileEntities Z
-	FIELD W activeChunkSet Ljava/util/Set;
-	FIELD X ambientTickCountdown I
-	FIELD Y entityAABBExclusionList Ljava/util/List;
-	FIELD a worldYBits I
-	FIELD b worldXZBits I
-	FIELD c worldYMax I
-	FIELD d worldYMask I
-	FIELD e worldOceanHeight I
-	FIELD f scheduledUpdatesAreImmediate Z
-	FIELD g loadedEntityList Ljava/util/List;
-	FIELD h loadedTileEntityList Ljava/util/List;
-	FIELD i playerEntities Ljava/util/List;
-	FIELD j weatherEffects Ljava/util/List;
-	FIELD k skylightSubtracted I
-	FIELD l distHashCounter I
-	FIELD m DIST_HASH_MAGIC I
-	FIELD n prevRainingStrength F
-	FIELD o rainingStrength F
-	FIELD p prevThunderingStrength F
-	FIELD q thunderingStrength F
-	FIELD r lastLightningBolt I
-	FIELD s lightningFlash I
-	FIELD t editingBlocks Z
-	FIELD u autosavePeriod I
-	FIELD v difficultySetting I
-	FIELD w rand Ljava/util/Random;
-	FIELD x isNewWorld Z
-	FIELD y worldProvider Lui;
-	FIELD z worldAccesses Ljava/util/List;

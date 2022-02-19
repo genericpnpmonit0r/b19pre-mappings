@@ -1,30 +1,18 @@
 CLASS kt net/minecraft/src/EntityEnderman
-	METHOD a teleportTo (DDD)Z
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-	METHOD a readEntityFromNBT (Llx;)V
-	METHOD a attackEntityFrom (Lny;I)Z
-	METHOD a dropFewItems (Z)V
-	METHOD b entityInit ()V
-	METHOD b getEntityBrightness (F)F
-	METHOD b setCarried (I)V
-	METHOD b writeEntityToNBT (Llx;)V
-	METHOD b_ getHurtSound ()Ljava/lang/String;
-	METHOD c shouldAttackPlayer (Lgb;)Z
-		ARG 1 player
-	METHOD d onLivingUpdate ()V
-	METHOD e getLivingSound ()Ljava/lang/String;
-	METHOD e setCarryingData (I)V
-	METHOD e teleportToEntity (Lpu;)Z
-		ARG 1 entity
-	METHOD g getDeathSound ()Ljava/lang/String;
-	METHOD h getDropItemId ()I
-	METHOD m findPlayerToAttack ()Lpu;
-	METHOD q_ teleportRandomly ()Z
-	METHOD y getCarried ()I
-	METHOD z getCarryingData ()I
 	FIELD a isAttacking Z
 	FIELD b canCarryBlocks [Z
 	FIELD g teleportDelay I
 	FIELD h field_35236_h I
+	METHOD a teleportTo (DDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD b setCarried (I)V
+	METHOD c shouldAttackPlayer (Lgb;)Z
+		ARG 1 player
+	METHOD e setCarryingData (I)V
+	METHOD e teleportToEntity (Lpu;)Z
+		ARG 1 entity
+	METHOD q_ teleportRandomly ()Z
+	METHOD y getCarried ()I
+	METHOD z getCarryingData ()I

@@ -1,15 +1,10 @@
 CLASS aaa net/minecraft/src/BlockRail
+	FIELD a isPowered Z
 	METHOD <init> (IIZ)V
 		ARG 1 id
 		ARG 2 texIndex
 		ARG 3 powered
-	METHOD a isOpaqueCube ()Z
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
 	METHOD a isPoweredBlockRail (Laaa;)Z
-	METHOD a setBlockBoundsBasedOnState (Lafm;III)V
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD a onBlockAdded (Lti;III)V
-	METHOD a onNeighborBlockChange (Lti;IIII)V
 	METHOD a isNeighborRailPowered (Lti;IIIIZI)Z
 		ARG 1 world
 		ARG 2 x
@@ -18,7 +13,6 @@ CLASS aaa net/minecraft/src/BlockRail
 		ARG 5 meta
 		ARG 6 powered
 		ARG 7 side
-	METHOD a collisionRayTrace (Lti;IIILba;Lba;)Lmz;
 	METHOD a refreshTrackShape (Lti;IIIZ)V
 		ARG 1 world
 		ARG 2 x
@@ -33,17 +27,11 @@ CLASS aaa net/minecraft/src/BlockRail
 		ARG 5 powered
 		ARG 6 meta
 		ARG 7 side
-	METHOD b renderAsNormalBlock ()Z
-	METHOD c getCollisionBoundingBoxFromPool (Lti;III)Ltb;
-	METHOD d getRenderType ()I
 	METHOD d isRailBlock (I)Z
 		ARG 0 id
-	METHOD e getMobilityFlag ()I
-	METHOD e canPlaceBlockAt (Lti;III)Z
 	METHOD h isRailBlockAt (Lti;III)Z
 		ARG 0 world
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 	METHOD s getIsPowered ()Z
-	FIELD a isPowered Z

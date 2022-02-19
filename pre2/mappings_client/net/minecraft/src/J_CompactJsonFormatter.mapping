@@ -1,4 +1,3 @@
 CLASS cu net/minecraft/src/J_CompactJsonFormatter
 	METHOD a formatJsonNode (Lee;Ljava/io/Writer;)V
-	METHOD a format (Ljy;)Ljava/lang/String;
 	METHOD a format (Ljy;Ljava/io/Writer;)V

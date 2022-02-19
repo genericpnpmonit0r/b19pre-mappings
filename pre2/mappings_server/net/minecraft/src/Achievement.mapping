@@ -1,4 +1,10 @@
 CLASS ma net/minecraft/src/Achievement
+	FIELD a displayColumn I
+	FIELD b displayRow I
+	FIELD c parentAchievement Lma;
+	FIELD d theItemStack Lia;
+	FIELD l achievementDescription Ljava/lang/String;
+	FIELD m isSpecial Z
 	METHOD <init> (ILjava/lang/String;IILfz;Lma;)V
 		ARG 1 id
 		ARG 2 name
@@ -20,14 +26,4 @@ CLASS ma net/minecraft/src/Achievement
 		ARG 4 row
 		ARG 5 block
 		ARG 6 achievement
-	METHOD a setIndependent ()Lma;
 	METHOD b setSpecial ()Lma;
-	METHOD c registerAchievement ()Lma;
-	METHOD d registerStat ()Lsu;
-	METHOD e initIndependentStat ()Lsu;
-	FIELD a displayColumn I
-	FIELD b displayRow I
-	FIELD c parentAchievement Lma;
-	FIELD d theItemStack Lia;
-	FIELD l achievementDescription Ljava/lang/String;
-	FIELD m isSpecial Z

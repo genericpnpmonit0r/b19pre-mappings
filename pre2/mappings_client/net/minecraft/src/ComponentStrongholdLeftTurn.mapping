@@ -1,10 +1,10 @@
 CLASS ly net/minecraft/src/ComponentStrongholdLeftTurn
+	FIELD a randomDoor Lke;
 	METHOD <init> (ILjava/util/Random;Lns;I)V
 		ARG 1 type
 		ARG 2 rand
 		ARG 3 boundingBox
 		ARG 4 coordBaseMode
-	METHOD a buildComponent (Lfx;Ljava/util/List;Ljava/util/Random;)V
 	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIIII)Lly;
 		ARG 0 list
 		ARG 1 rand
@@ -13,5 +13,3 @@ CLASS ly net/minecraft/src/ComponentStrongholdLeftTurn
 		ARG 4 z
 		ARG 5 i
 		ARG 6 type
-	METHOD a addComponentParts (Lti;Ljava/util/Random;Lns;)Z
-	FIELD a randomDoor Lke;

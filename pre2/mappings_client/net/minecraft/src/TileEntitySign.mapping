@@ -1,6 +1,4 @@
 CLASS pj net/minecraft/src/TileEntitySign
-	METHOD a readFromNBT (Lza;)V
-	METHOD b writeToNBT (Lza;)V
 	FIELD a signText [Ljava/lang/String;
 	FIELD b lineBeingEdited I
 	FIELD c isEditable Z

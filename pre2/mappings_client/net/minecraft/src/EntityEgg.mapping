@@ -1,26 +1,4 @@
 CLASS np net/minecraft/src/EntityEgg
-	METHOD <init> (Lti;DDD)V
-		ARG 1 world
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-	METHOD <init> (Lti;Lxx;)V
-		ARG 1 world
-		ARG 2 living
-	METHOD a isInRangeToRenderDist (D)Z
-	METHOD a setVelocity (DDD)V
-	METHOD a setEggHeading (DDDFF)V
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-		ARG 7 yaw
-		ARG 8 pitch
-	METHOD a readEntityFromNBT (Lza;)V
-	METHOD a_ onCollideWithPlayer (Luo;)V
-	METHOD b entityInit ()V
-	METHOD b writeEntityToNBT (Lza;)V
-	METHOD g_ getShadowSize ()F
-	METHOD x_ onUpdate ()V
 	FIELD a throwableShake I
 	FIELD ao inGround Z
 	FIELD ap thrower Lxx;
@@ -30,3 +8,17 @@ CLASS np net/minecraft/src/EntityEgg
 	FIELD c yTile I
 	FIELD d zTile I
 	FIELD e inTile I
+	METHOD <init> (Lti;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD <init> (Lti;Lxx;)V
+		ARG 1 world
+		ARG 2 living
+	METHOD a setEggHeading (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch

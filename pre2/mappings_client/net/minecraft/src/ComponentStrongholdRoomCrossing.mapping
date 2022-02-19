@@ -1,12 +1,10 @@
 CLASS xk net/minecraft/src/ComponentStrongholdRoomCrossing
+	FIELD a randomDoor Lke;
+	FIELD b picker I
+	FIELD c lootArray [Lex;
 	METHOD <init> (ILjava/util/Random;Lns;I)V
 		ARG 1 type
 		ARG 2 rand
 		ARG 3 boundingBox
 		ARG 4 coordBaseMode
-	METHOD a buildComponent (Lfx;Ljava/util/List;Ljava/util/Random;)V
 	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIIII)Lxk;
-	METHOD a addComponentParts (Lti;Ljava/util/Random;Lns;)Z
-	FIELD a randomDoor Lke;
-	FIELD b picker I
-	FIELD c lootArray [Lex;

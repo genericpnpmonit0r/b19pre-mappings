@@ -1,4 +1,3 @@
 CLASS on net/minecraft/src/MapGenRavine
-	METHOD a generateRavine (JII[BDDDFFFIID)V
-	METHOD a recursiveGenerate (Lti;IIII[B)V
 	FIELD a noiseArray01 [F
+	METHOD a generateRavine (JII[BDDDFFFIID)V

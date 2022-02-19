@@ -1,12 +1,8 @@
 CLASS rb net/minecraft/src/ContainerFurnace
-	METHOD <init> (Lvz;Lacb;)V
-		ARG 1 inventoryPlayer
-		ARG 2 furnace
-	METHOD a updateCraftingResults ()V
-	METHOD a transferStackInSlot (I)Lwc;
-	METHOD a updateProgressBar (II)V
-	METHOD b canInteractWith (Luo;)Z
 	FIELD a furnace Lacb;
 	FIELD b lastCookTime I
 	FIELD c lastBurnTime I
 	FIELD h lastItemBurnTime I
+	METHOD <init> (Lvz;Lacb;)V
+		ARG 1 inventoryPlayer
+		ARG 2 furnace

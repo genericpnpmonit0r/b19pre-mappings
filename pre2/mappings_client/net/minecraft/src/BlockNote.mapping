@@ -1,9 +1,3 @@
 CLASS aan net/minecraft/src/BlockNote
 	METHOD <init> (I)V
 		ARG 1 id
-	METHOD a getBlockTextureFromSide (I)I
-	METHOD a onNeighborBlockChange (Lti;IIII)V
-	METHOD a powerBlock (Lti;IIIII)V
-	METHOD a onBlockClicked (Lti;IIILuo;)V
-	METHOD b blockActivated (Lti;IIILuo;)Z
-	METHOD o_ getBlockEntity ()Lje;

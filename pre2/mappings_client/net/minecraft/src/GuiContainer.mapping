@@ -7,15 +7,11 @@ CLASS ez net/minecraft/src/GuiContainer
 	FIELD f heightScaled I
 	METHOD <init> (Lcm;)V
 		ARG 1 container
-	METHOD a initGui ()V
-	METHOD a keyTyped (CI)V
 	METHOD a drawGuiContainerBackgroundLayer (F)V
 		ARG 1 layer
 	METHOD a drawSlotXY (II)Lum;
 		ARG 1 x
 		ARG 2 y
-	METHOD a drawScreen (IIF)V
-	METHOD a mouseClicked (III)V
 	METHOD a drawSlotInventory (Lum;)V
 		ARG 1 slot
 	METHOD a drawSlot (Lum;II)Z
@@ -23,9 +19,5 @@ CLASS ez net/minecraft/src/GuiContainer
 		ARG 2 x
 		ARG 3 y
 	METHOD a func_35309_a (Lum;IIZ)V
-	METHOD b mouseMovedOrUp (III)V
 	METHOD b drawSlot2 (IIIII)V
 	METHOD c drawGuiContainerForegroundLayer ()V
-	METHOD d onGuiClosed ()V
-	METHOD e doesGuiPauseGame ()Z
-	METHOD q_ updateScreen ()V

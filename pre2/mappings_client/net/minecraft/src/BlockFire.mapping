@@ -1,15 +1,13 @@
 CLASS agd net/minecraft/src/BlockFire
+	FIELD a chanceToEncourageFire [I
+	FIELD b abilityToCatchFire [I
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 texIndex
-	METHOD a isOpaqueCube ()Z
 	METHOD a setBurnRate (III)V
 		ARG 1 rate
 		ARG 2 chanceToEncourage
 		ARG 3 abilityToCatch
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD a onBlockAdded (Lti;III)V
-	METHOD a onNeighborBlockChange (Lti;IIII)V
 	METHOD a tryToCatchBlockOnFire (Lti;IIIILjava/util/Random;I)V
 		ARG 1 world
 		ARG 2 x
@@ -18,13 +16,6 @@ CLASS agd net/minecraft/src/BlockFire
 		ARG 5 side
 		ARG 6 rand
 		ARG 7 meta
-	METHOD a updateTick (Lti;IIILjava/util/Random;)V
-	METHOD b renderAsNormalBlock ()Z
-	METHOD b randomDisplayTick (Lti;IIILjava/util/Random;)V
-	METHOD c getCollisionBoundingBoxFromPool (Lti;III)Ltb;
-	METHOD d getRenderType ()I
-	METHOD e canPlaceBlockAt (Lti;III)Z
-	METHOD f tickRate ()I
 	METHOD f canBlockCatchFire (Lafm;III)Z
 		ARG 1 blockAccess
 		ARG 2 x
@@ -46,7 +37,3 @@ CLASS agd net/minecraft/src/BlockFire
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD j isCollidable ()Z
-	METHOD l initializeBlock ()V
-	FIELD a chanceToEncourageFire [I
-	FIELD b abilityToCatchFire [I

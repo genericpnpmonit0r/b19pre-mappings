@@ -1,2 +1,1 @@
 CLASS xd net/minecraft/src/ItemEnderPearl
-	METHOD a onItemRightClick (Lwc;Lti;Luo;)Lwc;

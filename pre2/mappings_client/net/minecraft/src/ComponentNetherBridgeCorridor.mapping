@@ -4,7 +4,6 @@ CLASS hb net/minecraft/src/ComponentNetherBridgeCorridor
 		ARG 2 rand
 		ARG 3 boundingBox
 		ARG 4 coordBaseMode
-	METHOD a buildComponent (Lfx;Ljava/util/List;Ljava/util/Random;)V
 	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lhb;
 		ARG 0 components
 		ARG 1 rand
@@ -13,4 +12,3 @@ CLASS hb net/minecraft/src/ComponentNetherBridgeCorridor
 		ARG 4 z
 		ARG 5 y2
 		ARG 6 z2
-	METHOD a addComponentParts (Lti;Ljava/util/Random;Lns;)Z

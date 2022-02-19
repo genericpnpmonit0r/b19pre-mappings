@@ -1,3 +1,1 @@
 CLASS vb net/minecraft/src/MapGenMineshaft
-	METHOD a func_35531_a (II)Z
-	METHOD b func_35533_b (II)Lru;

@@ -1,10 +1,11 @@
 CLASS ef net/minecraft/src/RenderLiving
+	FIELD a mainModel Lgf;
+	FIELD b renderPassModel Lgf;
 	METHOD <init> (Lgf;F)V
 		ARG 1 baseModel
 		ARG 2 shadowSize
 	METHOD a setRenderPassModel (Lgf;)V
 		ARG 1 renderPassModel
-	METHOD a doRender (Llh;DDDFF)V
 	METHOD a getDeathMaxRotation (Lxx;)F
 		ARG 1 living
 	METHOD a renderLivingAt (Lxx;DDD)V
@@ -12,7 +13,6 @@ CLASS ef net/minecraft/src/RenderLiving
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
-	METHOD a doRenderLiving (Lxx;DDDFF)V
 	METHOD a preRenderCallback (Lxx;F)V
 		ARG 1 player
 	METHOD a getColorMultiplier (Lxx;FF)I
@@ -42,5 +42,3 @@ CLASS ef net/minecraft/src/RenderLiving
 		ARG 1 living
 	METHOD c renderSwingProgress (Lxx;F)F
 	METHOD d handleRotationFloat (Lxx;F)F
-	FIELD a mainModel Lgf;
-	FIELD b renderPassModel Lgf;

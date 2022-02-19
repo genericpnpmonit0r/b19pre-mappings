@@ -1,22 +1,10 @@
 CLASS pq net/minecraft/src/TileEntityFurnace
-	METHOD a getSizeInventory ()I
-	METHOD a decrStackSize (II)Lia;
-	METHOD a setInventorySlotContents (ILia;)V
-	METHOD a canInteractWith (Lgb;)Z
-	METHOD a getItemBurnTime (Lia;)I
-		ARG 1 itemStack
-	METHOD a readFromNBT (Llx;)V
-	METHOD b writeToNBT (Llx;)V
-	METHOD b_ getStackInSlot (I)Lia;
-	METHOD c getInvName ()Ljava/lang/String;
-	METHOD d getInventoryStackLimit ()I
-	METHOD e func_35161_e ()V
-	METHOD h isBurning ()Z
-	METHOD i_ updateEntity ()V
-	METHOD o smeltItem ()V
-	METHOD p canSmelt ()Z
-	METHOD t_ func_35162_t_ ()V
 	FIELD a furnaceBurnTime I
 	FIELD b currentItemBurnTime I
 	FIELD c furnaceCookTime I
 	FIELD d furnaceItemStacks [Lia;
+	METHOD a getItemBurnTime (Lia;)I
+		ARG 1 itemStack
+	METHOD h isBurning ()Z
+	METHOD o smeltItem ()V
+	METHOD p canSmelt ()Z

@@ -1,16 +1,8 @@
 CLASS pv net/minecraft/src/GuiContainerCreative
-	METHOD <init> (Luo;)V
-		ARG 1 player
-	METHOD a initGui ()V
-	METHOD a drawGuiContainerBackgroundLayer (F)V
-	METHOD a drawScreen (IIF)V
-	METHOD a func_35309_a (Lum;IIZ)V
-	METHOD a actionPerformed (Lxb;)V
-	METHOD c drawGuiContainerForegroundLayer ()V
-	METHOD f handleMouseInput ()V
-	METHOD g getInventory ()Lkd;
-	METHOD q_ updateScreen ()V
 	FIELD h inventory Lkd;
 	FIELD i field_35312_g F
 	FIELD j field_35313_h Z
 	FIELD k field_35314_i Z
+	METHOD <init> (Luo;)V
+		ARG 1 player
+	METHOD g getInventory ()Lkd;

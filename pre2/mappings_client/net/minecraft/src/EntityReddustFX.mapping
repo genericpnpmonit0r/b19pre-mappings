@@ -1,4 +1,2 @@
 CLASS vr net/minecraft/src/EntityReddustFX
-	METHOD a renderParticle (Lzd;FFFFFF)V
-	METHOD x_ onUpdate ()V
 	FIELD a reddustParticleScale F

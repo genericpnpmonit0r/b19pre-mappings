@@ -1,15 +1,4 @@
 CLASS pw net/minecraft/src/Packet23VehicleSpawn
-	METHOD <init> (Lpu;I)V
-		ARG 1 entity
-		ARG 2 type
-	METHOD <init> (Lpu;II)V
-		ARG 1 entity
-		ARG 2 type
-		ARG 3 i
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqk;)V
 	FIELD a entityId I
 	FIELD b xPosition I
 	FIELD c yPosition I
@@ -19,3 +8,10 @@ CLASS pw net/minecraft/src/Packet23VehicleSpawn
 	FIELD g prevAccelZ I
 	FIELD h type I
 	FIELD i field_28041_i I
+	METHOD <init> (Lpu;I)V
+		ARG 1 entity
+		ARG 2 type
+	METHOD <init> (Lpu;II)V
+		ARG 1 entity
+		ARG 2 type
+		ARG 3 i

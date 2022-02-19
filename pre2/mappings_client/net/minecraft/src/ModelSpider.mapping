@@ -1,6 +1,4 @@
 CLASS lb net/minecraft/src/ModelSpider
-	METHOD a setRotationAngles (FFFFFF)V
-	METHOD a render (Llh;FFFFFF)V
 	FIELD a spiderHead Lnz;
 	FIELD b spiderNeck Lnz;
 	FIELD c spiderBody Lnz;

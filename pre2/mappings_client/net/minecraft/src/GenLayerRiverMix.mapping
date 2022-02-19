@@ -1,9 +1,7 @@
 CLASS aet net/minecraft/src/GenLayerRiverMix
+	FIELD b biomePatternGeneratorChain Lsv;
+	FIELD c riverPatternGeneratorChain Lsv;
 	METHOD <init> (JLsv;Lsv;)V
 		ARG 1 seed
 		ARG 3 biomePatternGeneratorChain
 		ARG 4 riverPatternGeneratorChain
-	METHOD a func_35500_a (IIII)[I
-	METHOD b func_35496_b (J)V
-	FIELD b biomePatternGeneratorChain Lsv;
-	FIELD c riverPatternGeneratorChain Lsv;

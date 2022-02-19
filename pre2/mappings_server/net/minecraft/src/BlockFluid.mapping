@@ -1,21 +1,9 @@
 CLASS ox net/minecraft/src/BlockFluid
-	METHOD a isOpaqueCube ()Z
-	METHOD a getBlockTextureFromSide (I)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a canCollideCheck (IZ)Z
-	METHOD a onBlockAdded (Lep;III)V
-	METHOD a onNeighborBlockChange (Lep;IIII)V
-	METHOD a updateTick (Lep;IIILjava/util/Random;)V
-	METHOD a velocityToAddToEntity (Lep;IIILpu;Lbo;)V
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD b isACube ()Z
 	METHOD b getEffectiveFlowDecay (Lut;III)I
 		ARG 1 blockAccess
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD b shouldSideBeRendered (Lut;IIII)Z
-	METHOD c tickRate ()I
 	METHOD c getFluidHeightPercent (I)F
 		ARG 0 height
 	METHOD c getFlowVector (Lut;III)Lbo;
@@ -23,7 +11,6 @@ CLASS ox net/minecraft/src/BlockFluid
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;
 	METHOD g getFlowDecay (Lep;III)I
 		ARG 1 world
 		ARG 2 x

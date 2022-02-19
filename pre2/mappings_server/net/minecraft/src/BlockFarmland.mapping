@@ -1,14 +1,6 @@
 CLASS sn net/minecraft/src/BlockFarmland
 	METHOD <init> (I)V
 		ARG 1 id
-	METHOD a isOpaqueCube ()Z
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a onNeighborBlockChange (Lep;IIII)V
-	METHOD a updateTick (Lep;IIILjava/util/Random;)V
-	METHOD b isACube ()Z
-	METHOD b onEntityWalking (Lep;IIILpu;)V
-	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;
 	METHOD g isCropsNearby (Lep;III)Z
 		ARG 1 world
 		ARG 2 x

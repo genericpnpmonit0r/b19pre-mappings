@@ -1,4 +1,1 @@
 CLASS aw net/minecraft/src/ItemShears
-	METHOD a canHarvestBlock (Lmq;)Z
-	METHOD a onBlockDestroyed (Lwc;IIIILxx;)Z
-	METHOD a getStrVsBlock (Lwc;Lmq;)F

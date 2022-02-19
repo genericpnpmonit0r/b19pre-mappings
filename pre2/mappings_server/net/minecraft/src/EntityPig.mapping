@@ -1,14 +1,4 @@
 CLASS tn net/minecraft/src/EntityPig
-	METHOD a fall (F)V
-	METHOD a onStruckByLightning (Lc;)V
-	METHOD a readEntityFromNBT (Llx;)V
-	METHOD b entityInit ()V
-	METHOD b interact (Lgb;)Z
-	METHOD b writeEntityToNBT (Llx;)V
 	METHOD b setSaddled (Z)V
 		ARG 1 saddled
-	METHOD b_ getHurtSound ()Ljava/lang/String;
-	METHOD e getLivingSound ()Ljava/lang/String;
-	METHOD g getDeathSound ()Ljava/lang/String;
-	METHOD h getDropItemId ()I
 	METHOD w getSaddled ()Z

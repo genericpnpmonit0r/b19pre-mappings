@@ -1,4 +1,10 @@
 CLASS oo net/minecraft/src/Packet34EntityTeleport
+	FIELD a entityId I
+	FIELD b xPosition I
+	FIELD c yPosition I
+	FIELD d zPosition I
+	FIELD e yaw B
+	FIELD f pitch B
 	METHOD <init> (IIIIBB)V
 		ARG 1 id
 		ARG 2 x
@@ -8,13 +14,3 @@ CLASS oo net/minecraft/src/Packet34EntityTeleport
 		ARG 6 pitch
 	METHOD <init> (Lpu;)V
 		ARG 1 entity
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqk;)V
-	FIELD a entityId I
-	FIELD b xPosition I
-	FIELD c yPosition I
-	FIELD d zPosition I
-	FIELD e yaw B
-	FIELD f pitch B

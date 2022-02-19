@@ -1,10 +1,12 @@
 CLASS hz net/minecraft/src/InventoryPlayer
+	FIELD a mainInventory [Lia;
+	FIELD b armorInventory [Lia;
+	FIELD c currentItem I
+	FIELD d player Lgb;
+	FIELD e inventoryChanged Z
+	FIELD f itemStack Lia;
 	METHOD <init> (Lgb;)V
 		ARG 1 player
-	METHOD a getSizeInventory ()I
-	METHOD a decrStackSize (II)Lia;
-	METHOD a setInventorySlotContents (ILia;)V
-	METHOD a canInteractWith (Lgb;)Z
 	METHOD a addItemStackToInventory (Lia;)Z
 	METHOD a getDamageVsEntity (Lpu;)I
 		ARG 1 entity
@@ -20,29 +22,17 @@ CLASS hz net/minecraft/src/InventoryPlayer
 		ARG 1 listTag
 	METHOD b canHarvestBlock (Lro;)Z
 		ARG 1 block
-	METHOD b_ getStackInSlot (I)Lia;
-	METHOD c getInvName ()Ljava/lang/String;
 	METHOD c func_35177_c (I)Z
 	METHOD c isUseableByPlayer (Lia;)Z
 		ARG 1 itemStack
-	METHOD d getInventoryStackLimit ()I
 	METHOD d damageArmor (I)V
 		ARG 1 amount
 	METHOD d storeItemStack (Lia;)I
-	METHOD e func_35161_e ()V
 	METHOD e getInventorySlotContainItem (I)I
 	METHOD e storePartialItemStack (Lia;)I
 	METHOD g func_25054_e ()I
 	METHOD h decrementAnimations ()V
 	METHOD i getTotalArmorValue ()I
 	METHOD j dropAllItems ()V
-	METHOD k onInventoryChanged ()V
 	METHOD l getItemStack ()Lia;
 	METHOD m getFirstEmptyStack ()I
-	METHOD t_ func_35162_t_ ()V
-	FIELD a mainInventory [Lia;
-	FIELD b armorInventory [Lia;
-	FIELD c currentItem I
-	FIELD d player Lgb;
-	FIELD e inventoryChanged Z
-	FIELD f itemStack Lia;

@@ -1,26 +1,4 @@
 CLASS jt net/minecraft/src/ChunkProviderServer
-	METHOD <init> (Lew;Laz;Lcc;)V
-		ARG 1 worldServer
-		ARG 2 chunkLoader
-		ARG 3 chunkProvider
-	METHOD a unload100OldestChunks ()Z
-	METHOD a chunkExists (II)Z
-	METHOD a populate (Lcc;II)V
-	METHOD a getPossibleCreatures (Ljx;III)Ljava/util/List;
-	METHOD a saveChunkExtraData (Ljy;)V
-		ARG 1 chunk
-	METHOD a saveChunks (ZLve;)Z
-	METHOD b canSave ()Z
-	METHOD b provideChunk (II)Ljy;
-	METHOD b saveChunkData (Ljy;)V
-		ARG 1 chunk
-	METHOD c loadChunk (II)Ljy;
-	METHOD d dropChunk (II)V
-		ARG 1 x
-		ARG 2 z
-	METHOD e loadChunkFromFile (II)Ljy;
-		ARG 1 x
-		ARG 2 z
 	FIELD a chunkLoadOverride Z
 	FIELD b droppedChunksSet Ljava/util/Set;
 	FIELD c dummyChunk Ljy;
@@ -29,3 +7,17 @@ CLASS jt net/minecraft/src/ChunkProviderServer
 	FIELD f id2ChunkMap Lfg;
 	FIELD g loadedChunks Ljava/util/List;
 	FIELD h world Lew;
+	METHOD <init> (Lew;Laz;Lcc;)V
+		ARG 1 worldServer
+		ARG 2 chunkLoader
+		ARG 3 chunkProvider
+	METHOD a saveChunkExtraData (Ljy;)V
+		ARG 1 chunk
+	METHOD b saveChunkData (Ljy;)V
+		ARG 1 chunk
+	METHOD d dropChunk (II)V
+		ARG 1 x
+		ARG 2 z
+	METHOD e loadChunkFromFile (II)Ljy;
+		ARG 1 x
+		ARG 2 z

@@ -1,4 +1,16 @@
 CLASS pr net/minecraft/src/EntityArrow
+	FIELD a doesArrowBelongToPlayer Z
+	FIELD b arrowShake I
+	FIELD c shootingEntity Lpu;
+	FIELD d arrowCritical Z
+	FIELD e xTile I
+	FIELD f yTile I
+	FIELD g zTile I
+	FIELD h inTile I
+	FIELD i inData I
+	FIELD j inGround Z
+	FIELD k ticksInGround I
+	FIELD l ticksInAir I
 	METHOD <init> (Lep;DDD)V
 		ARG 1 world
 		ARG 2 x
@@ -14,20 +26,3 @@ CLASS pr net/minecraft/src/EntityArrow
 		ARG 5 z
 		ARG 7 yaw
 		ARG 8 pitch
-	METHOD a readEntityFromNBT (Llx;)V
-	METHOD a_ onCollideWithPlayer (Lgb;)V
-	METHOD b entityInit ()V
-	METHOD b writeEntityToNBT (Llx;)V
-	METHOD s_ onUpdate ()V
-	FIELD a doesArrowBelongToPlayer Z
-	FIELD b arrowShake I
-	FIELD c shootingEntity Lpu;
-	FIELD d arrowCritical Z
-	FIELD e xTile I
-	FIELD f yTile I
-	FIELD g zTile I
-	FIELD h inTile I
-	FIELD i inData I
-	FIELD j inGround Z
-	FIELD k ticksInGround I
-	FIELD l ticksInAir I

@@ -16,17 +16,9 @@ CLASS yy net/minecraft/src/EntityEnderPearl
 	METHOD <init> (Lti;Lxx;)V
 		ARG 1 world
 		ARG 2 living
-	METHOD a isInRangeToRenderDist (D)Z
-	METHOD a setVelocity (DDD)V
 	METHOD a setEnderpearlHeading (DDDFF)V
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
 		ARG 7 yaw
 		ARG 8 pitch
-	METHOD a readEntityFromNBT (Lza;)V
-	METHOD a_ onCollideWithPlayer (Luo;)V
-	METHOD b entityInit ()V
-	METHOD b writeEntityToNBT (Lza;)V
-	METHOD g_ getShadowSize ()F
-	METHOD x_ onUpdate ()V
