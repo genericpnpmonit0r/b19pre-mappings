@@ -16,18 +16,14 @@ There will be field_ and func_ names from 1.0.0 MCP as that was used as a base f
 
 # Versions
 
-- b1.9pre1
+- b1.9pre1 (client and server)
 
-	Mostly Complete, there might be some missing field and method names here or there.
+	Mostly complete, might be some missing field and method names here or there.
 
-- b1.9pre1-server
-
-	in progress
-	
 - b1.9pre2  
 
-	not started
+	Work in progress
 	
-- b1-9pre3-1350  
+- b1.9pre3
 
 	progress halted (will continue on this after pre1 and pre2 are done)
