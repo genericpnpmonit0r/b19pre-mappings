@@ -12,7 +12,7 @@ CLASS adg net/minecraft/src/EntitySlime
 	METHOD a readEntityFromNBT (Lyr;)V
 	METHOD a_ onCollideWithPlayer (Lui;)V
 	METHOD aa getSlimeSound ()Ljava/lang/String;
-	METHOD ab getSlimeSize ()I
+	METHOD ab getArmor ()I
 	METHOD b entityInit ()V
 	METHOD b setSlimeSize (I)V
 		ARG 1 size

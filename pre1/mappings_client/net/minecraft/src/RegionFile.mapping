@@ -21,10 +21,11 @@ CLASS jw net/minecraft/src/RegionFile
 		ARG 1 x
 		ARG 2 z
 		ARG 3 blocks
-		ARG 4 i
+		ARG 4 index
 	METHOD a write (I[BI)V
 		ARG 1 index
 		ARG 2 blocks
+		ARG 3 stamp
 	METHOD a debug (Ljava/lang/String;)V
 		ARG 1 text
 	METHOD a debugPrint2 (Ljava/lang/String;IIILjava/lang/String;)V

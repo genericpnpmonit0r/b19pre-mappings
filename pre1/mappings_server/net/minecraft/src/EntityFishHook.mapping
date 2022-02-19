@@ -1,4 +1,4 @@
-CLASS kf net/minecraft/src/EntityFish
+CLASS kf net/minecraft/src/EntityFishHook
 	FIELD a shake I
 	FIELD b angler Lga;
 	FIELD c bobber Lpp;

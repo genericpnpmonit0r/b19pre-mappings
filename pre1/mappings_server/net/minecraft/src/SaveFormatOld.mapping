@@ -1,7 +1,13 @@
 CLASS qn net/minecraft/src/SaveFormatOld
+	FIELD a savesDirectory Ljava/io/File;
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 file
 	METHOD a isOldSaveType (Ljava/lang/String;)Z
 	METHOD a convertMapFormat (Ljava/lang/String;Luy;)Z
 	METHOD a getSaveLoader (Ljava/lang/String;Z)Ltv;
-	METHOD a func_22104_a ([Ljava/io/File;)V
+		ARG 1 worldName
+		ARG 2 isNew
+	METHOD a deleteOldFiles ([Ljava/io/File;)V
+		ARG 0 files
 	METHOD b getWorldInfo (Ljava/lang/String;)Ldx;
-	FIELD a field_22106_a Ljava/io/File;
+		ARG 1 name

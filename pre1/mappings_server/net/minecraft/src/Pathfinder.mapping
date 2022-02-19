@@ -1,14 +1,55 @@
-CLASS fh net/minecraft/src/Pathfinder
-	METHOD a openPoint (III)Ld;
-	METHOD a createEntityPath (Ld;Ld;)Lcx;
-	METHOD a createEntityPathTo (Lpp;DDDF)Lcx;
-	METHOD a createEntityPathTo (Lpp;IIIF)Lcx;
-	METHOD a getVerticalOffset (Lpp;IIILd;)I
-	METHOD a getSafePoint (Lpp;IIILd;I)Ld;
-	METHOD a addToPath (Lpp;Ld;Ld;Ld;F)Lcx;
-	METHOD a createEntityPathTo (Lpp;Lpp;F)Lcx;
-	METHOD b findPathOptions (Lpp;Ld;Ld;Ld;F)I
+CLASS fh net/minecraft/src/PathFinder
 	FIELD a worldMap Lun;
 	FIELD b path Ljp;
 	FIELD c pointMap Liu;
 	FIELD d pathOptions [Ld;
+	METHOD <init> (Lun;)V
+		ARG 1 blockAccess
+	METHOD a openPoint (III)Ld;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a createEntityPath (Ld;Ld;)Lcx;
+		ARG 1 point1
+		ARG 2 point2
+	METHOD a createEntityPathTo (Lpp;DDDF)Lcx;
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 distance
+	METHOD a createEntityPathTo (Lpp;IIIF)Lcx;
+		ARG 1 entity
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 distance
+	METHOD a getVerticalOffset (Lpp;IIILd;)I
+		ARG 1 entity
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 point
+	METHOD a getSafePoint (Lpp;IIILd;I)Ld;
+		ARG 1 entity
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 point
+		ARG 6 i
+	METHOD a addToPath (Lpp;Ld;Ld;Ld;F)Lcx;
+		ARG 1 entity
+		ARG 2 point1
+		ARG 3 point2
+		ARG 4 point3
+		ARG 5 distance
+	METHOD a createEntityPathTo (Lpp;Lpp;F)Lcx;
+		ARG 1 source
+		ARG 2 target
+		ARG 3 distance
+	METHOD b findPathOptions (Lpp;Ld;Ld;Ld;F)I
+		ARG 1 entity
+		ARG 2 point1
+		ARG 3 point2
+		ARG 4 point3
+		ARG 5 distance

@@ -10,7 +10,7 @@ CLASS cd net/minecraft/src/EntitySheep
 	METHOD b interact (Lui;)Z
 	METHOD b writeEntityToNBT (Lyr;)V
 	METHOD b setSheared (Z)V
-		ARG 1 shearedFlag
+		ARG 1 sheared
 	METHOD d getLivingSound ()Ljava/lang/String;
 	METHOD e getHurtSound ()Ljava/lang/String;
 	METHOD f getDeathSound ()Ljava/lang/String;

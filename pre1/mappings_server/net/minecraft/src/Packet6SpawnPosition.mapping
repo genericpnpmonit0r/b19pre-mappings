@@ -1,8 +1,12 @@
 CLASS oh net/minecraft/src/Packet6SpawnPosition
+	FIELD a xPosition I
+	FIELD b yPosition I
+	FIELD c zPosition I
+	METHOD <init> (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD a getPacketSize ()I
 	METHOD a readPacketData (Ljava/io/DataInputStream;)V
 	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
 	METHOD a processPacket (Lqf;)V
-	FIELD a xPosition I
-	FIELD b yPosition I
-	FIELD c zPosition I

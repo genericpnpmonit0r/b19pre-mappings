@@ -1,2 +1,5 @@
 CLASS pw net/minecraft/src/ItemAxe
 	FIELD bx blocksEffectiveAgainst [Lrj;
+	METHOD <init> (ILbp;)V
+		ARG 1 id
+		ARG 2 toolMaterial

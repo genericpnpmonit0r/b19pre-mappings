@@ -1,13 +1,41 @@
 CLASS es net/minecraft/src/EntityPlayerMP
+	FIELD a playerNetServerHandler Ljn;
+	FIELD b mcServer Lnet/minecraft/server/MinecraftServer;
+	FIELD c playerControllerServer Lrl;
+	FIELD cb lastHealth I
+	FIELD cc playerFoodLevel I
+	FIELD cd playerFoodSaturationLevel Z
+	FIELD ce playerXpLevel I
+	FIELD cf ticksOfInvuln I
+	FIELD cg playerInventory [Lhz;
+	FIELD ch currentWindowId I
+	FIELD d managedPosX D
+	FIELD e managedPosZ D
+	FIELD f loadedChunks Ljava/util/List;
+	FIELD g playerCurrentChunks Ljava/util/Set;
+	FIELD h isChangingQuantityOnly Z
+	FIELD i ping I
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lep;Ljava/lang/String;Lrl;)V
+		ARG 1 minecraftServer
+		ARG 2 world
+		ARG 3 username
+		ARG 4 playerControllerServer
 	METHOD A closeCraftingGui ()V
-	METHOD B func_30002_A ()V
-	METHOD C func_30001_B ()V
+	METHOD B setRiding ()V
+	METHOD C setLastHealth ()V
 	METHOD D func_35199_C ()V
 	METHOD a updateFallState (DZ)V
 	METHOD a setMovementType (FFZZFF)V
+		ARG 1 strafing
+		ARG 2 forward
+		ARG 3 jumping
+		ARG 4 sneaking
+		ARG 5 pitch
+		ARG 6 yaw
 	METHOD a sleepInBedAt (III)Lcq;
 	METHOD a displayGUIDispenser (Lax;)V
-	METHOD a func_28017_a (Ldm;)V
+	METHOD a updateContainerContents (Ldm;)V
+		ARG 1 container
 	METHOD a updateCraftingInventoryInfo (Ldm;II)V
 	METHOD a updateCraftingInventorySlot (Ldm;ILhz;)V
 	METHOD a updateCraftingInventory (Ldm;Ljava/util/List;)V
@@ -18,6 +46,7 @@ CLASS es net/minecraft/src/EntityPlayerMP
 	METHOD a displayGUIChest (Lkd;)V
 	METHOD a readEntityFromNBT (Lls;)V
 	METHOD a getTileEntityInfo (Lms;)V
+		ARG 1 tileEntity
 	METHOD a onDeath (Lns;)V
 	METHOD a attackEntityFrom (Lns;I)Z
 	METHOD a displayGUIFurnace (Lpl;)V
@@ -28,35 +57,24 @@ CLASS es net/minecraft/src/EntityPlayerMP
 	METHOD a wakeUpPlayer (ZZZ)V
 	METHOD ax getNextWidowId ()V
 	METHOD b handleFalling (DZ)V
+		ARG 1 fallDistance
+		ARG 3 falling
 	METHOD b getEquipmentInSlot (I)Lhz;
+		ARG 1 index
 	METHOD b displayWorkbenchGUI (III)V
 	METHOD b writeEntityToNBT (Lls;)V
 	METHOD b func_35179_b (Lul;)V
 	METHOD b onUpdateEntity (Z)V
+		ARG 1 inUnloadedChunk
 	METHOD c heal (I)V
 	METHOD c func_35185_c (Lul;)V
 	METHOD l_ getInventory ()[Lhz;
 	METHOD m_ resetHeight ()V
-	METHOD p func_20057_k ()V
+	METHOD p openCraftingGUI ()V
 	METHOD q_ onUpdate ()V
 	METHOD u getEyeHeight ()F
 	METHOD v isPVPEnabled ()Z
 	METHOD w swingItem ()V
 	METHOD x func_22068_s ()V
 	METHOD y usePersonalCraftingInventory ()V
-	FIELD a playerNetServerHandler Ljn;
-	FIELD b mcServer Lnet/minecraft/server/MinecraftServer;
-	FIELD c itemInWorldManager Lrl;
-	FIELD cb lastHealth I
-	FIELD cc field_35221_cc I
-	FIELD cd field_35222_cd Z
-	FIELD ce field_35220_ce I
-	FIELD cf ticksOfInvuln I
-	FIELD cg playerInventory [Lhz;
-	FIELD ch currentWindowId I
-	FIELD d field_9155_d D
-	FIELD e field_9154_e D
-	FIELD f loadedChunks Ljava/util/List;
-	FIELD g field_420_ah Ljava/util/Set;
-	FIELD h isChangingQuantityOnly Z
-	FIELD i field_35219_i I
+	METHOD z updateHeldItem ()V

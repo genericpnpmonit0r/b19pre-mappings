@@ -13,8 +13,8 @@ CLASS ga net/minecraft/src/EntityPlayer
 	FIELD L xp I
 	FIELD M playerLevel I
 	FIELD N xpLevel I
-	FIELD O field_35213_O F
-	FIELD P field_35215_P F
+	FIELD O speedOnGround F
+	FIELD P speedInAir F
 	FIELD Q fishEntity Lkf;
 	FIELD a sleepTimer I
 	FIELD b spawnChunk Lbm;
@@ -25,8 +25,8 @@ CLASS ga net/minecraft/src/EntityPlayer
 	FIELD k personalCraftingInventory Ldm;
 	FIELD l currentCraftingInventory Ldm;
 	FIELD m foodStats Lpf;
-	FIELD n field_35216_n I
-	FIELD o field_9152_am B
+	FIELD n flyToggleTimer I
+	FIELD o unusedByte B
 	FIELD p score I
 	FIELD q prevCameraYaw F
 	FIELD r cameraYaw F
@@ -34,14 +34,14 @@ CLASS ga net/minecraft/src/EntityPlayer
 	FIELD t swingProgressInt I
 	FIELD u username Ljava/lang/String;
 	FIELD v dimension I
-	FIELD w field_35218_w I
+	FIELD w xpCooldown I
 	FIELD x field_20047_ay D
 	FIELD y field_20046_az D
 	FIELD z field_20051_aA D
-	METHOD D func_35199_C ()V
-	METHOD E func_35209_o_ ()Z
-	METHOD F func_35196_E ()V
-	METHOD G func_35205_F ()V
+	METHOD D onItemUseFinish ()V
+	METHOD E isUsingItem ()Z
+	METHOD F stopUsingItem ()V
+	METHOD G clearItemInUse ()V
 	METHOD H func_35180_G ()Z
 	METHOD I isMovementBlocked ()Z
 	METHOD J updateRidden ()V
@@ -61,6 +61,9 @@ CLASS ga net/minecraft/src/EntityPlayer
 	METHOD Y shouldHeal ()Z
 	METHOD Z func_35188_X ()Z
 	METHOD a addMovementStat (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD a fall (F)V
 	METHOD a moveEntityWithHeading (FF)V
 	METHOD a sleepInBedAt (III)Lcq;
@@ -68,35 +71,47 @@ CLASS ga net/minecraft/src/EntityPlayer
 		ARG 2 y
 		ARG 3 z
 	METHOD a displayGUIDispenser (Lax;)V
+		ARG 1 dispenser
 	METHOD a setSpawnChunk (Lbm;)V
 		ARG 1 chunkCoords
 	METHOD a verifyBedCoordinates (Lep;Lbm;)Lbm;
 		ARG 0 world
 		ARG 1 chunkCoords
 	METHOD a joinEntityItemWithWorld (Lgr;)V
+		ARG 1 entityItem
 	METHOD a onItemStackChanged (Lhz;)V
 		ARG 1 itemStack
 	METHOD a setItemInUse (Lhz;I)V
 		ARG 1 itemStack
 		ARG 2 count
 	METHOD a dropPlayerItemWithRandomChoice (Lhz;Z)V
+		ARG 1 itemStack
+		ARG 2 useRand
 	METHOD a addChatMessage (Ljava/lang/String;)V
 		ARG 1 message
 	METHOD a onKillEntity (Ljz;)V
 	METHOD a alertWolves (Ljz;Z)V
+		ARG 1 living
+		ARG 2 sitting
 	METHOD a displayGUIChest (Lkd;)V
+		ARG 1 inventory
 	METHOD a readEntityFromNBT (Lls;)V
 	METHOD a onDeath (Lns;)V
 	METHOD a attackEntityFrom (Lns;I)Z
 	METHOD a displayGUIFurnace (Lpl;)V
+		ARG 1 furnace
 	METHOD a onItemPickup (Lpp;I)V
+		ARG 1 entity
+		ARG 2 id
 	METHOD a getCurrentPlayerStrVsBlock (Lrj;)F
+		ARG 1 block
 	METHOD a triggerAchievement (Lso;)V
 		ARG 1 statBase
 	METHOD a addStat (Lso;I)V
 		ARG 1 statBase
 		ARG 2 id
 	METHOD a displayGUIEditSign (Lvh;)V
+		ARG 1 sign
 	METHOD a wakeUpPlayer (ZZZ)V
 		ARG 1 resetSleepTimer
 		ARG 2 allPlayersSleeping
@@ -104,14 +119,21 @@ CLASS ga net/minecraft/src/EntityPlayer
 	METHOD aa func_35150_Y ()Ljava/lang/String;
 	METHOD b entityInit ()V
 	METHOD b setSpecialRenderXZ (I)V
-		ARG 1 i
+		ARG 1 specialRenderCase
 	METHOD b displayWorkbenchGUI (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD b dropPlayerItem (Lhz;)V
-	METHOD b func_35208_b (Lhz;I)V
+		ARG 1 itemStack
+	METHOD b updateItemInUse (Lhz;I)V
+		ARG 1 itemStack
+		ARG 2 count
 	METHOD b writeEntityToNBT (Lls;)V
 	METHOD b damageEntity (Lns;I)V
 	METHOD b addToPlayerScore (Lpp;I)V
 	METHOD b canHarvestBlock (Lrj;)Z
+		ARG 1 block
 	METHOD c onLivingUpdate ()V
 	METHOD c addExhaustion (F)V
 		ARG 1 exhaustionAmount
@@ -120,6 +142,7 @@ CLASS ga net/minecraft/src/EntityPlayer
 		ARG 2 y
 		ARG 3 z
 	METHOD c useCurrentItemOnEntity (Lpp;)V
+		ARG 1 entity
 	METHOD c canEat (Z)Z
 		ARG 1 canEatToggle
 	METHOD d attackTargetEntityWithCurrentItem (Lpp;)V
@@ -133,9 +156,10 @@ CLASS ga net/minecraft/src/EntityPlayer
 		ARG 3 y
 		ARG 5 z
 	METHOD j collideWithPlayer (Lpp;)V
+		ARG 1 entity
 	METHOD l updateEntityActionState ()V
 	METHOD m_ resetHeight ()V
-	METHOD p func_35204_o ()I
+	METHOD p applyPotionDigSpeedEffects ()I
 	METHOD q_ onUpdate ()V
 	METHOD u getEyeHeight ()F
 	METHOD v isPVPEnabled ()Z

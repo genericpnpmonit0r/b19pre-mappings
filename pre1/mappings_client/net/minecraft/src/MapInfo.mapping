@@ -1,7 +1,7 @@
 CLASS lb net/minecraft/src/MapInfo
 	FIELD a entityplayerObj Lui;
-	FIELD b field_28119_b [I
-	FIELD c field_28124_c [I
+	FIELD b xCoords [I
+	FIELD c yCoords [I
 	FIELD d mapDataObj Lvs;
 	FIELD e currentNum I
 	FIELD f ticksUntilPlayerLocationMapUpdate I

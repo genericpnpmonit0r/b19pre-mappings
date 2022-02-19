@@ -1,3 +1,6 @@
 CLASS cf net/minecraft/src/ItemMapBase
-	METHOD c func_28022_b (Lhz;Lep;Lga;)Ljc;
+	METHOD c sendMPMapDataPacket (Lhz;Lep;Lga;)Ljc;
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 player
 	METHOD i_ func_28019_b ()Z

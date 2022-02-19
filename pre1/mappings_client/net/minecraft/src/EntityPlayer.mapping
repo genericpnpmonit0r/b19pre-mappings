@@ -62,33 +62,47 @@ CLASS ui net/minecraft/src/EntityPlayer
 	METHOD a displayGUIFurnace (Labs;)V
 		ARG 1 furnace
 	METHOD a triggerAchievement (Ladw;)V
+		ARG 1 statBase
 	METHOD a addStat (Ladw;I)V
 		ARG 1 statBase
 		ARG 2 id
 	METHOD a displayGUIDispenser (Laq;)V
 		ARG 1 dispenser
 	METHOD a joinEntityItemWithWorld (Lep;)V
+		ARG 1 entityItem
 	METHOD a displayGUIChest (Lha;)V
 		ARG 1 inventory
 	METHOD a onDeath (Ljz;)V
 	METHOD a attackEntityFrom (Ljz;I)Z
 	METHOD a addToPlayerScore (Lle;I)V
 	METHOD a getCurrentPlayerStrVsBlock (Lmn;)F
+		ARG 1 block
 	METHOD a displayGUIEditSign (Lpf;)V
 		ARG 1 sign
 	METHOD a setPlayerSpawnCoordinate (Lqx;)V
+		ARG 1 chunkCoords
 	METHOD a verifyRespawnCoordinates (Ltd;Lqx;)Lqx;
+		ARG 0 world
+		ARG 1 chunkCoords
 	METHOD a func_36001_a (Lui;)I
 	METHOD a dropPlayerItem (Lvw;)V
+		ARG 1 itemStack
 	METHOD a updateItemUse (Lvw;I)V
 		ARG 1 itemStack
 		ARG 2 particleCounter
 	METHOD a dropPlayerItemWithRandomChoice (Lvw;Z)V
+		ARG 1 itemStack
+		ARG 2 useRand
 	METHOD a onKillEntity (Lxq;)V
 	METHOD a alertWolves (Lxq;Z)V
+		ARG 1 living
+		ARG 2 sitting
 	METHOD a readEntityFromNBT (Lyr;)V
 	METHOD a wakeUpPlayer (ZZZ)V
-	METHOD aE func_35202_aE ()I
+		ARG 1 resetSleepTimer
+		ARG 2 allPlayersSleeping
+		ARG 3 setSpawnChunk
+	METHOD aE applyPotionDigSpeedEffects ()I
 	METHOD aF isInBed ()Z
 	METHOD aG increaseLevel ()V
 	METHOD a_ moveEntityWithHeading (FF)V
@@ -116,7 +130,7 @@ CLASS ui net/minecraft/src/EntityPlayer
 	METHOD av func_35163_av ()Z
 	METHOD b entityInit ()V
 	METHOD b setSpecialRenderXZ (I)V
-		ARG 1 i
+		ARG 1 specialRenderCase
 	METHOD b addChatMessage (Ljava/lang/String;)V
 		ARG 1 message
 	METHOD b damageEntity (Ljz;I)V
@@ -126,6 +140,7 @@ CLASS ui net/minecraft/src/EntityPlayer
 		ARG 1 entity
 		ARG 2 id
 	METHOD b canHarvestBlock (Lmn;)Z
+		ARG 1 block
 	METHOD b onItemStackChanged (Lvw;)V
 		ARG 1 itemStack
 	METHOD b setItemInUse (Lvw;I)V
@@ -137,6 +152,7 @@ CLASS ui net/minecraft/src/EntityPlayer
 	METHOD c onLivingUpdate ()V
 	METHOD c func_40125_g (I)V
 	METHOD c useCurrentItemOnEntity (Lle;)V
+		ARG 1 entity
 	METHOD c getItemIcon (Lvw;)I
 	METHOD d addExhaustion (F)V
 		ARG 1 exhaustionAmount
@@ -153,8 +169,15 @@ CLASS ui net/minecraft/src/EntityPlayer
 	METHOD h attackTargetEntityWithCurrentItem (Lle;)V
 		ARG 1 entity
 	METHOD i addMovementStat (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD j addMountedMovementStat (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD j collideWithPlayer (Lle;)V
+		ARG 1 entity
 	METHOD l_ updateEntityActionState ()V
 	METHOD p resetHeight ()V
 	METHOD q func_6420_o ()V

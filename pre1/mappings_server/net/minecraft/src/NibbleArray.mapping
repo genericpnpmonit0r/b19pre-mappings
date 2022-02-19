@@ -1,7 +1,20 @@
 CLASS tg net/minecraft/src/NibbleArray
+	FIELD a data [B
+	FIELD b chunkSizeYShift I
+	FIELD c chunkSizeYZShift I
+	METHOD <init> (II)V
+		ARG 1 x
+		ARG 2 z
+	METHOD <init> ([BI)V
+		ARG 1 data
+		ARG 2 shift
 	METHOD a isValid ()Z
 	METHOD a getNibble (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD a setNibble (IIII)V
-	FIELD a data [B
-	FIELD b field_35661_b I
-	FIELD c field_35662_c I
+		ARG 1 x
+		ARG 2 z
+		ARG 3 x2
+		ARG 4 z2

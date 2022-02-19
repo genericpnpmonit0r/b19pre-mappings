@@ -1,10 +1,16 @@
 CLASS ix net/minecraft/src/Packet17Sleep
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqf;)V
 	FIELD a entityID I
 	FIELD b bedX I
 	FIELD c bedY I
 	FIELD d bedZ I
-	FIELD e field_22042_e I
+	FIELD e bedRotation I
+	METHOD <init> (Lpp;IIII)V
+		ARG 1 entity
+		ARG 2 bedRot
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lqf;)V

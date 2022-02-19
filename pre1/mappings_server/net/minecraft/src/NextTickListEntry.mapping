@@ -1,6 +1,4 @@
 CLASS od net/minecraft/src/NextTickListEntry
-	METHOD a setScheduledTime (J)Lod;
-	METHOD a comparer (Lod;)I
 	FIELD a xCoord I
 	FIELD b yCoord I
 	FIELD c zCoord I
@@ -8,3 +6,15 @@ CLASS od net/minecraft/src/NextTickListEntry
 	FIELD e scheduledTime J
 	FIELD f nextTickEntryID J
 	FIELD g tickEntryID J
+	METHOD <init> (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+	METHOD a setScheduledTime (J)Lod;
+		ARG 1 time
+	METHOD a comparer (Lod;)I
+	METHOD compareTo (Ljava/lang/Object;)I
+		ARG 1 nextTickListEntry
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 obj

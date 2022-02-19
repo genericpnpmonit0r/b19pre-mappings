@@ -1,8 +1,13 @@
 CLASS c net/minecraft/src/EntityLightningBolt
+	FIELD a boltVertex J
+	FIELD b lightningState I
+	FIELD c boltLivingTime I
+	METHOD <init> (Lep;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
 	METHOD a readEntityFromNBT (Lls;)V
 	METHOD b entityInit ()V
 	METHOD b writeEntityToNBT (Lls;)V
 	METHOD q_ onUpdate ()V
-	FIELD a boltVertex J
-	FIELD b lightningState I
-	FIELD c boltLivingTime I

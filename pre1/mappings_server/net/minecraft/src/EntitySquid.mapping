@@ -1,4 +1,18 @@
 CLASS ur net/minecraft/src/EntitySquid
+	FIELD a squidPitch F
+	FIELD b prevSquidPitch F
+	FIELD c squidYaw F
+	FIELD g prevSquidYaw F
+	FIELD h field_21060_ak F
+	FIELD i field_21058_al F
+	FIELD j tentacleAngle F
+	FIELD k prevTentacleAngle F
+	FIELD l randomMotionSpeed F
+	FIELD m field_21054_ap F
+	FIELD n field_21053_aq F
+	FIELD o randomMotionVecX F
+	FIELD p randomMotionVecY F
+	FIELD q randomMotionVecZ F
 	METHOD a moveEntityWithHeading (FF)V
 	METHOD a readEntityFromNBT (Lls;)V
 	METHOD a dropFewItems (Z)V
@@ -12,17 +26,3 @@ CLASS ur net/minecraft/src/EntitySquid
 	METHOD g getDropItemId ()I
 	METHOD l updateEntityActionState ()V
 	METHOD m getSoundVolume ()F
-	FIELD a field_21063_a F
-	FIELD b field_21062_b F
-	FIELD c field_21061_c F
-	FIELD g field_21059_f F
-	FIELD h field_21060_ak F
-	FIELD i field_21058_al F
-	FIELD j field_21057_am F
-	FIELD k field_21056_an F
-	FIELD l randomMotionSpeed F
-	FIELD m field_21054_ap F
-	FIELD n field_21053_aq F
-	FIELD o randomMotionVecX F
-	FIELD p randomMotionVecY F
-	FIELD q randomMotionVecZ F

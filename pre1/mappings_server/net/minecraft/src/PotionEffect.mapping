@@ -1,11 +1,18 @@
 CLASS ul net/minecraft/src/PotionEffect
-	FIELD a field_35656_a I
-	FIELD b field_35654_b I
-	FIELD c field_35655_c I
+	FIELD a potionId I
+	FIELD b duration I
+	FIELD c amplifier I
+	METHOD <init> (III)V
+		ARG 1 id
+		ARG 2 duration
+		ARG 3 amplifier
 	METHOD a getPotionID ()I
 	METHOD a onUpdate (Ljz;)Z
-	METHOD a func_35650_a (Lul;)V
-	METHOD b func_35653_b ()I
-	METHOD b func_35651_b (Ljz;)V
-	METHOD c func_35652_c ()I
-	METHOD d func_35647_d ()I
+		ARG 1 living
+	METHOD a combine (Lul;)V
+		ARG 1 potionEffect
+	METHOD b getPotionDuration ()I
+	METHOD b performEffect (Ljz;)V
+		ARG 1 living
+	METHOD c getPotionAmplifier ()I
+	METHOD d deincrementDuration ()I

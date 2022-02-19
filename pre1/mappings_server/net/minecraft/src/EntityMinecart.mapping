@@ -1,4 +1,26 @@
 CLASS vi net/minecraft/src/EntityMinecart
+	FIELD a damageTaken I
+	FIELD b timeSinceHit I
+	FIELD c forwardDirection I
+	FIELD d minecartType I
+	FIELD e fuel I
+	FIELD f pushX D
+	FIELD g pushZ D
+	FIELD h cargoItems [Lhz;
+	FIELD i field_469_aj Z
+	FIELD j field_468_ak [[[I
+	FIELD k minecartPosRotationIncrements I
+	FIELD l minecartX D
+	FIELD m minecartY D
+	FIELD n minecartZ D
+	FIELD o minecartYaw D
+	FIELD p minecartPitch D
+	METHOD <init> (Lep;DDDI)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 type
 	METHOD P setEntityDead ()V
 	METHOD a getSizeInventory ()I
 	METHOD a decrStackSize (II)Lhz;
@@ -24,19 +46,3 @@ CLASS vi net/minecraft/src/EntityMinecart
 	METHOD o getMountedYOffset ()D
 	METHOD q_ onUpdate ()V
 	METHOD r_ func_35162_t_ ()V
-	FIELD a damageTaken I
-	FIELD b timeSinceHit I
-	FIELD c forwardDirection I
-	FIELD d minecartType I
-	FIELD e fuel I
-	FIELD f pushX D
-	FIELD g pushZ D
-	FIELD h cargoItems [Lhz;
-	FIELD i field_469_aj Z
-	FIELD j field_468_ak [[[I
-	FIELD k field_9163_an I
-	FIELD l field_9162_ao D
-	FIELD m field_9161_ap D
-	FIELD n field_9160_aq D
-	FIELD o field_9159_ar D
-	FIELD p field_9158_as D

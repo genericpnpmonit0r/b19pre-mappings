@@ -1,2 +1,4 @@
 CLASS uh net/minecraft/src/NetworkMasterThread
 	FIELD a netManager Lmy;
+	METHOD <init> (Lmy;)V
+		ARG 1 networkManager

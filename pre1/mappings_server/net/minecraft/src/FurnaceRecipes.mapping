@@ -1,7 +1,10 @@
 CLASS ek net/minecraft/src/FurnaceRecipes
-	METHOD a smelting ()Lek;
-	METHOD a getSmeltingResult (I)Lhz;
-	METHOD a addSmelting (ILhz;)V
-	METHOD b getSmeltingList ()Ljava/util/Map;
 	FIELD a smeltingBase Lek;
 	FIELD b smeltingList Ljava/util/Map;
+	METHOD a smelting ()Lek;
+	METHOD a getSmeltingResult (I)Lhz;
+		ARG 1 result
+	METHOD a addSmelting (ILhz;)V
+		ARG 1 sourceId
+		ARG 2 targetItem
+	METHOD b getSmeltingList ()Ljava/util/Map;

@@ -1,4 +1,5 @@
 CLASS te net/minecraft/src/EntitySilverfish
+	FIELD a allySummonCooldown I
 	METHOD a getBlockPathWeight (III)F
 	METHOD a readEntityFromNBT (Lls;)V
 	METHOD a attackEntityFrom (Lns;I)Z
@@ -12,4 +13,3 @@ CLASS te net/minecraft/src/EntitySilverfish
 	METHOD l updateEntityActionState ()V
 	METHOD p findPlayerToAttack ()Lpp;
 	METHOD q_ onUpdate ()V
-	FIELD a field_35237_a I

@@ -1,18 +1,25 @@
 CLASS dy net/minecraft/src/NetworkListenThread
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b isListening Z
+	FIELD c mcServer Lnet/minecraft/server/MinecraftServer;
+	FIELD d serverSocket Ljava/net/ServerSocket;
+	FIELD e networkAcceptThread Ljava/lang/Thread;
+	FIELD f connectionCount I
+	FIELD g pendingConnections Ljava/util/ArrayList;
+	FIELD h playerList Ljava/util/ArrayList;
+	FIELD i networkAddresses Ljava/util/HashMap;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Ljava/net/InetAddress;I)V
+		ARG 1 minecraftServer
+		ARG 2 inetAddress
+		ARG 3 socketId
 	METHOD a handleNetworkListenThread ()V
 	METHOD a func_713_a (Ldy;)Ljava/net/ServerSocket;
 	METHOD a func_716_a (Ldy;Lft;)V
 	METHOD a addPendingConnection (Lft;)V
-	METHOD a func_35505_a (Ljava/net/Socket;)V
+		ARG 1 loginHandler
+	METHOD a unbindNetworkSocket (Ljava/net/Socket;)V
+		ARG 1 socket
 	METHOD a addPlayer (Ljn;)V
+		ARG 1 serverHandler
 	METHOD b func_35504_b (Ldy;)Ljava/util/HashMap;
 	METHOD c func_712_b (Ldy;)I
-	FIELD a logger Ljava/util/logging/Logger;
-	FIELD b field_973_b Z
-	FIELD c mcServer Lnet/minecraft/server/MinecraftServer;
-	FIELD d serverSocket Ljava/net/ServerSocket;
-	FIELD e networkAcceptThread Ljava/lang/Thread;
-	FIELD f field_977_f I
-	FIELD g pendingConnections Ljava/util/ArrayList;
-	FIELD h playerList Ljava/util/ArrayList;
-	FIELD i field_35506_i Ljava/util/HashMap;

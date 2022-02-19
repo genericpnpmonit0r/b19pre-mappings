@@ -1,2 +1,3 @@
 CLASS lc net/minecraft/src/RecipesDyes
 	METHOD a addRecipes (Lgs;)V
+		ARG 1 craftingManager

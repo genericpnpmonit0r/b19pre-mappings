@@ -1,4 +1,10 @@
 CLASS oc net/minecraft/src/EntityTNTPrimed
+	FIELD a fuse I
+	METHOD <init> (Lep;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
 	METHOD a readEntityFromNBT (Lls;)V
 	METHOD b entityInit ()V
 	METHOD b writeEntityToNBT (Lls;)V
@@ -6,4 +12,3 @@ CLASS oc net/minecraft/src/EntityTNTPrimed
 	METHOD e_ canTriggerWalking ()Z
 	METHOD i explode ()V
 	METHOD q_ onUpdate ()V
-	FIELD a fuse I

@@ -1,4 +1,4 @@
 CLASS ud net/minecraft/src/MapGenRavine
-	METHOD a func_35539_a (JII[BDDDFFFIID)V
+	FIELD a noiseArray01 [F
+	METHOD a generateRavine (JII[BDDDFFFIID)V
 	METHOD a recursiveGenerate (Lep;IIII[B)V
-	FIELD a field_35540_a [F

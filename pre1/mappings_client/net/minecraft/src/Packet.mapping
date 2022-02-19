@@ -29,7 +29,7 @@ CLASS wx net/minecraft/src/Packet
 		ARG 0 str
 		ARG 1 output
 	METHOD a processPacket (Llt;)V
-		ARG 1 netHandler
+		ARG 1 handler
 	METHOD a writePacket (Lwx;Ljava/io/DataOutputStream;)V
 		ARG 0 packet
 		ARG 1 output

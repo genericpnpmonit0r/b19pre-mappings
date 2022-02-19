@@ -1,10 +1,19 @@
 CLASS ib net/minecraft/src/EntityList
-	METHOD a addMapping (Ljava/lang/Class;Ljava/lang/String;I)V
-	METHOD a createEntityInWorld (Ljava/lang/String;Lep;)Lpp;
-	METHOD a createEntityFromNBT (Lls;Lep;)Lpp;
-	METHOD a getEntityID (Lpp;)I
-	METHOD b getEntityString (Lpp;)Ljava/lang/String;
 	FIELD a stringToClassMapping Ljava/util/Map;
 	FIELD b classToStringMapping Ljava/util/Map;
 	FIELD c IDtoClassMapping Ljava/util/Map;
 	FIELD d classToIDMapping Ljava/util/Map;
+	METHOD a addMapping (Ljava/lang/Class;Ljava/lang/String;I)V
+		ARG 0 entityClass
+		ARG 1 entityName
+		ARG 2 id
+	METHOD a createEntityInWorld (Ljava/lang/String;Lep;)Lpp;
+		ARG 0 entityName
+		ARG 1 world
+	METHOD a createEntityFromNBT (Lls;Lep;)Lpp;
+		ARG 0 compoundTag
+		ARG 1 world
+	METHOD a getEntityID (Lpp;)I
+		ARG 0 entity
+	METHOD b getEntityString (Lpp;)Ljava/lang/String;
+		ARG 0 entity

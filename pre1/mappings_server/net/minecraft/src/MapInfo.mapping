@@ -1,9 +1,13 @@
 CLASS pk net/minecraft/src/MapInfo
-	METHOD a func_28118_a (Lhz;)[B
 	FIELD a entityplayerObj Lga;
-	FIELD b field_28119_b [I
-	FIELD c field_28125_c [I
+	FIELD b xCoords [I
+	FIELD c yCoords [I
 	FIELD d mapDataObj Lhw;
-	FIELD e field_28123_e I
-	FIELD f field_28122_f I
-	FIELD g field_28121_g [B
+	FIELD e mpSpecificNum I
+	FIELD f currentNum I
+	FIELD g ticksUntilPlayerLocationMapUpdate [B
+	METHOD <init> (Lhw;Lga;)V
+		ARG 1 data
+		ARG 2 player
+	METHOD a updateMPMapData (Lhz;)[B
+		ARG 1 itemStack

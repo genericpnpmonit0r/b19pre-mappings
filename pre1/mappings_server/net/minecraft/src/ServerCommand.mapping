@@ -1,3 +1,6 @@
 CLASS ap net/minecraft/src/ServerCommand
 	FIELD a command Ljava/lang/String;
 	FIELD b commandListener Lqd;
+	METHOD <init> (Ljava/lang/String;Lqd;)V
+		ARG 1 command
+		ARG 2 listener

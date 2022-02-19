@@ -1,8 +1,0 @@
-CLASS gu net/minecraft/src/MapDataBase
-	METHOD a markDirty ()V
-	METHOD a readFromNBT (Lls;)V
-	METHOD a setDirty (Z)V
-	METHOD b isDirty ()Z
-	METHOD b writeToNBT (Lls;)V
-	FIELD a field_28152_a Ljava/lang/String;
-	FIELD b dirty Z

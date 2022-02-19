@@ -1,13 +1,22 @@
 CLASS ly net/minecraft/src/Packet1Login
+	FIELD a protocolVersion I
+	FIELD b username Ljava/lang/String;
+	FIELD c mapSeed J
+	FIELD d difficultySetting I
+	FIELD e serverMode B
+	FIELD f worldType B
+	FIELD g worldHeight B
+	FIELD h maxPlayers B
+	METHOD <init> (Ljava/lang/String;IJIBBBB)V
+		ARG 1 username
+		ARG 2 pvn
+		ARG 3 seed
+		ARG 5 difficulty
+		ARG 6 gamemode
+		ARG 7 worldType
+		ARG 8 worldHeight
+		ARG 9 maxPlayers
 	METHOD a getPacketSize ()I
 	METHOD a readPacketData (Ljava/io/DataInputStream;)V
 	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
 	METHOD a processPacket (Lqf;)V
-	FIELD a protocolVersion I
-	FIELD b username Ljava/lang/String;
-	FIELD c mapSeed J
-	FIELD d field_35131_d I
-	FIELD e field_35132_e B
-	FIELD f field_35129_f B
-	FIELD g field_35130_g B
-	FIELD h field_35133_h B

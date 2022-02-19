@@ -1,4 +1,7 @@
 CLASS ux net/minecraft/src/EntityPigZombie
+	FIELD a angerLevel I
+	FIELD b randomSoundDelay I
+	FIELD g defaultHeldItem Lhz;
 	METHOD a readEntityFromNBT (Lls;)V
 	METHOD a attackEntityFrom (Lns;I)Z
 	METHOD a dropFewItems (Z)V
@@ -8,10 +11,8 @@ CLASS ux net/minecraft/src/EntityPigZombie
 	METHOD d getLivingSound ()Ljava/lang/String;
 	METHOD e getHurtSound ()Ljava/lang/String;
 	METHOD e becomeAngryAt (Lpp;)V
+		ARG 1 entity
 	METHOD g getDropItemId ()I
 	METHOD i getCanSpawnHere ()Z
 	METHOD p findPlayerToAttack ()Lpp;
 	METHOD q_ onUpdate ()V
-	FIELD a angerLevel I
-	FIELD b randomSoundDelay I
-	FIELD g defaultHeldItem Lhz;

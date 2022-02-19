@@ -1,13 +1,35 @@
 CLASS gx net/minecraft/src/ServerConfigurationManager
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b playerEntities Ljava/util/List;
+	FIELD c mcServer Lnet/minecraft/server/MinecraftServer;
+	FIELD d playerManagerObj [Ltx;
+	FIELD e maxPlayers I
+	FIELD f bannedPlayers Ljava/util/Set;
+	FIELD g bannedIPs Ljava/util/Set;
+	FIELD h ops Ljava/util/Set;
+	FIELD i whiteListedIPs Ljava/util/Set;
+	FIELD j bannedPlayersFile Ljava/io/File;
+	FIELD k ipBanFile Ljava/io/File;
+	FIELD l opFile Ljava/io/File;
+	FIELD m whitelistPlayersFile Ljava/io/File;
+	FIELD n playerNBTManagerObj Lhi;
+	FIELD o whiteListEnforced Z
+	FIELD p field_35482_p I
 	METHOD a getMaxTrackingDistance ()I
 	METHOD a sendPacketToPlayersAroundPoint (DDDDILjc;)V
 	METHOD a getPlayerManager (I)Ltx;
+		ARG 1 dimension
 	METHOD a markBlockNeedsUpdate (IIII)V
 	METHOD a sentTileEntityToPlayer (IIILms;)V
-	METHOD a func_28172_a (Les;)V
+	METHOD a getPlayerForDimension (Les;)V
+		ARG 1 playerMP
 	METHOD a recreatePlayerEntity (Les;I)Les;
+		ARG 1 playerMP
+		ARG 2 dimension
 	METHOD a func_28170_a (Les;Lew;)V
 	METHOD a login (Lft;Ljava/lang/String;)Les;
+		ARG 1 loginHandler
+		ARG 2 username
 	METHOD a func_28171_a (Lga;DDDDILjc;)V
 	METHOD a banPlayer (Ljava/lang/String;)V
 	METHOD a sendChatMessageToPlayer (Ljava/lang/String;Ljava/lang/String;)V
@@ -15,21 +37,29 @@ CLASS gx net/minecraft/src/ServerConfigurationManager
 	METHOD a sendPacketToAllPlayers (Ljc;)V
 	METHOD a sendPacketToAllPlayersInDimension (Ljc;I)V
 	METHOD a setPlayerManager ([Lew;)V
+		ARG 1 dimensionArr
 	METHOD b onTick ()V
 	METHOD b readPlayerDataFromFile (Les;)V
+		ARG 1 playerMP
 	METHOD b pardonPlayer (Ljava/lang/String;)V
 	METHOD c getPlayerList ()Ljava/lang/String;
 	METHOD c playerLoggedIn (Les;)V
+		ARG 1 playerMP
 	METHOD c banIP (Ljava/lang/String;)V
 	METHOD d savePlayerStates ()V
-	METHOD d func_613_b (Les;)V
+	METHOD d getPlayerDimension (Les;)V
+		ARG 1 playerMP
 	METHOD d pardonIP (Ljava/lang/String;)V
 	METHOD e getWhiteListedIPs ()Ljava/util/Set;
 	METHOD e playerLoggedOut (Les;)V
-	METHOD e func_35479_e (Ljava/lang/String;)V
+		ARG 1 playerMP
+	METHOD e addOp (Ljava/lang/String;)V
+		ARG 1 username
 	METHOD f reloadWhiteList ()V
 	METHOD f sendPlayerToOtherDimension (Les;)V
-	METHOD f func_35478_f (Ljava/lang/String;)V
+		ARG 1 playerMP
+	METHOD f removeOp (Ljava/lang/String;)V
+		ARG 1 username
 	METHOD g func_35481_g ()I
 	METHOD g func_30008_g (Les;)V
 	METHOD g isAllowedToLogin (Ljava/lang/String;)Z
@@ -47,19 +77,3 @@ CLASS gx net/minecraft/src/ServerConfigurationManager
 	METHOD n saveOps ()V
 	METHOD o loadWhiteList ()V
 	METHOD p saveWhiteList ()V
-	FIELD a logger Ljava/util/logging/Logger;
-	FIELD b playerEntities Ljava/util/List;
-	FIELD c mcServer Lnet/minecraft/server/MinecraftServer;
-	FIELD d playerManagerObj [Ltx;
-	FIELD e maxPlayers I
-	FIELD f bannedPlayers Ljava/util/Set;
-	FIELD g bannedIPs Ljava/util/Set;
-	FIELD h ops Ljava/util/Set;
-	FIELD i whiteListedIPs Ljava/util/Set;
-	FIELD j bannedPlayersFile Ljava/io/File;
-	FIELD k ipBanFile Ljava/io/File;
-	FIELD l opFile Ljava/io/File;
-	FIELD m whitelistPlayersFile Ljava/io/File;
-	FIELD n playerNBTManagerObj Lhi;
-	FIELD o whiteListEnforced Z
-	FIELD p field_35482_p I

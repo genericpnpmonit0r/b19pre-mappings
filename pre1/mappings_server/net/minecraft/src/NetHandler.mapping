@@ -1,62 +1,123 @@
 CLASS qf net/minecraft/src/NetHandler
 	METHOD a handleUseEntity (La;)V
+		ARG 1 packet7UseEntity
 	METHOD a handleMapData (Lad;)V
+		ARG 1 packet131MapData
 	METHOD a handleBed (Lbv;)V
+		ARG 1 packet70Bed
 	METHOD a handleCollect (Lcy;)V
-	METHOD a func_35007_a (Ldi;)V
-	METHOD a func_35002_a (Ldj;)V
-	METHOD a func_35004_a (Ldk;)V
-	METHOD a func_35006_a (Ldp;)V
+		ARG 1 packet22Collect
+	METHOD a handleServerPing (Ldi;)V
+		ARG 1 packet254ServerPing
+	METHOD a handleEntityEffect (Ldj;)V
+		ARG 1 packet41EntityEffect
+	METHOD a handleCreativeSetSlot (Ldk;)V
+		ARG 1 packet107CreativeSetSlot
+	METHOD a handlePlayerInfo (Ldp;)V
+		ARG 1 packet201PlayerInfo
 	METHOD a handleMapChunk (Ldv;)V
+		ARG 1 packet51MapChunk
 	METHOD a handleHealth (Lef;)V
+		ARG 1 packet8UpdateHealth
 	METHOD a handleWeather (Lel;)V
+		ARG 1 packet71Weather
 	METHOD a handleDoorChange (Lfa;)V
+		ARG 1 packet61DoorChange
 	METHOD a handleEntityVelocity (Lfu;)V
+		ARG 1 packet28EntityVelocity
 	METHOD a handlePlace (Lgc;)V
+		ARG 1 packet15Place
 	METHOD a handleUpdateTime (Lgp;)V
+		ARG 1 packet4UpdateTime
 	METHOD a handleBlockItemSwitch (Lgy;)V
+		ARG 1 packet16BlockItemSwitch
 	METHOD a handleSetSlot (Lgz;)V
+		ARG 1 packet103SetSlot
 	METHOD a handleFlying (Lhj;)V
+		ARG 1 packet10Flying
 	METHOD a handleOpenWindow (Lhx;)V
+		ARG 1 packet100OpenWindow
 	METHOD a handleEntityStatus (Lie;)V
+		ARG 1 packet38EntityStatus
 	METHOD a handleMobSpawn (Lij;)V
+		ARG 1 packet24MobSpawn
 	METHOD a handleBlockDig (Lis;)V
+		ARG 1 packet14blockDig
 	METHOD a handleSleep (Lix;)V
+		ARG 1 packet17Sleep
 	METHOD a handleWindowItems (Liy;)V
+		ARG 1 packet104WindowItems
 	METHOD a handleErrorMessage (Ljava/lang/String;[Ljava/lang/Object;)V
+		ARG 1 reason
+		ARG 2 reasonObj
 	METHOD a registerPacket (Ljc;)V
-	METHOD a func_35001_a (Ljs;)V
-	METHOD a func_35005_a (Lkh;)V
+		ARG 1 packet
+	METHOD a handleExperience (Ljs;)V
+		ARG 1 packet43Experience
+	METHOD a handleKeepAlive (Lkh;)V
+		ARG 1 packet0KeepAlive
 	METHOD a handleNamedEntitySpawn (Lkk;)V
+		ARG 1 packet20NmaedEntityspawn
 	METHOD a handleCraftingGuiClosedPacked (Lkm;)V
+		ARG 1 packet101CloseWindow
 	METHOD a handleHandshake (Lko;)V
+		ARG 1 packet2Handshake
 	METHOD a handleUpdateProgressbar (Lkx;)V
+		ARG 1 packet105UpdateProgressbar
 	METHOD a handlePickupSpawn (Llb;)V
-	METHOD a func_35003_a (Llj;)V
+		ARG 1 packet21PickupSpawn
+	METHOD a handleRemoveEntityEffect (Llj;)V
+		ARG 1 packet42RemoveEntityEffect
 	METHOD a handleArmAnimation (Lln;)V
+		ARG 1 packet18Animation
 	METHOD a handleAttachEntity (Llp;)V
+		ARG 1 packet39AttachEntity
 	METHOD a handleLogin (Lly;)V
+		ARG 1 packet1Login
 	METHOD a handleStatistic (Lmc;)V
+		ARG 1 packet200Statistic
 	METHOD a handleTransaction (Lmg;)V
+		ARG 1 packet106Transaction
 	METHOD a handleRespawn (Lmu;)V
+		ARG 1 packet9Respawn
 	METHOD a handleChat (Lmx;)V
-	METHOD a func_35008_a (Lnc;)V
+		ARG 1 packet3Chat
+	METHOD a handleXPOrb (Lnc;)V
+		ARG 1 packet26EntityExpOrb
 	METHOD a handleMovementTypePacket (Lnq;)V
+		ARG 1 packet27Position
 	METHOD a handleWindowClick (Lnz;)V
+		ARG 1 packet102WindowClick
 	METHOD a handlePlayerInventory (Lo;)V
+		ARG 1 packet5PlayerInventory
 	METHOD a handleSpawnPosition (Loh;)V
+		ARG 1 packet6SpawnPosition
 	METHOD a handleEntityTeleport (Loj;)V
+		ARG 1 packet43EntityTeleport
 	METHOD a handleExplosion (Lop;)V
+		ARG 1 packet60Explosion
 	METHOD a handleDestroyEntity (Lox;)V
+		ARG 1 packet29DestroyEntity
 	METHOD a handlePreChunk (Lph;)V
+		ARG 1 packet50PreChunk
 	METHOD a handleVehicleSpawn (Lps;)V
+		ARG 1 packet23VechileSpawn
 	METHOD a handleEntityAction (Lqs;)V
+		ARG 1 packet19EnityAction
 	METHOD a handleBlockChange (Lqu;)V
+		ARG 1 packet53BlockChange
 	METHOD a handleEntity (Lqy;)V
+		ARG 1 packet30Entity
 	METHOD a handleUpdateSign (Lrb;)V
+		ARG 1 packet130UpdateSign
 	METHOD a handleEntityMetadata (Lrm;)V
+		ARG 1 packet40EntityMeta
 	METHOD a handleEntityPainting (Lsr;)V
+		ARG 1 packet25EntityPainting
 	METHOD a handlePlayNoteBlock (Lsu;)V
+		ARG 1 packet54PlayNoteBlock
 	METHOD a handleMultiBlockChange (Ltz;)V
+		ARG 1 pakcet52MultiBlockChange
 	METHOD a handleKickDisconnect (Lvl;)V
+		ARG 1 packet255KickDisconnect
 	METHOD c isServerHandler ()Z

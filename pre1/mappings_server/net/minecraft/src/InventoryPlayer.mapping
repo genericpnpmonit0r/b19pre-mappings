@@ -1,23 +1,39 @@
 CLASS hy net/minecraft/src/InventoryPlayer
+	FIELD a mainInventory [Lhz;
+	FIELD b armorInventory [Lhz;
+	FIELD c currentItem I
+	FIELD d player Lga;
+	FIELD e inventoryChanged Z
+	FIELD f itemStack Lhz;
+	METHOD <init> (Lga;)V
+		ARG 1 player
 	METHOD a getSizeInventory ()I
 	METHOD a decrStackSize (II)Lhz;
 	METHOD a setInventorySlotContents (ILhz;)V
 	METHOD a canInteractWith (Lga;)Z
 	METHOD a addItemStackToInventory (Lhz;)Z
 	METHOD a getDamageVsEntity (Lpp;)I
+		ARG 1 entity
 	METHOD a writeToNBT (Lpt;)Lpt;
+		ARG 1 listTag
 	METHOD a getStrVsBlock (Lrj;)F
+		ARG 1 block
 	METHOD b getCurrentItem ()Lhz;
 	METHOD b consumeInventoryItem (I)Z
 	METHOD b setItemStack (Lhz;)V
+		ARG 1 itemStack
 	METHOD b readFromNBT (Lpt;)V
+		ARG 1 listTag
 	METHOD b canHarvestBlock (Lrj;)Z
+		ARG 1 block
 	METHOD b_ getStackInSlot (I)Lhz;
 	METHOD c getInvName ()Ljava/lang/String;
 	METHOD c func_35177_c (I)Z
-	METHOD c func_28010_c (Lhz;)Z
+	METHOD c isUseableByPlayer (Lhz;)Z
+		ARG 1 itemStack
 	METHOD d getInventoryStackLimit ()I
 	METHOD d damageArmor (I)V
+		ARG 1 amount
 	METHOD d storeItemStack (Lhz;)I
 	METHOD e func_35161_e ()V
 	METHOD e getInventorySlotContainItem (I)I
@@ -30,9 +46,3 @@ CLASS hy net/minecraft/src/InventoryPlayer
 	METHOD l getItemStack ()Lhz;
 	METHOD m getFirstEmptyStack ()I
 	METHOD r_ func_35162_t_ ()V
-	FIELD a mainInventory [Lhz;
-	FIELD b armorInventory [Lhz;
-	FIELD c currentItem I
-	FIELD d player Lga;
-	FIELD e inventoryChanged Z
-	FIELD f itemStack Lhz;

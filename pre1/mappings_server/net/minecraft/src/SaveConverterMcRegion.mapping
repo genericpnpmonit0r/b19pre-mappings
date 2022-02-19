@@ -1,7 +1,19 @@
 CLASS gq net/minecraft/src/SaveConverterMcRegion
-	METHOD a func_22107_a (Ljava/io/File;Ljava/util/ArrayList;IILuy;)V
-	METHOD a func_22108_a (Ljava/io/File;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
+	METHOD a setConversionProgressRegionFileReferences (Ljava/io/File;Ljava/util/ArrayList;IILuy;)V
+		ARG 1 file
+		ARG 2 chunks
+		ARG 3 count
+		ARG 4 progressCount
+		ARG 5 progressUpdate
+	METHOD a checkChunkFolderPatterns (Ljava/io/File;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
+		ARG 1 file
+		ARG 2 oldFiles
+		ARG 3 newFiles
 	METHOD a isOldSaveType (Ljava/lang/String;)Z
 	METHOD a convertMapFormat (Ljava/lang/String;Luy;)Z
 	METHOD a getSaveLoader (Ljava/lang/String;Z)Ltv;
-	METHOD a func_22109_a (Ljava/util/ArrayList;IILuy;)V
+	METHOD a setProgressClearOldFiles (Ljava/util/ArrayList;IILuy;)V
+		ARG 1 files
+		ARG 2 count
+		ARG 3 progressCount
+		ARG 4 progressUpdate

@@ -4,7 +4,7 @@ CLASS rk net/minecraft/src/EntitySlime
 	FIELD c size3 F
 	FIELD d slimeJumpDelay I
 	METHOD A getSlimeSound ()Ljava/lang/String;
-	METHOD B getSlimeSize ()I
+	METHOD B getArmor ()I
 	METHOD P setEntityDead ()V
 	METHOD a readEntityFromNBT (Lls;)V
 	METHOD a_ onCollideWithPlayer (Lga;)V

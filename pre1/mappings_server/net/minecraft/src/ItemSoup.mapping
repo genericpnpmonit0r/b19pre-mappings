@@ -1,2 +1,5 @@
 CLASS bu net/minecraft/src/ItemSoup
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
 	METHOD b func_35405_b (Lhz;Lep;Lga;)Lhz;

@@ -1,3 +1,6 @@
 CLASS at net/minecraft/src/ItemPickaxe
-	METHOD a canHarvestBlock (Lrj;)Z
 	FIELD bx blocksEffectiveAgainst [Lrj;
+	METHOD <init> (ILbp;)V
+		ARG 1 id
+		ARG 2 toolMaterial
+	METHOD a canHarvestBlock (Lrj;)Z

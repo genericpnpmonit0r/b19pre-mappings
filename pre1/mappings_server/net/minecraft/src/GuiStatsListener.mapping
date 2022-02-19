@@ -1,2 +1,4 @@
 CLASS ka net/minecraft/src/GuiStatsListener
 	FIELD a statsComponent Ljj;
+	METHOD <init> (Ljj;)V
+		ARG 1 guiStatsComponent

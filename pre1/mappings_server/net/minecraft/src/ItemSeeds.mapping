@@ -1,3 +1,8 @@
 CLASS on net/minecraft/src/ItemSeeds
+	FIELD a blockType I
+	FIELD bx blockTypeToSet I
+	METHOD <init> (III)V
+		ARG 1 id
+		ARG 2 blockType
+		ARG 3 blockTypeToSet
 	METHOD a onItemUse (Lhz;Lga;Lep;IIII)Z
-	FIELD a field_271_a I

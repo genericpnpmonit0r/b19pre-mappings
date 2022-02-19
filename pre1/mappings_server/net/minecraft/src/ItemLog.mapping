@@ -1,3 +1,0 @@
-CLASS ik net/minecraft/src/ItemLog
-	METHOD a getMetadata (I)I
-	FIELD a field_35420_a Lrj;

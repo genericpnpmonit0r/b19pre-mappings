@@ -9,6 +9,7 @@ CLASS afl net/minecraft/src/EntityPigZombie
 	METHOD b writeEntityToNBT (Lyr;)V
 	METHOD c onLivingUpdate ()V
 	METHOD c becomeAngryAt (Lle;)V
+		ARG 1 entity
 	METHOD d getLivingSound ()Ljava/lang/String;
 	METHOD e getHurtSound ()Ljava/lang/String;
 	METHOD f getDeathSound ()Ljava/lang/String;

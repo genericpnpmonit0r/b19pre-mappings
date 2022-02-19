@@ -1,8 +1,11 @@
 CLASS cx net/minecraft/src/PathEntity
-	METHOD a incrementPathIndex ()V
-	METHOD a getPosition (Lpp;)Lbo;
-	METHOD b isFinished ()Z
-	METHOD c getPathEnd ()Ld;
 	FIELD a pathLength I
 	FIELD b points [Ld;
 	FIELD c pathIndex I
+	METHOD <init> ([Ld;)V
+		ARG 1 points
+	METHOD a incrementPathIndex ()V
+	METHOD a getPosition (Lpp;)Lbo;
+		ARG 1 entity
+	METHOD b isFinished ()Z
+	METHOD c getPathEnd ()Ld;

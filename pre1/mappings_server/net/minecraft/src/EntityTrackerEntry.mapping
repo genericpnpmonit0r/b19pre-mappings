@@ -1,16 +1,7 @@
 CLASS ha net/minecraft/src/EntityTrackerEntry
-	METHOD a sendDestroyEntityPacketToTrackedPlayers ()V
-	METHOD a removeFromTrackedPlayers (Les;)V
-	METHOD a updatePlayerList (Ljava/util/List;)V
-	METHOD a sendPacketToTrackedPlayers (Ljc;)V
-	METHOD b getSpawnPacket ()Ljc;
-	METHOD b updatePlayerEntity (Les;)V
-	METHOD b updatePlayerEntities (Ljava/util/List;)V
-	METHOD b sendPacketToTrackedPlayersAndTrackedEntity (Ljc;)V
-	METHOD c removeTrackedPlayerSymmetric (Les;)V
 	FIELD a trackedEntity Lpp;
 	FIELD b trackingDistanceThreshold I
-	FIELD c field_9234_e I
+	FIELD c trackedEntityId I
 	FIELD d encodedPosX I
 	FIELD e encodedPosY I
 	FIELD f encodedPosZ I
@@ -28,3 +19,26 @@ CLASS ha net/minecraft/src/EntityTrackerEntry
 	FIELD r firstUpdateDone Z
 	FIELD s shouldSendMotionUpdates Z
 	FIELD t field_28165_t I
+	METHOD <init> (Lpp;IIZ)V
+		ARG 1 entity
+		ARG 2 maxTarckDstThreshold
+		ARG 3 id
+		ARG 4 sendMotionUpdates
+	METHOD a sendDestroyEntityPacketToTrackedPlayers ()V
+	METHOD a removeFromTrackedPlayers (Les;)V
+		ARG 1 playerMP
+	METHOD a updatePlayerList (Ljava/util/List;)V
+		ARG 1 entities
+	METHOD a sendPacketToTrackedPlayers (Ljc;)V
+		ARG 1 packet
+	METHOD b getSpawnPacket ()Ljc;
+	METHOD b updatePlayerEntity (Les;)V
+		ARG 1 playerMP
+	METHOD b updatePlayerEntities (Ljava/util/List;)V
+		ARG 1 entities
+	METHOD b sendPacketToTrackedPlayersAndTrackedEntity (Ljc;)V
+		ARG 1 packet
+	METHOD c removeTrackedPlayerSymmetric (Les;)V
+		ARG 1 playerMP
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 obj

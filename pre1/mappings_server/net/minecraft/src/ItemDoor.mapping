@@ -1,4 +1,10 @@
 CLASS hb net/minecraft/src/ItemDoor
 	FIELD a doorMaterial Ljw;
 	METHOD a placeDoorBlock (Lep;IIIILrj;)V
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 side
+		ARG 5 block
 	METHOD a onItemUse (Lhz;Lga;Lep;IIII)Z

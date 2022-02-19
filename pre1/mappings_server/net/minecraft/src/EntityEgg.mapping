@@ -14,6 +14,7 @@ CLASS ss net/minecraft/src/EntityEgg
 		ARG 4 y
 		ARG 6 z
 	METHOD <init> (Lep;Ljz;)V
+		ARG 1 world
 		ARG 2 living
 	METHOD a setEggHeading (DDDFF)V
 		ARG 1 x

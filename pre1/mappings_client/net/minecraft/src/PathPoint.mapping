@@ -9,6 +9,16 @@ CLASS d net/minecraft/src/PathPoint
 	FIELD h previous Ld;
 	FIELD i isFirst Z
 	FIELD j hash I
+	METHOD <init> (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD a isAssigned ()Z
 	METHOD a getHash (III)I
+		ARG 0 x
+		ARG 1 y
+		ARG 2 z
 	METHOD a distanceTo (Ld;)F
+		ARG 1 pathPoint
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 obj

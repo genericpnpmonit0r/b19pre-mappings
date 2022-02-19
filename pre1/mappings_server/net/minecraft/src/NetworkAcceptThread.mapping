@@ -1,3 +1,7 @@
 CLASS pa net/minecraft/src/NetworkAcceptThread
 	FIELD a mcServer Lnet/minecraft/server/MinecraftServer;
-	FIELD b field_985_b Ldy;
+	FIELD b networkListener Ldy;
+	METHOD <init> (Ldy;Ljava/lang/String;Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 listenThread
+		ARG 2 name
+		ARG 3 minecraftServer

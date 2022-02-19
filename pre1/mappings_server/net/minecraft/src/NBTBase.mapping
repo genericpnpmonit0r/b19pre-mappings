@@ -1,11 +1,19 @@
 CLASS hk net/minecraft/src/NBTBase
+	FIELD a key Ljava/lang/String;
 	METHOD a getType ()B
 	METHOD a createTagOfType (B)Lhk;
+		ARG 0 type
 	METHOD a writeTag (Lhk;Ljava/io/DataOutput;)V
+		ARG 0 base
+		ARG 1 output
 	METHOD a readTagContents (Ljava/io/DataInput;)V
+		ARG 1 input
 	METHOD a writeTagContents (Ljava/io/DataOutput;)V
+		ARG 1 output
 	METHOD a setKey (Ljava/lang/String;)Lhk;
+		ARG 1 key
 	METHOD b getKey ()Ljava/lang/String;
 	METHOD b getTagName (B)Ljava/lang/String;
+		ARG 0 type
 	METHOD b readTag (Ljava/io/DataInput;)Lhk;
-	FIELD a key Ljava/lang/String;
+		ARG 0 input

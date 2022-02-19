@@ -1,9 +1,13 @@
 CLASS o net/minecraft/src/Packet5PlayerInventory
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqf;)V
 	FIELD a entityID I
 	FIELD b slot I
 	FIELD c itemID I
 	FIELD d itemDamage I
+	METHOD <init> (IILhz;)V
+		ARG 1 id
+		ARG 2 slot
+		ARG 3 itemStack
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lqf;)V

@@ -6,6 +6,7 @@ CLASS th net/minecraft/src/EntityPig
 	METHOD b interact (Lga;)Z
 	METHOD b writeEntityToNBT (Lls;)V
 	METHOD b setSaddled (Z)V
+		ARG 1 saddled
 	METHOD b_ getDeathSound ()Ljava/lang/String;
 	METHOD d getLivingSound ()Ljava/lang/String;
 	METHOD e getHurtSound ()Ljava/lang/String;

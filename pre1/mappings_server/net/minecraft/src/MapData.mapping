@@ -1,15 +1,23 @@
 CLASS hw net/minecraft/src/MapData
-	METHOD a func_28153_a (III)V
-	METHOD a func_28155_a (Lga;Lhz;)V
-	METHOD a func_28154_a (Lhz;Lep;Lga;)[B
+	FIELD b xCenter I
+	FIELD c zCenter I
+	FIELD d dimension B
+	FIELD e scale B
+	FIELD f colors [B
+	FIELD g unusedInt I
+	FIELD h markedDirtyAreas Ljava/util/List;
+	FIELD i playersVisibleOnMap Ljava/util/List;
+	FIELD j mpPlayerMap Ljava/util/Map;
+	METHOD a setColumnDirty (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a updateVisiblePlayers (Lga;Lhz;)V
+		ARG 1 player
+		ARG 2 itemStack
+	METHOD a updatePlayer (Lhz;Lep;Lga;)[B
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 player
 	METHOD a readFromNBT (Lls;)V
 	METHOD b writeToNBT (Lls;)V
-	FIELD b field_28164_b I
-	FIELD c field_28163_c I
-	FIELD d field_28162_d B
-	FIELD e field_28161_e B
-	FIELD f field_28160_f [B
-	FIELD g field_28159_g I
-	FIELD h field_28158_h Ljava/util/List;
-	FIELD i field_28157_i Ljava/util/List;
-	FIELD j field_28156_j Ljava/util/Map;

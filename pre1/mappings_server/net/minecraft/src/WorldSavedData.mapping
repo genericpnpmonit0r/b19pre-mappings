@@ -1,0 +1,13 @@
+CLASS gu net/minecraft/src/WorldSavedData
+	FIELD a mapName Ljava/lang/String;
+	FIELD b dirty Z
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 name
+	METHOD a markDirty ()V
+	METHOD a readFromNBT (Lls;)V
+		ARG 1 compoundTag
+	METHOD a setDirty (Z)V
+		ARG 1 dirtyFlag
+	METHOD b isDirty ()Z
+	METHOD b writeToNBT (Lls;)V
+		ARG 1 compoundTag

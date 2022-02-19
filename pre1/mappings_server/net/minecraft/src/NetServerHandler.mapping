@@ -1,6 +1,32 @@
 CLASS jn net/minecraft/src/NetServerHandler
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b netManager Lmy;
+	FIELD c connectionClosed Z
+	FIELD d mcServer Lnet/minecraft/server/MinecraftServer;
+	FIELD e playerEntity Les;
+	FIELD f field_35009_f I
+	FIELD g playerInAirTime I
+	FIELD h field_22003_h Z
+	FIELD i field_35013_i I
+	FIELD j nanoTime J
+	FIELD k field_35012_k Ljava/util/Random;
+	FIELD l field_35010_l J
+	FIELD m lastPosX D
+	FIELD n lastPosY D
+	FIELD o lastPosZ D
+	FIELD p hasMoved Z
+	FIELD q inthashmap Liu;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lmy;Les;)V
+		ARG 1 minecraftServer
+		ARG 2 networkManager
+		ARG 3 playerMP
 	METHOD a handlePackets ()V
 	METHOD a teleportTo (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
 	METHOD a handleUseEntity (La;)V
 	METHOD a func_35004_a (Ldk;)V
 	METHOD a handlePlace (Lgc;)V
@@ -8,6 +34,7 @@ CLASS jn net/minecraft/src/NetServerHandler
 	METHOD a handleFlying (Lhj;)V
 	METHOD a handleBlockDig (Lis;)V
 	METHOD a kickPlayer (Ljava/lang/String;)V
+		ARG 1 reason
 	METHOD a handleErrorMessage (Ljava/lang/String;[Ljava/lang/Object;)V
 	METHOD a registerPacket (Ljc;)V
 	METHOD a func_35005_a (Lkh;)V
@@ -24,23 +51,8 @@ CLASS jn net/minecraft/src/NetServerHandler
 	METHOD b getNumChunkDataPackets ()I
 	METHOD b log (Ljava/lang/String;)V
 	METHOD b sendPacket (Ljc;)V
+		ARG 1 packet
 	METHOD c isServerHandler ()Z
 	METHOD c handleSlashCommand (Ljava/lang/String;)V
+		ARG 1 cmdName
 	METHOD d getUsername ()Ljava/lang/String;
-	FIELD a logger Ljava/util/logging/Logger;
-	FIELD b netManager Lmy;
-	FIELD c connectionClosed Z
-	FIELD d mcServer Lnet/minecraft/server/MinecraftServer;
-	FIELD e playerEntity Les;
-	FIELD f field_35009_f I
-	FIELD g playerInAirTime I
-	FIELD h field_22003_h Z
-	FIELD i field_35013_i I
-	FIELD j field_35011_j J
-	FIELD k field_35012_k Ljava/util/Random;
-	FIELD l field_35010_l J
-	FIELD m lastPosX D
-	FIELD n lastPosY D
-	FIELD o lastPosZ D
-	FIELD p hasMoved Z
-	FIELD q field_10_k Liu;

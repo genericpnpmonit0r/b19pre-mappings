@@ -1,4 +1,8 @@
 CLASS nn net/minecraft/src/ItemSword
+	FIELD a weaponDamage I
+	METHOD <init> (ILbp;)V
+		ARG 1 id
+		ARG 2 toolMaterial
 	METHOD a onBlockDestroyed (Lhz;IIIILjz;)Z
 	METHOD a onItemRightClick (Lhz;Lep;Lga;)Lhz;
 	METHOD a hitEntity (Lhz;Ljz;Ljz;)Z
@@ -7,4 +11,3 @@ CLASS nn net/minecraft/src/ItemSword
 	METHOD a canHarvestBlock (Lrj;)Z
 	METHOD b func_35406_b (Lhz;)Lic;
 	METHOD c func_35404_c (Lhz;)I
-	FIELD a weaponDamage I

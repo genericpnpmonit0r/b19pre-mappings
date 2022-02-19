@@ -1,3 +1,6 @@
 CLASS ub net/minecraft/src/ItemVine
+	FIELD a theBlock Lrj;
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 subtypes
 	METHOD a getMetadata (I)I
-	FIELD a field_35421_a Lrj;

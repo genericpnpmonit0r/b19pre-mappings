@@ -1,8 +1,4 @@
 CLASS lb net/minecraft/src/Packet21PickupSpawn
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lqf;)V
 	FIELD a entityId I
 	FIELD b xPosition I
 	FIELD c yPosition I
@@ -13,3 +9,9 @@ CLASS lb net/minecraft/src/Packet21PickupSpawn
 	FIELD h itemID I
 	FIELD i count I
 	FIELD l itemDamage I
+	METHOD <init> (Lgr;)V
+		ARG 1 entityItem
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lqf;)V

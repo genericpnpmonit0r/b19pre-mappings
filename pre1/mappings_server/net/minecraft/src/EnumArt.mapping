@@ -31,3 +31,9 @@ CLASS hr net/minecraft/src/EnumArt
 	FIELD x Skeleton Lhr;
 	FIELD y DonkeyKong Lhr;
 	FIELD z maxArtTitleLength I
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;IIII)V
+		ARG 3 title
+		ARG 4 x
+		ARG 5 y
+		ARG 6 xOffset
+		ARG 7 yOffset

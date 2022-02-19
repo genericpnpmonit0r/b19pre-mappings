@@ -31,7 +31,7 @@ CLASS dm net/minecraft/src/Container
 	METHOD a transfer (Lkd;I)Lfz;
 		ARG 1 inventory
 		ARG 2 index
-	METHOD b getItemStackLst ()Ljava/util/List;
+	METHOD b getItemStackList ()Ljava/util/List;
 	METHOD b getSlot (I)Lfz;
 	METHOD b retrySlotClick (IIZLga;)V
 		ARG 1 x

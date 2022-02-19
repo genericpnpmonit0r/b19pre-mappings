@@ -3,7 +3,7 @@ CLASS jk net/minecraft/src/Packet26EntityExpOrb
 	FIELD b posX I
 	FIELD c posY I
 	FIELD d posZ I
-	FIELD e count I
+	FIELD e xpValue I
 	METHOD <init> (Lbi;)V
 		ARG 1 xp
 	METHOD a getPacketSize ()I
