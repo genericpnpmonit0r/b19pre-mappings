@@ -1,8 +1,13 @@
 CLASS afk net/minecraft/src/PotionEffect
+	FIELD a potionID I
+	FIELD b duration I
+	FIELD c amplifier I
 	METHOD <init> (III)V
 		ARG 1 id
 		ARG 2 duration
 		ARG 3 amplifier
+	METHOD <init> (Lafk;)V
+		ARG 1 potionEffect
 	METHOD a getPotionID ()I
 	METHOD a combine (Lafk;)V
 		ARG 1 potionEffect
@@ -12,7 +17,5 @@ CLASS afk net/minecraft/src/PotionEffect
 	METHOD b performEffect (Lxx;)V
 		ARG 1 living
 	METHOD c getPotionAmplifier ()I
+	METHOD d getPotionNamesFromTypes ()Ljava/lang/String;
 	METHOD e deincrementDuration ()I
-	FIELD a potionID I
-	FIELD b duration I
-	FIELD c amplifier I
