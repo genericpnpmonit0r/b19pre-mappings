@@ -1,4 +1,65 @@
 CLASS net/minecraft/client/Minecraft
+	FIELD A mcApplet Lnet/minecraft/client/MinecraftApplet;
+	FIELD B sndManager Lpk;
+	FIELD C mouseHelper Laej;
+	FIELD D texturePackList Lfe;
+	FIELD E mcDataDir Ljava/io/File;
+	FIELD F frameTimes [J
+	FIELD G tickTimes [J
+	FIELD H numRecordedFrameTimes I
+	FIELD I hasPaidCheckTime J
+	FIELD J statFileWriter Lafj;
+	FIELD K running Z
+	FIELD L debug Ljava/lang/String;
+	FIELD M isTakingScreenshot Z
+	FIELD N prevFrameTime J
+	FIELD O inGameHasFocus Z
+	FIELD P isRaining Z
+	FIELD Q systemTime J
+	FIELD R fullscreen Z
+	FIELD S hasCrashed Z
+	FIELD T openGLCapsChecker Lsa;
+	FIELD U timer Laar;
+	FIELD V downloadResourcesThread Lbt;
+	FIELD W ticksRan I
+	FIELD X leftClickCounter I
+	FIELD Y tempDisplayWidth I
+	FIELD Z tempDisplayHeight I
+	FIELD a theMinecraft Lnet/minecraft/client/Minecraft;
+	FIELD aa saveLoader Lil;
+	FIELD ab rightClickDelayTimer I
+	FIELD ac serverName Ljava/lang/String;
+	FIELD ad serverPort I
+	FIELD ae textureWaterFX Lnl;
+	FIELD af textureLavaFX Lbe;
+	FIELD ag texturePotionFluidFX Lis;
+	FIELD ah minecraftDir Ljava/io/File;
+	FIELD ai joinPlayerCounter I
+	FIELD b memoryByteArray [B
+	FIELD c playerController Liq;
+	FIELD d displayWidth I
+	FIELD e displayHeight I
+	FIELD f theWorld Lti;
+	FIELD g renderGlobal Li;
+	FIELD h thePlayer Lsd;
+	FIELD i renderViewEntity Lxx;
+	FIELD j effectRenderer Lcf;
+	FIELD k session Lec;
+	FIELD l minecraftUri Ljava/lang/String;
+	FIELD m mcCanvas Ljava/awt/Canvas;
+	FIELD n hideQuitButton Z
+	FIELD o isGamePaused Z
+	FIELD p renderEngine Lwj;
+	FIELD q fontRenderer Llf;
+	FIELD r currentScreen Lsc;
+	FIELD s loadingScreen Lhn;
+	FIELD t entityRenderer Ljt;
+	FIELD u guiAchievement Lno;
+	FIELD v ingameGUI Ladm;
+	FIELD w skipRenderWorld Z
+	FIELD x playerModelBiped Ltk;
+	FIELD y objectMouseOver Lmz;
+	FIELD z gameSettings Lgk;
 	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
 		ARG 1 component
 		ARG 2 canvas
@@ -61,6 +122,8 @@ CLASS net/minecraft/client/Minecraft
 	METHOD b getMinecraftDir ()Ljava/io/File;
 	METHOD b onMinecraftCrash (Lhk;)V
 		ARG 1 unexpectedThrowable
+	METHOD b removeWorld (Ljava/lang/String;)V
+		ARG 1 progress
 	METHOD b convertMapFormat (Ljava/lang/String;Ljava/lang/String;)V
 		ARG 1 loadingName
 		ARG 2 worldName
@@ -96,62 +159,3 @@ CLASS net/minecraft/client/Minecraft
 	METHOD x getOs ()Laab;
 	METHOD y screenshotListener ()V
 	METHOD z startThreadCheckHasPaid ()V
-	FIELD A mcApplet Lnet/minecraft/client/MinecraftApplet;
-	FIELD B sndManager Lpk;
-	FIELD C mouseHelper Laej;
-	FIELD D texturePackList Lfe;
-	FIELD E mcDataDir Ljava/io/File;
-	FIELD F frameTimes [J
-	FIELD G tickTimes [J
-	FIELD H numRecordedFrameTimes I
-	FIELD I hasPaidCheckTime J
-	FIELD J statFileWriter Lafj;
-	FIELD K running Z
-	FIELD L debug Ljava/lang/String;
-	FIELD M isTakingScreenshot Z
-	FIELD N prevFrameTime J
-	FIELD O inGameHasFocus Z
-	FIELD P isRaining Z
-	FIELD Q systemTime J
-	FIELD R fullscreen Z
-	FIELD S hasCrashed Z
-	FIELD U timer Laar;
-	FIELD V downloadResourcesThread Lbt;
-	FIELD W ticksRan I
-	FIELD X leftClickCounter I
-	FIELD Y tempDisplayWidth I
-	FIELD Z tempDisplayHeight I
-	FIELD a theMinecraft Lnet/minecraft/client/Minecraft;
-	FIELD aa saveLoader Lil;
-	FIELD ab rightClickDelayTimer I
-	FIELD ac serverName Ljava/lang/String;
-	FIELD ad serverPort I
-	FIELD ae textureWaterFX Lnl;
-	FIELD af textureLavaFX Lbe;
-	FIELD ah minecraftDir Ljava/io/File;
-	FIELD ai joinPlayerCounter I
-	FIELD b memoryByteArray [B
-	FIELD c playerController Liq;
-	FIELD d displayWidth I
-	FIELD e displayHeight I
-	FIELD f theWorld Lti;
-	FIELD g renderGlobal Li;
-	FIELD h thePlayer Lsd;
-	FIELD i renderViewEntity Lxx;
-	FIELD j effectRenderer Lcf;
-	FIELD k session Lec;
-	FIELD l minecraftUri Ljava/lang/String;
-	FIELD m mcCanvas Ljava/awt/Canvas;
-	FIELD n hideQuitButton Z
-	FIELD o isGamePaused Z
-	FIELD p renderEngine Lwj;
-	FIELD q fontRenderer Llf;
-	FIELD r currentScreen Lsc;
-	FIELD s loadingScreen Lhn;
-	FIELD t entityRenderer Ljt;
-	FIELD u guiAchievement Lno;
-	FIELD v ingameGUI Ladm;
-	FIELD w skipRenderWorld Z
-	FIELD x playerModelBiped Ltk;
-	FIELD y objectMouseOver Lmz;
-	FIELD z gameSettings Lgk;

@@ -1,4 +1,4 @@
-CLASS vt Potion
+CLASS vt net/minecraft/src/Potion
 	FIELD A potionUnused7 Lvt;
 	FIELD B potionUnused8 Lvt;
 	FIELD C potionUnused9 Lvt;

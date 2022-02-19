@@ -1,4 +1,4 @@
-CLASS afc SaveHandlerMP
+CLASS afc net/minecraft/src/SaveHandlerMP
 	METHOD a getChunkLoader (Laff;)Lqv;
 	METHOD a getMapFile (Ljava/lang/String;)Ljava/io/File;
 	METHOD a saveWorldInfo (Lsx;)V

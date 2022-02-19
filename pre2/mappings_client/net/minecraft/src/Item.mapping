@@ -169,8 +169,9 @@ CLASS uk net/minecraft/src/Item
 		ARG 4 z
 		ARG 5 id
 		ARG 6 living
-	METHOD a (Lwc;Ljava/util/List;)V
+	METHOD a getItemExtraData (Lwc;Ljava/util/List;)V
 		ARG 1 itemStack
+		ARG 2 data
 	METHOD a getStrVsBlock (Lwc;Lmq;)F
 		ARG 1 itemStack
 		ARG 2 block

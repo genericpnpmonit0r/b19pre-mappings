@@ -1,4 +1,9 @@
 CLASS wc net/minecraft/src/ItemStack
+	FIELD a stackSize I
+	FIELD b animationsToGo I
+	FIELD c itemID I
+	FIELD d stackTagCompound Lza;
+	FIELD e itemDamage I
 	METHOD <init> (III)V
 		ARG 1 id
 		ARG 2 stackSize
@@ -81,6 +86,7 @@ CLASS wc net/minecraft/src/ItemStack
 	METHOD b copyItemStack (Lwc;)Lwc;
 		ARG 0 ItemStack
 	METHOD b writeToNBT (Lza;)Lza;
+		ARG 1 compoundTag
 	METHOD c getMaxStackSize ()I
 	METHOD c onCrafting (Lti;Luo;)V
 		ARG 1 world
@@ -98,9 +104,10 @@ CLASS wc net/minecraft/src/ItemStack
 	METHOD h getItemDamageForDisplay ()I
 	METHOD i getItemDamage ()I
 	METHOD j getMaxDamage ()I
+	METHOD k copy ()Lwc;
 	METHOD l getMaxItemUseDuration ()I
 	METHOD m getItemUseAction ()Lwe;
-	FIELD a stackSize I
-	FIELD b animationsToGo I
-	FIELD c itemID I
-	FIELD e itemDamage I
+	METHOD n hasTagCompound ()Z
+	METHOD o getStackTagCompound ()Lza;
+	METHOD p getItemNBTList ()Ljava/util/List;
+	METHOD q hasPotionData ()Z

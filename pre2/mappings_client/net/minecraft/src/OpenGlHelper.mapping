@@ -1,4 +1,8 @@
 CLASS du net/minecraft/src/OpenGlHelper
+	FIELD a lightmapDisabled I
+	FIELD b lightmapEnabled I
+	FIELD c useMultitextureARB Z
+	METHOD a initializeTextures ()V
 	METHOD a setActiveTexture (I)V
 		ARG 0 texture
 	METHOD a setLightmapTextureCoords (IFF)V
@@ -7,6 +11,3 @@ CLASS du net/minecraft/src/OpenGlHelper
 		ARG 2 y
 	METHOD b setClientActiveTexture (I)V
 		ARG 0 texture
-	FIELD a lightmapDisabled I
-	FIELD b lightmapEnabled I
-	FIELD c useMultitextureARB Z

@@ -1,4 +1,4 @@
-CLASS to
+CLASS to net/minecraft/src/BlockCauldron
 	METHOD a isOpaqueCube ()Z
 	METHOD a getBlockTextureFromSideAndMetadata (II)I
 	METHOD b renderAsNormalBlock ()Z

@@ -1,4 +1,5 @@
-CLASS ut
+CLASS ut net/minecraft/src/RenderVillager
+	FIELD c villagerModel Lrr;
 	METHOD a doRender (Llh;DDDFF)V
 	METHOD a doRenderLiving (Lxx;DDDFF)V
 	METHOD a preRenderCallback (Lxx;F)V

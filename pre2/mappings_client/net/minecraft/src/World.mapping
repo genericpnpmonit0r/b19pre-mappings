@@ -1,4 +1,55 @@
 CLASS ti net/minecraft/src/World
+	FIELD A chunkProvider Lbh;
+	FIELD B saveHandler Laew;
+	FIELD C worldInfo Lsx;
+	FIELD D findingSpawnPoint Z
+	FIELD E mapStorage Lus;
+	FIELD F spawnHostileMobs Z
+	FIELD G spawnPeacefulMobs Z
+	FIELD H lightUpdateBlockList [I
+	FIELD I multiplayerWorld Z
+	FIELD J prevTick D
+	FIELD K curTick D
+	FIELD L curTick2 D
+	FIELD M unloadedEntityList Ljava/util/List;
+	FIELD N scheduledTickTreeSet Ljava/util/TreeSet;
+	FIELD O scheduledTickSet Ljava/util/Set;
+	FIELD P addedTileEntityList Ljava/util/List;
+	FIELD Q entityRemoval Ljava/util/List;
+	FIELD R cloudColour J
+	FIELD S lockTimestamp J
+	FIELD T allPlayersSleeping Z
+	FIELD U collidingBoundingBoxes Ljava/util/ArrayList;
+	FIELD V scanningTileEntities Z
+	FIELD W positionsToUpdate Ljava/util/Set;
+	FIELD X soundCounter I
+	FIELD Y entityAABBExclusionList Ljava/util/List;
+	FIELD a worldYBits I
+	FIELD b worldXZBits I
+	FIELD c worldYmax I
+	FIELD d worldYMask I
+	FIELD e worldOceanHeight I
+	FIELD f scheduledUpdatesAreImmediate Z
+	FIELD g loadedEntityList Ljava/util/List;
+	FIELD h loadedTileEntityList Ljava/util/List;
+	FIELD i playerEntities Ljava/util/List;
+	FIELD j weatherEffects Ljava/util/List;
+	FIELD k skylightSubtracted I
+	FIELD l updateLCG I
+	FIELD m DIST_HASH_MAGIC I
+	FIELD n prevRainingStrength F
+	FIELD o rainingStrength F
+	FIELD p prevThunderingStrength F
+	FIELD q thunderingStrength F
+	FIELD r lastLightningBolt I
+	FIELD s lightningFlash I
+	FIELD t editingBlocks Z
+	FIELD u autosavePeriod I
+	FIELD v difficultySetting I
+	FIELD w rand Ljava/util/Random;
+	FIELD x isNewWorld Z
+	FIELD y worldProvider Laff;
+	FIELD z worldAccesses Ljava/util/List;
 	METHOD <init> (Laew;Ljava/lang/String;Laff;Lek;)V
 		ARG 1 saveHandler
 		ARG 2 worldName
@@ -521,60 +572,10 @@ CLASS ti net/minecraft/src/World
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD x getSaveHandler ()Laew;
 	METHOD x setRandomSeed (III)Ljava/util/Random;
 		ARG 1 seed1
 		ARG 2 seed2
 		ARG 3 seed3
 	METHOD y getWorldInfo ()Lsx;
 	METHOD z updateAllPlayersSleepingFlag ()V
-	FIELD A chunkProvider Lbh;
-	FIELD B saveHandler Laew;
-	FIELD C worldInfo Lsx;
-	FIELD D findingSpawnPoint Z
-	FIELD E mapStorage Lus;
-	FIELD F spawnHostileMobs Z
-	FIELD G spawnPeacefulMobs Z
-	FIELD H lightUpdateBlockList [I
-	FIELD I multiplayerWorld Z
-	FIELD J prevTick D
-	FIELD K curTick D
-	FIELD L curTick2 D
-	FIELD M unloadedEntityList Ljava/util/List;
-	FIELD N scheduledTickTreeSet Ljava/util/TreeSet;
-	FIELD O scheduledTickSet Ljava/util/Set;
-	FIELD P addedTileEntityList Ljava/util/List;
-	FIELD Q entityRemoval Ljava/util/List;
-	FIELD R cloudColour J
-	FIELD S lockTimestamp J
-	FIELD T allPlayersSleeping Z
-	FIELD U collidingBoundingBoxes Ljava/util/ArrayList;
-	FIELD V scanningTileEntities Z
-	FIELD W positionsToUpdate Ljava/util/Set;
-	FIELD X soundCounter I
-	FIELD Y entityAABBExclusionList Ljava/util/List;
-	FIELD a worldYBits I
-	FIELD b worldXZBits I
-	FIELD c worldYmax I
-	FIELD d worldYMask I
-	FIELD e worldOceanHeight I
-	FIELD f scheduledUpdatesAreImmediate Z
-	FIELD g loadedEntityList Ljava/util/List;
-	FIELD h loadedTileEntityList Ljava/util/List;
-	FIELD i playerEntities Ljava/util/List;
-	FIELD j weatherEffects Ljava/util/List;
-	FIELD k skylightSubtracted I
-	FIELD l updateLCG I
-	FIELD m DIST_HASH_MAGIC I
-	FIELD n prevRainingStrength F
-	FIELD o rainingStrength F
-	FIELD p prevThunderingStrength F
-	FIELD q thunderingStrength F
-	FIELD r lastLightningBolt I
-	FIELD s lightningFlash I
-	FIELD t editingBlocks Z
-	FIELD u autosavePeriod I
-	FIELD v difficultySetting I
-	FIELD w rand Ljava/util/Random;
-	FIELD x isNewWorld Z
-	FIELD y worldProvider Laff;
-	FIELD z worldAccesses Ljava/util/List;

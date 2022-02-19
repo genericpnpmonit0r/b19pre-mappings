@@ -1,6 +1,7 @@
 CLASS we net/minecraft/src/EnumAction
 	FIELD a none Lwe;
 	FIELD b eat Lwe;
+	FIELD c drink Lwe;
 	FIELD d block Lwe;
 	FIELD e bow Lwe;
 	FIELD f allActions [Lwe;

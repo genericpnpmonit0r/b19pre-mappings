@@ -1,4 +1,4 @@
-CLASS at EntityAnimal
+CLASS at net/minecraft/src/EntityAnimal
 	FIELD a age I
 	FIELD b inLove I
 	FIELD c breeding I

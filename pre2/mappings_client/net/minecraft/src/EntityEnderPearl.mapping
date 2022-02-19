@@ -1,4 +1,4 @@
-CLASS yy EntityEnderPearl
+CLASS yy net/minecraft/src/EntityEnderPearl
 	METHOD a isInRangeToRenderDist (D)Z
 	METHOD a setVelocity (DDD)V
 	METHOD a readEntityFromNBT (Lza;)V

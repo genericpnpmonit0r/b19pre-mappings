@@ -9,7 +9,7 @@ CLASS afm net/minecraft/src/IBlockAccess
 		ARG 2 y
 		ARG 3 z
 		ARG 4 brightness
-	METHOD b func_35452_b ()I
+	METHOD b getWorldMaxHeight ()I
 	METHOD b getBlockTileEntity (III)Lje;
 		ARG 1 x
 		ARG 2 y

@@ -1,4 +1,4 @@
-CLASS dn ItemPotion
+CLASS dn net/minecraft/src/ItemPotion
 	FIELD a effectCache Ljava/util/HashMap;
 	METHOD a getColorFromDamage (I)I
 	METHOD a onItemRightClick (Lwc;Lti;Luo;)Lwc;

@@ -1,4 +1,4 @@
-CLASS go PotionHelper
+CLASS go net/minecraft/src/PotionHelper
 	COMMENT !!! !!! !!! Horrible method names here since i suck at math !!! !!! !!!
 	COMMENT This class does potion calculations
 	FIELD a potionRequirements Ljava/util/HashMap;

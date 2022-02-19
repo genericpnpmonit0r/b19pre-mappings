@@ -1,33 +1,8 @@
 CLASS gk net/minecraft/src/GameSettings
-	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/io/File;)V
-		ARG 1 minecraft
-		ARG 2 file
-	METHOD a loadOptions ()V
-	METHOD a getKeyBindingDescription (I)Ljava/lang/String;
-		ARG 1 index
-	METHOD a setKeyBinding (II)V
-		ARG 1 button
-		ARG 2 keycode
-	METHOD a parseFloat (Ljava/lang/String;)F
-		ARG 1 stringValue
-	METHOD a getOptionFloatValue (Lvg;)F
-		ARG 1 enumOptions
-	METHOD a setOptionFloatValue (Lvg;F)V
-		ARG 1 enumOptions
-		ARG 2 floatValue
-	METHOD a setOptionValue (Lvg;I)V
-		ARG 1 enunOptions
-		ARG 2 intValue
-	METHOD b saveOptions ()V
-	METHOD b getKeyDisplayString (I)Ljava/lang/String;
-		ARG 1 index
-	METHOD b getOptionOrdinalValue (Lvg;)Z
-		ARG 1 enumOptions
-	METHOD c getKeyBinding (Lvg;)Ljava/lang/String;
-		ARG 1 enumOptions
 	FIELD A mc Lnet/minecraft/client/Minecraft;
 	FIELD B difficulty I
 	FIELD C hideGUI Z
+	FIELD D thirdPersonView I
 	FIELD E showDebugInfo Z
 	FIELD F lastServer Ljava/lang/String;
 	FIELD G noclip Z
@@ -69,3 +44,29 @@ CLASS gk net/minecraft/src/GameSettings
 	FIELD x keyBindPlayerList Laas;
 	FIELD y keyBindPickBlock Laas;
 	FIELD z keyBindings [Laas;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/io/File;)V
+		ARG 1 minecraft
+		ARG 2 file
+	METHOD a loadOptions ()V
+	METHOD a getKeyBindingDescription (I)Ljava/lang/String;
+		ARG 1 index
+	METHOD a setKeyBinding (II)V
+		ARG 1 button
+		ARG 2 keycode
+	METHOD a parseFloat (Ljava/lang/String;)F
+		ARG 1 stringValue
+	METHOD a getOptionFloatValue (Lvg;)F
+		ARG 1 enumOptions
+	METHOD a setOptionFloatValue (Lvg;F)V
+		ARG 1 enumOptions
+		ARG 2 floatValue
+	METHOD a setOptionValue (Lvg;I)V
+		ARG 1 enunOptions
+		ARG 2 intValue
+	METHOD b saveOptions ()V
+	METHOD b getKeyDisplayString (I)Ljava/lang/String;
+		ARG 1 index
+	METHOD b getOptionOrdinalValue (Lvg;)Z
+		ARG 1 enumOptions
+	METHOD c getKeyBinding (Lvg;)Ljava/lang/String;
+		ARG 1 enumOptions
