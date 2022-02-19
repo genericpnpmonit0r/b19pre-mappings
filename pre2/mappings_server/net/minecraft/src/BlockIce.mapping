@@ -1,0 +1,8 @@
+CLASS lm net/minecraft/src/BlockIce
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
+	METHOD a updateTick (Lep;IIILjava/util/Random;)V
+	METHOD a harvestBlock (Lep;Lgb;IIII)V
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD e getMobilityFlag ()I

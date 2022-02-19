@@ -1,0 +1,15 @@
+CLASS hf net/minecraft/src/StructureNetherBridgePieces
+	METHOD a func_40689_a ()[Lace;
+	METHOD a func_40688_a (Lace;Ljava/util/List;Ljava/util/Random;IIIII)Lwg;
+	METHOD b func_40687_b ()[Lace;
+	METHOD b createNextComponentRandom (Lace;Ljava/util/List;Ljava/util/Random;IIIII)Lwg;
+		ARG 0 pieceWeight
+		ARG 1 components
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 type
+		ARG 7 coordBase
+	FIELD a primaryComponents [Lace;
+	FIELD b secondaryComponents [Lace;

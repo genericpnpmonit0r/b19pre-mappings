@@ -1,0 +1,32 @@
+CLASS ud net/minecraft/src/PlayerManager
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;II)V
+		ARG 1 minecraftServer
+		ARG 2 dimension
+		ARG 3 viewRadius
+	METHOD a getMinecraftServer ()Lew;
+	METHOD a markBlockNeedsUpdate (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a isOutsidePlayerViewRadius (IIII)Z
+	METHOD a getPlayerInstance (IIZ)Laf;
+		ARG 1 x
+		ARG 2 z
+		ARG 3 noPlayer
+	METHOD a addPlayer (Les;)V
+		ARG 1 playerMP
+	METHOD a getPlayerInstances (Lud;)Lfg;
+	METHOD b updatePlayerInstances ()V
+	METHOD b removePlayer (Les;)V
+		ARG 1 playerMP
+	METHOD b getPlayerInstancesToUpdate (Lud;)Ljava/util/List;
+	METHOD c getMaxTrackingDistance ()I
+	METHOD c updateMountedMovingPlayer (Les;)V
+		ARG 1 playerMP
+	FIELD a players Ljava/util/List;
+	FIELD b playerInstances Lfg;
+	FIELD c playerInstancesToUpdate Ljava/util/List;
+	FIELD d mcServer Lnet/minecraft/server/MinecraftServer;
+	FIELD e playerDimension I
+	FIELD f playerViewRadius I
+	FIELD g xzDirectionsConst [[I

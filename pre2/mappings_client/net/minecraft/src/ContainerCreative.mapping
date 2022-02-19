@@ -1,0 +1,8 @@
+CLASS mh net/minecraft/src/ContainerCreative
+	METHOD <init> (Luo;)V
+		ARG 1 player
+	METHOD a setContents (F)V
+		ARG 1 dispLayer
+	METHOD b func_35373_b (IIZLuo;)V
+	METHOD b canInteractWith (Luo;)Z
+	FIELD a itemList Ljava/util/List;

@@ -1,0 +1,18 @@
+CLASS mw net/minecraft/src/ThreadedChunkLoader
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 saveLocation
+	METHOD a func_661_a ()V
+	METHOD a loadChunk (Lep;II)Ljy;
+	METHOD a saveChunk (Lep;Ljy;)V
+	METHOD a writeChunkNBTTags (Lvj;)V
+		ARG 1 threadedChunkLoaderPending
+	METHOD a addChunkToPending (Lvz;Llx;)V
+		ARG 1 chunkCoordIntPair
+		ARG 2 compoundTag
+	METHOD b saveExtraData ()V
+	METHOD b saveExtraChunkData (Lep;Ljy;)V
+	METHOD c writeNextIO ()Z
+	FIELD a chunksToRemove Ljava/util/List;
+	FIELD b pendingChunksCoordinates Ljava/util/Set;
+	FIELD c syncLockObject Ljava/lang/Object;
+	FIELD d chunkSaveLocation Ljava/io/File;

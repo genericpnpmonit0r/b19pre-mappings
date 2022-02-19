@@ -1,0 +1,16 @@
+CLASS yc net/minecraft/src/WatchableObject
+	METHOD <init> (IILjava/lang/Object;)V
+		ARG 1 type
+		ARG 2 id
+		ARG 3 obj
+	METHOD a getDataValueId ()I
+	METHOD a setObject (Ljava/lang/Object;)V
+		ARG 1 obj
+	METHOD a setWatching (Z)V
+		ARG 1 watchingFlag
+	METHOD b getObject ()Ljava/lang/Object;
+	METHOD c getObjectType ()I
+	FIELD a objectType I
+	FIELD b dataValueId I
+	FIELD c watchedObject Ljava/lang/Object;
+	FIELD d isWatching Z

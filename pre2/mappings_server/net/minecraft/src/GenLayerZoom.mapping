@@ -1,0 +1,13 @@
+CLASS dq net/minecraft/src/GenLayerZoom
+	METHOD <init> (JLdu;)V
+		ARG 1 seed
+		ARG 3 layer
+	METHOD a choose (II)I
+		ARG 1 input1
+		ARG 2 input2
+	METHOD a func_35018_a (IIII)[I
+	METHOD a magnify (JLdu;I)Ldu;
+		ARG 0 seedAdj
+		ARG 2 layer
+		ARG 3 timesToMagnify
+	METHOD b modeOrRandom (IIII)I

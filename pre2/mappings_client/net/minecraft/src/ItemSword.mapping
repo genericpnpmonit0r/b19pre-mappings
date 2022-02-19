@@ -1,0 +1,11 @@
+CLASS jx net/minecraft/src/ItemSword
+	METHOD a isFull3D ()Z
+	METHOD a getDamageVsEntity (Llh;)I
+	METHOD a canHarvestBlock (Lmq;)Z
+	METHOD a onBlockDestroyed (Lwc;IIIILxx;)Z
+	METHOD a getStrVsBlock (Lwc;Lmq;)F
+	METHOD a onItemRightClick (Lwc;Lti;Luo;)Lwc;
+	METHOD a hitEntity (Lwc;Lxx;Lxx;)Z
+	METHOD b getMaxItemUseDuration (Lwc;)I
+	METHOD c getItemUseAction (Lwc;)Lwe;
+	FIELD a weaponDamage I

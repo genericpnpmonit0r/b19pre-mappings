@@ -1,0 +1,4 @@
+CLASS bi net/minecraft/src/ItemShears
+	METHOD a onBlockDestroyed (Lia;IIIILkc;)Z
+	METHOD a getStrVsBlock (Lia;Lro;)F
+	METHOD a canHarvestBlock (Lro;)Z

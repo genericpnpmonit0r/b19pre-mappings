@@ -1,0 +1,11 @@
+CLASS nv net/minecraft/src/ItemArmor
+	METHOD <init> (ILbp;II)V
+		ARG 1 id
+		ARG 2 armorMaterial
+		ARG 3 index
+		ARG 4 type
+	METHOD b func_40436_c ()[I
+	FIELD a armorType I
+	FIELD b damageReduceAmount I
+	FIELD bO maxDamageArray [I
+	FIELD c renderIndex I

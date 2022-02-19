@@ -1,0 +1,11 @@
+CLASS bs net/minecraft/src/StructurePieceBlockSelector
+	METHOD a getSelectedBlockId ()I
+	METHOD a func_35565_a (Ljava/util/Random;IIIZ)V
+		ARG 1 rand
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 mode
+	METHOD b getSelectedBlockMetadata ()I
+	FIELD a selectedBlockId I
+	FIELD b selectedBlockMetadata I

@@ -1,0 +1,11 @@
+CLASS bv net/minecraft/src/Packet70Bed
+	METHOD <init> (II)V
+		ARG 1 state
+		ARG 2 gamemode
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lqk;)V
+	FIELD a bedChat [Ljava/lang/String;
+	FIELD b bedState I
+	FIELD c gameMode I

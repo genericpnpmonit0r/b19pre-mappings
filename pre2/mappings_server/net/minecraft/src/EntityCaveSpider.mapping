@@ -1,0 +1,2 @@
+CLASS go net/minecraft/src/EntityCaveSpider
+	METHOD c attackEntityAsMob (Lpu;)Z

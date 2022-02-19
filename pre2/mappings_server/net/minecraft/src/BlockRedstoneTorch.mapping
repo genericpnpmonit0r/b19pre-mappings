@@ -1,0 +1,28 @@
+CLASS cs net/minecraft/src/BlockRedstoneTorch
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 texIndex
+		ARG 3 active
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a onBlockAdded (Lep;III)V
+	METHOD a onNeighborBlockChange (Lep;IIII)V
+	METHOD a updateTick (Lep;IIILjava/util/Random;)V
+	METHOD a checkForBurnout (Lep;IIIZ)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 active
+	METHOD a isPoweringTo (Lut;IIII)Z
+	METHOD c tickRate ()I
+	METHOD d canProvidePower ()Z
+	METHOD d onBlockRemoval (Lep;III)V
+	METHOD d isIndirectlyPoweringTo (Lep;IIII)Z
+	METHOD g checkIfIndirectlyPowering (Lep;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	FIELD a torchActive Z
+	FIELD b torchUpdates Ljava/util/List;

@@ -1,0 +1,15 @@
+CLASS abg net/minecraft/src/EntityTNTPrimed
+	METHOD <init> (Lti;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a readEntityFromNBT (Lza;)V
+	METHOD b entityInit ()V
+	METHOD b writeEntityToNBT (Lza;)V
+	METHOD c_ canBeCollidedWith ()Z
+	METHOD e_ canTriggerWalking ()Z
+	METHOD g_ getShadowSize ()F
+	METHOD l explode ()V
+	METHOD x_ onUpdate ()V
+	FIELD a fuse I

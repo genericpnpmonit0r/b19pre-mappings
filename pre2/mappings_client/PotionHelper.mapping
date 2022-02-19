@@ -1,0 +1,24 @@
+CLASS go PotionHelper
+	COMMENT !!! !!! !!! Horrible method names here since i suck at math !!! !!! !!!
+	COMMENT This class does potion calculations
+	FIELD a potionRequirements Ljava/util/HashMap;
+	FIELD b potionAmplifiers Ljava/util/HashMap;
+	FIELD c potionPrefixes [Ljava/lang/String;
+	METHOD a prefixAt (I)I
+	METHOD a check2InputsShift1 (II)Z
+	METHOD a getTypes (IIIIII)I
+	METHOD a brewBitOperations (IIZZ)I
+	METHOD a applyIngredient (ILjava/lang/String;)I
+	METHOD a doStringLengthCalculations (Ljava/lang/String;III)I
+	METHOD a checkFlagSet (ZZZIIII)I
+	METHOD b getTypes_1 (I)I
+	METHOD b checkFlag (II)Z
+	METHOD c getPrefixes (I)Ljava/lang/String;
+		ARG 0 index
+	METHOD c isFlagSet (II)I
+	METHOD d getPotionEffects (I)Ljava/util/List;
+	METHOD d isFlagUnset (II)I
+	METHOD e brewBitOperations3 (I)I
+	METHOD f brewBitOperations2 (I)I
+	METHOD g brewTheBits (I)I
+	METHOD h compareStuff (I)I

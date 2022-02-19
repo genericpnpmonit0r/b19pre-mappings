@@ -1,0 +1,33 @@
+CLASS hp net/minecraft/src/WorldClient
+	METHOD <init> (Lyp;Lek;II)V
+		ARG 1 clientHandler
+		ARG 2 worldSettings
+		ARG 3 dimension
+		ARG 4 difficulty
+	METHOD a getEntityByID (I)Llh;
+	METHOD a scheduleBlockUpdate (IIIII)V
+	METHOD a invalidateBlockReceiveRegion (IIIIII)V
+	METHOD a doPreChunk (IIZ)V
+	METHOD a getEntityId (ILlh;)V
+	METHOD a entityJoinedWorld (Llh;)Z
+	METHOD a tickUpdates (Z)Z
+	METHOD b removeEntityFromWorld (I)Llh;
+	METHOD b setBlockAndMetadata (IIIII)Z
+	METHOD b setEntityDead (Llh;)V
+	METHOD c tick ()V
+	METHOD c setBlockMetadata (IIII)Z
+	METHOD c setBlockAndMetadataAndInvalidate (IIIII)Z
+	METHOD c obtainEntitySkin (Llh;)V
+	METHOD d getChunkProvider ()Lbh;
+	METHOD d setBlock (IIII)Z
+	METHOD d releaseEntitySkin (Llh;)V
+	METHOD e setSpawnLocation ()V
+	METHOD f updateBlocksAndPlayCaveSounds ()V
+	METHOD g sendQuittingDisconnectingPacket ()V
+	METHOD h updateWeather ()V
+	FIELD M blocksToReceive Ljava/util/LinkedList;
+	FIELD N sendQueue Lyp;
+	FIELD O clientChunkProvider Lmr;
+	FIELD P entityHashSet Lwu;
+	FIELD Q entityList Ljava/util/Set;
+	FIELD R entitySpawnQueue Ljava/util/Set;

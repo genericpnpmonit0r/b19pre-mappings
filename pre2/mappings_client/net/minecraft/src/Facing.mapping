@@ -1,0 +1,5 @@
+CLASS oc net/minecraft/src/Facing
+	FIELD a oppositeSide [I
+	FIELD b offsetsXForSide [I
+	FIELD c offsetsYForSide [I
+	FIELD d offsetsZForSide [I

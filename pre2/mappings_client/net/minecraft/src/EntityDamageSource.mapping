@@ -1,0 +1,3 @@
+CLASS em net/minecraft/src/EntityDamageSource
+	METHOD a getEntity ()Llh;
+	FIELD n damageSourceEntity Llh;

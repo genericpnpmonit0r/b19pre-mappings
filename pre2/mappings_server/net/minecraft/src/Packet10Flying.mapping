@@ -1,0 +1,14 @@
+CLASS hk net/minecraft/src/Packet10Flying
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lqk;)V
+	FIELD a xPosition D
+	FIELD b yPosition D
+	FIELD c zPosition D
+	FIELD d stance D
+	FIELD e yaw F
+	FIELD f pitch F
+	FIELD g onGround Z
+	FIELD h moving Z
+	FIELD i rotating Z

@@ -1,0 +1,11 @@
+CLASS tg net/minecraft/src/BlockPumpkin
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 texIndex
+		ARG 3 isLit
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a onBlockAdded (Lti;III)V
+	METHOD a onBlockPlacedBy (Lti;IIILxx;)V
+	METHOD e canPlaceBlockAt (Lti;III)Z
+	FIELD a blockType Z

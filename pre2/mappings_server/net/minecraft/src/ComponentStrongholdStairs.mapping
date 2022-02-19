@@ -1,0 +1,16 @@
+CLASS hh net/minecraft/src/ComponentStrongholdStairs
+	METHOD <init> (ILjava/util/Random;II)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 z
+	METHOD <init> (ILjava/util/Random;Lsz;I)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 boundingBox
+		ARG 4 coordBaseMode
+	METHOD a func_35310_a (Lep;Ljava/util/Random;Lsz;)Z
+	METHOD a func_35308_a (Liw;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIIII)Lhh;
+	FIELD a modeFlag Z
+	FIELD b doorType Lob;

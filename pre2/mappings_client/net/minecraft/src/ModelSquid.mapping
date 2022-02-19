@@ -1,0 +1,5 @@
+CLASS og net/minecraft/src/ModelSquid
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Llh;FFFFFF)V
+	FIELD a squidBody Lnz;
+	FIELD b squidTentacles [Lnz;

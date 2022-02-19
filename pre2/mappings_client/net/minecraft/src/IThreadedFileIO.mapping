@@ -1,0 +1,2 @@
+CLASS dw net/minecraft/src/IThreadedFileIO
+	METHOD w_ func_40550_A_ ()Z

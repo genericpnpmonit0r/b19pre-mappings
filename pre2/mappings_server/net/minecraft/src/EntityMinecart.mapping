@@ -1,0 +1,48 @@
+CLASS vo net/minecraft/src/EntityMinecart
+	METHOD <init> (Lep;DDDI)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 type
+	METHOD Q setEntityDead ()V
+	METHOD a getSizeInventory ()I
+	METHOD a decrStackSize (II)Lia;
+	METHOD a setInventorySlotContents (ILia;)V
+	METHOD a canInteractWith (Lgb;)Z
+	METHOD a readEntityFromNBT (Llx;)V
+	METHOD a attackEntityFrom (Lny;I)Z
+	METHOD b entityInit ()V
+	METHOD b interact (Lgb;)Z
+	METHOD b writeEntityToNBT (Llx;)V
+	METHOD b getCollisionBox (Lpu;)Led;
+	METHOD b_ getStackInSlot (I)Lia;
+	METHOD c getInvName ()Ljava/lang/String;
+	METHOD d getInventoryStackLimit ()I
+	METHOD d_ canBeCollidedWith ()Z
+	METHOD e func_35161_e ()V
+	METHOD e_ canBePushed ()Z
+	METHOD f getBoundingBox ()Led;
+	METHOD f_ canTriggerWalking ()Z
+	METHOD h func_182_g (DDD)Lbo;
+	METHOD i applyEntityCollision (Lpu;)V
+	METHOD k onInventoryChanged ()V
+	METHOD p getMountedYOffset ()D
+	METHOD s_ onUpdate ()V
+	METHOD t_ func_35162_t_ ()V
+	FIELD a damageTaken I
+	FIELD b timeSinceHit I
+	FIELD c forwardDirection I
+	FIELD d minecartType I
+	FIELD e fuel I
+	FIELD f pushX D
+	FIELD g pushZ D
+	FIELD h cargoItems [Lia;
+	FIELD i field_469_aj Z
+	FIELD j field_468_ak [[[I
+	FIELD k minecartPosRotationIncrements I
+	FIELD l minecartX D
+	FIELD m minecartY D
+	FIELD n minecartZ D
+	FIELD o minecartYaw D
+	FIELD p minecartPitch D

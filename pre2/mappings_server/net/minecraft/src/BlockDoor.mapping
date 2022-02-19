@@ -1,0 +1,25 @@
+CLASS jr net/minecraft/src/BlockDoor
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a onNeighborBlockChange (Lep;IIII)V
+	METHOD a collisionRayTrace (Lep;IIILbo;Lbo;)Lsf;
+	METHOD a blockActivated (Lep;IIILgb;)Z
+	METHOD a onPoweredBlockChange (Lep;IIIZ)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 powered
+	METHOD a setBlockBoundsBasedOnState (Lut;III)V
+	METHOD b isACube ()Z
+	METHOD b onBlockClicked (Lep;IIILgb;)V
+	METHOD c setDoorRotation (I)V
+		ARG 1 meta
+	METHOD c canPlaceBlockAt (Lep;III)Z
+	METHOD d getState (I)I
+		ARG 1 meta
+	METHOD e getMobilityFlag ()I
+	METHOD e isOpen (I)Z
+		ARG 0 meta
+	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;

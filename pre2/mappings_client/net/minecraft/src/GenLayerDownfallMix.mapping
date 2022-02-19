@@ -1,0 +1,4 @@
+CLASS adi net/minecraft/src/GenLayerDownfallMix
+	METHOD a func_35500_a (IIII)[I
+	FIELD b theLayer Lsv;
+	FIELD c field_35508_c I

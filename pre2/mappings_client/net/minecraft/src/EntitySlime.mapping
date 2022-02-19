@@ -1,0 +1,28 @@
+CLASS adp net/minecraft/src/EntitySlime
+	METHOD V getSlimeParticle ()Ljava/lang/String;
+	METHOD X newSlime ()Ladp;
+	METHOD Y getJumpDelay ()I
+	METHOD Z setSizeSmallM ()V
+	METHOD a readEntityFromNBT (Lza;)V
+	METHOD a_ getDropItemId ()I
+	METHOD a_ onCollideWithPlayer (Luo;)V
+	METHOD aa getSlimeSizeGreaterThan1 ()Z
+	METHOD ab getSlimeSize_do ()I
+	METHOD ac getSlimeSound ()Ljava/lang/String;
+	METHOD af getArmor ()I
+	METHOD b entityInit ()V
+	METHOD b setSlimeSize (I)V
+		ARG 1 size
+	METHOD b writeEntityToNBT (Lza;)V
+	METHOD b_ getCanSpawnHere ()Z
+	METHOD f getHurtSound ()Ljava/lang/String;
+	METHOD g getDeathSound ()Ljava/lang/String;
+	METHOD m_ updateEntityActionState ()V
+	METHOD r_ getSoundVolume ()F
+	METHOD u setEntityDead ()V
+	METHOD v_ getVerticalFaceSpeed ()I
+	METHOD x_ onUpdate ()V
+	FIELD a size1 F
+	FIELD b size2 F
+	FIELD c size3 F
+	FIELD d slimeJumpDelay I

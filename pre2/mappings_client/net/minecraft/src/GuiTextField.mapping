@@ -1,0 +1,36 @@
+CLASS abq net/minecraft/src/GuiTextField
+	METHOD <init> (Lsc;Llf;IIIILjava/lang/String;)V
+		ARG 1 screen
+		ARG 2 fontRenderer
+		ARG 3 x
+		ARG 4 y
+		ARG 5 width
+		ARG 6 height
+		ARG 7 text
+	METHOD a getText ()Ljava/lang/String;
+	METHOD a textboxKeyTyped (CI)V
+		ARG 1 charTyped
+		ARG 2 keyCode
+	METHOD a setMaxStringLength (I)V
+		ARG 1 maxLength
+	METHOD a mouseClicked (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 buttonId
+	METHOD a setText (Ljava/lang/String;)V
+		ARG 1 text
+	METHOD a setFocused (Z)V
+		ARG 1 focused
+	METHOD b updateCursorCounter ()V
+	METHOD c drawTextBox ()V
+	FIELD a isFocused Z
+	FIELD b isEnabled Z
+	FIELD c fontRenderer Llf;
+	FIELD d xPos I
+	FIELD e yPos I
+	FIELD f width I
+	FIELD h height I
+	FIELD i text Ljava/lang/String;
+	FIELD j maxStringLength I
+	FIELD k cursorCounter I
+	FIELD l parentGuiScreen Lsc;

@@ -1,0 +1,7 @@
+CLASS su net/minecraft/src/BlockCloth
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD b damageDropped (I)I
+	METHOD d getBlockFromDye (I)I
+		ARG 0 meta
+	METHOD f getDyeFromBlock (I)I
+		ARG 0 meta

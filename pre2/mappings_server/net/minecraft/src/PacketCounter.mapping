@@ -1,0 +1,5 @@
+CLASS ly net/minecraft/src/PacketCounter
+	METHOD a addPacket (I)V
+		ARG 1 totalBytesCount
+	FIELD a totalPackets I
+	FIELD b totalBytes J

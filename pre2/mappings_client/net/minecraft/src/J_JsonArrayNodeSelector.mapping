@@ -1,0 +1,6 @@
+CLASS xc net/minecraft/src/J_JsonArrayNodeSelector
+	METHOD a shortForm ()Ljava/lang/String;
+	METHOD a matchsNode_ (Lee;)Z
+	METHOD b typeSafeApplyTo (Lee;)Ljava/util/List;
+	METHOD b typeSafeApplyTo (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD c matchsNode (Ljava/lang/Object;)Z

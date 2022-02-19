@@ -1,0 +1,6 @@
+CLASS ob net/minecraft/src/EnumDoor
+	FIELD a OPENING Lob;
+	FIELD b WOOD_DOOR Lob;
+	FIELD c GRATES Lob;
+	FIELD d IRON_DOOR Lob;
+	FIELD e field_35598_e [Lob;

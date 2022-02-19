@@ -1,0 +1,9 @@
+CLASS bc net/minecraft/src/ContainerChest
+	METHOD <init> (Lhc;Lhc;)V
+		ARG 1 inventory1
+		ARG 2 inventory2
+	METHOD a transferStackInSlot (I)Lwc;
+	METHOD a onCraftGuiClosed (Luo;)V
+	METHOD b canInteractWith (Luo;)Z
+	FIELD a lowerChestInventory Lhc;
+	FIELD b numRows I

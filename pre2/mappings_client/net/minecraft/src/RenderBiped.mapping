@@ -1,0 +1,4 @@
+CLASS qg net/minecraft/src/RenderBiped
+	METHOD b renderEquippedItems (Lxx;F)V
+	FIELD c modelBipedMain Ltk;
+	FIELD d field_40296_d F

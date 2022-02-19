@@ -1,0 +1,23 @@
+CLASS at EntityAnimal
+	FIELD a age I
+	FIELD b inLove I
+	FIELD c breeding I
+	METHOD a getBlockPathWeight (III)F
+	METHOD a createChild (Lat;)Lat;
+		ARG 1 animal
+	METHOD a attackEntityFrom (Lkc;I)Z
+	METHOD a attackEntity (Llh;F)V
+	METHOD a func_36001_a (Luo;)I
+	METHOD a isBreedingItem (Lwc;)Z
+		ARG 1 itemStack
+	METHOD a readEntityFromNBT (Lza;)V
+	METHOD b procreate (Lat;)V
+		ARG 1 animal
+	METHOD b attackBlockedEntity (Llh;F)V
+	METHOD b interact (Luo;)Z
+	METHOD b writeEntityToNBT (Lza;)V
+	METHOD b_ getCanSpawnHere ()Z
+	METHOD d onLivingUpdate ()V
+	METHOD i findPlayerToAttack ()Llh;
+	METHOD k getTalkInterval ()I
+	METHOD l canDespawn ()Z

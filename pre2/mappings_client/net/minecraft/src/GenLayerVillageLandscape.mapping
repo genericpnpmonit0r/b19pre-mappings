@@ -1,0 +1,6 @@
+CLASS acs net/minecraft/src/GenLayerVillageLandscape
+	METHOD <init> (JLsv;)V
+		ARG 1 seed
+		ARG 3 layer
+	METHOD a func_35500_a (IIII)[I
+	FIELD b allowedBiomes [Lwz;

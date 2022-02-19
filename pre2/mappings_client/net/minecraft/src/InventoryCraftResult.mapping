@@ -1,0 +1,12 @@
+CLASS aes net/minecraft/src/InventoryCraftResult
+	METHOD a getSizeInventory ()I
+	METHOD a decrStackSize (II)Lwc;
+	METHOD a setInventorySlotContents (ILwc;)V
+	METHOD a isUseableByPlayer (Luo;)Z
+	METHOD c getInvName ()Ljava/lang/String;
+	METHOD d getInventoryStackLimit ()I
+	METHOD e openChest ()V
+	METHOD e_ getStackInSlot (I)Lwc;
+	METHOD f closeChest ()V
+	METHOD k onInventoryChanged ()V
+	FIELD a stackResult [Lwc;

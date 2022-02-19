@@ -1,0 +1,58 @@
+CLASS jq net/minecraft/src/NetServerHandler
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lnd;Les;)V
+		ARG 1 minecraftServer
+		ARG 2 networkManager
+		ARG 3 playerMP
+	METHOD a handlePackets ()V
+	METHOD a teleportTo (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
+	METHOD a handleUseEntity (La;)V
+	METHOD a func_35004_a (Ldk;)V
+	METHOD a handlePlace (Lgd;)V
+	METHOD a handleBlockItemSwitch (Lgz;)V
+	METHOD a handleFlying (Lhk;)V
+	METHOD a handleBlockDig (Lit;)V
+	METHOD a kickPlayer (Ljava/lang/String;)V
+		ARG 1 reason
+	METHOD a handleErrorMessage (Ljava/lang/String;[Ljava/lang/Object;)V
+	METHOD a registerPacket (Lje;)V
+	METHOD a func_35005_a (Lkk;)V
+	METHOD a handleCraftingGuiClosedPacked (Lkq;)V
+	METHOD a handleArmAnimation (Llr;)V
+	METHOD a handleTransaction (Lml;)V
+	METHOD a handleRespawn (Lmz;)V
+	METHOD a handleChat (Lnc;)V
+	METHOD a handleMovementTypePacket (Lnw;)V
+	METHOD a handleWindowClick (Loe;)V
+	METHOD a handleEntityAction (Lqx;)V
+	METHOD a handleUpdateSign (Lrg;)V
+	METHOD a handleKickDisconnect (Lvr;)V
+	METHOD b getNumChunkDataPackets ()I
+	METHOD b log (Ljava/lang/String;)V
+	METHOD b sendPacket (Lje;)V
+		ARG 1 packet
+	METHOD c isServerHandler ()Z
+	METHOD c handleSlashCommand (Ljava/lang/String;)V
+		ARG 1 cmdName
+	METHOD d getUsername ()Ljava/lang/String;
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b netManager Lnd;
+	FIELD c connectionClosed Z
+	FIELD d mcServer Lnet/minecraft/server/MinecraftServer;
+	FIELD e playerEntity Les;
+	FIELD f field_35009_f I
+	FIELD g playerInAirTime I
+	FIELD h field_22003_h Z
+	FIELD i field_35013_i I
+	FIELD j nanoTime J
+	FIELD k field_35012_k Ljava/util/Random;
+	FIELD l field_35010_l J
+	FIELD m lastPosX D
+	FIELD n lastPosY D
+	FIELD o lastPosZ D
+	FIELD p hasMoved Z
+	FIELD q inthashmap Liv;

@@ -1,0 +1,4 @@
+CLASS adu net/minecraft/src/RenderCow
+	METHOD a doRender (Llh;DDDFF)V
+	METHOD a renderCow (Lri;DDDFF)V
+	METHOD a doRenderLiving (Lxx;DDDFF)V

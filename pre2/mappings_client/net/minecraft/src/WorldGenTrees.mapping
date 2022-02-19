@@ -1,0 +1,2 @@
+CLASS pi net/minecraft/src/WorldGenTrees
+	METHOD a generate (Lti;Ljava/util/Random;III)Z

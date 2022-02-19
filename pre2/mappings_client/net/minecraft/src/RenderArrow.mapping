@@ -1,0 +1,3 @@
+CLASS hg net/minecraft/src/RenderArrow
+	METHOD a renderArrow (Llg;DDDFF)V
+	METHOD a doRender (Llh;DDDFF)V

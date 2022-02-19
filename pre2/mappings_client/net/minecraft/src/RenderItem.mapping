@@ -1,0 +1,17 @@
+CLASS qt net/minecraft/src/RenderItem
+	METHOD a renderTexturedQuad (IIIIII)V
+	METHOD a doRenderItem (Leq;DDDFF)V
+	METHOD a drawItemIntoGui (Llf;Lwj;IIIII)V
+		ARG 1 fontRenderer
+		ARG 2 renderer
+		ARG 3 offset
+		ARG 4 x
+		ARG 6 width
+		ARG 7 height
+	METHOD a renderItemIntoGui (Llf;Lwj;Lwc;II)V
+	METHOD a doRender (Llh;DDDFF)V
+	METHOD a renderQuad (Lzd;IIIII)V
+	METHOD b renderItemOverlayIntoGUI (Llf;Lwj;Lwc;II)V
+	FIELD a field_27004_a Z
+	FIELD c renderBlocks Lrz;
+	FIELD d random Ljava/util/Random;

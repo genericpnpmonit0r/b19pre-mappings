@@ -1,0 +1,7 @@
+CLASS aee net/minecraft/src/SlotFurnace
+	METHOD <init> (Luo;Lhc;III)V
+		ARG 1 player
+		ARG 2 inventory
+	METHOD a onPickupFromSlot (Lwc;)V
+	METHOD b isItemValid (Lwc;)Z
+	FIELD e thePlayer Luo;

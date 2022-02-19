@@ -1,0 +1,6 @@
+CLASS aen net/minecraft/src/ModelBlaze
+	METHOD a getStickCount ()I
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Llh;FFFFFF)V
+	FIELD a blazeSticks [Lnz;
+	FIELD b head Lnz;

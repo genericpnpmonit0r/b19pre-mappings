@@ -1,0 +1,7 @@
+CLASS afc SaveHandlerMP
+	METHOD a getChunkLoader (Laff;)Lqv;
+	METHOD a getMapFile (Ljava/lang/String;)Ljava/io/File;
+	METHOD a saveWorldInfo (Lsx;)V
+	METHOD a saveWorldInfoAndPlayer (Lsx;Ljava/util/List;)V
+	METHOD b checkSessionLock ()V
+	METHOD c loadWorldInfo ()Lsx;

@@ -1,0 +1,4 @@
+CLASS mv net/minecraft/src/ItemLeaves
+	METHOD a getColorFromDamage (I)I
+	METHOD b getIconFromDamage (I)I
+	METHOD c getPlacedBlockMetadata (I)I

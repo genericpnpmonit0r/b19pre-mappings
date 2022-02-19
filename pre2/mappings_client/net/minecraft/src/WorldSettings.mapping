@@ -1,0 +1,11 @@
+CLASS ek net/minecraft/src/WorldSettings
+	METHOD <init> (JIZZ)V
+		ARG 1 seed
+		ARG 3 type
+		ARG 4 features
+	METHOD a getSeed ()J
+	METHOD b getGameType ()I
+	METHOD d getFeatures ()Z
+	FIELD a worldSeed J
+	FIELD b gameType I
+	FIELD c mapFeaturesEnabled Z

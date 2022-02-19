@@ -1,0 +1,19 @@
+CLASS rn net/minecraft/src/BlockPistonMoving
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a isOpaqueCube ()Z
+	METHOD a getTileEntity (IIIZZ)Lmx;
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a onBlockAdded (Lep;III)V
+	METHOD a onNeighborBlockChange (Lep;IIII)V
+	METHOD a dropBlockAsItemWithChance (Lep;IIIIF)V
+	METHOD a func_31032_a (Lep;IIIIFI)Led;
+	METHOD a blockActivated (Lep;IIILgb;)Z
+	METHOD a setBlockBoundsBasedOnState (Lut;III)V
+	METHOD a_ getBlockEntity ()Lmx;
+	METHOD b isACube ()Z
+	METHOD b canPlaceBlockOnSide (Lep;IIII)Z
+	METHOD b getTileEntityAtLocation (Lut;III)Lri;
+	METHOD c canPlaceBlockAt (Lep;III)Z
+	METHOD d onBlockRemoval (Lep;III)V
+	METHOD e getCollisionBoundingBoxFromPool (Lep;III)Led;

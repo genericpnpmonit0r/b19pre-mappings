@@ -1,0 +1,2 @@
+CLASS qh net/minecraft/src/BiomeGenSwamp
+	METHOD a getRandomWorldGenForTrees (Ljava/util/Random;)Lnf;

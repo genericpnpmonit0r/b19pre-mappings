@@ -1,0 +1,2 @@
+CLASS j net/minecraft/src/WorldGenTreesBirch
+	METHOD a generate (Lep;Ljava/util/Random;III)Z

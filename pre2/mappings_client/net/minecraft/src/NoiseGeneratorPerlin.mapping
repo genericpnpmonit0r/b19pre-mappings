@@ -1,0 +1,35 @@
+CLASS ah net/minecraft/src/NoiseGeneratorPerlin
+	METHOD <init> (Ljava/util/Random;)V
+		ARG 1 rand
+	METHOD a generateNoise (DD)D
+		ARG 1 x
+		ARG 3 y
+	METHOD a generateNoise (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a grad2 (IDD)D
+		ARG 1 x
+		ARG 2 y
+		ARG 4 z
+	METHOD a grad (IDDD)D
+	METHOD a populateNoiseArray ([DDDDIIIDDDD)V
+		ARG 1 noiseArray
+		ARG 2 xOffset
+		ARG 4 yOffset
+		ARG 6 zOffset
+		ARG 8 xSize
+		ARG 9 ySize
+		ARG 10 zSize
+		ARG 11 xScale
+		ARG 13 yScale
+		ARG 15 zScale
+		ARG 17 noiseScale
+	METHOD b lerp (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	FIELD a xCoord D
+	FIELD b yCoord D
+	FIELD c zCoord D
+	FIELD d permutations [I

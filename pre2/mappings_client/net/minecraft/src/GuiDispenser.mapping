@@ -1,0 +1,6 @@
+CLASS ed net/minecraft/src/GuiDispenser
+	METHOD <init> (Lvz;Laq;)V
+		ARG 1 invPlayer
+		ARG 2 tileEntityDispenser
+	METHOD a drawGuiContainerBackgroundLayer (F)V
+	METHOD c drawGuiContainerForegroundLayer ()V

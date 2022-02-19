@@ -1,0 +1,252 @@
+CLASS uk net/minecraft/src/Item
+	FIELD A shovelDiamond Luk;
+	FIELD B pickaxeDiamond Luk;
+	FIELD C axeDiamond Luk;
+	FIELD D stick Luk;
+	FIELD E bowlEmpty Luk;
+	FIELD F bowlSoup Luk;
+	FIELD G swordGold Luk;
+	FIELD H shovelGold Luk;
+	FIELD I pickaxeGold Luk;
+	FIELD J axeGold Luk;
+	FIELD K silk Luk;
+	FIELD L feather Luk;
+	FIELD M gunpowder Luk;
+	FIELD N hoeWood Luk;
+	FIELD O hoeStone Luk;
+	FIELD P hoeSteel Luk;
+	FIELD Q hoeDiamond Luk;
+	FIELD R hoeGold Luk;
+	FIELD S seeds Luk;
+	FIELD T wheat Luk;
+	FIELD U bread Luk;
+	FIELD V helmetLeather Luk;
+	FIELD W plateLeather Luk;
+	FIELD X legsLeather Luk;
+	FIELD Y bootsLeather Luk;
+	FIELD Z helmetChain Luk;
+	FIELD aA saddle Luk;
+	FIELD aB doorSteel Luk;
+	FIELD aC redstone Luk;
+	FIELD aD snowball Luk;
+	FIELD aE boat Luk;
+	FIELD aF leather Luk;
+	FIELD aG bucketMilk Luk;
+	FIELD aH brick Luk;
+	FIELD a maxDamage I
+	FIELD aI clay Luk;
+	FIELD aJ reed Luk;
+	FIELD aK paper Luk;
+	FIELD aL book Luk;
+	FIELD aM slimeBall Luk;
+	FIELD aN minecartCrate Luk;
+	FIELD aO minecartPowered Luk;
+	FIELD aP egg Luk;
+	FIELD aQ compass Luk;
+	FIELD aR fishingRod Luk;
+	FIELD aS pocketSundial Luk;
+	FIELD aT lightStoneDust Luk;
+	FIELD aU fishRaw Luk;
+	FIELD aV fishCooked Luk;
+	FIELD aW dyePowder Luk;
+	FIELD aX bone Luk;
+	FIELD aY sugar Luk;
+	FIELD aZ cake Luk;
+	FIELD aa plateChain Luk;
+	FIELD ab legsChain Luk;
+	FIELD ac bootsChain Luk;
+	FIELD ad helmetSteel Luk;
+	FIELD ae plateSteel Luk;
+	FIELD af legsSteel Luk;
+	FIELD ag bootsSteel Luk;
+	FIELD ah helmetDiamond Luk;
+	FIELD ai plateDiamond Luk;
+	FIELD aj legsDiamond Luk;
+	FIELD ak bootsDiamond Luk;
+	FIELD al helmetGold Luk;
+	FIELD am plateGold Luk;
+	FIELD an legsGold Luk;
+	FIELD ao bootsGold Luk;
+	FIELD ap flint Luk;
+	FIELD aq porkRaw Luk;
+	FIELD ar porkCooked Luk;
+	FIELD as painting Luk;
+	FIELD at appleGold Luk;
+	FIELD au sign Luk;
+	FIELD av doorWood Luk;
+	FIELD aw bucketEmpty Luk;
+	FIELD ax bucketWater Luk;
+	FIELD ay bucketLava Luk;
+	FIELD az minecartEmpty Luk;
+	FIELD bA recordBlocks Luk;
+	FIELD bB recordChirp Luk;
+	FIELD bC recordFar Luk;
+	FIELD bD recordMall Luk;
+	FIELD bE recordMellohi Luk;
+	FIELD bF recordStal Luk;
+	FIELD bG recordStrad Luk;
+	FIELD bH recordWard Luk;
+	FIELD bI record11 Luk;
+	FIELD bJ shiftedIndex I
+	FIELD bK maxStackSize I
+	FIELD bL iconIndex I
+	FIELD b containerItem Luk;
+	FIELD bM bFull3D Z
+	FIELD bN hasSubtypes Z
+	FIELD bO itemName Ljava/lang/String;
+	FIELD ba bed Luk;
+	FIELD bb redstoneRepeater Luk;
+	FIELD bc cookie Luk;
+	FIELD bd map Lok;
+	FIELD be shears Law;
+	FIELD bf melon Luk;
+	FIELD bg pumpkinSeeds Luk;
+	FIELD bh melonSeeds Luk;
+	FIELD bi beefRaw Luk;
+	FIELD bj beefCooked Luk;
+	FIELD bk chickenRaw Luk;
+	FIELD bl chickenCooked Luk;
+	FIELD bm rottenFlesh Luk;
+	FIELD bn enderPearl Luk;
+	FIELD bo blazeRod Luk;
+	FIELD bp ghastTear Luk;
+	FIELD bq goldNugget Luk;
+	FIELD br netherWarts Luk;
+	FIELD bs potion Luk;
+	FIELD bt glassBottle Luk;
+	FIELD bu spiderEye Luk;
+	FIELD bv fermentedSpiderEye Luk;
+	FIELD bw blazePowder Luk;
+	FIELD bx magmaCream Luk;
+	FIELD by record13 Luk;
+	FIELD bz recordCat Luk;
+	FIELD c potionIngredientPrefix Ljava/lang/String;
+	FIELD d itemRand Ljava/util/Random;
+	FIELD e itemsList [Luk;
+	FIELD f shovelSteel Luk;
+	FIELD g pickaxeSteel Luk;
+	FIELD h axeSteel Luk;
+	FIELD i flintAndSteel Luk;
+	FIELD j appleRed Luk;
+	FIELD k bow Luk;
+	FIELD l arrow Luk;
+	FIELD m coal Luk;
+	FIELD n diamond Luk;
+	FIELD o ingotIron Luk;
+	FIELD p ingotGold Luk;
+	FIELD q swordSteel Luk;
+	FIELD r swordWood Luk;
+	FIELD s shovelWood Luk;
+	FIELD t pickaxeWood Luk;
+	FIELD u axeWood Luk;
+	FIELD v swordStone Luk;
+	FIELD w shovelStone Luk;
+	FIELD x pickaxeStone Luk;
+	FIELD y axeStone Luk;
+	FIELD z swordDiamond Luk;
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a isFull3D ()Z
+	METHOD a getColorFromDamage (I)I
+		ARG 1 damage
+	METHOD a setIconCoord (II)Luk;
+		ARG 1 x
+		ARG 2 y
+	METHOD a setItemName (Ljava/lang/String;)Luk;
+		ARG 1 name
+	METHOD a getDamageVsEntity (Llh;)I
+		ARG 1 entity
+	METHOD a canHarvestBlock (Lmq;)Z
+		ARG 1 block
+	METHOD a setContainerItem (Luk;)Luk;
+		ARG 1 item
+	METHOD a getItemNameIS (Lwc;)Ljava/lang/String;
+		ARG 1 itemStack
+	METHOD a onBlockDestroyed (Lwc;IIIILxx;)Z
+		ARG 1 itemStack
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 id
+		ARG 6 living
+	METHOD a (Lwc;Ljava/util/List;)V
+		ARG 1 itemStack
+	METHOD a getStrVsBlock (Lwc;Lmq;)F
+		ARG 1 itemStack
+		ARG 2 block
+	METHOD a onUpdate (Lwc;Lti;Llh;IZ)V
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 entity
+		ARG 4 id
+		ARG 5 updateMapDataFlag
+	METHOD a onItemRightClick (Lwc;Lti;Luo;)Lwc;
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 player
+	METHOD a onPlayerStoppedUsing (Lwc;Lti;Luo;I)V
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 player
+		ARG 4 id
+	METHOD a onItemUse (Lwc;Luo;Lti;IIII)Z
+		ARG 1 itemStack
+		ARG 2 player
+		ARG 3 world
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 side
+	METHOD a useItemOnEntity (Lwc;Lxx;)V
+		ARG 1 itemStack
+		ARG 2 living
+	METHOD a hitEntity (Lwc;Lxx;Lxx;)Z
+		ARG 1 itemStack
+		ARG 2 hitter
+		ARG 3 target
+	METHOD a setHasSubtypes (Z)Luk;
+		ARG 1 hasSubtypes
+	METHOD b getIconFromDamage (I)I
+		ARG 1 meta
+	METHOD b setPotionIngredientPrefix (Ljava/lang/String;)Luk;
+		ARG 1 prefix
+	METHOD b getMaxItemUseDuration (Lwc;)I
+		ARG 1 itemStack
+	METHOD b onFoodEaten (Lwc;Lti;Luo;)Lwc;
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 player
+	METHOD c getItemName ()Ljava/lang/String;
+	METHOD c getPlacedBlockMetadata (I)I
+		ARG 1 meta
+	METHOD c getItemUseAction (Lwc;)Lwe;
+		ARG 1 itemStack
+	METHOD c onCreated (Lwc;Lti;Luo;)V
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 player
+	METHOD d getItemStackLimit ()I
+	METHOD d setIconIndex (I)Luk;
+		ARG 1 index
+	METHOD d translateItemStackPrefix (Lwc;)Ljava/lang/String;
+		ARG 1 itemStack
+	METHOD e getHasSubtypes ()Z
+	METHOD e setMaxStackSize (I)Luk;
+		ARG 1 stackSize
+	METHOD e hasEffect (Lwc;)Z
+		ARG 1 itemStack
+	METHOD f getMaxDamage ()I
+	METHOD f setMaxDamage (I)Luk;
+		ARG 1 maxDamage
+	METHOD f getIconIndex (Lwc;)I
+		ARG 1 itemStack
+	METHOD g isDamageable ()Z
+	METHOD g translateItemStackName (Lwc;)Ljava/lang/String;
+		ARG 1 itemStack
+	METHOD h setFull3D ()Luk;
+	METHOD i getContainerItem ()Luk;
+	METHOD j hasContainerItem ()Z
+	METHOD k getStatName ()Ljava/lang/String;
+	METHOD l getPotionIngredientPrefix ()Ljava/lang/String;
+	METHOD m hasPotionIngredientPrefix ()Z
+	METHOD s_ shouldRotateAroundWhenRendering ()Z

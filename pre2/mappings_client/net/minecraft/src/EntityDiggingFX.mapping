@@ -1,0 +1,5 @@
+CLASS kb net/minecraft/src/EntityDiggingFX
+	METHOD a func_4041_a (III)Lkb;
+	METHOD a renderParticle (Lzd;FFFFFF)V
+	METHOD l getFXLayer ()I
+	FIELD a blockInstance Lmq;

@@ -1,0 +1,3 @@
+CLASS aai net/minecraft/src/RenderFish
+	METHOD a doRender (Llh;DDDFF)V
+	METHOD a doRenderFish (Lya;DDDFF)V

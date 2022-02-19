@@ -1,0 +1,2 @@
+CLASS jq net/minecraft/src/WorldGenTaiga1
+	METHOD a generate (Lti;Ljava/util/Random;III)Z

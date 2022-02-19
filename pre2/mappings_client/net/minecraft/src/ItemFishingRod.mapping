@@ -1,0 +1,4 @@
+CLASS ry net/minecraft/src/ItemFishingRod
+	METHOD a isFull3D ()Z
+	METHOD a onItemRightClick (Lwc;Lti;Luo;)Lwc;
+	METHOD s_ shouldRotateAroundWhenRendering ()Z

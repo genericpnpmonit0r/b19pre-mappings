@@ -1,0 +1,9 @@
+CLASS px net/minecraft/src/RenderEnderman
+	METHOD a renderEnderman (Lhr;DDDFF)V
+	METHOD a renderCarrying (Lhr;F)V
+	METHOD a doRender (Llh;DDDFF)V
+	METHOD a doRenderLiving (Lxx;DDDFF)V
+	METHOD b renderEquippedItems (Lxx;F)V
+	METHOD b shouldRenderPass (Lxx;IF)Z
+	FIELD c endermanModel Lqz;
+	FIELD d rnd Ljava/util/Random;

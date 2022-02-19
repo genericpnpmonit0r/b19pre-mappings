@@ -1,0 +1,20 @@
+CLASS og net/minecraft/src/Explosion
+	METHOD <init> (Lep;Lpu;DDDF)V
+		ARG 1 world
+		ARG 2 exploder
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+		ARG 9 size
+	METHOD a doExplosionA ()V
+	METHOD a doExplosionB (Z)V
+		ARG 1 flamingFlag
+	FIELD a isFlaming Z
+	FIELD b explosionX D
+	FIELD c explosionY D
+	FIELD d explosionZ D
+	FIELD e exploder Lpu;
+	FIELD f explosionSize F
+	FIELD g destroyedBlockPositions Ljava/util/Set;
+	FIELD h ExplosionRNG Ljava/util/Random;
+	FIELD i worldObj Lep;

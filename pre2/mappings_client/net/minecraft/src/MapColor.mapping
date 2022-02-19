@@ -1,0 +1,21 @@
+CLASS so net/minecraft/src/MapColor
+	METHOD <init> (II)V
+		ARG 1 index
+		ARG 2 value
+	FIELD a mapColorArray [Lso;
+	FIELD b airColor Lso;
+	FIELD c grassColor Lso;
+	FIELD d sandColor Lso;
+	FIELD e clothColor Lso;
+	FIELD f tntColor Lso;
+	FIELD g iceColor Lso;
+	FIELD h ironColor Lso;
+	FIELD i foliageColor Lso;
+	FIELD j snowColor Lso;
+	FIELD k clayColor Lso;
+	FIELD l dirtColor Lso;
+	FIELD m stoneColor Lso;
+	FIELD n waterColor Lso;
+	FIELD o woodColor Lso;
+	FIELD p colorValue I
+	FIELD q colorIndex I

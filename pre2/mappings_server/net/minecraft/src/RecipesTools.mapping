@@ -1,0 +1,5 @@
+CLASS gf net/minecraft/src/RecipesTools
+	METHOD a addRecipes (Lgt;)V
+		ARG 1 craftingManager
+	FIELD a recipePatterns [[Ljava/lang/String;
+	FIELD b recipeItems [[Ljava/lang/Object;

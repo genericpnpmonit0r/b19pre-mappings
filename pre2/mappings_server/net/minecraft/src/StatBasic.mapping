@@ -1,0 +1,2 @@
+CLASS vi net/minecraft/src/StatBasic
+	METHOD d registerStat ()Lsu;

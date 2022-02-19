@@ -1,0 +1,5 @@
+CLASS ca net/minecraft/src/WorldGenLakes
+	METHOD <init> (I)V
+		ARG 1 index
+	METHOD a generate (Lti;Ljava/util/Random;III)Z
+	FIELD a blockIndex I

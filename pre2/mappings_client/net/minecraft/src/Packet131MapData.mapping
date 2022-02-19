@@ -1,0 +1,8 @@
+CLASS ac net/minecraft/src/Packet131MapData
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Llw;)V
+	FIELD a itemID S
+	FIELD b uniqueID S
+	FIELD c itemData [B

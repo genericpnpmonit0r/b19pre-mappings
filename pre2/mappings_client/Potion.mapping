@@ -1,0 +1,60 @@
+CLASS vt Potion
+	FIELD A potionUnused7 Lvt;
+	FIELD B potionUnused8 Lvt;
+	FIELD C potionUnused9 Lvt;
+	FIELD D potionUnused10 Lvt;
+	FIELD E potionUnused11 Lvt;
+	FIELD F potionUnused12 Lvt;
+	FIELD G potionUnused13 Lvt;
+	FIELD H potionId I
+	FIELD I name Ljava/lang/String;
+	FIELD J statusIconIndex I
+	FIELD K usable Z
+	FIELD a potionTypes [Lvt;
+	FIELD b potionUnused1 Lvt;
+	FIELD c moveSpeed Lvt;
+	FIELD d moveSlowdown Lvt;
+	FIELD e digSpeed Lvt;
+	FIELD f digSlowdown Lvt;
+	FIELD g damageBoost Lvt;
+	FIELD h heal Lvt;
+	FIELD i harm Lvt;
+	FIELD j jump Lvt;
+	FIELD k confusion Lvt;
+	FIELD l regeneration Lvt;
+	FIELD m resistance Lvt;
+	FIELD n fireResistance Lvt;
+	FIELD o waterBreathing Lvt;
+	FIELD p invisibility Lvt;
+	FIELD q blindness Lvt;
+	FIELD r nightVision Lvt;
+	FIELD s hunger Lvt;
+	FIELD t weakness Lvt;
+	FIELD u poison Lvt;
+	FIELD v potionUnused2 Lvt;
+	FIELD w potionUnused3 Lvt;
+	FIELD x potionUnused4 Lvt;
+	FIELD y potionUnused5 Lvt;
+	FIELD z potionUnused6 Lvt;
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getPotionId ()I
+	METHOD a setIconIndex (II)Lvt;
+		ARG 1 x
+		ARG 2 y
+	METHOD a getDurationString (Lafk;)Ljava/lang/String;
+		ARG 0 potionEffect
+	METHOD a setPotionName (Ljava/lang/String;)Lvt;
+		ARG 1 name
+	METHOD a performEffect (Lxx;I)V
+		ARG 1 living
+		ARG 2 amplifier
+	METHOD b isInstant ()Z
+	METHOD b isReady (II)Z
+		ARG 1 i
+		ARG 2 j
+	METHOD c getPotionName ()Ljava/lang/String;
+	METHOD d hasStatusIcon ()Z
+	METHOD e getStatusIconIndex ()I
+	METHOD f isUsable ()Z
+	METHOD g setUsable ()Lvt;

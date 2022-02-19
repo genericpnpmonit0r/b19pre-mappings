@@ -1,0 +1,9 @@
+CLASS yy EntityEnderPearl
+	METHOD a isInRangeToRenderDist (D)Z
+	METHOD a setVelocity (DDD)V
+	METHOD a readEntityFromNBT (Lza;)V
+	METHOD a_ onCollideWithPlayer (Luo;)V
+	METHOD b entityInit ()V
+	METHOD b writeEntityToNBT (Lza;)V
+	METHOD g_ getShadowSize ()F
+	METHOD x_ onUpdate ()V

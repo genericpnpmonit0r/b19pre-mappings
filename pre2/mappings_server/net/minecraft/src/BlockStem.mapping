@@ -1,0 +1,22 @@
+CLASS mg net/minecraft/src/BlockStem
+	METHOD <init> (ILro;)V
+		ARG 1 id
+		ARG 2 block
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a dropBlockAsItemWithChance (Lep;IIIIF)V
+	METHOD a updateTick (Lep;IIILjava/util/Random;)V
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a setBlockBoundsBasedOnState (Lut;III)V
+	METHOD c canThisPlantGrowOnThisBlockID (I)Z
+	METHOD g fertilize (Lep;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i getGrowthModifier (Lep;III)F
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	FIELD a stemBlockType Lro;

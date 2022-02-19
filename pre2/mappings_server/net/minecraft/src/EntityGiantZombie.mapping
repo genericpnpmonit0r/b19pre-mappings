@@ -1,0 +1,2 @@
+CLASS lw net/minecraft/src/EntityGiantZombie
+	METHOD a getBlockPathWeight (III)F

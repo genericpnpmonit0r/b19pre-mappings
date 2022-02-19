@@ -1,0 +1,9 @@
+CLASS se net/minecraft/src/ComponentNetherBridgeCorridor2
+	METHOD <init> (ILjava/util/Random;Lns;I)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 boundingBox
+		ARG 4 coordBaseMode
+	METHOD a buildComponent (Lfx;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lse;
+	METHOD a addComponentParts (Lti;Ljava/util/Random;Lns;)Z

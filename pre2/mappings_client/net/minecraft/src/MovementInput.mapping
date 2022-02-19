@@ -1,0 +1,8 @@
+CLASS mn net/minecraft/src/MovementInput
+	METHOD a updatePlayerMoveState (Luo;)V
+		ARG 1 player
+	FIELD a moveStrafe F
+	FIELD b moveForward F
+	FIELD c field_1177_c Z
+	FIELD d jump Z
+	FIELD e sneak Z

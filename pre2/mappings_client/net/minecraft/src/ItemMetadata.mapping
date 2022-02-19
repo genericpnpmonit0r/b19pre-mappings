@@ -1,0 +1,7 @@
+CLASS wn net/minecraft/src/ItemMetadata
+	METHOD <init> (ILmq;)V
+		ARG 1 id
+		ARG 2 block
+	METHOD b getIconFromDamage (I)I
+	METHOD c getPlacedBlockMetadata (I)I
+	FIELD a theBlock Lmq;

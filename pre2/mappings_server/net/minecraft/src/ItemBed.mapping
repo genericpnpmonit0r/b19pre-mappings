@@ -1,0 +1,2 @@
+CLASS ka net/minecraft/src/ItemBed
+	METHOD a onItemUse (Lia;Lgb;Lep;IIII)Z

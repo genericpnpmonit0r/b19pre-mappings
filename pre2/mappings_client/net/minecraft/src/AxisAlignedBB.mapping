@@ -1,0 +1,85 @@
+CLASS tb net/minecraft/src/AxisAlignedBB
+	METHOD <init> (DDDDDD)V
+		ARG 1 minX
+		ARG 3 minY
+		ARG 5 minZ
+		ARG 7 maxX
+		ARG 9 maxY
+		ARG 11 maxZ
+	METHOD a clearBoundingBoxes ()V
+	METHOD a addCoord (DDD)Ltb;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a getBoundingBox (DDDDDD)Ltb;
+		ARG 0 minX
+		ARG 2 minY
+		ARG 4 minZ
+		ARG 6 maxX
+		ARG 8 maxY
+		ARG 10 maxZ
+	METHOD a isVecInside (Lba;)Z
+		ARG 1 vector
+	METHOD a calculateIntercept (Lba;Lba;)Lmz;
+		ARG 1 vector1
+		ARG 2 vector2
+	METHOD a intersectsWith (Ltb;)Z
+		ARG 1 aabb
+	METHOD a calculateXOffset (Ltb;D)D
+		ARG 1 aabb
+		ARG 2 x
+	METHOD b clearBoundingBoxPool ()V
+	METHOD b expand (DDD)Ltb;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD b getBoundingBoxFromPool (DDDDDD)Ltb;
+		ARG 0 minX
+		ARG 2 minY
+		ARG 4 minZ
+		ARG 6 maxX
+		ARG 8 maxY
+		ARG 10 maxZ
+	METHOD b isVecInYZ (Lba;)Z
+		ARG 1 vector
+	METHOD b setBB (Ltb;)V
+		ARG 1 aabb
+	METHOD b calculateYOffset (Ltb;D)D
+		ARG 1 aabb
+		ARG 2 y
+	METHOD c getAverageEdgeLength ()D
+	METHOD c getOffsetBoundingBox (DDD)Ltb;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD c setBounds (DDDDDD)Ltb;
+		ARG 1 minX
+		ARG 3 minY
+		ARG 5 minZ
+		ARG 7 maxX
+		ARG 9 maxY
+		ARG 11 maxZ
+	METHOD c isVecInXZ (Lba;)Z
+		ARG 1 vector
+	METHOD c calculateZOffset (Ltb;D)D
+		ARG 1 aabb
+		ARG 2 z
+	METHOD d copy ()Ltb;
+	METHOD d offset (DDD)Ltb;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD d isVecInXY (Lba;)Z
+		ARG 1 vector
+	METHOD e contract (DDD)Ltb;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	FIELD a minX D
+	FIELD b minY D
+	FIELD c minZ D
+	FIELD d maxX D
+	FIELD e maxY D
+	FIELD f maxZ D
+	FIELD g boundingBoxes Ljava/util/List;
+	FIELD h numBoundingBoxesInUse I

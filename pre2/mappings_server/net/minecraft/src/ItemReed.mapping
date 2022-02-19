@@ -1,0 +1,6 @@
+CLASS kf net/minecraft/src/ItemReed
+	METHOD <init> (ILro;)V
+		ARG 1 id
+		ARG 2 block
+	METHOD a onItemUse (Lia;Lgb;Lep;IIII)Z
+	FIELD a spawnID I

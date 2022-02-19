@@ -1,0 +1,11 @@
+CLASS gt net/minecraft/src/CraftingManager
+	METHOD a getInstance ()Lgt;
+	METHOD a addRecipe (Lia;[Ljava/lang/Object;)V
+		ARG 1 output
+		ARG 2 patternAndIngredients
+	METHOD b getRecipeList ()Ljava/util/List;
+	METHOD b addShapelessRecipe (Lia;[Ljava/lang/Object;)V
+		ARG 1 output
+		ARG 2 patternAndIngredients
+	FIELD a instance Lgt;
+	FIELD b recipes Ljava/util/List;

@@ -1,0 +1,10 @@
+CLASS ri net/minecraft/src/EntityCow
+	METHOD a readEntityFromNBT (Lza;)V
+	METHOD a dropFewItems (Z)V
+	METHOD a_ getDropItemId ()I
+	METHOD b interact (Luo;)Z
+	METHOD b writeEntityToNBT (Lza;)V
+	METHOD e getLivingSound ()Ljava/lang/String;
+	METHOD f getHurtSound ()Ljava/lang/String;
+	METHOD g getDeathSound ()Ljava/lang/String;
+	METHOD r_ getSoundVolume ()F

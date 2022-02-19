@@ -1,0 +1,9 @@
+CLASS aeg net/minecraft/src/ComponentNetherBridgeCrossing
+	METHOD <init> (ILjava/util/Random;Lns;I)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 boundingBox
+		ARG 4 coordBaseMode
+	METHOD a buildComponent (Lfx;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Laeg;
+	METHOD a addComponentParts (Lti;Ljava/util/Random;Lns;)Z

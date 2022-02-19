@@ -1,0 +1,2 @@
+CLASS sd net/minecraft/src/ItemBoat
+	METHOD a onItemRightClick (Lia;Lep;Lgb;)Lia;

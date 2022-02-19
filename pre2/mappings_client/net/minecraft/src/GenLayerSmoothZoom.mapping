@@ -1,0 +1,9 @@
+CLASS gy net/minecraft/src/GenLayerSmoothZoom
+	METHOD <init> (JLsv;)V
+		ARG 1 seed
+		ARG 3 layer
+	METHOD a func_35500_a (IIII)[I
+	METHOD a smoothMagnify (JLsv;I)Lsv;
+		ARG 0 seedAdj
+		ARG 2 layer
+		ARG 3 timesToMagnify

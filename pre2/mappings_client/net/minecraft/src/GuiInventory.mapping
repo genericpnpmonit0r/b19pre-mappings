@@ -1,0 +1,11 @@
+CLASS adg net/minecraft/src/GuiInventory
+	METHOD <init> (Luo;)V
+		ARG 1 player
+	METHOD a initGui ()V
+	METHOD a drawGuiContainerBackgroundLayer (F)V
+	METHOD a drawScreen (IIF)V
+	METHOD a actionPerformed (Lxb;)V
+	METHOD c drawGuiContainerForegroundLayer ()V
+	METHOD q_ updateScreen ()V
+	FIELD h xSize_lo F
+	FIELD i ySize_lo F

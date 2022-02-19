@@ -1,0 +1,2 @@
+CLASS abi net/minecraft/src/BiomeGenForest
+	METHOD a getRandomWorldGenForTrees (Ljava/util/Random;)Ljm;

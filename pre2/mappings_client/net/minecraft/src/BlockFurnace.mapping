@@ -1,0 +1,27 @@
+CLASS acj net/minecraft/src/BlockFurnace
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 active
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a onBlockAdded (Lti;III)V
+	METHOD a onBlockPlacedBy (Lti;IIILxx;)V
+	METHOD a updateFurnaceBlockState (ZLti;III)V
+		ARG 0 activeFlag
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b randomDisplayTick (Lti;IIILjava/util/Random;)V
+	METHOD b blockActivated (Lti;IIILuo;)Z
+	METHOD b_ onBlockRemoval (Lti;III)V
+	METHOD d getBlockTexture (Lafm;IIII)I
+	METHOD h setDefaultDirection (Lti;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD o_ getBlockEntity ()Lje;
+	FIELD a furnaceRand Ljava/util/Random;
+	FIELD b isActive Z
+	FIELD c keepFurnaceInventory Z

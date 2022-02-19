@@ -1,0 +1,6 @@
+CLASS oj net/minecraft/src/ItemBow
+	METHOD a onItemRightClick (Lia;Lep;Lgb;)Lia;
+	METHOD a func_35408_a (Lia;Lep;Lgb;I)V
+	METHOD b func_35405_b (Lia;Lep;Lgb;)Lia;
+	METHOD c func_35404_c (Lia;)I
+	METHOD d func_35406_b (Lia;)Lid;

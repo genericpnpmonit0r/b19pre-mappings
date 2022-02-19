@@ -1,0 +1,2 @@
+CLASS uw net/minecraft/src/WorldGenFire
+	METHOD a generate (Lep;Ljava/util/Random;III)Z

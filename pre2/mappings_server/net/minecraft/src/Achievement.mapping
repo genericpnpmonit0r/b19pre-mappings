@@ -1,0 +1,33 @@
+CLASS ma net/minecraft/src/Achievement
+	METHOD <init> (ILjava/lang/String;IILfz;Lma;)V
+		ARG 1 id
+		ARG 2 name
+		ARG 3 col
+		ARG 4 row
+		ARG 5 item
+		ARG 6 achievement
+	METHOD <init> (ILjava/lang/String;IILia;Lma;)V
+		ARG 1 id
+		ARG 2 name
+		ARG 3 col
+		ARG 4 row
+		ARG 5 item
+		ARG 6 achievement
+	METHOD <init> (ILjava/lang/String;IILro;Lma;)V
+		ARG 1 id
+		ARG 2 name
+		ARG 3 col
+		ARG 4 row
+		ARG 5 block
+		ARG 6 achievement
+	METHOD a setIndependent ()Lma;
+	METHOD b setSpecial ()Lma;
+	METHOD c registerAchievement ()Lma;
+	METHOD d registerStat ()Lsu;
+	METHOD e initIndependentStat ()Lsu;
+	FIELD a displayColumn I
+	FIELD b displayRow I
+	FIELD c parentAchievement Lma;
+	FIELD d theItemStack Lia;
+	FIELD l achievementDescription Ljava/lang/String;
+	FIELD m isSpecial Z

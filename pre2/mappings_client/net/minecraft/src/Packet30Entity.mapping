@@ -1,0 +1,12 @@
+CLASS adh net/minecraft/src/Packet30Entity
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Llw;)V
+	FIELD a entityId I
+	FIELD b xPos B
+	FIELD c yPos B
+	FIELD d zPos B
+	FIELD e yaw B
+	FIELD f pitch B
+	FIELD g rotating Z

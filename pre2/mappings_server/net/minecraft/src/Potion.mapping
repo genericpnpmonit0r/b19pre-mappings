@@ -1,0 +1,37 @@
+CLASS hq net/minecraft/src/Potion
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a setPotionName (Ljava/lang/String;)Lhq;
+		ARG 1 name
+	METHOD a performEffect (Lkc;I)V
+		ARG 1 living
+		ARG 2 amplifier
+	METHOD b func_35437_a (II)Z
+		ARG 1 i
+		ARG 2 j
+	FIELD A potionUnused6 Lhq;
+	FIELD B potionUnused7 Lhq;
+	FIELD C potionUnused8 Lhq;
+	FIELD D potionUnused9 Lhq;
+	FIELD E potionUnused10 Lhq;
+	FIELD F potionUnused11 Lhq;
+	FIELD G potionUnused12 Lhq;
+	FIELD H id I
+	FIELD I name Ljava/lang/String;
+	FIELD a potionTypes [Lhq;
+	FIELD b potionUnused13 Lhq;
+	FIELD c moveSpeed Lhq;
+	FIELD d moveSlowdown Lhq;
+	FIELD e digSpeed Lhq;
+	FIELD f digSlowdown Lhq;
+	FIELD h heal Lhq;
+	FIELD i harm Lhq;
+	FIELD l regeneration Lhq;
+	FIELD o waterBreathing Lhq;
+	FIELD s hunger Lhq;
+	FIELD u poison Lhq;
+	FIELD v potionUnused1 Lhq;
+	FIELD w potionUnused2 Lhq;
+	FIELD x potionUnused3 Lhq;
+	FIELD y potionUnused4 Lhq;
+	FIELD z potionUnused5 Lhq;

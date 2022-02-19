@@ -1,0 +1,4 @@
+CLASS nf net/minecraft/src/GenLayerDownfall
+	METHOD <init> (Lsv;)V
+		ARG 1 parent
+	METHOD a func_35500_a (IIII)[I

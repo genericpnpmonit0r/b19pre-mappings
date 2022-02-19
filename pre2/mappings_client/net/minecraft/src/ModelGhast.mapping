@@ -1,0 +1,5 @@
+CLASS xt net/minecraft/src/ModelGhast
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Llh;FFFFFF)V
+	FIELD a body Lnz;
+	FIELD b tentacles [Lnz;

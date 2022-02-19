@@ -1,0 +1,2 @@
+CLASS jh net/minecraft/src/J_JsonObjectNodeList
+	FIELD a nodeBuilder Llp;

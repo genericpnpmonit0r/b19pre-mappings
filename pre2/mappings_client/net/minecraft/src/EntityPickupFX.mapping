@@ -1,0 +1,9 @@
+CLASS sz net/minecraft/src/EntityPickupFX
+	METHOD a renderParticle (Lzd;FFFFFF)V
+	METHOD l getFXLayer ()I
+	METHOD x_ onUpdate ()V
+	FIELD aA field_676_r F
+	FIELD a field_675_a Llh;
+	FIELD ax field_679_o Llh;
+	FIELD ay age I
+	FIELD az maxAge I

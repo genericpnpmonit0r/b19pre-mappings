@@ -1,0 +1,13 @@
+CLASS aew net/minecraft/src/ISaveHandler
+	METHOD a getChunkLoader (Laff;)Lqv;
+		ARG 1 provider
+	METHOD a getMapFile (Ljava/lang/String;)Ljava/io/File;
+		ARG 1 name
+	METHOD a saveWorldInfo (Lsx;)V
+		ARG 1 info
+	METHOD a saveWorldInfoAndPlayer (Lsx;Ljava/util/List;)V
+		ARG 1 info
+		ARG 2 playerdataList
+	METHOD b checkSessionLock ()V
+	METHOD c loadWorldInfo ()Lsx;
+	METHOD d getWorldDirectoryName ()Ljava/lang/String;

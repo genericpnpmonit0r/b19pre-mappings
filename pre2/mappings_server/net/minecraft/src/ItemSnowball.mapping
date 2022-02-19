@@ -1,0 +1,2 @@
+CLASS da net/minecraft/src/ItemSnowball
+	METHOD a onItemRightClick (Lia;Lep;Lgb;)Lia;

@@ -1,0 +1,10 @@
+CLASS qp net/minecraft/src/EnumJsonNodeType
+	COMMENT Types of <code>JsonNode</code>.
+	FIELD a OBJECT Lqp;
+	FIELD b ARRAY Lqp;
+	FIELD c STRING Lqp;
+	FIELD d NUMBER Lqp;
+	FIELD e TRUE Lqp;
+	FIELD f FALSE Lqp;
+	FIELD g NULL Lqp;
+	FIELD h allJsonNodeTypes [Lqp;

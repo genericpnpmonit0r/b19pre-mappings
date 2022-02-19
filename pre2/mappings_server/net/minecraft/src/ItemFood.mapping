@@ -1,0 +1,33 @@
+CLASS vw net/minecraft/src/ItemFood
+	METHOD <init> (IIFZ)V
+		ARG 1 id
+		ARG 2 healAmount
+		ARG 3 saturationModifier
+		ARG 4 isWolfsFavorite
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 healAmount
+		ARG 3 isWolfsFavorite
+	METHOD a setPotionEffect (IIIF)Lvw;
+		ARG 1 id
+		ARG 2 duration
+		ARG 3 amplifier
+		ARG 4 probability
+	METHOD a onItemRightClick (Lia;Lep;Lgb;)Lia;
+	METHOD a setItemName (Ljava/lang/String;)Lfz;
+	METHOD b func_35405_b (Lia;Lep;Lgb;)Lia;
+	METHOD c func_35404_c (Lia;)I
+	METHOD d func_35406_b (Lia;)Lid;
+	METHOD k getHealAmount ()I
+	METHOD l getSaturationModifier ()F
+	METHOD m getIsWolfsFavoriteMeat ()Z
+	METHOD n getIsEating ()Lvw;
+	FIELD a maxItemUseDuration I
+	FIELD bM healAmount I
+	FIELD bN saturationModifier F
+	FIELD bO isWolfsFavoriteMeat Z
+	FIELD bP isEating Z
+	FIELD bQ potionId I
+	FIELD bR potionDuration I
+	FIELD bS potionAmplifier I
+	FIELD bT potionEffectProbability F

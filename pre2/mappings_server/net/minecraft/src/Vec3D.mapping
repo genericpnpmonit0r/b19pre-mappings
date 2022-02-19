@@ -1,0 +1,52 @@
+CLASS bo net/minecraft/src/Vec3D
+	METHOD <init> (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a initialize ()V
+	METHOD a createVectorHelper (DDD)Lbo;
+		ARG 0 x
+		ARG 2 y
+		ARG 4 z
+	METHOD a rotateAroundX (F)V
+		ARG 1 x
+	METHOD a dotProduct (Lbo;)D
+		ARG 1 vector
+	METHOD a getIntermediateWithXValue (Lbo;D)Lbo;
+		ARG 1 vector
+		ARG 2 x
+	METHOD b normalize ()Lbo;
+	METHOD b createVector (DDD)Lbo;
+		ARG 0 x
+		ARG 2 y
+		ARG 4 z
+	METHOD b rotateAroundY (F)V
+		ARG 1 y
+	METHOD b distanceTo (Lbo;)D
+		ARG 1 vector
+	METHOD b getIntermediateWithYValue (Lbo;D)Lbo;
+		ARG 1 vector
+		ARG 2 y
+	METHOD c lengthVector ()D
+	METHOD c addVector (DDD)Lbo;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD c squareDistanceTo (Lbo;)D
+		ARG 1 vector
+	METHOD c getIntermediateWithZValue (Lbo;D)Lbo;
+		ARG 1 vector
+		ARG 2 z
+	METHOD d squareDistanceTo (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD e setComponents (DDD)Lbo;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	FIELD a xCoord D
+	FIELD b yCoord D
+	FIELD c zCoord D
+	FIELD d vectorList Ljava/util/List;
+	FIELD e nextVector I

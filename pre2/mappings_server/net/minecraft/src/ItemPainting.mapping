@@ -1,0 +1,2 @@
+CLASS vp net/minecraft/src/ItemPainting
+	METHOD a onItemUse (Lia;Lgb;Lep;IIII)Z

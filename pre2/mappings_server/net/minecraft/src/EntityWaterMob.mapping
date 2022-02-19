@@ -1,0 +1,8 @@
+CLASS an net/minecraft/src/EntityWaterMob
+	METHOD a getExperiencePoints (Lgb;)I
+	METHOD a readEntityFromNBT (Llx;)V
+	METHOD b writeEntityToNBT (Llx;)V
+	METHOD i canBreatheUnderwater ()Z
+	METHOD j getCanSpawnHere ()Z
+	METHOD k getTalkInterval ()I
+	METHOD l canDespawn ()Z

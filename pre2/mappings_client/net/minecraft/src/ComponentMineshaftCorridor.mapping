@@ -1,0 +1,19 @@
+CLASS ls net/minecraft/src/ComponentMineshaftCorridor
+	METHOD <init> (ILjava/util/Random;Lns;I)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 boundingBox
+		ARG 4 coordBaseMode
+	METHOD a buildComponent (Lfx;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIII)Lns;
+		ARG 0 components
+		ARG 1 rand
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 coordBaseMode
+	METHOD a addComponentParts (Lti;Ljava/util/Random;Lns;)Z
+	FIELD a hasRails Z
+	FIELD b hasSpiders Z
+	FIELD c spawnerPlaced Z
+	FIELD d sectionCount I

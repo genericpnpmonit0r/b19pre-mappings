@@ -1,0 +1,7 @@
+CLASS gl net/minecraft/src/EntityDamageSource
+	METHOD <init> (Ljava/lang/String;Lpu;)V
+		ARG 1 damageName
+		ARG 2 entity
+	METHOD a func_35080_a ()Lpu;
+	METHOD a func_35075_a (Lgb;)Ljava/lang/String;
+	FIELD n damageSourceEntity Lpu;

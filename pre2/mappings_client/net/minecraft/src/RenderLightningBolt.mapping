@@ -1,0 +1,3 @@
+CLASS aae net/minecraft/src/RenderLightningBolt
+	METHOD a doRenderLightningBolt (Lc;DDDFF)V
+	METHOD a doRender (Llh;DDDFF)V

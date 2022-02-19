@@ -1,0 +1,2 @@
+CLASS adw net/minecraft/src/ItemBoat
+	METHOD a onItemRightClick (Lwc;Lti;Luo;)Lwc;

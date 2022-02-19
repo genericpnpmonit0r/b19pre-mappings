@@ -1,0 +1,7 @@
+CLASS ut
+	METHOD a doRender (Llh;DDDFF)V
+	METHOD a doRenderLiving (Lxx;DDDFF)V
+	METHOD a preRenderCallback (Lxx;F)V
+	METHOD b passSpecialRender (Lxx;DDD)V
+	METHOD b renderEquippedItems (Lxx;F)V
+	METHOD b shouldRenderPass (Lxx;IF)Z

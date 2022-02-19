@@ -1,0 +1,19 @@
+CLASS qj net/minecraft/src/ConsoleCommandHandler
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 minecraftServer
+	METHOD a handleCommand (Lap;)V
+		ARG 1 serverCommand
+	METHOD a tryParse (Ljava/lang/String;I)I
+		ARG 1 stringToNum
+		ARG 2 num
+	METHOD a sendNoticeToOps (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 player
+		ARG 2 cmd
+	METHOD a handleWhitelist (Ljava/lang/String;Ljava/lang/String;Lqi;)V
+		ARG 1 toggle
+		ARG 2 name
+		ARG 3 commandListener
+	METHOD a printHelp (Lqi;)V
+		ARG 1 commandListener
+	FIELD a minecraftLogger Ljava/util/logging/Logger;
+	FIELD b minecraftServer Lnet/minecraft/server/MinecraftServer;

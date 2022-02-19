@@ -1,0 +1,2 @@
+CLASS yh net/minecraft/src/ItemEgg
+	METHOD a onItemRightClick (Lwc;Lti;Luo;)Lwc;

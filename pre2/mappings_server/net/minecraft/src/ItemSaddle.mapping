@@ -1,0 +1,3 @@
+CLASS pi net/minecraft/src/ItemSaddle
+	METHOD a saddleEntity (Lia;Lkc;)V
+	METHOD a hitEntity (Lia;Lkc;Lkc;)Z

@@ -1,0 +1,19 @@
+CLASS abp net/minecraft/src/MapGenStructure
+	METHOD a canSpawnStructureAtCoords (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD a hasStructureAt (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a generate (Lbh;Lti;II[B)V
+	METHOD a recursiveGenerate (Lti;IIII[B)V
+	METHOD a generateStructuresInChunk (Lti;Ljava/util/Random;II)Z
+		ARG 1 world
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 z
+	METHOD b getStructureStart (II)Lmu;
+		ARG 1 x
+		ARG 2 z
+	FIELD e coordMap Ljava/util/HashMap;

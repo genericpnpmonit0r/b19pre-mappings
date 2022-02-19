@@ -1,0 +1,12 @@
+CLASS ez
+	METHOD a initGui ()V
+	METHOD a keyTyped (CI)V
+	METHOD a drawGuiContainerBackgroundLayer (F)V
+	METHOD a drawScreen (IIF)V
+	METHOD a mouseClicked (III)V
+	METHOD a func_35309_a (Lum;IIZ)V
+	METHOD b mouseMovedOrUp (III)V
+	METHOD c drawGuiContainerForegroundLayer ()V
+	METHOD d onGuiClosed ()V
+	METHOD e doesGuiPauseGame ()Z
+	METHOD q_ updateScreen ()V

@@ -1,0 +1,2 @@
+CLASS if net/minecraft/src/MapGenWaterlily
+	METHOD a generate (Lti;Ljava/util/Random;III)Z

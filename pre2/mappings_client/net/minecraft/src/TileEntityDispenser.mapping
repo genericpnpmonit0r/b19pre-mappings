@@ -1,0 +1,15 @@
+CLASS aq net/minecraft/src/TileEntityDispenser
+	METHOD a getSizeInventory ()I
+	METHOD a decrStackSize (II)Lwc;
+	METHOD a setInventorySlotContents (ILwc;)V
+	METHOD a isUseableByPlayer (Luo;)Z
+	METHOD a readFromNBT (Lza;)V
+	METHOD b writeToNBT (Lza;)V
+	METHOD c getInvName ()Ljava/lang/String;
+	METHOD d getInventoryStackLimit ()I
+	METHOD e openChest ()V
+	METHOD e_ getStackInSlot (I)Lwc;
+	METHOD f closeChest ()V
+	METHOD j_ getRandomStackFromInventory ()Lwc;
+	FIELD a dispenserContents [Lwc;
+	FIELD b dispenserRandom Ljava/util/Random;

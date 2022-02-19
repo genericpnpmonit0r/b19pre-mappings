@@ -1,0 +1,5 @@
+CLASS ms ItemBucketMilk
+	METHOD a onItemRightClick (Lwc;Lti;Luo;)Lwc;
+	METHOD b getMaxItemUseDuration (Lwc;)I
+	METHOD b onFoodEaten (Lwc;Lti;Luo;)Lwc;
+	METHOD c getItemUseAction (Lwc;)Lwe;

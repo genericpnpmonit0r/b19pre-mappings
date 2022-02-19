@@ -1,0 +1,5 @@
+CLASS qd net/minecraft/src/RenderXPOrb
+	METHOD a func_35438_a (Lbi;DDDFF)V
+	METHOD a doRender (Llh;DDDFF)V
+	FIELD a xpBool Z
+	FIELD b blockRenderer Lrz;

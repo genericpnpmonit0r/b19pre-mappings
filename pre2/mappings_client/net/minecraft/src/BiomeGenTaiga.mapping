@@ -1,0 +1,2 @@
+CLASS pt net/minecraft/src/BiomeGenTaiga
+	METHOD a getRandomWorldGenForTrees (Ljava/util/Random;)Ljm;

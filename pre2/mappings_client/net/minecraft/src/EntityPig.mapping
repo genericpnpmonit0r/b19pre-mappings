@@ -1,0 +1,14 @@
+CLASS oa net/minecraft/src/EntityPig
+	METHOD a fall (F)V
+	METHOD a onStruckByLightning (Lc;)V
+	METHOD a readEntityFromNBT (Lza;)V
+	METHOD a_ getDropItemId ()I
+	METHOD b entityInit ()V
+	METHOD b interact (Luo;)Z
+	METHOD b writeEntityToNBT (Lza;)V
+	METHOD b setSaddled (Z)V
+		ARG 1 saddled
+	METHOD e getLivingSound ()Ljava/lang/String;
+	METHOD f getHurtSound ()Ljava/lang/String;
+	METHOD g getDeathSound ()Ljava/lang/String;
+	METHOD q getSaddled ()Z

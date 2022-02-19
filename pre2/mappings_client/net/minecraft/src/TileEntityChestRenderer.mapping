@@ -1,0 +1,5 @@
+CLASS aeb net/minecraft/src/TileEntityChestRenderer
+	METHOD a func_35376_a (Lfv;DDDF)V
+	METHOD a renderTileEntityAt (Lje;DDDF)V
+	FIELD b chestModel Labx;
+	FIELD c largeChestModel Labx;

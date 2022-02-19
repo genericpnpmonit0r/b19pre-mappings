@@ -1,0 +1,2 @@
+CLASS kv net/minecraft/src/ItemSapling
+	METHOD a getMetadata (I)I

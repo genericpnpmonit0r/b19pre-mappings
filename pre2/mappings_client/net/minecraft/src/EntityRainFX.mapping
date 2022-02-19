@@ -1,0 +1,3 @@
+CLASS op net/minecraft/src/EntityRainFX
+	METHOD a renderParticle (Lzd;FFFFFF)V
+	METHOD x_ onUpdate ()V

@@ -1,0 +1,2 @@
+CLASS adr net/minecraft/src/PotionHealth
+	METHOD b isReady (II)Z

@@ -1,0 +1,6 @@
+CLASS id net/minecraft/src/EnumAction
+	FIELD a none Lid;
+	FIELD b eat Lid;
+	FIELD d block Lid;
+	FIELD e bow Lid;
+	FIELD f field_35603_e [Lid;

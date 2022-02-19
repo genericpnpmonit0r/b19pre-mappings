@@ -1,0 +1,25 @@
+CLASS uu net/minecraft/src/BlockDispenser
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a onBlockAdded (Lep;III)V
+	METHOD a onNeighborBlockChange (Lep;IIII)V
+	METHOD a blockActivated (Lep;IIILgb;)Z
+	METHOD a updateTick (Lep;IIILjava/util/Random;)V
+	METHOD a onBlockPlacedBy (Lep;IIILkc;)V
+	METHOD a_ getBlockEntity ()Lmx;
+	METHOD b dispenseItem (Lep;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 rand
+	METHOD c tickRate ()I
+	METHOD d onBlockRemoval (Lep;III)V
+	METHOD g setDispenserDefaultDirection (Lep;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	FIELD a random Ljava/util/Random;

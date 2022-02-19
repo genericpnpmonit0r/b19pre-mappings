@@ -1,0 +1,6 @@
+CLASS fi net/minecraft/src/RenderChicken
+	METHOD a doRender (Llh;DDDFF)V
+	METHOD a renderChicken (Lom;DDDFF)V
+	METHOD a getWingRotation (Lom;F)F
+	METHOD a doRenderLiving (Lxx;DDDFF)V
+	METHOD d handleRotationFloat (Lxx;F)F

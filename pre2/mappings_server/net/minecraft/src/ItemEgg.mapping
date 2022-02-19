@@ -1,0 +1,2 @@
+CLASS kr net/minecraft/src/ItemEgg
+	METHOD a onItemRightClick (Lia;Lep;Lgb;)Lia;

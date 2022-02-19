@@ -1,0 +1,2 @@
+CLASS sg net/minecraft/src/StructureStrongholdStones
+	METHOD a func_35565_a (Ljava/util/Random;IIIZ)V

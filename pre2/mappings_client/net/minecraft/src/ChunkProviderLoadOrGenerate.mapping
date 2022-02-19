@@ -1,0 +1,33 @@
+CLASS gm net/minecraft/src/ChunkProviderLoadOrGenerate
+	METHOD a unload100OldestChunks ()Z
+	METHOD a chunkExists (II)Z
+	METHOD a populate (Lbh;II)V
+	METHOD a getPossibleCreatures (Lxq;III)Ljava/util/List;
+	METHOD a saveExtraChunkData (Lxs;)V
+		ARG 1 chunk
+	METHOD a saveChunks (ZLpd;)Z
+	METHOD b canSave ()Z
+	METHOD b provideChunk (II)Lxs;
+	METHOD b saveChunk (Lxs;)V
+		ARG 1 chunk
+	METHOD c makeString ()Ljava/lang/String;
+	METHOD c loadChunk (II)Lxs;
+	METHOD d setCurrentChunkOver (II)V
+		ARG 1 x
+		ARG 2 z
+	METHOD e canChunkExist (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD f getBlankChunk (II)Lxs;
+		ARG 1 x
+		ARG 2 z
+	FIELD a lastQueriedChunkXPos I
+	FIELD b lastQueriedChunkZPos I
+	FIELD c blankChunk Lxs;
+	FIELD d chunkProvider Lbh;
+	FIELD e chunkLoader Lqv;
+	FIELD f chunks [Lxs;
+	FIELD g worldObj Lti;
+	FIELD h lastQueriedChunk Lxs;
+	FIELD i curChunkX I
+	FIELD j curChunkY I

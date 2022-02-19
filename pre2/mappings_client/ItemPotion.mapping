@@ -1,0 +1,10 @@
+CLASS dn ItemPotion
+	FIELD a effectCache Ljava/util/HashMap;
+	METHOD a getColorFromDamage (I)I
+	METHOD a onItemRightClick (Lwc;Lti;Luo;)Lwc;
+	METHOD a onItemUse (Lwc;Luo;Lti;IIII)Z
+	METHOD a_ getEffects (Lwc;)Ljava/util/List;
+		ARG 1 itemStack
+	METHOD b getMaxItemUseDuration (Lwc;)I
+	METHOD b onFoodEaten (Lwc;Lti;Luo;)Lwc;
+	METHOD c getItemUseAction (Lwc;)Lwe;

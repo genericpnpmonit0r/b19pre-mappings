@@ -1,0 +1,6 @@
+CLASS ke net/minecraft/src/EnumDoor
+	FIELD a OPENING Lke;
+	FIELD b WOOD_DOOR Lke;
+	FIELD c GRATES Lke;
+	FIELD d IRON_DOOR Lke;
+	FIELD e allDoors [Lke;

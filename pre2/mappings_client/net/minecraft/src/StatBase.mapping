@@ -1,0 +1,25 @@
+CLASS aef net/minecraft/src/StatBase
+	METHOD <init> (ILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 name
+	METHOD <init> (ILjava/lang/String;Lod;)V
+		ARG 1 id
+		ARG 2 name
+		ARG 3 type
+	METHOD a registerStat ()Laef;
+	METHOD a formatStat (I)Ljava/lang/String;
+		ARG 1 formatStr
+	METHOD e isAchievement ()Z
+	METHOD h initIndependentStat ()Laef;
+	METHOD i getNumberFormat ()Ljava/text/NumberFormat;
+	METHOD j getDecimalFormat ()Ljava/text/DecimalFormat;
+	FIELD a type Lod;
+	FIELD b numberFormat Ljava/text/NumberFormat;
+	FIELD c decimalFormat Ljava/text/DecimalFormat;
+	FIELD e statId I
+	FIELD f statName Ljava/lang/String;
+	FIELD g isIndependent Z
+	FIELD h statGuid Ljava/lang/String;
+	FIELD i simpleStatType Lod;
+	FIELD j timeStatType Lod;
+	FIELD k distanceStatType Lod;

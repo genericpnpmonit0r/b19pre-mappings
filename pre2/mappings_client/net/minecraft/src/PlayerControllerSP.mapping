@@ -1,0 +1,21 @@
+CLASS zt net/minecraft/src/PlayerControllerSP
+	METHOD a resetBlockRemoving ()V
+	METHOD a setPartialTime (F)V
+	METHOD a clickBlock (IIII)V
+	METHOD a onWorldChange (Lti;)V
+	METHOD a flipPlayer (Luo;)V
+	METHOD a sendPlaceBlock (Luo;Lti;Lwc;IIII)Z
+	METHOD b getBlockReachDistance ()F
+	METHOD b sendBlockRemoved (IIII)Z
+	METHOD b createPlayer (Lti;)Luo;
+	METHOD c updateController ()V
+	METHOD c sendBlockRemoving (IIII)V
+	METHOD d shouldDrawHUD ()Z
+	METHOD f func_35642_f ()Z
+	FIELD c curBlockX I
+	FIELD d curBlockY I
+	FIELD e curBlockZ I
+	FIELD f curBlockDamage F
+	FIELD g prevBlockDamage F
+	FIELD h field_1069_h F
+	FIELD i blockHitWait I

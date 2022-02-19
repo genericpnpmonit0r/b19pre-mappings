@@ -1,0 +1,5 @@
+CLASS yq net/minecraft/src/J_FieldNodeContainer
+	METHOD a func_27289_a (Laak;)V
+	METHOD a func_27290_a (Lxl;)V
+	FIELD a fieldBuilder Laak;
+	FIELD b field_27291_b Lxy;

@@ -1,0 +1,2 @@
+CLASS na net/minecraft/src/LayerIsland
+	METHOD a func_35018_a (IIII)[I

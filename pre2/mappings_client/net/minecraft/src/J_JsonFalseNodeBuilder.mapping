@@ -1,0 +1,2 @@
+CLASS adc net/minecraft/src/J_JsonFalseNodeBuilder
+	METHOD b buildNode ()Lee;

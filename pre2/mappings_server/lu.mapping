@@ -1,0 +1,6 @@
+CLASS lu
+	METHOD a readEntityFromNBT (Llx;)V
+	METHOD a_ onCollideWithPlayer (Lgb;)V
+	METHOD b entityInit ()V
+	METHOD b writeEntityToNBT (Llx;)V
+	METHOD s_ onUpdate ()V

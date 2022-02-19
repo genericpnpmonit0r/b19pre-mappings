@@ -1,0 +1,4 @@
+CLASS zo net/minecraft/src/RenderTNTPrimed
+	METHOD a func_153_a (Labg;DDDFF)V
+	METHOD a doRender (Llh;DDDFF)V
+	FIELD a blockRenderer Lrz;

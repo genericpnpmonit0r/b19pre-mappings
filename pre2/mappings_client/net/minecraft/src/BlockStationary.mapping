@@ -1,0 +1,13 @@
+CLASS zc net/minecraft/src/BlockStationary
+	METHOD a onNeighborBlockChange (Lti;IIII)V
+	METHOD a updateTick (Lti;IIILjava/util/Random;)V
+	METHOD j updateBlockMeta (Lti;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD k getMaterialFlammable (Lti;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

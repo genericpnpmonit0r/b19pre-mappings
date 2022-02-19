@@ -1,0 +1,4 @@
+CLASS xf net/minecraft/src/RenderFireball
+	METHOD a doRenderFireball (Lbd;DDDFF)V
+	METHOD a doRender (Llh;DDDFF)V
+	FIELD a field_40269_a F

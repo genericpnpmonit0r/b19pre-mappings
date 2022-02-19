@@ -1,0 +1,11 @@
+CLASS bm net/minecraft/src/GuiOptions
+	METHOD <init> (Lsc;Lgk;)V
+		ARG 1 guiScreen
+		ARG 2 gameSettings
+	METHOD a initGui ()V
+	METHOD a drawScreen (IIF)V
+	METHOD a actionPerformed (Lxb;)V
+	FIELD a screenTitle Ljava/lang/String;
+	FIELD b parentScreen Lsc;
+	FIELD c options Lgk;
+	FIELD d relevantOptions [Lvg;

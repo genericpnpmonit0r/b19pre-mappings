@@ -1,0 +1,6 @@
+CLASS bu net/minecraft/src/RenderMooshroom
+	METHOD a doRender (Llh;DDDFF)V
+	METHOD a func_40273_a (Llv;DDDFF)V
+	METHOD a func_40272_a (Llv;F)V
+	METHOD a doRenderLiving (Lxx;DDDFF)V
+	METHOD b renderEquippedItems (Lxx;F)V

@@ -1,0 +1,31 @@
+CLASS mm net/minecraft/src/ChunkProvider
+	METHOD <init> (Lep;Laz;Lcc;)V
+		ARG 1 world
+		ARG 2 chunkLoader
+		ARG 3 chunkProvider
+	METHOD a unload100OldestChunks ()Z
+	METHOD a chunkExists (II)Z
+	METHOD a populate (Lcc;II)V
+	METHOD a getPossibleCreatures (Ljx;III)Ljava/util/List;
+	METHOD a unloadAndSaveChunkData (Ljy;)V
+		ARG 1 chunk
+	METHOD a saveChunks (ZLve;)Z
+	METHOD b canSave ()Z
+	METHOD b provideChunk (II)Ljy;
+	METHOD b unloadAndSaveChunk (Ljy;)V
+		ARG 1 chunk
+	METHOD c loadChunk (II)Ljy;
+	METHOD d dropChunk (II)V
+		ARG 1 x
+		ARG 2 z
+	METHOD e loadChunkFromFile (II)Ljy;
+		ARG 1 x
+		ARG 2 z
+	FIELD a droppedChunksSet Ljava/util/Set;
+	FIELD b emptyChunk Ljy;
+	FIELD c chunkProvider Lcc;
+	FIELD d chunkLoader Laz;
+	FIELD e chunkMap Lfg;
+	FIELD f chunkList Ljava/util/List;
+	FIELD g worldObj Lep;
+	FIELD h chunkCounter I

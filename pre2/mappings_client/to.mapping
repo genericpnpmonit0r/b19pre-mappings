@@ -1,0 +1,7 @@
+CLASS to
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD b renderAsNormalBlock ()Z
+	METHOD b blockActivated (Lti;IIILuo;)Z
+	METHOD d getRenderType ()I
+	METHOD o_ getBlockEntity ()Lje;

@@ -1,0 +1,17 @@
+CLASS gm net/minecraft/src/WorldChunkManagerHell
+	METHOD <init> (Lja;FF)V
+		ARG 1 base
+		ARG 2 temp
+		ARG 3 humidity
+	METHOD a getBiomeGenAt (II)Lja;
+	METHOD a getTemperaturesFrom (IIII)[F
+	METHOD a func_35141_a (IIILjava/util/List;)Z
+	METHOD a func_35139_a (IIILjava/util/List;Ljava/util/Random;)Ltl;
+	METHOD a getBiomeGenAtChunkCoord (Lvz;)Lja;
+	METHOD a getTemperatures ([FIIII)[F
+	METHOD a loadBlockGeneratorData ([Lja;IIII)[Lja;
+	METHOD a func_35140_a ([Lja;IIIIZ)[Lja;
+	METHOD b func_4065_a ([FIIII)[F
+	FIELD b biomeBase Lja;
+	FIELD c hellTemperature F
+	FIELD d hellHumidity F

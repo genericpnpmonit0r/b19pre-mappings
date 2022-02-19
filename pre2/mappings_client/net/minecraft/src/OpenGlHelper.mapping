@@ -1,0 +1,12 @@
+CLASS du net/minecraft/src/OpenGlHelper
+	METHOD a setActiveTexture (I)V
+		ARG 0 texture
+	METHOD a setLightmapTextureCoords (IFF)V
+		ARG 0 tex
+		ARG 1 x
+		ARG 2 y
+	METHOD b setClientActiveTexture (I)V
+		ARG 0 texture
+	FIELD a lightmapDisabled I
+	FIELD b lightmapEnabled I
+	FIELD c useMultitextureARB Z

@@ -1,0 +1,8 @@
+CLASS gn net/minecraft/src/RecipeSorter
+	METHOD <init> (Ler;)V
+		ARG 1 craftingManager
+	METHOD a compareRecipes (Lsm;Lsm;)I
+	METHOD compare (Ljava/lang/Object;Ljava/lang/Object;)I
+		ARG 1 recipe1
+		ARG 2 recipe2
+	FIELD a craftingManager Ler;

@@ -1,0 +1,21 @@
+CLASS fl net/minecraft/src/GuiSlotStats
+	METHOD <init> (Lcl;)V
+		ARG 1 guiStats
+	METHOD a getSize ()I
+	METHOD a func_27263_a (I)Ljava/lang/String;
+	METHOD a func_27255_a (II)V
+	METHOD a func_27260_a (IILzd;)V
+	METHOD a elementClicked (IZ)V
+	METHOD a func_27267_a (Ladb;II)V
+	METHOD a func_27265_a (Ladb;IIZ)V
+	METHOD a_ isSelected (I)Z
+	METHOD b func_27264_b (I)Ladb;
+	METHOD b func_27257_b (II)V
+	METHOD c drawBackground ()V
+	METHOD c func_27266_c (I)V
+	FIELD b field_27268_b I
+	FIELD c list Ljava/util/List;
+	FIELD d comparator Ljava/util/Comparator;
+	FIELD e field_27271_e I
+	FIELD f field_27270_f I
+	FIELD g statsGui Lcl;

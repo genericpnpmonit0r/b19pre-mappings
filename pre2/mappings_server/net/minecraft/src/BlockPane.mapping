@@ -1,0 +1,14 @@
+CLASS uc net/minecraft/src/BlockPane
+	METHOD <init> (IIILjz;Z)V
+		ARG 1 id
+		ARG 2 texIndex
+		ARG 3 type
+		ARG 4 material
+	METHOD a isOpaqueCube ()Z
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a getCollidingBoundingBoxes (Lep;IIILed;Ljava/util/ArrayList;)V
+	METHOD a setBlockBoundsBasedOnState (Lut;III)V
+	METHOD b isACube ()Z
+	METHOD c canThisPaneConnectToThisBlockID (I)Z
+		ARG 1 id
+	FIELD a paneType I

@@ -1,0 +1,4 @@
+CLASS aal net/minecraft/src/RenderSnowMan
+	METHOD a func_40288_a (Lo;F)V
+	METHOD b renderEquippedItems (Lxx;F)V
+	FIELD c snowManModel Ldf;

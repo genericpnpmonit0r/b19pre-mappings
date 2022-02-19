@@ -1,0 +1,14 @@
+CLASS hy net/minecraft/src/Packet100OpenWindow
+	METHOD <init> (IILjava/lang/String;I)V
+		ARG 1 wid
+		ARG 2 type
+		ARG 3 title
+		ARG 4 slotsCount
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lqk;)V
+	FIELD a windowId I
+	FIELD b inventoryType I
+	FIELD c windowTitle Ljava/lang/String;
+	FIELD d slotsCount I

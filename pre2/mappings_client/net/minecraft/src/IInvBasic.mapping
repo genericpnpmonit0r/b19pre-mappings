@@ -1,0 +1,3 @@
+CLASS vh net/minecraft/src/IInvBasic
+	METHOD a onInventoryChanged (Lkd;)V
+		ARG 1 inventoryBasic

@@ -1,0 +1,6 @@
+CLASS jf net/minecraft/src/ItemDye
+	METHOD a func_35407_a (Lia;)Ljava/lang/String;
+	METHOD a onItemUse (Lia;Lgb;Lep;IIII)Z
+	METHOD a saddleEntity (Lia;Lkc;)V
+	FIELD a dyeColorNames [Ljava/lang/String;
+	FIELD bM dyeColors [I

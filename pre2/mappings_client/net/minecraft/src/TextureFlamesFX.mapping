@@ -1,0 +1,4 @@
+CLASS lc net/minecraft/src/TextureFlamesFX
+	METHOD a onTick ()V
+	FIELD a currentFireFrame [F
+	FIELD b lastFireFrame [F

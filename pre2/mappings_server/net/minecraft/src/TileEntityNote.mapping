@@ -1,0 +1,11 @@
+CLASS qp net/minecraft/src/TileEntityNote
+	METHOD a changePitch ()V
+	METHOD a triggerNote (Lep;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a readFromNBT (Llx;)V
+	METHOD b writeToNBT (Llx;)V
+	FIELD a note B
+	FIELD b previousRedstoneState Z

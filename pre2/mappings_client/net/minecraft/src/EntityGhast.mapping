@@ -1,0 +1,21 @@
+CLASS rd net/minecraft/src/EntityGhast
+	METHOD T getMaxSpawnedInChunk ()I
+	METHOD a isCourseTraversable (DDDD)Z
+	METHOD a dropFewItems (Z)V
+	METHOD a_ getDropItemId ()I
+	METHOD b entityInit ()V
+	METHOD b_ getCanSpawnHere ()Z
+	METHOD e getLivingSound ()Ljava/lang/String;
+	METHOD f getHurtSound ()Ljava/lang/String;
+	METHOD g getDeathSound ()Ljava/lang/String;
+	METHOD m_ updateEntityActionState ()V
+	METHOD r_ getSoundVolume ()F
+	METHOD x_ onUpdate ()V
+	FIELD a courseChangeCooldown I
+	FIELD ao attackCounter I
+	FIELD ap targetedEntity Llh;
+	FIELD aq aggroCooldown I
+	FIELD b waypointX D
+	FIELD c waypointY D
+	FIELD d waypointZ D
+	FIELD e prevAttackCounter I

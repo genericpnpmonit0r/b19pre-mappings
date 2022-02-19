@@ -1,0 +1,16 @@
+CLASS vx net/minecraft/src/ShapedRecipes
+	METHOD <init> (II[Lwc;Lwc;)V
+		ARG 1 width
+		ARG 2 height
+		ARG 3 items
+		ARG 4 output
+	METHOD a getRecipeSize ()I
+	METHOD a matches (Lyi;)Z
+	METHOD a checkItemDamaged (Lyi;IIZ)Z
+	METHOD b getRecipeOutput ()Lwc;
+	METHOD b getCraftingResult (Lyi;)Lwc;
+	FIELD a recipeOutputItemID I
+	FIELD b recipeWidth I
+	FIELD c recipeHeight I
+	FIELD d recipeItems [Lwc;
+	FIELD e recipeOutput Lwc;

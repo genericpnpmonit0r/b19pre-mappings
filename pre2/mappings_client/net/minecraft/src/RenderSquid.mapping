@@ -1,0 +1,10 @@
+CLASS tc net/minecraft/src/RenderSquid
+	METHOD a func_21008_a (Lafp;DDDFF)V
+	METHOD a func_21005_a (Lafp;F)V
+	METHOD a func_21007_a (Lafp;FFF)V
+	METHOD a doRender (Llh;DDDFF)V
+	METHOD a doRenderLiving (Lxx;DDDFF)V
+	METHOD a preRenderCallback (Lxx;F)V
+	METHOD a rotateCorpse (Lxx;FFF)V
+	METHOD b func_21006_b (Lafp;F)F
+	METHOD d handleRotationFloat (Lxx;F)F

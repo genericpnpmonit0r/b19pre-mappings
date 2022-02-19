@@ -1,0 +1,5 @@
+CLASS yo net/minecraft/src/J_ArrayNodeContainer
+	METHOD a func_27289_a (Laak;)V
+	METHOD a func_27290_a (Lxl;)V
+	FIELD a nodeBuilder Lst;
+	FIELD b field_27293_b Lxy;

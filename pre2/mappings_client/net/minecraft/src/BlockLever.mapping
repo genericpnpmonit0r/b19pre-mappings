@@ -1,0 +1,24 @@
+CLASS afo net/minecraft/src/BlockLever
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
+	METHOD a isOpaqueCube ()Z
+	METHOD a setBlockBoundsBasedOnState (Lafm;III)V
+	METHOD a onNeighborBlockChange (Lti;IIII)V
+	METHOD a onBlockClicked (Lti;IIILuo;)V
+	METHOD b renderAsNormalBlock ()Z
+	METHOD b isPoweringTo (Lafm;IIII)Z
+	METHOD b blockActivated (Lti;IIILuo;)Z
+	METHOD b_ onBlockRemoval (Lti;III)V
+	METHOD c getCollisionBoundingBoxFromPool (Lti;III)Ltb;
+	METHOD c onBlockPlaced (Lti;IIII)V
+	METHOD d getRenderType ()I
+	METHOD d canPlaceBlockOnSide (Lti;IIII)Z
+	METHOD e canPlaceBlockAt (Lti;III)Z
+	METHOD e isIndirectlyPoweringTo (Lti;IIII)Z
+	METHOD g canProvidePower ()Z
+	METHOD h checkIfAttachedToBlock (Lti;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

@@ -1,0 +1,14 @@
+CLASS wk net/minecraft/src/GuiRenameWorld
+	METHOD <init> (Lsc;Ljava/lang/String;)V
+		ARG 1 screen
+		ARG 2 worldName
+	METHOD a initGui ()V
+	METHOD a keyTyped (CI)V
+	METHOD a drawScreen (IIF)V
+	METHOD a mouseClicked (III)V
+	METHOD a actionPerformed (Lxb;)V
+	METHOD d onGuiClosed ()V
+	METHOD q_ updateScreen ()V
+	FIELD a parentGuiScreen Lsc;
+	FIELD b theGuiTextField Labq;
+	FIELD c worldName Ljava/lang/String;

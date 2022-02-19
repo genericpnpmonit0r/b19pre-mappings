@@ -1,0 +1,10 @@
+CLASS nq net/minecraft/src/GuiSlotServer
+	METHOD <init> (Lxv;)V
+		ARG 1 guiMP
+	METHOD a getSize ()I
+	METHOD a drawSlot (IIIILzd;)V
+	METHOD a elementClicked (IZ)V
+	METHOD a_ isSelected (I)Z
+	METHOD b getContentHeight ()I
+	METHOD c drawBackground ()V
+	FIELD a multiplayerGui Lxv;

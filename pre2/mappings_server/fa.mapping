@@ -1,0 +1,6 @@
+CLASS fa
+	METHOD a onItemRightClick (Lia;Lep;Lgb;)Lia;
+	METHOD a onItemUse (Lia;Lgb;Lep;IIII)Z
+	METHOD b func_35405_b (Lia;Lep;Lgb;)Lia;
+	METHOD c func_35404_c (Lia;)I
+	METHOD d func_35406_b (Lia;)Lid;

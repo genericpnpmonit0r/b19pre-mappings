@@ -1,0 +1,21 @@
+CLASS dv net/minecraft/src/Packet51MapChunk
+	METHOD <init> (IIIIIILep;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 xSize
+		ARG 5 ySize
+		ARG 6 zSize
+		ARG 7 world
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lqk;)V
+	FIELD a xPosition I
+	FIELD b yPosition I
+	FIELD c zPosition I
+	FIELD d xSize I
+	FIELD e ySize I
+	FIELD f zSize I
+	FIELD g chunk [B
+	FIELD h chunkSize I

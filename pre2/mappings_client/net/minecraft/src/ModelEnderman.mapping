@@ -1,0 +1,4 @@
+CLASS qz net/minecraft/src/ModelEnderman
+	METHOD a setRotationAngles (FFFFFF)V
+	FIELD a isCarrying Z
+	FIELD b isAttacking Z

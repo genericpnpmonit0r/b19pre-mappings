@@ -1,0 +1,65 @@
+CLASS dx net/minecraft/src/WorldInfo
+	METHOD <init> (Ldx;)V
+		ARG 1 worldInfo
+	METHOD <init> (Lgh;Ljava/lang/String;)V
+		ARG 2 levelName
+	METHOD <init> (Llx;)V
+		ARG 1 compoundTag
+	METHOD a getNBTTagCompound ()Llx;
+	METHOD a setSaveVersion (I)V
+		ARG 1 ver
+	METHOD a setSpawnPosition (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a setWorldTime (J)V
+		ARG 1 time
+	METHOD a setWorldName (Ljava/lang/String;)V
+		ARG 1 name
+	METHOD a storeLevelDataToNBT (Ljava/util/List;)Llx;
+		ARG 1 list
+	METHOD a saveNBTTag (Llx;Llx;)V
+		ARG 1 compoundTag1
+	METHOD a setIsThundering (Z)V
+		ARG 1 thunderingFlag
+	METHOD b getRandomSeed ()J
+	METHOD b setThunderTime (I)V
+		ARG 1 time
+	METHOD b setSizeOnDisk (J)V
+		ARG 1 size
+	METHOD b setIsRaining (Z)V
+		ARG 1 rainingFlag
+	METHOD c getSpawnX ()I
+	METHOD c setRainTime (I)V
+		ARG 1 time
+	METHOD d getSpawnY ()I
+	METHOD d setGameType (I)V
+		ARG 1 gametype
+	METHOD e getSpawnZ ()I
+	METHOD f getWorldTime ()J
+	METHOD g getSizeOnDisk ()J
+	METHOD h getDimension ()I
+	METHOD i getSaveVersion ()I
+	METHOD j getIsThundering ()Z
+	METHOD k getThunderTime ()I
+	METHOD l getIsRaining ()Z
+	METHOD m getRainTime ()I
+	METHOD n getGameType ()I
+	METHOD o isMapFeaturesEnabled ()Z
+	FIELD a randomSeed J
+	FIELD b spawnX I
+	FIELD c spawnY I
+	FIELD d spawnZ I
+	FIELD e worldTime J
+	FIELD f lastTimePlayed J
+	FIELD g sizeOnDisk J
+	FIELD h playerTag Llx;
+	FIELD i dimension I
+	FIELD j levelName Ljava/lang/String;
+	FIELD k saveVersion I
+	FIELD l raining Z
+	FIELD m rainTime I
+	FIELD n thundering Z
+	FIELD o thunderTime I
+	FIELD p gameType I
+	FIELD q mapFeaturesEnabled Z

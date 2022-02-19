@@ -1,0 +1,7 @@
+CLASS jd net/minecraft/src/GuiFurnace
+	METHOD <init> (Lvz;Lacb;)V
+		ARG 1 inventoryPlayer
+		ARG 2 tileEntityFurnace
+	METHOD a drawGuiContainerBackgroundLayer (F)V
+	METHOD c drawGuiContainerForegroundLayer ()V
+	FIELD h furnaceInventory Lacb;

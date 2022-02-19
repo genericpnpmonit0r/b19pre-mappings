@@ -1,0 +1,2 @@
+CLASS xd ItemEnderPearl
+	METHOD a onItemRightClick (Lwc;Lti;Luo;)Lwc;

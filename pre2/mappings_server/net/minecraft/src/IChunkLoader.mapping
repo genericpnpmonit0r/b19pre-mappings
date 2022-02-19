@@ -1,0 +1,13 @@
+CLASS az net/minecraft/src/IChunkLoader
+	METHOD a func_661_a ()V
+	METHOD a loadChunk (Lep;II)Ljy;
+		ARG 1 world
+		ARG 2 x
+		ARG 3 z
+	METHOD a saveChunk (Lep;Ljy;)V
+		ARG 1 world
+		ARG 2 chunk
+	METHOD b saveExtraData ()V
+	METHOD b saveExtraChunkData (Lep;Ljy;)V
+		ARG 1 world
+		ARG 2 chunk

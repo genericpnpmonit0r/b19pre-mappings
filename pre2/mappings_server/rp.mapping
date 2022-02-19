@@ -1,0 +1,5 @@
+CLASS rp
+	METHOD a onItemRightClick (Lia;Lep;Lgb;)Lia;
+	METHOD b func_35405_b (Lia;Lep;Lgb;)Lia;
+	METHOD c func_35404_c (Lia;)I
+	METHOD d func_35406_b (Lia;)Lid;

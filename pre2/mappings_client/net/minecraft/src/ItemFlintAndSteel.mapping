@@ -1,0 +1,2 @@
+CLASS afy net/minecraft/src/ItemFlintAndSteel
+	METHOD a onItemUse (Lwc;Luo;Lti;IIII)Z

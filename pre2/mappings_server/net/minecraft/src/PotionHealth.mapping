@@ -1,0 +1,2 @@
+CLASS rv net/minecraft/src/PotionHealth
+	METHOD b func_35437_a (II)Z

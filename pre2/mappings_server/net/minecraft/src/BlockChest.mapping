@@ -1,0 +1,23 @@
+CLASS e net/minecraft/src/BlockChest
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a onBlockAdded (Lep;III)V
+	METHOD a onNeighborBlockChange (Lep;IIII)V
+	METHOD a blockActivated (Lep;IIILgb;)Z
+	METHOD a onBlockPlacedBy (Lep;IIILkc;)V
+	METHOD a_ getBlockEntity ()Lmx;
+	METHOD b unifyAdjacentChests (Lep;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD c canPlaceBlockAt (Lep;III)Z
+	METHOD d onBlockRemoval (Lep;III)V
+	METHOD g isThereANeighborChest (Lep;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	FIELD a random Ljava/util/Random;

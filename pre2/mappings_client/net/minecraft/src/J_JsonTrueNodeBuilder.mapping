@@ -1,0 +1,2 @@
+CLASS add net/minecraft/src/J_JsonTrueNodeBuilder
+	METHOD b buildNode ()Lee;

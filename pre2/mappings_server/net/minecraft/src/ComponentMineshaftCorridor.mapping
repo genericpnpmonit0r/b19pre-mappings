@@ -1,0 +1,19 @@
+CLASS qg net/minecraft/src/ComponentMineshaftCorridor
+	METHOD <init> (ILjava/util/Random;Lsz;I)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 boundingBox
+		ARG 4 coordBaseMode
+	METHOD a func_35310_a (Lep;Ljava/util/Random;Lsz;)Z
+	METHOD a func_35308_a (Liw;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIII)Lsz;
+		ARG 0 components
+		ARG 1 rand
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 coordBaseMode
+	FIELD a hasRails Z
+	FIELD b hasSpiders Z
+	FIELD c spawnerPlaced Z
+	FIELD d sectionCount I

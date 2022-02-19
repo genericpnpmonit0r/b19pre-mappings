@@ -1,0 +1,7 @@
+CLASS qb net/minecraft/src/ModelMagmaCube
+	METHOD a func_40343_a ()I
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Llh;FFFFFF)V
+	METHOD a setLivingAnimations (Lxx;FFF)V
+	FIELD a field_40345_a [Lnz;
+	FIELD b field_40344_b Lnz;

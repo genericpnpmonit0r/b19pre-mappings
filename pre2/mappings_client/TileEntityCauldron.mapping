@@ -1,0 +1,11 @@
+CLASS yf TileEntityCauldron
+	FIELD a liquidLevel I
+	FIELD b liquidData I
+	METHOD a hasLiquid ()Z
+	METHOD a readFromNBT (Lza;)V
+	METHOD b writeToNBT (Lza;)V
+	METHOD d resetLiquidData ()Z
+	METHOD f drecreaseLiquidLevel ()V
+	METHOD g getLiquidLevel ()I
+	METHOD n getLiquidData ()I
+	METHOD o getPotionLiquidData ()I

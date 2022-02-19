@@ -1,0 +1,2 @@
+CLASS zz net/minecraft/src/LayerIsland
+	METHOD a func_35500_a (IIII)[I

@@ -1,0 +1,20 @@
+CLASS ko net/minecraft/src/IsoImageBuffer
+	METHOD <init> (Lti;II)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+	METHOD a init (II)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a setLevel (Lti;II)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+	FIELD a image Ljava/awt/image/BufferedImage;
+	FIELD b level Lti;
+	FIELD c x I
+	FIELD d y I
+	FIELD e rendered Z
+	FIELD f noContent Z
+	FIELD g lastVisible I
+	FIELD h addedToRenderQueue Z

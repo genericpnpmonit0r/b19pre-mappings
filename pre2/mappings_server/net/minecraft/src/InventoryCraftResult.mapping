@@ -1,0 +1,12 @@
+CLASS tq net/minecraft/src/InventoryCraftResult
+	METHOD a getSizeInventory ()I
+	METHOD a decrStackSize (II)Lia;
+	METHOD a setInventorySlotContents (ILia;)V
+	METHOD a canInteractWith (Lgb;)Z
+	METHOD b_ getStackInSlot (I)Lia;
+	METHOD c getInvName ()Ljava/lang/String;
+	METHOD d getInventoryStackLimit ()I
+	METHOD e func_35161_e ()V
+	METHOD k onInventoryChanged ()V
+	METHOD t_ func_35162_t_ ()V
+	FIELD a stackResult [Lia;

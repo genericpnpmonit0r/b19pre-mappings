@@ -1,0 +1,4 @@
+CLASS qm net/minecraft/src/MaterialLogic
+	METHOD a isSolid ()Z
+	METHOD b getCanBlockGrass ()Z
+	METHOD c getIsSolid ()Z

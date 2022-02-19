@@ -1,0 +1,20 @@
+CLASS rf net/minecraft/src/EnumToolMaterial
+	METHOD <init> (Ljava/lang/String;IIIFI)V
+		ARG 3 harvestLevel
+		ARG 4 maxUses
+		ARG 5 effiOnProperMaterial
+		ARG 6 dmgVsEntity
+	METHOD a getMaxUses ()I
+	METHOD b getEfficiencyOnProperMaterial ()F
+	METHOD c getDamageVsEntity ()I
+	METHOD d getHarvestLevel ()I
+	FIELD a WOOD Lrf;
+	FIELD b STONE Lrf;
+	FIELD c IRON Lrf;
+	FIELD d EMERALD Lrf;
+	FIELD e GOLD Lrf;
+	FIELD f harvestLevel I
+	FIELD g maxUses I
+	FIELD h efficiencyOnProperMaterial F
+	FIELD i damageVsEntity I
+	FIELD j allToolMaterials [Lrf;

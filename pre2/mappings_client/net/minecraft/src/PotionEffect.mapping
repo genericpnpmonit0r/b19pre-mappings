@@ -1,0 +1,18 @@
+CLASS afk net/minecraft/src/PotionEffect
+	METHOD <init> (III)V
+		ARG 1 id
+		ARG 2 duration
+		ARG 3 amplifier
+	METHOD a getPotionID ()I
+	METHOD a combine (Lafk;)V
+		ARG 1 potionEffect
+	METHOD a onUpdate (Lxx;)Z
+		ARG 1 living
+	METHOD b getPotionDuration ()I
+	METHOD b performEffect (Lxx;)V
+		ARG 1 living
+	METHOD c getPotionAmplifier ()I
+	METHOD e deincrementDuration ()I
+	FIELD a potionID I
+	FIELD b duration I
+	FIELD c amplifier I

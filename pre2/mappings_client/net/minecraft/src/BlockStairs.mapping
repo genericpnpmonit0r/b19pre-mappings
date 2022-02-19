@@ -1,0 +1,37 @@
+CLASS ll net/minecraft/src/BlockStairs
+	METHOD <init> (ILmq;)V
+		ARG 1 id
+		ARG 2 block
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a canCollideCheck (IZ)Z
+	METHOD a setBlockBoundsBasedOnState (Lafm;III)V
+	METHOD a shouldSideBeRendered (Lafm;IIII)Z
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a getExplosionResistance (Llh;)F
+	METHOD a onBlockAdded (Lti;III)V
+	METHOD a dropBlockAsItemWithChance (Lti;IIIIF)V
+	METHOD a updateTick (Lti;IIILjava/util/Random;)V
+	METHOD a velocityToAddToEntity (Lti;IIILlh;Lba;)V
+	METHOD a getCollidingBoundingBoxes (Lti;IIILtb;Ljava/util/ArrayList;)V
+	METHOD a onBlockClicked (Lti;IIILuo;)V
+	METHOD a onBlockPlacedBy (Lti;IIILxx;)V
+	METHOD b renderAsNormalBlock ()Z
+	METHOD b onBlockDestroyedByExplosion (Lti;III)V
+	METHOD b onBlockDestroyedByPlayer (Lti;IIII)V
+	METHOD b randomDisplayTick (Lti;IIILjava/util/Random;)V
+	METHOD b onEntityWalking (Lti;IIILlh;)V
+	METHOD b blockActivated (Lti;IIILuo;)Z
+	METHOD b_ onBlockRemoval (Lti;III)V
+	METHOD c getRenderBlockPass ()I
+	METHOD c getMixedBrightnessForBlock (Lafm;III)I
+	METHOD c getCollisionBoundingBoxFromPool (Lti;III)Ltb;
+	METHOD d getRenderType ()I
+	METHOD d getBlockBrightness (Lafm;III)F
+	METHOD d getSelectedBoundingBoxFromPool (Lti;III)Ltb;
+	METHOD e canPlaceBlockAt (Lti;III)Z
+	METHOD f tickRate ()I
+	METHOD j isCollidable ()Z
+	FIELD a modelBlock Lmq;

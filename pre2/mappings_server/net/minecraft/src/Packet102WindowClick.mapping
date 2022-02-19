@@ -1,0 +1,10 @@
+CLASS oe net/minecraft/src/Packet102WindowClick
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lqk;)V
+	FIELD a window_Id I
+	FIELD b inventorySlot I
+	FIELD c mouseClick I
+	FIELD d action S
+	FIELD f holdingShift Z

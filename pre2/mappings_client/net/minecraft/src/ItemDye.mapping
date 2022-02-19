@@ -1,0 +1,7 @@
+CLASS gd net/minecraft/src/ItemDye
+	METHOD a getItemNameIS (Lwc;)Ljava/lang/String;
+	METHOD a onItemUse (Lwc;Luo;Lti;IIII)Z
+	METHOD a useItemOnEntity (Lwc;Lxx;)V
+	METHOD b getIconFromDamage (I)I
+	FIELD a dyeColorNames [Ljava/lang/String;
+	FIELD b dyeColors [I
