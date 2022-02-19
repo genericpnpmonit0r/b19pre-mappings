@@ -1,2 +1,0 @@
-CLASS w net/minecraft/src/EntityNoteFX
-	FIELD a noteParticleScale F

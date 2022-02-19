@@ -1,5 +1,0 @@
-CLASS rk net/minecraft/src/BlockCake
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 texIndex
-	METHOD c eatCakeSlice (Lep;IIILgb;)V

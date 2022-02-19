@@ -1,5 +1,0 @@
-CLASS oe net/minecraft/src/PlayerCapabilites
-	FIELD a disableDamage Z
-	FIELD b isFlying Z
-	FIELD c allowFlying Z
-	FIELD d depleteBuckets Z

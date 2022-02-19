@@ -1,3 +1,0 @@
-CLASS jj net/minecraft/src/TexturePackDefault
-	FIELD e texturePackName I
-	FIELD f texturePackThumbnail Ljava/awt/image/BufferedImage;

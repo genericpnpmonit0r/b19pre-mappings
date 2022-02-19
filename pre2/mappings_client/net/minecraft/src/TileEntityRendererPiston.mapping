@@ -1,2 +1,0 @@
-CLASS ev net/minecraft/src/TileEntityRendererPiston
-	FIELD b field_31071_b Lrz;

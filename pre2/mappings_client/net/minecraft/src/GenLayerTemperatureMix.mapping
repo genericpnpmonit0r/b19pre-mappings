@@ -1,7 +1,0 @@
-CLASS ce net/minecraft/src/GenLayerTemperatureMix
-	FIELD b layer Lsv;
-	FIELD c theInteger I
-	METHOD <init> (Lsv;Lsv;I)V
-		ARG 1 layer1
-		ARG 2 layer2
-		ARG 3 value

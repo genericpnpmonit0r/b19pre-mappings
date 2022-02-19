@@ -1,6 +1,0 @@
-CLASS ww net/minecraft/src/Packet17Sleep
-	FIELD a entityID I
-	FIELD b bedX I
-	FIELD c bedY I
-	FIELD d bedZ I
-	FIELD e bedRotation I

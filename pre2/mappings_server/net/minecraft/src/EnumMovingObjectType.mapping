@@ -1,4 +1,0 @@
-CLASS ih net/minecraft/src/EnumMovingObjectType
-	FIELD a TILE Lih;
-	FIELD b ENTITY Lih;
-	FIELD c allMovingObjectTypes [Lih;

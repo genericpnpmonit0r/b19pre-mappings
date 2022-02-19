@@ -1,3 +1,0 @@
-CLASS qd net/minecraft/src/RenderXPOrb
-	FIELD a xpBool Z
-	FIELD b blockRenderer Lrz;

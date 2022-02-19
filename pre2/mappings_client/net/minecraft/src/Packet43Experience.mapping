@@ -1,4 +1,0 @@
-CLASS gw net/minecraft/src/Packet43Experience
-	FIELD a experienceValue I
-	FIELD b experienceTotal I
-	FIELD c experienceLevel I

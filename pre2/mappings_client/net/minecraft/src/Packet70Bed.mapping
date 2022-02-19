@@ -1,4 +1,0 @@
-CLASS rm net/minecraft/src/Packet70Bed
-	FIELD a bedChat [Ljava/lang/String;
-	FIELD b bedState I
-	FIELD c gameMode I

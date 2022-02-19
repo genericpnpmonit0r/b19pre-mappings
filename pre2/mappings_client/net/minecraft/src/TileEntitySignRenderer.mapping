@@ -1,2 +1,0 @@
-CLASS jo net/minecraft/src/TileEntitySignRenderer
-	FIELD b signModel Labk;

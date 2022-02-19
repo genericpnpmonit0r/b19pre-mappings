@@ -1,7 +1,0 @@
-CLASS vx net/minecraft/src/SlotCrafting
-	FIELD e craftMatrix Lkg;
-	FIELD f thePlayer Lgb;
-	METHOD <init> (Lgb;Lkg;Lkg;III)V
-		ARG 1 player
-		ARG 2 craftingGrid
-		ARG 3 inventory

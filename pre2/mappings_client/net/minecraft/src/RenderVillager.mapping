@@ -1,2 +1,0 @@
-CLASS ut net/minecraft/src/RenderVillager
-	FIELD c villagerModel Lrr;

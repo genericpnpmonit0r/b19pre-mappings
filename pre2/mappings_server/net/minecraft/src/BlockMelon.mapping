@@ -1,3 +1,0 @@
-CLASS er net/minecraft/src/BlockMelon
-	METHOD <init> (I)V
-		ARG 1 id

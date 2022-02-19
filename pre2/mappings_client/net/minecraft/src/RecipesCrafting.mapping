@@ -1,3 +1,0 @@
-CLASS wv net/minecraft/src/RecipesCrafting
-	METHOD a addRecipes (Ler;)V
-		ARG 1 craftingManager

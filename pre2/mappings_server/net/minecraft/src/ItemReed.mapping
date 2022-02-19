@@ -1,5 +1,0 @@
-CLASS kf net/minecraft/src/ItemReed
-	FIELD a spawnID I
-	METHOD <init> (ILro;)V
-		ARG 1 id
-		ARG 2 block

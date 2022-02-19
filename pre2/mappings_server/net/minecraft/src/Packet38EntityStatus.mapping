@@ -1,6 +1,0 @@
-CLASS if net/minecraft/src/Packet38EntityStatus
-	FIELD a entityId I
-	FIELD b entityStatus B
-	METHOD <init> (IB)V
-		ARG 1 id
-		ARG 2 status

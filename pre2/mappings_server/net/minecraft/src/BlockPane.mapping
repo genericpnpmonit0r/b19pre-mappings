@@ -1,9 +1,0 @@
-CLASS uc net/minecraft/src/BlockPane
-	FIELD a paneType I
-	METHOD <init> (IIILjz;Z)V
-		ARG 1 id
-		ARG 2 texIndex
-		ARG 3 type
-		ARG 4 material
-	METHOD c canThisPaneConnectToThisBlockID (I)Z
-		ARG 1 id

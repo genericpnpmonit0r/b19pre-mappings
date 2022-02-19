@@ -1,7 +1,0 @@
-CLASS cq net/minecraft/src/EnumStatus
-	FIELD a OK Lcq;
-	FIELD b NOT_POSSIBLE_HERE Lcq;
-	FIELD c NOT_POSSIBLE_NOW Lcq;
-	FIELD d TOO_FAR_AWAY Lcq;
-	FIELD e OTHER_PROBLEM Lcq;
-	FIELD f allStatuses [Lcq;

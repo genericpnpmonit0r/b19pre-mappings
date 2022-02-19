@@ -1,4 +1,0 @@
-CLASS tr net/minecraft/src/MapGenStronghold
-	FIELD a allowedBiomeGenBases [Lwz;
-	FIELD f ranBiomeCheck Z
-	FIELD g structureCoords [Lpp;

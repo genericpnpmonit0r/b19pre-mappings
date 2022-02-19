@@ -1,8 +1,0 @@
-CLASS abg net/minecraft/src/EntityTNTPrimed
-	FIELD a fuse I
-	METHOD <init> (Lti;DDD)V
-		ARG 1 world
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-	METHOD l explode ()V

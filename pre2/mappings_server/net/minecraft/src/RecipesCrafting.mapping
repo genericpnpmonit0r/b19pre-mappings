@@ -1,3 +1,0 @@
-CLASS ix net/minecraft/src/RecipesCrafting
-	METHOD a addRecipes (Lgt;)V
-		ARG 1 craftingManager

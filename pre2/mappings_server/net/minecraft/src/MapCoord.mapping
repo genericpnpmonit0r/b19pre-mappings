@@ -1,6 +1,0 @@
-CLASS au net/minecraft/src/MapCoord
-	FIELD a field_28202_a B
-	FIELD b field_28201_b B
-	FIELD c field_28205_c B
-	FIELD d field_28204_d B
-	FIELD e field_28203_e Lhx;

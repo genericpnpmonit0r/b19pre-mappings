@@ -1,9 +1,0 @@
-CLASS be net/minecraft/src/SpawnListEntry
-	METHOD <init> (Ljava/lang/Class;III)V
-		ARG 1 entityClass
-		ARG 2 seed
-		ARG 3 minGroupcount
-		ARG 4 maxGroupCount
-	FIELD a entityClass Ljava/lang/Class;
-	FIELD b minGroupCount I
-	FIELD c maxGroupCount I

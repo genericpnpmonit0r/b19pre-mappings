@@ -1,3 +1,0 @@
-CLASS gp net/minecraft/src/ConsoleLogManager
-	METHOD a init ()V
-	FIELD a logger Ljava/util/logging/Logger;

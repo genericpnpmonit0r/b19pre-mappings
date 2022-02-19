@@ -1,7 +1,0 @@
-CLASS au net/minecraft/src/WorldGenSwamp
-	METHOD a addVines (Lti;IIII)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 sideMeta

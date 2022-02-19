@@ -1,6 +1,0 @@
-CLASS oe net/minecraft/src/Packet102WindowClick
-	FIELD a window_Id I
-	FIELD b inventorySlot I
-	FIELD c mouseClick I
-	FIELD d action S
-	FIELD f holdingShift Z

@@ -1,5 +1,0 @@
-CLASS lr net/minecraft/src/ItemAxe
-	METHOD <init> (ILrf;)V
-		ARG 1 id
-		ARG 2 toolMaterial
-	FIELD b blocksEffectiveAgainst [Lmq;

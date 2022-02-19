@@ -1,9 +1,0 @@
-CLASS pc net/minecraft/src/EntityOtherPlayerMP
-	FIELD a field_20924_a F
-	FIELD ao otherPlayerMPZ D
-	FIELD ap otherPlayerMPYaw D
-	FIELD aq otherPlayerMPPitch D
-	FIELD b field_35218_b Z
-	FIELD c otherPlayerMPPosRotationIncrements I
-	FIELD d otherPlayerMPX D
-	FIELD e otherPlayerMPY D

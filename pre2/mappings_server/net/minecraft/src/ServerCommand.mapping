@@ -1,6 +1,0 @@
-CLASS ap net/minecraft/src/ServerCommand
-	METHOD <init> (Ljava/lang/String;Lqi;)V
-		ARG 1 command
-		ARG 2 listener
-	FIELD a command Ljava/lang/String;
-	FIELD b commandListener Lqi;

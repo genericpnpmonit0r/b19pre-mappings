@@ -1,4 +1,0 @@
-CLASS qb net/minecraft/src/ModelMagmaCube
-	FIELD a field_40345_a [Lnz;
-	FIELD b field_40344_b Lnz;
-	METHOD a func_40343_a ()I

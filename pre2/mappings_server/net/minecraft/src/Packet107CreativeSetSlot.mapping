@@ -1,5 +1,0 @@
-CLASS dk net/minecraft/src/Packet107CreativeSetSlot
-	FIELD a slot I
-	FIELD b id I
-	FIELD c count I
-	FIELD d meta I

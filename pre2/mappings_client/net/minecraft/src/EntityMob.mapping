@@ -1,5 +1,0 @@
-CLASS uq net/minecraft/src/EntityMob
-	FIELD c attackStrength I
-	METHOD Y getOnFire ()Z
-	METHOD b attackEntityAsMob (Llh;)Z
-		ARG 1 entity

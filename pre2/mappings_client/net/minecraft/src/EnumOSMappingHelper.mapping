@@ -1,2 +1,0 @@
-CLASS ge net/minecraft/src/EnumOSMappingHelper
-	FIELD a enumOSMappingArray [I

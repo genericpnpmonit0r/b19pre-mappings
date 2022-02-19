@@ -1,7 +1,0 @@
-CLASS gn net/minecraft/src/RecipeSorter
-	FIELD a craftingManager Ler;
-	METHOD <init> (Ler;)V
-		ARG 1 craftingManager
-	METHOD compare (Ljava/lang/Object;Ljava/lang/Object;)I
-		ARG 1 recipe1
-		ARG 2 recipe2

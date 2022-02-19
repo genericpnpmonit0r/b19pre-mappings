@@ -1,3 +1,0 @@
-CLASS st net/minecraft/src/J_JsonArrayNodeBuilder
-	FIELD a elementBuilders Ljava/util/List;
-	METHOD a withElement (Lxl;)Lst;

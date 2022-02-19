@@ -1,5 +1,0 @@
-CLASS ck net/minecraft/src/ConvertProgressUpdater
-	FIELD a mcServer Lnet/minecraft/server/MinecraftServer;
-	FIELD b lastTimeMillis J
-	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
-		ARG 1 minecraftServer

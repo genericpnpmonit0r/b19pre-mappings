@@ -1,9 +1,0 @@
-CLASS u net/minecraft/src/ContainerPlayer
-	FIELD a craftMatrix Lku;
-	FIELD b craftResult Lkg;
-	FIELD c isMultiPlayer Z
-	METHOD <init> (Lhz;)V
-		ARG 1 inventoryPlayer
-	METHOD <init> (Lhz;Z)V
-		ARG 1 inventoryPlayer
-		ARG 2 multiplayer

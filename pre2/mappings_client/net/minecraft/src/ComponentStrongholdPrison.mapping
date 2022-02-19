@@ -1,8 +1,0 @@
-CLASS zy net/minecraft/src/ComponentStrongholdPrison
-	FIELD a randomDoor Lke;
-	METHOD <init> (ILjava/util/Random;Lns;I)V
-		ARG 1 type
-		ARG 2 rand
-		ARG 3 boundingBox
-		ARG 4 coordBaseMode
-	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIIII)Lzy;

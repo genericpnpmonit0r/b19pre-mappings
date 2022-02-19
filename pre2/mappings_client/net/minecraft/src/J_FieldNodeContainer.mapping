@@ -1,3 +1,0 @@
-CLASS yq net/minecraft/src/J_FieldNodeContainer
-	FIELD a fieldBuilder Laak;
-	FIELD b field_27291_b Lxy;

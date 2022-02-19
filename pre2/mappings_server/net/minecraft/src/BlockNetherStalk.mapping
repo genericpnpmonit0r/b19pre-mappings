@@ -1,3 +1,0 @@
-CLASS va net/minecraft/src/BlockNetherStalk
-	METHOD <init> (I)V
-		ARG 1 id

@@ -1,5 +1,0 @@
-CLASS abx net/minecraft/src/ModelChest
-	METHOD a renderAll ()V
-	FIELD a chestLid Lnz;
-	FIELD b chestBelow Lnz;
-	FIELD c chestKnob Lnz;

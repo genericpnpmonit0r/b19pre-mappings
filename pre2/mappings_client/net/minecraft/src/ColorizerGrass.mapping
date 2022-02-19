@@ -1,5 +1,0 @@
-CLASS vl net/minecraft/src/ColorizerGrass
-	METHOD a getGrassColor (DD)I
-	METHOD a setGrassBiomeColorizer ([I)V
-		ARG 0 colorBuff
-	FIELD a grassBuffer [I

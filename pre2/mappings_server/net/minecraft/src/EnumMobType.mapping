@@ -1,5 +1,0 @@
-CLASS pa net/minecraft/src/EnumMobType
-	FIELD a everything Lpa;
-	FIELD b mobs Lpa;
-	FIELD c players Lpa;
-	FIELD d allMobTypes [Lpa;

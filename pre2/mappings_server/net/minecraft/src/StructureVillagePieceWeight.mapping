@@ -1,7 +1,0 @@
-CLASS eg net/minecraft/src/StructureVillagePieceWeight
-	METHOD a canSpawnMoreVillagePieces ()Z
-	METHOD a canSpawnMoreVillagePiecesOfType (I)Z
-	FIELD a field_35496_a Ljava/lang/Class;
-	FIELD b villagePieceWeight I
-	FIELD c villagePiecesSpawned I
-	FIELD d villagePiecesLimit I

@@ -1,5 +1,0 @@
-CLASS ss net/minecraft/src/SlotFurnace
-	FIELD e thePlayer Lgb;
-	METHOD <init> (Lgb;Lkg;III)V
-		ARG 1 player
-		ARG 2 inventory

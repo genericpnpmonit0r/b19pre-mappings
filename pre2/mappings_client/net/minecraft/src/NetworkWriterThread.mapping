@@ -1,5 +1,0 @@
-CLASS ou net/minecraft/src/NetworkWriterThread
-	METHOD <init> (Ljl;Ljava/lang/String;)V
-		ARG 1 networkManager
-		ARG 2 name
-	FIELD a netManager Ljl;

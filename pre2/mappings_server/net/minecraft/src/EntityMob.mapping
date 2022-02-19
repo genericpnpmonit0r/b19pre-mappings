@@ -1,5 +1,0 @@
-CLASS ge net/minecraft/src/EntityMob
-	FIELD c attackStrength I
-	METHOD c attackEntityAsMob (Lpu;)Z
-		ARG 1 entity
-	METHOD w getOnFire ()Z

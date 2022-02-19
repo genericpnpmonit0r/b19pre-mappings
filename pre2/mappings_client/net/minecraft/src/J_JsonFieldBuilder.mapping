@@ -1,8 +1,0 @@
-CLASS aak net/minecraft/src/J_JsonFieldBuilder
-	METHOD a aJsonFieldBuilder ()Laak;
-	METHOD a func_27304_a (Lxl;)Laak;
-	METHOD b func_27303_b ()Ljv;
-	METHOD b func_27300_b (Lxl;)Laak;
-	METHOD c func_27302_c ()Lee;
-	FIELD a field_27306_a Lxl;
-	FIELD b field_27305_b Lxl;

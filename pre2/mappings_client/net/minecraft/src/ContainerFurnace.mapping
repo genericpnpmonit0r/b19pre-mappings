@@ -1,8 +1,0 @@
-CLASS rb net/minecraft/src/ContainerFurnace
-	FIELD a furnace Lacb;
-	FIELD b lastCookTime I
-	FIELD c lastBurnTime I
-	FIELD h lastItemBurnTime I
-	METHOD <init> (Lvz;Lacb;)V
-		ARG 1 inventoryPlayer
-		ARG 2 furnace

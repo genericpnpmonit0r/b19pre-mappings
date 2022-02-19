@@ -1,2 +1,0 @@
-CLASS xl net/minecraft/src/J_JsonNodeBuilder
-	METHOD b buildNode ()Lee;

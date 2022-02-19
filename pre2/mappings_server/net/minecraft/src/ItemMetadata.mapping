@@ -1,5 +1,0 @@
-CLASS il net/minecraft/src/ItemMetadata
-	FIELD a theBlock Lro;
-	METHOD <init> (ILro;)V
-		ARG 1 id
-		ARG 2 block

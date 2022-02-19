@@ -1,4 +1,0 @@
-CLASS ud net/minecraft/src/GuiChat
-	FIELD a message Ljava/lang/String;
-	FIELD b updateCounter I
-	FIELD c allowedCharacters Ljava/lang/String;

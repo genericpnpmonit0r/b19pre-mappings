@@ -1,9 +1,0 @@
-CLASS abl net/minecraft/src/BlockReed
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 texIndex
-	METHOD h checkBlockCoordValid (Lti;III)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z

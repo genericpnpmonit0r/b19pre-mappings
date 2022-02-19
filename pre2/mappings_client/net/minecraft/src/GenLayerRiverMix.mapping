@@ -1,7 +1,0 @@
-CLASS aet net/minecraft/src/GenLayerRiverMix
-	FIELD b biomePatternGeneratorChain Lsv;
-	FIELD c riverPatternGeneratorChain Lsv;
-	METHOD <init> (JLsv;Lsv;)V
-		ARG 1 seed
-		ARG 3 biomePatternGeneratorChain
-		ARG 4 riverPatternGeneratorChain

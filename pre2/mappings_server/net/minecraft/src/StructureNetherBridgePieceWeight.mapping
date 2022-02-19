@@ -1,6 +1,0 @@
-CLASS py net/minecraft/src/StructureNetherBridgePieceWeight
-	METHOD a a2 ()Z
-	FIELD a weightClass Ljava/lang/Class;
-	FIELD c weight I
-	FIELD d weight2 I
-	FIELD e mode Z

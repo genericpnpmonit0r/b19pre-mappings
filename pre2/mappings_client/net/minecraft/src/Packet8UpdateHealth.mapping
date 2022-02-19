@@ -1,4 +1,0 @@
-CLASS cz net/minecraft/src/Packet8UpdateHealth
-	FIELD a healthMP I
-	FIELD b food I
-	FIELD c foodSaturation F

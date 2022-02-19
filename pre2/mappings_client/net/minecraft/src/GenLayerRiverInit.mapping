@@ -1,4 +1,0 @@
-CLASS ie net/minecraft/src/GenLayerRiverInit
-	METHOD <init> (JLsv;)V
-		ARG 1 seed
-		ARG 3 layer

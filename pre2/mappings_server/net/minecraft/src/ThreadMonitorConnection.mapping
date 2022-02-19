@@ -1,4 +1,0 @@
-CLASS uo net/minecraft/src/ThreadMonitorConnection
-	METHOD <init> (Lnd;)V
-		ARG 1 networkManager
-	FIELD a netManager Lnd;

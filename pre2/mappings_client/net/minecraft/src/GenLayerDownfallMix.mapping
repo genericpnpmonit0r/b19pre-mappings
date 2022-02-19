@@ -1,3 +1,0 @@
-CLASS adi net/minecraft/src/GenLayerDownfallMix
-	FIELD b theLayer Lsv;
-	FIELD c field_35508_c I

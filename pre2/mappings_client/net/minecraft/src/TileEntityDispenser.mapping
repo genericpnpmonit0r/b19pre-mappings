@@ -1,4 +1,0 @@
-CLASS aq net/minecraft/src/TileEntityDispenser
-	FIELD a dispenserContents [Lwc;
-	FIELD b dispenserRandom Ljava/util/Random;
-	METHOD j_ getRandomStackFromInventory ()Lwc;

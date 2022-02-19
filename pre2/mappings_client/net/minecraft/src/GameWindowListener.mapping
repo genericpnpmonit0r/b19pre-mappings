@@ -1,6 +1,0 @@
-CLASS gc net/minecraft/src/GameWindowListener
-	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/Thread;)V
-		ARG 1 minecraft
-		ARG 2 thread
-	FIELD a mc Lnet/minecraft/client/Minecraft;
-	FIELD b mcThread Ljava/lang/Thread;

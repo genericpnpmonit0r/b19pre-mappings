@@ -1,3 +1,0 @@
-CLASS pv net/minecraft/src/MapGenCaves
-	METHOD a generateLargeCaveNode (JII[BDDD)V
-	METHOD a generateCaveNode (JII[BDDDFFFIID)V

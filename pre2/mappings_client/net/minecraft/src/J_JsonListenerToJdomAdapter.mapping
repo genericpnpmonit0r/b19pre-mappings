@@ -1,8 +1,0 @@
-CLASS xy net/minecraft/src/J_JsonListenerToJdomAdapter
-	FIELD a stack Ljava/util/Stack;
-	FIELD b root Lxl;
-	METHOD a getDocument ()Ljy;
-	METHOD a addRootNode (Lxl;)V
-		ARG 1 jsonNodeBuilder
-	METHOD b addValue (Lxl;)V
-		ARG 1 jsonNodeBuilder

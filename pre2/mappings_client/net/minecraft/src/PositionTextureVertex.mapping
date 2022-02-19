@@ -1,5 +1,0 @@
-CLASS vm net/minecraft/src/PositionTextureVertex
-	METHOD a setTexturePosition (FF)Lvm;
-	FIELD a vector3D Lba;
-	FIELD b texturePositionX F
-	FIELD c texturePositionY F

@@ -1,6 +1,0 @@
-CLASS cy net/minecraft/src/Packet22Collect
-	FIELD a collectedEntityId I
-	FIELD b collectorEntityId I
-	METHOD <init> (II)V
-		ARG 1 collectedId
-		ARG 2 collectorId

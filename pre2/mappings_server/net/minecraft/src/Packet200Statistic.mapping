@@ -1,6 +1,0 @@
-CLASS mh net/minecraft/src/Packet200Statistic
-	FIELD a statisticId I
-	FIELD b amount I
-	METHOD <init> (II)V
-		ARG 1 statId
-		ARG 2 amount

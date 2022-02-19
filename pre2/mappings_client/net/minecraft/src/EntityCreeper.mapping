@@ -1,7 +1,0 @@
-CLASS ub net/minecraft/src/EntityCreeper
-	FIELD a timeSinceIgnited I
-	FIELD b lastActiveTime I
-	METHOD V getPowered ()Z
-	METHOD Z getCreeperState ()I
-	METHOD b setCreeperState (I)V
-	METHOD d setCreeperFlashTime (F)F

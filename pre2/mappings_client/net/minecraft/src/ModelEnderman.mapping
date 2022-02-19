@@ -1,3 +1,0 @@
-CLASS qz net/minecraft/src/ModelEnderman
-	FIELD a isCarrying Z
-	FIELD b isAttacking Z

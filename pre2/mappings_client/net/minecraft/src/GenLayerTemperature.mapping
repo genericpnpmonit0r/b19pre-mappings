@@ -1,3 +1,0 @@
-CLASS aat net/minecraft/src/GenLayerTemperature
-	METHOD <init> (Lsv;)V
-		ARG 1 layer

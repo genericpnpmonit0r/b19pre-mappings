@@ -1,3 +1,0 @@
-CLASS uj net/minecraft/src/MapGenRavine
-	FIELD a noiseArray01 [F
-	METHOD a generateRavine (JII[BDDDFFFIID)V

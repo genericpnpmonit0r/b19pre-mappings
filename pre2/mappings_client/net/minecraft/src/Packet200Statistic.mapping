@@ -1,3 +1,0 @@
-CLASS it net/minecraft/src/Packet200Statistic
-	FIELD a statisticId I
-	FIELD b amount I

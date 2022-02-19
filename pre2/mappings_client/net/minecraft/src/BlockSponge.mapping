@@ -1,3 +1,0 @@
-CLASS oo net/minecraft/src/BlockSponge
-	METHOD <init> (I)V
-		ARG 1 id

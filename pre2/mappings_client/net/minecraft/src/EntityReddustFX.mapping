@@ -1,2 +1,0 @@
-CLASS vr net/minecraft/src/EntityReddustFX
-	FIELD a reddustParticleScale F

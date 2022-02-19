@@ -1,2 +1,0 @@
-CLASS gi net/minecraft/src/J_JsonObject
-	FIELD a field_27222_a Ljava/util/Map;

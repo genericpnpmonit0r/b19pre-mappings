@@ -1,4 +1,0 @@
-CLASS ng net/minecraft/src/ThreadStatSyncherReceive
-	METHOD <init> (Lrs;)V
-		ARG 1 syncer
-	FIELD a syncher Lrs;

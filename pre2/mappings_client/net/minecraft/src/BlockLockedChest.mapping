@@ -1,3 +1,0 @@
-CLASS xi net/minecraft/src/BlockLockedChest
-	METHOD <init> (I)V
-		ARG 1 id

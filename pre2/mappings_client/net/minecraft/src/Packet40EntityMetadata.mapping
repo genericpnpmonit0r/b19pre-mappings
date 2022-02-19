@@ -1,4 +1,0 @@
-CLASS mt net/minecraft/src/Packet40EntityMetadata
-	FIELD a entityId I
-	FIELD b metadata Ljava/util/List;
-	METHOD b getMetadata ()Ljava/util/List;

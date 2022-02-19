@@ -1,9 +1,0 @@
-CLASS ss net/minecraft/src/ICrafting
-	METHOD a updateCraftingInventoryInfo (Lcm;II)V
-		ARG 1 container
-		ARG 2 slotId
-		ARG 3 info
-	METHOD a updateCraftingInventorySlot (Lcm;ILwc;)V
-		ARG 1 container
-		ARG 2 slotId
-		ARG 3 itemStack

@@ -1,6 +1,0 @@
-CLASS sl net/minecraft/src/RenderPlayer
-	FIELD c modelBipedMain Ltk;
-	FIELD d modelArmorChestplate Ltk;
-	FIELD i modelArmor Ltk;
-	FIELD j armorFilenamePrefix [Ljava/lang/String;
-	METHOD b drawFirstPersonHand ()V

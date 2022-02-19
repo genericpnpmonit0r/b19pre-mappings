@@ -1,3 +1,0 @@
-CLASS aan net/minecraft/src/BlockNote
-	METHOD <init> (I)V
-		ARG 1 id

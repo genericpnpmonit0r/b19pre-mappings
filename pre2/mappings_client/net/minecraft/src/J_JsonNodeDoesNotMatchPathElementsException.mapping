@@ -1,5 +1,0 @@
-CLASS qk net/minecraft/src/J_JsonNodeDoesNotMatchPathElementsException
-	METHOD a func_27319_a (Lyn;[Ljava/lang/Object;Ljy;)Lqk;
-	METHOD a func_27317_a ([Ljava/lang/Object;)Ljava/lang/String;
-	METHOD b func_27318_b (Lyn;[Ljava/lang/Object;Ljy;)Ljava/lang/String;
-	FIELD a field_27320_a Lhm;

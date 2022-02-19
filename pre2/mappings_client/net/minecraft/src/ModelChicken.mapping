@@ -1,9 +1,0 @@
-CLASS ack net/minecraft/src/ModelChicken
-	FIELD a head Lnz;
-	FIELD b body Lnz;
-	FIELD c rightLeg Lnz;
-	FIELD d leftLeg Lnz;
-	FIELD e rightWing Lnz;
-	FIELD f leftWing Lnz;
-	FIELD g bill Lnz;
-	FIELD k chin Lnz;

@@ -1,8 +1,0 @@
-CLASS fw net/minecraft/src/WorldServerMulti
-	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lub;Ljava/lang/String;ILgh;Lew;)V
-		ARG 1 minecraftServer
-		ARG 2 saveHandler
-		ARG 3 worldName
-		ARG 4 dimension
-		ARG 5 worldSettings
-		ARG 6 worldServer

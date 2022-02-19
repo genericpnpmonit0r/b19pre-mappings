@@ -1,8 +1,0 @@
-CLASS se net/minecraft/src/BlockBed
-	FIELD a headBlockToFootBlockMap [[I
-	METHOD a setBedOccupied (Lep;IIIZ)V
-	METHOD c getDirectionFromMetadata (I)I
-	METHOD d isBlockFootOfBed (I)Z
-	METHOD e isBedOccupied (I)Z
-	METHOD f getNearestEmptyChunkCoordinates (Lep;IIII)Lbm;
-	METHOD o setBounds ()V

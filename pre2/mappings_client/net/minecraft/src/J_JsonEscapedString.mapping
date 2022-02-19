@@ -1,2 +1,0 @@
-CLASS agg net/minecraft/src/J_JsonEscapedString
-	FIELD a escapedString Ljava/lang/String;

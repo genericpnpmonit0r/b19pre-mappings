@@ -1,2 +1,0 @@
-CLASS z net/minecraft/src/TileEntityMobSpawnerRenderer
-	FIELD b entityHashMap Ljava/util/Map;

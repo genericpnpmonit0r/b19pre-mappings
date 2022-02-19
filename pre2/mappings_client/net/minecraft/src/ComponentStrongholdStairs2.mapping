@@ -1,3 +1,0 @@
-CLASS q net/minecraft/src/ComponentStrongholdStairs2
-	FIELD a weight Lacc;
-	FIELD b componentList Ljava/util/ArrayList;

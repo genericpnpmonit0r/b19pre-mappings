@@ -1,4 +1,0 @@
-CLASS abk net/minecraft/src/SignModel
-	METHOD a renderSign ()V
-	FIELD a signBoard Lnz;
-	FIELD b signStick Lnz;

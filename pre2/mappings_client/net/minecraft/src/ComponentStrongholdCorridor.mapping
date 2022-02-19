@@ -1,8 +1,0 @@
-CLASS ir net/minecraft/src/ComponentStrongholdCorridor
-	FIELD a sizeZX I
-	METHOD <init> (ILjava/util/Random;Lns;I)V
-		ARG 1 type
-		ARG 2 rand
-		ARG 3 boundingBox
-		ARG 4 coordBaseMode
-	METHOD a buildValidComponent (Ljava/util/List;Ljava/util/Random;IIII)Lns;

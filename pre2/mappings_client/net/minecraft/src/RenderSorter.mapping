@@ -1,2 +1,0 @@
-CLASS hh net/minecraft/src/RenderSorter
-	FIELD a baseEntity Lxx;

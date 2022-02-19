@@ -1,3 +1,0 @@
-CLASS cy net/minecraft/src/J_ThingWithPosition
-	METHOD a getColumn ()I
-	METHOD b getRow ()I

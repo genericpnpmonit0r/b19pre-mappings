@@ -1,9 +1,0 @@
-CLASS ch net/minecraft/src/ThreadedFileIOBase
-	METHOD a processQueue ()V
-	METHOD a queueIO (Lfr;)V
-		ARG 1 threadedFileIO
-	FIELD a threadedIOInstance Lch;
-	FIELD b threadedIOQueue Ljava/lang/Object;
-	FIELD c writeQueuedSet Ljava/util/Set;
-	FIELD d savedIOList Ljava/util/List;
-	FIELD e isThreadWaiting Z

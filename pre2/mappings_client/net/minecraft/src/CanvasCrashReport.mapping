@@ -1,3 +1,0 @@
-CLASS afa net/minecraft/src/CanvasCrashReport
-	METHOD <init> (I)V
-		ARG 1 size

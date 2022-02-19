@@ -1,4 +1,0 @@
-CLASS act net/minecraft/src/RecipesIngots
-	METHOD a addRecipes (Ler;)V
-		ARG 1 craftingManager
-	FIELD a recipeItems [[Ljava/lang/Object;

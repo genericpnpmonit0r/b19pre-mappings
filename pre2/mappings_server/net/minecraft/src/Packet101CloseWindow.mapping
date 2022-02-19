@@ -1,4 +1,0 @@
-CLASS kq net/minecraft/src/Packet101CloseWindow
-	FIELD a windowId I
-	METHOD <init> (I)V
-		ARG 1 wid

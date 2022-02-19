@@ -1,6 +1,0 @@
-CLASS ra net/minecraft/src/StatCrafting
-	METHOD <init> (ILjava/lang/String;I)V
-		ARG 1 id
-		ARG 2 name
-		ARG 3 type
-	FIELD a type1 I

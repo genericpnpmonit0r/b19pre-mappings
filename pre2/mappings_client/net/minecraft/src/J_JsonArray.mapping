@@ -1,3 +1,0 @@
-CLASS zl net/minecraft/src/J_JsonArray
-	FIELD a elements Ljava/util/List;
-	METHOD a asList (Ljava/lang/Iterable;)Ljava/util/List;

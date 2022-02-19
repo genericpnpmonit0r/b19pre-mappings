@@ -1,2 +1,0 @@
-CLASS bk net/minecraft/src/EntitySpider
-	METHOD p spiderScaleAmount ()F

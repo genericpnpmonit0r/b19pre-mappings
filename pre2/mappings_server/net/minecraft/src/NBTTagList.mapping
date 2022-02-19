@@ -1,8 +1,0 @@
-CLASS px net/minecraft/src/NBTTagList
-	FIELD a tagList Ljava/util/List;
-	FIELD b tagType B
-	METHOD a tagAt (I)Lhl;
-		ARG 1 index
-	METHOD a setTag (Lhl;)V
-		ARG 1 base
-	METHOD d tagCount ()I

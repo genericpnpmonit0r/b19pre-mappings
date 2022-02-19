@@ -1,2 +1,0 @@
-CLASS em net/minecraft/src/IUpdatePlayerListBox
-	METHOD a update ()V

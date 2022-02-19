@@ -1,5 +1,0 @@
-CLASS zb net/minecraft/src/PacketCounter
-	METHOD a incrementPacketCount (I)V
-		ARG 1 count
-	FIELD a packetsCount I
-	FIELD b packetsTotal J

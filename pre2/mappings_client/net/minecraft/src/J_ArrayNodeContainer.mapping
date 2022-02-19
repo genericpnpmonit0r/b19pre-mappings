@@ -1,3 +1,0 @@
-CLASS yo net/minecraft/src/J_ArrayNodeContainer
-	FIELD a nodeBuilder Lst;
-	FIELD b field_27293_b Lxy;

@@ -1,5 +1,0 @@
-CLASS tg net/minecraft/src/ItemSpade
-	FIELD bM blocksEffectiveAgainst [Lro;
-	METHOD <init> (ILbp;)V
-		ARG 1 id
-		ARG 2 toolMaterial

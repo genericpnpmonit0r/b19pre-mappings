@@ -1,5 +1,0 @@
-CLASS gd net/minecraft/src/Packet15Place
-	FIELD a xPosition I
-	FIELD b yPosition I
-	FIELD c zPosition I
-	FIELD d direction I

@@ -1,5 +1,0 @@
-CLASS up net/minecraft/src/NetworkReaderThread
-	METHOD <init> (Lnd;Ljava/lang/String;)V
-		ARG 1 networkManager
-		ARG 2 name
-	FIELD a netManager Lnd;

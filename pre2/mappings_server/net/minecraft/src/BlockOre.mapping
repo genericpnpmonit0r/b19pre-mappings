@@ -1,4 +1,0 @@
-CLASS kx net/minecraft/src/BlockOre
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 texIndex

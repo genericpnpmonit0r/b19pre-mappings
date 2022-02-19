@@ -1,4 +1,0 @@
-CLASS oq net/minecraft/src/NetworkMasterThread
-	METHOD <init> (Ljl;)V
-		ARG 1 networkManager
-	FIELD a netManager Ljl;

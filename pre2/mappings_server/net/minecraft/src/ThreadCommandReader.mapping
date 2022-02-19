@@ -1,4 +1,0 @@
-CLASS cl net/minecraft/src/ThreadCommandReader
-	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
-		ARG 1 minecraftServer
-	FIELD a mcServer Lnet/minecraft/server/MinecraftServer;

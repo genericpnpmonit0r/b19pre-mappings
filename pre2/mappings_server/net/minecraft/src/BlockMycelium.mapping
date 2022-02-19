@@ -1,3 +1,0 @@
-CLASS vc net/minecraft/src/BlockMycelium
-	METHOD <init> (I)V
-		ARG 1 id

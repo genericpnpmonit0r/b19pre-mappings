@@ -1,3 +1,0 @@
-CLASS ic net/minecraft/src/RecipesDyes
-	METHOD a addRecipes (Ler;)V
-		ARG 1 craftingManager

@@ -1,8 +1,0 @@
-CLASS ef net/minecraft/src/Packet8UpdateHealth
-	FIELD a healthMP I
-	FIELD b food I
-	FIELD c foodSaturation F
-	METHOD <init> (IIF)V
-		ARG 1 health
-		ARG 2 food
-		ARG 3 saturation

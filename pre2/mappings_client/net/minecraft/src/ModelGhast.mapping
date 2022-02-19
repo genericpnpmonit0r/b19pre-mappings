@@ -1,3 +1,0 @@
-CLASS xt net/minecraft/src/ModelGhast
-	FIELD a body Lnz;
-	FIELD b tentacles [Lnz;

@@ -1,8 +1,0 @@
-CLASS afw net/minecraft/src/GuiEditSign
-	FIELD a screenTitle Ljava/lang/String;
-	FIELD b entitySign Lpj;
-	FIELD c updateCounter I
-	FIELD d editLine I
-	FIELD e allowedCharacters Ljava/lang/String;
-	METHOD <init> (Lpj;)V
-		ARG 1 tileEntitySign

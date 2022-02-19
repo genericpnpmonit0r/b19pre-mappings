@@ -1,2 +1,0 @@
-CLASS ts net/minecraft/src/EntitySkeleton
-	FIELD a defaultHeldItem Lwc;

@@ -1,5 +1,0 @@
-CLASS ll net/minecraft/src/BlockStairs
-	FIELD a modelBlock Lmq;
-	METHOD <init> (ILmq;)V
-		ARG 1 id
-		ARG 2 block

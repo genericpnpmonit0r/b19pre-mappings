@@ -1,2 +1,0 @@
-CLASS ul net/minecraft/src/RenderFallingSand
-	FIELD a blockRenderer Lrz;

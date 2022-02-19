@@ -1,8 +1,0 @@
-CLASS x net/minecraft/src/ServerGuiCommandListener
-	METHOD <init> (Lrz;Ljavax/swing/JTextField;)V
-		ARG 1 gui
-		ARG 2 textField
-	METHOD actionPerformed (Ljava/awt/event/ActionEvent;)V
-		ARG 1 event
-	FIELD a textField Ljavax/swing/JTextField;
-	FIELD b mcServerGui Lrz;

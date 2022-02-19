@@ -1,8 +1,0 @@
-CLASS dp net/minecraft/src/Packet201PlayerInfo
-	FIELD a playerName Ljava/lang/String;
-	FIELD b isConnected Z
-	FIELD c ping I
-	METHOD <init> (Ljava/lang/String;ZI)V
-		ARG 1 playername
-		ARG 2 connected
-		ARG 3 ping

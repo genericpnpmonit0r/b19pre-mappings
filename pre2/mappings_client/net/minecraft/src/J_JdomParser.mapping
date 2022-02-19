@@ -1,3 +1,0 @@
-CLASS ew net/minecraft/src/J_JdomParser
-	METHOD a Parse (Ljava/io/Reader;)Ljy;
-	METHOD a parse (Ljava/lang/String;)Ljy;

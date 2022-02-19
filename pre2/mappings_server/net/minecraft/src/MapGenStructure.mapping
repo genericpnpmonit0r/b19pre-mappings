@@ -1,9 +1,0 @@
-CLASS ov net/minecraft/src/MapGenStructure
-	FIELD e field_35534_e Ljava/util/HashMap;
-	METHOD a func_35531_a (II)Z
-		ARG 1 x
-		ARG 2 z
-	METHOD a func_35532_a (Lep;Ljava/util/Random;II)Z
-	METHOD b func_35533_b (II)Lru;
-		ARG 1 x
-		ARG 2 z

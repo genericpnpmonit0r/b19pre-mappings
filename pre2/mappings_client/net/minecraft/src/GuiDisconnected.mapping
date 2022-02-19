@@ -1,7 +1,0 @@
-CLASS dd net/minecraft/src/GuiDisconnected
-	FIELD a errorMessage Ljava/lang/String;
-	FIELD b errorDetail Ljava/lang/String;
-	METHOD <init> (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
-		ARG 1 errorDetail1
-		ARG 2 errorDetail2
-		ARG 3 errorObj

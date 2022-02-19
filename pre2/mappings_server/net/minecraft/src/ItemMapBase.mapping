@@ -1,5 +1,0 @@
-CLASS cf net/minecraft/src/ItemMapBase
-	METHOD c sendMPMapDataPacket (Lia;Lep;Lgb;)Lje;
-		ARG 1 itemStack
-		ARG 2 world
-		ARG 3 player

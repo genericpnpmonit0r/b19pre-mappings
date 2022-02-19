@@ -1,8 +1,0 @@
-CLASS kd net/minecraft/src/InventoryBasic
-	FIELD a inventoryTitle Ljava/lang/String;
-	FIELD b slotsCount I
-	FIELD c inventoryContents [Lwc;
-	FIELD d contentsList Ljava/util/List;
-	METHOD <init> (Ljava/lang/String;I)V
-		ARG 1 title
-		ARG 2 slotCount

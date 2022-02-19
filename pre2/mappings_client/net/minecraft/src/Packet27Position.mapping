@@ -1,7 +1,0 @@
-CLASS aaz net/minecraft/src/Packet27Position
-	FIELD a strafeMovement F
-	FIELD b fowardMovement F
-	FIELD c isSneaking Z
-	FIELD d isInJump Z
-	FIELD e pitchRotation F
-	FIELD f yawRotation F

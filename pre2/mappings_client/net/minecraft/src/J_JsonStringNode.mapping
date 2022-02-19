@@ -1,9 +1,0 @@
-CLASS jv net/minecraft/src/J_JsonStringNode
-	COMMENT <code>JsonNode</code> that explicitly represents a JSON String.
-	FIELD a value Ljava/lang/String;
-	METHOD <init> (Ljava/lang/String;)V
-		ARG 1 value
-	METHOD compareTo (Ljava/lang/Object;)I
-		ARG 1 jsonStringNode
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 that

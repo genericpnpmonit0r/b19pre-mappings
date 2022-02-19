@@ -1,4 +1,0 @@
-CLASS ed net/minecraft/src/GuiDispenser
-	METHOD <init> (Lvz;Laq;)V
-		ARG 1 invPlayer
-		ARG 2 tileEntityDispenser

@@ -1,8 +1,0 @@
-CLASS ee net/minecraft/src/J_JsonNode
-	METHOD a getType ()Lqp;
-	METHOD a wrapExceptionsFor (Lwr;Lee;[Ljava/lang/Object;)Ljava/lang/Object;
-	METHOD a getStringValue ([Ljava/lang/Object;)Ljava/lang/String;
-	METHOD b getText ()Ljava/lang/String;
-	METHOD b getArrayNode ([Ljava/lang/Object;)Ljava/util/List;
-	METHOD c getFields ()Ljava/util/Map;
-	METHOD d getElements ()Ljava/util/List;

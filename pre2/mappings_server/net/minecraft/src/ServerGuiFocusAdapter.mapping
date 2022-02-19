@@ -1,6 +1,0 @@
-CLASS y net/minecraft/src/ServerGuiFocusAdapter
-	METHOD <init> (Lrz;)V
-		ARG 1 gui
-	METHOD focusGained (Ljava/awt/event/FocusEvent;)V
-		ARG 1 event
-	FIELD a mcServerGui Lrz;

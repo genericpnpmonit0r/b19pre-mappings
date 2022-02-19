@@ -1,3 +1,0 @@
-CLASS oi net/minecraft/src/BlockGrass
-	METHOD <init> (I)V
-		ARG 1 id

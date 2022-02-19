@@ -1,3 +1,0 @@
-CLASS rp net/minecraft/src/GuiUnused
-	FIELD a message1 Ljava/lang/String;
-	FIELD b message2 Ljava/lang/String;

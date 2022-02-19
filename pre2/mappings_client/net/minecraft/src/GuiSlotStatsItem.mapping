@@ -1,2 +1,0 @@
-CLASS bf net/minecraft/src/GuiSlotStatsItem
-	FIELD a field_27275_a Lcl;

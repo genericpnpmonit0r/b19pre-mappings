@@ -1,4 +1,0 @@
-CLASS vc net/minecraft/src/Packet16BlockItemSwitch
-	FIELD a id I
-	METHOD <init> (I)V
-		ARG 1 id

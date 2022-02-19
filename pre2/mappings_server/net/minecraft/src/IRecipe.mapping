@@ -1,7 +1,0 @@
-CLASS dl net/minecraft/src/IRecipe
-	METHOD a getRecipeSize ()I
-	METHOD a matches (Lku;)Z
-		ARG 1 crafting
-	METHOD b getRecipeOutput ()Lia;
-	METHOD b getCraftingResult (Lku;)Lia;
-		ARG 1 crafting

@@ -1,6 +1,0 @@
-CLASS wm net/minecraft/src/EnumOS
-	FIELD a linux Lwm;
-	FIELD b solaris Lwm;
-	FIELD c windows Lwm;
-	FIELD d macos Lwm;
-	FIELD e unknown Lwm;

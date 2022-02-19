@@ -1,5 +1,0 @@
-CLASS hj net/minecraft/src/IPlayerFileData
-	METHOD a writePlayerData (Lgb;)V
-		ARG 1 player
-	METHOD b readPlayerData (Lgb;)V
-		ARG 1 player

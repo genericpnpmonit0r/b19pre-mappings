@@ -1,5 +1,0 @@
-CLASS wn net/minecraft/src/ItemMetadata
-	FIELD a theBlock Lmq;
-	METHOD <init> (ILmq;)V
-		ARG 1 id
-		ARG 2 block

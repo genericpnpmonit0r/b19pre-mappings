@@ -1,8 +1,0 @@
-CLASS om net/minecraft/src/EntityChicken
-	FIELD a field_753_a Z
-	FIELD ao field_755_h F
-	FIELD ap timeUntilNextEgg I
-	FIELD b curPos1 F
-	FIELD c destPos F
-	FIELD d prevPos F
-	FIELD e prevPos1 F

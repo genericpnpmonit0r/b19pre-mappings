@@ -1,3 +1,0 @@
-CLASS zj net/minecraft/src/RecipesFood
-	METHOD a addRecipes (Ler;)V
-		ARG 1 craftingManager

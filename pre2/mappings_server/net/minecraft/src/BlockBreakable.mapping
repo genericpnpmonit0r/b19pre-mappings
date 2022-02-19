@@ -1,7 +1,0 @@
-CLASS in net/minecraft/src/BlockBreakable
-	FIELD a localFlag Z
-	METHOD <init> (IILjz;Z)V
-		ARG 1 id
-		ARG 2 texIndex
-		ARG 3 material
-		ARG 4 flg

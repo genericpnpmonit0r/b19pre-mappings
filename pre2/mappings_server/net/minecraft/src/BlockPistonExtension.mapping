@@ -1,7 +1,0 @@
-CLASS i net/minecraft/src/BlockPistonExtension
-	FIELD a pistonHeadType I
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 texIndex
-	METHOD b getState (I)I
-		ARG 0 meta

@@ -1,3 +1,0 @@
-CLASS dz net/minecraft/src/SorterStatsItem
-	FIELD a statsGUI Lcl;
-	FIELD b slotStatsItemGUI Lbf;

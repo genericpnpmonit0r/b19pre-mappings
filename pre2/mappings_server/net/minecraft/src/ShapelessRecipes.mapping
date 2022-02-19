@@ -1,6 +1,0 @@
-CLASS qw net/minecraft/src/ShapelessRecipes
-	FIELD a recipeOutput Lia;
-	FIELD b recipeItems Ljava/util/List;
-	METHOD <init> (Lia;Ljava/util/List;)V
-		ARG 1 output
-		ARG 2 items

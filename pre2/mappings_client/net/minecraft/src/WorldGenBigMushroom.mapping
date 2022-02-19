@@ -1,4 +1,0 @@
-CLASS nw net/minecraft/src/WorldGenBigMushroom
-	FIELD a mushroomType I
-	METHOD <init> (I)V
-		ARG 1 mushroomType

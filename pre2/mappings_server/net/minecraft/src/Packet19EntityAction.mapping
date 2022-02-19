@@ -1,3 +1,0 @@
-CLASS qx net/minecraft/src/Packet19EntityAction
-	FIELD a entityId I
-	FIELD b state I

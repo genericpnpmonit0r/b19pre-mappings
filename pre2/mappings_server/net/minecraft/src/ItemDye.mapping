@@ -1,3 +1,0 @@
-CLASS jf net/minecraft/src/ItemDye
-	FIELD a dyeColorNames [Ljava/lang/String;
-	FIELD bM dyeColors [I

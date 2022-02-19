@@ -1,6 +1,0 @@
-CLASS dz net/minecraft/src/ThreadLoginVerifier
-	METHOD <init> (Lfu;Lmd;)V
-		ARG 1 loginHandler
-		ARG 2 packet1login
-	FIELD a loginPacket Lmd;
-	FIELD b loginHandler Lfu;

@@ -1,7 +1,0 @@
-CLASS bv net/minecraft/src/Packet70Bed
-	FIELD a bedChat [Ljava/lang/String;
-	FIELD b bedState I
-	FIELD c gameMode I
-	METHOD <init> (II)V
-		ARG 1 state
-		ARG 2 gamemode

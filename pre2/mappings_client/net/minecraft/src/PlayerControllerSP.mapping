@@ -1,8 +1,0 @@
-CLASS zt net/minecraft/src/PlayerControllerSP
-	FIELD c curBlockX I
-	FIELD d curBlockY I
-	FIELD e curBlockZ I
-	FIELD f curBlockDamage F
-	FIELD g prevBlockDamage F
-	FIELD h field_1069_h F
-	FIELD i blockHitWait I

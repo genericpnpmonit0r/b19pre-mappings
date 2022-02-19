@@ -1,3 +1,0 @@
-CLASS fp net/minecraft/src/Packet38EntityStatus
-	FIELD a entityId I
-	FIELD b entityStatus B

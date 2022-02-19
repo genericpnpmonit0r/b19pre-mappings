@@ -1,3 +1,0 @@
-CLASS afi net/minecraft/src/J_InvalidSyntaxException
-	FIELD a column I
-	FIELD b row I

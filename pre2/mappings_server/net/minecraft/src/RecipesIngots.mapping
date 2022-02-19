@@ -1,4 +1,0 @@
-CLASS qr net/minecraft/src/RecipesIngots
-	METHOD a addRecipes (Lgt;)V
-		ARG 1 craftingManager
-	FIELD a recipeItems [[Ljava/lang/Object;

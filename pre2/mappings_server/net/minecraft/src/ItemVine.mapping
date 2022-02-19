@@ -1,5 +1,0 @@
-CLASS uh net/minecraft/src/ItemVine
-	FIELD a theBlock Lro;
-	METHOD <init> (IZ)V
-		ARG 1 id
-		ARG 2 subtypes

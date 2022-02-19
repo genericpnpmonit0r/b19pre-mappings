@@ -1,2 +1,0 @@
-CLASS aal net/minecraft/src/RenderSnowMan
-	FIELD c snowManModel Ldf;

@@ -1,9 +1,0 @@
-CLASS li net/minecraft/src/StringTranslate
-	METHOD a getInstance ()Lli;
-	METHOD a translateKey (Ljava/lang/String;)Ljava/lang/String;
-		ARG 1 key
-	METHOD a translateKeyFormat (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-		ARG 1 key
-		ARG 2 value
-	FIELD a instance Lli;
-	FIELD b translateTable Ljava/util/Properties;

@@ -1,6 +1,0 @@
-CLASS nr net/minecraft/src/Packet54PlayNoteBlock
-	FIELD a xLocation I
-	FIELD b yLocation I
-	FIELD c zLocation I
-	FIELD d instrumentType I
-	FIELD e pitch I

@@ -1,2 +1,0 @@
-CLASS ao net/minecraft/src/EnumDoorHelper
-	FIELD a doorEnum [I

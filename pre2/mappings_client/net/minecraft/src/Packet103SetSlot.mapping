@@ -1,3 +1,0 @@
-CLASS eu net/minecraft/src/Packet103SetSlot
-	FIELD a windowId I
-	FIELD b itemSlot I

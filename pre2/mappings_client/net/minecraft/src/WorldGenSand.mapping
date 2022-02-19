@@ -1,6 +1,0 @@
-CLASS dv net/minecraft/src/WorldGenSand
-	FIELD a sandID I
-	FIELD b sandCount I
-	METHOD <init> (II)V
-		ARG 1 count
-		ARG 2 id

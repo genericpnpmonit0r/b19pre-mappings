@@ -1,2 +1,0 @@
-CLASS cd net/minecraft/src/WeightedRandomChoice
-	FIELD d randomItem3 I

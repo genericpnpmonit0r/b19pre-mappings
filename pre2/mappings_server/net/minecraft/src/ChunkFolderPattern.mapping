@@ -1,4 +1,0 @@
-CLASS ca net/minecraft/src/ChunkFolderPattern
-	METHOD accept (Ljava/io/File;)Z
-		ARG 1 file
-	FIELD a folderRegexPattern Ljava/util/regex/Pattern;

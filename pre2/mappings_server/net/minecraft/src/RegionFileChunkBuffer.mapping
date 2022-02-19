@@ -1,8 +1,0 @@
-CLASS hf net/minecraft/src/RegionFileChunkBuffer
-	METHOD <init> (Lnt;II)V
-		ARG 1 regionFile
-		ARG 2 x
-		ARG 3 z
-	FIELD a regionFile Lnt;
-	FIELD b chunkX I
-	FIELD c chunkZ I

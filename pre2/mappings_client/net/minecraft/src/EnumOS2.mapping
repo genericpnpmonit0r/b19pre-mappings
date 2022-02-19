@@ -1,7 +1,0 @@
-CLASS aab net/minecraft/src/EnumOS2
-	FIELD a linux Laab;
-	FIELD b solaris Laab;
-	FIELD c windows Laab;
-	FIELD d macos Laab;
-	FIELD e unknown Laab;
-	FIELD f allOSes [Laab;

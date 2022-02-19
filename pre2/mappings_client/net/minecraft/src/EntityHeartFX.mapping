@@ -1,2 +1,0 @@
-CLASS wy net/minecraft/src/EntityHeartFX
-	FIELD a particleScaleOverTime F

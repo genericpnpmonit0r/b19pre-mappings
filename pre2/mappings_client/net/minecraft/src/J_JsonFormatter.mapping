@@ -1,2 +1,0 @@
-CLASS hm net/minecraft/src/J_JsonFormatter
-	METHOD a format (Ljy;)Ljava/lang/String;

@@ -1,6 +1,0 @@
-CLASS pf net/minecraft/src/ThreadedChunkLoaderPending
-	METHOD <init> (Lpp;Lza;)V
-		ARG 1 coordPair
-		ARG 2 tags
-	FIELD a chunkCoordinate Lpp;
-	FIELD b nbtTags Lza;
