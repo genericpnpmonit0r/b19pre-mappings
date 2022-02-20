@@ -1,0 +1,3 @@
+CLASS qh EnchantmentModifierLiving
+	FIELD a livingModifier I
+	FIELD b livingEntity Lzt;

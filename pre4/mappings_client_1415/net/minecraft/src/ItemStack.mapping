@@ -1,4 +1,9 @@
 CLASS xt net/minecraft/src/ItemStack
+	FIELD a stackSize I
+	FIELD b animationsToGo I
+	FIELD c itemID I
+	FIELD d stackTagCompound Laaw;
+	FIELD e itemDamage I
 	METHOD <init> (III)V
 		ARG 1 id
 		ARG 2 stackSize
@@ -96,6 +101,8 @@ CLASS xt net/minecraft/src/ItemStack
 	METHOD d isStackable ()Z
 	METHOD d addTagData (Laaw;)V
 		ARG 1 compoundTag
+	METHOD d isNonStackable (Lxt;)Z
+		ARG 1 itemStack
 	METHOD e isItemStackDamageable ()Z
 	METHOD f getHasSubtypes ()Z
 	METHOD g isItemDamaged ()Z
@@ -106,12 +113,9 @@ CLASS xt net/minecraft/src/ItemStack
 	METHOD l getMaxItemUseDuration ()I
 	METHOD m getItemUseAction ()Lxw;
 	METHOD n hasTagData ()Z
+	METHOD o addEnchantmentData ()Lmg;
+	METHOD p getEnchantmentData ()Ljava/util/List;
 	METHOD q itemHasItemStack ()Z
 	METHOD r getItemRarity ()Lex;
 	METHOD s hasData ()Z
 	METHOD t hasEnchantment ()Z
-	FIELD a stackSize I
-	FIELD b animationsToGo I
-	FIELD c itemID I
-	FIELD d stackTagCompound Laaw;
-	FIELD e itemDamage I

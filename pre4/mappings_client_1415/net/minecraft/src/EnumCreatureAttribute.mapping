@@ -1,4 +1,4 @@
-CLASS bb EnumCreatureAttribute
+CLASS bb net/minecraft/src/EnumCreatureAttribute
 	FIELD a UNDEFINED Lbb;
 	FIELD b UNDEAD Lbb;
 	FIELD c ARTHROPOD Lbb;

@@ -1,1 +1,10 @@
 CLASS lm net/minecraft/src/EnchantmentProtection
+	FIELD v protectionType I
+	FIELD w protectionName [Ljava/lang/String;
+	FIELD x baseEnchantability [I
+	FIELD y levelEnchantability [I
+	FIELD z thresholdEnchantability [I
+	METHOD <init> (III)V
+		ARG 1 id
+		ARG 2 weight
+		ARG 3 protType

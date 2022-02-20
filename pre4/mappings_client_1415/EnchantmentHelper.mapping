@@ -1,0 +1,25 @@
+CLASS afk EnchantmentHelper
+	FIELD a rand Ljava/util/Random;
+	FIELD b damageModifier Lhf;
+	FIELD c livingModifier Lqh;
+	METHOD a getMaxEnchantmentLevel (I[Lxt;)I
+		ARG 0 level
+		ARG 1 itemStacks
+	METHOD a applyEnchantmentModifier (Lr;Lxt;)V
+		ARG 0 enchantmentModifier
+		ARG 1 itemStack
+	METHOD a applyEnchantmentModifierArray (Lr;[Lxt;)V
+		ARG 0 enchantmentModifier
+		ARG 1 itemStacks
+	METHOD a getEnchantmentModifierDamage (Lxq;Lkz;)I
+		ARG 0 inventoryPlayer
+		ARG 1 damageSrc
+	METHOD a getEnchantmentModifierLiving (Lxq;Lzt;)I
+		ARG 0 inventoryPlayer
+		ARG 1 living
+	METHOD b getEnchantmentLevel (ILxt;)I
+		ARG 0 level
+		ARG 1 itemStack
+	METHOD b getKnockbackModifier (Lxq;Lzt;)I
+		ARG 0 inventoryPlayer
+		ARG 1 living

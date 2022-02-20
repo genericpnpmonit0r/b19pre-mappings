@@ -1,0 +1,4 @@
+CLASS r IEnchantmentModifier
+	METHOD a calculateModifier (Lit;I)V
+		ARG 1 ench
+		ARG 2 modifier

@@ -1,4 +1,4 @@
-CLASS it Enchantment
+CLASS it net/minecraft/src/Enchantment
 	FIELD a enchantmentsList [Lit;
 	FIELD b protection Lit;
 	FIELD c fireProtection Lit;
@@ -22,7 +22,7 @@ CLASS it Enchantment
 	FIELD u name Ljava/lang/String;
 	FIELD v weight I
 	METHOD <init> (IILkx;)V
-		ARG 1 en
+		ARG 1 id
 		ARG 2 weight
 		ARG 3 type
 	METHOD a getMaxLevel ()I

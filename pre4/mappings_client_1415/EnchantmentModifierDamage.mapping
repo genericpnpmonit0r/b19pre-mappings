@@ -1,0 +1,3 @@
+CLASS hf EnchantmentModifierDamage
+	FIELD a damageModifier I
+	FIELD b damageSource Lkz;
