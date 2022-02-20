@@ -84,6 +84,7 @@ CLASS il net/minecraft/src/ItemStack
 	METHOD b copyItemStack (Lil;)Lil;
 		ARG 0 itemStack
 	METHOD b writeToNBT (Lml;)Lml;
+		ARG 1 compoundTag
 	METHOD b canHarvestBlock (Lsl;)Z
 		ARG 1 block
 	METHOD c isStackable ()Z
