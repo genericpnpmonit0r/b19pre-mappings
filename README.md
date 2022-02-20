@@ -16,13 +16,13 @@ There will be field_ and func_ names from 1.0.0 MCP as that was used as a base f
 
 # Versions
 
-- b1.9pre1 (client and server)
+- b1.9pre1 ( client and server )
 
 	Mostly complete, might be some missing field and method names here or there.
 
-- b1.9pre2  
+- b1.9pre2 ( client and server )
 
-	Work in progress
+	Mostly complete
 	
 - b1.9pre3
 
