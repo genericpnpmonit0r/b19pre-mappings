@@ -1,62 +1,4 @@
 CLASS rz net/minecraft/src/RenderBlocks
-	METHOD <init> (Lafm;)V
-		ARG 1 blockAccess
-	METHOD a renderPistonRodUD (DDDDDDFD)V
-	METHOD a renderItemIn3d (I)Z
-	METHOD a renderLightOnBlock (IIII)Z
-	METHOD a getFluidHeight (IIILxu;)F
-	METHOD a renderBlockMinecartTrack (Laaa;III)Z
-	METHOD a renderBlockFenceGate (Lads;III)Z
-	METHOD a renderBlockPane (Laex;III)Z
-	METHOD a renderTorchAtAngle (Lmq;DDDDD)V
-	METHOD a renderBottomFace (Lmq;DDDI)V
-	METHOD a renderCrossedSquares (Lmq;IDDD)V
-	METHOD a renderBlockStemSmall (Lmq;IDDDD)V
-	METHOD a renderBlockOnInventory (Lmq;IF)V
-	METHOD a renderBlockStemBig (Lmq;IIDDDD)V
-	METHOD a renderBlockAllFaces (Lmq;III)V
-	METHOD a renderStandardBlockWithAmbientOcclusion (Lmq;IIIFFF)Z
-	METHOD a renderBlockUsingTexture (Lmq;IIII)V
-	METHOD a renderPistonExtensionAllFaces (Lmq;IIIZ)V
-	METHOD a renderBlockFallingSand (Lmq;Lti;III)V
-	METHOD a renderBlockFence (Lwt;III)Z
-	METHOD b renderPistonRodSN (DDDDDDFD)V
-	METHOD b renderCorrectedLightOnBlock (IIII)Z
-	METHOD b renderTopFace (Lmq;DDDI)V
-	METHOD b renderBlockCropsImpl (Lmq;IDDD)V
-	METHOD b renderBlockByRenderType (Lmq;III)Z
-		ARG 1 block
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD b renderStandardBlockWithColorMultiplier (Lmq;IIIFFF)Z
-	METHOD b renderPistonBase (Lmq;IIIZ)Z
-	METHOD c renderPistonRodEW (DDDDDDFD)V
-	METHOD c getAoBrightness (IIII)I
-	METHOD c renderEastFace (Lmq;DDDI)V
-	METHOD c renderBlockTorch (Lmq;III)Z
-	METHOD c renderBlockCactusImpl (Lmq;IIIFFF)Z
-	METHOD c renderPistonExtension (Lmq;IIIZ)Z
-	METHOD d renderWestFace (Lmq;DDDI)V
-	METHOD d renderPistonBaseAllFaces (Lmq;III)V
-	METHOD e renderNorthFace (Lmq;DDDI)V
-	METHOD e renderBlockLever (Lmq;III)Z
-	METHOD f renderSouthFace (Lmq;DDDI)V
-	METHOD f renderBlockFire (Lmq;III)Z
-	METHOD g renderBlockRedstoneWire (Lmq;III)Z
-	METHOD h renderBlockLadder (Lmq;III)Z
-	METHOD i renderBlockVine (Lmq;III)Z
-	METHOD j renderBlockReed (Lmq;III)Z
-	METHOD k renderBlockStem (Lmq;III)Z
-	METHOD l renderBlockCrops (Lmq;III)Z
-	METHOD m renderBlockLilyPad (Lmq;III)Z
-	METHOD n renderBlockFluids (Lmq;III)Z
-	METHOD o renderStandardBlock (Lmq;III)Z
-	METHOD p renderBlockCactus (Lmq;III)Z
-	METHOD q renderBlockStairs (Lmq;III)Z
-	METHOD r renderBlockDoor (Lmq;III)Z
-	METHOD s renderBlockBed (Lmq;III)Z
-	METHOD t renderBlockRepeater (Lmq;III)Z
 	FIELD A aoLightValueScratchXYZPNN F
 	FIELD B aoLightValueScratchXYPN F
 	FIELD C aoLightValueScratchXYZPNP F
@@ -147,3 +89,62 @@ CLASS rz net/minecraft/src/RenderBlocks
 	FIELD x aoLightValueScratchXYZNNP F
 	FIELD y aoLightValueScratchYZNN F
 	FIELD z aoLightValueScratchYZNP F
+	METHOD <init> (Lafm;)V
+		ARG 1 blockAccess
+	METHOD a renderPistonRodUD (DDDDDDFD)V
+	METHOD a renderItemIn3d (I)Z
+	METHOD a renderLightOnBlock (IIII)Z
+	METHOD a getFluidHeight (IIILxu;)F
+	METHOD a renderBlockMinecartTrack (Laaa;III)Z
+	METHOD a renderBlockFenceGate (Lads;III)Z
+	METHOD a renderBlockPane (Laex;III)Z
+	METHOD a renderTorchAtAngle (Lmq;DDDDD)V
+	METHOD a renderBottomFace (Lmq;DDDI)V
+	METHOD a renderCrossedSquares (Lmq;IDDD)V
+	METHOD a renderBlockStemSmall (Lmq;IDDDD)V
+	METHOD a renderBlockOnInventory (Lmq;IF)V
+	METHOD a renderBlockStemBig (Lmq;IIDDDD)V
+	METHOD a renderBlockAllFaces (Lmq;III)V
+	METHOD a renderStandardBlockWithAmbientOcclusion (Lmq;IIIFFF)Z
+	METHOD a renderBlockUsingTexture (Lmq;IIII)V
+	METHOD a renderPistonExtensionAllFaces (Lmq;IIIZ)V
+	METHOD a renderBlockFallingSand (Lmq;Lti;III)V
+	METHOD a renderBlockCauldron (Lto;III)Z
+	METHOD a renderBlockFence (Lwt;III)Z
+	METHOD b renderPistonRodSN (DDDDDDFD)V
+	METHOD b renderCorrectedLightOnBlock (IIII)Z
+	METHOD b renderTopFace (Lmq;DDDI)V
+	METHOD b renderBlockCropsImpl (Lmq;IDDD)V
+	METHOD b renderBlockByRenderType (Lmq;III)Z
+		ARG 1 block
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b renderStandardBlockWithColorMultiplier (Lmq;IIIFFF)Z
+	METHOD b renderPistonBase (Lmq;IIIZ)Z
+	METHOD c renderPistonRodEW (DDDDDDFD)V
+	METHOD c getAoBrightness (IIII)I
+	METHOD c renderEastFace (Lmq;DDDI)V
+	METHOD c renderBlockTorch (Lmq;III)Z
+	METHOD c renderBlockCactusImpl (Lmq;IIIFFF)Z
+	METHOD c renderPistonExtension (Lmq;IIIZ)Z
+	METHOD d renderWestFace (Lmq;DDDI)V
+	METHOD d renderPistonBaseAllFaces (Lmq;III)V
+	METHOD e renderNorthFace (Lmq;DDDI)V
+	METHOD e renderBlockLever (Lmq;III)Z
+	METHOD f renderSouthFace (Lmq;DDDI)V
+	METHOD f renderBlockFire (Lmq;III)Z
+	METHOD g renderBlockRedstoneWire (Lmq;III)Z
+	METHOD h renderBlockLadder (Lmq;III)Z
+	METHOD i renderBlockVine (Lmq;III)Z
+	METHOD j renderBlockReed (Lmq;III)Z
+	METHOD k renderBlockStem (Lmq;III)Z
+	METHOD l renderBlockCrops (Lmq;III)Z
+	METHOD m renderBlockLilyPad (Lmq;III)Z
+	METHOD n renderBlockFluids (Lmq;III)Z
+	METHOD o renderStandardBlock (Lmq;III)Z
+	METHOD p renderBlockCactus (Lmq;III)Z
+	METHOD q renderBlockStairs (Lmq;III)Z
+	METHOD r renderBlockDoor (Lmq;III)Z
+	METHOD s renderBlockBed (Lmq;III)Z
+	METHOD t renderBlockRepeater (Lmq;III)Z
