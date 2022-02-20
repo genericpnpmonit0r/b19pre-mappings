@@ -1,0 +1,16 @@
+CLASS un net/minecraft/src/GuiMainMenu
+	FIELD a rand Ljava/util/Random;
+	FIELD c splashText Ljava/lang/String;
+	FIELD d multiplayerButton Lxy;
+	FIELD e updateCounter I
+	FIELD f viewportTexture I
+	METHOD a rotateAndBlurSkybox (F)V
+		ARG 1 layer
+	METHOD b drawPanorama (IIF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 layer
+	METHOD c renderSkybox (IIF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 layer

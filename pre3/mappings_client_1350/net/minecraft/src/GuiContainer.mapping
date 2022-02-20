@@ -11,6 +11,9 @@ CLASS fc net/minecraft/src/GuiContainer
 		ARG 1 layer
 		ARG 2 x
 		ARG 3 y
+	METHOD a getSlotAtPosition (II)Lvh;
+		ARG 1 x
+		ARG 2 y
 	METHOD a drawSlotInventory (Lvh;)V
 		ARG 1 slot
 	METHOD a getIsMouseOverSlot (Lvh;II)Z

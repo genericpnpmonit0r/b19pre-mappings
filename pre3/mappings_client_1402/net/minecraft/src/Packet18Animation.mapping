@@ -1,0 +1,6 @@
+CLASS iv net/minecraft/src/Packet18Animation
+	FIELD a entityId I
+	FIELD b animate I
+	METHOD <init> (Llu;I)V
+		ARG 1 entity
+		ARG 2 animate

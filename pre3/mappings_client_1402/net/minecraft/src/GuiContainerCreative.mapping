@@ -1,0 +1,8 @@
+CLASS ql net/minecraft/src/GuiContainerCreative
+	FIELD h inventory Lko;
+	FIELD i field_35312_g F
+	FIELD j field_35313_h Z
+	FIELD k field_35314_i Z
+	METHOD <init> (Lvj;)V
+		ARG 1 player
+	METHOD g getInventory ()Lko;

@@ -1,0 +1,4 @@
+CLASS pe net/minecraft/src/NetworkMasterThread
+	METHOD <init> (Lju;)V
+		ARG 1 networkManager
+	FIELD a netManager Lju;

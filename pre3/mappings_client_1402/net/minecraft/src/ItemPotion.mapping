@@ -1,0 +1,6 @@
+CLASS do net/minecraft/src/ItemPotion
+	FIELD a effectCache Ljava/util/HashMap;
+	METHOD a_ getEffects (Lwy;)Ljava/util/List;
+		ARG 1 itemStack
+	METHOD b_ getEffects_do (I)Ljava/util/List;
+		ARG 1 itemMEtadata

@@ -1,0 +1,5 @@
+CLASS pg net/minecraft/src/NetworkReaderThread
+	METHOD <init> (Lju;Ljava/lang/String;)V
+		ARG 1 networkManager
+		ARG 2 name
+	FIELD a netManager Lju;

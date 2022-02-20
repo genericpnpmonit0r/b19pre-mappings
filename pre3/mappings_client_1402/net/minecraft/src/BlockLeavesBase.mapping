@@ -1,0 +1,7 @@
+CLASS ix net/minecraft/src/BlockLeavesBase
+	FIELD a graphicsLevel Z
+	METHOD <init> (IILyr;Z)V
+		ARG 1 id
+		ARG 2 texIndex
+		ARG 3 material
+		ARG 4 gfxLevel

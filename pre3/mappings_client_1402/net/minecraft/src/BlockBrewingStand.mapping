@@ -1,0 +1,4 @@
+CLASS ub net/minecraft/src/BlockBrewingStand
+	FIELD a rand Ljava/util/Random;
+	METHOD <init> (I)V
+		ARG 1 id

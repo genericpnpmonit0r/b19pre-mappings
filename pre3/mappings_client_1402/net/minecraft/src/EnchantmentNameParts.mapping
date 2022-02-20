@@ -1,0 +1,7 @@
+CLASS fy net/minecraft/src/EnchantmentNameParts
+	METHOD a generateRandomEnchantName ()Ljava/lang/String;
+	METHOD a setRandSeed (J)V
+		ARG 1 seed
+	FIELD a instance Lfy;
+	FIELD b rand Ljava/util/Random;
+	FIELD c wordList [Ljava/lang/String;

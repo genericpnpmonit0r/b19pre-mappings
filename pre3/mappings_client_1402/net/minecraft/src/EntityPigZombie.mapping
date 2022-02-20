@@ -1,0 +1,6 @@
+CLASS agz net/minecraft/src/EntityPigZombie
+	FIELD a angerLevel I
+	FIELD b randomSoundDelay I
+	FIELD d defaultHeldItem Lwy;
+	METHOD c becomeAngryAt (Llu;)V
+		ARG 1 entity

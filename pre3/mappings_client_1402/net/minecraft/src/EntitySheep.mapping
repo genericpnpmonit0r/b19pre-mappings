@@ -1,0 +1,10 @@
+CLASS ce net/minecraft/src/EntitySheep
+	FIELD a fleeceColorTable [[F
+	METHOD a getRandomFleeceColor (Ljava/util/Random;)I
+		ARG 0 rand
+	METHOD b setFleeceColor (I)V
+		ARG 1 color
+	METHOD b setSheared (Z)V
+		ARG 1 sheared
+	METHOD q getFleeceColor ()I
+	METHOD r getSheared ()Z

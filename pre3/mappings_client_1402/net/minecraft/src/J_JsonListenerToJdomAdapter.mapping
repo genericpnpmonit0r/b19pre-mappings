@@ -1,0 +1,8 @@
+CLASS yw net/minecraft/src/J_JsonListenerToJdomAdapter
+	FIELD a stack Ljava/util/Stack;
+	FIELD b root Lyi;
+	METHOD a getDocument ()Lkj;
+	METHOD a addRootNode (Lyi;)V
+		ARG 1 jsonNodeBuilder
+	METHOD b addValue (Lyi;)V
+		ARG 1 jsonNodeBuilder

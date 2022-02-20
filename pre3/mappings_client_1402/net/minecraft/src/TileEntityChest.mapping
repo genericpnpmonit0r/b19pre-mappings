@@ -1,0 +1,12 @@
+CLASS gb net/minecraft/src/TileEntityChest
+	FIELD a adjacentChestChecked Z
+	FIELD b adjacentChestZNeg Lgb;
+	FIELD c adjacentChestXPos Lgb;
+	FIELD d adjacentChestXNeg Lgb;
+	FIELD e adjacentChestZPosition Lgb;
+	FIELD f lidAngle F
+	FIELD g prevLidAngle F
+	FIELD h numUsingPlayers I
+	FIELD p chestContents [Lwy;
+	FIELD q ticksSinceSync I
+	METHOD g checkAdjacentChests ()V

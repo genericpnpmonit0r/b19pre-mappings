@@ -1,0 +1,4 @@
+CLASS ti net/minecraft/src/Packet201PlayerInfo
+	FIELD a playerName Ljava/lang/String;
+	FIELD b isConnected Z
+	FIELD c ping I

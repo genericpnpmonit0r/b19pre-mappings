@@ -1,0 +1,27 @@
+CLASS gv net/minecraft/src/PotionHelper
+	METHOD a isFlagSet2 (I)I
+	METHOD a aaaa_A (II)Z
+	METHOD a aaa_aaaaa_aa (IIIIII)I
+	METHOD a aaaaa_AAAAA_ (IIZZZ)I
+	METHOD a aa_Aaa_AA_A_A_A_a__A_A_A (ILjava/lang/String;)I
+	METHOD a aaaa_Aaa_ (IZ)Ljava/util/List;
+	METHOD a aaaAa_AA_A_A_A (Ljava/lang/String;III)I
+	METHOD a isFlagSet3 (Ljava/util/List;)I
+		ARG 0 theList
+	METHOD a aaa_Aa_A (ZZZIIII)I
+	METHOD b potionNames (I)Ljava/lang/String;
+	METHOD b checkFlag (II)I
+	METHOD c cc_Cc_Ccc (I)I
+	METHOD c isFlagSet (II)I
+	FIELD a theNull Ljava/lang/String;
+	FIELD b prefix012344___ Ljava/lang/String;
+	FIELD c prefix012344____ Ljava/lang/String;
+	FIELD d prefix012344_ Ljava/lang/String;
+	FIELD e prefix034 Ljava/lang/String;
+	FIELD f prefix012344 Ljava/lang/String;
+	FIELD g prefix012344__ Ljava/lang/String;
+	FIELD h prefix567_2 Ljava/lang/String;
+	FIELD i prefix567 Ljava/lang/String;
+	FIELD j potionRequirements Ljava/util/HashMap;
+	FIELD k potionAmplifiers Ljava/util/HashMap;
+	FIELD l potionPrefixes [Ljava/lang/String;

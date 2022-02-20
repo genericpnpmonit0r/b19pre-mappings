@@ -1,0 +1,28 @@
+CLASS aho net/minecraft/src/ItemFood
+	FIELD a maxItemUseDuration I
+	FIELD b healAmount I
+	FIELD bR isWolfsFavoriteMeat Z
+	FIELD bS isEating Z
+	FIELD bT potionId I
+	FIELD bU potionDuration I
+	FIELD bV potionAmplifier I
+	FIELD bW potionEffectProbability F
+	FIELD c saturationModifier F
+	METHOD <init> (IIFZ)V
+		ARG 1 id
+		ARG 2 healAmount
+		ARG 3 saturationModifier
+		ARG 4 isWolfsFavorite
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 healAmount
+		ARG 3 isWolfsFavorite
+	METHOD a setPotionEffect (IIIF)Laho;
+		ARG 1 id
+		ARG 2 duration
+		ARG 3 amplifier
+		ARG 4 probability
+	METHOD n getHealAmount ()I
+	METHOD o getSaturationModifier ()F
+	METHOD p getIsWolfsFavoriteMeat ()Z
+	METHOD q getIsEating ()Laho;

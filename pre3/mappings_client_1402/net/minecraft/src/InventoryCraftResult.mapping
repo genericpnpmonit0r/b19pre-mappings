@@ -1,0 +1,2 @@
+CLASS afw net/minecraft/src/InventoryCraftResult
+	FIELD a stackResult [Lwy;

@@ -1,0 +1,2 @@
+CLASS aal net/minecraft/src/RenderTNTPrimed
+	FIELD a blockRenderer Lsr;

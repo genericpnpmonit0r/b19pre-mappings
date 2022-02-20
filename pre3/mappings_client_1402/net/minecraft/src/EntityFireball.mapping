@@ -1,0 +1,28 @@
+CLASS be net/minecraft/src/EntityFireball
+	FIELD a shooter Lyv;
+	FIELD ao yTile I
+	FIELD ap zTile I
+	FIELD aq inTile I
+	FIELD ar inGround Z
+	FIELD as ticksAlive I
+	FIELD at ticksInAir I
+	FIELD b accelerationX D
+	FIELD c accelerationY D
+	FIELD d accelerationZ D
+	FIELD e xTile I
+	METHOD <init> (Luc;DDDDDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 yaw
+		ARG 10 pitch
+		ARG 12 d
+	METHOD <init> (Luc;Lyv;DDD)V
+		ARG 1 world
+		ARG 2 living
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+	METHOD a collideOn (Lnm;)V
+		ARG 1 movingObjectPos

@@ -1,0 +1,10 @@
+CLASS ru net/minecraft/src/EntityGhast
+	FIELD a courseChangeCooldown I
+	FIELD ao attackCounter I
+	FIELD ap targetedEntity Llu;
+	FIELD aq aggroCooldown I
+	FIELD b waypointX D
+	FIELD c waypointY D
+	FIELD d waypointZ D
+	FIELD e prevAttackCounter I
+	METHOD a isCourseTraversable (DDDD)Z

@@ -1,0 +1,4 @@
+CLASS qr net/minecraft/src/ModelMagmaCube
+	FIELD a field_40345_a [Lon;
+	FIELD b field_40344_b Lon;
+	METHOD a func_40343_a ()I

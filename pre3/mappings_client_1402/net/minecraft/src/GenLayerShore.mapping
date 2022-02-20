@@ -1,0 +1,4 @@
+CLASS wp net/minecraft/src/GenLayerShore
+	METHOD <init> (JLto;)V
+		ARG 1 seed
+		ARG 3 layer

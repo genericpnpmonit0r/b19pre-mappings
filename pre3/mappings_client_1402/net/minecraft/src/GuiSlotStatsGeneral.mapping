@@ -1,0 +1,2 @@
+CLASS lz net/minecraft/src/GuiSlotStatsGeneral
+	FIELD a field_27276_a Lcm;

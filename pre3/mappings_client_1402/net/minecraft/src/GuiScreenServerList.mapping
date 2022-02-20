@@ -1,0 +1,7 @@
+CLASS zb net/minecraft/src/GuiScreenServerList
+	FIELD a guiScreen Lsv;
+	FIELD b serverTextField Laco;
+	FIELD c serverStorage Lmg;
+	METHOD <init> (Lsv;Lmg;)V
+		ARG 1 screen
+		ARG 2 serverNBTStorage

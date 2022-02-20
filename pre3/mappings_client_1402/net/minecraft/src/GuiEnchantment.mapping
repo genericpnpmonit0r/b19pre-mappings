@@ -1,0 +1,5 @@
+CLASS qg net/minecraft/src/GuiEnchantment
+	FIELD o theItemStack Lwy;
+	FIELD w enchBook Ljx;
+	FIELD x rand Ljava/util/Random;
+	FIELD y enchContainer Lfl;

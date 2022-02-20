@@ -1,0 +1,6 @@
+CLASS bd net/minecraft/src/ContainerChest
+	FIELD a lowerChestInventory Lhk;
+	FIELD b numRows I
+	METHOD <init> (Lhk;Lhk;)V
+		ARG 1 inventory1
+		ARG 2 inventory2

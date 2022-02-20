@@ -1,0 +1,4 @@
+CLASS aen net/minecraft/src/StructureStrongholdEndPortalPicker
+	FIELD c portalroom Lyq;
+	METHOD <init> (Lyq;)V
+		ARG 1 portalRoom

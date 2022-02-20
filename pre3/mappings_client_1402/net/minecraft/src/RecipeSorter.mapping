@@ -1,0 +1,7 @@
+CLASS gu net/minecraft/src/RecipeSorter
+	METHOD <init> (Leu;)V
+		ARG 1 craftingManager
+	METHOD compare (Ljava/lang/Object;Ljava/lang/Object;)I
+		ARG 1 recipe1
+		ARG 2 recipe2
+	FIELD a craftingManager Leu;

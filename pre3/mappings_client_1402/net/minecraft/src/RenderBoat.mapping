@@ -1,0 +1,2 @@
+CLASS dh net/minecraft/src/RenderBoat
+	FIELD a modelBoat Lgm;

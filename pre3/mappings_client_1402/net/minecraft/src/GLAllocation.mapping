@@ -1,0 +1,16 @@
+CLASS dz net/minecraft/src/GLAllocation
+	METHOD a deleteTexturesAndDisplayLists ()V
+	METHOD a generateDisplayLists (I)I
+		ARG 0 dispList
+	METHOD a generateTextureNames (Ljava/nio/IntBuffer;)V
+		ARG 0 intBuffer
+	METHOD b deleteDisplayLists (I)V
+		ARG 0 dispList
+	METHOD c createDirectByteBuffer (I)Ljava/nio/ByteBuffer;
+		ARG 0 bufferSize
+	METHOD d createDirectIntBuffer (I)Ljava/nio/IntBuffer;
+		ARG 0 bufferSize
+	METHOD e createDirectFloatBuffer (I)Ljava/nio/FloatBuffer;
+		ARG 0 bufferSize
+	FIELD a displayLists Ljava/util/List;
+	FIELD b textureNames Ljava/util/List;

@@ -1,0 +1,12 @@
+CLASS si net/minecraft/src/TileEntityEnchantmentTable
+	FIELD a tickCount I
+	FIELD b pageFlip F
+	FIELD c pageFlipPrev F
+	FIELD d randomPageFlip F
+	FIELD e prevPageFlip F
+	FIELD f bookSpread F
+	FIELD g bookSpreadPrev F
+	FIELD h bookRotation2 F
+	FIELD p bookRotationPrev F
+	FIELD q bookRotation F
+	FIELD r rand Ljava/util/Random;

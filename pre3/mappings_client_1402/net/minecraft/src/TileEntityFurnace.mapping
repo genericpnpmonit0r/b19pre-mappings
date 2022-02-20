@@ -1,0 +1,11 @@
+CLASS acz net/minecraft/src/TileEntityFurnace
+	FIELD a furnaceBurnTime I
+	FIELD b currentItemBurnTime I
+	FIELD c furnaceCookTime I
+	FIELD d furnaceItemStacks [Lwy;
+	METHOD a getItemBurnTime (Lwy;)I
+	METHOD b getCookProgressScaled (I)I
+	METHOD c getBurnTimeRemainingScaled (I)I
+	METHOD g isBurning ()Z
+	METHOD n smeltItem ()V
+	METHOD o canSmelt ()Z

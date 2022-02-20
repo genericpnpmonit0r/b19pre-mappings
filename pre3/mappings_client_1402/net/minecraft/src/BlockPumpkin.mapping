@@ -1,0 +1,6 @@
+CLASS tz net/minecraft/src/BlockPumpkin
+	FIELD a blockType Z
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 texIndex
+		ARG 3 isLit

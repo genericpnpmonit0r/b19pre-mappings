@@ -1,0 +1,5 @@
+CLASS acr net/minecraft/src/EnumMobType
+	FIELD a everything Lacr;
+	FIELD b mobs Lacr;
+	FIELD c players Lacr;
+	FIELD d allMobTypes [Lacr;

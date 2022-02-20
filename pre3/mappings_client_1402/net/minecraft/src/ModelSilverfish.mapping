@@ -1,0 +1,7 @@
+CLASS aem net/minecraft/src/ModelSilverfish
+	FIELD a silverfishBodyParts [Lon;
+	FIELD b silverfishWings [Lon;
+	FIELD c field_35399_c [F
+	FIELD d silverfishBoxLength [[I
+	FIELD e silverfishTexturePositions [[I
+	METHOD a func_35395_a ()I

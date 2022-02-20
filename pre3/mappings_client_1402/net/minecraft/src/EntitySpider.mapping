@@ -1,0 +1,2 @@
+CLASS bl net/minecraft/src/EntitySpider
+	METHOD q spiderScaleAmount ()F

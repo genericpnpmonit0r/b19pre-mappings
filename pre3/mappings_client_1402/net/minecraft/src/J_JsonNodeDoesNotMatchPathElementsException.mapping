@@ -1,0 +1,5 @@
+CLASS rc net/minecraft/src/J_JsonNodeDoesNotMatchPathElementsException
+	METHOD a func_27319_a (Lzk;[Ljava/lang/Object;Lkj;)Lrc;
+	METHOD a func_27317_a ([Ljava/lang/Object;)Ljava/lang/String;
+	METHOD b func_27318_b (Lzk;[Ljava/lang/Object;Lkj;)Ljava/lang/String;
+	FIELD a field_27320_a Lhu;

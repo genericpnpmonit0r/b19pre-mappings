@@ -1,0 +1,2 @@
+CLASS adf net/minecraft/src/RenderMinecart
+	FIELD a modelMinecart Lgm;

@@ -1,0 +1,123 @@
+CLASS mj net/minecraft/src/NetHandler
+	METHOD a isServerHandler ()Z
+	METHOD a handleUseEntity (La;)V
+		ARG 1 packet7UseEntity
+	METHOD a handleLogin (Laad;)V
+		ARG 1 packet1Login
+	METHOD a handleChat (Laba;)V
+		ARG 1 packet3Chat
+	METHOD a handlePosition (Labx;)V
+		ARG 1 packet27Position
+	METHOD a processItemData (Lac;)V
+		ARG 1 packet131MapData
+	METHOD a handleWindowClick (Lacc;)V
+		ARG 1 packet102WindowClick
+	METHOD a handleSpawnPosition (Lach;)V
+		ARG 1 packet6SpawnPosition
+	METHOD a handleExplosion (Lacm;)V
+		ARG 1 packet60Explosion
+	METHOD a handleDestroyEntity (Lacs;)V
+		ARG 1 packet29DestroyEntity
+	METHOD a handlePreChunk (Lacw;)V
+		ARG 1 packet50PreChunk
+	METHOD a handleEntityAction (Ladx;)V
+		ARG 1 packet19EntityAnimation
+	METHOD a handleEntity (Laeh;)V
+		ARG 1 packet30Entity
+	METHOD a handleUpdateSign (Lael;)V
+		ARG 1 packet130UpdateSign
+	METHOD a handleMultiBlockChange (Lage;)V
+		ARG 1 packet52MultiBlockChange
+	METHOD a handleKickDisconnect (Lahk;)V
+		ARG 1 packet255KickDisconnect
+	METHOD a handleCreativeSetSlot (Lcl;)V
+		ARG 1 packet107CreativeSetSlot
+	METHOD a handleHealth (Lda;)V
+		ARG 1 packet8UpdateHealth
+	METHOD a handleAuxSFX (Ldp;)V
+		ARG 1 packet61DoorChange
+	METHOD a handlePlace (Lej;)V
+		ARG 1 packet15Place
+	METHOD a handleSetSlot (Lex;)V
+		ARG 1 packet103SetSlot
+	METHOD a handleFlying (Lff;)V
+		ARG 1 packet10Flying
+	METHOD a handleOpenWindow (Lfr;)V
+		ARG 1 packet100OpenWindow
+	METHOD a handleEntityStatus (Lfu;)V
+		ARG 1 packet38EntityStatus
+	METHOD a handleBlockDig (Lgc;)V
+		ARG 1 packet14BlockDig
+	METHOD a handleExperience (Lhd;)V
+		ARG 1 packet43Experience
+	METHOD a handleNamedEntitySpawn (Lhr;)V
+		ARG 1 packet20NamedEntitySpawn
+	METHOD a handleHandshake (Lhy;)V
+		ARG 1 packet2Handshake
+	METHOD a handleCraftingProgress (Lie;)V
+		ARG 1 packet105UpdateProgressBar
+	METHOD a handlePickupSpawn (Lii;)V
+		ARG 1 packet21PickupSpawn
+	METHOD a handleArmAnimation (Liv;)V
+		ARG 1 packet18Animation
+	METHOD a handleErrorMessage (Ljava/lang/String;[Ljava/lang/Object;)V
+		ARG 1 reason
+		ARG 2 reasonObj
+	METHOD a handleStatistic (Ljb;)V
+		ARG 1 packet200Stat
+	METHOD a handleContainerTransaction (Ljg;)V
+		ARG 1 packet160Transaction
+	METHOD a handleRespawn (Ljn;)V
+		ARG 1 packet9Respawn
+	METHOD a handleXPOrb (Ljw;)V
+		ARG 1 packet26EntityXPOrb
+	METHOD a handleEntityTeleport (Llc;)V
+		ARG 1 packet34EntityTeleport
+	METHOD a handleVehicleSpawn (Llw;)V
+		ARG 1 packet23VechileSpawn
+	METHOD a handleBlockChange (Lmo;)V
+		ARG 1 packet53BlockChange
+	METHOD a handleEntityMetadata (Lng;)V
+		ARG 1 packet40EntityMeta
+	METHOD a handleEntityPainting (Lob;)V
+		ARG 1 packet25EntityPainting
+	METHOD a handleNotePlay (Lof;)V
+		ARG 1 packet54Playnoteblock
+	METHOD a handlePlayerInventory (Lqs;)V
+		ARG 1 packet5PlayerInventory
+	METHOD a handleBedUpdate (Lsd;)V
+		ARG 1 packet70Bed
+	METHOD a handleCollect (Lta;)V
+		ARG 1 packet22Collect
+	METHOD a handleServerPing (Ltb;)V
+		ARG 1 packet254ServerPing
+	METHOD a handleEntityEffect (Ltc;)V
+		ARG 1 packet41EntityEffect
+	METHOD a handlePlayerInfo (Lti;)V
+		ARG 1 packet201PlayerInfo
+	METHOD a handleMapChunk (Ltp;)V
+		ARG 1 packet51MapChunk
+	METHOD a handleWeather (Lty;)V
+		ARG 1 packet71Weather
+	METHOD a handleEntityVelocity (Lvb;)V
+		ARG 1 packet28EntityVelocity
+	METHOD a handleUpdateTime (Lvs;)V
+		ARG 1 packet4UpdateTime
+	METHOD a handleBlockItemSwitch (Lvx;)V
+		ARG 1 packet16BlockItemSwitch
+	METHOD a handleMobSpawn (Lxi;)V
+		ARG 1 packet24MobSpawn
+	METHOD a handleSleep (Lxt;)V
+		ARG 1 packet17Sleep
+	METHOD a handleWindowItems (Lxu;)V
+		ARG 1 packet104WindowItems
+	METHOD a registerPacket (Lyb;)V
+		ARG 1 packet
+	METHOD a handleKeepAlive (Lyz;)V
+		ARG 1 packet0KeepAlive
+	METHOD a handleCloseWindow (Lzd;)V
+		ARG 1 packet101Closewindow
+	METHOD a handleRemoveEntityEffect (Lzp;)V
+		ARG 1 packet42RemoveEntityFX
+	METHOD a handleAttachEntity (Lzu;)V
+		ARG 1 packet39AttachEntity

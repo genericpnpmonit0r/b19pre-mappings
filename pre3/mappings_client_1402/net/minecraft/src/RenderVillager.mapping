@@ -1,0 +1,2 @@
+CLASS vo net/minecraft/src/RenderVillager
+	FIELD c villagerModel Lsj;

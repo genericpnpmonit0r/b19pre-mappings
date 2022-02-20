@@ -1,0 +1,15 @@
+CLASS agu net/minecraft/src/EntitySquid
+	FIELD a squidPitch F
+	FIELD ao field_21084_h F
+	FIELD ap tentacleAngle F
+	FIELD at prevTentacleAngle F
+	FIELD au randomMotionSpeed F
+	FIELD av field_21080_l F
+	FIELD aw field_21079_m F
+	FIELD ax randomMotionVecX F
+	FIELD ay randomMotionVecY F
+	FIELD az randomMotionVecZ F
+	FIELD b prevSquidPitch F
+	FIELD c squidYaw F
+	FIELD d prevSquidYaw F
+	FIELD e field_21085_g F

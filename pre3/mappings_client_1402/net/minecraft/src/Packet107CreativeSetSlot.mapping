@@ -1,0 +1,10 @@
+CLASS cl net/minecraft/src/Packet107CreativeSetSlot
+	FIELD a slot I
+	FIELD b id I
+	FIELD c count I
+	FIELD d meta I
+	METHOD <init> (IIII)V
+		ARG 1 slot
+		ARG 2 id
+		ARG 3 count
+		ARG 4 meta

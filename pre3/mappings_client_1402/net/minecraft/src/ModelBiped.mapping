@@ -1,0 +1,16 @@
+CLASS ue net/minecraft/src/ModelBiped
+	FIELD c bipedHead Lon;
+	FIELD d bipedHeadwear Lon;
+	FIELD e bipedBody Lon;
+	FIELD f bipedRightArm Lon;
+	FIELD g bipedLeftArm Lon;
+	FIELD l bipedRightLeg Lon;
+	FIELD m bipedLeftLeg Lon;
+	FIELD n bipedEars Lon;
+	FIELD o bipedCloak Lon;
+	FIELD p heldItemLeft I
+	FIELD q heldItemRight I
+	FIELD r isSneak Z
+	FIELD s aimingBow Z
+	METHOD a renderEars (F)V
+	METHOD b renderCloak (F)V

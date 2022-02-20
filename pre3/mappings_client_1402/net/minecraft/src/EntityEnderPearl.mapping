@@ -1,0 +1,24 @@
+CLASS zv net/minecraft/src/EntityEnderPearl
+	FIELD a shake I
+	FIELD ao inGround Z
+	FIELD ap shootingEntity Lyv;
+	FIELD aq ticksInGround I
+	FIELD ar ticksInAir I
+	FIELD b xTile I
+	FIELD c yTile I
+	FIELD d zTile I
+	FIELD e inTile I
+	METHOD <init> (Luc;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD <init> (Luc;Lyv;)V
+		ARG 1 world
+		ARG 2 living
+	METHOD a setEnderpearlHeading (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch

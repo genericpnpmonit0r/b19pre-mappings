@@ -1,0 +1,10 @@
+CLASS afk net/minecraft/src/GuiConnecting
+	FIELD a clientHandler Lzm;
+	FIELD b cancelled Z
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 1 minecraft
+		ARG 2 hostname
+		ARG 3 port
+	METHOD a isCancelled (Lafk;)Z
+	METHOD a setNetClientHandler (Lafk;Lzm;)Lzm;
+	METHOD b getNetClientHandler (Lafk;)Lzm;

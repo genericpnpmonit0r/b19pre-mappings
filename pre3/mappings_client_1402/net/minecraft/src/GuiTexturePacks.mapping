@@ -1,0 +1,21 @@
+CLASS dq net/minecraft/src/GuiTexturePacks
+	FIELD a guiScreen Lsv;
+	FIELD b updateCounterNegative I
+	FIELD c fileLocation Ljava/lang/String;
+	FIELD d guiTexturePackSlot Lbx;
+	METHOD <init> (Lsv;)V
+		ARG 1 screen
+	METHOD a func_22124_a (Ldq;)Lnet/minecraft/client/Minecraft;
+	METHOD b func_22126_b (Ldq;)Lnet/minecraft/client/Minecraft;
+	METHOD c func_22119_c (Ldq;)Lnet/minecraft/client/Minecraft;
+	METHOD d func_22122_d (Ldq;)Lnet/minecraft/client/Minecraft;
+	METHOD e func_22117_e (Ldq;)Lnet/minecraft/client/Minecraft;
+	METHOD f func_35307_f (Ldq;)Lnet/minecraft/client/Minecraft;
+	METHOD g func_35308_g (Ldq;)Lnet/minecraft/client/Minecraft;
+	METHOD h func_22118_f (Ldq;)Lnet/minecraft/client/Minecraft;
+	METHOD i func_22116_g (Ldq;)Lnet/minecraft/client/Minecraft;
+	METHOD j func_22121_h (Ldq;)Lnet/minecraft/client/Minecraft;
+	METHOD k func_22123_i (Ldq;)Lnet/minecraft/client/Minecraft;
+	METHOD l func_22127_j (Ldq;)Lls;
+	METHOD m func_22120_k (Ldq;)Lls;
+	METHOD n func_22125_l (Ldq;)Lls;

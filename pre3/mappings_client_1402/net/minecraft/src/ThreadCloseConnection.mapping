@@ -1,0 +1,2 @@
+CLASS pf net/minecraft/src/ThreadCloseConnection
+	FIELD a networkManager Lju;

@@ -1,0 +1,260 @@
+CLASS vf net/minecraft/src/Item
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a isFull3D ()Z
+	METHOD a getIconFromDamage (I)I
+		ARG 1 meta
+	METHOD a setIconCoord (II)Lvf;
+		ARG 1 x
+		ARG 2 y
+	METHOD a setItemName (Ljava/lang/String;)Lvf;
+		ARG 1 name
+	METHOD a getDamageVsEntity (Llu;)I
+		ARG 1 entity
+	METHOD a canHarvestBlock (Lnd;)Z
+		ARG 1 block
+	METHOD a setContainerItem (Lvf;)Lvf;
+		ARG 1 item
+	METHOD a getItemNameIS (Lwy;)Ljava/lang/String;
+		ARG 1 itemStack
+	METHOD a onBlockDestroyed (Lwy;IIIILyv;)Z
+		ARG 1 itemStack
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 id
+		ARG 6 living
+	METHOD a getRecord (Lwy;Ljava/util/List;)V
+		ARG 1 itemStack
+		ARG 2 list
+	METHOD a getStrVsBlock (Lwy;Lnd;)F
+		ARG 1 itemStack
+		ARG 2 block
+	METHOD a onUpdate (Lwy;Luc;Llu;IZ)V
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 entity
+		ARG 4 id
+		ARG 5 updateMapDataFlag
+	METHOD a onItemRightClick (Lwy;Luc;Lvj;)Lwy;
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 player
+	METHOD a onPlayerStoppedUsing (Lwy;Luc;Lvj;I)V
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 player
+		ARG 4 id
+	METHOD a onItemUse (Lwy;Lvj;Luc;IIII)Z
+		ARG 1 itemStack
+		ARG 2 player
+		ARG 3 world
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 side
+	METHOD a useItemOnEntity (Lwy;Lyv;)V
+		ARG 1 itemStack
+		ARG 2 living
+	METHOD a hitEntity (Lwy;Lyv;Lyv;)Z
+		ARG 1 itemStack
+		ARG 2 hitter
+		ARG 3 target
+	METHOD a setHasSubtypes (Z)Lvf;
+		ARG 1 hasSubtypes
+	METHOD b getColorFromDamage (I)I
+		ARG 1 damage
+	METHOD b setPotionPrefix (Ljava/lang/String;)Lvf;
+		ARG 1 prefixData
+	METHOD b getMaxItemUseDuration (Lwy;)I
+		ARG 1 itemStack
+	METHOD b onFoodEaten (Lwy;Luc;Lvj;)Lwy;
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 player
+	METHOD c getItemName ()Ljava/lang/String;
+	METHOD c getPlacedBlockMetadata (I)I
+		ARG 1 meta
+	METHOD c getItemUseAction (Lwy;)Lxb;
+		ARG 1 itemStack
+	METHOD c onCreated (Lwy;Luc;Lvj;)V
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 player
+	METHOD d getItemStackLimit ()I
+	METHOD d setIconIndex (I)Lvf;
+		ARG 1 index
+	METHOD d translateItemStackPrefix (Lwy;)Ljava/lang/String;
+		ARG 1 itemStack
+	METHOD e getHasSubtypes ()Z
+	METHOD e setMaxStackSize (I)Lvf;
+		ARG 1 stackSize
+	METHOD e hasItemStack (Lwy;)Z
+		ARG 1 itemStack
+	METHOD f getMaxDamage ()I
+	METHOD f setMaxDamage (I)Lvf;
+		ARG 1 maxDamage
+	METHOD f getItemRarity (Lwy;)Ler;
+		ARG 1 itemStack
+	METHOD g isDamageable ()Z
+	METHOD g getIconIndex (Lwy;)I
+		ARG 1 itemStack
+	METHOD h setFull3D ()Lvf;
+	METHOD h translateItemStackIS (Lwy;)Ljava/lang/String;
+		ARG 1 itemStack
+	METHOD i getContainerItem ()Lvf;
+	METHOD i isDamageable (Lwy;)Z
+		ARG 1 itemStack
+	METHOD j hasContainerItem ()Z
+	METHOD k getStatName ()Ljava/lang/String;
+	METHOD l getPotionPrefixData ()Ljava/lang/String;
+	METHOD m hasPotionPrefixData ()Z
+	METHOD t_ shouldRotateAroundWhenRendering ()Z
+	FIELD A shovelDiamond Lvf;
+	FIELD B pickaxeDiamond Lvf;
+	FIELD C axeDiamond Lvf;
+	FIELD D stick Lvf;
+	FIELD E bowlEmpty Lvf;
+	FIELD F bowlSoup Lvf;
+	FIELD G swordGold Lvf;
+	FIELD H shovelGold Lvf;
+	FIELD I pickaxeGold Lvf;
+	FIELD J axeGold Lvf;
+	FIELD K silk Lvf;
+	FIELD L feather Lvf;
+	FIELD M gunpowder Lvf;
+	FIELD N hoeWood Lvf;
+	FIELD O hoeStone Lvf;
+	FIELD P hoeSteel Lvf;
+	FIELD Q hoeDiamond Lvf;
+	FIELD R hoeGold Lvf;
+	FIELD S seeds Lvf;
+	FIELD T wheat Lvf;
+	FIELD U bread Lvf;
+	FIELD V helmetLeather Lvf;
+	FIELD W plateLeather Lvf;
+	FIELD X legsLeather Lvf;
+	FIELD Y bootsLeather Lvf;
+	FIELD Z helmetChain Lvf;
+	FIELD aA saddle Lvf;
+	FIELD aB doorSteel Lvf;
+	FIELD aC redstone Lvf;
+	FIELD aD snowball Lvf;
+	FIELD aE boat Lvf;
+	FIELD aF leather Lvf;
+	FIELD aG bucketMilk Lvf;
+	FIELD aH brick Lvf;
+	FIELD a maxDamage I
+	FIELD aI clay Lvf;
+	FIELD aJ reed Lvf;
+	FIELD aK paper Lvf;
+	FIELD aL book Lvf;
+	FIELD aM slimeBall Lvf;
+	FIELD aN minecartCrate Lvf;
+	FIELD aO minecartPowered Lvf;
+	FIELD aP egg Lvf;
+	FIELD aQ compass Lvf;
+	FIELD aR fishingRod Lvf;
+	FIELD aS pocketSundial Lvf;
+	FIELD aT lightStoneDust Lvf;
+	FIELD aU fishRaw Lvf;
+	FIELD aV fishCooked Lvf;
+	FIELD aW dyePowder Lvf;
+	FIELD aX bone Lvf;
+	FIELD aY sugar Lvf;
+	FIELD aZ cake Lvf;
+	FIELD aa plateChain Lvf;
+	FIELD ab legsChain Lvf;
+	FIELD ac bootsChain Lvf;
+	FIELD ad helmetSteel Lvf;
+	FIELD ae plateSteel Lvf;
+	FIELD af legsSteel Lvf;
+	FIELD ag bootsSteel Lvf;
+	FIELD ah helmetDiamond Lvf;
+	FIELD ai plateDiamond Lvf;
+	FIELD aj legsDiamond Lvf;
+	FIELD ak bootsDiamond Lvf;
+	FIELD al helmetGold Lvf;
+	FIELD am plateGold Lvf;
+	FIELD an legsGold Lvf;
+	FIELD ao bootsGold Lvf;
+	FIELD ap flint Lvf;
+	FIELD aq porkRaw Lvf;
+	FIELD ar porkCooked Lvf;
+	FIELD as painting Lvf;
+	FIELD at appleGold Lvf;
+	FIELD au sign Lvf;
+	FIELD av doorWood Lvf;
+	FIELD aw bucketEmpty Lvf;
+	FIELD ax bucketWater Lvf;
+	FIELD ay bucketLava Lvf;
+	FIELD az minecartEmpty Lvf;
+	FIELD bA eyeOfEnder Lvf;
+	FIELD bB record13 Lvf;
+	FIELD bC recordCat Lvf;
+	FIELD bD recordBlocks Lvf;
+	FIELD bE recordChirp Lvf;
+	FIELD bF recordFar Lvf;
+	FIELD bG recordMall Lvf;
+	FIELD bH recordMellohi Lvf;
+	FIELD bI recordStal Lvf;
+	FIELD bJ recordStrad Lvf;
+	FIELD bK recordWard Lvf;
+	FIELD bL record11 Lvf;
+	FIELD b containerItem Lvf;
+	FIELD bM shiftedIndex I
+	FIELD bN maxStackSize I
+	FIELD bO iconIndex I
+	FIELD bP bFull3D Z
+	FIELD bQ hasSubtypes Z
+	FIELD bR itemName Ljava/lang/String;
+	FIELD ba bed Lvf;
+	FIELD bb redstoneRepeater Lvf;
+	FIELD bc cookie Lvf;
+	FIELD bd map Loy;
+	FIELD be shears Lax;
+	FIELD bf melon Lvf;
+	FIELD bg pumpkinSeeds Lvf;
+	FIELD bh melonSeeds Lvf;
+	FIELD bi beefRaw Lvf;
+	FIELD bj beefCooked Lvf;
+	FIELD bk chickenRaw Lvf;
+	FIELD bl chickenCooked Lvf;
+	FIELD bm rottenFlesh Lvf;
+	FIELD bn enderPearl Lvf;
+	FIELD bo blazeRod Lvf;
+	FIELD bp ghastTear Lvf;
+	FIELD bq goldNugget Lvf;
+	FIELD br netherWarts Lvf;
+	FIELD bs potion Ldo;
+	FIELD bt glassBottle Lvf;
+	FIELD bu spiderEye Lvf;
+	FIELD bv fermentedSpiderEye Lvf;
+	FIELD bw blazePowder Lvf;
+	FIELD bx magmaCream Lvf;
+	FIELD by brewingStand Lvf;
+	FIELD bz cauldron Lvf;
+	FIELD c potionPrefixData Ljava/lang/String;
+	FIELD d itemRand Ljava/util/Random;
+	FIELD e itemsList [Lvf;
+	FIELD f shovelSteel Lvf;
+	FIELD g pickaxeSteel Lvf;
+	FIELD h axeSteel Lvf;
+	FIELD i flintAndSteel Lvf;
+	FIELD j appleRed Lvf;
+	FIELD k bow Lvf;
+	FIELD l arrow Lvf;
+	FIELD m coal Lvf;
+	FIELD n diamond Lvf;
+	FIELD o ingotIron Lvf;
+	FIELD p ingotGold Lvf;
+	FIELD q swordSteel Lvf;
+	FIELD r swordWood Lvf;
+	FIELD s shovelWood Lvf;
+	FIELD t pickaxeWood Lvf;
+	FIELD u axeWood Lvf;
+	FIELD v swordStone Lvf;
+	FIELD w shovelStone Lvf;
+	FIELD x pickaxeStone Lvf;
+	FIELD y axeStone Lvf;
+	FIELD z swordDiamond Lvf;

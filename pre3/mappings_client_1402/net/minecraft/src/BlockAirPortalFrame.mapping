@@ -1,0 +1,3 @@
+CLASS aeg net/minecraft/src/BlockAirPortalFrame
+	METHOD <init> (I)V
+		ARG 1 id

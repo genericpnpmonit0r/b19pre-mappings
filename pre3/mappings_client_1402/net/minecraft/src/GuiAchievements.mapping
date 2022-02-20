@@ -1,0 +1,21 @@
+CLASS pj net/minecraft/src/GuiAchievements
+	FIELD a achievementsPaneWidth I
+	FIELD b achievementsPaneHeight I
+	FIELD c mouseX I
+	FIELD d mouseY I
+	FIELD e field_27116_m D
+	FIELD f field_27115_n D
+	FIELD h guiMapX D
+	FIELD i guiMapY D
+	FIELD j field_27112_q D
+	FIELD k field_27111_r D
+	FIELD l guiMapTop I
+	FIELD m guiMapLeft I
+	FIELD n guiMapBottom I
+	FIELD o guiMapRight I
+	FIELD w isMouseButtonDown I
+	FIELD x statFileWriter Lago;
+	METHOD <init> (Lago;)V
+		ARG 1 statFileWriter
+	METHOD b genAchievementBackground (IIF)V
+	METHOD c func_27110_k ()V

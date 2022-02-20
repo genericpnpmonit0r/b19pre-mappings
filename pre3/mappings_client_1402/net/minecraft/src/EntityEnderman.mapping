@@ -1,0 +1,14 @@
+CLASS hz net/minecraft/src/EntityEnderman
+	FIELD a isAttacking Z
+	FIELD b canCarryBlocks [Z
+	FIELD d teleportDelay I
+	FIELD e field_35185_e I
+	METHOD a_ teleportTo (DDD)Z
+	METHOD b setCarried (I)V
+	METHOD c teleportToEntity (Llu;)Z
+	METHOD c shouldAttackPlayer (Lvj;)Z
+		ARG 1 player
+	METHOD d_ setCarryingData (I)V
+	METHOD q teleportRandomly ()Z
+	METHOD r getCarried ()I
+	METHOD s getCarryingData ()I

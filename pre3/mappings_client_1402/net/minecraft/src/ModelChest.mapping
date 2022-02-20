@@ -1,0 +1,5 @@
+CLASS acv net/minecraft/src/ModelChest
+	METHOD a renderAll ()V
+	FIELD a chestLid Lon;
+	FIELD b chestBelow Lon;
+	FIELD c chestKnob Lon;

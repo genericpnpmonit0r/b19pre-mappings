@@ -1,0 +1,2 @@
+CLASS jy net/minecraft/src/TileEntitySignRenderer
+	FIELD b signModel Laci;

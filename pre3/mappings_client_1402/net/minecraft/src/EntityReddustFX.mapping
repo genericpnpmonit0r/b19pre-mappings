@@ -1,0 +1,2 @@
+CLASS wm net/minecraft/src/EntityReddustFX
+	FIELD a reddustParticleScale F

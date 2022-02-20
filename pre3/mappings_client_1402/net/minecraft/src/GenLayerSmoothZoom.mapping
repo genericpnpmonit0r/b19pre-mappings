@@ -1,0 +1,8 @@
+CLASS hg net/minecraft/src/GenLayerSmoothZoom
+	METHOD <init> (JLto;)V
+		ARG 1 seed
+		ARG 3 layer
+	METHOD a smoothMagnify (JLto;I)Lto;
+		ARG 0 seedAdj
+		ARG 2 layer
+		ARG 3 timesToMagnify

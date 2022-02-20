@@ -1,0 +1,51 @@
+CLASS ju net/minecraft/src/NetworkManager
+	METHOD <init> (Ljava/net/Socket;Ljava/lang/String;Lmj;)V
+		ARG 1 socket
+		ARG 2 string
+		ARG 3 netHandler
+	METHOD a wakeThreads ()V
+	METHOD a onNetworkError (Ljava/lang/Exception;)V
+		ARG 1 ex
+	METHOD a networkShutdown (Ljava/lang/String;[Ljava/lang/Object;)V
+		ARG 1 terminationReason
+		ARG 2 netShutdownObj
+	METHOD a isRunning (Lju;)Z
+	METHOD a func_30005_a (Lju;Ljava/lang/Exception;)V
+	METHOD a addToSendQueue (Lyb;)V
+		ARG 1 packet
+	METHOD b processReadPackets ()V
+	METHOD b isServerTerminating (Lju;)Z
+	METHOD c terminate ()V
+	METHOD c readNetworkPacket (Lju;)Z
+	METHOD d sendPacket ()Z
+	METHOD d sendNetworkPacket (Lju;)Z
+	METHOD e readPacket ()Z
+	METHOD e getOutputStream (Lju;)Ljava/io/DataOutputStream;
+	METHOD f getIsTerminating (Lju;)Z
+	METHOD g getReadThread (Lju;)Ljava/lang/Thread;
+	METHOD h getWriteThread (Lju;)Ljava/lang/Thread;
+	FIELD a threadSyncObject Ljava/lang/Object;
+	FIELD b numReadThreads I
+	FIELD c numWriteThreads I
+	FIELD d field_28145_d [I
+	FIELD e field_28144_e [I
+	FIELD f chunkDataSendCounter I
+	FIELD g sendQueueLock Ljava/lang/Object;
+	FIELD h networkSocket Ljava/net/Socket;
+	FIELD i remoteSocketAddress Ljava/net/SocketAddress;
+	FIELD j socketInputStream Ljava/io/DataInputStream;
+	FIELD k socketOutputStream Ljava/io/DataOutputStream;
+	FIELD l isRunning Z
+	FIELD m readPackets Ljava/util/List;
+	FIELD n dataPackets Ljava/util/List;
+	FIELD o chunkDataPackets Ljava/util/List;
+	FIELD p netHandler Lmj;
+	FIELD q isServerTerminating Z
+	FIELD r writeThread Ljava/lang/Thread;
+	FIELD s readThread Ljava/lang/Thread;
+	FIELD t isTerminating Z
+	FIELD u terminationReason Ljava/lang/String;
+	FIELD v netShutdownObject [Ljava/lang/Object;
+	FIELD w timeSinceLastRead I
+	FIELD x sendQueueByteLength I
+	FIELD y field_20100_w I

@@ -1,0 +1,20 @@
+CLASS aah net/minecraft/src/BlockStem
+	FIELD a stemBlockType Lnd;
+	METHOD <init> (ILnd;)V
+		ARG 1 id
+		ARG 2 block
+	METHOD f getBlockIdsFomMetadata (Lagr;III)I
+		ARG 1 blockAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i fertilize (Luc;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD j getGrowthModifier (Luc;III)F
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

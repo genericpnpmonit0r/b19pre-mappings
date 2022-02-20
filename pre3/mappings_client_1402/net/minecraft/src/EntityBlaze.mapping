@@ -1,0 +1,7 @@
+CLASS zh net/minecraft/src/EntityBlaze
+	FIELD a heightOffset F
+	FIELD b heightOffsetUpdateTime I
+	FIELD d attackTimer I
+	METHOD W updateOnFireStatus ()Z
+	METHOD b getOnFireStatus (Z)V
+		ARG 1 flag

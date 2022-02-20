@@ -1,0 +1,15 @@
+CLASS ags net/minecraft/src/BlockDispenser
+	FIELD a random Ljava/util/Random;
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD c dispenseItem (Luc;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 rand
+	METHOD h setDispenserDefaultDirection (Luc;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

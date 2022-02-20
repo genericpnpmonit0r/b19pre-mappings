@@ -1,0 +1,8 @@
+CLASS aeh net/minecraft/src/Packet30Entity
+	FIELD a entityId I
+	FIELD b xPos B
+	FIELD c yPos B
+	FIELD d zPos B
+	FIELD e yaw B
+	FIELD f pitch B
+	FIELD g rotating Z

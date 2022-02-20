@@ -1,0 +1,10 @@
+CLASS au net/minecraft/src/EntityAnimal
+	FIELD a age I
+	FIELD b inLove I
+	FIELD c breeding I
+	METHOD a createChild (Lau;)Lau;
+		ARG 1 animal
+	METHOD a isBreedingItem (Lwy;)Z
+		ARG 1 itemStack
+	METHOD b procreate (Lau;)V
+		ARG 1 animal

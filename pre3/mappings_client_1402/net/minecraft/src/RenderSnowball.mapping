@@ -1,0 +1,2 @@
+CLASS ca net/minecraft/src/RenderSnowball
+	FIELD a itemIconIndex I

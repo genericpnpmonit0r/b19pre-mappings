@@ -1,0 +1,8 @@
+CLASS abi net/minecraft/src/J_JsonFieldBuilder
+	METHOD a aJsonFieldBuilder ()Labi;
+	METHOD a func_27304_a (Lyi;)Labi;
+	METHOD b func_27303_b ()Lkf;
+	METHOD b func_27300_b (Lyi;)Labi;
+	METHOD c func_27302_c ()Leg;
+	FIELD a field_27306_a Lyi;
+	FIELD b field_27305_b Lyi;

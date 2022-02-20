@@ -1,0 +1,4 @@
+CLASS he net/minecraft/src/MovementInputFromOptions
+	FIELD f gameSettings Lgr;
+	METHOD <init> (Lgr;)V
+		ARG 1 options

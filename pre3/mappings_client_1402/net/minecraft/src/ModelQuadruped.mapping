@@ -1,0 +1,7 @@
+CLASS iw net/minecraft/src/ModelQuadruped
+	FIELD a head Lon;
+	FIELD b body Lon;
+	FIELD c leg1 Lon;
+	FIELD d leg2 Lon;
+	FIELD e leg3 Lon;
+	FIELD f leg4 Lon;

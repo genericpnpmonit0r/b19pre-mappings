@@ -1,0 +1,8 @@
+CLASS aev net/minecraft/src/BlockFenceGate
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 material
+	METHOD d isFenceGateOpen (I)Z
+		ARG 0 meta
+	METHOD f getFenceGateState (I)I
+		ARG 0 meta

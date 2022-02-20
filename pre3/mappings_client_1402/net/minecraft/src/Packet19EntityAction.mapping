@@ -1,0 +1,6 @@
+CLASS adx net/minecraft/src/Packet19EntityAction
+	FIELD a entityId I
+	FIELD b state I
+	METHOD <init> (Llu;I)V
+		ARG 1 entity
+		ARG 2 state

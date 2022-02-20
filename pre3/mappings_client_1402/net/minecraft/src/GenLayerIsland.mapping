@@ -1,0 +1,4 @@
+CLASS sf net/minecraft/src/GenLayerIsland
+	METHOD <init> (JLto;)V
+		ARG 1 seed
+		ARG 3 layer

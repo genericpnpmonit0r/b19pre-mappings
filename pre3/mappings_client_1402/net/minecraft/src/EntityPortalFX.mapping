@@ -1,0 +1,5 @@
+CLASS aan net/minecraft/src/EntityPortalFX
+	FIELD a portalParticleScale F
+	FIELD ax portalPosX D
+	FIELD ay portalPosY D
+	FIELD az portalPosZ D

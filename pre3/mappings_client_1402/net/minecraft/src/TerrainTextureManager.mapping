@@ -1,0 +1,11 @@
+CLASS aep net/minecraft/src/TerrainTextureManager
+	METHOD a postProcess ()V
+	METHOD a render (Lla;)V
+		ARG 1 isoImageBuffer
+	FIELD a texCols [F
+	FIELD b pixels [I
+	FIELD c zBuf [I
+	FIELD d waterBuf [I
+	FIELD e waterBr [I
+	FIELD f yBuf [I
+	FIELD g textures [I

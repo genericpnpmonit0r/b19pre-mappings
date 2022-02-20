@@ -1,0 +1,7 @@
+CLASS xh net/minecraft/src/GuiRenameWorld
+	FIELD a parentGuiScreen Lsv;
+	FIELD b theGuiTextField Laco;
+	FIELD c worldName Ljava/lang/String;
+	METHOD <init> (Lsv;Ljava/lang/String;)V
+		ARG 1 screen
+		ARG 2 worldName

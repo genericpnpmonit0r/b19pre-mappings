@@ -1,0 +1,13 @@
+CLASS agb net/minecraft/src/ISaveHandler
+	METHOD a getChunkLoader (Lagk;)Lrm;
+		ARG 1 provider
+	METHOD a getMapFile (Ljava/lang/String;)Ljava/io/File;
+		ARG 1 name
+	METHOD a saveWorldInfo (Ltq;)V
+		ARG 1 info
+	METHOD a saveWorldInfoAndPlayer (Ltq;Ljava/util/List;)V
+		ARG 1 info
+		ARG 2 playerdataList
+	METHOD b checkSessionLock ()V
+	METHOD c loadWorldInfo ()Ltq;
+	METHOD d getWorldDirectoryName ()Ljava/lang/String;

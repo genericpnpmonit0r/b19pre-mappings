@@ -1,0 +1,5 @@
+CLASS ed net/minecraft/src/GuiDownloadTerrain
+	FIELD a netHandler Lzm;
+	FIELD b updateCounter I
+	METHOD <init> (Lzm;)V
+		ARG 1 netClientHandler

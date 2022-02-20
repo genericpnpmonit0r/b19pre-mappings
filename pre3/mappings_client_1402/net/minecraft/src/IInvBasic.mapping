@@ -1,0 +1,3 @@
+CLASS wc net/minecraft/src/IInvBasic
+	METHOD a onInventoryChanged (Lko;)V
+		ARG 1 inventoryBasic

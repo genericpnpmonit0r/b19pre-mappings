@@ -1,0 +1,7 @@
+CLASS acb net/minecraft/src/BlockSilverfish
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD d getPosingIdByMetadata (I)Z
+		ARG 0 id
+	METHOD f getTextureFromBlockId (I)I
+		ARG 0 id

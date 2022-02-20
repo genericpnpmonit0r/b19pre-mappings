@@ -1,0 +1,9 @@
+CLASS qq net/minecraft/src/ModelWolf
+	FIELD a wolfHeadMain Lon;
+	FIELD b wolfBody Lon;
+	FIELD c wolfLeg1 Lon;
+	FIELD d wolfLeg2 Lon;
+	FIELD e wolfLeg3 Lon;
+	FIELD f wolfLeg4 Lon;
+	FIELD g wolfTail Lon;
+	FIELD l wolfMane Lon;

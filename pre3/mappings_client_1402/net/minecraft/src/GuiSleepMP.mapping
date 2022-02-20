@@ -1,0 +1,2 @@
+CLASS uz net/minecraft/src/GuiSleepMP
+	METHOD c leaveBed ()V

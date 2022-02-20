@@ -1,0 +1,7 @@
+CLASS adp net/minecraft/src/BlockMushroom
+	METHOD c func_35293_c (Luc;IIILjava/util/Random;)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 rand

@@ -1,0 +1,9 @@
+CLASS nb net/minecraft/src/GuiControls
+	FIELD a screenTitle Ljava/lang/String;
+	FIELD b parentScreen Lsv;
+	FIELD c options Lgr;
+	FIELD d buttonId I
+	METHOD <init> (Lsv;Lgr;)V
+		ARG 1 screen
+		ARG 2 settings
+	METHOD c func_20080_j ()I

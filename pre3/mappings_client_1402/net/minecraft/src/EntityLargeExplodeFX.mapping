@@ -1,0 +1,5 @@
+CLASS hh net/minecraft/src/EntityLargeExplodeFX
+	FIELD a field_35130_a I
+	FIELD ax field_35129_ay I
+	FIELD ay field_35128_az Lxg;
+	FIELD az field_35131_aA F

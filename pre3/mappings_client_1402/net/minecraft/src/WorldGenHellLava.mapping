@@ -1,0 +1,4 @@
+CLASS kh net/minecraft/src/WorldGenHellLava
+	FIELD a hellLavaID I
+	METHOD <init> (I)V
+		ARG 1 id

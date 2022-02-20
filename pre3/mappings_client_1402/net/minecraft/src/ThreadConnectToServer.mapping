@@ -1,0 +1,10 @@
+CLASS agj net/minecraft/src/ThreadConnectToServer
+	METHOD <init> (Lafk;Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 1 connectingGui
+		ARG 2 minecraft
+		ARG 3 hostname
+		ARG 4 port
+	FIELD a mc Lnet/minecraft/client/Minecraft;
+	FIELD b hostName Ljava/lang/String;
+	FIELD c port I
+	FIELD d connectingGui Lafk;

@@ -1,0 +1,4 @@
+CLASS oe net/minecraft/src/GuiSlotServer
+	FIELD a multiplayerGui Lyt;
+	METHOD <init> (Lyt;)V
+		ARG 1 guiMP

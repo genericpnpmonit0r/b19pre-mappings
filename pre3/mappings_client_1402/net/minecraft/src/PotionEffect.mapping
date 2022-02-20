@@ -1,0 +1,23 @@
+CLASS agp net/minecraft/src/PotionEffect
+	METHOD <init> (III)V
+		ARG 1 id
+		ARG 2 duration
+		ARG 3 amplifier
+	METHOD <init> (Lagp;)V
+		ARG 1 potionEffect
+	METHOD a getPotionID ()I
+	METHOD a combine (Lagp;)V
+		ARG 1 potionEffect
+	METHOD a onUpdate (Lyv;)Z
+		ARG 1 living
+	METHOD b getPotionDuration ()I
+	METHOD b performEffect (Lyv;)V
+		ARG 1 living
+	METHOD c getPotionAmplifier ()I
+	METHOD d getPotionName ()Ljava/lang/String;
+	METHOD e deincrementDuration ()I
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 obj
+	FIELD a potionId I
+	FIELD b duration I
+	FIELD c amplifier I

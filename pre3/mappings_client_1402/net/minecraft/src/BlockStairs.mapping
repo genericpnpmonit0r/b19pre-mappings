@@ -1,0 +1,5 @@
+CLASS ly net/minecraft/src/BlockStairs
+	FIELD a modelBlock Lnd;
+	METHOD <init> (ILnd;)V
+		ARG 1 id
+		ARG 2 block

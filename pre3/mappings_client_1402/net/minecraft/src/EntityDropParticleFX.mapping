@@ -1,0 +1,3 @@
+CLASS fb net/minecraft/src/EntityDropParticleFX
+	FIELD a field_40103_a Lyr;
+	FIELD ax field_40104_aw I

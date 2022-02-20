@@ -1,0 +1,5 @@
+CLASS abo net/minecraft/src/J_NodeContainer
+	METHOD a addField (Labi;)V
+		ARG 1 jsonFieldBuilder
+	METHOD a addNode (Lyi;)V
+		ARG 1 jsonNodeBuilder

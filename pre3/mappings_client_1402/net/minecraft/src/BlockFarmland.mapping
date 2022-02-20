@@ -1,0 +1,13 @@
+CLASS afd net/minecraft/src/BlockFarmland
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD h isCropsNearby (Luc;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i isWaterNearby (Luc;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

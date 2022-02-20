@@ -1,0 +1,6 @@
+CLASS dk net/minecraft/src/EntityVillager
+	FIELD a villagerType I
+	METHOD <init> (Luc;I)V
+		ARG 1 world
+		ARG 2 type
+	METHOD W getTexture ()V

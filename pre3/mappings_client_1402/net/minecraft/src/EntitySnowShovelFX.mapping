@@ -1,0 +1,2 @@
+CLASS id net/minecraft/src/EntitySnowShovelFX
+	FIELD a snowDigParticleScale F

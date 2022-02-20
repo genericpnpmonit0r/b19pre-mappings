@@ -1,0 +1,24 @@
+CLASS gt net/minecraft/src/ChunkProviderLoadOrGenerate
+	FIELD a lastQueriedChunkXPos I
+	FIELD b lastQueriedChunkZPos I
+	FIELD c blankChunk Lyp;
+	FIELD d chunkProvider Lbi;
+	FIELD e chunkLoader Lrm;
+	FIELD f chunks [Lyp;
+	FIELD g worldObj Luc;
+	FIELD h lastQueriedChunk Lyp;
+	FIELD i curChunkX I
+	FIELD j curChunkY I
+	METHOD a saveExtraChunkData (Lyp;)V
+		ARG 1 chunk
+	METHOD b saveChunk (Lyp;)V
+		ARG 1 chunk
+	METHOD d setCurrentChunkOver (II)V
+		ARG 1 x
+		ARG 2 z
+	METHOD e canChunkExist (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD f getBlankChunk (II)Lyp;
+		ARG 1 x
+		ARG 2 z

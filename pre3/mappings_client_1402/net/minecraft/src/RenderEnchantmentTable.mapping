@@ -1,0 +1,2 @@
+CLASS du net/minecraft/src/RenderEnchantmentTable
+	FIELD b enchantmentBook Ljx;

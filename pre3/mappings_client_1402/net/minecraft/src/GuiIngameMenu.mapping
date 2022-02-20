@@ -1,0 +1,3 @@
+CLASS jq net/minecraft/src/GuiIngameMenu
+	FIELD a updateCounter2 I
+	FIELD b updateCounter I

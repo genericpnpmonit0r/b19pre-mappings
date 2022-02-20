@@ -1,0 +1,2 @@
+CLASS gi net/minecraft/src/StatStringFormatKeyInv
+	FIELD a mc Lnet/minecraft/client/Minecraft;

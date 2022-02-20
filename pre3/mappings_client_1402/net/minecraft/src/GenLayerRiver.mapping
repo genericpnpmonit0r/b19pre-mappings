@@ -1,0 +1,4 @@
+CLASS vu net/minecraft/src/GenLayerRiver
+	METHOD <init> (JLto;)V
+		ARG 1 seed
+		ARG 3 layer

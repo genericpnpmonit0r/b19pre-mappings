@@ -1,0 +1,16 @@
+CLASS bj net/minecraft/src/EntityXPOrb
+	FIELD a xpColor I
+	FIELD b xpOrbAge I
+	FIELD c unusedPickupCooldown I
+	FIELD d xpOrbHealth I
+	FIELD e xpValue I
+	METHOD <init> (Luc;DDDI)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 value
+	METHOD b getXPSplit (I)I
+		ARG 0 splitPoint
+	METHOD h getXpValue ()I
+	METHOD i getTextureByXP ()I

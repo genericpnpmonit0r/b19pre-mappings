@@ -1,0 +1,3 @@
+CLASS ez net/minecraft/src/J_JdomParser
+	METHOD a Parse (Ljava/io/Reader;)Lkj;
+	METHOD a parse (Ljava/lang/String;)Lkj;

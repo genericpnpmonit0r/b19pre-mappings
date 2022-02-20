@@ -1,0 +1,43 @@
+CLASS ji net/minecraft/src/BlockFlowing
+	FIELD a numAdjacentSources I
+	FIELD b isOptimalFlowDirection [Z
+	FIELD c flowCost [I
+	METHOD b calculateFlowCost (Luc;IIIII)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 accumulatedCost
+		ARG 6 previousDirectionOfFlow
+	METHOD f getSmallestFlowDecay (Luc;IIII)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 currentSmallestFlowDecay
+	METHOD h flowIntoBlock (Luc;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 meta
+	METHOD j updateFlow (Luc;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD k getOptimalFlowDirections (Luc;III)[Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD l blockBlocksFlow (Luc;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD m liquidCanDisplaceBlock (Luc;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

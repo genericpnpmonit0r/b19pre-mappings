@@ -1,0 +1,12 @@
+CLASS wt net/minecraft/src/ShapedRecipes
+	FIELD a recipeOutputItemID I
+	FIELD b recipeWidth I
+	FIELD c recipeHeight I
+	FIELD d recipeItems [Lwy;
+	FIELD e recipeOutput Lwy;
+	METHOD <init> (II[Lwy;Lwy;)V
+		ARG 1 width
+		ARG 2 height
+		ARG 3 items
+		ARG 4 output
+	METHOD a checkItemDamaged (Lzf;IIZ)Z

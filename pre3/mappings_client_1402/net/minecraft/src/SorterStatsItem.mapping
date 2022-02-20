@@ -1,0 +1,3 @@
+CLASS eb net/minecraft/src/SorterStatsItem
+	FIELD a statsGUI Lcm;
+	FIELD b slotStatsItemGUI Lbg;

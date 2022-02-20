@@ -1,0 +1,2 @@
+CLASS act net/minecraft/src/BlockContainer
+	METHOD p_ getBlockEntity ()Ljm;

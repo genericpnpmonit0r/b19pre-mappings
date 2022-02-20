@@ -1,0 +1,3 @@
+CLASS zu net/minecraft/src/Packet39AttachEntity
+	FIELD a entityId I
+	FIELD b vehicleEntityId I

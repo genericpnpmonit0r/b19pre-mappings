@@ -1,0 +1,23 @@
+CLASS kc net/minecraft/src/ModelBox
+	METHOD <init> (Lon;IIFFFIIIF)V
+		ARG 1 renderer
+		ARG 2 w
+		ARG 3 h
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 x2
+		ARG 8 y2
+		ARG 9 z2
+		ARG 10 scale
+	METHOD a render (Laaa;F)V
+		ARG 1 tessellator
+		ARG 2 quads
+	FIELD a posX1 F
+	FIELD b posY1 F
+	FIELD c posZ1 F
+	FIELD d posX2 F
+	FIELD e posY2 F
+	FIELD f posZ2 F
+	FIELD g vertexPositions [Lwh;
+	FIELD h quadList [Lms;

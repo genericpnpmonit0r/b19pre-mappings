@@ -1,0 +1,3 @@
+CLASS afe net/minecraft/src/TileEntityChestRenderer
+	FIELD b chestModel Lacv;
+	FIELD c largeChestModel Lacv;

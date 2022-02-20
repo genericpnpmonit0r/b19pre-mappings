@@ -1,0 +1,8 @@
+CLASS ep net/minecraft/src/WorldChunkManagerHell
+	FIELD c biomeBase Lxw;
+	FIELD d hellTemperature F
+	FIELD e hellHumidity F
+	METHOD <init> (Lxw;FF)V
+		ARG 1 base
+		ARG 2 temp
+		ARG 3 humidity

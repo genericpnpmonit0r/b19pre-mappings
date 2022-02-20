@@ -1,0 +1,8 @@
+CLASS ir net/minecraft/src/GuiVideoSettings
+	FIELD a screenTitle Ljava/lang/String;
+	FIELD b parentGuiScreen Lsv;
+	FIELD c guiGameSettings Lgr;
+	FIELD d videoOptions [Lwb;
+	METHOD <init> (Lsv;Lgr;)V
+		ARG 1 guiScreen
+		ARG 2 options

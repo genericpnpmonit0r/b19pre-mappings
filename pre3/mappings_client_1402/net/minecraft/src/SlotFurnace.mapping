@@ -1,0 +1,5 @@
+CLASS afh net/minecraft/src/SlotFurnace
+	FIELD a thePlayer Lvj;
+	METHOD <init> (Lvj;Lhk;III)V
+		ARG 1 player
+		ARG 2 inventory

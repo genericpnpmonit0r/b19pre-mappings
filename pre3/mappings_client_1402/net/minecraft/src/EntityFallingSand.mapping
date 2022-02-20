@@ -1,0 +1,4 @@
+CLASS xp net/minecraft/src/EntityFallingSand
+	FIELD a blockID I
+	FIELD b fallTime I
+	METHOD m getWorld ()Luc;

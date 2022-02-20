@@ -1,0 +1,5 @@
+CLASS afp net/minecraft/src/ItemSpade
+	FIELD b blocksEffectiveAgainst [Lnd;
+	METHOD <init> (ILrw;)V
+		ARG 1 id
+		ARG 2 toolMaterial

@@ -1,0 +1,14 @@
+CLASS fq net/minecraft/src/GuiSlotStats
+	FIELD b field_27268_b I
+	FIELD c list Ljava/util/List;
+	FIELD d comparator Ljava/util/Comparator;
+	FIELD e field_27271_e I
+	FIELD f field_27270_f I
+	FIELD g statsGui Lcm;
+	METHOD <init> (Lcm;)V
+		ARG 1 guiStats
+	METHOD a func_27263_a (I)Ljava/lang/String;
+	METHOD a func_27267_a (Ladz;II)V
+	METHOD a func_27265_a (Ladz;IIZ)V
+	METHOD b func_27264_b (I)Ladz;
+	METHOD c func_27266_c (I)V

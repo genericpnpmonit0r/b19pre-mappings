@@ -1,0 +1,2 @@
+CLASS tx net/minecraft/src/ModelBoat
+	FIELD a boatSides [Lon;

@@ -1,0 +1,2 @@
+CLASS abj net/minecraft/src/RenderSnowMan
+	FIELD c snowManModel Ldg;

@@ -1,0 +1,3 @@
+CLASS wx net/minecraft/src/J_JsonNumberNode
+	FIELD a field_27226_a Ljava/util/regex/Pattern;
+	FIELD b field_27225_b Ljava/lang/String;

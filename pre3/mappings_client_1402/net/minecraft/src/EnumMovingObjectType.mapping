@@ -1,0 +1,4 @@
+CLASS xe net/minecraft/src/EnumMovingObjectType
+	FIELD a TILE Lxe;
+	FIELD b ENTITY Lxe;
+	FIELD c allMovingObjectTypes [Lxe;

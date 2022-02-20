@@ -1,0 +1,3 @@
+CLASS zl net/minecraft/src/J_ArrayNodeContainer
+	FIELD a nodeBuilder Ltm;
+	FIELD b field_27293_b Lyw;

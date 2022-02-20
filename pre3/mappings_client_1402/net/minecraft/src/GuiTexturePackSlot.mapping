@@ -1,0 +1,4 @@
+CLASS bx net/minecraft/src/GuiTexturePackSlot
+	FIELD a parentTexturePackGui Ldq;
+	METHOD <init> (Ldq;)V
+		ARG 1 guiTexturePacks

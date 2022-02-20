@@ -1,0 +1,8 @@
+CLASS a net/minecraft/src/Packet7UseEntity
+	FIELD a playerEntityId I
+	FIELD b targetEntity I
+	FIELD c isLeftClick I
+	METHOD <init> (III)V
+		ARG 1 entityId
+		ARG 2 target
+		ARG 3 clickType

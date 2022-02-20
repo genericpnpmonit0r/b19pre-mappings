@@ -1,0 +1,55 @@
+CLASS uq net/minecraft/src/PathFinder
+	METHOD <init> (Lagr;)V
+		ARG 1 blockAccess
+	METHOD a openPoint (III)Ld;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a createEntityPath (Ld;Ld;)Lsz;
+		ARG 1 point1
+		ARG 2 point2
+	METHOD a createEntityPathTo (Llu;DDDF)Lsz;
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 distance
+	METHOD a createEntityPathTo (Llu;IIIF)Lsz;
+		ARG 1 entity
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 distance
+	METHOD a getVerticalOffset (Llu;IIILd;)I
+		ARG 1 entity
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 point
+	METHOD a getSafePoint (Llu;IIILd;I)Ld;
+		ARG 1 entity
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 point
+		ARG 6 i
+	METHOD a addToPath (Llu;Ld;Ld;Ld;F)Lsz;
+		ARG 1 wntity
+		ARG 2 point1
+		ARG 3 point2
+		ARG 4 point3
+		ARG 5 distance
+	METHOD a createEntityPathTo (Llu;Llu;F)Lsz;
+		ARG 1 source
+		ARG 2 target
+		ARG 3 distance
+	METHOD b findPathOptions (Llu;Ld;Ld;Ld;F)I
+		ARG 1 entity
+		ARG 2 point1
+		ARG 3 point2
+		ARG 4 point3
+		ARG 5 distance
+	FIELD a worldMap Lagr;
+	FIELD b path Lyk;
+	FIELD c pointMap Lxr;
+	FIELD d pathOptions [Ld;

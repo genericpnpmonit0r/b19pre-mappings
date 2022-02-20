@@ -1,0 +1,28 @@
+CLASS vc net/minecraft/src/EntityWolf
+	FIELD a looksWithInterest Z
+	FIELD ao timeWolfIsShaking F
+	FIELD ap prevTimeWolfIsShaking F
+	FIELD b field_25048_b F
+	FIELD c field_25054_c F
+	FIELD d isWolfShaking Z
+	FIELD e sitting Z
+	METHOD W getWolfShaking ()Z
+	METHOD Z setTailRotation ()F
+	METHOD a setOwner (Ljava/lang/String;)V
+		ARG 1 ownerName
+	METHOD aa getWolfOwner ()Ljava/lang/String;
+	METHOD ab isWolfSitting ()Z
+	METHOD ac isWolfAngry ()Z
+	METHOD ad isWolfTamed ()Z
+	METHOD b showHeartsOrSmokeFX (Z)V
+		ARG 1 fxFlag
+	METHOD c getPathOrWalkableBlock (Llu;F)V
+	METHOD d getShadingWhileShaking (F)F
+	METHOD d getShakeAngle (FF)F
+	METHOD e getInterestedAngle (F)F
+	METHOD e setIsSitting (Z)V
+		ARG 1 sittingFlag
+	METHOD f setWolfAngry (Z)V
+		ARG 1 angryFlag
+	METHOD g setIsTamed (Z)V
+		ARG 1 tamedFlag

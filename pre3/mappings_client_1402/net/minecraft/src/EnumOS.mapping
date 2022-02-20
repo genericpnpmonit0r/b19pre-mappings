@@ -1,0 +1,6 @@
+CLASS xj net/minecraft/src/EnumOS
+	FIELD a linux Lxj;
+	FIELD b solaris Lxj;
+	FIELD c windows Lxj;
+	FIELD d macos Lxj;
+	FIELD e unknown Lxj;

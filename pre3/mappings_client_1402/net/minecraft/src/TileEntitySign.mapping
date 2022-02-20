@@ -1,0 +1,4 @@
+CLASS px net/minecraft/src/TileEntitySign
+	FIELD a signText [Ljava/lang/String;
+	FIELD b lineBeingEdited I
+	FIELD c isEditable Z

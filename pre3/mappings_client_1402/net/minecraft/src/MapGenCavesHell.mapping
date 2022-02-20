@@ -1,0 +1,3 @@
+CLASS abe net/minecraft/src/MapGenCavesHell
+	METHOD a generateLargeCaveNode (II[BDDD)V
+	METHOD a generateCaveNode (II[BDDDFFFIID)V

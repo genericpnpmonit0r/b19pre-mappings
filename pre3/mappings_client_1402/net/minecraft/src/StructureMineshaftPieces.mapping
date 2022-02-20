@@ -1,0 +1,14 @@
+CLASS fp net/minecraft/src/StructureMineshaftPieces
+	METHOD a getTreasurePieces ()[Lfa;
+	METHOD a getNextComponent (Lgd;Ljava/util/List;Ljava/util/Random;IIIII)Lgd;
+	METHOD a getRandomComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lgd;
+		ARG 0 components
+		ARG 1 rand
+		ARG 2 y
+		ARG 3 x
+		ARG 4 z
+		ARG 5 coordBaseMode
+		ARG 6 type
+	METHOD b getNextMineShaftComponent (Lgd;Ljava/util/List;Ljava/util/Random;IIIII)Lgd;
+		ARG 0 component
+	FIELD a lootArray [Lfa;

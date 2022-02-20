@@ -1,0 +1,3 @@
+CLASS zn net/minecraft/src/J_FieldNodeContainer
+	FIELD a fieldBuilder Labi;
+	FIELD b field_27291_b Lyw;

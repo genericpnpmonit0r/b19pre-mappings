@@ -1,0 +1,16 @@
+CLASS nm net/minecraft/src/MovingObjectPosition
+	METHOD <init> (IIIILbb;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 side
+		ARG 5 hitVector
+	METHOD <init> (Llu;)V
+		ARG 1 hit
+	FIELD a typeOfHit Lxe;
+	FIELD b blockX I
+	FIELD c blockY I
+	FIELD d blockZ I
+	FIELD e sideHit I
+	FIELD f hitVec Lbb;
+	FIELD g entityHit Llu;

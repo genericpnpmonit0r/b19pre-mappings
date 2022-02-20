@@ -1,0 +1,5 @@
+CLASS tc net/minecraft/src/Packet41EntityEffect
+	FIELD a entityId I
+	FIELD b effectId B
+	FIELD c effectAmp B
+	FIELD d duration S

@@ -1,0 +1,6 @@
+CLASS lb net/minecraft/src/EnchantmentProtection
+	FIELD l protectionName [Ljava/lang/String;
+	FIELD m protectionType I
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 protType

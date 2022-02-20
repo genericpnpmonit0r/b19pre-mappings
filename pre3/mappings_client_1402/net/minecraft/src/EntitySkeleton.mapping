@@ -1,0 +1,2 @@
+CLASS um net/minecraft/src/EntitySkeleton
+	FIELD a defaultHeldItem Lwy;

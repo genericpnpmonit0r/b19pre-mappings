@@ -1,0 +1,3 @@
+CLASS rq net/minecraft/src/ModelEnderman
+	FIELD a isCarrying Z
+	FIELD b isAttacking Z

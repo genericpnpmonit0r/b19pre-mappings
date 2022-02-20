@@ -1,0 +1,2 @@
+CLASS zt net/minecraft/src/ModelMinecart
+	FIELD a sideModels [Lon;

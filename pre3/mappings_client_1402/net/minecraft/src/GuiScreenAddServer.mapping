@@ -1,0 +1,8 @@
+CLASS uo net/minecraft/src/GuiScreenAddServer
+	FIELD a parentGui Lsv;
+	FIELD b serverAddress Laco;
+	FIELD c serverName Laco;
+	FIELD d serverStorage Lmg;
+	METHOD <init> (Lsv;Lmg;)V
+		ARG 1 screen
+		ARG 2 serveNBTStorage

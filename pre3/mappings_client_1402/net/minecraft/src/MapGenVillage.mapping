@@ -1,0 +1,2 @@
+CLASS ah net/minecraft/src/MapGenVillage
+	FIELD a villageSpawnBiomes Ljava/util/List;

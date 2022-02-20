@@ -1,0 +1,4 @@
+CLASS ac net/minecraft/src/Packet131MapData
+	FIELD a itemID S
+	FIELD b uniqueID S
+	FIELD c itemData [B

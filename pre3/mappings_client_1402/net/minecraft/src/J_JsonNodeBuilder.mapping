@@ -1,0 +1,2 @@
+CLASS yi net/minecraft/src/J_JsonNodeBuilder
+	METHOD b build ()Leg;

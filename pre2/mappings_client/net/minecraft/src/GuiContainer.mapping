@@ -1,4 +1,19 @@
 CLASS ez net/minecraft/src/GuiContainer
+	FIELD a itemRenderer Lqt;
+	FIELD b xSize I
+	FIELD c ySize I
+	FIELD d inventorySlots Lcm;
+	FIELD e guiWidth I
+	FIELD f guiHeight I
+	METHOD <init> (Lcm;)V
+		ARG 1 container
 	METHOD a drawGuiContainerBackgroundLayer (F)V
+	METHOD a getSlotAtPosition (II)Lum;
+	METHOD a drawSlotInventory (Lum;)V
+	METHOD a getIsMouseOverSlot (Lum;II)Z
+		ARG 1 slot
+		ARG 2 x
+		ARG 3 y
 	METHOD a windowClickSlot (Lum;IIZ)V
+	METHOD b drawSlot2 (IIIII)V
 	METHOD c drawGuiContainerForegroundLayer ()V

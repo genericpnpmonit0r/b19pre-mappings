@@ -1,0 +1,31 @@
+CLASS sw net/minecraft/src/EntityPlayerSP
+	FIELD a movementInput Lna;
+	FIELD ao renderArmPitch F
+	FIELD ap prevRenderArmYaw F
+	FIELD aq prevRenderArmPitch F
+	FIELD b mc Lnet/minecraft/client/Minecraft;
+	FIELD c sprintToggleTimer I
+	FIELD cg field_21903_bJ Lbr;
+	FIELD ch field_21904_bK Lbr;
+	FIELD ci field_21902_bL Lbr;
+	FIELD d sprintingTicksLeft I
+	FIELD e renderArmYaw F
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Luc;Lee;I)V
+		ARG 1 minecraft
+		ARG 2 world
+		ARG 3 session
+		ARG 4 dimension
+	METHOD X getPlayerArmorValue ()I
+	METHOD a sendChatMessage (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD b setHealth (I)V
+		ARG 1 health
+	METHOD d setXPStats (III)V
+		ARG 1 xp
+		ARG 2 xpLevel
+		ARG 3 playerLevel
+	METHOD g isBlockTranslucent (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD w_ getFOVMultiplier ()F

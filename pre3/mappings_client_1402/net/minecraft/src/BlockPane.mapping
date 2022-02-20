@@ -1,0 +1,10 @@
+CLASS agc net/minecraft/src/BlockPane
+	FIELD a paneType I
+	METHOD <init> (IIILyr;Z)V
+		ARG 1 id
+		ARG 2 texIndex
+		ARG 3 type
+		ARG 4 material
+	METHOD d canThisPaneConnectToThisBlockID (I)Z
+		ARG 1 id
+	METHOD s getPaneType ()I

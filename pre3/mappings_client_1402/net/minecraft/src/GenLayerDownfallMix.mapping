@@ -1,0 +1,3 @@
+CLASS aei net/minecraft/src/GenLayerDownfallMix
+	FIELD b theLayer Lto;
+	FIELD c field_35508_c I

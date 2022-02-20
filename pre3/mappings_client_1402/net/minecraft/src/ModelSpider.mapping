@@ -1,0 +1,12 @@
+CLASS lo net/minecraft/src/ModelSpider
+	FIELD a spiderHead Lon;
+	FIELD b spiderNeck Lon;
+	FIELD c spiderBody Lon;
+	FIELD d spiderLeg1 Lon;
+	FIELD e spiderLeg2 Lon;
+	FIELD f spiderLeg3 Lon;
+	FIELD g spiderLeg4 Lon;
+	FIELD l spiderLeg5 Lon;
+	FIELD m spiderLeg6 Lon;
+	FIELD n spiderLeg7 Lon;
+	FIELD o spiderLeg8 Lon;

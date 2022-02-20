@@ -1,0 +1,8 @@
+CLASS bn net/minecraft/src/GuiOptions
+	FIELD a screenTitle Ljava/lang/String;
+	FIELD b parentScreen Lsv;
+	FIELD c options Lgr;
+	FIELD d relevantOptions [Lwb;
+	METHOD <init> (Lsv;Lgr;)V
+		ARG 1 guiScreen
+		ARG 2 gameSettings

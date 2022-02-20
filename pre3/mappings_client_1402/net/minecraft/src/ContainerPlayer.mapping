@@ -1,0 +1,9 @@
+CLASS s net/minecraft/src/ContainerPlayer
+	FIELD a craftMatrix Lzf;
+	FIELD b craftResult Lhk;
+	FIELD c isSinglePlayer Z
+	METHOD <init> (Lwv;)V
+		ARG 1 inventoryPlayer
+	METHOD <init> (Lwv;Z)V
+		ARG 1 inventoryPlayer
+		ARG 2 isSPFlag

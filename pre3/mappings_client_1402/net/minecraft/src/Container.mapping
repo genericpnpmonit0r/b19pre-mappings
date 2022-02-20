@@ -1,0 +1,49 @@
+CLASS cn net/minecraft/src/Container
+	METHOD a updateCraftingResults ()V
+	METHOD a transferStackInSlot (I)Lwy;
+		ARG 1 slotIndex
+	METHOD a updateProgressBar (II)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a slotClick (IIZLvj;)Lwy;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 clickFlag
+		ARG 4 player
+	METHOD a putStackInSlot (ILwy;)V
+		ARG 1 slotIndex
+		ARG 2 itemStack
+	METHOD a onCraftMatrixChanged (Lhk;)V
+		ARG 1 inventory
+	METHOD a addSlot (Lvh;)V
+		ARG 1 slot
+	METHOD a onCraftGuiClosed (Lvj;)V
+		ARG 1 player
+	METHOD a getNextTransactionID (Lwv;)S
+		ARG 1 invPlayer
+	METHOD a mergeItemStack (Lwy;IIZ)Z
+		ARG 1 itemStack
+		ARG 2 x
+		ARG 3 y
+		ARG 4 clickFlag
+	METHOD a doNothingWithShort (S)V
+		ARG 1 s
+	METHOD a putStacksInSlots ([Lwy;)V
+		ARG 1 contents
+	METHOD b getSlot (I)Lvh;
+		ARG 1 slotIndex
+	METHOD b retrySlotClick (IIZLvj;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 clickFlag
+		ARG 4 player
+	METHOD b canInteractWith (Lvj;)Z
+		ARG 1 player
+	METHOD b doNothingWithShort2 (S)V
+		ARG 1 s
+	FIELD a transactionID S
+	FIELD b playerList Ljava/util/Set;
+	FIELD d inventoryItemStacks Ljava/util/List;
+	FIELD e inventorySlots Ljava/util/List;
+	FIELD f windowId I
+	FIELD g crafters Ljava/util/List;

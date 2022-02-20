@@ -1,0 +1,19 @@
+CLASS al net/minecraft/src/CompressedStreamTools
+	METHOD a readDataInput (Ljava/io/DataInput;)Lzx;
+		ARG 0 dataInput
+	METHOD a readFile (Ljava/io/File;)Lzx;
+		ARG 0 file
+	METHOD a loadGzippedCompoundFromOutputStream (Ljava/io/InputStream;)Lzx;
+		ARG 0 inputStream
+	METHOD a write (Lzx;Ljava/io/DataOutput;)V
+		ARG 0 compoundTag
+		ARG 1 dataOutput
+	METHOD a decompress (Lzx;Ljava/io/File;)V
+		ARG 0 compoundTag
+		ARG 1 file
+	METHOD a writeGzippedCompoundToOutputStream (Lzx;Ljava/io/OutputStream;)V
+		ARG 0 compoundTag
+		ARG 1 outputStream
+	METHOD b compress (Lzx;Ljava/io/File;)V
+		ARG 0 compoundTag
+		ARG 1 file

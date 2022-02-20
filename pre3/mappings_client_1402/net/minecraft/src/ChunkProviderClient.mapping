@@ -1,0 +1,10 @@
+CLASS ne net/minecraft/src/ChunkProviderClient
+	FIELD a blankChunk Lyp;
+	FIELD b chunkMapping Ldr;
+	FIELD c chunkListing Ljava/util/List;
+	FIELD d worldObj Luc;
+	METHOD <init> (Luc;)V
+		ARG 1 world
+	METHOD d unloadChunk (II)V
+		ARG 1 x
+		ARG 2 z

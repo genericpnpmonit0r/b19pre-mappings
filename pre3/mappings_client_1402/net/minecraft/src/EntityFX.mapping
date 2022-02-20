@@ -1,0 +1,18 @@
+CLASS po net/minecraft/src/EntityFX
+	FIELD ao particleMaxAge I
+	FIELD ap particleScale F
+	FIELD aq particleGravity F
+	FIELD ar particleRed F
+	FIELD as particleGreen F
+	FIELD at particleBlue F
+	FIELD au interpPosX D
+	FIELD av interpPosY D
+	FIELD aw interpPosZ D
+	FIELD b setParticleTextureIndex I
+	FIELD c particleTextureJitterX F
+	FIELD d particleTextureJitterY F
+	FIELD e particleAge I
+	METHOD a renderParticle (Laaa;FFFFFF)V
+	METHOD d multiplyVelocity (F)Lpo;
+	METHOD e func_405_d (F)Lpo;
+	METHOD m getFXLayer ()I

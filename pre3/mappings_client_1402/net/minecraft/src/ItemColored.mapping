@@ -1,0 +1,5 @@
+CLASS agi net/minecraft/src/ItemColored
+	FIELD a theBlock Lnd;
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 doesHaveSubtypes

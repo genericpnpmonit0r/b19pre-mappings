@@ -1,0 +1,2 @@
+CLASS vg net/minecraft/src/RenderFallingSand
+	FIELD a blockRenderer Lsr;

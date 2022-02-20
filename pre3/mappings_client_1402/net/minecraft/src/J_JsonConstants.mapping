@@ -1,0 +1,5 @@
+CLASS nw net/minecraft/src/J_JsonConstants
+	FIELD a NULL Lnw;
+	FIELD b TRUE Lnw;
+	FIELD c FALSE Lnw;
+	FIELD d jsonNodeType Lrg;
