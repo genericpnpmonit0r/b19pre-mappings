@@ -1,0 +1,15 @@
+CLASS hu net/minecraft/src/StructureNetherBridgePieces
+	METHOD a func_40689_a ()[Laed;
+	METHOD a func_40688_a (Laed;Ljava/util/List;Ljava/util/Random;IIIII)Lxy;
+	METHOD b func_40687_b ()[Laed;
+	METHOD b createNextComponentRandom (Laed;Ljava/util/List;Ljava/util/Random;IIIII)Lxy;
+		ARG 0 pieceWeight
+		ARG 1 components
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 type
+		ARG 7 coordBase
+	FIELD a primaryComponents [Laed;
+	FIELD b secondaryComponents [Laed;

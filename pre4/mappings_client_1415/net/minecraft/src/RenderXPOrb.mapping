@@ -1,0 +1,4 @@
+CLASS ri net/minecraft/src/RenderXPOrb
+	METHOD a doRender (Lme;DDDFF)V
+	FIELD a xpBool Z
+	FIELD b blockRenderer Ltj;

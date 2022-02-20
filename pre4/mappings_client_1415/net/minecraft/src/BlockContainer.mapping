@@ -1,0 +1,5 @@
+CLASS adu net/minecraft/src/BlockContainer
+	METHOD a onBlockAdded (Luv;III)V
+	METHOD b powerBlock (Luv;IIIII)V
+	METHOD b_ onBlockRemoval (Luv;III)V
+	METHOD n_ getBlockEntity ()Ljt;

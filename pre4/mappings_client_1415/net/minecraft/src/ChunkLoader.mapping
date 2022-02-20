@@ -1,0 +1,21 @@
+CLASS mx net/minecraft/src/ChunkLoader
+	METHOD <init> (Ljava/io/File;Z)V
+		ARG 1 file
+		ARG 2 createIfNecessaryFlag
+	METHOD a chunkTick ()V
+	METHOD a chunkFileForXZ (II)Ljava/io/File;
+		ARG 1 x
+		ARG 2 z
+	METHOD a loadChunk (Luv;II)Lzn;
+	METHOD a loadChunkIntoWorldFromCompound (Luv;Laaw;)Lzn;
+		ARG 0 world
+		ARG 1 compoundTag
+	METHOD a saveChunk (Luv;Lzn;)V
+	METHOD a storeChunkInCompound (Lzn;Luv;Laaw;)V
+		ARG 0 chunk
+		ARG 1 world
+		ARG 2 compoundTag
+	METHOD b saveExtraData ()V
+	METHOD b saveExtraChunkData (Luv;Lzn;)V
+	FIELD a saveDir Ljava/io/File;
+	FIELD b createIfNecessary Z

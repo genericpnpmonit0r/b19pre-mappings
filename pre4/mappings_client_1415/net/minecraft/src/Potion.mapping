@@ -1,0 +1,70 @@
+CLASS xj net/minecraft/src/Potion
+	METHOD <init> (IZI)V
+		ARG 1 id
+		ARG 2 effectivenessFlag
+		ARG 3 liquidColor
+	METHOD a getId ()I
+	METHOD a setEffectiveness (D)Lxj;
+		ARG 1 eff
+	METHOD a setIconIndex (II)Lxj;
+		ARG 1 x
+		ARG 2 y
+	METHOD a getDurationString (Laho;)Ljava/lang/String;
+		ARG 0 potionEffect
+	METHOD a setPotionName (Ljava/lang/String;)Lxj;
+		ARG 1 name
+	METHOD a performEffect (Lzt;I)V
+		ARG 1 living
+		ARG 2 amplifier
+	METHOD b isInstant ()Z
+	METHOD b isReady (II)Z
+		ARG 1 i
+		ARG 2 j
+	METHOD c getPotionName ()Ljava/lang/String;
+	METHOD d hasStatusIcon ()Z
+	METHOD e getStatusIconIndex ()I
+	METHOD f getEffectivenessFlag ()Z
+	METHOD g getEffectiveneness ()D
+	METHOD h setBadEffect ()Lxj;
+	METHOD i getIsBadEffect ()Z
+	METHOD j getLiquidColor ()I
+	FIELD A potionUnused7 Lxj;
+	FIELD B potionUnused8 Lxj;
+	FIELD C potionUnused9 Lxj;
+	FIELD D potionUnused10 Lxj;
+	FIELD E potionUnused11 Lxj;
+	FIELD F potionUnused12 Lxj;
+	FIELD G potionUnused13 Lxj;
+	FIELD H potionId I
+	FIELD I name Ljava/lang/String;
+	FIELD J statusIconIndex I
+	FIELD K effectivenessBool Z
+	FIELD L effectiveness D
+	FIELD M isBadEffect Z
+	FIELD N liquidColor I
+	FIELD a potionTypes [Lxj;
+	FIELD b potionUnused1 Lxj;
+	FIELD c moveSpeed Lxj;
+	FIELD d moveSlowdown Lxj;
+	FIELD e digSpeed Lxj;
+	FIELD f digSlowdown Lxj;
+	FIELD g damageBoost Lxj;
+	FIELD h heal Lxj;
+	FIELD i harm Lxj;
+	FIELD j jump Lxj;
+	FIELD k confusion Lxj;
+	FIELD l regeneration Lxj;
+	FIELD m resistance Lxj;
+	FIELD n fireResistance Lxj;
+	FIELD o waterBreathing Lxj;
+	FIELD p invisibility Lxj;
+	FIELD q blindness Lxj;
+	FIELD r nightVision Lxj;
+	FIELD s hunger Lxj;
+	FIELD t weakness Lxj;
+	FIELD u poison Lxj;
+	FIELD v potionUnused2 Lxj;
+	FIELD w potionUnused3 Lxj;
+	FIELD x potionUnused4 Lxj;
+	FIELD y potionUnused5 Lxj;
+	FIELD z potionUnused6 Lxj;

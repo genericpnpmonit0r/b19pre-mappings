@@ -1,0 +1,15 @@
+CLASS vg net/minecraft/src/EntitySkeleton
+	METHOD Z getHeldItem ()Lxt;
+	METHOD a readEntityFromNBT (Laaw;)V
+	METHOD a onDeath (Lkz;)V
+	METHOD a attackEntityFrom (Lkz;I)Z
+	METHOD a attackEntity (Lme;F)V
+	METHOD a dropFewItems (ZI)V
+	METHOD b writeEntityToNBT (Laaw;)V
+	METHOD c getMaxHealth ()I
+	METHOD d onLivingUpdate ()V
+	METHOD e getDropItemId ()I
+	METHOD m getLivingSound ()Ljava/lang/String;
+	METHOD n getHurtSound ()Ljava/lang/String;
+	METHOD o getDeathSound ()Ljava/lang/String;
+	FIELD a defaultHeldItem Lxt;

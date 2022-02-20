@@ -1,0 +1,3 @@
+CLASS wx net/minecraft/src/IInvBasic
+	METHOD a onInventoryChanged (Lla;)V
+		ARG 1 inventoryBasic

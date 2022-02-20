@@ -1,0 +1,5 @@
+CLASS abn net/minecraft/src/EntityPortalFX
+	METHOD A_ onUpdate ()V
+	METHOD a getEntityBrightness (F)F
+	METHOD a renderParticle (Laay;FFFFFF)V
+	METHOD b getEntityBrightnessForRender (F)I

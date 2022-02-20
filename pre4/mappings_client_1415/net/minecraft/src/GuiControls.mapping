@@ -1,0 +1,14 @@
+CLASS nn net/minecraft/src/GuiControls
+	METHOD <init> (Ltn;Lgw;)V
+		ARG 1 screen
+		ARG 2 settings
+	METHOD a initGui ()V
+	METHOD a keyTyped (CI)V
+	METHOD a drawScreen (IIF)V
+	METHOD a mouseClicked (III)V
+	METHOD a actionPerformed (Lyt;)V
+	METHOD c func_20080_j ()I
+	FIELD a screenTitle Ljava/lang/String;
+	FIELD b parentScreen Ltn;
+	FIELD c options Lgw;
+	FIELD d buttonId I

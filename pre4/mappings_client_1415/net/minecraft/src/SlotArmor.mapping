@@ -1,0 +1,9 @@
+CLASS aco net/minecraft/src/SlotArmor
+	METHOD <init> (Lt;Lhr;IIII)V
+		ARG 1 playerInventory
+		ARG 2 inventory
+		ARG 6 type
+	METHOD a getSlotStackLimit ()I
+	METHOD a isItemValid (Lxt;)Z
+	FIELD a armorType I
+	FIELD f inventory Lt;

@@ -1,0 +1,11 @@
+CLASS fa net/minecraft/src/CraftingManager
+	METHOD a getInstance ()Lfa;
+	METHOD a addRecipe (Lxt;[Ljava/lang/Object;)V
+		ARG 1 output
+		ARG 2 patternAndIngredients
+	METHOD b getRecipeList ()Ljava/util/List;
+	METHOD b addShapelessRecipe (Lxt;[Ljava/lang/Object;)V
+		ARG 1 output
+		ARG 2 patternAndIngredients
+	FIELD a instance Lfa;
+	FIELD b recipes Ljava/util/List;

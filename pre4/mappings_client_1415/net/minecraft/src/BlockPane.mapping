@@ -1,0 +1,18 @@
+CLASS aha net/minecraft/src/BlockPane
+	METHOD <init> (IIILzp;Z)V
+		ARG 1 id
+		ARG 2 texIndex
+		ARG 3 type
+		ARG 4 material
+	METHOD a isOpaqueCube ()Z
+	METHOD a idDropped (ILjava/util/Random;I)I
+	METHOD a setBlockBoundsBasedOnState (Lahq;III)V
+	METHOD a shouldSideBeRendered (Lahq;IIII)Z
+	METHOD a getCollidingBoundingBoxes (Luv;IIILun;Ljava/util/ArrayList;)V
+	METHOD b renderAsNormalBlock ()Z
+	METHOD d getRenderType ()I
+	METHOD d canThisPaneConnectToThisBlockID (I)Z
+		ARG 1 id
+	METHOD h setBlockBoundsForItemRender ()V
+	METHOD s getPaneType ()I
+	FIELD a paneType I

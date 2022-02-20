@@ -1,0 +1,38 @@
+CLASS yw net/minecraft/src/Packet
+	METHOD a getPacketSize ()I
+	METHOD a getNewPacket (I)Lyw;
+		ARG 0 id
+	METHOD a addIdClassMapping (IZZLjava/lang/Class;)V
+		ARG 0 id
+		ARG 1 clientPkt
+		ARG 2 srvPkt
+		ARG 3 packetClass
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+		ARG 1 input
+	METHOD a readString (Ljava/io/DataInputStream;I)Ljava/lang/String;
+		ARG 0 input
+		ARG 1 length
+	METHOD a readPacket (Ljava/io/DataInputStream;Z)Lyw;
+		ARG 0 input
+		ARG 1 srvPkt
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+		ARG 1 output
+	METHOD a writeString (Ljava/lang/String;Ljava/io/DataOutputStream;)V
+		ARG 0 str
+		ARG 1 output
+	METHOD a processPacket (Lmt;)V
+		ARG 1 handler
+	METHOD a writeSlotItemStack (Lxt;Ljava/io/DataOutputStream;)V
+	METHOD a writePacket (Lyw;Ljava/io/DataOutputStream;)V
+		ARG 0 packet
+		ARG 1 output
+	METHOD b readSlotItemStack (Ljava/io/DataInputStream;)Lxt;
+	METHOD c getPacketId ()I
+	FIELD a packetIdToClassMap Lym;
+	FIELD b packetClassToIdMap Ljava/util/Map;
+	FIELD c clientPacketIdList Ljava/util/Set;
+	FIELD d serverPacketIdList Ljava/util/Set;
+	FIELD e otherIdToClassMap Lym;
+	FIELD f packetCount I
+	FIELD k creationTimeMillis J
+	FIELD l isChunkDataPacket Z

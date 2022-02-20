@@ -1,0 +1,12 @@
+CLASS sj net/minecraft/src/ContainerFurnace
+	METHOD <init> (Lxq;Laea;)V
+		ARG 1 inventoryPlayer
+		ARG 2 furnace
+	METHOD a updateCraftingResults ()V
+	METHOD a transferStackInSlot (I)Lxt;
+	METHOD a updateProgressBar (II)V
+	METHOD b canInteractWith (Lwe;)Z
+	FIELD a furnace Laea;
+	FIELD b lastCookTime I
+	FIELD c lastBurnTime I
+	FIELD h lastItemBurnTime I

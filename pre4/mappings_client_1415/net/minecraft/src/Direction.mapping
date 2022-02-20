@@ -1,0 +1,9 @@
+CLASS ya net/minecraft/src/Direction
+	FIELD a offsetX [I
+	FIELD b offsetZ [I
+	FIELD c directionToFacing [I
+	FIELD d facingToDirection [I
+	FIELD e rotateOpposite [I
+	FIELD f rotateRight [I
+	FIELD g rotateLeft [I
+	FIELD h bedDirection [[I

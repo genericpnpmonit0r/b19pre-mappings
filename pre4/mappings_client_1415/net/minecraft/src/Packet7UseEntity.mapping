@@ -1,0 +1,12 @@
+CLASS a net/minecraft/src/Packet7UseEntity
+	METHOD <init> (III)V
+		ARG 1 entityId
+		ARG 2 target
+		ARG 3 clickType
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lmt;)V
+	FIELD a playerEntityId I
+	FIELD b targetEntity I
+	FIELD c isLeftClick I

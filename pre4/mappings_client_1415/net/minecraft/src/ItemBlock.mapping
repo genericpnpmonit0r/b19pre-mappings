@@ -1,0 +1,6 @@
+CLASS td net/minecraft/src/ItemBlock
+	METHOD a getItemNameIS (Lxt;)Ljava/lang/String;
+	METHOD a onItemUse (Lxt;Lwe;Luv;IIII)Z
+	METHOD c getBlockID ()I
+	METHOD d getItemName ()Ljava/lang/String;
+	FIELD a blockID I

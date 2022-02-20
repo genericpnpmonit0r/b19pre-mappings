@@ -1,0 +1,24 @@
+CLASS dd net/minecraft/src/AchievementList
+	METHOD a init ()V
+	FIELD a minDisplayColumn I
+	FIELD b minDisplayRow I
+	FIELD c maxDisplayColumn I
+	FIELD d maxDisplayRow I
+	FIELD e achievementList Ljava/util/List;
+	FIELD f openInventory Laba;
+	FIELD g mineWood Laba;
+	FIELD h buildWorkBench Laba;
+	FIELD i buildPickaxe Laba;
+	FIELD j buildFurnace Laba;
+	FIELD k acquireIron Laba;
+	FIELD l buildHoe Laba;
+	FIELD m makeBread Laba;
+	FIELD n bakeCake Laba;
+	FIELD o buildBetterPickaxe Laba;
+	FIELD p cookFish Laba;
+	FIELD q onARail Laba;
+	FIELD r buildSword Laba;
+	FIELD s killEnemy Laba;
+	FIELD t killCow Laba;
+	FIELD u flyPig Laba;
+	FIELD v snipeSkeleton Laba;

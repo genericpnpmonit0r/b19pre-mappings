@@ -1,0 +1,54 @@
+CLASS vs net/minecraft/src/BiomeDecorator
+	METHOD a decorate_do ()V
+	METHOD a genStandardOre1 (ILkf;II)V
+		ARG 1 oreCount
+		ARG 2 generator
+		ARG 3 x
+		ARG 4 z
+	METHOD a decorate (Luv;Ljava/util/Random;II)V
+		ARG 1 world
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 z
+	METHOD b generateOres ()V
+	METHOD b genStandardOre2 (ILkf;II)V
+		ARG 1 oreCount
+		ARG 2 generator
+		ARG 3 x
+		ARG 4 z
+	FIELD A flowersPerChunk I
+	FIELD B grassPerChunk I
+	FIELD C deadBushPerChunk I
+	FIELD D mushroomsPerChunk I
+	FIELD E reedsPerChunk I
+	FIELD F cactiPerChunk I
+	FIELD G sandPerChunk I
+	FIELD H sandPerChunk2 I
+	FIELD I clayPerChunk I
+	FIELD J bigMushroomsPerChunk I
+	FIELD a currentWorld Luv;
+	FIELD b decoRNG Ljava/util/Random;
+	FIELD c chunk_X I
+	FIELD d chunk_Z I
+	FIELD e biome Lyr;
+	FIELD f clayGen Lkf;
+	FIELD g sandGen Lkf;
+	FIELD h gravelAsSandGen Lkf;
+	FIELD i dirtGen Lkf;
+	FIELD j gravelGen Lkf;
+	FIELD k coalGen Lkf;
+	FIELD l ironGen Lkf;
+	FIELD m goldGen Lkf;
+	FIELD n redstoneGen Lkf;
+	FIELD o diamondGen Lkf;
+	FIELD p lapisGen Lkf;
+	FIELD q plantYellowGen Lkf;
+	FIELD r plantRedGen Lkf;
+	FIELD s mushroomBrownGen Lkf;
+	FIELD t mushroomRedGen Lkf;
+	FIELD u bigMushroomGen Lkf;
+	FIELD v reedGen Lkf;
+	FIELD w cactusGen Lkf;
+	FIELD x waterlilyGen Lkf;
+	FIELD y waterlilyPerChunk I
+	FIELD z treesPerChunk I

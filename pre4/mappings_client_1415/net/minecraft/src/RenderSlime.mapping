@@ -1,0 +1,4 @@
+CLASS id net/minecraft/src/RenderSlime
+	METHOD a preRenderCallback (Lzt;F)V
+	METHOD b shouldRenderPass (Lzt;IF)I
+	FIELD c scaleAmount Lgr;

@@ -1,0 +1,10 @@
+CLASS ex net/minecraft/src/EnumRarity
+	METHOD <init> (Ljava/lang/String;IILjava/lang/String;)V
+		ARG 3 color
+		ARG 4 name
+	FIELD a common Lex;
+	FIELD b uncommon Lex;
+	FIELD c rare Lex;
+	FIELD d epic Lex;
+	FIELD e rarityColor I
+	FIELD f rarityName Ljava/lang/String;

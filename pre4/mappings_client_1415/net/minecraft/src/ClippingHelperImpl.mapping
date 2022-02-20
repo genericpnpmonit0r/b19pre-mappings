@@ -1,0 +1,10 @@
+CLASS p net/minecraft/src/ClippingHelperImpl
+	METHOD a getInstance ()Ltw;
+	METHOD a normalize ([[FI)V
+		ARG 1 f
+		ARG 2 i
+	METHOD b init ()V
+	FIELD e instance Lp;
+	FIELD f projectionMatrixBuffer Ljava/nio/FloatBuffer;
+	FIELD g modelviewMatrixBuffer Ljava/nio/FloatBuffer;
+	FIELD h floatBuffer Ljava/nio/FloatBuffer;

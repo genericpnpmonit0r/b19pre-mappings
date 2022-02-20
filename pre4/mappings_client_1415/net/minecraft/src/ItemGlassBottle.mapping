@@ -1,0 +1,2 @@
+CLASS afg net/minecraft/src/ItemGlassBottle
+	METHOD a onItemRightClick (Lxt;Luv;Lwe;)Lxt;

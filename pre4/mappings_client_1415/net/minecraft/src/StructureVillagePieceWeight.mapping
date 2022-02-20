@@ -1,0 +1,7 @@
+CLASS dh net/minecraft/src/StructureVillagePieceWeight
+	METHOD a canSpawnMoreVillagePieces ()Z
+	METHOD a canSpawnMoreVillagePiecesOfType (I)Z
+	FIELD a villagePieceClass Ljava/lang/Class;
+	FIELD b villagePieceWeight I
+	FIELD c villagePiecesSpawned I
+	FIELD d villagePiecesLimit I

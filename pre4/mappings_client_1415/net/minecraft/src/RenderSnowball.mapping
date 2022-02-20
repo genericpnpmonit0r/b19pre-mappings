@@ -1,0 +1,3 @@
+CLASS ce net/minecraft/src/RenderSnowball
+	METHOD a doRender (Lme;DDDFF)V
+	FIELD a itemIconIndex I

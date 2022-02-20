@@ -1,0 +1,33 @@
+CLASS aip net/minecraft/src/ItemFood
+	METHOD <init> (IIFZ)V
+		ARG 1 id
+		ARG 2 healAmount
+		ARG 3 saturationModifier
+		ARG 4 isWolfsFavorite
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 healAmount
+		ARG 3 isWolfsFavorite
+	METHOD a setPotionEffect (IIIF)Laip;
+		ARG 1 id
+		ARG 2 duration
+		ARG 3 amplifier
+		ARG 4 probability
+	METHOD a setItemName (Ljava/lang/String;)Lvz;
+	METHOD a onItemRightClick (Lxt;Luv;Lwe;)Lxt;
+	METHOD b getMaxItemUseDuration (Lxt;)I
+	METHOD b onFoodEaten (Lxt;Luv;Lwe;)Lxt;
+	METHOD c getItemUseAction (Lxt;)Lxw;
+	METHOD o getHealAmount ()I
+	METHOD p getSaturationModifier ()F
+	METHOD q getIsWolfsFavoriteMeat ()Z
+	METHOD r getIsEating ()Laip;
+	FIELD a maxItemUseDuration I
+	FIELD b healAmount I
+	FIELD bS isWolfsFavoriteMeat Z
+	FIELD bT isEating Z
+	FIELD bU potionId I
+	FIELD bV potionDuration I
+	FIELD bW potionAmplifier I
+	FIELD bX potionEffectProbability F
+	FIELD c saturationModifier F

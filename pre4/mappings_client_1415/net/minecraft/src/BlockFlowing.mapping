@@ -1,0 +1,45 @@
+CLASS jp net/minecraft/src/BlockFlowing
+	METHOD a onBlockAdded (Luv;III)V
+	METHOD a updateTick (Luv;IIILjava/util/Random;)V
+	METHOD c calculateFlowCost (Luv;IIIII)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 accumulatedCost
+		ARG 6 previousDirectionOfFlow
+	METHOD f getSmallestFlowDecay (Luv;IIII)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 currentSmallestFlowDecay
+	METHOD g flowIntoBlock (Luv;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 meta
+	METHOD j updateFlow (Luv;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD k getOptimalFlowDirections (Luv;III)[Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD l blockBlocksFlow (Luv;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD m liquidCanDisplaceBlock (Luv;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	FIELD a numAdjacentSources I
+	FIELD b isOptimalFlowDirection [Z
+	FIELD c flowCost [I

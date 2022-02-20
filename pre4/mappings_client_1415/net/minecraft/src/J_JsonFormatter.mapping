@@ -1,0 +1,2 @@
+CLASS ib net/minecraft/src/J_JsonFormatter
+	METHOD a format (Lku;)Ljava/lang/String;

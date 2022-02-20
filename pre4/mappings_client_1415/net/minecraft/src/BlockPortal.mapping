@@ -1,0 +1,19 @@
+CLASS ag net/minecraft/src/BlockPortal
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
+	METHOD a isOpaqueCube ()Z
+	METHOD a setBlockBoundsBasedOnState (Lahq;III)V
+	METHOD a shouldSideBeRendered (Lahq;IIII)Z
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a onNeighborBlockChange (Luv;IIII)V
+	METHOD a onEntityCollidedWithBlock (Luv;IIILme;)V
+	METHOD a_ tryToCreatePortal (Luv;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b renderAsNormalBlock ()Z
+	METHOD b randomDisplayTick (Luv;IIILjava/util/Random;)V
+	METHOD c getRenderBlockPass ()I
+	METHOD c getCollisionBoundingBoxFromPool (Luv;III)Lun;

@@ -1,0 +1,12 @@
+CLASS aio net/minecraft/src/ComponentVillageWoodHut
+	METHOD <init> (ILjava/util/Random;Lov;I)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 boundingBox
+		ARG 4 coordBaseMode
+	METHOD a buildComponent (Lgi;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Laio;
+	METHOD a addComponentParts (Luv;Ljava/util/Random;Lov;)Z
+	FIELD a averageGroundLevel I
+	FIELD b isTallHouse Z
+	FIELD c tablePosition I

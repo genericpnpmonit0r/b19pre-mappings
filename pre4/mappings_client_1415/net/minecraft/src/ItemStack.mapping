@@ -1,0 +1,117 @@
+CLASS xt net/minecraft/src/ItemStack
+	METHOD <init> (III)V
+		ARG 1 id
+		ARG 2 stackSize
+		ARG 3 meta
+	METHOD <init> (Lnp;)V
+		ARG 1 block
+	METHOD <init> (Lnp;I)V
+		ARG 1 block
+		ARG 2 count
+	METHOD <init> (Lnp;II)V
+		ARG 1 block
+		ARG 2 count
+		ARG 3 meta
+	METHOD <init> (Lvz;)V
+		ARG 1 item
+	METHOD <init> (Lvz;I)V
+		ARG 1 item
+		ARG 2 count
+	METHOD <init> (Lvz;II)V
+		ARG 1 item
+		ARG 2 count
+		ARG 3 meta
+	METHOD a getItem ()Lvz;
+	METHOD a splitStack (I)Lxt;
+		ARG 1 stackSize
+	METHOD a onDestroyBlock (IIIILwe;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+		ARG 5 player
+	METHOD a damageItem (ILme;)V
+		ARG 1 meta
+		ARG 2 entity
+	METHOD a loadItemStackFromNBT (Laaw;)Lxt;
+		ARG 0 compoundTag
+	METHOD a addEnchantment (Lit;I)V
+		ARG 1 enchantment
+		ARG 2 level
+	METHOD a getDamageVsEntity (Lme;)I
+		ARG 1 entity
+	METHOD a getStrVsBlock (Lnp;)F
+		ARG 1 block
+	METHOD a updateAnimation (Luv;Lme;IZ)V
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 tickCounter
+		ARG 4 animationFlag
+	METHOD a useItemRightClick (Luv;Lwe;)Lxt;
+		ARG 1 world
+		ARG 2 player
+	METHOD a onPlayerStoppedUsing (Luv;Lwe;I)V
+		ARG 1 world
+		ARG 2 player
+		ARG 3 id
+	METHOD a onItemDestroyedByUse (Lwe;)V
+		ARG 1 player
+	METHOD a useItem (Lwe;Luv;IIII)Z
+		ARG 1 player
+		ARG 2 world
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 side
+	METHOD a isItemEqual (Lxt;)Z
+		ARG 1 itemStack
+	METHOD a areItemStacksEqual (Lxt;Lxt;)Z
+		ARG 0 ItemStack1
+		ARG 1 itemStack2
+	METHOD a useItemOnEntity (Lzt;)V
+		ARG 1 living
+	METHOD a hitEntity (Lzt;Lwe;)V
+		ARG 1 living
+		ARG 2 player
+	METHOD b getIconIndex ()I
+	METHOD b setItemDamage (I)V
+		ARG 1 meta
+	METHOD b writeToNBT (Laaw;)Laaw;
+		ARG 1 compoundTag
+	METHOD b canHarvestBlock (Lnp;)Z
+		ARG 1 block
+	METHOD b onFoodEaten (Luv;Lwe;)Lxt;
+		ARG 1 world
+		ARG 2 player
+	METHOD b copyItemStack (Lxt;)Lxt;
+		ARG 0 ItemStack
+	METHOD c getMaxStackSize ()I
+	METHOD c readFromNBT (Laaw;)V
+		ARG 1 compoundTag
+	METHOD c onCrafting (Luv;Lwe;)V
+		ARG 1 world
+		ARG 2 player
+	METHOD c isStackEqual (Lxt;)Z
+		ARG 1 itemStack
+	METHOD d isStackable ()Z
+	METHOD d addTagData (Laaw;)V
+		ARG 1 compoundTag
+	METHOD e isItemStackDamageable ()Z
+	METHOD f getHasSubtypes ()Z
+	METHOD g isItemDamaged ()Z
+	METHOD h getItemDamageForDisplay ()I
+	METHOD i getItemDamage ()I
+	METHOD j getMaxDamage ()I
+	METHOD k copy ()Lxt;
+	METHOD l getMaxItemUseDuration ()I
+	METHOD m getItemUseAction ()Lxw;
+	METHOD n hasTagData ()Z
+	METHOD q itemHasItemStack ()Z
+	METHOD r getItemRarity ()Lex;
+	METHOD s hasData ()Z
+	METHOD t hasEnchantment ()Z
+	FIELD a stackSize I
+	FIELD b animationsToGo I
+	FIELD c itemID I
+	FIELD d stackTagCompound Laaw;
+	FIELD e itemDamage I

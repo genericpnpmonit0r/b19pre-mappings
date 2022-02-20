@@ -1,0 +1,56 @@
+CLASS aif net/minecraft/src/EntityMinecart
+	METHOD <init> (Luv;DDDI)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 type
+	METHOD A_ onUpdate ()V
+	METHOD B_ closeChest ()V
+	METHOD a getSizeInventory ()I
+	METHOD a setVelocity (DDD)V
+	METHOD a func_515_a (DDDD)Lbe;
+	METHOD a setPositionAndRotation2 (DDDFFI)V
+	METHOD a decrStackSize (II)Lxt;
+	METHOD a setInventorySlotContents (ILxt;)V
+	METHOD a readEntityFromNBT (Laaw;)V
+	METHOD a attackEntityFrom (Lkz;I)Z
+	METHOD a getCollisionBox (Lme;)Lun;
+	METHOD a_ isUseableByPlayer (Lwe;)Z
+	METHOD b entityInit ()V
+	METHOD b writeEntityToNBT (Laaw;)V
+	METHOD b_ canBeCollidedWith ()Z
+	METHOD c getInvName ()Ljava/lang/String;
+	METHOD c interact (Lwe;)Z
+	METHOD c_ canBePushed ()Z
+	METHOD d getInventoryStackLimit ()I
+	METHOD d_ canTriggerWalking ()Z
+	METHOD e openChest ()V
+	METHOD e_ getBoundingBox ()Lun;
+	METHOD e_ getStackInSlot (I)Lxt;
+	METHOD f getShadowSize ()F
+	METHOD f applyEntityCollision (Lme;)V
+	METHOD i func_514_g (DDD)Lbe;
+	METHOD j performHurtAnimation ()V
+	METHOD k onInventoryChanged ()V
+	METHOD l getMountedYOffset ()D
+	METHOD x setEntityDead ()V
+	FIELD aA velocityY D
+	FIELD aB velocityZ D
+	FIELD a animHurtCur I
+	FIELD ao pushX D
+	FIELD ap pushZ D
+	FIELD aq cargoItems [Lxt;
+	FIELD ar field_856_i Z
+	FIELD as field_855_j [[[I
+	FIELD at minecartPosRotationIncrements I
+	FIELD au minecartX D
+	FIELD av minecartY D
+	FIELD aw minecartZ D
+	FIELD ax minecartYaw D
+	FIELD ay minecartPitch D
+	FIELD az velocityX D
+	FIELD b animHurtPrev I
+	FIELD c animHurt I
+	FIELD d minecartType I
+	FIELD e fuel I

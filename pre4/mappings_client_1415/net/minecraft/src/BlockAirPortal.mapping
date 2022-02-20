@@ -1,0 +1,11 @@
+CLASS rj net/minecraft/src/BlockAirPortal
+	METHOD a isOpaqueCube ()Z
+	METHOD a setBlockBoundsBasedOnState (Lahq;III)V
+	METHOD a shouldSideBeRendered (Lahq;IIII)Z
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a onBlockAdded (Luv;III)V
+	METHOD a onEntityCollidedWithBlock (Luv;IIILme;)V
+	METHOD b renderAsNormalBlock ()Z
+	METHOD b randomDisplayTick (Luv;IIILjava/util/Random;)V
+	METHOD d getRenderType ()I
+	METHOD n_ getBlockEntity ()Ljt;

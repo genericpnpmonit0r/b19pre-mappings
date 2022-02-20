@@ -1,0 +1,8 @@
+CLASS rz net/minecraft/src/TextureCompassFX
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD a onTick ()V
+	FIELD a mc Lnet/minecraft/client/Minecraft;
+	FIELD b compassIconImageData [I
+	FIELD c currentAngle D
+	FIELD d angleDelta D

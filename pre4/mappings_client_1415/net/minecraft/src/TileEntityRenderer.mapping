@@ -1,0 +1,41 @@
+CLASS zk net/minecraft/src/TileEntityRenderer
+	METHOD a doNothing ()V
+	METHOD a getSpecialRendererForClass (Ljava/lang/Class;)Lxx;
+		ARG 1 tileEntityClass
+	METHOD a hasSpecialRenderer (Ljt;)Z
+	METHOD a renderTileEntityAt (Ljt;DDDF)V
+		ARG 1 tileEntity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a renderTileEntity (Ljt;F)V
+		ARG 1 tileEntity
+	METHOD a setSpecialRenderMapValues (Luv;)V
+		ARG 1 world
+	METHOD a cacheActiveRenderInfo (Luv;Lyb;Lmc;Lzt;F)V
+		ARG 1 world
+		ARG 2 renderEngine
+		ARG 3 fontRenderer
+		ARG 4 living
+	METHOD b getFontRenderer ()Lmc;
+	METHOD b getSpecialRendererForEntity (Ljt;)Lxx;
+	FIELD a instance Lzk;
+	FIELD b staticPlayerX D
+	FIELD c staticPlayerY D
+	FIELD d staticPlayerZ D
+	FIELD e renderEngine Lyb;
+	FIELD f worldObj Luv;
+	FIELD g entityLivingPlayer Lzt;
+	FIELD j playerX D
+	FIELD k playerY D
+	FIELD l playerZ D
+	FIELD m intbuffer Ljava/nio/IntBuffer;
+	FIELD n floatbuffer1 Ljava/nio/FloatBuffer;
+	FIELD o floatbuffer2 Ljava/nio/FloatBuffer;
+	FIELD p floatbuffer3 Ljava/nio/FloatBuffer;
+	FIELD q floatbuffer4 Ljava/nio/FloatBuffer;
+	FIELD r specialRender1 F
+	FIELD s specialRender2 F
+	FIELD t specialRender3 F
+	FIELD u specialRendererMap Ljava/util/Map;
+	FIELD v fontRenderer Lmc;

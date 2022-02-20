@@ -1,0 +1,7 @@
+CLASS on net/minecraft/src/TextureWaterFX
+	METHOD a onTick ()V
+	FIELD a red [F
+	FIELD b green [F
+	FIELD c blue [F
+	FIELD d alpha [F
+	FIELD e tickCounter I

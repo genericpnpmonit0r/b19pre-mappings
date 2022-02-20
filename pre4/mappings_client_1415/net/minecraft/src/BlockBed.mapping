@@ -1,0 +1,33 @@
+CLASS nz net/minecraft/src/BlockBed
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;I)I
+	METHOD a setBlockBoundsBasedOnState (Lahq;III)V
+	METHOD a onNeighborBlockChange (Luv;IIII)V
+	METHOD a dropBlockAsItemWithChance (Luv;IIIIFI)V
+	METHOD a setBedOccupied (Luv;IIIZ)V
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 occupied
+	METHOD b renderAsNormalBlock ()Z
+	METHOD b blockActivated (Luv;IIILwe;)Z
+	METHOD d getRenderType ()I
+	METHOD d getDirectionFromMetadata (I)I
+		ARG 0 meta
+	METHOD e getMobilityFlag ()I
+	METHOD f isBlockFootOfBed (I)Z
+		ARG 0 meta
+	METHOD f getNearestEmptyChunkCoordinates (Luv;IIII)Lsk;
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 meta
+	METHOD g isBedOccupied (I)Z
+		ARG 0 meta
+	METHOD s setBounds ()V
+	FIELD a headBlockToFootBlockMap [[I

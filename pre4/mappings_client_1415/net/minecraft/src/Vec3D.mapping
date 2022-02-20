@@ -1,0 +1,57 @@
+CLASS be net/minecraft/src/Vec3D
+	METHOD <init> (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a clearVectorList ()V
+	METHOD a createVectorHelper (DDD)Lbe;
+		ARG 0 x
+		ARG 2 y
+		ARG 4 z
+	METHOD a rotateAroundX (F)V
+		ARG 1 x
+	METHOD a subtract (Lbe;)Lbe;
+		ARG 1 vector
+	METHOD a getIntermediateWithXValue (Lbe;D)Lbe;
+		ARG 1 vector
+		ARG 2 x
+	METHOD b initialize ()V
+	METHOD b createVector (DDD)Lbe;
+		ARG 0 x
+		ARG 2 y
+		ARG 4 z
+	METHOD b rotateAroundY (F)V
+		ARG 1 y
+	METHOD b dotProduct (Lbe;)D
+		ARG 1 vector
+	METHOD b getIntermediateWithYValue (Lbe;D)Lbe;
+		ARG 1 vector
+		ARG 2 y
+	METHOD c normalize ()Lbe;
+	METHOD c addVector (DDD)Lbe;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD c crossProduct (Lbe;)Lbe;
+		ARG 1 vector
+	METHOD c getIntermediateWithZValue (Lbe;D)Lbe;
+		ARG 1 vector
+		ARG 2 z
+	METHOD d lengthVector ()D
+	METHOD d squareDistanceTo (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD d distanceTo (Lbe;)D
+		ARG 1 vector
+	METHOD e setComponents (DDD)Lbe;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD e squareDistanceTo (Lbe;)D
+		ARG 1 vector
+	FIELD a xCoord D
+	FIELD b yCoord D
+	FIELD c zCoord D
+	FIELD d vectorList Ljava/util/List;
+	FIELD e nextVector I

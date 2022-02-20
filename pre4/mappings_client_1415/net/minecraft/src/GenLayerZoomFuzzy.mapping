@@ -1,0 +1,15 @@
+CLASS agy net/minecraft/src/GenLayerZoomFuzzy
+	METHOD <init> (JLuh;)V
+		ARG 1 seed
+		ARG 3 layer
+	METHOD a choose (II)I
+		COMMENT randomly choose between the two arguments
+		ARG 1 input1
+		ARG 2 input2
+	METHOD a getInts (IIII)[I
+	METHOD b choose (IIII)I
+		COMMENT randomly choose between the four arguments
+		ARG 1 input1
+		ARG 2 input2
+		ARG 3 input3
+		ARG 4 input4

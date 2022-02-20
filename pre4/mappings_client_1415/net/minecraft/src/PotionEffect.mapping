@@ -1,0 +1,23 @@
+CLASS aho net/minecraft/src/PotionEffect
+	METHOD <init> (III)V
+		ARG 1 id
+		ARG 2 duration
+		ARG 3 amplifier
+	METHOD <init> (Laho;)V
+		ARG 1 potionEffect
+	METHOD a getPotionID ()I
+	METHOD a combine (Laho;)V
+		ARG 1 potionEffect
+	METHOD a onUpdate (Lzt;)Z
+		ARG 1 living
+	METHOD b getPotionDuration ()I
+	METHOD b performEffect (Lzt;)V
+		ARG 1 living
+	METHOD c getPotionAmplifier ()I
+	METHOD d getPotionName ()Ljava/lang/String;
+	METHOD e deincrementDuration ()I
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 obj
+	FIELD a potionId I
+	FIELD b duration I
+	FIELD c amplifier I

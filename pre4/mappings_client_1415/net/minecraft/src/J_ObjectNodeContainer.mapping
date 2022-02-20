@@ -1,0 +1,8 @@
+CLASS aai net/minecraft/src/J_ObjectNodeContainer
+	METHOD <init> (Lzu;Lmm;)V
+		ARG 1 jsonListenerToJdomAdapter
+		ARG 2 jsonObjectNodeBuilder
+	METHOD a addField (Lacj;)V
+	METHOD a addNode (Lze;)V
+	FIELD a objectNodeBuilder Lmm;
+	FIELD b adapter Lzu;

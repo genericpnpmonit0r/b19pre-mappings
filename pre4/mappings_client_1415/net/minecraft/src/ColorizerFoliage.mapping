@@ -1,0 +1,8 @@
+CLASS ga net/minecraft/src/ColorizerFoliage
+	METHOD a getFoliageColorPine ()I
+	METHOD a getFoliageColor (DD)I
+	METHOD a getFoilageBiomeColorizer ([I)V
+		ARG 0 colorBuff
+	METHOD b getFoliageColorBirch ()I
+	METHOD c getFoliageColorBasic ()I
+	FIELD a foliageBuffer [I

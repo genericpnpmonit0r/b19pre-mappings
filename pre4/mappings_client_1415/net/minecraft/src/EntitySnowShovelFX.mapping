@@ -1,0 +1,4 @@
+CLASS ik net/minecraft/src/EntitySnowShovelFX
+	METHOD A_ onUpdate ()V
+	METHOD a renderParticle (Laay;FFFFFF)V
+	FIELD a snowDigParticleScale F

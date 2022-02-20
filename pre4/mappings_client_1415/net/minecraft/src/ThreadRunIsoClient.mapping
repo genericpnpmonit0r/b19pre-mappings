@@ -1,0 +1,4 @@
+CLASS na net/minecraft/src/ThreadRunIsoClient
+	METHOD <init> (Lsc;)V
+		ARG 1 canvas
+	FIELD a isomPreview Lsc;

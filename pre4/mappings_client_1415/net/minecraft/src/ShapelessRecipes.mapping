@@ -1,0 +1,10 @@
+CLASS aex net/minecraft/src/ShapelessRecipes
+	METHOD <init> (Lxt;Ljava/util/List;)V
+		ARG 1 output
+		ARG 2 ingredients
+	METHOD a getRecipeSize ()I
+	METHOD a matches (Laae;)Z
+	METHOD b getRecipeOutput ()Lxt;
+	METHOD b getCraftingResult (Laae;)Lxt;
+	FIELD a recipeOutput Lxt;
+	FIELD b recipeItems Ljava/util/List;

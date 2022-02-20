@@ -1,0 +1,9 @@
+CLASS agv net/minecraft/src/GenLayerRiverMix
+	METHOD <init> (JLuh;Luh;)V
+		ARG 1 seed
+		ARG 3 biomePatternGeneratorChain
+		ARG 4 riverPatternGeneratorChain
+	METHOD a getInts (IIII)[I
+	METHOD b initWorldGenSeed (J)V
+	FIELD b biomePatternGeneratorChain Luh;
+	FIELD c riverPatternGeneratorChain Luh;

@@ -1,0 +1,16 @@
+CLASS ra net/minecraft/src/GuiContainerCreative
+	METHOD <init> (Lwe;)V
+		ARG 1 player
+	METHOD a initGui ()V
+	METHOD a drawGuiContainerBackgroundLayer (FII)V
+	METHOD a drawScreen (IIF)V
+	METHOD a windowClickSlot (Lwc;IIZ)V
+	METHOD a actionPerformed (Lyt;)V
+	METHOD c drawGuiContainerForegroundLayer ()V
+	METHOD f handleMouseInput ()V
+	METHOD g getInventory ()Lla;
+	METHOD q_ updateScreen ()V
+	FIELD h inventory Lla;
+	FIELD i field_35312_g F
+	FIELD j field_35313_h Z
+	FIELD k field_35314_i Z

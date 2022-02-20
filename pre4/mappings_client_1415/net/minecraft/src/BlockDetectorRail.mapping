@@ -1,0 +1,16 @@
+CLASS acc net/minecraft/src/BlockDetectorRail
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
+	METHOD a updateTick (Luv;IIILjava/util/Random;)V
+	METHOD a onEntityCollidedWithBlock (Luv;IIILme;)V
+	METHOD b isPoweringTo (Lahq;IIII)Z
+	METHOD e isIndirectlyPoweringTo (Luv;IIII)Z
+	METHOD f tickRate ()I
+	METHOD f setStateIfMinecartInteractsWithRail (Luv;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 meta
+	METHOD g canProvidePower ()Z

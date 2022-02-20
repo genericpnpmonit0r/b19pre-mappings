@@ -1,0 +1,10 @@
+CLASS dl net/minecraft/src/FurnaceRecipes
+	METHOD a smelting ()Ldl;
+	METHOD a getSmeltingResult (I)Lxt;
+		ARG 1 result
+	METHOD a addSmelting (ILxt;)V
+		ARG 1 sourceId
+		ARG 2 targetItem
+	METHOD b getSmeltingList ()Ljava/util/Map;
+	FIELD a smeltingBase Ldl;
+	FIELD b smeltingList Ljava/util/Map;

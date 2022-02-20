@@ -1,0 +1,47 @@
+CLASS it Enchantment
+	FIELD a enchantmentsList [Lit;
+	FIELD b protection Lit;
+	FIELD c fireProtection Lit;
+	FIELD d featherFalling Lit;
+	FIELD e blastProtection Lit;
+	FIELD f projectileProtection Lit;
+	FIELD g respiration Lit;
+	FIELD h aquaAffinity Lit;
+	FIELD i sharpness Lit;
+	FIELD j smite Lit;
+	FIELD k baneOfArthropods Lit;
+	FIELD l knockback Lit;
+	FIELD m fireAspect Lit;
+	FIELD n looting Lit;
+	FIELD o efficiency Lit;
+	FIELD p silkTouch Lit;
+	FIELD q unbreaking Lit;
+	FIELD r fortune Lit;
+	FIELD s enchantmentId I
+	FIELD t type Lkx;
+	FIELD u name Ljava/lang/String;
+	FIELD v weight I
+	METHOD <init> (IILkx;)V
+		ARG 1 en
+		ARG 2 weight
+		ARG 3 type
+	METHOD a getMaxLevel ()I
+	METHOD a getMinEnchantability (I)I
+		ARG 1 enchantability
+	METHOD a calcModifierDamage (ILkz;)I
+		ARG 1 modifier
+		ARG 2 damageSrc
+	METHOD a calcModifierLiving (ILzt;)I
+		ARG 1 modifier
+		ARG 2 living
+	METHOD a canApplyTogether (Lit;)Z
+		ARG 1 ench
+	METHOD a setName (Ljava/lang/String;)Lit;
+		ARG 1 name
+	METHOD b getWeight ()I
+	METHOD b getMaxEnchantability (I)I
+		ARG 1 enchantability
+	METHOD c getMinLevel ()I
+	METHOD c getTranslatedName (I)Ljava/lang/String;
+		ARG 1 enchLevel
+	METHOD d getName ()Ljava/lang/String;

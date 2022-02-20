@@ -1,0 +1,2 @@
+CLASS bq net/minecraft/src/WeightedRandomChoice
+	FIELD d randomItem3 I

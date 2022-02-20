@@ -1,0 +1,4 @@
+CLASS ob net/minecraft/src/ItemEnderEye
+	METHOD a isFull3D ()Z
+	METHOD a onItemRightClick (Lxt;Luv;Lwe;)Lxt;
+	METHOD a onItemUse (Lxt;Lwe;Luv;IIII)Z

@@ -1,0 +1,18 @@
+CLASS ux net/minecraft/src/ModelBiped
+	METHOD a renderEars (F)V
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Lme;FFFFFF)V
+	METHOD b renderCloak (F)V
+	FIELD c bipedHead Lpb;
+	FIELD d bipedHeadwear Lpb;
+	FIELD e bipedBody Lpb;
+	FIELD f bipedRightArm Lpb;
+	FIELD g bipedLeftArm Lpb;
+	FIELD n bipedRightLeg Lpb;
+	FIELD o bipedLeftLeg Lpb;
+	FIELD p bipedEars Lpb;
+	FIELD q bipedCloak Lpb;
+	FIELD r heldItemLeft I
+	FIELD s heldItemRight I
+	FIELD t isSneak Z
+	FIELD u aimingBow Z

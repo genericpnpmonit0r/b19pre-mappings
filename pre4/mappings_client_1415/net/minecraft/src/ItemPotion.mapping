@@ -1,0 +1,16 @@
+CLASS du net/minecraft/src/ItemPotion
+	METHOD a getRecord (Lxt;Ljava/util/List;)V
+	METHOD a onItemRightClick (Lxt;Luv;Lwe;)Lxt;
+	METHOD a onItemUse (Lxt;Lwe;Luv;IIII)Z
+	METHOD a_ getEffects (Lxt;)Ljava/util/List;
+		ARG 1 itemStack
+	METHOD b getIconFromDamage (I)I
+	METHOD b getMaxItemUseDuration (Lxt;)I
+	METHOD b onFoodEaten (Lxt;Luv;Lwe;)Lxt;
+	METHOD b_ getEffects_do (I)Ljava/util/List;
+		ARG 1 itemMEtadata
+	METHOD c getItemUseAction (Lxt;)Lxw;
+	METHOD d getColorFromDamage (I)I
+	METHOD d translateItemStackPrefix (Lxt;)Ljava/lang/String;
+	METHOD e hasItemStack (Lxt;)Z
+	FIELD a effectCache Ljava/util/HashMap;

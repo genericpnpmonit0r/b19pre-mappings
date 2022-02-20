@@ -1,0 +1,39 @@
+CLASS fu net/minecraft/src/EnumArt
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;IIII)V
+		ARG 3 title
+		ARG 4 xSize
+		ARG 5 zSize
+		ARG 6 xOffset
+		ARG 7 yOffset
+	FIELD A title Ljava/lang/String;
+	FIELD B sizeX I
+	FIELD C sizeY I
+	FIELD D offsetX I
+	FIELD E offsetY I
+	FIELD F allArt [Lfu;
+	FIELD a Kebab Lfu;
+	FIELD b Aztec Lfu;
+	FIELD c Alban Lfu;
+	FIELD d Aztec2 Lfu;
+	FIELD e Bomb Lfu;
+	FIELD f Plant Lfu;
+	FIELD g Wasteland Lfu;
+	FIELD h Pool Lfu;
+	FIELD i Courbet Lfu;
+	FIELD j Sea Lfu;
+	FIELD k Sunset Lfu;
+	FIELD l Creebet Lfu;
+	FIELD m Wanderer Lfu;
+	FIELD n Graham Lfu;
+	FIELD o Match Lfu;
+	FIELD p Bust Lfu;
+	FIELD q Stage Lfu;
+	FIELD r Void Lfu;
+	FIELD s SkullAndRoses Lfu;
+	FIELD t Fighters Lfu;
+	FIELD u Pointer Lfu;
+	FIELD v Pigscene Lfu;
+	FIELD w BurningSkull Lfu;
+	FIELD x Skeleton Lfu;
+	FIELD y DonkeyKong Lfu;
+	FIELD z maxArtTitleLength I

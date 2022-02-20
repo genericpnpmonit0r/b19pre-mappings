@@ -1,0 +1,2 @@
+CLASS ada net/minecraft/src/ItemPiston
+	METHOD a getPlacedBlockMetadata (I)I

@@ -1,0 +1,4 @@
+CLASS sg net/minecraft/src/ItemCloth
+	METHOD a getPlacedBlockMetadata (I)I
+	METHOD a getItemNameIS (Lxt;)Ljava/lang/String;
+	METHOD b getIconFromDamage (I)I

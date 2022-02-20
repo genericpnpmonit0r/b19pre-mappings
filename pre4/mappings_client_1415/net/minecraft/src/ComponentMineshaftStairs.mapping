@@ -1,0 +1,15 @@
+CLASS hc net/minecraft/src/ComponentMineshaftStairs
+	METHOD <init> (ILjava/util/Random;Lov;I)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 boundingBox
+		ARG 4 coordBaseMode
+	METHOD a buildComponent (Lgi;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIII)Lov;
+		ARG 0 components
+		ARG 1 rand
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 coordBaseMode
+	METHOD a addComponentParts (Luv;Ljava/util/Random;Lov;)Z

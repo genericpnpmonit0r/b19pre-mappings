@@ -1,0 +1,9 @@
+CLASS je net/minecraft/src/BlockLeavesBase
+	METHOD <init> (IILzp;Z)V
+		ARG 1 id
+		ARG 2 texIndex
+		ARG 3 material
+		ARG 4 gfxLevel
+	METHOD a isOpaqueCube ()Z
+	METHOD a shouldSideBeRendered (Lahq;IIII)Z
+	FIELD a graphicsLevel Z

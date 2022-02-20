@@ -1,0 +1,10 @@
+CLASS abl net/minecraft/src/GuiCrafting
+	METHOD <init> (Lxq;Luv;III)V
+		ARG 1 invPlayer
+		ARG 2 world
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+	METHOD a drawGuiContainerBackgroundLayer (FII)V
+	METHOD c drawGuiContainerForegroundLayer ()V
+	METHOD d onGuiClosed ()V

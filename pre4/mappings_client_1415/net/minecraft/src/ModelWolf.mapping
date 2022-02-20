@@ -1,0 +1,12 @@
+CLASS rf net/minecraft/src/ModelWolf
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Lme;FFFFFF)V
+	METHOD a setLivingAnimations (Lzt;FFF)V
+	FIELD a wolfHeadMain Lpb;
+	FIELD b wolfBody Lpb;
+	FIELD c wolfLeg1 Lpb;
+	FIELD d wolfLeg2 Lpb;
+	FIELD e wolfLeg3 Lpb;
+	FIELD f wolfLeg4 Lpb;
+	FIELD g wolfTail Lpb;
+	FIELD n wolfMane Lpb;

@@ -1,0 +1,5 @@
+CLASS bk net/minecraft/src/GuiSlotStatsItem
+	METHOD a func_27263_a (I)Ljava/lang/String;
+	METHOD a drawSlot (IIIILaay;)V
+	METHOD a func_27260_a (IILaay;)V
+	FIELD a field_27275_a Lcq;

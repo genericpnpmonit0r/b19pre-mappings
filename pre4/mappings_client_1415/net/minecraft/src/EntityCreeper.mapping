@@ -1,0 +1,19 @@
+CLASS vp net/minecraft/src/EntityCreeper
+	METHOD A_ onUpdate ()V
+	METHOD a readEntityFromNBT (Laaw;)V
+	METHOD a onStruckByLightning (Lc;)V
+	METHOD a onDeath (Lkz;)V
+	METHOD a attackEntity (Lme;F)V
+	METHOD aa getPowered ()Z
+	METHOD ad getCreeperState ()I
+	METHOD b entityInit ()V
+	METHOD b setCreeperState (I)V
+	METHOD b writeEntityToNBT (Laaw;)V
+	METHOD b attackBlockedEntity (Lme;F)V
+	METHOD c getMaxHealth ()I
+	METHOD d setCreeperFlashTime (F)F
+	METHOD e getDropItemId ()I
+	METHOD n getHurtSound ()Ljava/lang/String;
+	METHOD o getDeathSound ()Ljava/lang/String;
+	FIELD a timeSinceIgnited I
+	FIELD b lastActiveTime I

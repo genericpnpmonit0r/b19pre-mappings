@@ -1,0 +1,5 @@
+CLASS acv net/minecraft/src/J_JsonElementNodeSelector
+	METHOD a shortForm ()Ljava/lang/String;
+	METHOD b typeSafeApplyTo (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD c matchesNode (Ljava/lang/Object;)Z
+	FIELD a index I

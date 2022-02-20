@@ -1,0 +1,10 @@
+CLASS iz net/minecraft/src/BlockIce
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
+	METHOD a shouldSideBeRendered (Lahq;IIII)Z
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a updateTick (Luv;IIILjava/util/Random;)V
+	METHOD a harvestBlock (Luv;Lwe;IIII)V
+	METHOD c getRenderBlockPass ()I
+	METHOD e getMobilityFlag ()I

@@ -1,0 +1,4 @@
+CLASS gr
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Lme;FFFFFF)V
+	METHOD a setLivingAnimations (Lzt;FFF)V

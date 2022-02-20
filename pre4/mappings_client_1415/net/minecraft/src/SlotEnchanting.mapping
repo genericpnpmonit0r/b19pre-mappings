@@ -1,0 +1,3 @@
+CLASS qu net/minecraft/src/SlotEnchanting
+	METHOD a isItemValid (Lxt;)Z
+	FIELD a enchContainer Lfs;

@@ -1,0 +1,5 @@
+CLASS iu net/minecraft/src/GenLayerRiverInit
+	METHOD <init> (JLuh;)V
+		ARG 1 seed
+		ARG 3 layer
+	METHOD a getInts (IIII)[I

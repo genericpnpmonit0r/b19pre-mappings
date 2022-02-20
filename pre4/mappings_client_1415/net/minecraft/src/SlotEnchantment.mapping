@@ -1,0 +1,8 @@
+CLASS rp net/minecraft/src/SlotEnchantment
+	METHOD <init> (Lfs;Ljava/lang/String;I)V
+		ARG 1 containerEnchantment
+		ARG 2 name
+		ARG 3 i
+	METHOD d getInventoryStackLimit ()I
+	METHOD k onInventoryChanged ()V
+	FIELD a theEnchContainer Lfs;

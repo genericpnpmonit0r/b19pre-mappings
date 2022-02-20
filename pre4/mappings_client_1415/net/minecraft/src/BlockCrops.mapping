@@ -1,0 +1,18 @@
+CLASS ix net/minecraft/src/BlockCrops
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;I)I
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a dropBlockAsItemWithChance (Luv;IIIIFI)V
+	METHOD a updateTick (Luv;IIILjava/util/Random;)V
+	METHOD c_ canThisPlantGrowOnThisBlockID (I)Z
+	METHOD d getRenderType ()I
+	METHOD f fertilize (Luv;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i getGrowthRate (Luv;III)F
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

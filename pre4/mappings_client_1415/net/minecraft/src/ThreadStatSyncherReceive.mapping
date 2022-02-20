@@ -1,0 +1,4 @@
+CLASS og net/minecraft/src/ThreadStatSyncherReceive
+	METHOD <init> (Ltc;)V
+		ARG 1 syncer
+	FIELD a syncher Ltc;

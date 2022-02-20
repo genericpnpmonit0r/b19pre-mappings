@@ -1,0 +1,18 @@
+CLASS zh net/minecraft/src/J_PositionTrackingPushbackReader
+	METHOD <init> (Ljava/io/Reader;)V
+		ARG 1 in
+	METHOD a getColumn ()I
+	METHOD a unread (C)V
+		ARG 1 c
+	METHOD a updateCharacterAndLineCounts (I)V
+		ARG 1 result
+	METHOD a uncount ([C)V
+		ARG 1 resultCharArray
+	METHOD b getRow ()I
+	METHOD b read ([C)I
+		ARG 1 buffer
+	METHOD c read ()I
+	FIELD a pushbackReader Ljava/io/PushbackReader;
+	FIELD b characterCount I
+	FIELD c lineCount I
+	FIELD d lastCharacterWasCarriageReturn Z

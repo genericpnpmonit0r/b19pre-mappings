@@ -1,0 +1,18 @@
+CLASS qe net/minecraft/src/EntityOtherPlayerMP
+	METHOD A_ onUpdate ()V
+	METHOD F getEyeHeight ()F
+	METHOD X func_6420_o ()V
+	METHOD a setPositionAndRotation2 (DDDFFI)V
+	METHOD a attackEntityFrom (Lkz;I)Z
+	METHOD b outfitWithItem (III)V
+	METHOD d onLivingUpdate ()V
+	METHOD f getShadowSize ()F
+	METHOD u resetHeight ()V
+	FIELD a field_20924_a F
+	FIELD ao otherPlayerMPZ D
+	FIELD ap otherPlayerMPYaw D
+	FIELD aq otherPlayerMPPitch D
+	FIELD b field_35218_b Z
+	FIELD c otherPlayerMPPosRotationIncrements I
+	FIELD d otherPlayerMPX D
+	FIELD e otherPlayerMPY D

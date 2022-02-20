@@ -1,0 +1,19 @@
+CLASS po net/minecraft/src/EntityChicken
+	METHOD a readEntityFromNBT (Laaw;)V
+	METHOD a createChild (Lav;)Lav;
+	METHOD a dropFewItems (ZI)V
+	METHOD b writeEntityToNBT (Laaw;)V
+	METHOD c getMaxHealth ()I
+	METHOD c fall (F)V
+	METHOD d onLivingUpdate ()V
+	METHOD e getDropItemId ()I
+	METHOD m getLivingSound ()Ljava/lang/String;
+	METHOD n getHurtSound ()Ljava/lang/String;
+	METHOD o getDeathSound ()Ljava/lang/String;
+	FIELD a field_753_a Z
+	FIELD ao field_755_h F
+	FIELD ap timeUntilNextEgg I
+	FIELD b curPos1 F
+	FIELD c destPos F
+	FIELD d prevPos F
+	FIELD e prevPos1 F

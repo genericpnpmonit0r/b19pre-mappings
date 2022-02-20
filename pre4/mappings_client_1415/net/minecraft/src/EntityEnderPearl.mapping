@@ -1,0 +1,11 @@
+CLASS ta net/minecraft/src/EntityEnderPearl
+	METHOD A_ onUpdate ()V
+	METHOD a isInRangeToRenderDist (D)Z
+	METHOD a setVelocity (DDD)V
+	METHOD a getEntityBrightness (F)F
+	METHOD a readEntityFromNBT (Laaw;)V
+	METHOD a onCollideWithPlayer (Lwe;)V
+	METHOD b entityInit ()V
+	METHOD b getEntityBrightnessForRender (F)I
+	METHOD b writeEntityToNBT (Laaw;)V
+	METHOD f getShadowSize ()F

@@ -1,0 +1,10 @@
+CLASS hz net/minecraft/src/GuiWorldSlot
+	METHOD <init> (Llr;)V
+		ARG 1 guiSelectWorld
+	METHOD a getSize ()I
+	METHOD a drawSlot (IIIILaay;)V
+	METHOD a elementClicked (IZ)V
+	METHOD a_ isSelected (I)Z
+	METHOD b getContentHeight ()I
+	METHOD c drawBackground ()V
+	FIELD a parentWorldGui Llr;

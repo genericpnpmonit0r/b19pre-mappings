@@ -1,0 +1,3 @@
+CLASS pl net/minecraft/src/RenderBlaze
+	METHOD a doRender (Lme;DDDFF)V
+	FIELD c field_40278_c I

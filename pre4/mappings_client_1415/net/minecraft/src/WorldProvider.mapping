@@ -1,0 +1,31 @@
+CLASS ahj net/minecraft/src/WorldProvider
+	METHOD a registerWorldChunkManager ()V
+	METHOD a calcSunriseSunsetColors (FF)[F
+		ARG 1 angle1
+		ARG 2 angle2
+	METHOD a getProviderForDimension (I)Lahj;
+		ARG 0 dimensionId
+	METHOD a canCoordinateBeSpawn (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD a calculateCelestialAngle (JF)F
+		ARG 1 time
+		ARG 3 angle
+	METHOD a registerWorld (Luv;)V
+		ARG 1 world
+	METHOD b getChunkProvider ()Lbm;
+	METHOD b getFogColor (FF)Lbe;
+		ARG 1 angle1
+		ARG 2 angle2
+	METHOD c func_28112_c ()Z
+	METHOD d canRespawnHere ()Z
+	METHOD e getCloudHeight ()F
+	METHOD f generateLightBrightnessTable ()V
+	FIELD a worldObj Luv;
+	FIELD b worldChunkMgr Lqb;
+	FIELD c isNether Z
+	FIELD d isHellWorld Z
+	FIELD e hasNoSky Z
+	FIELD f lightBrightnessTable [F
+	FIELD g worldType I
+	FIELD h colorsSunriseSunset [F

@@ -1,0 +1,10 @@
+CLASS agm net/minecraft/src/ComponentNetherBridgeThrone
+	METHOD <init> (ILjava/util/Random;Lov;I)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 boundingBox
+		ARG 4 coordBaseMode
+	METHOD a buildComponent (Lgi;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lagm;
+	METHOD a addComponentParts (Luv;Ljava/util/Random;Lov;)Z
+	FIELD a spawnerPlaced Z

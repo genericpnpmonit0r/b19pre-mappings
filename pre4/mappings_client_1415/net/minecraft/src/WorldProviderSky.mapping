@@ -1,0 +1,10 @@
+CLASS hk net/minecraft/src/WorldProviderSky
+	METHOD a registerWorldChunkManager ()V
+	METHOD a calcSunriseSunsetColors (FF)[F
+	METHOD a canCoordinateBeSpawn (II)Z
+	METHOD a calculateCelestialAngle (JF)F
+	METHOD b getChunkProvider ()Lbm;
+	METHOD b getFogColor (FF)Lbe;
+	METHOD c func_28112_c ()Z
+	METHOD d canRespawnHere ()Z
+	METHOD e getCloudHeight ()F

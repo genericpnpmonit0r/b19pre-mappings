@@ -1,0 +1,3 @@
+CLASS ki net/minecraft/src/TileEntitySignRenderer
+	METHOD a renderTileEntityAt (Ljt;DDDF)V
+	FIELD a signModel Ladj;

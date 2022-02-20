@@ -1,0 +1,10 @@
+CLASS adn net/minecraft/src/Packet60Explosion
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lmt;)V
+	FIELD a explosionX D
+	FIELD b explosionY D
+	FIELD c explosionZ D
+	FIELD d explosionSize F
+	FIELD e destroyedBlockPositions Ljava/util/Set;

@@ -1,0 +1,31 @@
+CLASS pj net/minecraft/src/BlockRedstoneRepeater
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 powered
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;I)I
+	METHOD a shouldSideBeRendered (Lahq;IIII)Z
+	METHOD a onBlockAdded (Luv;III)V
+	METHOD a onNeighborBlockChange (Luv;IIII)V
+	METHOD a updateTick (Luv;IIILjava/util/Random;)V
+	METHOD a onBlockPlacedBy (Luv;IIILzt;)V
+	METHOD b renderAsNormalBlock ()Z
+	METHOD b isPoweringTo (Lahq;IIII)Z
+	METHOD b randomDisplayTick (Luv;IIILjava/util/Random;)V
+	METHOD b blockActivated (Luv;IIILwe;)Z
+	METHOD d getRenderType ()I
+	METHOD e canPlaceBlockAt (Luv;III)Z
+	METHOD e isIndirectlyPoweringTo (Luv;IIII)Z
+	METHOD f ignoreTick (Luv;IIII)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 meta
+	METHOD g canProvidePower ()Z
+	METHOD g canBlockStay (Luv;III)Z
+	FIELD a repeaterTorchOffset [D
+	FIELD b repeaterState [I
+	FIELD c isRepeaterPowered Z

@@ -1,0 +1,13 @@
+CLASS bx net/minecraft/src/TileEntityMobSpawner
+	METHOD a getMobID ()Ljava/lang/String;
+	METHOD a readFromNBT (Laaw;)V
+	METHOD a setMobID (Ljava/lang/String;)V
+		ARG 1 id
+	METHOD b writeToNBT (Laaw;)V
+	METHOD d updateDelay ()V
+	METHOD j_ updateEntity ()V
+	METHOD m_ anyPlayerInRange ()Z
+	FIELD a delay I
+	FIELD b yaw D
+	FIELD c yaw2 D
+	FIELD d mobID Ljava/lang/String;

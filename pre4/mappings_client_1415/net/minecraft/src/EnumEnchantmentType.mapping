@@ -1,0 +1,9 @@
+CLASS kx net/minecraft/src/EnumEnchantmentType
+	FIELD a all Lkx;
+	FIELD b armor Lkx;
+	FIELD c armor_feet Lkx;
+	FIELD d armor_legs Lkx;
+	FIELD e armor_torso Lkx;
+	FIELD f armor_head Lkx;
+	FIELD g weapon Lkx;
+	FIELD h digger Lkx;

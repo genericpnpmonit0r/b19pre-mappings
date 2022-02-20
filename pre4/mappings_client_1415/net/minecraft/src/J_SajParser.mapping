@@ -1,0 +1,49 @@
+CLASS aj net/minecraft/src/J_SajParser
+	COMMENT Converts a character stream into calls to a <code>JsonListener</code>.
+	COMMENT <p/>
+	COMMENT Instances of <code>SajParser</code> are threadsafe in that concurrent calls to <code>parse</code> are safe, provided
+	COMMENT each call is made with a different <code>Reader</code> and a different <code>JsonListener</code>.
+	COMMENT
+	COMMENT @see J_JsonListener
+	METHOD a parse (Ljava/io/Reader;Lagt;)V
+		COMMENT Parses the given character stream into calls to the given JsonListener.
+		ARG 1 in
+			COMMENT the character stream to parse
+		ARG 2 jsonListener
+			COMMENT the JsonListener to notify of parsing events
+	METHOD a numberToken (Lzh;)Ljava/lang/String;
+		ARG 1 pushbackReader
+	METHOD a arrayString (Lzh;Lagt;)V
+		ARG 1 pushbackReader
+		ARG 2 jsonListener
+	METHOD b nonNegativeNumberToken (Lzh;)Ljava/lang/String;
+		ARG 1 pushbackReader
+	METHOD b objectString (Lzh;Lagt;)V
+		ARG 1 pushbackReader
+		ARG 2 jsonListener
+	METHOD c nonZeroDigitToken (Lzh;)C
+		ARG 1 pushbackReader
+	METHOD c aFieldToken (Lzh;Lagt;)V
+		ARG 1 pushbackReader
+		ARG 2 jsonListener
+	METHOD d digitToken (Lzh;)C
+		ARG 1 pushbackReader
+	METHOD d aJsonValue (Lzh;Lagt;)V
+		ARG 1 pushbackReader
+		ARG 2 jsonListener
+	METHOD e digitString (Lzh;)Ljava/lang/String;
+		ARG 1 pushbackReader
+	METHOD f possibleFractionalComponent (Lzh;)Ljava/lang/String;
+		ARG 1 pushbackReader
+	METHOD g possibleExponent (Lzh;)Ljava/lang/String;
+		ARG 1 pushbackReader
+	METHOD h possibleSign (Lzh;)Ljava/lang/String;
+		ARG 1 pushbackReader
+	METHOD i stringToken (Lzh;)Ljava/lang/String;
+		ARG 1 pushbackReader
+	METHOD j escapedStringChar (Lzh;)C
+		ARG 1 pushbackReader
+	METHOD k hexadecimalNumber (Lzh;)I
+		ARG 1 pushbackReader
+	METHOD l readNextNonWhitespaceChar (Lzh;)I
+		ARG 1 pushbackReader

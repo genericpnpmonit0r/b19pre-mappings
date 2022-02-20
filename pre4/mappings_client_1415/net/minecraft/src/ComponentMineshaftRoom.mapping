@@ -1,0 +1,9 @@
+CLASS qx net/minecraft/src/ComponentMineshaftRoom
+	METHOD <init> (ILjava/util/Random;II)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 z
+	METHOD a buildComponent (Lgi;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a addComponentParts (Luv;Ljava/util/Random;Lov;)Z
+	FIELD a roomsLinkedToTheRoom Ljava/util/LinkedList;

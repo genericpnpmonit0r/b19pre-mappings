@@ -1,0 +1,10 @@
+CLASS cb net/minecraft/src/GuiTexturePackSlot
+	METHOD <init> (Ldw;)V
+		ARG 1 guiTexturePacks
+	METHOD a getSize ()I
+	METHOD a drawSlot (IIIILaay;)V
+	METHOD a elementClicked (IZ)V
+	METHOD a_ isSelected (I)Z
+	METHOD b getContentHeight ()I
+	METHOD c drawBackground ()V
+	FIELD a parentTexturePackGui Ldw;

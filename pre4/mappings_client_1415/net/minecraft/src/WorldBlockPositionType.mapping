@@ -1,0 +1,15 @@
+CLASS mu net/minecraft/src/WorldBlockPositionType
+	METHOD <init> (Lie;IIIII)V
+		ARG 1 worldClient
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 id
+		ARG 6 meta
+	FIELD a posX I
+	FIELD b posY I
+	FIELD c posZ I
+	FIELD d acceptCountdown I
+	FIELD e blockID I
+	FIELD f metadata I
+	FIELD g worldClient Lie;

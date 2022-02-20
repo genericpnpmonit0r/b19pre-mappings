@@ -1,0 +1,14 @@
+CLASS xx net/minecraft/src/TileEntitySpecialRenderer
+	METHOD a getFontRenderer ()Lmc;
+	METHOD a bindTextureByName (Ljava/lang/String;)V
+		ARG 1 name
+	METHOD a renderTileEntityAt (Ljt;DDDF)V
+		ARG 1 tileEntity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a renderSpecial (Luv;)V
+		ARG 1 world
+	METHOD a setTileEntityRenderer (Lzk;)V
+		ARG 1 tileEntityRenderer
+	FIELD b tileEntityRenderer Lzk;

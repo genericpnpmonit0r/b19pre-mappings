@@ -1,0 +1,10 @@
+CLASS aey net/minecraft/src/Packet19EntityAction
+	METHOD <init> (Lme;I)V
+		ARG 1 entity
+		ARG 2 state
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lmt;)V
+	FIELD a entityId I
+	FIELD b state I

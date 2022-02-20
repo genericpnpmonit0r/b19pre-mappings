@@ -1,0 +1,4 @@
+CLASS bb EnumCreatureAttribute
+	FIELD a UNDEFINED Lbb;
+	FIELD b UNDEAD Lbb;
+	FIELD c ARTHROPOD Lbb;

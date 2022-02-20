@@ -1,0 +1,4 @@
+CLASS aar net/minecraft/src/ModelMinecart
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Lme;FFFFFF)V
+	FIELD a sideModels [Lpb;

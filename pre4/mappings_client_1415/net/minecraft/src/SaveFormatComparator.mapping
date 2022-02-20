@@ -1,0 +1,22 @@
+CLASS nw net/minecraft/src/SaveFormatComparator
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;JJIZZ)V
+		ARG 1 filename
+		ARG 2 displayName
+		ARG 3 prevTimePlayed
+		ARG 5 size
+		ARG 7 gameType
+		ARG 8 old
+	METHOD a getFileName ()Ljava/lang/String;
+	METHOD b getDisplayName ()Ljava/lang/String;
+	METHOD c getSizeOnDisk ()J
+	METHOD compareTo (Ljava/lang/Object;)I
+		ARG 1 saveFormatComparator
+	METHOD d getIsOld ()Z
+	METHOD e getLastTimePlayed ()J
+	METHOD f getGameType ()I
+	FIELD a fileName Ljava/lang/String;
+	FIELD b displayName Ljava/lang/String;
+	FIELD c lastTimePlayed J
+	FIELD d sizeOnDisk J
+	FIELD e isOld Z
+	FIELD f gameType I

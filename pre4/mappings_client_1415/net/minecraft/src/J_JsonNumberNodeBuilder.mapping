@@ -1,0 +1,3 @@
+CLASS abe net/minecraft/src/J_JsonNumberNodeBuilder
+	METHOD b build ()Lem;
+	FIELD a field_27239_a Lem;

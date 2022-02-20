@@ -1,0 +1,25 @@
+CLASS aih net/minecraft/src/TileEntityBrewingStand
+	METHOD B_ closeChest ()V
+	METHOD a getSizeInventory ()I
+	METHOD a decrStackSize (II)Lxt;
+	METHOD a setInventorySlotContents (ILxt;)V
+	METHOD a readFromNBT (Laaw;)V
+	METHOD a_ isUseableByPlayer (Lwe;)Z
+	METHOD b setFilledSlots (I)V
+		ARG 1 count
+	METHOD b getPotionResult (ILxt;)I
+		ARG 1 prefixdata
+		ARG 2 itemStack
+	METHOD b writeToNBT (Laaw;)V
+	METHOD c getInvName ()Ljava/lang/String;
+	METHOD d getInventoryStackLimit ()I
+	METHOD e openChest ()V
+	METHOD e_ getStackInSlot (I)Lxt;
+	METHOD g getBrewTime ()I
+	METHOD j_ updateEntity ()V
+	METHOD n setContent ()I
+	METHOD o canBrew ()Z
+	METHOD p brewPotions ()V
+	FIELD a contents [Lxt;
+	FIELD b brewTime I
+	FIELD c ingredientID I

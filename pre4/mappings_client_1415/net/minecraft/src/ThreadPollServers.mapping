@@ -1,0 +1,6 @@
+CLASS bl net/minecraft/src/ThreadPollServers
+	METHOD <init> (Lot;Lmq;)V
+		ARG 1 serverSlot
+		ARG 2 nbtStorage
+	FIELD a server Lmq;
+	FIELD b serverSlotContainer Lot;

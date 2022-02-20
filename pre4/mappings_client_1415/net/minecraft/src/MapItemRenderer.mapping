@@ -1,0 +1,13 @@
+CLASS xr net/minecraft/src/MapItemRenderer
+	METHOD <init> (Lmc;Lgw;Lyb;)V
+		ARG 1 fontRenderer
+		ARG 2 settings
+		ARG 3 renderer
+	METHOD a renderMap (Lwe;Lyb;Lxp;)V
+		ARG 1 player
+		ARG 2 renderer
+		ARG 3 data
+	FIELD a intArray [I
+	FIELD b bufferedImage I
+	FIELD c gameSettings Lgw;
+	FIELD d fontRenderer Lmc;

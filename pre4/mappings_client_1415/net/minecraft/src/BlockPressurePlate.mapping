@@ -1,0 +1,28 @@
+CLASS so net/minecraft/src/BlockPressurePlate
+	METHOD <init> (IILads;Lzp;)V
+		ARG 1 id
+		ARG 2 texIndex
+		ARG 3 mobType
+		ARG 4 material
+	METHOD a isOpaqueCube ()Z
+	METHOD a setBlockBoundsBasedOnState (Lahq;III)V
+	METHOD a onBlockAdded (Luv;III)V
+	METHOD a onNeighborBlockChange (Luv;IIII)V
+	METHOD a updateTick (Luv;IIILjava/util/Random;)V
+	METHOD a onEntityCollidedWithBlock (Luv;IIILme;)V
+	METHOD b renderAsNormalBlock ()Z
+	METHOD b isPoweringTo (Lahq;IIII)Z
+	METHOD b_ onBlockRemoval (Luv;III)V
+	METHOD c getCollisionBoundingBoxFromPool (Luv;III)Lun;
+	METHOD e getMobilityFlag ()I
+	METHOD e canPlaceBlockAt (Luv;III)Z
+	METHOD e isIndirectlyPoweringTo (Luv;IIII)Z
+	METHOD f tickRate ()I
+	METHOD g canProvidePower ()Z
+	METHOD h setBlockBoundsForItemRender ()V
+	METHOD h setStateIfMobInteractsWithPlate (Luv;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	FIELD a triggerMobType Lads;

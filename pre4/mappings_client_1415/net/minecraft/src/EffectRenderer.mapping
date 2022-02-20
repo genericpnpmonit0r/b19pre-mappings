@@ -1,0 +1,27 @@
+CLASS ck net/minecraft/src/EffectRenderer
+	METHOD <init> (Luv;Lyb;)V
+		ARG 1 world
+		ARG 2 renderEngine
+	METHOD a updateEffects ()V
+	METHOD a addBlockHitEffects (IIII)V
+	METHOD a addBlockDestroyEffects (IIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 i
+		ARG 5 k
+	METHOD a renderParticles (Lme;F)V
+		ARG 1 entity
+		ARG 2 time
+	METHOD a addEffect (Lqc;)V
+		ARG 1 fx
+	METHOD a clearEffects (Luv;)V
+		ARG 1 world
+	METHOD b getStatistics ()Ljava/lang/String;
+	METHOD b renderParticles2 (Lme;F)V
+		ARG 1 entity
+		ARG 2 time
+	FIELD a worldObj Luv;
+	FIELD b fxLayers [Ljava/util/List;
+	FIELD c renderer Lyb;
+	FIELD d rand Ljava/util/Random;

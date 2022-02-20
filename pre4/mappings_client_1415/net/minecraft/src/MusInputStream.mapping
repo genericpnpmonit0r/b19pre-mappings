@@ -1,0 +1,13 @@
+CLASS aas net/minecraft/src/MusInputStream
+	METHOD <init> (Lxi;Ljava/net/URL;Ljava/io/InputStream;)V
+		ARG 1 codec
+		ARG 2 url
+		ARG 3 inputStream
+	METHOD read ([BII)I
+		ARG 1 fileContents
+		ARG 2 size
+		ARG 3 i
+	FIELD a buffer [B
+	FIELD b codec Lxi;
+	FIELD c hash I
+	FIELD d inputStream Ljava/io/InputStream;

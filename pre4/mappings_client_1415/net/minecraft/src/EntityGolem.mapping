@@ -1,0 +1,9 @@
+CLASS agw net/minecraft/src/EntityGolem
+	METHOD a readEntityFromNBT (Laaw;)V
+	METHOD a_ canDespawn ()Z
+	METHOD b writeEntityToNBT (Laaw;)V
+	METHOD c fall (F)V
+	METHOD i getTalkInterval ()I
+	METHOD m getLivingSound ()Ljava/lang/String;
+	METHOD n getHurtSound ()Ljava/lang/String;
+	METHOD o getDeathSound ()Ljava/lang/String;

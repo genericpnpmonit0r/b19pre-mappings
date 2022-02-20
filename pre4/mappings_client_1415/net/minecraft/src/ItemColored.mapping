@@ -1,0 +1,8 @@
+CLASS ahh net/minecraft/src/ItemColored
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 doesHaveSubtypes
+	METHOD a getPlacedBlockMetadata (I)I
+	METHOD b getIconFromDamage (I)I
+	METHOD d getColorFromDamage (I)I
+	FIELD a theBlock Lnp;

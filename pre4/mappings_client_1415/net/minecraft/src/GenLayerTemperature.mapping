@@ -1,0 +1,4 @@
+CLASS acs net/minecraft/src/GenLayerTemperature
+	METHOD <init> (Luh;)V
+		ARG 1 layer
+	METHOD a getInts (IIII)[I

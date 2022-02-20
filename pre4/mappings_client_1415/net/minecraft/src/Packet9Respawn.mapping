@@ -1,0 +1,16 @@
+CLASS ju net/minecraft/src/Packet9Respawn
+	METHOD <init> (BBJII)V
+		ARG 1 dim
+		ARG 2 difficulty
+		ARG 3 seed
+		ARG 5 height
+		ARG 6 creativeMode
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lmt;)V
+	FIELD a mapSeed J
+	FIELD b respawnDimension I
+	FIELD c difficulty I
+	FIELD d worldHeight I
+	FIELD e creativeMode I

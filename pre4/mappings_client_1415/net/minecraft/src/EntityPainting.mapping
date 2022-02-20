@@ -1,0 +1,32 @@
+CLASS lg net/minecraft/src/EntityPainting
+	METHOD <init> (Luv;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 type
+	METHOD <init> (Luv;IIIILjava/lang/String;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 type
+		ARG 6 title
+	METHOD A_ onUpdate ()V
+	METHOD a readEntityFromNBT (Laaw;)V
+	METHOD a attackEntityFrom (Lkz;I)Z
+	METHOD b entityInit ()V
+	METHOD b moveEntity (DDD)V
+	METHOD b setDirection (I)V
+		ARG 1 direction
+	METHOD b writeEntityToNBT (Laaw;)V
+	METHOD b_ canBeCollidedWith ()Z
+	METHOD c addVelocity (DDD)V
+	METHOD c func_411_c (I)F
+	METHOD m canStay ()Z
+	FIELD a direction I
+	FIELD ao tickCounter1 I
+	FIELD b xPosition I
+	FIELD c yPosition I
+	FIELD d zPosition I
+	FIELD e art Lfu;

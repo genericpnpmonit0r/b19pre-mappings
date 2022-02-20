@@ -1,0 +1,3 @@
+CLASS afz
+	METHOD a attackEntityFrom (Lkz;I)Z
+	METHOD c getMaxHealth ()I

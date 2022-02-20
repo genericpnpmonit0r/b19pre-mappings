@@ -1,0 +1,45 @@
+CLASS kz net/minecraft/src/DamageSource
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 typeName
+	METHOD a getEntity ()Lme;
+	METHOD a causeFireballDamage (Lbh;Lme;)Lkz;
+		ARG 0 fireball
+		ARG 1 entity
+	METHOD a causeArrowDamage (Lmd;Lme;)Lkz;
+		ARG 0 arrow
+		ARG 1 entity
+	METHOD a causeThrownDamage (Lme;Lme;)Lkz;
+		ARG 0 thrower
+		ARG 1 target
+	METHOD a causePlayerDamage (Lwe;)Lkz;
+		ARG 0 player
+	METHOD a causeMobDamage (Lzt;)Lkz;
+		ARG 0 living
+	METHOD b getProjectileDamage ()Z
+	METHOD c setProjectileDamage ()Lkz;
+	METHOD d unblockable ()Z
+	METHOD e getHungerDamage ()F
+	METHOD f canHarmInCreative ()Z
+	METHOD g getSourceOfDamage ()Lme;
+	METHOD h setDamageBypassesArmor ()Lkz;
+	METHOD i setDamageAllowedInCreativeMode ()Lkz;
+	METHOD j setFireDamage ()Lkz;
+	METHOD k getIsFireDamage ()Z
+	FIELD a inFire Lkz;
+	FIELD b onFire Lkz;
+	FIELD c lava Lkz;
+	FIELD d inWall Lkz;
+	FIELD e drown Lkz;
+	FIELD f starve Lkz;
+	FIELD g cactus Lkz;
+	FIELD h fall Lkz;
+	FIELD i outOfWorld Lkz;
+	FIELD j generic Lkz;
+	FIELD k explosion Lkz;
+	FIELD l magic Lkz;
+	FIELD m damageType Ljava/lang/String;
+	FIELD n isBlockable Z
+	FIELD o isDamageAllowedInCreativeMode Z
+	FIELD p hungerDamage F
+	FIELD q fireDamage Z
+	FIELD r thrownDamage Z

@@ -1,0 +1,12 @@
+CLASS adb net/minecraft/src/ScaledResolution
+	METHOD <init> (Lgw;II)V
+		ARG 1 options
+		ARG 2 width
+		ARG 3 height
+	METHOD a getScaledWidth ()I
+	METHOD b getScaledHeight ()I
+	FIELD a scaledWidthD D
+	FIELD b scaledHeightD D
+	FIELD c scaleFactor I
+	FIELD d scaledWidth I
+	FIELD e scaledHeight I

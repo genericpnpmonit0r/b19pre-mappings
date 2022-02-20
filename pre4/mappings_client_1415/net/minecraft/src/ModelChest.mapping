@@ -1,0 +1,5 @@
+CLASS adw net/minecraft/src/ModelChest
+	METHOD a renderAll ()V
+	FIELD a chestLid Lpb;
+	FIELD b chestBelow Lpb;
+	FIELD c chestKnob Lpb;

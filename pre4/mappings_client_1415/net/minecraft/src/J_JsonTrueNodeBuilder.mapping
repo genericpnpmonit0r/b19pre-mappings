@@ -1,0 +1,2 @@
+CLASS afc net/minecraft/src/J_JsonTrueNodeBuilder
+	METHOD b build ()Lem;

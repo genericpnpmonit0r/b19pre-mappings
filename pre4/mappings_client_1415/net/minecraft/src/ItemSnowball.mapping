@@ -1,0 +1,2 @@
+CLASS ch net/minecraft/src/ItemSnowball
+	METHOD a onItemRightClick (Lxt;Luv;Lwe;)Lxt;

@@ -1,0 +1,6 @@
+CLASS ye net/minecraft/src/EnumOS
+	FIELD a linux Lye;
+	FIELD b solaris Lye;
+	FIELD c windows Lye;
+	FIELD d macos Lye;
+	FIELD e unknown Lye;

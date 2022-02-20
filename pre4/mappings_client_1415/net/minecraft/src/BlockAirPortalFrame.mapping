@@ -1,0 +1,8 @@
+CLASS ain net/minecraft/src/BlockAirPortalFrame
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;I)I
+	METHOD a getCollidingBoundingBoxes (Luv;IIILun;Ljava/util/ArrayList;)V
+	METHOD a onBlockPlacedBy (Luv;IIILzt;)V
+	METHOD d getRenderType ()I
+	METHOD h setBlockBoundsForItemRender ()V

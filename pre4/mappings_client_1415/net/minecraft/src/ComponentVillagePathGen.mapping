@@ -1,0 +1,17 @@
+CLASS aew net/minecraft/src/ComponentVillagePathGen
+	METHOD <init> (ILjava/util/Random;Lov;I)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 boundingBox
+		ARG 4 coordBaseMode
+	METHOD a createValidComponent (Lf;Ljava/util/List;Ljava/util/Random;IIII)Lov;
+		ARG 0 startPiece
+		ARG 1 pieces
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 type
+	METHOD a buildComponent (Lgi;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a addComponentParts (Luv;Ljava/util/Random;Lov;)Z
+	FIELD a averageGroundLevel I

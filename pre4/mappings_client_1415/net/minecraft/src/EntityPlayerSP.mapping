@@ -1,0 +1,52 @@
+CLASS to net/minecraft/src/EntityPlayerSP
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Luv;Lek;I)V
+		ARG 1 minecraft
+		ARG 2 world
+		ARG 3 session
+		ARG 4 dimension
+	METHOD T isSneaking ()Z
+	METHOD X func_6420_o ()V
+	METHOD a setXPStats (FII)V
+		ARG 2 xpLevel
+		ARG 3 playerLevel
+	METHOD a displayWorkbenchGUI (III)V
+	METHOD a readEntityFromNBT (Laaw;)V
+	METHOD a displayGUIFurnace (Laea;)V
+	METHOD a addStat (Lagh;I)V
+	METHOD a displayBrewingGui (Laih;)V
+	METHOD a displayGUIDispenser (Las;)V
+	METHOD a displayGUIChest (Lhr;)V
+	METHOD a sendChatMessage (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD a displayGUIEditSign (Lqm;)V
+	METHOD aa closeScreen ()V
+	METHOD ab getPlayerArmorValue ()I
+	METHOD ac respawnPlayer ()V
+	METHOD b moveEntity (DDD)V
+	METHOD b writeEntityToNBT (Laaw;)V
+	METHOD b addChatMessage (Ljava/lang/String;)V
+	METHOD b onCriticalHit (Lme;)V
+	METHOD b onItemPickup (Lme;I)V
+	METHOD b setSprinting (Z)V
+	METHOD c setHealth (I)V
+		ARG 1 health
+	METHOD c displayEnchantingGui (III)V
+	METHOD d onLivingUpdate ()V
+	METHOD f isBlockTranslucent (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD h pushOutOfBlocks (DDD)Z
+	METHOD p_ updateEntityActionState ()V
+	METHOD x_ getFOVMultiplier ()F
+	FIELD a movementInput Lnm;
+	FIELD ao renderArmPitch F
+	FIELD ap prevRenderArmYaw F
+	FIELD aq prevRenderArmPitch F
+	FIELD b mc Lnet/minecraft/client/Minecraft;
+	FIELD c sprintToggleTimer I
+	FIELD ch field_21903_bJ Lbv;
+	FIELD ci field_21904_bK Lbv;
+	FIELD cj field_21902_bL Lbv;
+	FIELD d sprintingTicksLeft I
+	FIELD e renderArmYaw F

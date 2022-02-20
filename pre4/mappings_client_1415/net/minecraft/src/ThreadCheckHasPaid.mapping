@@ -1,0 +1,4 @@
+CLASS gs net/minecraft/src/ThreadCheckHasPaid
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	FIELD a mc Lnet/minecraft/client/Minecraft;

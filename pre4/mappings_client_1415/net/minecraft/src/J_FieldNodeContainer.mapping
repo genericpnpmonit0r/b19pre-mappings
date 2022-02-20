@@ -1,0 +1,5 @@
+CLASS aam net/minecraft/src/J_FieldNodeContainer
+	METHOD a addField (Lacj;)V
+	METHOD a addNode (Lze;)V
+	FIELD a fieldBuilder Lacj;
+	FIELD b field_27291_b Lzu;

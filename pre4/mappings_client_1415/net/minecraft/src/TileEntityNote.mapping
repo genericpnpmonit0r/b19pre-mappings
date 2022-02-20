@@ -1,0 +1,11 @@
+CLASS mw net/minecraft/src/TileEntityNote
+	METHOD a changePitch ()V
+	METHOD a readFromNBT (Laaw;)V
+	METHOD a triggerNote (Luv;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b writeToNBT (Laaw;)V
+	FIELD a note B
+	FIELD b previousRedstoneState Z

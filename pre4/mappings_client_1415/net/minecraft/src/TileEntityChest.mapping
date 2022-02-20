@@ -1,0 +1,27 @@
+CLASS gg net/minecraft/src/TileEntityChest
+	METHOD B_ closeChest ()V
+	METHOD a getSizeInventory ()I
+	METHOD a decrStackSize (II)Lxt;
+	METHOD a setInventorySlotContents (ILxt;)V
+	METHOD a readFromNBT (Laaw;)V
+	METHOD a_ isUseableByPlayer (Lwe;)Z
+	METHOD b updateContainingBlockInfo ()V
+	METHOD b receiveEvent (II)V
+	METHOD b writeToNBT (Laaw;)V
+	METHOD c getInvName ()Ljava/lang/String;
+	METHOD d getInventoryStackLimit ()I
+	METHOD e openChest ()V
+	METHOD e_ getStackInSlot (I)Lxt;
+	METHOD g checkAdjacentChests ()V
+	METHOD h invalidate ()V
+	METHOD j_ updateEntity ()V
+	FIELD a adjacentChestChecked Z
+	FIELD b adjacentChestZNeg Lgg;
+	FIELD c adjacentChestXPos Lgg;
+	FIELD d adjacentChestXNeg Lgg;
+	FIELD e adjacentChestZPosition Lgg;
+	FIELD f lidAngle F
+	FIELD g prevLidAngle F
+	FIELD h numUsingPlayers I
+	FIELD p chestContents [Lxt;
+	FIELD q ticksSinceSync I

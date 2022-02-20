@@ -1,0 +1,9 @@
+CLASS wt net/minecraft/src/GuiChest
+	METHOD <init> (Lhr;Lhr;)V
+		ARG 1 inventory1
+		ARG 2 inventory2
+	METHOD a drawGuiContainerBackgroundLayer (FII)V
+	METHOD c drawGuiContainerForegroundLayer ()V
+	FIELD h upperChestInventory Lhr;
+	FIELD i lowerChestInventory Lhr;
+	FIELD j inventoryRows I

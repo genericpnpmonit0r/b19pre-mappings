@@ -1,0 +1,6 @@
+CLASS ao net/minecraft/src/ItemPickaxe
+	METHOD <init> (ILsn;)V
+		ARG 1 id
+		ARG 2 toolMaterial
+	METHOD a canHarvestBlock (Lnp;)Z
+	FIELD b blocksEffectiveAgainst [Lnp;

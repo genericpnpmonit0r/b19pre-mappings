@@ -1,0 +1,3 @@
+CLASS abm net/minecraft/src/RenderTNTPrimed
+	METHOD a doRender (Lme;DDDFF)V
+	FIELD a blockRenderer Ltj;

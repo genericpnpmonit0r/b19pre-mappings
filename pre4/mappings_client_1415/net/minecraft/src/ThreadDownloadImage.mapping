@@ -1,0 +1,8 @@
+CLASS aep net/minecraft/src/ThreadDownloadImage
+	METHOD <init> (Lda;Ljava/lang/String;Lis;)V
+		ARG 1 threadDownloadImagedata
+		ARG 2 location
+		ARG 3 buffer
+	FIELD a location Ljava/lang/String;
+	FIELD b buffer Lis;
+	FIELD c imageData Lda;

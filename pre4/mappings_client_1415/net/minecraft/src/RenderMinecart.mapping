@@ -1,0 +1,3 @@
+CLASS aeg net/minecraft/src/RenderMinecart
+	METHOD a doRender (Lme;DDDFF)V
+	FIELD a modelMinecart Lgr;

@@ -1,0 +1,6 @@
+CLASS acm net/minecraft/src/SorterStatsBlock
+	METHOD <init> (Leb;Lcq;)V
+		ARG 1 guiSlotStatsBlock
+		ARG 2 statsGui
+	FIELD a statsGUI Lcq;
+	FIELD b slotStatsBlockGUI Leb;

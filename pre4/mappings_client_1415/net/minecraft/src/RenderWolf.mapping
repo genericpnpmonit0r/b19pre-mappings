@@ -1,0 +1,4 @@
+CLASS ags net/minecraft/src/RenderWolf
+	METHOD a doRender (Lme;DDDFF)V
+	METHOD a preRenderCallback (Lzt;F)V
+	METHOD d handleRotationFloat (Lzt;F)F

@@ -1,0 +1,7 @@
+CLASS fb net/minecraft/src/EntityCrit2FX
+	METHOD A_ onUpdate ()V
+	METHOD a renderParticle (Laay;FFFFFF)V
+	METHOD m getFXLayer ()I
+	FIELD a field_35134_a Lme;
+	FIELD aw field_35133_ay I
+	FIELD ax field_35132_az I

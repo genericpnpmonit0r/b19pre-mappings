@@ -1,0 +1,17 @@
+CLASS yd net/minecraft/src/Packet24MobSpawn
+	METHOD <init> (Lzt;)V
+		ARG 1 living
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lmt;)V
+	METHOD b getMetadata ()Ljava/util/List;
+	FIELD a entityId I
+	FIELD b type B
+	FIELD c xPosition I
+	FIELD d yPosition I
+	FIELD e zPosition I
+	FIELD f yaw B
+	FIELD g pitch B
+	FIELD h metaData Lafe;
+	FIELD i receivedMetadata Ljava/util/List;

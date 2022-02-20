@@ -1,0 +1,11 @@
+CLASS yk net/minecraft/src/EntityFallingSand
+	METHOD A_ onUpdate ()V
+	METHOD a readEntityFromNBT (Laaw;)V
+	METHOD b entityInit ()V
+	METHOD b writeEntityToNBT (Laaw;)V
+	METHOD b_ canBeCollidedWith ()Z
+	METHOD d_ canTriggerWalking ()Z
+	METHOD f getShadowSize ()F
+	METHOD m getWorld ()Luv;
+	FIELD a blockID I
+	FIELD b fallTime I

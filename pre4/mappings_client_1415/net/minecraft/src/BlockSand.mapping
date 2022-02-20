@@ -1,0 +1,19 @@
+CLASS vx net/minecraft/src/BlockSand
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
+	METHOD a onBlockAdded (Luv;III)V
+	METHOD a onNeighborBlockChange (Luv;IIII)V
+	METHOD a updateTick (Luv;IIILjava/util/Random;)V
+	METHOD f tickRate ()I
+	METHOD h canFallBelow (Luv;III)Z
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD i tryToFall (Luv;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	FIELD a fallInstantly Z

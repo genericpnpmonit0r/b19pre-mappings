@@ -1,0 +1,2 @@
+CLASS afd net/minecraft/src/J_JsonNullNodeBuilder
+	METHOD b build ()Lem;

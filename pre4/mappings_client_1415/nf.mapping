@@ -1,0 +1,4 @@
+CLASS nf
+	METHOD a doRender (Lme;DDDFF)V
+	METHOD a rotateCorpse (Lzt;FFF)V
+	METHOD b renderEquippedItems (Lzt;F)V

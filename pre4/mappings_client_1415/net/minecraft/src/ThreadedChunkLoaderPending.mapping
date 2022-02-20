@@ -1,0 +1,6 @@
+CLASS qj net/minecraft/src/ThreadedChunkLoaderPending
+	METHOD <init> (Lqs;Laaw;)V
+		ARG 1 coordPair
+		ARG 2 tags
+	FIELD a chunkCoordinate Lqs;
+	FIELD b nbtTags Laaw;

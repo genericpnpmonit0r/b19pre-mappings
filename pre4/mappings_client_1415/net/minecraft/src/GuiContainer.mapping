@@ -1,0 +1,32 @@
+CLASS fj net/minecraft/src/GuiContainer
+	METHOD <init> (Lcr;)V
+		ARG 1 container
+	METHOD a initGui ()V
+	METHOD a keyTyped (CI)V
+	METHOD a drawGuiContainerBackgroundLayer (FII)V
+		ARG 1 layer
+		ARG 2 x
+		ARG 3 y
+	METHOD a drawScreen (IIF)V
+	METHOD a mouseClicked (III)V
+	METHOD a drawSlotInventory (Lwc;)V
+		ARG 1 slot
+	METHOD a getIsMouseOverSlot (Lwc;II)Z
+		ARG 1 slot
+		ARG 2 x
+		ARG 3 y
+	METHOD a windowClickSlot (Lwc;IIZ)V
+		ARG 1 slot
+		ARG 2 x
+		ARG 3 y
+	METHOD b mouseMovedOrUp (III)V
+	METHOD c drawGuiContainerForegroundLayer ()V
+	METHOD d onGuiClosed ()V
+	METHOD e doesGuiPauseGame ()Z
+	METHOD q_ updateScreen ()V
+	FIELD a itemRenderer Lsb;
+	FIELD b xSize I
+	FIELD c ySize I
+	FIELD d inventorySlots Lcr;
+	FIELD e guiWidth I
+	FIELD f guiHeight I

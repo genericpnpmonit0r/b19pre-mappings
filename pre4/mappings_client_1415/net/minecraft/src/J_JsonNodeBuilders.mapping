@@ -1,0 +1,11 @@
+CLASS ael net/minecraft/src/J_JsonNodeBuilders
+	COMMENT Builders for <code>JsonNode</code>s.
+	METHOD a aNullBuilder ()Lze;
+	METHOD a aNumberBuilder (Ljava/lang/String;)Lze;
+		ARG 0 value
+	METHOD b aTrueBuilder ()Lze;
+	METHOD b aStringBuilder (Ljava/lang/String;)Le;
+		ARG 0 value
+	METHOD c aFalseBuilder ()Lze;
+	METHOD d anObjectBuilder ()Lmm;
+	METHOD e anArrayBuilder ()Luf;

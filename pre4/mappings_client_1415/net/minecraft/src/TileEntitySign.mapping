@@ -1,0 +1,6 @@
+CLASS qm net/minecraft/src/TileEntitySign
+	METHOD a readFromNBT (Laaw;)V
+	METHOD b writeToNBT (Laaw;)V
+	FIELD a signText [Ljava/lang/String;
+	FIELD b lineBeingEdited I
+	FIELD c isEditable Z

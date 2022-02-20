@@ -1,0 +1,2 @@
+CLASS abf net/minecraft/src/StructureStrongholdEndPortalPicker
+	METHOD a generate (Luv;Ljava/util/Random;III)Z

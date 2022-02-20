@@ -1,0 +1,15 @@
+CLASS agf net/minecraft/src/TexturePackCustom
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 file
+	METHOD a loadTexturePackZipData ()V
+	METHOD a getResourceAsStream (Ljava/lang/String;)Ljava/io/InputStream;
+	METHOD a readTexturePackData (Lnet/minecraft/client/Minecraft;)V
+	METHOD b closeTexturePackFile ()V
+	METHOD b truncateString (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 name
+	METHOD b closeTexturePackData (Lnet/minecraft/client/Minecraft;)V
+	METHOD c bindThumbnailTexture (Lnet/minecraft/client/Minecraft;)V
+	FIELD e texturePackZipFile Ljava/util/zip/ZipFile;
+	FIELD f texturePackName I
+	FIELD g texturePackThumbnail Ljava/awt/image/BufferedImage;
+	FIELD h texturePackFile Ljava/io/File;

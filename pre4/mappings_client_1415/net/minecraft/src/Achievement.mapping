@@ -1,0 +1,37 @@
+CLASS aba net/minecraft/src/Achievement
+	METHOD <init> (ILjava/lang/String;IILnp;Laba;)V
+		ARG 1 id
+		ARG 2 name
+		ARG 3 col
+		ARG 4 row
+		ARG 5 block
+		ARG 6 achievement
+	METHOD <init> (ILjava/lang/String;IILvz;Laba;)V
+		ARG 1 id
+		ARG 2 name
+		ARG 3 col
+		ARG 4 row
+		ARG 5 item
+		ARG 6 achivement
+	METHOD <init> (ILjava/lang/String;IILxt;Laba;)V
+		ARG 1 id
+		ARG 2 name
+		ARG 3 col
+		ARG 4 row
+		ARG 5 itemStack
+		ARG 6 achievement
+	METHOD a registerStat ()Lagh;
+	METHOD a setStatStringFormatter (Lwd;)Laba;
+		ARG 1 statStringFormat
+	METHOD c setSpecial ()Laba;
+	METHOD e isAchievement ()Z
+	METHOD f getDescription ()Ljava/lang/String;
+	METHOD g getSpecial ()Z
+	METHOD h initIndependentStat ()Lagh;
+	FIELD a displayColumn I
+	FIELD b displayRow I
+	FIELD c parentAchievement Laba;
+	FIELD d theItemStack Lxt;
+	FIELD l achievementDescription Ljava/lang/String;
+	FIELD m statStringFormatter Lwd;
+	FIELD n isSpecial Z

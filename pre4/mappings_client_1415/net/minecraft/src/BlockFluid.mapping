@@ -1,0 +1,55 @@
+CLASS adq net/minecraft/src/BlockFluid
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a idDropped (ILjava/util/Random;I)I
+	METHOD a canCollideCheck (IZ)Z
+	METHOD a shouldSideBeRendered (Lahq;IIII)Z
+	METHOD a getFlowDirection (Lahq;IIILzp;)D
+		ARG 0 blockAccess
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 material
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a onBlockAdded (Luv;III)V
+	METHOD a onNeighborBlockChange (Luv;IIII)V
+	METHOD a updateTick (Luv;IIILjava/util/Random;)V
+	METHOD a velocityToAddToEntity (Luv;IIILme;Lbe;)V
+	METHOD b renderAsNormalBlock ()Z
+	METHOD b colorMultiplier (Lahq;III)I
+	METHOD b randomDisplayTick (Luv;IIILjava/util/Random;)V
+	METHOD c getRenderBlockPass ()I
+	METHOD c getMixedBrightnessForBlock (Lahq;III)I
+	METHOD c getIsBlockSolid (Lahq;IIII)Z
+	METHOD c getCollisionBoundingBoxFromPool (Luv;III)Lun;
+	METHOD d getRenderType ()I
+	METHOD d getFluidHeightPercent (I)F
+		ARG 0 height
+	METHOD d getBlockBrightness (Lahq;III)F
+	METHOD f tickRate ()I
+	METHOD f getEffectiveFlowDecay (Lahq;III)I
+		ARG 1 blockAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD g getFlowVector (Lahq;III)Lbe;
+		ARG 1 blockAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h getFlowDecay (Luv;III)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i getBlockColor ()I
+	METHOD i triggerLavaMixEffects (Luv;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD j checkForHarden (Luv;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

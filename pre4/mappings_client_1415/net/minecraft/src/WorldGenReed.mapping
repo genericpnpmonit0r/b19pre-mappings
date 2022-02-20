@@ -1,0 +1,2 @@
+CLASS xm net/minecraft/src/WorldGenReed
+	METHOD a generate (Luv;Ljava/util/Random;III)Z

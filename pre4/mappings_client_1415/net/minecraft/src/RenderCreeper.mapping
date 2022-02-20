@@ -1,0 +1,6 @@
+CLASS re net/minecraft/src/RenderCreeper
+	METHOD a preRenderCallback (Lzt;F)V
+	METHOD a getColorMultiplier (Lzt;FF)I
+	METHOD a inheritRenderPass (Lzt;IF)I
+	METHOD b shouldRenderPass (Lzt;IF)I
+	FIELD c field_27008_a Lgr;

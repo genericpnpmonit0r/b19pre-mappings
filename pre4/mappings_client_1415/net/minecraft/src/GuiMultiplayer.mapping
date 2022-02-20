@@ -1,0 +1,55 @@
+CLASS zr net/minecraft/src/GuiMultiplayer
+	METHOD <init> (Ltn;)V
+		ARG 1 screen
+	METHOD a initGui ()V
+	METHOD a keyTyped (CI)V
+	METHOD a joinServer (I)V
+		ARG 1 index
+	METHOD a drawScreen (IIF)V
+	METHOD a mouseClicked (III)V
+	METHOD a parseIntWithDefault (Ljava/lang/String;I)I
+		ARG 1 hostname
+		ARG 2 i
+	METHOD a drawTooltip (Ljava/lang/String;II)V
+		ARG 1 string
+		ARG 2 x
+		ARG 3 y
+	METHOD a joinServer (Lmq;)V
+		ARG 1 serverNBTStorage
+	METHOD a actionPerformed (Lyt;)V
+	METHOD a getServerList (Lzr;)Ljava/util/List;
+	METHOD a setSelectedServer (Lzr;I)I
+	METHOD a func_35327_a (Lzr;Ljava/lang/String;)Ljava/lang/String;
+	METHOD a pollServer (Lzr;Lmq;)V
+	METHOD a deleteWorld (ZI)V
+	METHOD b pollServer (Lmq;)V
+		ARG 1 serverNBTStorage
+	METHOD b getSelectedServer (Lzr;)I
+	METHOD b joinServer (Lzr;I)V
+	METHOD c initGuiControls ()V
+	METHOD c getButtonSelect (Lzr;)Lyt;
+	METHOD d onGuiClosed ()V
+	METHOD d getButtonEdit (Lzr;)Lyt;
+	METHOD e getButtonDelete (Lzr;)Lyt;
+	METHOD g getLock ()Ljava/lang/Object;
+	METHOD m getThreadsPending ()I
+	METHOD n incrementThreadsPending ()I
+	METHOD o decrementThreadsPending ()I
+	METHOD p loadServerList ()V
+	METHOD q saveServerList ()V
+	METHOD q_ updateScreen ()V
+	FIELD a threadsPending I
+	FIELD b lock Ljava/lang/Object;
+	FIELD c parentScreen Ltn;
+	FIELD d serverSlotContainer Lot;
+	FIELD e serverList Ljava/util/List;
+	FIELD f selectedServer I
+	FIELD h buttonEdit Lyt;
+	FIELD i buttonSelect Lyt;
+	FIELD j buttonDelete Lyt;
+	FIELD k deleteClicked Z
+	FIELD l addClicked Z
+	FIELD m editClicked Z
+	FIELD n directClicked Z
+	FIELD o serverName Ljava/lang/String;
+	FIELD w tempServer Lmq;

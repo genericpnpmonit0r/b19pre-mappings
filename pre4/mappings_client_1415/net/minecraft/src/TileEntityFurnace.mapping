@@ -1,0 +1,23 @@
+CLASS aea net/minecraft/src/TileEntityFurnace
+	METHOD B_ closeChest ()V
+	METHOD a getSizeInventory ()I
+	METHOD a decrStackSize (II)Lxt;
+	METHOD a setInventorySlotContents (ILxt;)V
+	METHOD a readFromNBT (Laaw;)V
+	METHOD a getItemBurnTime (Lxt;)I
+	METHOD a_ isUseableByPlayer (Lwe;)Z
+	METHOD b getCookProgressScaled (I)I
+	METHOD b writeToNBT (Laaw;)V
+	METHOD c getInvName ()Ljava/lang/String;
+	METHOD c getBurnTimeRemainingScaled (I)I
+	METHOD d getInventoryStackLimit ()I
+	METHOD e openChest ()V
+	METHOD e_ getStackInSlot (I)Lxt;
+	METHOD g isBurning ()Z
+	METHOD j_ updateEntity ()V
+	METHOD n smeltItem ()V
+	METHOD o canSmelt ()Z
+	FIELD a furnaceBurnTime I
+	FIELD b currentItemBurnTime I
+	FIELD c furnaceCookTime I
+	FIELD d furnaceItemStacks [Lxt;

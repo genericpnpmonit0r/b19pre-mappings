@@ -1,0 +1,10 @@
+CLASS xv net/minecraft/src/ContainerBrewingStand
+	METHOD <init> (Lxq;Laih;)V
+		ARG 1 inventory
+		ARG 2 brewingStand
+	METHOD a updateCraftingResults ()V
+	METHOD a transferStackInSlot (I)Lxt;
+	METHOD a updateProgressBar (II)V
+	METHOD b canInteractWith (Lwe;)Z
+	FIELD a brewingStand Laih;
+	FIELD b brewTime I

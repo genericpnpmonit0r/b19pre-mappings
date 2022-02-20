@@ -1,0 +1,11 @@
+CLASS vb net/minecraft/src/BlockCauldron
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;I)I
+	METHOD a getCollidingBoundingBoxes (Luv;IIILun;Ljava/util/ArrayList;)V
+	METHOD b renderAsNormalBlock ()Z
+	METHOD b blockActivated (Luv;IIILwe;)Z
+	METHOD d getRenderType ()I
+	METHOD h setBlockBoundsForItemRender ()V

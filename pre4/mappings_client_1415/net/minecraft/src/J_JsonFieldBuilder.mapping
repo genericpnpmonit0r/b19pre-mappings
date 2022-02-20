@@ -1,0 +1,8 @@
+CLASS acj net/minecraft/src/J_JsonFieldBuilder
+	METHOD a aJsonFieldBuilder ()Lacj;
+	METHOD a func_27304_a (Lze;)Lacj;
+	METHOD b func_27303_b ()Lkq;
+	METHOD b func_27300_b (Lze;)Lacj;
+	METHOD c func_27302_c ()Lem;
+	FIELD a field_27306_a Lze;
+	FIELD b field_27305_b Lze;

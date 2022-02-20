@@ -1,0 +1,25 @@
+CLASS xf net/minecraft/src/EntityCreature
+	METHOD a getBlockPathWeight (III)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a attackEntity (Lme;F)V
+		ARG 1 entity
+		ARG 2 damageFloat
+	METHOD a setPathToEntity (Ltr;)V
+	METHOD ac isMovementCeased ()Z
+	METHOD ai updateWanderPath ()V
+	METHOD ak hasPath ()Z
+	METHOD am getEntityToAttack ()Lme;
+	METHOD b attackBlockedEntity (Lme;F)V
+		ARG 1 entity
+		ARG 2 f
+	METHOD g findPlayerToAttack ()Lme;
+	METHOD h getCanSpawnHere ()Z
+	METHOD h setEntityToAttack (Lme;)V
+	METHOD p_ updateEntityActionState ()V
+	METHOD v_ applyMoveSpeedPotionEffectModifier ()F
+	FIELD a pathToEntity Ltr;
+	FIELD aq entityToAttack Lme;
+	FIELD ar hasAttacked Z
+	FIELD as fleeingTick I

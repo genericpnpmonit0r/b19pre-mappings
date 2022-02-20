@@ -1,0 +1,21 @@
+CLASS fs net/minecraft/src/ContainerEnchantment
+	METHOD <init> (Lxq;Luv;III)V
+		ARG 1 inventoryPlayer
+		ARG 2 world
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+	METHOD a updateCraftingResults ()V
+	METHOD a transferStackInSlot (I)Lxt;
+	METHOD a updateProgressBar (II)V
+	METHOD a onCraftMatrixChanged (Lhr;)V
+	METHOD a onCraftGuiClosed (Lwe;)V
+	METHOD b canInteractWith (Lwe;)Z
+	FIELD a tableInventory Lhr;
+	FIELD b nameSeed J
+	FIELD c enchantmentLevels [I
+	FIELD h worldPointer Luv;
+	FIELD i xPos I
+	FIELD j yPos I
+	FIELD k zPos I
+	FIELD l rand Ljava/util/Random;

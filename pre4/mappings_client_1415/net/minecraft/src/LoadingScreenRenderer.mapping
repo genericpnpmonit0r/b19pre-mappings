@@ -1,0 +1,15 @@
+CLASS ic net/minecraft/src/LoadingScreenRenderer
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD a setLoadingProgress (I)V
+	METHOD a printText (Ljava/lang/String;)V
+		ARG 1 text
+	METHOD b displaySavingString (Ljava/lang/String;)V
+	METHOD c setCurrDisplayedText (Ljava/lang/String;)V
+		ARG 1 text
+	METHOD d displayLoadingString (Ljava/lang/String;)V
+	FIELD a prevDisplayedText Ljava/lang/String;
+	FIELD b mc Lnet/minecraft/client/Minecraft;
+	FIELD c currentlyDisplayedText Ljava/lang/String;
+	FIELD d systemTime J
+	FIELD e startedLoading Z

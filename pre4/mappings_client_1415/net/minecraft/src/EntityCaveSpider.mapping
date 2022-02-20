@@ -1,0 +1,4 @@
+CLASS ew net/minecraft/src/EntityCaveSpider
+	METHOD b attackEntityAsMob (Lme;)Z
+	METHOD c getMaxHealth ()I
+	METHOD k_ spiderScaleAmount ()F

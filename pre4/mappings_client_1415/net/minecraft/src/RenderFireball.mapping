@@ -1,0 +1,3 @@
+CLASS yx net/minecraft/src/RenderFireball
+	METHOD a doRender (Lme;DDDFF)V
+	FIELD a field_40269_a F

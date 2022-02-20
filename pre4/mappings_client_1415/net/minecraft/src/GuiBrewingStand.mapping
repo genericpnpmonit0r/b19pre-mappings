@@ -1,0 +1,4 @@
+CLASS gj net/minecraft/src/GuiBrewingStand
+	METHOD a drawGuiContainerBackgroundLayer (FII)V
+	METHOD c drawGuiContainerForegroundLayer ()V
+	FIELD h brewingStand Laih;

@@ -1,0 +1,21 @@
+CLASS agc net/minecraft/src/BlockFarmland
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;I)I
+	METHOD a onNeighborBlockChange (Luv;IIII)V
+	METHOD a updateTick (Luv;IIILjava/util/Random;)V
+	METHOD b renderAsNormalBlock ()Z
+	METHOD b onEntityWalking (Luv;IIILme;)V
+	METHOD c getCollisionBoundingBoxFromPool (Luv;III)Lun;
+	METHOD h isCropsNearby (Luv;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i isWaterNearby (Luv;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

@@ -1,0 +1,2 @@
+CLASS pt net/minecraft/src/ThreadCloseConnection
+	FIELD a networkManager Lkd;

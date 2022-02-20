@@ -1,0 +1,12 @@
+CLASS wu net/minecraft/src/SoundPool
+	METHOD a getRandomSound ()Lsf;
+	METHOD a getRandomSoundFromSoundPool (Ljava/lang/String;)Lsf;
+		ARG 1 key
+	METHOD a addSound (Ljava/lang/String;Ljava/io/File;)Lsf;
+		ARG 1 name
+		ARG 2 file
+	FIELD a numberOfSoundPoolEntries I
+	FIELD b isGetRandomSound Z
+	FIELD c rand Ljava/util/Random;
+	FIELD d nameToSoundPoolEntriesMapping Ljava/util/Map;
+	FIELD e allSoundPoolEntries Ljava/util/List;

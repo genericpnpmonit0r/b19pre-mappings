@@ -1,0 +1,2 @@
+CLASS s net/minecraft/src/J_JsonNodeList
+	FIELD a field_27405_a Ljava/lang/Iterable;

@@ -1,0 +1,13 @@
+CLASS tx net/minecraft/src/RenderPlayer
+	METHOD a doRender (Lme;DDDFF)V
+	METHOD a renderLivingAt (Lzt;DDD)V
+	METHOD a preRenderCallback (Lzt;F)V
+	METHOD a rotateCorpse (Lzt;FFF)V
+	METHOD b drawFirstPersonHand ()V
+	METHOD b passSpecialRender (Lzt;DDD)V
+	METHOD b renderEquippedItems (Lzt;F)V
+	METHOD b shouldRenderPass (Lzt;IF)I
+	FIELD c modelBipedMain Lux;
+	FIELD d modelArmorChestplate Lux;
+	FIELD i modelArmor Lux;
+	FIELD j armorFilenamePrefix [Ljava/lang/String;

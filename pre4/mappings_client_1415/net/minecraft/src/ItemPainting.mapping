@@ -1,0 +1,2 @@
+CLASS aig net/minecraft/src/ItemPainting
+	METHOD a onItemUse (Lxt;Lwe;Luv;IIII)Z

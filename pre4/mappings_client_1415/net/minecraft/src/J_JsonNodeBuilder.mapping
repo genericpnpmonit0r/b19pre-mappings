@@ -1,0 +1,2 @@
+CLASS ze net/minecraft/src/J_JsonNodeBuilder
+	METHOD b build ()Lem;

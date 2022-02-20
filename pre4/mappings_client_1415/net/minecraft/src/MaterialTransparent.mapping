@@ -1,0 +1,4 @@
+CLASS hp net/minecraft/src/MaterialTransparent
+	METHOD a isSolid ()Z
+	METHOD b getCanBlockGrass ()Z
+	METHOD c getIsSolid ()Z

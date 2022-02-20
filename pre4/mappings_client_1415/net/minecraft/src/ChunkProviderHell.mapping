@@ -1,0 +1,49 @@
+CLASS acz net/minecraft/src/ChunkProviderHell
+	METHOD <init> (Luv;J)V
+		ARG 1 world
+		ARG 2 seed
+	METHOD a unload100OldestChunks ()Z
+	METHOD a chunkExists (II)Z
+	METHOD a generateNetherTerrain (II[B)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+	METHOD a populate (Lbm;II)V
+	METHOD a getPossibleCreatures (Lzj;III)Ljava/util/List;
+	METHOD a saveChunks (ZLqf;)Z
+	METHOD a initializeNoiseField ([DIIIIII)[D
+		ARG 1 noiseArray
+		ARG 2 offset1
+		ARG 3 offset2
+		ARG 4 offset3
+		ARG 5 x
+		ARG 6 y
+		ARG 7 z
+	METHOD b canSave ()Z
+	METHOD b provideChunk (II)Lzn;
+	METHOD b replaceBlocksForBiome (II[B)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+	METHOD c makeString ()Ljava/lang/String;
+	METHOD c loadChunk (II)Lzn;
+	FIELD a noiseGen6 Lnd;
+	FIELD b noiseGen7 Lnd;
+	FIELD c netherFortressGenerator Lyz;
+	FIELD d noiseData1 [D
+	FIELD e noiseData2 [D
+	FIELD f noiseData3 [D
+	FIELD g noiseData4 [D
+	FIELD h noiseData5 [D
+	FIELD i hellRNG Ljava/util/Random;
+	FIELD j noiseGen1 Lnd;
+	FIELD k noiseGen2 Lnd;
+	FIELD l noiseGen3 Lnd;
+	FIELD m soulSandGravelNoiseGen Lnd;
+	FIELD n netherrackExclusivityNoiseGen Lnd;
+	FIELD o worldObj Luv;
+	FIELD p noiseField [D
+	FIELD q soulsandNoise [D
+	FIELD r gravelNoise [D
+	FIELD s netherrackExclusivityNoise [D
+	FIELD t caveGenerator Lvj;

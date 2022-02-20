@@ -1,0 +1,8 @@
+CLASS nl net/minecraft/src/Teleporter
+	METHOD b placeInExistingPortal (Luv;Lme;)Z
+		ARG 1 world
+		ARG 2 entity
+	METHOD c createPortal (Luv;Lme;)Z
+		ARG 1 world
+		ARG 2 entity
+	FIELD a random Ljava/util/Random;

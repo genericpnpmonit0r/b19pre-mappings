@@ -1,0 +1,2 @@
+CLASS xe net/minecraft/src/ItemRedstone
+	METHOD a onItemUse (Lxt;Lwe;Luv;IIII)Z

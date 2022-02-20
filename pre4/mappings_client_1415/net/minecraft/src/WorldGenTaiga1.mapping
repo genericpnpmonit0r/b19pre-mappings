@@ -1,0 +1,2 @@
+CLASS kk net/minecraft/src/WorldGenTaiga1
+	METHOD a generate (Luv;Ljava/util/Random;III)Z

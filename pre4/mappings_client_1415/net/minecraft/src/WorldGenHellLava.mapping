@@ -1,0 +1,5 @@
+CLASS ks net/minecraft/src/WorldGenHellLava
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a generate (Luv;Ljava/util/Random;III)Z
+	FIELD a hellLavaID I

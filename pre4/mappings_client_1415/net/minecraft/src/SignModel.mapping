@@ -1,0 +1,4 @@
+CLASS adj net/minecraft/src/SignModel
+	METHOD a renderSign ()V
+	FIELD a signBoard Lpb;
+	FIELD b signStick Lpb;

@@ -1,0 +1,15 @@
+CLASS co net/minecraft/src/ItemTool
+	METHOD <init> (IILsn;[Lnp;)V
+		ARG 1 id
+		ARG 2 dmgVsEntity
+		ARG 3 toolMaterial
+		ARG 4 blocksEffectiveAgainstArr
+	METHOD a isFull3D ()Z
+	METHOD a getDamageVsEntity (Lme;)I
+	METHOD a onBlockDestroyed (Lxt;IIIILzt;)Z
+	METHOD a getStrVsBlock (Lxt;Lnp;)F
+	METHOD a hitEntity (Lxt;Lzt;Lzt;)Z
+	FIELD a toolMaterial Lsn;
+	FIELD bS damageVsEntity I
+	FIELD b blocksEffectiveAgainst [Lnp;
+	FIELD c efficiencyOnProperMaterial F

@@ -1,0 +1,80 @@
+CLASS yr net/minecraft/src/BiomeGenBase
+	METHOD <init> (I)V
+		ARG 1 biomeId
+	METHOD a createBiomeDecorator ()Lvs;
+	METHOD a getSkyColorByTemp (F)I
+		ARG 1 temperature
+	METHOD a setTemperatureRainfall (FF)Lyr;
+		ARG 1 temp
+		ARG 2 rainfall
+	METHOD a setDefaultColor (I)Lyr;
+		ARG 1 color
+	METHOD a getBiomeGrassColor (Lahq;III)I
+		ARG 1 blockAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a setBiomeName (Ljava/lang/String;)Lyr;
+		ARG 1 name
+	METHOD a getRandomWorldGenForTrees (Ljava/util/Random;)Lkf;
+		ARG 1 rand
+	METHOD a decorate (Luv;Ljava/util/Random;II)V
+		ARG 1 world
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 z
+	METHOD a getSpawnableList (Lzj;)Ljava/util/List;
+		ARG 1 creatureType
+	METHOD b getEnableSnow ()Z
+	METHOD b setMinMaxHeight (FF)Lyr;
+		ARG 1 minHeight
+		ARG 2 maxHeight
+	METHOD b setColor (I)Lyr;
+		ARG 1 color
+	METHOD b getBiomeFoliageColor (Lahq;III)I
+		ARG 1 blockAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD c canSpawnLightningBolt ()Z
+	METHOD d getSpawningChance ()F
+	METHOD e getIntRainfall ()I
+	METHOD f getIntTemperature ()I
+	METHOD g setDisableRain ()Lyr;
+	FIELD A waterColorMultiplier I
+	FIELD C spawnableMonsterList Ljava/util/List;
+	FIELD D spawnableCreatureList Ljava/util/List;
+	FIELD E spawnableWaterCreatureList Ljava/util/List;
+	FIELD F biomeID I
+	FIELD G worldGenTrees Lql;
+	FIELD H worldGenBigTree Lxg;
+	FIELD I worldGenForest Lh;
+	FIELD J worldGenSwamp Law;
+	FIELD K enableSnow Z
+	FIELD L enableRain Z
+	FIELD a biomeList [Lyr;
+	FIELD b ocean Lyr;
+	FIELD c plains Lyr;
+	FIELD d desert Lyr;
+	FIELD e hills Lyr;
+	FIELD f forest Lyr;
+	FIELD g taiga Lyr;
+	FIELD h swampland Lyr;
+	FIELD i river Lyr;
+	FIELD j hell Lyr;
+	FIELD k sky Lyr;
+	FIELD l frozenOcean Lyr;
+	FIELD m frozenRiver Lyr;
+	FIELD n icePlains Lyr;
+	FIELD o iceMountains Lyr;
+	FIELD p mushroomIsland Lyr;
+	FIELD q mushroomIslandShore Lyr;
+	FIELD r biomeName Ljava/lang/String;
+	FIELD s color I
+	FIELD t topBlock B
+	FIELD u fillerBlock B
+	FIELD v defaultColor I
+	FIELD w minHeight F
+	FIELD x maxHeight F
+	FIELD y temperature F
+	FIELD z rainfall F

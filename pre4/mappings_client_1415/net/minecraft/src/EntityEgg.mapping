@@ -1,0 +1,9 @@
+CLASS ap net/minecraft/src/EntityEgg
+	METHOD A_ onUpdate ()V
+	METHOD a isInRangeToRenderDist (D)Z
+	METHOD a setVelocity (DDD)V
+	METHOD a readEntityFromNBT (Laaw;)V
+	METHOD a onCollideWithPlayer (Lwe;)V
+	METHOD b entityInit ()V
+	METHOD b writeEntityToNBT (Laaw;)V
+	METHOD f getShadowSize ()F

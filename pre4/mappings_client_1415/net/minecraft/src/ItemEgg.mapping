@@ -1,0 +1,2 @@
+CLASS aad net/minecraft/src/ItemEgg
+	METHOD a onItemRightClick (Lxt;Luv;Lwe;)Lxt;

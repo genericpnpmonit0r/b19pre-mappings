@@ -1,0 +1,5 @@
+CLASS acp net/minecraft/src/J_NodeContainer
+	METHOD a addField (Lacj;)V
+		ARG 1 jsonFieldBuilder
+	METHOD a addNode (Lze;)V
+		ARG 1 jsonNodeBuilder

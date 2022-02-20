@@ -1,0 +1,4 @@
+CLASS of net/minecraft/src/GenLayerDownfall
+	METHOD <init> (Luh;)V
+		ARG 1 parent
+	METHOD a getInts (IIII)[I

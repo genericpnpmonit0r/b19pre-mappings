@@ -1,0 +1,2 @@
+CLASS jx net/minecraft/src/J_JsonObjectNodeList
+	FIELD a nodeBuilder Lmm;

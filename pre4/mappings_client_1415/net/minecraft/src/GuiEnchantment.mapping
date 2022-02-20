@@ -1,0 +1,10 @@
+CLASS qv net/minecraft/src/GuiEnchantment
+	METHOD a drawGuiContainerBackgroundLayer (FII)V
+	METHOD a mouseClicked (III)V
+	METHOD c drawGuiContainerForegroundLayer ()V
+	METHOD d onGuiClosed ()V
+	METHOD q_ updateScreen ()V
+	FIELD o theItemStack Lxt;
+	FIELD w enchBook Lkh;
+	FIELD x rand Ljava/util/Random;
+	FIELD y enchContainer Lfs;

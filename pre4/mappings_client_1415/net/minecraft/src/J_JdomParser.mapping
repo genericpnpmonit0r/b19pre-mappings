@@ -1,0 +1,3 @@
+CLASS ff net/minecraft/src/J_JdomParser
+	METHOD a Parse (Ljava/io/Reader;)Lku;
+	METHOD a parse (Ljava/lang/String;)Lku;

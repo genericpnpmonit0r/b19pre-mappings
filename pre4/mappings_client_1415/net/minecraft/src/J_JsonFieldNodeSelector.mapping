@@ -1,0 +1,5 @@
+CLASS acw net/minecraft/src/J_JsonFieldNodeSelector
+	METHOD a shortForm ()Ljava/lang/String;
+	METHOD b typeSafeApplyTo (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD c matchesNode (Ljava/lang/Object;)Z
+	FIELD a field_27066_a Lkq;

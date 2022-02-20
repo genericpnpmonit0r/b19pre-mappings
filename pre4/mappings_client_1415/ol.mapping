@@ -1,0 +1,3 @@
+CLASS ol
+	METHOD A_ onUpdate ()V
+	METHOD a renderParticle (Laay;FFFFFF)V

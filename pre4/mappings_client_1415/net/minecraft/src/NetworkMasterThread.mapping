@@ -1,0 +1,4 @@
+CLASS ps net/minecraft/src/NetworkMasterThread
+	METHOD <init> (Lkd;)V
+		ARG 1 networkManager
+	FIELD a netManager Lkd;

@@ -1,0 +1,4 @@
+CLASS ne
+	METHOD b_ canBeCollidedWith ()Z
+	METHOD d onLivingUpdate ()V
+	METHOD r despawnEntity ()V

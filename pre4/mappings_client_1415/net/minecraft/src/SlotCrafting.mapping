@@ -1,0 +1,9 @@
+CLASS aiq net/minecraft/src/SlotCrafting
+	METHOD <init> (Lwe;Lhr;Lhr;III)V
+		ARG 1 player
+		ARG 2 craftingGrid
+		ARG 3 inventory
+	METHOD a isItemValid (Lxt;)Z
+	METHOD b onPickupFromSlot (Lxt;)V
+	FIELD a craftMatrix Lhr;
+	FIELD f thePlayer Lwe;

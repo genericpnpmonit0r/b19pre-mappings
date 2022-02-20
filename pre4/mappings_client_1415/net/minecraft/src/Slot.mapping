@@ -1,0 +1,24 @@
+CLASS wc net/minecraft/src/Slot
+	METHOD <init> (Lhr;III)V
+		ARG 1 inventory
+		ARG 2 index
+		ARG 3 x
+		ARG 4 y
+	METHOD a getSlotStackLimit ()I
+	METHOD a decrStackSize (I)Lxt;
+		ARG 1 stackSize
+	METHOD a isItemValid (Lxt;)Z
+		ARG 1 itemStack
+	METHOD b getStack ()Lxt;
+	METHOD b onPickupFromSlot (Lxt;)V
+		ARG 1 itemStack
+	METHOD c getHasStack ()Z
+	METHOD c putStack (Lxt;)V
+		ARG 1 itemStack
+	METHOD d onSlotChanged ()V
+	METHOD e getBackgroundIconIndex ()I
+	FIELD a slotIndex I
+	FIELD b inventory Lhr;
+	FIELD c slotNumber I
+	FIELD d xDisplayPosition I
+	FIELD e yDisplayPosition I

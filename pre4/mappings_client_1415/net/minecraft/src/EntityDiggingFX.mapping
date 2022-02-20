@@ -1,0 +1,5 @@
+CLASS ky net/minecraft/src/EntityDiggingFX
+	METHOD a func_4041_a (III)Lky;
+	METHOD a renderParticle (Laay;FFFFFF)V
+	METHOD m getFXLayer ()I
+	FIELD a blockInstance Lnp;

@@ -1,0 +1,4 @@
+CLASS wz net/minecraft/src/ColorizerWater
+	METHOD a getWaterBiomeColorizer ([I)V
+		ARG 0 colorBuff
+	FIELD a waterBuffer [I

@@ -1,0 +1,12 @@
+CLASS sa net/minecraft/src/MapCoord
+	METHOD <init> (Lxp;BBBB)V
+		ARG 1 data
+		ARG 2 iconSize
+		ARG 3 centerX
+		ARG 4 centerZ
+		ARG 5 rotation
+	FIELD a iconSize B
+	FIELD b centerX B
+	FIELD c centerZ B
+	FIELD d iconRot B
+	FIELD e data Lxp;

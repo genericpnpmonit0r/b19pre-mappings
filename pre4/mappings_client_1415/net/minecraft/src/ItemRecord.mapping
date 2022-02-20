@@ -1,0 +1,8 @@
+CLASS aev net/minecraft/src/ItemRecord
+	METHOD <init> (ILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 recordName
+	METHOD a getRecord (Lxt;Ljava/util/List;)V
+	METHOD a onItemUse (Lxt;Lwe;Luv;IIII)Z
+	METHOD f getItemRarity (Lxt;)Lex;
+	FIELD a recordName Ljava/lang/String;

@@ -1,0 +1,6 @@
+CLASS he net/minecraft/src/ItemHoe
+	METHOD <init> (ILsn;)V
+		ARG 1 id
+		ARG 2 toolMaterial
+	METHOD a isFull3D ()Z
+	METHOD a onItemUse (Lxt;Lwe;Luv;IIII)Z

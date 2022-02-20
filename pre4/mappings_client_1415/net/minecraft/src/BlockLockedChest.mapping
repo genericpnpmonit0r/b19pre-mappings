@@ -1,0 +1,7 @@
+CLASS za net/minecraft/src/BlockLockedChest
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a updateTick (Luv;IIILjava/util/Random;)V
+	METHOD d getBlockTexture (Lahq;IIII)I
+	METHOD e canPlaceBlockAt (Luv;III)Z

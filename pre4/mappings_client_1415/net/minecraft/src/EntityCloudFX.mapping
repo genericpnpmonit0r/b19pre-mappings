@@ -1,0 +1,4 @@
+CLASS afr net/minecraft/src/EntityCloudFX
+	METHOD A_ onUpdate ()V
+	METHOD a renderParticle (Laay;FFFFFF)V
+	FIELD a field_35135_a F

@@ -1,0 +1,6 @@
+CLASS ago net/minecraft/src/ItemSpade
+	METHOD <init> (ILsn;)V
+		ARG 1 id
+		ARG 2 toolMaterial
+	METHOD a canHarvestBlock (Lnp;)Z
+	FIELD b blocksEffectiveAgainst [Lnp;

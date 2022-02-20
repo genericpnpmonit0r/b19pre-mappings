@@ -1,0 +1,3 @@
+CLASS sv net/minecraft/src/PanelCrashReport
+	METHOD <init> (Lia;)V
+		ARG 1 unexpectedThrowable

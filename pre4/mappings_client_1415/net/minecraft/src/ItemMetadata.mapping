@@ -1,0 +1,7 @@
+CLASS yf net/minecraft/src/ItemMetadata
+	METHOD <init> (ILnp;)V
+		ARG 1 id
+		ARG 2 block
+	METHOD a getPlacedBlockMetadata (I)I
+	METHOD b getIconFromDamage (I)I
+	FIELD a theBlock Lnp;

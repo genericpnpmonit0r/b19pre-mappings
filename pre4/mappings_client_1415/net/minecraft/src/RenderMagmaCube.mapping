@@ -1,0 +1,4 @@
+CLASS aq net/minecraft/src/RenderMagmaCube
+	METHOD a doRender (Lme;DDDFF)V
+	METHOD a preRenderCallback (Lzt;F)V
+	FIELD c field_40276_c I

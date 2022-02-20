@@ -1,0 +1,3 @@
+CLASS aie net/minecraft/src/RenderGiantZombie
+	METHOD a preRenderCallback (Lzt;F)V
+	FIELD c scale F

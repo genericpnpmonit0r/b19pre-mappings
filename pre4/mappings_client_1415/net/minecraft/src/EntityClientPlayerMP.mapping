@@ -1,0 +1,31 @@
+CLASS aeo net/minecraft/src/EntityClientPlayerMP
+	METHOD A_ onUpdate ()V
+	METHOD a addStat (Lagh;I)V
+	METHOD a joinEntityItemWithWorld (Lez;)V
+	METHOD a sendChatMessage (Ljava/lang/String;)V
+	METHOD a attackEntityFrom (Lkz;I)Z
+	METHOD aO onUpdate2 ()V
+	METHOD aP sendInventoryChanged ()V
+	METHOD aa closeScreen ()V
+	METHOD ac respawnPlayer ()V
+	METHOD an dropCurrentItem ()V
+	METHOD as swingItem ()V
+	METHOD b addStat2 (Lagh;I)V
+		ARG 1 statBase
+		ARG 2 id
+	METHOD c setHealth (I)V
+	METHOD c damageEntity (Lkz;I)V
+	METHOD j heal (I)V
+	FIELD ch sendQueue Laal;
+	FIELD ci inventoryUpdateTickCounter I
+	FIELD cj updateHealth Z
+	FIELD ck oldPosX D
+	FIELD cl oldMinY D
+	FIELD cm oldPosY D
+	FIELD cn oldPosZ D
+	FIELD co oldRotationYaw F
+	FIELD cp oldRotationPitch F
+	FIELD cq prevOnGround Z
+	FIELD cr sneaking Z
+	FIELD cs wasSneaking Z
+	FIELD ct ticker I

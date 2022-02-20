@@ -1,0 +1,8 @@
+CLASS aed net/minecraft/src/StructureNetherBridgePieceWeight
+	METHOD a func_40694_a ()Z
+	METHOD a func_40693_a (I)Z
+	FIELD a weightClass Ljava/lang/Class;
+	FIELD b field_40697_b I
+	FIELD c weight I
+	FIELD d weight2 I
+	FIELD e mode Z

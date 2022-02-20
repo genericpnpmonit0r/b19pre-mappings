@@ -1,0 +1,45 @@
+CLASS aen net/minecraft/src/RenderManager
+	METHOD a getFontRenderer ()Lmc;
+	METHOD a getDistanceToCamera (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a getEntityClassRenderObject (Ljava/lang/Class;)Lsp;
+		ARG 1 renderObjClass
+	METHOD a getEntityRenderObject (Lme;)Lsp;
+		ARG 1 entity
+	METHOD a renderEntityWithPosYaw (Lme;DDDFF)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 yaw
+		ARG 9 pitch
+	METHOD a renderEntity (Lme;F)V
+		ARG 1 entity
+		ARG 2 multiplier
+	METHOD a set (Luv;)V
+		ARG 1 world
+	METHOD a cacheActiveRenderInfo (Luv;Lyb;Lmc;Lzt;Lgw;F)V
+		ARG 1 world
+		ARG 2 renderEngine
+		ARG 3 fontRenderer
+		ARG 4 living
+		ARG 5 gameSettings
+		ARG 6 multiplier
+	FIELD a instance Laen;
+	FIELD b renderPosX D
+	FIELD c renderPosY D
+	FIELD d renderPosZ D
+	FIELD e renderEngine Lyb;
+	FIELD f itemRenderer Llj;
+	FIELD g worldObj Luv;
+	FIELD h livingPlayer Lzt;
+	FIELD i playerViewY F
+	FIELD j playerViewX F
+	FIELD k options Lgw;
+	FIELD l distanceToCameraX D
+	FIELD m distanceToCameraZ D
+	FIELD n distanceToCameraY D
+	FIELD o entityRenderMap Ljava/util/Map;
+	FIELD p fontRenderer Lmc;

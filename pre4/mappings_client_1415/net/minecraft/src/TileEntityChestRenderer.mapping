@@ -1,0 +1,4 @@
+CLASS agd net/minecraft/src/TileEntityChestRenderer
+	METHOD a renderTileEntityAt (Ljt;DDDF)V
+	FIELD a chestModel Ladw;
+	FIELD c largeChestModel Ladw;

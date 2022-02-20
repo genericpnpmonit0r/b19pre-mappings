@@ -1,0 +1,15 @@
+CLASS vi net/minecraft/src/GuiScreenAddServer
+	METHOD <init> (Ltn;Lmq;)V
+		ARG 1 screen
+		ARG 2 serveNBTStorage
+	METHOD a initGui ()V
+	METHOD a keyTyped (CI)V
+	METHOD a drawScreen (IIF)V
+	METHOD a mouseClicked (III)V
+	METHOD a actionPerformed (Lyt;)V
+	METHOD d onGuiClosed ()V
+	METHOD q_ updateScreen ()V
+	FIELD a parentGui Ltn;
+	FIELD b serverAddress Ladp;
+	FIELD c serverName Ladp;
+	FIELD d serverStorage Lmq;

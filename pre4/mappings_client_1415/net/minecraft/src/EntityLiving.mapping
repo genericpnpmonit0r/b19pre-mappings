@@ -1,0 +1,182 @@
+CLASS zt net/minecraft/src/EntityLiving
+	METHOD A_ onUpdate ()V
+	METHOD B kill ()V
+	METHOD F getEyeHeight ()F
+	METHOD I getEntityTexture ()Ljava/lang/String;
+	METHOD K isEntityAlive ()Z
+	METHOD M updateRidden ()V
+	METHOD O getLookVec ()Lbe;
+	METHOD Y getMaxSpawnedInChunk ()I
+	METHOD Z getHeldItem ()Lxt;
+	METHOD a handleHealthUpdate (B)V
+	METHOD a setPositionAndRotation2 (DDDFFI)V
+	METHOD a rayTrace (DF)Lny;
+		ARG 1 source
+		ARG 3 target
+	METHOD a setSize (FF)V
+	METHOD a readEntityFromNBT (Laaw;)V
+	METHOD a onDeath (Lkz;)V
+		ARG 1 damageSrc
+	METHOD a attackEntityFrom (Lkz;I)Z
+	METHOD a faceEntity (Lme;FF)V
+		ARG 1 entity
+		ARG 2 yaw
+		ARG 3 pitch
+	METHOD a knockBack (Lme;IDD)V
+		ARG 1 entity
+		ARG 2 dist
+		ARG 3 x
+		ARG 5 z
+	METHOD a isPotionActive (Lxj;)Z
+		ARG 1 potion
+	METHOD a dropFewItems (ZI)V
+		ARG 1 itemBool
+	METHOD aC func_35163_av ()Z
+	METHOD aD playLivingSound ()V
+	METHOD aE spawnExplosionParticle ()V
+	METHOD aF getHealth ()I
+	METHOD aG hasCurrentTarget ()Z
+	METHOD aH getCurrentTarget ()Lme;
+	METHOD aI onEntityDeath ()V
+	METHOD aJ func_35159_aC ()F
+	METHOD aL applyPotionEffects ()V
+	METHOD aM getActivePotionValues ()Ljava/util/Collection;
+	METHOD a_ canDespawn ()Z
+	METHOD a_ moveEntityWithHeading (FF)V
+		ARG 1 yaw
+		ARG 2 pitch
+	METHOD aa doRandomNxtFloat ()F
+	METHOD aj getIsBlocking ()Z
+	METHOD al isMovementBlocked ()Z
+	METHOD ap getTotalArmorValue ()I
+	METHOD au isPlayerSleeping ()Z
+	METHOD ay jump ()V
+	METHOD b entityInit ()V
+	METHOD b updateRotation (FFF)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b writeEntityToNBT (Laaw;)V
+	METHOD b addPotionEffect (Laho;)V
+		ARG 1 potionEffect
+	METHOD b applyPotionCalculations (Lkz;I)I
+		ARG 1 damageSrc
+		ARG 2 amount
+	METHOD b getExperiencePoints (Lwe;)I
+		ARG 1 player
+	METHOD b getActivePotionEffect (Lxj;)Laho;
+		ARG 1 potion
+	METHOD b getItemIcon (Lxt;I)I
+		ARG 1 itemStack
+	METHOD b_ canBeCollidedWith ()Z
+	METHOD c getMaxHealth ()I
+	METHOD c fall (F)V
+	METHOD c damageEntity (Lkz;I)V
+		ARG 1 damageSrc
+		ARG 2 amount
+	METHOD c_ canBePushed ()Z
+	METHOD d onLivingUpdate ()V
+	METHOD d applyArmorCalculations (Lkz;I)I
+		ARG 1 damageSrc
+		ARG 2 amount
+	METHOD e getDropItemId ()I
+	METHOD e onFinishedPotionEffect (Laho;)V
+		ARG 1 potionEffect
+	METHOD f getSwingProgress (F)F
+		ARG 1 progress
+	METHOD g getPosition (F)Lbe;
+		ARG 1 pos
+	METHOD g damageArmor (I)V
+		ARG 1 amount
+	METHOD h getCanSpawnHere ()Z
+	METHOD h getLook (F)Lbe;
+		ARG 1 lookVectorFloat
+	METHOD i getTalkInterval ()I
+	METHOD j performHurtAnimation ()V
+	METHOD j setLocationAndAnglesXYZ (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD j heal (I)V
+		ARG 1 health
+	METHOD j canEntityBeSeen (Lme;)Z
+		ARG 1 entity
+	METHOD k hasOffset ()Z
+	METHOD k setEntityHealth (I)V
+		ARG 1 health
+	METHOD l removePotionEffect (I)V
+		ARG 1 index
+	METHOD l_ canBreatheUnderwater ()Z
+	METHOD m getLivingSound ()Ljava/lang/String;
+	METHOD n getHurtSound ()Ljava/lang/String;
+	METHOD o getDeathSound ()Ljava/lang/String;
+	METHOD p isOnLadder ()Z
+	METHOD p_ updateEntityActionState ()V
+	METHOD r despawnEntity ()V
+	METHOD u_ getSoundVolume ()F
+	METHOD v_ applyMoveSpeedPotionEffectModifier ()F
+	METHOD y onEntityUpdate ()V
+	METHOD y_ getVerticalFaceSpeed ()I
+	FIELD a health I
+	FIELD ap prevJump I
+	FIELD aq currentTarget Lme;
+	FIELD bA hurtTime I
+	FIELD bB maxHurtTime I
+	FIELD bC attackedAtYaw F
+	FIELD bD deathTime I
+	FIELD bE attackTime I
+	FIELD bF prevCameraPitch F
+	FIELD bG cameraPitch F
+	FIELD bH unused_flag Z
+	FIELD b livingSoundTime I
+	FIELD bI experienceValue I
+	FIELD bJ field_9326_T I
+	FIELD bK field_9325_U F
+	FIELD bL posY2 F
+	FIELD bM prevPosY2 F
+	FIELD bN prevPosy3 F
+	FIELD bO field_35172_bP I
+	FIELD bP field_35173_bQ I
+	FIELD bQ activePotionsMap Ljava/util/HashMap;
+	FIELD bR newPosRotationIncrements I
+	FIELD bS newPosX D
+	FIELD bT newPosY D
+	FIELD bU newPosZ D
+	FIELD bV newRotationYaw D
+	FIELD bW newRotationPitch D
+	FIELD bX field_9348_ae F
+	FIELD bY naturalArmorRating I
+	FIELD bZ entityAge I
+	FIELD bc heartsHalvesLife I
+	FIELD bd field_9365_p F
+	FIELD be field_9363_r F
+	FIELD bf renderYawOffset F
+	FIELD bg prevRenderYawOffset F
+	FIELD bh prevRidingRot F
+	FIELD bi curRidingRot F
+	FIELD bj field_9360_w F
+	FIELD bk field_9359_x F
+	FIELD bl field_9358_y Z
+	FIELD bm texture Ljava/lang/String;
+	FIELD bn field_9355_A Z
+	FIELD bo field_9353_B F
+	FIELD bp entityType Ljava/lang/String;
+	FIELD bq field_9349_D F
+	FIELD br scoreValue I
+	FIELD bs field_9345_F F
+	FIELD bt isMultiplayerEntity Z
+	FIELD bu landMovementFactor F
+	FIELD bv jumpMovementFactor F
+	FIELD bw prevSwingProgress F
+	FIELD bx swingProgress F
+	FIELD by prevHealth I
+	FIELD bz carryoverDamage I
+	FIELD c thePlayer Lwe;
+	FIELD ca moveStrafing F
+	FIELD cb moveForward F
+	FIELD cc randomYawVelocity F
+	FIELD cd isJumping Z
+	FIELD ce defaultPitch F
+	FIELD cf moveSpeed F
+	FIELD cg numTicksToChaseTarget I
+	FIELD d field_34905_c I

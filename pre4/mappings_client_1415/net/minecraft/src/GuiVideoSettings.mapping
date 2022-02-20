@@ -1,0 +1,11 @@
+CLASS iy net/minecraft/src/GuiVideoSettings
+	METHOD <init> (Ltn;Lgw;)V
+		ARG 1 guiScreen
+		ARG 2 options
+	METHOD a initGui ()V
+	METHOD a drawScreen (IIF)V
+	METHOD a actionPerformed (Lyt;)V
+	FIELD a screenTitle Ljava/lang/String;
+	FIELD b parentGuiScreen Ltn;
+	FIELD c guiGameSettings Lgw;
+	FIELD d videoOptions [Lww;

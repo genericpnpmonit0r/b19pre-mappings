@@ -1,0 +1,4 @@
+CLASS aee net/minecraft/src/MapGenCaves
+	METHOD a generateLargeCaveNode (JII[BDDD)V
+	METHOD a generateCaveNode (JII[BDDDFFFIID)V
+	METHOD a recursiveGenerate (Luv;IIII[B)V

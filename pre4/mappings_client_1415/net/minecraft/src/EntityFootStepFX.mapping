@@ -1,0 +1,7 @@
+CLASS vy net/minecraft/src/EntityFootStepFX
+	METHOD A_ onUpdate ()V
+	METHOD a renderParticle (Laay;FFFFFF)V
+	METHOD m getFXLayer ()I
+	FIELD a field_27018_a I
+	FIELD aw field_27020_o I
+	FIELD ax currentFootSteps Lyb;

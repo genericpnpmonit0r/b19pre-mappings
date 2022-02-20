@@ -1,0 +1,2 @@
+CLASS vl net/minecraft/src/WorldGenCactus
+	METHOD a generate (Luv;Ljava/util/Random;III)Z

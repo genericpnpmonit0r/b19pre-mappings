@@ -1,0 +1,3 @@
+CLASS pf net/minecraft/src/IStatType
+	METHOD a format (I)Ljava/lang/String;
+		ARG 1 id

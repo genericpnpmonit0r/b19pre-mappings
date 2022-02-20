@@ -1,0 +1,8 @@
+CLASS afu net/minecraft/src/EntityZombie
+	METHOD ap getTotalArmorValue ()I
+	METHOD c getMaxHealth ()I
+	METHOD d onLivingUpdate ()V
+	METHOD e getDropItemId ()I
+	METHOD m getLivingSound ()Ljava/lang/String;
+	METHOD n getHurtSound ()Ljava/lang/String;
+	METHOD o getDeathSound ()Ljava/lang/String;

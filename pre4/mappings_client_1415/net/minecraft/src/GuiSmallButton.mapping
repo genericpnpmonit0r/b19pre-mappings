@@ -1,0 +1,9 @@
+CLASS u net/minecraft/src/GuiSmallButton
+	METHOD <init> (IIILww;Ljava/lang/String;)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 option
+		ARG 5 text
+	METHOD a returnEnumOptions ()Lww;
+	FIELD j enumOptions Lww;

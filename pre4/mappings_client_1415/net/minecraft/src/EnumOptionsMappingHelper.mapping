@@ -1,0 +1,2 @@
+CLASS ve net/minecraft/src/EnumOptionsMappingHelper
+	FIELD a enumOptionsMappingHelperArray [I

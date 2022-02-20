@@ -1,0 +1,5 @@
+CLASS pq net/minecraft/src/BlockSponge
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a onBlockAdded (Luv;III)V
+	METHOD b_ onBlockRemoval (Luv;III)V

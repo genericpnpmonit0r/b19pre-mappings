@@ -1,0 +1,4 @@
+CLASS xh net/minecraft/src/EntityReddustFX
+	METHOD A_ onUpdate ()V
+	METHOD a renderParticle (Laay;FFFFFF)V
+	FIELD a reddustParticleScale F

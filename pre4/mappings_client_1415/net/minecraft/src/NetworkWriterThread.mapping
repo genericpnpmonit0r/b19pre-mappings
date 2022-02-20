@@ -1,0 +1,5 @@
+CLASS pw net/minecraft/src/NetworkWriterThread
+	METHOD <init> (Lkd;Ljava/lang/String;)V
+		ARG 1 networkManager
+		ARG 2 name
+	FIELD a netManager Lkd;

@@ -1,0 +1,2 @@
+CLASS ql net/minecraft/src/WorldGenTrees
+	METHOD a generate (Luv;Ljava/util/Random;III)Z

@@ -1,0 +1,5 @@
+CLASS uo net/minecraft/src/RenderSquid
+	METHOD a doRender (Lme;DDDFF)V
+	METHOD a preRenderCallback (Lzt;F)V
+	METHOD a rotateCorpse (Lzt;FFF)V
+	METHOD d handleRotationFloat (Lzt;F)F

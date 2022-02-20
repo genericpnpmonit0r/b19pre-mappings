@@ -1,0 +1,7 @@
+CLASS lt net/minecraft/src/BlockTallGrass
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;I)I
+	METHOD a harvestBlock (Luv;Lwe;IIII)V
+	METHOD b colorMultiplier (Lahq;III)I
+	METHOD c getRenderColor (I)I
+	METHOD i getBlockColor ()I

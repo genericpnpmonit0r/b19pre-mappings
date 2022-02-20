@@ -1,0 +1,5 @@
+CLASS yz net/minecraft/src/MapGenNetherBridge
+	METHOD a canSpawnStructureAtCoords (II)Z
+	METHOD b getSpawnList ()Ljava/util/List;
+	METHOD b getStructureStart (II)Lnt;
+	FIELD a spawnList Ljava/util/List;

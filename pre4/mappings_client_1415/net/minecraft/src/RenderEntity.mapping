@@ -1,0 +1,2 @@
+CLASS ht net/minecraft/src/RenderEntity
+	METHOD a doRender (Lme;DDDFF)V

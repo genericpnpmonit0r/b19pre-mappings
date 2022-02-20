@@ -1,0 +1,7 @@
+CLASS adz net/minecraft/src/ContainerDispenser
+	METHOD <init> (Lhr;Las;)V
+		ARG 1 inventory
+		ARG 2 dispenser
+	METHOD a transferStackInSlot (I)Lxt;
+	METHOD b canInteractWith (Lwe;)Z
+	FIELD a tileEntityDispenser Las;

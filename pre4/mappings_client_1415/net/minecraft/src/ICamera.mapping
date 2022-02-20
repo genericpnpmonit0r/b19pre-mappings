@@ -1,0 +1,3 @@
+CLASS aii net/minecraft/src/ICamera
+	METHOD a setPosition (DDD)V
+	METHOD a isBoundingBoxInFrustum (Lun;)Z

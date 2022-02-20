@@ -1,0 +1,8 @@
+CLASS dm net/minecraft/src/ModelSnowMan
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Lme;FFFFFF)V
+	FIELD a body Lpb;
+	FIELD b bottom Lpb;
+	FIELD c head Lpb;
+	FIELD d rightArm Lpb;
+	FIELD e leftArm Lpb;

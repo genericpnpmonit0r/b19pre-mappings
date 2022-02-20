@@ -1,0 +1,8 @@
+CLASS aw net/minecraft/src/WorldGenSwamp
+	METHOD a addVines (Luv;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 sideMeta
+	METHOD a generate (Luv;Ljava/util/Random;III)Z

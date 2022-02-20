@@ -1,0 +1,3 @@
+CLASS ea net/minecraft/src/RenderEnchantmentTable
+	METHOD a renderTileEntityAt (Ljt;DDDF)V
+	FIELD a enchantmentBook Lkh;

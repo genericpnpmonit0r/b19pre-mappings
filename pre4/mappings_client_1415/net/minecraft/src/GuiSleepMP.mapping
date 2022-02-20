@@ -1,0 +1,7 @@
+CLASS vt net/minecraft/src/GuiSleepMP
+	METHOD a initGui ()V
+	METHOD a keyTyped (CI)V
+	METHOD a drawScreen (IIF)V
+	METHOD a actionPerformed (Lyt;)V
+	METHOD c leaveBed ()V
+	METHOD d onGuiClosed ()V

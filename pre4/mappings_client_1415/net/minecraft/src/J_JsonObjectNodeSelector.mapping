@@ -1,0 +1,4 @@
+CLASS act net/minecraft/src/J_JsonObjectNodeSelector
+	METHOD a shortForm ()Ljava/lang/String;
+	METHOD b typeSafeApplyTo (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD c matchesNode (Ljava/lang/Object;)Z

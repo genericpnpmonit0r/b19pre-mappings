@@ -1,0 +1,7 @@
+CLASS aaq net/minecraft/src/ModelSlime
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Lme;FFFFFF)V
+	FIELD a slimeBodies Lpb;
+	FIELD b slimeRightEye Lpb;
+	FIELD c slimeLeftEye Lpb;
+	FIELD d slimeMouth Lpb;

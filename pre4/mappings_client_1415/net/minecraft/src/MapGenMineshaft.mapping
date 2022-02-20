@@ -1,0 +1,3 @@
+CLASS ahv net/minecraft/src/MapGenMineshaft
+	METHOD a canSpawnStructureAtCoords (II)Z
+	METHOD b getStructureStart (II)Lnt;

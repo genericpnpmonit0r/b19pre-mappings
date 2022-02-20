@@ -1,0 +1,25 @@
+CLASS nj net/minecraft/src/BlockCake
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndexs
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;I)I
+	METHOD a setBlockBoundsBasedOnState (Lahq;III)V
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a onNeighborBlockChange (Luv;IIII)V
+	METHOD a onBlockClicked (Luv;IIILwe;)V
+	METHOD b renderAsNormalBlock ()Z
+	METHOD b blockActivated (Luv;IIILwe;)Z
+	METHOD c getCollisionBoundingBoxFromPool (Luv;III)Lun;
+	METHOD c eatCakeSlice (Luv;IIILwe;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 player
+	METHOD d getSelectedBoundingBoxFromPool (Luv;III)Lun;
+	METHOD e canPlaceBlockAt (Luv;III)Z
+	METHOD g canBlockStay (Luv;III)Z
+	METHOD h setBlockBoundsForItemRender ()V

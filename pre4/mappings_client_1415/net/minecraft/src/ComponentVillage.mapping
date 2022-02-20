@@ -1,0 +1,28 @@
+CLASS aez net/minecraft/src/ComponentVillage
+	METHOD a getVillagerType (I)I
+		ARG 1 type
+	METHOD a getNextComponentNN (Lf;Ljava/util/List;Ljava/util/Random;II)Lgi;
+		ARG 1 startPiece
+		ARG 2 pieces
+		ARG 3 rand
+		ARG 4 x
+		ARG 5 z
+	METHOD a canVillageGoDeeper (Lov;)Z
+		ARG 0 boundingBox
+	METHOD a spawnVillagers (Luv;Lov;IIII)V
+		ARG 1 world
+		ARG 2 boundingBox
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 count
+	METHOD b getNextComponentPP (Lf;Ljava/util/List;Ljava/util/Random;II)Lgi;
+		ARG 1 startPiece
+		ARG 2 pices
+		ARG 3 rand
+		ARG 4 x
+		ARG 5 z
+	METHOD b getAverageGroundLevel (Luv;Lov;)I
+		ARG 1 world
+		ARG 2 boundingBox
+	FIELD a villagersSpawned I

@@ -1,0 +1,6 @@
+CLASS adm net/minecraft/src/ItemMinecart
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 type
+	METHOD a onItemUse (Lxt;Lwe;Luv;IIII)Z
+	FIELD a minecartType I

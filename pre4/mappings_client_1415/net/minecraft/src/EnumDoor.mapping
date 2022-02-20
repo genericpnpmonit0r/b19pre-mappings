@@ -1,0 +1,6 @@
+CLASS lc net/minecraft/src/EnumDoor
+	FIELD a OPENING Llc;
+	FIELD b WOOD_DOOR Llc;
+	FIELD c GRATES Llc;
+	FIELD d IRON_DOOR Llc;
+	FIELD e allDoors [Llc;

@@ -1,0 +1,5 @@
+CLASS ads net/minecraft/src/EnumMobType
+	FIELD a everything Lads;
+	FIELD b mobs Lads;
+	FIELD c players Lads;
+	FIELD d allMobTypes [Lads;

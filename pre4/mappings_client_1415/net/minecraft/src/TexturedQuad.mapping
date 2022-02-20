@@ -1,0 +1,9 @@
+CLASS nb net/minecraft/src/TexturedQuad
+	METHOD <init> ([Lxc;)V
+		ARG 1 positionTextureVertex
+	METHOD a flipFace ()V
+	METHOD a draw (Laay;F)V
+		ARG 1 tessellator
+	FIELD a vertexPositions [Lxc;
+	FIELD b nVertices I
+	FIELD c invertNormal Z

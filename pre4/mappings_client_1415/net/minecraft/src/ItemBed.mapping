@@ -1,0 +1,2 @@
+CLASS zs net/minecraft/src/ItemBed
+	METHOD a onItemUse (Lxt;Lwe;Luv;IIII)Z

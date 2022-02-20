@@ -1,0 +1,10 @@
+CLASS mb net/minecraft/src/MapInfo
+	METHOD <init> (Lxp;Lwe;)V
+		ARG 1 data
+		ARG 2 player
+	FIELD a entityplayerObj Lwe;
+	FIELD b xCoords [I
+	FIELD c yCoords [I
+	FIELD d mapDataObj Lxp;
+	FIELD e currentNum I
+	FIELD f ticksUntilPlayerLocationMapUpdate I

@@ -1,0 +1,45 @@
+CLASS en net/minecraft/src/RenderLiving
+	METHOD <init> (Lgr;F)V
+		ARG 1 baseModel
+		ARG 2 shadowSize
+	METHOD a setRenderPassModel (Lgr;)V
+		ARG 1 renderPassModel
+	METHOD a doRender (Lme;DDDFF)V
+	METHOD a getDeathMaxRotation (Lzt;)F
+		ARG 1 living
+	METHOD a renderLivingAt (Lzt;DDD)V
+		ARG 1 living
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a preRenderCallback (Lzt;F)V
+		ARG 1 player
+	METHOD a getColorMultiplier (Lzt;FF)I
+		ARG 1 living
+	METHOD a rotateCorpse (Lzt;FFF)V
+		ARG 1 player
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a inheritRenderPass (Lzt;IF)I
+	METHOD a renderLivingLabel (Lzt;Ljava/lang/String;DDDI)V
+		ARG 1 living
+		ARG 2 labelText
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+		ARG 9 distance
+	METHOD b passSpecialRender (Lzt;DDD)V
+		ARG 1 living
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD b renderEquippedItems (Lzt;F)V
+		ARG 1 entity
+		ARG 2 rotation
+	METHOD b shouldRenderPass (Lzt;IF)I
+		ARG 1 living
+	METHOD c renderSwingProgress (Lzt;F)F
+	METHOD d handleRotationFloat (Lzt;F)F
+	FIELD a mainModel Lgr;
+	FIELD b renderPassModel Lgr;

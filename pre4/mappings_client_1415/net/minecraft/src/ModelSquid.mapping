@@ -1,0 +1,5 @@
+CLASS pi net/minecraft/src/ModelSquid
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Lme;FFFFFF)V
+	FIELD a squidBody Lpb;
+	FIELD b squidTentacles [Lpb;

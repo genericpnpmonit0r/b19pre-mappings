@@ -1,0 +1,2 @@
+CLASS afw net/minecraft/src/ItemSign
+	METHOD a onItemUse (Lxt;Lwe;Luv;IIII)Z

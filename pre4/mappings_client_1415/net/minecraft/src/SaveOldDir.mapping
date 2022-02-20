@@ -1,0 +1,3 @@
+CLASS aah net/minecraft/src/SaveOldDir
+	METHOD a getChunkLoader (Lahj;)Lsd;
+	METHOD a saveWorldInfoAndPlayer (Luj;Ljava/util/List;)V

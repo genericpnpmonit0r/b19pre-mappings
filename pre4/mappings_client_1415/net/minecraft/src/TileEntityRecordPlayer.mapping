@@ -1,0 +1,4 @@
+CLASS cy net/minecraft/src/TileEntityRecordPlayer
+	METHOD a readFromNBT (Laaw;)V
+	METHOD b writeToNBT (Laaw;)V
+	FIELD a record I

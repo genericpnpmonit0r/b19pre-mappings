@@ -1,0 +1,19 @@
+CLASS ahz net/minecraft/src/EntityPigZombie
+	METHOD A_ onUpdate ()V
+	METHOD Z getHeldItem ()Lxt;
+	METHOD a readEntityFromNBT (Laaw;)V
+	METHOD a attackEntityFrom (Lkz;I)Z
+	METHOD a dropFewItems (ZI)V
+	METHOD b writeEntityToNBT (Laaw;)V
+	METHOD c becomeAngryAt (Lme;)V
+		ARG 1 entity
+	METHOD d onLivingUpdate ()V
+	METHOD e getDropItemId ()I
+	METHOD g findPlayerToAttack ()Lme;
+	METHOD h getCanSpawnHere ()Z
+	METHOD m getLivingSound ()Ljava/lang/String;
+	METHOD n getHurtSound ()Ljava/lang/String;
+	METHOD o getDeathSound ()Ljava/lang/String;
+	FIELD a angerLevel I
+	FIELD b randomSoundDelay I
+	FIELD d defaultHeldItem Lxt;

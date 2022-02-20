@@ -1,0 +1,8 @@
+CLASS xa net/minecraft/src/RegionFileChunkBuffer
+	METHOD <init> (Lkv;II)V
+		ARG 1 regionFile
+		ARG 2 x
+		ARG 3 z
+	FIELD a regionFile Lkv;
+	FIELD b chunkX I
+	FIELD c chunkZ I

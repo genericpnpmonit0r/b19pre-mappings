@@ -1,0 +1,19 @@
+CLASS ha net/minecraft/src/PotionHelper
+	METHOD a isFlagSet2 (I)I
+	METHOD a aaaa_A (II)Z
+	METHOD a aaa_aaaaa_aa (IIIIII)I
+	METHOD a aaaaa_AAAAA_ (IIZZZ)I
+	METHOD a aa_Aaa_AA_A_A_A_a__A_A_A (ILjava/lang/String;)I
+	METHOD a aaaAa_AA_A_A_A (Ljava/lang/String;III)I
+	METHOD a aaa_Aa_A (ZZZIIII)I
+	METHOD b potionNames (I)Ljava/lang/String;
+	METHOD b checkFlag (II)I
+	METHOD b aaaa_Aaa_ (IZ)Ljava/util/List;
+	METHOD c cc_Cc_Ccc (I)I
+	METHOD c isFlagSet (II)I
+	FIELD a theNull Ljava/lang/String;
+	FIELD i prefix567_2 Ljava/lang/String;
+	FIELD j prefix567 Ljava/lang/String;
+	FIELD l potionRequirements Ljava/util/HashMap;
+	FIELD m potionAmplifiers Ljava/util/HashMap;
+	FIELD o potionPrefixes [Ljava/lang/String;

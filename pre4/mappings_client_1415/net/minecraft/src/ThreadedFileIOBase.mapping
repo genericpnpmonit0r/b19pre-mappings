@@ -1,0 +1,7 @@
+CLASS bs net/minecraft/src/ThreadedFileIOBase
+	METHOD a waitForFinish ()V
+	METHOD a queueIO (Lee;)V
+		ARG 1 threadedFileio
+	METHOD b processQueue ()V
+	FIELD a threadedIOInstance Lbs;
+	FIELD b savedIOList Ljava/util/List;

@@ -1,0 +1,7 @@
+CLASS aby net/minecraft/src/EnumOS2
+	FIELD a linux Laby;
+	FIELD b solaris Laby;
+	FIELD c windows Laby;
+	FIELD d macos Laby;
+	FIELD e unknown Laby;
+	FIELD f allOSes [Laby;

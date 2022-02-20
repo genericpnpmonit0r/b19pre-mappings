@@ -1,0 +1,24 @@
+CLASS oa net/minecraft/src/BiomeCache
+	METHOD <init> (Lqb;)V
+		ARG 1 chunkMgr
+	METHOD a cleanupCache ()V
+	METHOD a getBiomeCacheBlock (II)Lafj;
+		ARG 1 x
+		ARG 2 z
+	METHOD a getWorldChunkManager (Loa;)Lqb;
+	METHOD b getBiomeGenAt (II)Lyr;
+		ARG 1 x
+		ARG 2 z
+	METHOD c getTemperatureValueAt (II)F
+		ARG 1 x
+		ARG 2 z
+	METHOD d getRainfallValueAt (II)F
+		ARG 1 x
+		ARG 2 z
+	METHOD e getCachedBiomes (II)[Lyr;
+		ARG 1 x
+		ARG 2 z
+	FIELD a chunkmanager Lqb;
+	FIELD b lastCleanupTime J
+	FIELD c cacheMap Ldx;
+	FIELD d cache Ljava/util/List;

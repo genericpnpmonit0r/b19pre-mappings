@@ -1,0 +1,7 @@
+CLASS bw net/minecraft/src/EnumStatus
+	FIELD a OK Lbw;
+	FIELD b NOT_POSSIBLE_HERE Lbw;
+	FIELD c NOT_POSSIBLE_NOW Lbw;
+	FIELD d TOO_FAR_AWAY Lbw;
+	FIELD e OTHER_PROBLEM Lbw;
+	FIELD f allStatuses [Lbw;

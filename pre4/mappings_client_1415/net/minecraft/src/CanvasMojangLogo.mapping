@@ -1,0 +1,4 @@
+CLASS dy net/minecraft/src/CanvasMojangLogo
+	METHOD paint (Ljava/awt/Graphics;)V
+		ARG 1 graphics
+	FIELD a logo Ljava/awt/image/BufferedImage;

@@ -1,0 +1,2 @@
+CLASS afy net/minecraft/src/StructureStrongholdStones
+	METHOD a selectBlocks (Ljava/util/Random;IIIZ)V

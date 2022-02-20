@@ -1,0 +1,13 @@
+CLASS t net/minecraft/src/ContainerPlayer
+	METHOD <init> (Lxq;)V
+		ARG 1 inventoryPlayer
+	METHOD <init> (Lxq;Z)V
+		ARG 1 inventoryPlayer
+		ARG 2 isSPFlag
+	METHOD a transferStackInSlot (I)Lxt;
+	METHOD a onCraftMatrixChanged (Lhr;)V
+	METHOD a onCraftGuiClosed (Lwe;)V
+	METHOD b canInteractWith (Lwe;)Z
+	FIELD a craftMatrix Laae;
+	FIELD b craftResult Lhr;
+	FIELD c isSinglePlayer Z

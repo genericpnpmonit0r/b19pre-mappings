@@ -1,0 +1,75 @@
+CLASS aal net/minecraft/src/NetClientHandler
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 1 minecraft
+		ARG 2 socketInetAddr
+		ARG 3 port
+	METHOD a isServerHandler ()Z
+	METHOD a getEntityByID (I)Lme;
+		ARG 1 id
+	METHOD a handleCloseWindow (Laac;)V
+	METHOD a handleRemoveEntityEffect (Laao;)V
+	METHOD a handleAttachEntity (Laat;)V
+	METHOD a handleLogin (Labb;)V
+	METHOD a handleChat (Lacb;)V
+	METHOD a processItemData (Lad;)V
+	METHOD a handleSpawnPosition (Ladi;)V
+	METHOD a handleExplosion (Ladn;)V
+	METHOD a handleDestroyEntity (Ladt;)V
+	METHOD a handlePreChunk (Ladx;)V
+	METHOD a handleEntity (Lafh;)V
+	METHOD a handleUpdateSign (Lafl;)V
+	METHOD a handleMultiBlockChange (Lahd;)V
+	METHOD a handleKickDisconnect (Laik;)V
+	METHOD a handleHealth (Ldg;)V
+	METHOD a handleAuxSFX (Ldv;)V
+	METHOD a handleSetSlot (Lfd;)V
+	METHOD a handleFlying (Lfm;)V
+	METHOD a handleOpenWindow (Lfx;)V
+	METHOD a handleEntityStatus (Lfz;)V
+	METHOD a handleExperience (Lhj;)V
+	METHOD a handleNamedEntitySpawn (Lhy;)V
+	METHOD a handleHandshake (Lif;)V
+	METHOD a handleCraftingProgress (Lil;)V
+	METHOD a handlePickupSpawn (Lip;)V
+	METHOD a handleErrorMessage (Ljava/lang/String;[Ljava/lang/Object;)V
+	METHOD a handleArmAnimation (Ljc;)V
+	METHOD a handleStatistic (Lji;)V
+	METHOD a handleContainerTransaction (Ljm;)V
+	METHOD a handleRespawn (Lju;)V
+	METHOD a handleXPOrb (Lkg;)V
+	METHOD a handleEntityTeleport (Lln;)V
+	METHOD a handleVehicleSpawn (Lmf;)V
+	METHOD a handleBlockChange (Lmz;)V
+	METHOD a handleEntityMetadata (Lns;)V
+	METHOD a handleEntityPainting (Lop;)V
+	METHOD a handleNotePlay (Lou;)V
+	METHOD a handlePlayerInventory (Lrh;)V
+	METHOD a handleBedUpdate (Lsu;)V
+	METHOD a handleCollect (Lts;)V
+	METHOD a handleEntityEffect (Ltv;)V
+	METHOD a handlePlayerInfo (Lub;)V
+	METHOD a handleMapChunk (Lui;)V
+	METHOD a handleWeather (Lur;)V
+	METHOD a handleEntityVelocity (Lvv;)V
+	METHOD a handleUpdateTime (Lwn;)V
+	METHOD a handleMobSpawn (Lyd;)V
+	METHOD a handleSleep (Lyo;)V
+	METHOD a handleWindowItems (Lyp;)V
+	METHOD a handleKeepAlive (Lzx;)V
+	METHOD b processReadPackets ()V
+	METHOD b addToSendQueue2 (Lyw;)V
+		ARG 1 packet
+	METHOD c disconnect ()V
+	METHOD c addToSendQueue (Lyw;)V
+		ARG 1 packet
+	FIELD a field_1209_a Ljava/lang/String;
+	FIELD b mapStorage Lwi;
+	FIELD c savingLevelStringList Ljava/util/List;
+	FIELD d field_35785_d I
+	FIELD e rand Ljava/util/Random;
+	FIELD f disconnected Z
+	FIELD g netManager Lkd;
+	FIELD h mc Lnet/minecraft/client/Minecraft;
+	FIELD i worldClient Lie;
+	FIELD j field_1210_g Z
+	FIELD k playerInfoMap Ljava/util/Map;

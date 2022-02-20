@@ -1,0 +1,3 @@
+CLASS ft net/minecraft/src/RenderChicken
+	METHOD a doRender (Lme;DDDFF)V
+	METHOD d handleRotationFloat (Lzt;F)F

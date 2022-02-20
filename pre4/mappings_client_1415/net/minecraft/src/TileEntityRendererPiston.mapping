@@ -1,0 +1,4 @@
+CLASS fe net/minecraft/src/TileEntityRendererPiston
+	METHOD a renderTileEntityAt (Ljt;DDDF)V
+	METHOD a renderSpecial (Luv;)V
+	FIELD a field_31071_b Ltj;

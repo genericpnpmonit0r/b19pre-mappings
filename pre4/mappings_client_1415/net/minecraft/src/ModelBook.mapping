@@ -1,0 +1,10 @@
+CLASS kh net/minecraft/src/ModelBook
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Lme;FFFFFF)V
+	FIELD a coverRight Lpb;
+	FIELD b coverLeft Lpb;
+	FIELD c pagesRight Lpb;
+	FIELD d pagesLeft Lpb;
+	FIELD e flippingPageRight Lpb;
+	FIELD f flippingPageLeft Lpb;
+	FIELD g bookSpine Lpb;

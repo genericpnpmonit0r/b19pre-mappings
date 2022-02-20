@@ -1,0 +1,4 @@
+CLASS air net/minecraft/src/RenderSpider
+	METHOD a getDeathMaxRotation (Lzt;)F
+	METHOD a preRenderCallback (Lzt;F)V
+	METHOD b shouldRenderPass (Lzt;IF)I

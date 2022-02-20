@@ -1,0 +1,8 @@
+CLASS jw net/minecraft/src/RenderAirPortal
+	METHOD a renderWithFloatbuffer (FFFF)Ljava/nio/FloatBuffer;
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+		ARG 4 a
+	METHOD a renderTileEntityAt (Ljt;DDDF)V
+	FIELD a theFloatBuffer Ljava/nio/FloatBuffer;

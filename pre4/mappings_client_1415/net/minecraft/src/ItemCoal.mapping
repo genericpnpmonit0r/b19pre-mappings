@@ -1,0 +1,2 @@
+CLASS lu net/minecraft/src/ItemCoal
+	METHOD a getItemNameIS (Lxt;)Ljava/lang/String;

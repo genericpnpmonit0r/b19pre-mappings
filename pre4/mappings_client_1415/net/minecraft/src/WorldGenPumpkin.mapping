@@ -1,0 +1,2 @@
+CLASS ahc net/minecraft/src/WorldGenPumpkin
+	METHOD a generate (Luv;Ljava/util/Random;III)Z

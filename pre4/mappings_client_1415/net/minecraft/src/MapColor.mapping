@@ -1,0 +1,21 @@
+CLASS ua net/minecraft/src/MapColor
+	METHOD <init> (II)V
+		ARG 1 index
+		ARG 2 value
+	FIELD a mapColorArray [Lua;
+	FIELD b airColor Lua;
+	FIELD c grassColor Lua;
+	FIELD d sandColor Lua;
+	FIELD e clothColor Lua;
+	FIELD f tntColor Lua;
+	FIELD g iceColor Lua;
+	FIELD h ironColor Lua;
+	FIELD i foliageColor Lua;
+	FIELD j snowColor Lua;
+	FIELD k clayColor Lua;
+	FIELD l dirtColor Lua;
+	FIELD m stoneColor Lua;
+	FIELD n waterColor Lua;
+	FIELD o woodColor Lua;
+	FIELD p colorValue I
+	FIELD q colorIndex I

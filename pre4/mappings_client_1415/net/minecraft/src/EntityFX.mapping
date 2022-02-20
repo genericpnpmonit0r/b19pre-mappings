@@ -1,0 +1,22 @@
+CLASS qc net/minecraft/src/EntityFX
+	METHOD A_ onUpdate ()V
+	METHOD a readEntityFromNBT (Laaw;)V
+	METHOD a renderParticle (Laay;FFFFFF)V
+	METHOD b entityInit ()V
+	METHOD b writeEntityToNBT (Laaw;)V
+	METHOD d multiplyVelocity (F)Lqc;
+	METHOD d_ canTriggerWalking ()Z
+	METHOD e func_405_d (F)Lqc;
+	METHOD m getFXLayer ()I
+	FIELD ao particleScale F
+	FIELD ap particleGravity F
+	FIELD aq particleRed F
+	FIELD ar particleGreen F
+	FIELD as particleBlue F
+	FIELD at interpPosX D
+	FIELD au interpPosY D
+	FIELD av interpPosZ D
+	FIELD b particleTextureJitterX F
+	FIELD c particleTextureJitterY F
+	FIELD d particleAge I
+	FIELD e particleMaxAge I

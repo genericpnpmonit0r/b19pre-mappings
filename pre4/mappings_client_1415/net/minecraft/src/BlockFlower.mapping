@@ -1,0 +1,19 @@
+CLASS ow net/minecraft/src/BlockFlower
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
+	METHOD a isOpaqueCube ()Z
+	METHOD a onNeighborBlockChange (Luv;IIII)V
+	METHOD a updateTick (Luv;IIILjava/util/Random;)V
+	METHOD b renderAsNormalBlock ()Z
+	METHOD c getCollisionBoundingBoxFromPool (Luv;III)Lun;
+	METHOD c_ canThisPlantGrowOnThisBlockID (I)Z
+		ARG 1 id
+	METHOD d getRenderType ()I
+	METHOD e canPlaceBlockAt (Luv;III)Z
+	METHOD g canBlockStay (Luv;III)Z
+	METHOD h checkFlowerChange (Luv;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

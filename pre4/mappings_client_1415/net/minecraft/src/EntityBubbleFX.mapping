@@ -1,0 +1,2 @@
+CLASS tg net/minecraft/src/EntityBubbleFX
+	METHOD A_ onUpdate ()V

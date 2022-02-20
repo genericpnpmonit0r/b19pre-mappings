@@ -1,0 +1,21 @@
+CLASS afj net/minecraft/src/BiomeCacheBlock
+	METHOD <init> (Loa;II)V
+		ARG 1 cache
+		ARG 2 x
+		ARG 3 z
+	METHOD a getBiomeAt (II)Lyr;
+		ARG 1 x
+		ARG 2 z
+	METHOD b getTemperatureValuesAt (II)F
+		ARG 1 x
+		ARG 2 z
+	METHOD c getRainfallValuesAt (II)F
+		ARG 1 x
+		ARG 2 z
+	FIELD a temperatureValues [F
+	FIELD b rainfallValues [F
+	FIELD c biomes [Lyr;
+	FIELD d xPos I
+	FIELD e zPos I
+	FIELD f lastAccessTime J
+	FIELD g biomeCache Loa;

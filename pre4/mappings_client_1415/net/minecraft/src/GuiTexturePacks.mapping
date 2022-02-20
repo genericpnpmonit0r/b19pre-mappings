@@ -1,0 +1,27 @@
+CLASS dw net/minecraft/src/GuiTexturePacks
+	METHOD <init> (Ltn;)V
+		ARG 1 screen
+	METHOD a initGui ()V
+	METHOD a drawScreen (IIF)V
+	METHOD a mouseClicked (III)V
+	METHOD a func_22124_a (Ldw;)Lnet/minecraft/client/Minecraft;
+	METHOD a actionPerformed (Lyt;)V
+	METHOD b mouseMovedOrUp (III)V
+	METHOD b func_22126_b (Ldw;)Lnet/minecraft/client/Minecraft;
+	METHOD c func_22119_c (Ldw;)Lnet/minecraft/client/Minecraft;
+	METHOD d func_22122_d (Ldw;)Lnet/minecraft/client/Minecraft;
+	METHOD e func_22117_e (Ldw;)Lnet/minecraft/client/Minecraft;
+	METHOD f func_35307_f (Ldw;)Lnet/minecraft/client/Minecraft;
+	METHOD g func_35308_g (Ldw;)Lnet/minecraft/client/Minecraft;
+	METHOD h func_22118_f (Ldw;)Lnet/minecraft/client/Minecraft;
+	METHOD i func_22116_g (Ldw;)Lnet/minecraft/client/Minecraft;
+	METHOD j func_22121_h (Ldw;)Lnet/minecraft/client/Minecraft;
+	METHOD k func_22123_i (Ldw;)Lnet/minecraft/client/Minecraft;
+	METHOD l func_22127_j (Ldw;)Lmc;
+	METHOD m func_22120_k (Ldw;)Lmc;
+	METHOD n func_22125_l (Ldw;)Lmc;
+	METHOD q_ updateScreen ()V
+	FIELD a guiScreen Ltn;
+	FIELD b updateCounterNegative I
+	FIELD c fileLocation Ljava/lang/String;
+	FIELD d guiTexturePackSlot Lcb;

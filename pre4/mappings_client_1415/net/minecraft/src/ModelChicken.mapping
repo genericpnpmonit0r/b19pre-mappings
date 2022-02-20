@@ -1,0 +1,11 @@
+CLASS aej net/minecraft/src/ModelChicken
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Lme;FFFFFF)V
+	FIELD a head Lpb;
+	FIELD b body Lpb;
+	FIELD c rightLeg Lpb;
+	FIELD d leftLeg Lpb;
+	FIELD e rightWing Lpb;
+	FIELD f leftWing Lpb;
+	FIELD g bill Lpb;
+	FIELD n chin Lpb;

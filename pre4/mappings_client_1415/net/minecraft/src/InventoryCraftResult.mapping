@@ -1,0 +1,12 @@
+CLASS agu net/minecraft/src/InventoryCraftResult
+	METHOD B_ closeChest ()V
+	METHOD a getSizeInventory ()I
+	METHOD a decrStackSize (II)Lxt;
+	METHOD a setInventorySlotContents (ILxt;)V
+	METHOD a_ isUseableByPlayer (Lwe;)Z
+	METHOD c getInvName ()Ljava/lang/String;
+	METHOD d getInventoryStackLimit ()I
+	METHOD e openChest ()V
+	METHOD e_ getStackInSlot (I)Lxt;
+	METHOD k onInventoryChanged ()V
+	FIELD a stackResult [Lxt;

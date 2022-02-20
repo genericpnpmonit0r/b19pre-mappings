@@ -1,0 +1,5 @@
+CLASS tq net/minecraft/src/RenderSilverfish
+	METHOD a doRender (Lme;DDDFF)V
+	METHOD a getDeathMaxRotation (Lzt;)F
+	METHOD b shouldRenderPass (Lzt;IF)I
+	FIELD c field_35450_c I

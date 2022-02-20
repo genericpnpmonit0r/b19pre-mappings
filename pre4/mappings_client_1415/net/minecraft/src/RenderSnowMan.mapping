@@ -1,0 +1,3 @@
+CLASS ack net/minecraft/src/RenderSnowMan
+	METHOD b renderEquippedItems (Lzt;F)V
+	FIELD c snowManModel Ldm;

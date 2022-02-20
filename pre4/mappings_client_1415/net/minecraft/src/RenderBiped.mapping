@@ -1,0 +1,4 @@
+CLASS rm net/minecraft/src/RenderBiped
+	METHOD b renderEquippedItems (Lzt;F)V
+	FIELD c modelBipedMain Lux;
+	FIELD d field_40296_d F

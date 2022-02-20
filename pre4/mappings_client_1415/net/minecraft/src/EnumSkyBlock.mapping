@@ -1,0 +1,7 @@
+CLASS ud net/minecraft/src/EnumSkyBlock
+	METHOD <init> (Ljava/lang/String;II)V
+		ARG 3 lightValue
+	FIELD a Sky Lud;
+	FIELD b Block Lud;
+	FIELD c defaultLightValue I
+	FIELD d allSkyBlocks [Lud;

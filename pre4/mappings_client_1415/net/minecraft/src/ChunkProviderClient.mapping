@@ -1,0 +1,19 @@
+CLASS nq net/minecraft/src/ChunkProviderClient
+	METHOD <init> (Luv;)V
+		ARG 1 world
+	METHOD a unload100OldestChunks ()Z
+	METHOD a chunkExists (II)Z
+	METHOD a populate (Lbm;II)V
+	METHOD a getPossibleCreatures (Lzj;III)Ljava/util/List;
+	METHOD a saveChunks (ZLqf;)Z
+	METHOD b canSave ()Z
+	METHOD b provideChunk (II)Lzn;
+	METHOD c makeString ()Ljava/lang/String;
+	METHOD c loadChunk (II)Lzn;
+	METHOD d unloadChunk (II)V
+		ARG 1 x
+		ARG 2 z
+	FIELD a blankChunk Lzn;
+	FIELD b chunkMapping Ldx;
+	FIELD c chunkListing Ljava/util/List;
+	FIELD d worldObj Luv;

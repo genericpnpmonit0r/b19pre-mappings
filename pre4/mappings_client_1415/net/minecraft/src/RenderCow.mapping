@@ -1,0 +1,2 @@
+CLASS afv net/minecraft/src/RenderCow
+	METHOD a doRender (Lme;DDDFF)V
