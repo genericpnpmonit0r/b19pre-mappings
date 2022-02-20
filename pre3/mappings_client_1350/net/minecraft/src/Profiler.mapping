@@ -1,0 +1,14 @@
+CLASS kg net/minecraft/src/Profiler
+	FIELD a profilingEnabled Z
+	FIELD b sectionList Ljava/util/List;
+	FIELD c timestampList Ljava/util/List;
+	FIELD d profilingSection Ljava/lang/String;
+	FIELD e profilingMap Ljava/util/Map;
+	METHOD a clrearProfiling ()V
+	METHOD a startSection (Ljava/lang/String;)V
+		ARG 0 name
+	METHOD b endSection ()V
+	METHOD b getProfilingData (Ljava/lang/String;)Ljava/util/List;
+		ARG 0 sectName
+	METHOD c endStartSection (Ljava/lang/String;)V
+		ARG 0 sectName

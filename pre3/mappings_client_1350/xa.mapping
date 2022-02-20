@@ -1,5 +1,0 @@
-CLASS xa
-	METHOD a updateCraftingResults ()V
-	METHOD a transferStackInSlot (I)Lwy;
-	METHOD a updateProgressBar (II)V
-	METHOD b canInteractWith (Lvj;)Z

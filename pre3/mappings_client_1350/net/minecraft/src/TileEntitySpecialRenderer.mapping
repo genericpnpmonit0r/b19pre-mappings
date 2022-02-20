@@ -8,7 +8,7 @@ CLASS xc net/minecraft/src/TileEntitySpecialRenderer
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
-	METHOD a func_31069_a (Luc;)V
+	METHOD a renderSpecial (Luc;)V
 		ARG 1 world
 	METHOD a setTileEntityRenderer (Lyo;)V
 		ARG 1 tileEntityRenderer

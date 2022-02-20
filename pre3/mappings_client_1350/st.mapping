@@ -1,3 +1,0 @@
-CLASS st
-	METHOD a getSlotStackLimit ()I
-	METHOD a isItemValid (Lwy;)Z

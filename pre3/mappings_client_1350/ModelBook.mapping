@@ -1,3 +1,0 @@
-CLASS jx ModelBook
-	METHOD a setRotationAngles (FFFFFF)V
-	METHOD a render (Llu;FFFFFF)V

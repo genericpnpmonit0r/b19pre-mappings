@@ -1,4 +1,0 @@
-CLASS fl
-	METHOD a onCraftMatrixChanged (Lhk;)V
-	METHOD a onCraftGuiClosed (Lvj;)V
-	METHOD b canInteractWith (Lvj;)Z

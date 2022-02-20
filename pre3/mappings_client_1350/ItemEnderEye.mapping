@@ -1,3 +1,0 @@
-CLASS np ItemEnderEye
-	METHOD a isFull3D ()Z
-	METHOD a onItemUse (Lwy;Lvj;Luc;IIII)Z

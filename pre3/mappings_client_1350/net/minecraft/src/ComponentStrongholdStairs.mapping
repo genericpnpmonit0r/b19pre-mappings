@@ -1,3 +1,4 @@
 CLASS fd net/minecraft/src/ComponentStrongholdStairs
 	METHOD a buildComponent (Lgd;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIIII)Lfd;
 	METHOD a addComponentParts (Luc;Ljava/util/Random;Log;)Z

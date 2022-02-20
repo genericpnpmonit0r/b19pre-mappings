@@ -1,2 +1,0 @@
-CLASS am StructureStrongholdPieceWeight2
-	METHOD a canSpawnMoreStructuresOfType (I)Z

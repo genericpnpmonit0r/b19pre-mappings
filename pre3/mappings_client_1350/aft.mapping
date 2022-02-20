@@ -1,2 +1,0 @@
-CLASS aft
-	METHOD a renderTileEntityAt (Ljm;DDDF)V

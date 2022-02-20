@@ -1,4 +1,46 @@
 CLASS vj net/minecraft/src/EntityPlayer
+	FIELD aA isSwinging Z
+	FIELD aB swingProgressInt I
+	FIELD aC username Ljava/lang/String;
+	FIELD aD dimension I
+	FIELD aE playerCloakUrl Ljava/lang/String;
+	FIELD aF xpCooldown I
+	FIELD aG field_20066_r D
+	FIELD aH field_20065_s D
+	FIELD a sleepTimer I
+	FIELD aI field_20064_t D
+	FIELD aJ field_20063_u D
+	FIELD aK field_20062_v D
+	FIELD aL field_20061_w D
+	FIELD aM sleeping Z
+	FIELD aN bedChunkCoordinates Lrt;
+	FIELD aO specialRenderX F
+	FIELD aP specialRenderY F
+	FIELD aQ specialRenderZ F
+	FIELD aR timeUntilPortal I
+	FIELD aS inPortal Z
+	FIELD aT timeInPortal F
+	FIELD aU prevTimeInPortal F
+	FIELD aV capabilities Los;
+	FIELD aW xp I
+	FIELD aX playerLevel I
+	FIELD aY xpLevel I
+	FIELD aZ speedOnGround F
+	FIELD ar inventory Lwv;
+	FIELD as inventorySlots Lcn;
+	FIELD at craftingInventory Lcn;
+	FIELD au foodStats Lln;
+	FIELD av flyToggleTimer I
+	FIELD aw unusedByte B
+	FIELD ax score I
+	FIELD ay prevCameraYaw F
+	FIELD az cameraYaw F
+	FIELD b playerSpawnCoordinate Lrt;
+	FIELD ba speedInAir F
+	FIELD bb fishEntity Lyy;
+	FIELD c startMinecartRidingCoordinate Lrt;
+	FIELD d itemInUse Lwy;
+	FIELD e itemInUseCount I
 	METHOD D getEyeHeight ()F
 	METHOD J isEntityInsideOpaqueBlock ()Z
 	METHOD K updateRidden ()V
@@ -20,6 +62,8 @@ CLASS vj net/minecraft/src/EntityPlayer
 	METHOD a addStat (Lafi;I)V
 		ARG 1 statBase
 		ARG 2 id
+	METHOD a displayBrewingGui (Lahh;)V
+		ARG 1 brewingstand
 	METHOD a displayGUIDispenser (Lar;)V
 		ARG 1 dispenser
 	METHOD a joinEntityItemWithWorld (Let;)V
@@ -81,7 +125,9 @@ CLASS vj net/minecraft/src/EntityPlayer
 	METHOD as getSleepTimer ()I
 	METHOD at getPlayerSpawnCoordinate ()Lrt;
 	METHOD au jump ()V
+	METHOD av getXp2 ()I
 	METHOD aw getFoodStats ()Lln;
+	METHOD ax getHealth2 ()Z
 	METHOD ay func_35163_av ()Z
 	METHOD b entityInit ()V
 	METHOD b setSpecialRenderXZ (I)V
@@ -141,45 +187,3 @@ CLASS vj net/minecraft/src/EntityPlayer
 	METHOD u preparePlayerToSpawn ()V
 	METHOD v setEntityDead ()V
 	METHOD z_ onUpdate ()V
-	FIELD aA isSwinging Z
-	FIELD aB swingProgressInt I
-	FIELD aC username Ljava/lang/String;
-	FIELD aD dimension I
-	FIELD aE playerCloakUrl Ljava/lang/String;
-	FIELD aF xpCooldown I
-	FIELD aG field_20066_r D
-	FIELD aH field_20065_s D
-	FIELD a sleepTimer I
-	FIELD aI field_20064_t D
-	FIELD aJ field_20063_u D
-	FIELD aK field_20062_v D
-	FIELD aL field_20061_w D
-	FIELD aM sleeping Z
-	FIELD aN bedChunkCoordinates Lrt;
-	FIELD aO specialRenderX F
-	FIELD aP specialRenderY F
-	FIELD aQ specialRenderZ F
-	FIELD aR timeUntilPortal I
-	FIELD aS inPortal Z
-	FIELD aT timeInPortal F
-	FIELD aU prevTimeInPortal F
-	FIELD aV capabilities Los;
-	FIELD aW xp I
-	FIELD aX playerLevel I
-	FIELD aY xpLevel I
-	FIELD aZ speedOnGround F
-	FIELD ar inventory Lwv;
-	FIELD as inventorySlots Lcn;
-	FIELD at craftingInventory Lcn;
-	FIELD au foodStats Lln;
-	FIELD av flyToggleTimer I
-	FIELD aw unusedByte B
-	FIELD ax score I
-	FIELD ay prevCameraYaw F
-	FIELD az cameraYaw F
-	FIELD b playerSpawnCoordinate Lrt;
-	FIELD ba speedInAir F
-	FIELD bb fishEntity Lyy;
-	FIELD c startMinecartRidingCoordinate Lrt;
-	FIELD d itemInUse Lwy;
-	FIELD e itemInUseCount I

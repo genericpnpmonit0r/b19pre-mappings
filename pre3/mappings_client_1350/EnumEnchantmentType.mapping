@@ -1,9 +1,0 @@
-CLASS fo EnumEnchantmentType
-	FIELD a all Lfo;
-	FIELD b armor Lfo;
-	FIELD c armor_feet Lfo;
-	FIELD d armor_legs Lfo;
-	FIELD e armor_torso Lfo;
-	FIELD f armor_head Lfo;
-	FIELD g weapon Lfo;
-	FIELD h digger Lfo;

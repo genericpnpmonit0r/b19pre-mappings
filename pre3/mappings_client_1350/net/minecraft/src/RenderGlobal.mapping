@@ -1,6 +1,54 @@
 CLASS i net/minecraft/src/RenderGlobal
+	FIELD A minBlockY I
+	FIELD B minBlockZ I
+	FIELD C maxBlockX I
+	FIELD D maxBlockY I
+	FIELD E maxBlockZ I
+	FIELD F renderDistance I
+	FIELD G renderEntitiesStartupCounter I
+	FIELD H countEntitiesTotal I
+	FIELD I countEntitiesRendered I
+	FIELD J countEntitiesHidden I
+	FIELD K renderersLoaded I
+	FIELD L renderersBeingClipped I
+	FIELD M renderersBeingOccluded I
+	FIELD N renderersBeingRendered I
+	FIELD O renderersSkippingRenderPass I
+	FIELD P worldRenderersCheckIndex I
+	FIELD Q glRenderLists Ljava/util/List;
+	FIELD R allRenderLists [Lmh;
+	FIELD a tileEntities Ljava/util/List;
+	FIELD b dummyBuf50k [I
+	FIELD c occlusionResult Ljava/nio/IntBuffer;
+	FIELD d entityPosX D
+	FIELD e entityPosY D
+	FIELD f entityPosZ D
+	FIELD g damagePartialTime F
+	FIELD h frustrumCheckOffset I
+	FIELD i worldObj Luc;
+	FIELD j renderEngine Lxg;
+	FIELD k worldRenderersToUpdate Ljava/util/List;
+	FIELD l sortedWorldRenderers [Lcc;
+	FIELD m worldRenderers [Lcc;
+	FIELD n renderChunksWide I
+	FIELD o renderChunksTall I
+	FIELD p renderChunksDeep I
+	FIELD q glRenderListBase I
+	FIELD r mc Lnet/minecraft/client/Minecraft;
+	FIELD s globalRenderBlocks Lsr;
+	FIELD t glOcclusionQueryBase Ljava/nio/IntBuffer;
+	FIELD u occlusionEnabled Z
+	FIELD v cloudOffsetX I
+	FIELD w starGLCallList I
+	FIELD x glSkyList I
+	FIELD y glSkyList2 I
+	FIELD z minBlockX I
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Lxg;)V
+		ARG 1 minecraft
+		ARG 2 renderEngine
 	METHOD a loadRenderers ()V
 	METHOD a func_27307_a (DDDF)Z
+	METHOD a renderSky (F)V
 	METHOD a renderAllRenderLists (ID)V
 	METHOD a checkOcclusionQueryResult (II)V
 	METHOD a markBlockAndNeighborsNeedsUpdate (III)V
@@ -23,6 +71,7 @@ CLASS i net/minecraft/src/RenderGlobal
 		ARG 3 breakingStatus
 		ARG 4 itemStack
 		ARG 5 tick
+	METHOD a sortAndRender (Lyv;ID)I
 	METHOD a updateRenderers (Lyv;Z)Z
 	METHOD b getDebugInfoRenders ()Ljava/lang/String;
 	METHOD b renderClouds (F)V
@@ -40,44 +89,3 @@ CLASS i net/minecraft/src/RenderGlobal
 	METHOD d updateClouds ()V
 	METHOD e clearDispLists ()V
 	METHOD f renderStars ()V
-	FIELD A minBlockY I
-	FIELD B minBlockZ I
-	FIELD C maxBlockX I
-	FIELD D maxBlockY I
-	FIELD E maxBlockZ I
-	FIELD F renderDistance I
-	FIELD G renderEntitiesStartupCounter I
-	FIELD H countEntitiesTotal I
-	FIELD I countEntitiesRendered I
-	FIELD J countEntitiesHidden I
-	FIELD K renderersLoaded I
-	FIELD L renderersBeingClipped I
-	FIELD M renderersBeingOccluded I
-	FIELD N renderersBeingRendered I
-	FIELD O renderersSkippingRenderPass I
-	FIELD P worldRenderersCheckIndex I
-	FIELD Q glRenderLists Ljava/util/List;
-	FIELD R allRenderLists [Lmh;
-	FIELD a tileEntities Ljava/util/List;
-	FIELD b dummyBuf50k [I
-	FIELD c occlusionResult Ljava/nio/IntBuffer;
-	FIELD g damagePartialTime F
-	FIELD h frustrumCheckOffset I
-	FIELD i worldObj Luc;
-	FIELD j renderEngine Lxg;
-	FIELD k worldRenderersToUpdate Ljava/util/List;
-	FIELD l sortedWorldRenderers [Lcc;
-	FIELD m worldRenderers [Lcc;
-	FIELD n renderChunksWide I
-	FIELD o renderChunksTall I
-	FIELD p renderChunksDeep I
-	FIELD q glRenderListBase I
-	FIELD r mc Lnet/minecraft/client/Minecraft;
-	FIELD s globalRenderBlocks Lsr;
-	FIELD t glOcclusionQueryBase Ljava/nio/IntBuffer;
-	FIELD u occlusionEnabled Z
-	FIELD v cloudOffsetX I
-	FIELD w starGLCallList I
-	FIELD x glSkyList I
-	FIELD y glSkyList2 I
-	FIELD z minBlockX I

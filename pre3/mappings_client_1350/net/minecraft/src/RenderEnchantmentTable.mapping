@@ -1,0 +1,3 @@
+CLASS du net/minecraft/src/RenderEnchantmentTable
+	FIELD b enchantmentBook Ljx;
+	METHOD a renderTileEntityAt (Ljm;DDDF)V

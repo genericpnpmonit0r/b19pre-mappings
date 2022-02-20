@@ -1,0 +1,2 @@
+CLASS aef net/minecraft/src/ItemGlassBottle
+	METHOD a onItemRightClick (Lwy;Luc;Lvj;)Lwy;

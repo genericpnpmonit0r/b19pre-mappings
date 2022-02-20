@@ -1,3 +1,0 @@
-CLASS du RenderEnchantmentTable
-	FIELD b enchantmentBook Ljx;
-	METHOD a renderTileEntityAt (Ljm;DDDF)V

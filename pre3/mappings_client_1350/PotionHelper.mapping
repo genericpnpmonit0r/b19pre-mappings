@@ -1,5 +1,0 @@
-CLASS gv PotionHelper
-	FIELD h prefix567_2 Ljava/lang/String;
-	FIELD i prefix567 Ljava/lang/String;
-	FIELD k potionAmplifiers Ljava/util/HashMap;
-	FIELD l potionPrefixes [Ljava/lang/String;

@@ -1,0 +1,7 @@
+CLASS hf net/minecraft/src/SlotBrewingStandPotion
+	FIELD a brewingStand Lxa;
+	METHOD <init> (Lxa;Lhk;III)V
+		ARG 1 brewingStand
+		ARG 2 inventory
+	METHOD a getSlotStackLimit ()I
+	METHOD a isItemValid (Lwy;)Z

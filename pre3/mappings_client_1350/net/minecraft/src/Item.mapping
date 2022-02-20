@@ -114,11 +114,15 @@ CLASS vf net/minecraft/src/Item
 	FIELD bo blazeRod Lvf;
 	FIELD bp ghastTear Lvf;
 	FIELD bq goldNugget Lvf;
+	FIELD br netherWarts Lvf;
 	FIELD bs potion Ldo;
 	FIELD bt glassBottle Lvf;
 	FIELD bu spiderEye Lvf;
 	FIELD bv fermentedSpiderEye Lvf;
+	FIELD bw blazePowder Lvf;
 	FIELD bx magmaCream Lvf;
+	FIELD by brewingStand Lvf;
+	FIELD bz cauldron Lvf;
 	FIELD c potionPrefixData Ljava/lang/String;
 	FIELD d itemRand Ljava/util/Random;
 	FIELD e itemsList [Lvf;

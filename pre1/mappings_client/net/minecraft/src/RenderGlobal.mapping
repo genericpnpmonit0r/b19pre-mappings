@@ -45,6 +45,7 @@ CLASS i net/minecraft/src/RenderGlobal
 	FIELD z minBlockX I
 	METHOD a loadRenderers ()V
 	METHOD a func_27307_a (DDDF)Z
+	METHOD a renderSky (F)V
 	METHOD a renderAllRenderLists (ID)V
 	METHOD a checkOcclusionQueryResult (II)V
 	METHOD a renderSortedRenderers (IIID)I
@@ -60,6 +61,7 @@ CLASS i net/minecraft/src/RenderGlobal
 		ARG 3 breakingStatus
 		ARG 4 itemStack
 		ARG 5 tick
+	METHOD a sortAndRender (Lxq;ID)I
 	METHOD a updateRenderers (Lxq;Z)Z
 	METHOD b getDebugInfoRenders ()Ljava/lang/String;
 	METHOD b renderClouds (F)V

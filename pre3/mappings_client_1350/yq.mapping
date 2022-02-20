@@ -1,3 +1,0 @@
-CLASS yq
-	METHOD a buildComponent (Lgd;Ljava/util/List;Ljava/util/Random;)V
-	METHOD a addComponentParts (Luc;Ljava/util/Random;Log;)Z

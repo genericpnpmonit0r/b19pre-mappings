@@ -1,0 +1,21 @@
+CLASS fl net/minecraft/src/ContainerEnchantment
+	FIELD a tableInventory Lhk;
+	FIELD b nameSeed J
+	FIELD c enchantmentLevels [I
+	FIELD h worldPointer Luc;
+	FIELD i z I
+	FIELD j y I
+	FIELD k x I
+	FIELD l rand Ljava/util/Random;
+	METHOD <init> (Lwv;Luc;III)V
+		ARG 1 inventoryPlayer
+		ARG 2 world
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+	METHOD a onCraftMatrixChanged (Lhk;)V
+	METHOD a onCraftGuiClosed (Lvj;)V
+	METHOD a enchantItem (Lvj;I)V
+		ARG 1 player
+		ARG 2 levels
+	METHOD b canInteractWith (Lvj;)Z

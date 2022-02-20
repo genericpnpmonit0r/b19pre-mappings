@@ -1,0 +1,7 @@
+CLASS aeg net/minecraft/src/BlockAirPortalFrame
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD c getCollisionBoundingBoxFromPool (Luc;III)Ltu;
+	METHOD d getRenderType ()I

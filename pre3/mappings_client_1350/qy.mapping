@@ -1,3 +1,0 @@
-CLASS qy
-	METHOD d getInventoryStackLimit ()I
-	METHOD l onInventoryChanged ()V

@@ -1,4 +1,10 @@
 CLASS wv net/minecraft/src/InventoryPlayer
+	FIELD a mainInventory [Lwy;
+	FIELD b armorInventory [Lwy;
+	FIELD c currentItem I
+	FIELD d player Lvj;
+	FIELD e inventoryChanged Z
+	FIELD f itemStack Lwy;
 	METHOD <init> (Lvj;)V
 		ARG 1 player
 	METHOD a getSizeInventory ()I
@@ -49,11 +55,6 @@ CLASS wv net/minecraft/src/InventoryPlayer
 	METHOD h getTotalArmorValue ()I
 	METHOD i dropAllItems ()V
 	METHOD j getItemStack ()Lwy;
+	METHOD k newArrayListr ()Ljava/util/List;
 	METHOD l onInventoryChanged ()V
 	METHOD m getFirstEmptyStack ()I
-	FIELD a mainInventory [Lwy;
-	FIELD b armorInventory [Lwy;
-	FIELD c currentItem I
-	FIELD d player Lvj;
-	FIELD e inventoryChanged Z
-	FIELD f itemStack Lwy;

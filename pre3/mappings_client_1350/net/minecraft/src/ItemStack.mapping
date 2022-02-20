@@ -109,10 +109,12 @@ CLASS wy net/minecraft/src/ItemStack
 	METHOD h getItemDamageForDisplay ()I
 	METHOD i getItemDamage ()I
 	METHOD j getMaxDamage ()I
+	METHOD k copy ()Lwy;
 	METHOD l getMaxItemUseDuration ()I
 	METHOD m getItemUseAction ()Lxb;
 	METHOD n hasTagData ()Z
 	METHOD o addEnchatedDataTag ()Ljava/util/List;
 	METHOD p itemHasItemStack ()Z
 	METHOD q getItemRarity ()Ler;
+	METHOD r hasData ()Z
 	METHOD s hasEnchantment ()Z
