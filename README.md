@@ -28,6 +28,6 @@ There will be field_ and func_ names from 1.0.0 MCP as that was used as a base f
 
 	Mostly complete (all reuploads, noted by the timestamp at the end of the directory i,e 1350)
 
--b1.9pre4
+- b1.9pre4
 
-	Work in progress
+	unfinished/work in progress
