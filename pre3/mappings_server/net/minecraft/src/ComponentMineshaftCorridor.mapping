@@ -1,10 +1,13 @@
 CLASS qz net/minecraft/src/ComponentMineshaftCorridor
+	FIELD a hasRails Z
+	FIELD b hasSpiders Z
+	FIELD c spawnerPlaced Z
+	FIELD d sectionCount I
 	METHOD <init> (ILjava/util/Random;Lty;I)V
 		ARG 1 type
 		ARG 2 rand
 		ARG 3 boundingBox
 		ARG 4 coordBaseMode
-	METHOD a addComponentParts (Lev;Ljava/util/Random;Lty;)Z
 	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIII)Lty;
 		ARG 0 components
 		ARG 1 rand
@@ -12,8 +15,3 @@ CLASS qz net/minecraft/src/ComponentMineshaftCorridor
 		ARG 3 y
 		ARG 4 z
 		ARG 5 coordBaseMode
-	METHOD a buildComponent (Lji;Ljava/util/List;Ljava/util/Random;)V
-	FIELD a hasRails Z
-	FIELD b hasSpiders Z
-	FIELD c spawnerPlaced Z
-	FIELD d sectionCount I

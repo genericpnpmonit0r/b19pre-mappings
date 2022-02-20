@@ -5,6 +5,4 @@ CLASS kl net/minecraft/src/ComponentStrongholdPortalRoom
 		ARG 2 rand
 		ARG 3 boundingBox
 		ARG 4 coordBaseMode
-	METHOD a addComponentParts (Lev;Ljava/util/Random;Lty;)Z
 	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lkl;
-	METHOD a buildComponent (Lji;Ljava/util/List;Ljava/util/Random;)V

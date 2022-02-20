@@ -10,4 +10,3 @@ CLASS cc net/minecraft/src/TileEntityEnchantmentTable
 	FIELD i bookRotationPrev F
 	FIELD j bookRotation F
 	FIELD r rand Ljava/util/Random;
-	METHOD j_ updateEntity ()V

@@ -1,6 +1,4 @@
 CLASS fl net/minecraft/src/MapGenStronghold
-	METHOD a canSpawnStructureAtCoords (II)Z
-	METHOD b getStructureStart (II)Lsr;
 	FIELD a field_35537_a [Ljm;
 	FIELD f field_35535_f Z
 	FIELD g field_35536_g [Lxa;

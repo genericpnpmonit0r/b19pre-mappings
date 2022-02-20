@@ -1,14 +1,6 @@
 CLASS ez net/minecraft/src/EntityVillager
+	FIELD a villagerType I
 	METHOD <init> (Lev;I)V
 		ARG 1 world
 		ARG 2 type
-	METHOD a readEntityFromNBT (Lml;)V
-	METHOD b writeEntityToNBT (Lml;)V
-	METHOD c getMaxHealth ()I
-	METHOD d onLivingUpdate ()V
-	METHOD i canDespawn ()Z
-	METHOD l getLivingSound ()Ljava/lang/String;
-	METHOD m getHurtSound ()Ljava/lang/String;
-	METHOD n getDeathSound ()Ljava/lang/String;
 	METHOD x getTexture ()V
-	FIELD a villagerType I

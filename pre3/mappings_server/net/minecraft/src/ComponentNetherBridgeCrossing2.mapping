@@ -4,6 +4,4 @@ CLASS wf net/minecraft/src/ComponentNetherBridgeCrossing2
 		ARG 2 rand
 		ARG 3 boundingBox
 		ARG 4 coordBaseMode
-	METHOD a addComponentParts (Lev;Ljava/util/Random;Lty;)Z
 	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lwf;
-	METHOD a buildComponent (Lji;Ljava/util/List;Ljava/util/Random;)V

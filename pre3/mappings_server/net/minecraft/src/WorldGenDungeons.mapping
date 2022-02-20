@@ -1,5 +1,4 @@
 CLASS ej net/minecraft/src/WorldGenDungeons
-	METHOD a generate (Lev;Ljava/util/Random;III)Z
 	METHOD a pickChestLootItem (Ljava/util/Random;)Lil;
 		ARG 1 rand
 	METHOD b pickMobSpawner (Ljava/util/Random;)Ljava/lang/String;

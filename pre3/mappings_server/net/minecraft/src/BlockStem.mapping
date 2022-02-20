@@ -1,14 +1,8 @@
 CLASS mu net/minecraft/src/BlockStem
+	FIELD a stemBlockType Lsl;
 	METHOD <init> (ILsl;)V
 		ARG 1 id
 		ARG 2 block
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a dropBlockAsItemWithChance (Lev;IIIIF)V
-	METHOD a updateTick (Lev;IIILjava/util/Random;)V
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD a setBlockBoundsBasedOnState (Lvt;III)V
-	METHOD c canThisPlantGrowOnThisBlockID (I)Z
 	METHOD g fertilize (Lev;III)V
 		ARG 1 world
 		ARG 2 x
@@ -19,4 +13,3 @@ CLASS mu net/minecraft/src/BlockStem
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	FIELD a stemBlockType Lsl;

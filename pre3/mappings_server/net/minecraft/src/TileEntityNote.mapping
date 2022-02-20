@@ -1,11 +1,9 @@
 CLASS ri net/minecraft/src/TileEntityNote
+	FIELD a note B
+	FIELD b previousRedstoneState Z
 	METHOD a triggerNote (Lev;III)V
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD a readFromNBT (Lml;)V
-	METHOD b writeToNBT (Lml;)V
 	METHOD c changePitch ()V
-	FIELD a note B
-	FIELD b previousRedstoneState Z

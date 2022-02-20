@@ -5,7 +5,6 @@ CLASS dv net/minecraft/src/GenLayerZoom
 	METHOD a choose (II)I
 		ARG 1 input1
 		ARG 2 input2
-	METHOD a getInts (IIII)[I
 	METHOD a magnify (JLdz;I)Ldz;
 		ARG 0 seedAdj
 		ARG 2 layer

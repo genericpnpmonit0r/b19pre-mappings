@@ -2,4 +2,3 @@ CLASS jo net/minecraft/src/GenLayerMushroomIsland
 	METHOD <init> (JLdz;)V
 		ARG 1 seed
 		ARG 3 layer
-	METHOD a getInts (IIII)[I

@@ -1,9 +1,7 @@
 CLASS g net/minecraft/src/ComponentMineshaftRoom
+	FIELD a roomsLinkedToTheRoom Ljava/util/LinkedList;
 	METHOD <init> (ILjava/util/Random;II)V
 		ARG 1 type
 		ARG 2 rand
 		ARG 3 x
 		ARG 4 z
-	METHOD a addComponentParts (Lev;Ljava/util/Random;Lty;)Z
-	METHOD a buildComponent (Lji;Ljava/util/List;Ljava/util/Random;)V
-	FIELD a roomsLinkedToTheRoom Ljava/util/LinkedList;

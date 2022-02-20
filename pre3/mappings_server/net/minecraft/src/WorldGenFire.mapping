@@ -1,2 +1,1 @@
 CLASS vw net/minecraft/src/WorldGenFire
-	METHOD a generate (Lev;Ljava/util/Random;III)Z

@@ -9,9 +9,6 @@ CLASS gz net/minecraft/src/SaveConverterMcRegion
 		ARG 1 file
 		ARG 2 oldFiles
 		ARG 3 newFiles
-	METHOD a isOldSaveType (Ljava/lang/String;)Z
-	METHOD a convertMapFormat (Ljava/lang/String;Lwe;)Z
-	METHOD a getSaveLoader (Ljava/lang/String;Z)Lvb;
 	METHOD a setProgressClearOldFiles (Ljava/util/ArrayList;IILwe;)V
 		ARG 1 files
 		ARG 2 count

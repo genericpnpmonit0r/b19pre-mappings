@@ -1,25 +1,17 @@
 CLASS ox net/minecraft/src/EntityPainting
-	METHOD <init> (Lev;IIII)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 type
-	METHOD a moveEntity (DDD)V
-	METHOD a readEntityFromNBT (Lml;)V
-	METHOD a attackEntityFrom (Loo;I)Z
-	METHOD b entityInit ()V
-	METHOD b setDirection (I)V
-		ARG 1 direction
-	METHOD b writeEntityToNBT (Lml;)V
-	METHOD b_ addVelocity (DDD)V
-	METHOD c func_180_c (I)F
-	METHOD c_ canBeCollidedWith ()Z
-	METHOD i canStay ()Z
-	METHOD t_ onUpdate ()V
 	FIELD a direction I
 	FIELD b xPosition I
 	FIELD c yPosition I
 	FIELD d zPosition I
 	FIELD e art Lic;
 	FIELD f tickCounter1 I
+	METHOD <init> (Lev;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 type
+	METHOD b setDirection (I)V
+		ARG 1 direction
+	METHOD c func_180_c (I)F
+	METHOD i canStay ()Z

@@ -1,18 +1,4 @@
 CLASS mi net/minecraft/src/EntityEnderPearl
-	METHOD <init> (Lev;Lkq;)V
-		ARG 1 world
-		ARG 2 living
-	METHOD a setEnderpearlHeading (DDDFF)V
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-		ARG 7 yaw
-		ARG 8 pitch
-	METHOD a readEntityFromNBT (Lml;)V
-	METHOD a_ onCollideWithPlayer (Lgj;)V
-	METHOD b entityInit ()V
-	METHOD b writeEntityToNBT (Lml;)V
-	METHOD t_ onUpdate ()V
 	FIELD a shake I
 	FIELD b xTile I
 	FIELD c yTile I
@@ -22,3 +8,12 @@ CLASS mi net/minecraft/src/EntityEnderPearl
 	FIELD g shootingEntity Lkq;
 	FIELD h ticksInGround I
 	FIELD i ticksInAir I
+	METHOD <init> (Lev;Lkq;)V
+		ARG 1 world
+		ARG 2 living
+	METHOD a setEnderpearlHeading (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch

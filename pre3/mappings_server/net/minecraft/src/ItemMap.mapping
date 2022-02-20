@@ -6,6 +6,3 @@ CLASS uy net/minecraft/src/ItemMap
 	METHOD a getMPMapData (Lil;Lev;)Lii;
 		ARG 1 itemStack
 		ARG 2 world
-	METHOD a onUpdate (Lil;Lev;Lqn;IZ)V
-	METHOD c sendMPMapDataPacket (Lil;Lev;Lgj;)Ljq;
-	METHOD d onCreated (Lil;Lev;Lgj;)V

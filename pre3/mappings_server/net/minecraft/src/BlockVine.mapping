@@ -1,19 +1,8 @@
 CLASS nb net/minecraft/src/BlockVine
 	METHOD <init> (I)V
 		ARG 1 id
-	METHOD a isOpaqueCube ()Z
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a onNeighborBlockChange (Lev;IIII)V
-	METHOD a updateTick (Lev;IIILjava/util/Random;)V
-	METHOD a harvestBlock (Lev;Lgj;IIII)V
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD a setBlockBoundsBasedOnState (Lvt;III)V
-	METHOD b isACube ()Z
-	METHOD b canPlaceBlockOnSide (Lev;IIII)Z
 	METHOD c canBePlacedOn (I)Z
 		ARG 1 side
-	METHOD e getCollisionBoundingBoxFromPool (Lev;III)Lei;
-	METHOD e onBlockPlaced (Lev;IIII)V
 	METHOD g canVineStay (Lev;III)Z
 		ARG 1 world
 		ARG 2 x

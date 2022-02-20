@@ -1,3 +1,2 @@
 CLASS c net/minecraft/src/SlotEnchanting
 	FIELD a enchContainer Lhz;
-	METHOD a isItemValid (Lil;)Z

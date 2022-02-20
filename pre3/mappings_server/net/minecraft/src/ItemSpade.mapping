@@ -1,6 +1,5 @@
 CLASS uf net/minecraft/src/ItemSpade
+	FIELD bP blocksEffectiveAgainst [Lsl;
 	METHOD <init> (ILbs;)V
 		ARG 1 id
 		ARG 2 toolMaterial
-	METHOD a canHarvestBlock (Lsl;)Z
-	FIELD bP blocksEffectiveAgainst [Lsl;

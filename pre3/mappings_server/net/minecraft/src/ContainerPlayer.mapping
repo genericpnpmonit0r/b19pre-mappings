@@ -1,13 +1,9 @@
 CLASS w net/minecraft/src/ContainerPlayer
+	FIELD a craftMatrix Llh;
+	FIELD b craftResult Lkv;
+	FIELD c isMultiPlayer Z
 	METHOD <init> (Lik;)V
 		ARG 1 inventoryPlayer
 	METHOD <init> (Lik;Z)V
 		ARG 1 inventoryPlayer
 		ARG 2 multiplayer
-	METHOD a getStackInSlot (I)Lil;
-	METHOD a onCraftGuiClosed (Lgj;)V
-	METHOD a onCraftMatrixChanged (Lkv;)V
-	METHOD b canInteractWith (Lgj;)Z
-	FIELD a craftMatrix Llh;
-	FIELD b craftResult Lkv;
-	FIELD c isMultiPlayer Z

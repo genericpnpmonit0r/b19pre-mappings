@@ -1,18 +1,4 @@
 CLASS kw net/minecraft/src/EntityFishHook
-	METHOD <init> (Lev;Lgj;)V
-		ARG 1 world
-		ARG 2 player
-	METHOD a calculateVelocity (DDDFF)V
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-		ARG 7 yaw
-		ARG 8 pitch
-	METHOD a readEntityFromNBT (Lml;)V
-	METHOD b entityInit ()V
-	METHOD b writeEntityToNBT (Lml;)V
-	METHOD i catchFish ()I
-	METHOD t_ onUpdate ()V
 	FIELD a shake I
 	FIELD b angler Lgj;
 	FIELD c bobber Lqn;
@@ -30,3 +16,13 @@ CLASS kw net/minecraft/src/EntityFishHook
 	FIELD o field_6146_aq D
 	FIELD p field_6145_ar D
 	FIELD q field_6144_as D
+	METHOD <init> (Lev;Lgj;)V
+		ARG 1 world
+		ARG 2 player
+	METHOD a calculateVelocity (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
+	METHOD i catchFish ()I

@@ -1,44 +1,4 @@
 CLASS kc net/minecraft/src/NetServerHandler
-	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lns;Ley;)V
-		ARG 1 minecraftServer
-		ARG 2 networkManager
-		ARG 3 playerMP
-	METHOD a handlePackets ()V
-	METHOD a teleportTo (DDDFF)V
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-		ARG 7 yaw
-		ARG 8 pitch
-	METHOD a handleUseEntity (La;)V
-	METHOD a handleCreativeSetSlot (Ldp;)V
-	METHOD a handlePlace (Lgl;)V
-	METHOD a handleBlockItemSwitch (Lhh;)V
-	METHOD a handleFlying (Lht;)V
-	METHOD a kickPlayer (Ljava/lang/String;)V
-		ARG 1 reason
-	METHOD a handleErrorMessage (Ljava/lang/String;[Ljava/lang/Object;)V
-	METHOD a handleBlockDig (Ljf;)V
-	METHOD a registerPacket (Ljq;)V
-	METHOD a handleKeepAlive (Lky;)V
-	METHOD a handleCraftingGuiClosedPacked (Lld;)V
-	METHOD a handleArmAnimation (Lmf;)V
-	METHOD a handleTransaction (Lmz;)V
-	METHOD a handleRespawn (Lnn;)V
-	METHOD a handleChat (Lnr;)V
-	METHOD a handleMovementTypePacket (Lol;)V
-	METHOD a handleWindowClick (Lov;)V
-	METHOD a handleEntityAction (Lrq;)V
-	METHOD a handleUpdateSign (Lsc;)V
-	METHOD a handleKickDisconnect (Lws;)V
-	METHOD b getNumChunkDataPackets ()I
-	METHOD b log (Ljava/lang/String;)V
-	METHOD b sendPacket (Ljq;)V
-		ARG 1 packet
-	METHOD c isServerHandler ()Z
-	METHOD c handleSlashCommand (Ljava/lang/String;)V
-		ARG 1 cmdName
-	METHOD d getUsername ()Ljava/lang/String;
 	FIELD a logger Ljava/util/logging/Logger;
 	FIELD b netManager Lns;
 	FIELD c connectionClosed Z
@@ -56,3 +16,21 @@ CLASS kc net/minecraft/src/NetServerHandler
 	FIELD o lastPosZ D
 	FIELD p hasMoved Z
 	FIELD q inthashmap Ljh;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lns;Ley;)V
+		ARG 1 minecraftServer
+		ARG 2 networkManager
+		ARG 3 playerMP
+	METHOD a handlePackets ()V
+	METHOD a teleportTo (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
+	METHOD a kickPlayer (Ljava/lang/String;)V
+		ARG 1 reason
+	METHOD b getNumChunkDataPackets ()I
+	METHOD b sendPacket (Ljq;)V
+		ARG 1 packet
+	METHOD c handleSlashCommand (Ljava/lang/String;)V
+		ARG 1 cmdName

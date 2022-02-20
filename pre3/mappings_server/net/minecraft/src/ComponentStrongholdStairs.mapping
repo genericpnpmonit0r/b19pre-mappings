@@ -1,4 +1,2 @@
 CLASS hq net/minecraft/src/ComponentStrongholdStairs
-	METHOD a addComponentParts (Lev;Ljava/util/Random;Lty;)Z
 	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lhq;
-	METHOD a buildComponent (Lji;Ljava/util/List;Ljava/util/Random;)V

@@ -1,14 +1,2 @@
 CLASS wq net/minecraft/src/TileEntityBrewingStand
-	METHOD a getInventoryStackLimit ()I
-	METHOD a decrStackSize (II)Lil;
-	METHOD a setInventorySlotContents (ILil;)V
-	METHOD a canInteractWith (Lgj;)Z
-	METHOD a readFromNBT (Lml;)V
-	METHOD b writeToNBT (Lml;)V
-	METHOD b_ getStackInSlot (I)Lil;
-	METHOD c getSizeInventory ()I
-	METHOD e getInvName ()Ljava/lang/String;
-	METHOD g closeChest ()V
 	METHOD h getBrewTime ()I
-	METHOD j_ updateEntity ()V
-	METHOD v_ openChest ()V

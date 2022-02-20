@@ -1,17 +1,13 @@
 CLASS ol net/minecraft/src/Packet27Position
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lrd;)V
-	METHOD c getStrafeMovement ()F
-	METHOD d getPitchRotation ()F
-	METHOD e getForwardMovement ()F
-	METHOD f getYawRotation ()F
-	METHOD g getSneakingStatus ()Z
-	METHOD h isInJump ()Z
 	FIELD a strafeMovement F
 	FIELD b fowardMovement F
 	FIELD c isSneaking Z
 	FIELD d isInJump Z
 	FIELD e pitchRotation F
 	FIELD f yawRotation F
+	METHOD c getStrafeMovement ()F
+	METHOD d getPitchRotation ()F
+	METHOD e getForwardMovement ()F
+	METHOD f getYawRotation ()F
+	METHOD g getSneakingStatus ()Z
+	METHOD h isInJump ()Z

@@ -1,8 +1,11 @@
 CLASS hv net/minecraft/src/EntityCreature
+	FIELD a pathToEntity Ldc;
+	FIELD d entityToAttack Lqn;
+	FIELD e hasAttacked Z
+	FIELD f fleeingTick I
 	METHOD B updateWanderPath ()V
 	METHOD C hasPath ()Z
 	METHOD D getEntityToAttack ()Lqn;
-	METHOD E applyMoveSpeedPotionEffectModifier ()F
 	METHOD a getBlockPathWeight (III)F
 		ARG 1 x
 		ARG 2 y
@@ -13,13 +16,7 @@ CLASS hv net/minecraft/src/EntityCreature
 		ARG 1 entity
 		ARG 2 amount
 	METHOD b attackBlockedEntity (Lqn;F)V
-	METHOD b_ updateEntityActionState ()V
 	METHOD d setTarget (Lqn;)V
 		ARG 1 entity
-	METHOD g getCanSpawnHere ()Z
 	METHOD j findPlayerToAttack ()Lqn;
 	METHOD v isMovementCeased ()Z
-	FIELD a pathToEntity Ldc;
-	FIELD d entityToAttack Lqn;
-	FIELD e hasAttacked Z
-	FIELD f fleeingTick I

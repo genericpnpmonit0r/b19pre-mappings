@@ -2,20 +2,6 @@ CLASS vv net/minecraft/src/BlockLever
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 texIndex
-	METHOD a isOpaqueCube ()Z
-	METHOD a onNeighborBlockChange (Lev;IIII)V
-	METHOD a blockActivated (Lev;IIILgj;)Z
-	METHOD a setBlockBoundsBasedOnState (Lvt;III)V
-	METHOD a isPoweringTo (Lvt;IIII)Z
-	METHOD b isACube ()Z
-	METHOD b canPlaceBlockOnSide (Lev;IIII)Z
-	METHOD b onBlockClicked (Lev;IIILgj;)V
-	METHOD c canPlaceBlockAt (Lev;III)Z
-	METHOD d canProvidePower ()Z
-	METHOD d onBlockRemoval (Lev;III)V
-	METHOD d isIndirectlyPoweringTo (Lev;IIII)Z
-	METHOD e getCollisionBoundingBoxFromPool (Lev;III)Lei;
-	METHOD e onBlockPlaced (Lev;IIII)V
 	METHOD g checkIfAttachedToBlock (Lev;III)Z
 		ARG 1 world
 		ARG 2 x

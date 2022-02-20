@@ -1,2 +1,1 @@
 CLASS cs net/minecraft/src/ItemFishingRod
-	METHOD a onItemRightClick (Lil;Lev;Lgj;)Lil;

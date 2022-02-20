@@ -4,5 +4,3 @@ CLASS u net/minecraft/src/SlotEnchantment
 		ARG 1 containerEnchantment
 		ARG 2 name
 		ARG 3 i
-	METHOD a getInventoryStackLimit ()I
-	METHOD u_ onInventoryChanged ()V

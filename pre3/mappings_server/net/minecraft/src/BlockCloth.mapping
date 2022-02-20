@@ -1,6 +1,4 @@
 CLASS dy net/minecraft/src/BlockCloth
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD a_ damageDropped (I)I
 	METHOD c getBlockFromDye (I)I
 		ARG 0 meta
 	METHOD d getDyeFromBlock (I)I

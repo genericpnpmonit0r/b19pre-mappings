@@ -1,4 +1,3 @@
 CLASS rz net/minecraft/src/GenLayerDownfallMix
-	METHOD a getInts (IIII)[I
 	FIELD b field_35035_b Ldz;
 	FIELD c field_35036_c I

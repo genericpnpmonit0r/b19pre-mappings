@@ -1,22 +1,10 @@
 CLASS qj net/minecraft/src/TileEntityFurnace
-	METHOD a getInventoryStackLimit ()I
-	METHOD a decrStackSize (II)Lil;
-	METHOD a setInventorySlotContents (ILil;)V
-	METHOD a canInteractWith (Lgj;)Z
-	METHOD a getItemBurnTime (Lil;)I
-		ARG 1 itemStack
-	METHOD a readFromNBT (Lml;)V
-	METHOD b writeToNBT (Lml;)V
-	METHOD b_ getStackInSlot (I)Lil;
-	METHOD c getSizeInventory ()I
-	METHOD e getInvName ()Ljava/lang/String;
-	METHOD g closeChest ()V
-	METHOD h isBurning ()Z
-	METHOD j_ updateEntity ()V
-	METHOD n smeltItem ()V
-	METHOD o canSmelt ()Z
-	METHOD v_ openChest ()V
 	FIELD a furnaceBurnTime I
 	FIELD b currentItemBurnTime I
 	FIELD c furnaceCookTime I
 	FIELD d furnaceItemStacks [Lil;
+	METHOD a getItemBurnTime (Lil;)I
+		ARG 1 itemStack
+	METHOD h isBurning ()Z
+	METHOD n smeltItem ()V
+	METHOD o canSmelt ()Z

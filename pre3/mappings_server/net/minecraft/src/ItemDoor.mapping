@@ -1,4 +1,5 @@
 CLASS hl net/minecraft/src/ItemDoor
+	FIELD a doorMaterial Lkm;
 	METHOD a placeDoorBlock (Lev;IIIILsl;)V
 		ARG 0 world
 		ARG 1 x
@@ -6,5 +7,3 @@ CLASS hl net/minecraft/src/ItemDoor
 		ARG 3 z
 		ARG 4 side
 		ARG 5 block
-	METHOD a onItemUse (Lil;Lgj;Lev;IIII)Z
-	FIELD a doorMaterial Lkm;

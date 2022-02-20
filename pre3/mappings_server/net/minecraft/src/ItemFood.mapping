@@ -1,4 +1,13 @@
 CLASS wx net/minecraft/src/ItemFood
+	FIELD a maxItemUseDuration I
+	FIELD bP healAmount I
+	FIELD bQ saturationModifier F
+	FIELD bR isWolfsFavoriteMeat Z
+	FIELD bS isEating Z
+	FIELD bT potionId I
+	FIELD bU potionDuration I
+	FIELD bV potionAmplifier I
+	FIELD bW potionEffectProbability F
 	METHOD <init> (IIFZ)V
 		ARG 1 id
 		ARG 2 healAmount
@@ -13,21 +22,7 @@ CLASS wx net/minecraft/src/ItemFood
 		ARG 2 duration
 		ARG 3 amplifier
 		ARG 4 probability
-	METHOD a onItemRightClick (Lil;Lev;Lgj;)Lil;
-	METHOD a setItemName (Ljava/lang/String;)Lgh;
-	METHOD b onFoodEaten (Lil;Lev;Lgj;)Lil;
-	METHOD c getMaxItemUseDuration (Lil;)I
-	METHOD d getItemUseAction (Lil;)Lip;
 	METHOD m getHealAmount ()I
 	METHOD n getSaturationModifier ()F
 	METHOD o getIsWolfsFavoriteMeat ()Z
 	METHOD p getIsEating ()Lwx;
-	FIELD a maxItemUseDuration I
-	FIELD bP healAmount I
-	FIELD bQ saturationModifier F
-	FIELD bR isWolfsFavoriteMeat Z
-	FIELD bS isEating Z
-	FIELD bT potionId I
-	FIELD bU potionDuration I
-	FIELD bV potionAmplifier I
-	FIELD bW potionEffectProbability F

@@ -1,10 +1,4 @@
 CLASS lb net/minecraft/src/Packet20NamedEntitySpawn
-	METHOD <init> (Lgj;)V
-		ARG 1 player
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lrd;)V
 	FIELD a entityId I
 	FIELD b name Ljava/lang/String;
 	FIELD c xPosition I
@@ -13,3 +7,5 @@ CLASS lb net/minecraft/src/Packet20NamedEntitySpawn
 	FIELD f rotation B
 	FIELD g pitch B
 	FIELD h currentItem I
+	METHOD <init> (Lgj;)V
+		ARG 1 player

@@ -1,12 +1,8 @@
 CLASS bk net/minecraft/src/ContainerFurnace
-	METHOD <init> (Lik;Lqj;)V
-		ARG 1 inventoryPlayer
-		ARG 2 furnace
-	METHOD a updateCraftingResults ()V
-	METHOD a getStackInSlot (I)Lil;
-	METHOD a onCraftGuiOpened (Ldx;)V
-	METHOD b canInteractWith (Lgj;)Z
 	FIELD a furnace Lqj;
 	FIELD b lastCookTime I
 	FIELD c lastBurnTime I
 	FIELD h lastItemBurnTime I
+	METHOD <init> (Lik;Lqj;)V
+		ARG 1 inventoryPlayer
+		ARG 2 furnace

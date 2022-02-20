@@ -1,14 +1,2 @@
 CLASS fm net/minecraft/src/EntitySkeleton
-	METHOD a readEntityFromNBT (Lml;)V
-	METHOD a onDeath (Loo;)V
-	METHOD a attackEntityFrom (Loo;I)Z
-	METHOD a attackEntity (Lqn;F)V
-	METHOD a dropFewItems (Z)V
-	METHOD b writeEntityToNBT (Lml;)V
-	METHOD c getMaxHealth ()I
-	METHOD d onLivingUpdate ()V
-	METHOD e getDropItemId ()I
-	METHOD l getLivingSound ()Ljava/lang/String;
-	METHOD m getHurtSound ()Ljava/lang/String;
-	METHOD n getDeathSound ()Ljava/lang/String;
 	FIELD a defaultHeldItem Lil;

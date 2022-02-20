@@ -1,4 +1,1 @@
 CLASS rx net/minecraft/src/BlockAirPortalFrame
-	METHOD a isOpaqueCube ()Z
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD e getCollisionBoundingBoxFromPool (Lev;III)Lei;

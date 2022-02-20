@@ -1,7 +1,1 @@
 CLASS fi net/minecraft/src/BlockCauldron
-	METHOD a isOpaqueCube ()Z
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a getCollidingBoundingBoxes (Lev;IIILei;Ljava/util/ArrayList;)V
-	METHOD a blockActivated (Lev;IIILgj;)Z
-	METHOD b isACube ()Z

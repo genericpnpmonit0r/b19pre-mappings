@@ -1,18 +1,1 @@
 CLASS rm net/minecraft/src/EntityMagmaCube
-	METHOD A setSizeSmallM ()V
-	METHOD B getSlimeSizeGreaterThan1 ()Z
-	METHOD C getSlimeSize_do ()I
-	METHOD D getSlimeSound ()Ljava/lang/String;
-	METHOD N getTotalArmorValue ()I
-	METHOD W jump ()V
-	METHOD a getEntityBrightness (F)F
-	METHOD ax handleLavaMovement ()Z
-	METHOD b fall (F)V
-	METHOD e getDropItemId ()I
-	METHOD g getCanSpawnHere ()Z
-	METHOD m getHurtSound ()Ljava/lang/String;
-	METHOD n getDeathSound ()Ljava/lang/String;
-	METHOD v getSlimeParticle ()Ljava/lang/String;
-	METHOD x newSlime ()Lsn;
-	METHOD y onFire ()Z
-	METHOD z getJumpDelay ()I

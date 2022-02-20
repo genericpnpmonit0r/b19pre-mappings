@@ -1,22 +1,4 @@
 CLASS fs net/minecraft/src/EntityBoat
-	METHOD <init> (Lev;DDD)V
-		ARG 1 world
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-	METHOD a readEntityFromNBT (Lml;)V
-	METHOD a attackEntityFrom (Loo;I)Z
-	METHOD b entityInit ()V
-	METHOD b interact (Lgj;)Z
-	METHOD b writeEntityToNBT (Lml;)V
-	METHOD b getCollisionBox (Lqn;)Lei;
-	METHOD c_ canBeCollidedWith ()Z
-	METHOD d_ canBePushed ()Z
-	METHOD f getBoundingBox ()Lei;
-	METHOD f_ canTriggerWalking ()Z
-	METHOD h_ updateRiderPosition ()V
-	METHOD q getMountedYOffset ()D
-	METHOD t_ onUpdate ()V
 	FIELD a damageTaken I
 	FIELD b timeSinceHit I
 	FIELD c forwardDirection I
@@ -26,3 +8,8 @@ CLASS fs net/minecraft/src/EntityBoat
 	FIELD g boatZ D
 	FIELD h boatYaw D
 	FIELD i boatPitch D
+	METHOD <init> (Lev;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

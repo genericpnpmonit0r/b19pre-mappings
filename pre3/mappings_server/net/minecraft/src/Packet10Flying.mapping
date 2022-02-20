@@ -1,8 +1,4 @@
 CLASS ht net/minecraft/src/Packet10Flying
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lrd;)V
 	FIELD a xPosition D
 	FIELD b yPosition D
 	FIELD c zPosition D

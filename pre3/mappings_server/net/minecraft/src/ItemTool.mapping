@@ -1,14 +1,10 @@
 CLASS dm net/minecraft/src/ItemTool
+	FIELD a toolMaterial Lbs;
+	FIELD bP blocksEffectiveAgainst [Lsl;
+	FIELD bQ efficiencyOnProperMaterial F
+	FIELD bR damageVsEntity I
 	METHOD <init> (IILbs;[Lsl;)V
 		ARG 1 id
 		ARG 2 dmgVsEntity
 		ARG 3 toolMaterial
 		ARG 4 blocksEffectiveAgainstArr
-	METHOD a onBlockDestroyed (Lil;IIIILkq;)Z
-	METHOD a hitEntity (Lil;Lkq;Lkq;)Z
-	METHOD a getStrVsBlock (Lil;Lsl;)F
-	METHOD a getDamageVsEntity (Lqn;)I
-	FIELD a toolMaterial Lbs;
-	FIELD bP blocksEffectiveAgainst [Lsl;
-	FIELD bQ efficiencyOnProperMaterial F
-	FIELD bR damageVsEntity I

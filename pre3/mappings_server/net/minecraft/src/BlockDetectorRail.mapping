@@ -2,12 +2,6 @@ CLASS nt net/minecraft/src/BlockDetectorRail
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 texIndex
-	METHOD a updateTick (Lev;IIILjava/util/Random;)V
-	METHOD a onEntityCollidedWithBlock (Lev;IIILqn;)V
-	METHOD a isPoweringTo (Lvt;IIII)Z
-	METHOD c tickRate ()I
-	METHOD d canProvidePower ()Z
-	METHOD d isIndirectlyPoweringTo (Lev;IIII)Z
 	METHOD f setStateIfMinecartInteractsWithRail (Lev;IIII)V
 		ARG 1 world
 		ARG 2 x

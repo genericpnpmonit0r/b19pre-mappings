@@ -1,7 +1,5 @@
 CLASS gt net/minecraft/src/EntityDamageSource
+	FIELD n damageSourceEntity Lqn;
 	METHOD <init> (Ljava/lang/String;Lqn;)V
 		ARG 1 damageName
 		ARG 2 entity
-	METHOD a getEntity ()Lqn;
-	METHOD a getDeathMsg (Lgj;)Ljava/lang/String;
-	FIELD n damageSourceEntity Lqn;

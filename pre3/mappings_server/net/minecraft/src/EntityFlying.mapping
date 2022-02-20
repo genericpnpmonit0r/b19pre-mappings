@@ -1,4 +1,1 @@
 CLASS ux net/minecraft/src/EntityFlying
-	METHOD a moveEntityWithHeading (FF)V
-	METHOD b fall (F)V
-	METHOD r isOnLadder ()Z

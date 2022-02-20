@@ -1,35 +1,4 @@
 CLASS wo net/minecraft/src/EntityMinecart
-	METHOD <init> (Lev;DDDI)V
-		ARG 1 world
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-		ARG 8 type
-	METHOD R setEntityDead ()V
-	METHOD a getInventoryStackLimit ()I
-	METHOD a decrStackSize (II)Lil;
-	METHOD a setInventorySlotContents (ILil;)V
-	METHOD a canInteractWith (Lgj;)Z
-	METHOD a readEntityFromNBT (Lml;)V
-	METHOD a attackEntityFrom (Loo;I)Z
-	METHOD b entityInit ()V
-	METHOD b interact (Lgj;)Z
-	METHOD b writeEntityToNBT (Lml;)V
-	METHOD b getCollisionBox (Lqn;)Lei;
-	METHOD b_ getStackInSlot (I)Lil;
-	METHOD c getSizeInventory ()I
-	METHOD c_ canBeCollidedWith ()Z
-	METHOD d_ canBePushed ()Z
-	METHOD e getInvName ()Ljava/lang/String;
-	METHOD f getBoundingBox ()Lei;
-	METHOD f_ canTriggerWalking ()Z
-	METHOD g closeChest ()V
-	METHOD h func_182_g (DDD)Lbr;
-	METHOD i applyEntityCollision (Lqn;)V
-	METHOD q getMountedYOffset ()D
-	METHOD t_ onUpdate ()V
-	METHOD u_ onInventoryChanged ()V
-	METHOD v_ openChest ()V
 	FIELD a damageTaken I
 	FIELD b timeSinceHit I
 	FIELD c forwardDirection I
@@ -46,3 +15,10 @@ CLASS wo net/minecraft/src/EntityMinecart
 	FIELD n minecartZ D
 	FIELD o minecartYaw D
 	FIELD p minecartPitch D
+	METHOD <init> (Lev;DDDI)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 type
+	METHOD h func_182_g (DDD)Lbr;

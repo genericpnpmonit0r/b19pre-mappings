@@ -1,3 +1,2 @@
 CLASS rg net/minecraft/src/GenLayerVillageLandscape
-	METHOD a getInts (IIII)[I
 	FIELD b field_35029_b [Ljm;

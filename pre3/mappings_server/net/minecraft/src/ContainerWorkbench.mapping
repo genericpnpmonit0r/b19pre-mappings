@@ -1,17 +1,13 @@
 CLASS ig net/minecraft/src/ContainerWorkbench
-	METHOD <init> (Lik;Lev;III)V
-		ARG 1 player
-		ARG 2 world
-		ARG 3 x
-		ARG 4 y
-		ARG 5 z
-	METHOD a getStackInSlot (I)Lil;
-	METHOD a onCraftGuiClosed (Lgj;)V
-	METHOD a onCraftMatrixChanged (Lkv;)V
-	METHOD b canInteractWith (Lgj;)Z
 	FIELD a craftMatrix Llh;
 	FIELD b craftResult Lkv;
 	FIELD c worldObj Lev;
 	FIELD h posX I
 	FIELD i posY I
 	FIELD j posZ I
+	METHOD <init> (Lik;Lev;III)V
+		ARG 1 player
+		ARG 2 world
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z

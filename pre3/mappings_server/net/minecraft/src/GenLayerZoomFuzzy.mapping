@@ -5,7 +5,6 @@ CLASS uz net/minecraft/src/GenLayerZoomFuzzy
 	METHOD a choose (II)I
 		ARG 1 input1
 		ARG 2 input2
-	METHOD a getInts (IIII)[I
 	METHOD b choose (IIII)I
 		ARG 1 input1
 		ARG 2 input2

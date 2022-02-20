@@ -1,10 +1,6 @@
 CLASS sp net/minecraft/src/Packet40EntityMetadata
+	FIELD a entityId I
+	FIELD b metadata Ljava/util/List;
 	METHOD <init> (ILru;)V
 		ARG 1 id
 		ARG 2 dataWatcher
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lrd;)V
-	FIELD a entityId I
-	FIELD b metadata Ljava/util/List;

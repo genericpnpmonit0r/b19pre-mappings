@@ -1,11 +1,8 @@
 CLASS gg net/minecraft/src/BlockSand
+	FIELD a fallInstantly Z
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 texIndex
-	METHOD a onBlockAdded (Lev;III)V
-	METHOD a onNeighborBlockChange (Lev;IIII)V
-	METHOD a updateTick (Lev;IIILjava/util/Random;)V
-	METHOD c tickRate ()I
 	METHOD g canFallBelow (Lev;III)Z
 		ARG 0 world
 		ARG 1 x
@@ -16,4 +13,3 @@ CLASS gg net/minecraft/src/BlockSand
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	FIELD a fallInstantly Z

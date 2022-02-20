@@ -1,5 +1,4 @@
 CLASS og net/minecraft/src/WorldGenHellLava
+	FIELD a hellLavaId I
 	METHOD <init> (I)V
 		ARG 1 id
-	METHOD a generate (Lev;Ljava/util/Random;III)Z
-	FIELD a hellLavaId I

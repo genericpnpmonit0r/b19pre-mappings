@@ -1,21 +1,11 @@
 CLASS lh net/minecraft/src/InventoryCrafting
+	FIELD a stackList [Lil;
+	FIELD b inventoryWidth I
+	FIELD c eventHandler Ldr;
 	METHOD <init> (Ldr;II)V
 		ARG 1 container
 		ARG 2 width
 		ARG 3 height
-	METHOD a getInventoryStackLimit ()I
-	METHOD a decrStackSize (II)Lil;
-	METHOD a setInventorySlotContents (ILil;)V
-	METHOD a canInteractWith (Lgj;)Z
 	METHOD b getStackInRowAndColumn (II)Lil;
 		ARG 1 row
 		ARG 2 col
-	METHOD b_ getStackInSlot (I)Lil;
-	METHOD c getSizeInventory ()I
-	METHOD e getInvName ()Ljava/lang/String;
-	METHOD g closeChest ()V
-	METHOD u_ onInventoryChanged ()V
-	METHOD v_ openChest ()V
-	FIELD a stackList [Lil;
-	FIELD b inventoryWidth I
-	FIELD c eventHandler Ldr;
