@@ -1,7 +1,5 @@
 CLASS adu net/minecraft/src/ItemRecord
+	FIELD a recordName Ljava/lang/String;
 	METHOD <init> (ILjava/lang/String;)V
 		ARG 1 id
 		ARG 2 recordName
-	METHOD a getRecord (Lwy;Ljava/util/List;)V
-	METHOD a onItemUse (Lwy;Lvj;Luc;IIII)Z
-	FIELD a recordName Ljava/lang/String;

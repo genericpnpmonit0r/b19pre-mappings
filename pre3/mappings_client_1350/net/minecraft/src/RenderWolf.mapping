@@ -1,4 +1,1 @@
 CLASS afu net/minecraft/src/RenderWolf
-	METHOD a doRender (Llu;DDDFF)V
-	METHOD a preRenderCallback (Lyv;F)V
-	METHOD d handleRotationFloat (Lyv;F)F

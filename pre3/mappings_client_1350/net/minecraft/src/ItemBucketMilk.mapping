@@ -1,5 +1,1 @@
 CLASS nf net/minecraft/src/ItemBucketMilk
-	METHOD a onItemRightClick (Lwy;Luc;Lvj;)Lwy;
-	METHOD b getMaxItemUseDuration (Lwy;)I
-	METHOD b onFoodEaten (Lwy;Luc;Lvj;)Lwy;
-	METHOD c getItemUseAction (Lwy;)Lxb;

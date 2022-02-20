@@ -1,4 +1,5 @@
 CLASS l net/minecraft/src/MinecraftAppletImpl
+	FIELD a mainFrame Lnet/minecraft/client/MinecraftApplet;
 	METHOD <init> (Lnet/minecraft/client/MinecraftApplet;Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
 		ARG 1 minecraftApplet2
 		ARG 2 component
@@ -7,5 +8,3 @@ CLASS l net/minecraft/src/MinecraftAppletImpl
 		ARG 5 width
 		ARG 6 height
 		ARG 7 fullscreen
-	METHOD a displayUnexpectedThrowable (Lht;)V
-	FIELD a mainFrame Lnet/minecraft/client/MinecraftApplet;

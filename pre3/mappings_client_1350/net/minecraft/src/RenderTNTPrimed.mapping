@@ -1,3 +1,2 @@
 CLASS aal net/minecraft/src/RenderTNTPrimed
-	METHOD a doRender (Llu;DDDFF)V
 	FIELD a blockRenderer Lsr;

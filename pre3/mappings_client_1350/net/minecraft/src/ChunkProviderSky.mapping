@@ -1,34 +1,4 @@
 CLASS ft net/minecraft/src/ChunkProviderSky
-	METHOD <init> (Luc;J)V
-		ARG 1 world
-		ARG 2 seed
-	METHOD a unload100OldestChunks ()Z
-	METHOD a chunkExists (II)Z
-	METHOD a generateTerrain (II[B[Lxw;)V
-		ARG 1 x
-		ARG 2 z
-		ARG 3 blocks
-		ARG 4 biomes
-	METHOD a populate (Lbi;II)V
-	METHOD a getPossibleCreatures (Lyn;III)Ljava/util/List;
-	METHOD a saveChunks (ZLpr;)Z
-	METHOD a initializeNoiseField ([DIIIIII)[D
-		ARG 1 noiseArray
-		ARG 2 offset1
-		ARG 3 offset2
-		ARG 4 offset3
-		ARG 5 x
-		ARG 6 y
-		ARG 7 z
-	METHOD b canSave ()Z
-	METHOD b provideChunk (II)Lyp;
-	METHOD b replaceBlocksForBiome (II[B[Lxw;)V
-		ARG 1 x
-		ARG 2 z
-		ARG 3 blocks
-		ARG 4 biomes
-	METHOD c makeString ()Ljava/lang/String;
-	METHOD c loadChunk (II)Lyp;
 	FIELD a noiseGen6 Lmt;
 	FIELD b noiseGen7 Lmt;
 	FIELD c noiseGen8 Lmt;
@@ -51,3 +21,24 @@ CLASS ft net/minecraft/src/ChunkProviderSky
 	FIELD t stoneNoise [D
 	FIELD u caveGenerator Lup;
 	FIELD v biomesForGeneration [Lxw;
+	METHOD <init> (Luc;J)V
+		ARG 1 world
+		ARG 2 seed
+	METHOD a generateTerrain (II[B[Lxw;)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+		ARG 4 biomes
+	METHOD a initializeNoiseField ([DIIIIII)[D
+		ARG 1 noiseArray
+		ARG 2 offset1
+		ARG 3 offset2
+		ARG 4 offset3
+		ARG 5 x
+		ARG 6 y
+		ARG 7 z
+	METHOD b replaceBlocksForBiome (II[B[Lxw;)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+		ARG 4 biomes

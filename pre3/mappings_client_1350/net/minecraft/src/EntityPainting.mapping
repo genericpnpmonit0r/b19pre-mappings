@@ -1,4 +1,10 @@
 CLASS kv net/minecraft/src/EntityPainting
+	FIELD a direction I
+	FIELD ao tickCounter1 I
+	FIELD b xPosition I
+	FIELD c yPosition I
+	FIELD d zPosition I
+	FIELD e art Lfn;
 	METHOD <init> (Luc;IIII)V
 		ARG 1 world
 		ARG 2 x
@@ -12,21 +18,7 @@ CLASS kv net/minecraft/src/EntityPainting
 		ARG 4 z
 		ARG 5 type
 		ARG 6 title
-	METHOD a attackEntityFrom (Lkn;I)Z
-	METHOD a readEntityFromNBT (Lzx;)V
-	METHOD b entityInit ()V
-	METHOD b moveEntity (DDD)V
 	METHOD b setDirection (I)V
 		ARG 1 direction
-	METHOD b writeEntityToNBT (Lzx;)V
-	METHOD b_ canBeCollidedWith ()Z
-	METHOD c addVelocity (DDD)V
 	METHOD c func_411_c (I)F
 	METHOD m canStay ()Z
-	METHOD z_ onUpdate ()V
-	FIELD a direction I
-	FIELD ao tickCounter1 I
-	FIELD b xPosition I
-	FIELD c yPosition I
-	FIELD d zPosition I
-	FIELD e art Lfn;

@@ -1,12 +1,10 @@
 CLASS zg net/minecraft/src/ComponentStrongholdLibrary
+	FIELD a randomDoor Lkp;
+	FIELD b lootArray [Lfa;
+	FIELD c ySizeCheck Z
 	METHOD <init> (ILjava/util/Random;Log;I)V
 		ARG 1 type
 		ARG 2 rand
 		ARG 3 boundingBox
 		ARG 4 coordBaseMode
-	METHOD a buildComponent (Lgd;Ljava/util/List;Ljava/util/Random;)V
 	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIIII)Lzg;
-	METHOD a addComponentParts (Luc;Ljava/util/Random;Log;)Z
-	FIELD a randomDoor Lkp;
-	FIELD b lootArray [Lfa;
-	FIELD c ySizeCheck Z

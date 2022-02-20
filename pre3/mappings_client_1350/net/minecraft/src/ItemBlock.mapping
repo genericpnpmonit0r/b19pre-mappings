@@ -1,6 +1,3 @@
 CLASS sl net/minecraft/src/ItemBlock
-	METHOD a getItemNameIS (Lwy;)Ljava/lang/String;
-	METHOD a onItemUse (Lwy;Lvj;Luc;IIII)Z
-	METHOD b getBlockID ()I
-	METHOD c getItemName ()Ljava/lang/String;
 	FIELD a blockID I
+	METHOD b getBlockID ()I

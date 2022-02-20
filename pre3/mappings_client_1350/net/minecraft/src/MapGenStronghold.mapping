@@ -1,6 +1,4 @@
 CLASS ul net/minecraft/src/MapGenStronghold
-	METHOD a canSpawnStructureAtCoords (II)Z
-	METHOD b getStructureStart (II)Lni;
 	FIELD a allowedBiomeGenBases [Lxw;
 	FIELD f ranBiomeCheck Z
 	FIELD g structureCoords [Lqd;

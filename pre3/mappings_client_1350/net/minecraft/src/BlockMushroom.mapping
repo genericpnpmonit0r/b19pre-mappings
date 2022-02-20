@@ -1,10 +1,7 @@
 CLASS adp net/minecraft/src/BlockMushroom
-	METHOD a updateTick (Luc;IIILjava/util/Random;)V
 	METHOD c func_35293_c (Luc;IIILjava/util/Random;)Z
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 rand
-	METHOD c_ canThisPlantGrowOnThisBlockID (I)Z
-	METHOD g canBlockStay (Luc;III)Z

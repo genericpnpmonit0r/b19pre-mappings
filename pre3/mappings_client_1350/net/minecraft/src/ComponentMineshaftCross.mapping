@@ -1,10 +1,11 @@
 CLASS it net/minecraft/src/ComponentMineshaftCross
+	FIELD a corridorDirection I
+	FIELD b isMultipleFloors Z
 	METHOD <init> (ILjava/util/Random;Log;I)V
 		ARG 1 type
 		ARG 2 rand
 		ARG 3 boundingBox
 		ARG 4 direction
-	METHOD a buildComponent (Lgd;Ljava/util/List;Ljava/util/Random;)V
 	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIII)Log;
 		ARG 0 components
 		ARG 1 rand
@@ -12,6 +13,3 @@ CLASS it net/minecraft/src/ComponentMineshaftCross
 		ARG 3 y
 		ARG 4 z
 		ARG 5 coordBaseMode
-	METHOD a addComponentParts (Luc;Ljava/util/Random;Log;)Z
-	FIELD a corridorDirection I
-	FIELD b isMultipleFloors Z

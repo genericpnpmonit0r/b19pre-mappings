@@ -1,5 +1,3 @@
 CLASS zn net/minecraft/src/J_FieldNodeContainer
-	METHOD a addField (Labi;)V
-	METHOD a addNode (Lyi;)V
 	FIELD a fieldBuilder Labi;
 	FIELD b field_27291_b Lyw;

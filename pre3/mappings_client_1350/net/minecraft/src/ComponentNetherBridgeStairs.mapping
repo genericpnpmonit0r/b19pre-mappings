@@ -4,6 +4,4 @@ CLASS zq net/minecraft/src/ComponentNetherBridgeStairs
 		ARG 2 rand
 		ARG 3 boundingBox
 		ARG 4 coordBaseMode
-	METHOD a buildComponent (Lgd;Ljava/util/List;Ljava/util/Random;)V
 	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lzq;
-	METHOD a addComponentParts (Luc;Ljava/util/Random;Log;)Z

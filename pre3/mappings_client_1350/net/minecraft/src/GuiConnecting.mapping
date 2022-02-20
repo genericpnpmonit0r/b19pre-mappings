@@ -1,15 +1,10 @@
 CLASS afk net/minecraft/src/GuiConnecting
+	FIELD a clientHandler Lzm;
+	FIELD b cancelled Z
 	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
 		ARG 1 minecraft
 		ARG 2 hostname
 		ARG 3 port
-	METHOD a initGui ()V
-	METHOD a keyTyped (CI)V
-	METHOD a drawScreen (IIF)V
 	METHOD a isCancelled (Lafk;)Z
 	METHOD a setNetClientHandler (Lafk;Lzm;)Lzm;
-	METHOD a actionPerformed (Lxy;)V
 	METHOD b getNetClientHandler (Lafk;)Lzm;
-	METHOD q_ updateScreen ()V
-	FIELD a clientHandler Lzm;
-	FIELD b cancelled Z

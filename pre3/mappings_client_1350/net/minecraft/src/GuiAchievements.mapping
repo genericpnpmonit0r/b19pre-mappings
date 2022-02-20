@@ -1,14 +1,4 @@
 CLASS pj net/minecraft/src/GuiAchievements
-	METHOD <init> (Lago;)V
-		ARG 1 statFileWriter
-	METHOD a initGui ()V
-	METHOD a keyTyped (CI)V
-	METHOD a drawScreen (IIF)V
-	METHOD a actionPerformed (Lxy;)V
-	METHOD b genAchievementBackground (IIF)V
-	METHOD c func_27110_k ()V
-	METHOD e doesGuiPauseGame ()Z
-	METHOD q_ updateScreen ()V
 	FIELD a achievementsPaneWidth I
 	FIELD b achievementsPaneHeight I
 	FIELD c mouseX I
@@ -25,3 +15,7 @@ CLASS pj net/minecraft/src/GuiAchievements
 	FIELD o guiMapRight I
 	FIELD w isMouseButtonDown I
 	FIELD x statFileWriter Lago;
+	METHOD <init> (Lago;)V
+		ARG 1 statFileWriter
+	METHOD b genAchievementBackground (IIF)V
+	METHOD c func_27110_k ()V

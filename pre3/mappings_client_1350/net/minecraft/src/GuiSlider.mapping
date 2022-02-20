@@ -1,4 +1,7 @@
 CLASS afl net/minecraft/src/GuiSlider
+	FIELD j sliderValue F
+	FIELD k dragging Z
+	FIELD l idFloat Lwb;
 	METHOD <init> (IIILwb;Ljava/lang/String;F)V
 		ARG 1 id
 		ARG 2 x
@@ -6,10 +9,3 @@ CLASS afl net/minecraft/src/GuiSlider
 		ARG 4 enumOptions
 		ARG 5 text
 		ARG 6 floatValue
-	METHOD a mouseReleased (II)V
-	METHOD a getHoverState (Z)I
-	METHOD b mouseDragged (Lnet/minecraft/client/Minecraft;II)V
-	METHOD c mousePressed (Lnet/minecraft/client/Minecraft;II)Z
-	FIELD j sliderValue F
-	FIELD k dragging Z
-	FIELD l idFloat Lwb;

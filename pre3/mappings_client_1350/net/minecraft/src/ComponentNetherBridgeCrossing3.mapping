@@ -8,6 +8,4 @@ CLASS kl net/minecraft/src/ComponentNetherBridgeCrossing3
 		ARG 1 rand
 		ARG 2 x
 		ARG 3 z
-	METHOD a buildComponent (Lgd;Ljava/util/List;Ljava/util/Random;)V
 	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lkl;
-	METHOD a addComponentParts (Luc;Ljava/util/Random;Log;)Z

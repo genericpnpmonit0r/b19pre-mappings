@@ -1,3 +1,1 @@
 CLASS agx net/minecraft/src/RenderSheep
-	METHOD a doRender (Llu;DDDFF)V
-	METHOD b shouldRenderPass (Lyv;IF)I

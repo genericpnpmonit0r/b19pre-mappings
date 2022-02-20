@@ -1,4 +1,55 @@
 CLASS uc net/minecraft/src/World
+	FIELD A chunkProvider Lbi;
+	FIELD B saveHandler Lagb;
+	FIELD C worldInfo Ltq;
+	FIELD D findingSpawnPoint Z
+	FIELD E mapStorage Lvn;
+	FIELD F spawnHostileMobs Z
+	FIELD G spawnPeacefulMobs Z
+	FIELD H lightUpdateBlockList [I
+	FIELD I multiplayerWorld Z
+	FIELD J prevTick D
+	FIELD K curTick D
+	FIELD L curTick2 D
+	FIELD M unloadedEntityList Ljava/util/List;
+	FIELD N scheduledTickTreeSet Ljava/util/TreeSet;
+	FIELD O scheduledTickSet Ljava/util/Set;
+	FIELD P addedTileEntityList Ljava/util/List;
+	FIELD Q entityRemoval Ljava/util/List;
+	FIELD R cloudColour J
+	FIELD S lockTimestamp J
+	FIELD T allPlayersSleeping Z
+	FIELD U collidingBoundingBoxes Ljava/util/ArrayList;
+	FIELD V scanningTileEntities Z
+	FIELD W positionsToUpdate Ljava/util/Set;
+	FIELD X soundCounter I
+	FIELD Y entityAABBExclusionList Ljava/util/List;
+	FIELD a worldYBits I
+	FIELD b worldXZBits I
+	FIELD c worldYmax I
+	FIELD d worldYMask I
+	FIELD e worldOceanHeight I
+	FIELD f scheduledUpdatesAreImmediate Z
+	FIELD g loadedEntityList Ljava/util/List;
+	FIELD h loadedTileEntityList Ljava/util/List;
+	FIELD i playerEntities Ljava/util/List;
+	FIELD j weatherEffects Ljava/util/List;
+	FIELD k skylightSubtracted I
+	FIELD l updateLCG I
+	FIELD m DIST_HASH_MAGIC I
+	FIELD n prevRainingStrength F
+	FIELD o rainingStrength F
+	FIELD p prevThunderingStrength F
+	FIELD q thunderingStrength F
+	FIELD r lastLightningBolt I
+	FIELD s lightningFlash I
+	FIELD t editingBlocks Z
+	FIELD u autosavePeriod I
+	FIELD v difficultySetting I
+	FIELD w rand Ljava/util/Random;
+	FIELD x isNewWorld Z
+	FIELD y worldProvider Lagk;
+	FIELD z worldAccesses Ljava/util/List;
 	METHOD <init> (Lagb;Ljava/lang/String;Lagk;Lem;)V
 		ARG 1 saveHandler
 		ARG 2 worldName
@@ -24,7 +75,6 @@ CLASS uc net/minecraft/src/World
 	METHOD F saveLevel ()V
 	METHOD G calculateInitialWeather ()V
 	METHOD H stopPrecipitation ()V
-	METHOD a getWorldChunkManager ()Lpn;
 	METHOD a getClosestPlayer (DDDD)Lvj;
 		ARG 1 x
 		ARG 3 y
@@ -42,8 +92,6 @@ CLASS uc net/minecraft/src/World
 	METHOD a getFirstUncoveredBlock (II)I
 		ARG 1 x
 		ARG 2 z
-	METHOD a getBlockId (III)I
-	METHOD a getBrightness (IIII)F
 	METHOD a scheduleBlockUpdate (IIIII)V
 		ARG 1 x
 		ARG 2 y
@@ -243,14 +291,11 @@ CLASS uc net/minecraft/src/World
 	METHOD a setAllowedMobSpawns (ZZ)V
 		ARG 1 hostileMobs
 		ARG 2 peacefulMobs
-	METHOD b getMaxHeight ()I
 	METHOD b calculateWeatherStrength (F)F
 		ARG 1 value
 	METHOD b getChunkFromBlockCoords (II)Lyp;
 		ARG 1 x
 		ARG 2 z
-	METHOD b getBlockTileEntity (III)Ljm;
-	METHOD b getLightBrightnessForSkyBlocks (IIII)I
 	METHOD b setBlockAndMetadata (IIIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -305,7 +350,6 @@ CLASS uc net/minecraft/src/World
 	METHOD c getChunkFromChunkCoords (II)Lyp;
 		ARG 1 x
 		ARG 2 z
-	METHOD c getLightBrightness (III)F
 	METHOD c setBlockMetadata (IIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -363,7 +407,6 @@ CLASS uc net/minecraft/src/World
 	METHOD e lightningFlashCheck (II)I
 		ARG 1 x
 		ARG 2 z
-	METHOD e getBlockMetadata (III)I
 	METHOD e doChunksNearChunkExist (IIII)Z
 		ARG 1 x
 		ARG 2 z
@@ -383,7 +426,6 @@ CLASS uc net/minecraft/src/World
 	METHOD f getTopSolidOrLiquidBlock (II)I
 		ARG 1 x
 		ARG 2 z
-	METHOD f getBlockMaterial (III)Lyr;
 	METHOD f setBlockMetadataWithNotify (IIII)V
 		ARG 1 x
 		ARG 2 y
@@ -403,7 +445,6 @@ CLASS uc net/minecraft/src/World
 	METHOD g chunkExists (II)Z
 		ARG 1 x
 		ARG 2 z
-	METHOD g isBlockOpaqueCube (III)Z
 	METHOD g setBlockWithNotify (IIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -414,7 +455,6 @@ CLASS uc net/minecraft/src/World
 	METHOD h updateWeather ()V
 	METHOD h getWeightedThunderStrength (F)F
 		ARG 1 thunderStrength
-	METHOD h isBlockNormalCube (III)Z
 	METHOD h notifyBlockChange (IIII)V
 		ARG 1 x
 		ARG 2 y
@@ -423,7 +463,6 @@ CLASS uc net/minecraft/src/World
 	METHOD i getInitialSpawnLocation ()V
 	METHOD i getRainStrength (F)F
 		ARG 1 rainStrength
-	METHOD i isAirBlock (III)Z
 	METHOD i markBlocksDirtyVertical (IIII)V
 		ARG 1 x
 		ARG 2 y
@@ -528,54 +567,3 @@ CLASS uc net/minecraft/src/World
 		ARG 3 seed3
 	METHOD y getWorldInfo ()Ltq;
 	METHOD z updateAllPlayersSleepingFlag ()V
-	FIELD A chunkProvider Lbi;
-	FIELD B saveHandler Lagb;
-	FIELD C worldInfo Ltq;
-	FIELD D findingSpawnPoint Z
-	FIELD E mapStorage Lvn;
-	FIELD F spawnHostileMobs Z
-	FIELD G spawnPeacefulMobs Z
-	FIELD H lightUpdateBlockList [I
-	FIELD I multiplayerWorld Z
-	FIELD J prevTick D
-	FIELD K curTick D
-	FIELD L curTick2 D
-	FIELD M unloadedEntityList Ljava/util/List;
-	FIELD N scheduledTickTreeSet Ljava/util/TreeSet;
-	FIELD O scheduledTickSet Ljava/util/Set;
-	FIELD P addedTileEntityList Ljava/util/List;
-	FIELD Q entityRemoval Ljava/util/List;
-	FIELD R cloudColour J
-	FIELD S lockTimestamp J
-	FIELD T allPlayersSleeping Z
-	FIELD U collidingBoundingBoxes Ljava/util/ArrayList;
-	FIELD V scanningTileEntities Z
-	FIELD W positionsToUpdate Ljava/util/Set;
-	FIELD X soundCounter I
-	FIELD Y entityAABBExclusionList Ljava/util/List;
-	FIELD a worldYBits I
-	FIELD b worldXZBits I
-	FIELD c worldYmax I
-	FIELD d worldYMask I
-	FIELD e worldOceanHeight I
-	FIELD f scheduledUpdatesAreImmediate Z
-	FIELD g loadedEntityList Ljava/util/List;
-	FIELD h loadedTileEntityList Ljava/util/List;
-	FIELD i playerEntities Ljava/util/List;
-	FIELD j weatherEffects Ljava/util/List;
-	FIELD k skylightSubtracted I
-	FIELD l updateLCG I
-	FIELD m DIST_HASH_MAGIC I
-	FIELD n prevRainingStrength F
-	FIELD o rainingStrength F
-	FIELD p prevThunderingStrength F
-	FIELD q thunderingStrength F
-	FIELD r lastLightningBolt I
-	FIELD s lightningFlash I
-	FIELD t editingBlocks Z
-	FIELD u autosavePeriod I
-	FIELD v difficultySetting I
-	FIELD w rand Ljava/util/Random;
-	FIELD x isNewWorld Z
-	FIELD y worldProvider Lagk;
-	FIELD z worldAccesses Ljava/util/List;

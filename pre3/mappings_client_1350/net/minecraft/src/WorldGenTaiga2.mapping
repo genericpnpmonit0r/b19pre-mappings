@@ -1,2 +1,1 @@
 CLASS oz net/minecraft/src/WorldGenTaiga2
-	METHOD a generate (Luc;Ljava/util/Random;III)Z

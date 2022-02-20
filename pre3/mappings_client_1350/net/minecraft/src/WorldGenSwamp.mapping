@@ -5,4 +5,3 @@ CLASS av net/minecraft/src/WorldGenSwamp
 		ARG 3 y
 		ARG 4 z
 		ARG 5 sideMeta
-	METHOD a generate (Luc;Ljava/util/Random;III)Z

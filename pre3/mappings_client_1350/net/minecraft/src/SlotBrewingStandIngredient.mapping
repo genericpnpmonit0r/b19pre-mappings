@@ -3,5 +3,3 @@ CLASS st net/minecraft/src/SlotBrewingStandIngredient
 	METHOD <init> (Lxa;Lhk;III)V
 		ARG 1 brewingStand
 		ARG 2 inventory
-	METHOD a getSlotStackLimit ()I
-	METHOD a isItemValid (Lwy;)Z

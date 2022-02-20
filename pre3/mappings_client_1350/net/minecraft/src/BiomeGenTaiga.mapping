@@ -1,2 +1,1 @@
 CLASS qj net/minecraft/src/BiomeGenTaiga
-	METHOD a getRandomWorldGenForTrees (Ljava/util/Random;)Ljv;

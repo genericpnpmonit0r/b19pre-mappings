@@ -1,32 +1,4 @@
 CLASS aby net/minecraft/src/ChunkProviderHell
-	METHOD <init> (Luc;J)V
-		ARG 1 world
-		ARG 2 seed
-	METHOD a unload100OldestChunks ()Z
-	METHOD a chunkExists (II)Z
-	METHOD a generateNetherTerrain (II[B)V
-		ARG 1 x
-		ARG 2 z
-		ARG 3 blocks
-	METHOD a populate (Lbi;II)V
-	METHOD a getPossibleCreatures (Lyn;III)Ljava/util/List;
-	METHOD a saveChunks (ZLpr;)Z
-	METHOD a initializeNoiseField ([DIIIIII)[D
-		ARG 1 noiseArray
-		ARG 2 offset1
-		ARG 3 offset2
-		ARG 4 offset3
-		ARG 5 x
-		ARG 6 y
-		ARG 7 z
-	METHOD b canSave ()Z
-	METHOD b provideChunk (II)Lyp;
-	METHOD b replaceBlocksForBiome (II[B)V
-		ARG 1 x
-		ARG 2 z
-		ARG 3 blocks
-	METHOD c makeString ()Ljava/lang/String;
-	METHOD c loadChunk (II)Lyp;
 	FIELD a noiseGen6 Lmt;
 	FIELD b noiseGen7 Lmt;
 	FIELD c netherFortressGenerator Lye;
@@ -47,3 +19,22 @@ CLASS aby net/minecraft/src/ChunkProviderHell
 	FIELD r gravelNoise [D
 	FIELD s netherrackExclusivityNoise [D
 	FIELD t caveGenerator Lup;
+	METHOD <init> (Luc;J)V
+		ARG 1 world
+		ARG 2 seed
+	METHOD a generateNetherTerrain (II[B)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+	METHOD a initializeNoiseField ([DIIIIII)[D
+		ARG 1 noiseArray
+		ARG 2 offset1
+		ARG 3 offset2
+		ARG 4 offset3
+		ARG 5 x
+		ARG 6 y
+		ARG 7 z
+	METHOD b replaceBlocksForBiome (II[B)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks

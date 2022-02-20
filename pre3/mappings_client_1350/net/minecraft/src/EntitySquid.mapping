@@ -1,18 +1,4 @@
 CLASS agu net/minecraft/src/EntitySquid
-	METHOD C isInWater ()Z
-	METHOD a readEntityFromNBT (Lzx;)V
-	METHOD a dropFewItems (Z)V
-	METHOD a_ moveEntityWithHeading (FF)V
-	METHOD b interact (Lvj;)Z
-	METHOD b writeEntityToNBT (Lzx;)V
-	METHOD c getMaxHealth ()I
-	METHOD d onLivingUpdate ()V
-	METHOD e getDropItemId ()I
-	METHOD l getLivingSound ()Ljava/lang/String;
-	METHOD m getHurtSound ()Ljava/lang/String;
-	METHOD m_ updateEntityActionState ()V
-	METHOD n getDeathSound ()Ljava/lang/String;
-	METHOD s_ getSoundVolume ()F
 	FIELD a squidPitch F
 	FIELD ao field_21084_h F
 	FIELD ap tentacleAngle F

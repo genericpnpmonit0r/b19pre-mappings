@@ -1,9 +1,7 @@
 CLASS ahp net/minecraft/src/SlotCrafting
+	FIELD a craftMatrix Lhk;
+	FIELD f thePlayer Lvj;
 	METHOD <init> (Lvj;Lhk;Lhk;III)V
 		ARG 1 player
 		ARG 2 craftingGrid
 		ARG 3 inventory
-	METHOD a isItemValid (Lwy;)Z
-	METHOD b onPickupFromSlot (Lwy;)V
-	FIELD a craftMatrix Lhk;
-	FIELD f thePlayer Lvj;

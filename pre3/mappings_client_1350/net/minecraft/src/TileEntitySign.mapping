@@ -1,6 +1,4 @@
 CLASS px net/minecraft/src/TileEntitySign
-	METHOD a readFromNBT (Lzx;)V
-	METHOD b writeToNBT (Lzx;)V
 	FIELD a signText [Ljava/lang/String;
 	FIELD b lineBeingEdited I
 	FIELD c isEditable Z

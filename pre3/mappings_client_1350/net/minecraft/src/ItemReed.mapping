@@ -1,6 +1,5 @@
 CLASS yx net/minecraft/src/ItemReed
+	FIELD a spawnID I
 	METHOD <init> (ILnd;)V
 		ARG 1 id
 		ARG 2 block
-	METHOD a onItemUse (Lwy;Lvj;Luc;IIII)Z
-	FIELD a spawnID I

@@ -1,6 +1,4 @@
 CLASS zr net/minecraft/src/ModelSlime
-	METHOD a setRotationAngles (FFFFFF)V
-	METHOD a render (Llu;FFFFFF)V
 	FIELD a slimeBodies Lon;
 	FIELD b slimeRightEye Lon;
 	FIELD c slimeLeftEye Lon;

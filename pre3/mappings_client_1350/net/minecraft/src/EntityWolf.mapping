@@ -1,49 +1,4 @@
 CLASS vc net/minecraft/src/EntityWolf
-	METHOD D getEyeHeight ()F
-	METHOD G getEntityTexture ()Ljava/lang/String;
-	METHOD U getMaxSpawnedInChunk ()I
-	METHOD W getWolfShaking ()Z
-	METHOD Y isMovementCeased ()Z
-	METHOD Z setTailRotation ()F
-	METHOD a handleHealthUpdate (B)V
-	METHOD a createChild (Lau;)Lau;
-	METHOD a setOwner (Ljava/lang/String;)V
-		ARG 1 ownerName
-	METHOD a attackEntityFrom (Lkn;I)Z
-	METHOD a attackEntity (Llu;F)V
-	METHOD a readEntityFromNBT (Lzx;)V
-	METHOD a_ canDespawn ()Z
-	METHOD aa getWolfOwner ()Ljava/lang/String;
-	METHOD ab isWolfSitting ()Z
-	METHOD ac isWolfAngry ()Z
-	METHOD ad isWolfTamed ()Z
-	METHOD b entityInit ()V
-	METHOD b interact (Lvj;)Z
-	METHOD b writeEntityToNBT (Lzx;)V
-	METHOD b showHeartsOrSmokeFX (Z)V
-		ARG 1 fxFlag
-	METHOD c getMaxHealth ()I
-	METHOD c getPathOrWalkableBlock (Llu;F)V
-	METHOD d onLivingUpdate ()V
-	METHOD d getShadingWhileShaking (F)F
-	METHOD d getShakeAngle (FF)F
-	METHOD d_ canTriggerWalking ()Z
-	METHOD e getDropItemId ()I
-	METHOD e getInterestedAngle (F)F
-	METHOD e setIsSitting (Z)V
-		ARG 1 sittingFlag
-	METHOD f findPlayerToAttack ()Llu;
-	METHOD f setWolfAngry (Z)V
-		ARG 1 angryFlag
-	METHOD g setIsTamed (Z)V
-		ARG 1 tamedFlag
-	METHOD l getLivingSound ()Ljava/lang/String;
-	METHOD m getHurtSound ()Ljava/lang/String;
-	METHOD m_ updateEntityActionState ()V
-	METHOD n getDeathSound ()Ljava/lang/String;
-	METHOD s_ getSoundVolume ()F
-	METHOD x_ getVerticalFaceSpeed ()I
-	METHOD z_ onUpdate ()V
 	FIELD a looksWithInterest Z
 	FIELD ao timeWolfIsShaking F
 	FIELD ap prevTimeWolfIsShaking F
@@ -51,3 +6,23 @@ CLASS vc net/minecraft/src/EntityWolf
 	FIELD c field_25054_c F
 	FIELD d isWolfShaking Z
 	FIELD e sitting Z
+	METHOD W getWolfShaking ()Z
+	METHOD Z setTailRotation ()F
+	METHOD a setOwner (Ljava/lang/String;)V
+		ARG 1 ownerName
+	METHOD aa getWolfOwner ()Ljava/lang/String;
+	METHOD ab isWolfSitting ()Z
+	METHOD ac isWolfAngry ()Z
+	METHOD ad isWolfTamed ()Z
+	METHOD b showHeartsOrSmokeFX (Z)V
+		ARG 1 fxFlag
+	METHOD c getPathOrWalkableBlock (Llu;F)V
+	METHOD d getShadingWhileShaking (F)F
+	METHOD d getShakeAngle (FF)F
+	METHOD e getInterestedAngle (F)F
+	METHOD e setIsSitting (Z)V
+		ARG 1 sittingFlag
+	METHOD f setWolfAngry (Z)V
+		ARG 1 angryFlag
+	METHOD g setIsTamed (Z)V
+		ARG 1 tamedFlag

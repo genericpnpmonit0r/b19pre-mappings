@@ -1,8 +1,4 @@
 CLASS ue net/minecraft/src/ModelBiped
-	METHOD a renderEars (F)V
-	METHOD a setRotationAngles (FFFFFF)V
-	METHOD a render (Llu;FFFFFF)V
-	METHOD b renderCloak (F)V
 	FIELD c bipedHead Lon;
 	FIELD d bipedHeadwear Lon;
 	FIELD e bipedBody Lon;
@@ -16,3 +12,5 @@ CLASS ue net/minecraft/src/ModelBiped
 	FIELD q heldItemRight I
 	FIELD r isSneak Z
 	FIELD s aimingBow Z
+	METHOD a renderEars (F)V
+	METHOD b renderCloak (F)V

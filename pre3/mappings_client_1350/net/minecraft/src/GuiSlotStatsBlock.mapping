@@ -1,5 +1,2 @@
 CLASS dv net/minecraft/src/GuiSlotStatsBlock
-	METHOD a func_27263_a (I)Ljava/lang/String;
-	METHOD a drawSlot (IIIILaaa;)V
-	METHOD a func_27260_a (IILaaa;)V
 	FIELD a field_27274_a Lcm;

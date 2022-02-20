@@ -2,17 +2,6 @@ CLASS ga net/minecraft/src/BlockSnow
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 texIndex
-	METHOD a isOpaqueCube ()Z
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a setBlockBoundsBasedOnState (Lagr;III)V
-	METHOD a shouldSideBeRendered (Lagr;IIII)Z
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD a onNeighborBlockChange (Luc;IIII)V
-	METHOD a updateTick (Luc;IIILjava/util/Random;)V
-	METHOD a harvestBlock (Luc;Lvj;IIII)V
-	METHOD b renderAsNormalBlock ()Z
-	METHOD c getCollisionBoundingBoxFromPool (Luc;III)Ltu;
-	METHOD e canPlaceBlockAt (Luc;III)Z
 	METHOD h canSnowStay (Luc;III)Z
 		ARG 1 world
 		ARG 2 x

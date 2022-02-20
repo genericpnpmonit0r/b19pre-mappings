@@ -1,28 +1,12 @@
 CLASS rx net/minecraft/src/BlockPressurePlate
+	FIELD a triggerMobType Lacr;
 	METHOD <init> (IILacr;Lyr;)V
 		ARG 1 id
 		ARG 2 texIndex
 		ARG 3 mobType
 		ARG 4 material
-	METHOD a isOpaqueCube ()Z
-	METHOD a setBlockBoundsBasedOnState (Lagr;III)V
-	METHOD a onBlockAdded (Luc;III)V
-	METHOD a onNeighborBlockChange (Luc;IIII)V
-	METHOD a updateTick (Luc;IIILjava/util/Random;)V
-	METHOD a onEntityCollidedWithBlock (Luc;IIILlu;)V
-	METHOD b renderAsNormalBlock ()Z
-	METHOD b isPoweringTo (Lagr;IIII)Z
-	METHOD b_ onBlockRemoval (Luc;III)V
-	METHOD c getCollisionBoundingBoxFromPool (Luc;III)Ltu;
-	METHOD e getMobilityFlag ()I
-	METHOD e canPlaceBlockAt (Luc;III)Z
-	METHOD e isIndirectlyPoweringTo (Luc;IIII)Z
-	METHOD f tickRate ()I
-	METHOD g canProvidePower ()Z
-	METHOD h setBlockBoundsForItemRender ()V
 	METHOD h setStateIfMobInteractsWithPlate (Luc;III)V
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	FIELD a triggerMobType Lacr;

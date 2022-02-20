@@ -1,4 +1,1 @@
 CLASS fs net/minecraft/src/BlockDeadBush
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD c_ canThisPlantGrowOnThisBlockID (I)Z

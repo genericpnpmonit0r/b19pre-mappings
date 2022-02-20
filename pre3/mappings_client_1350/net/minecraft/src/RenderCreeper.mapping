@@ -1,6 +1,2 @@
 CLASS qp net/minecraft/src/RenderCreeper
-	METHOD a preRenderCallback (Lyv;F)V
-	METHOD a getColorMultiplier (Lyv;FF)I
-	METHOD a inheritRenderPass (Lyv;IF)I
-	METHOD b shouldRenderPass (Lyv;IF)I
 	FIELD c field_27008_a Lgm;

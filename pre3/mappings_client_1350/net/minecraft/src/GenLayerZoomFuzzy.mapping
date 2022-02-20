@@ -6,7 +6,6 @@ CLASS aga net/minecraft/src/GenLayerZoomFuzzy
 		COMMENT randomly choose between the two arguments
 		ARG 1 input1
 		ARG 2 input2
-	METHOD a getInts (IIII)[I
 	METHOD b choose (IIII)I
 		COMMENT randomly choose between the four arguments
 		ARG 1 input1

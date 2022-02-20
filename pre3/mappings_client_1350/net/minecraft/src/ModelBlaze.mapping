@@ -1,6 +1,4 @@
 CLASS afq net/minecraft/src/ModelBlaze
-	METHOD a getStickCount ()I
-	METHOD a setRotationAngles (FFFFFF)V
-	METHOD a render (Llu;FFFFFF)V
 	FIELD a blazeSticks [Lon;
 	FIELD b head Lon;
+	METHOD a getStickCount ()I

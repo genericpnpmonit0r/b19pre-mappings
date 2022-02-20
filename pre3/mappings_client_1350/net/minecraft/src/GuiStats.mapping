@@ -1,17 +1,22 @@
 CLASS cm net/minecraft/src/GuiStats
+	FIELD a parentGui Lsv;
+	FIELD b statsTitle Ljava/lang/String;
+	FIELD c renderItem Lrk;
+	FIELD d slotGeneral Llz;
+	FIELD e slotItem Lbg;
+	FIELD f slotBlock Ldv;
+	FIELD h statFileWriter Lago;
+	FIELD i selectedSlot Lhb;
 	METHOD <init> (Lsv;Lago;)V
 		ARG 1 screen
 		ARG 2 statfilewriter
-	METHOD a initGui ()V
 	METHOD a drawButtonBackground (II)V
 		ARG 1 x
 		ARG 2 y
-	METHOD a drawScreen (IIF)V
 	METHOD a getMinecraft (Lcm;)Lnet/minecraft/client/Minecraft;
 	METHOD a drawItemSprite (Lcm;III)V
 	METHOD a drawSprite (Lcm;IIII)V
 	METHOD a drawGradientRect (Lcm;IIIIII)V
-	METHOD a actionPerformed (Lxy;)V
 	METHOD b addHeaderButtons ()V
 	METHOD b getFontRenderer1 (Lcm;)Lls;
 	METHOD b drawGradientRect1 (Lcm;IIIIII)V
@@ -37,11 +42,3 @@ CLASS cm net/minecraft/src/GuiStats
 	METHOD m getFontRenderer9 (Lcm;)Lls;
 	METHOD n getFontRenderer10 (Lcm;)Lls;
 	METHOD o getFontRenderer11 (Lcm;)Lls;
-	FIELD a parentGui Lsv;
-	FIELD b statsTitle Ljava/lang/String;
-	FIELD c renderItem Lrk;
-	FIELD d slotGeneral Llz;
-	FIELD e slotItem Lbg;
-	FIELD f slotBlock Ldv;
-	FIELD h statFileWriter Lago;
-	FIELD i selectedSlot Lhb;

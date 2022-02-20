@@ -1,3 +1,2 @@
 CLASS jy net/minecraft/src/TileEntitySignRenderer
-	METHOD a renderTileEntityAt (Ljm;DDDF)V
 	FIELD b signModel Laci;

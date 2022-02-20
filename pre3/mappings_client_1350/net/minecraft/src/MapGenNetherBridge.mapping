@@ -1,5 +1,3 @@
 CLASS ye net/minecraft/src/MapGenNetherBridge
-	METHOD a getSpawnList ()Ljava/util/List;
-	METHOD a canSpawnStructureAtCoords (II)Z
-	METHOD b getStructureStart (II)Lni;
 	FIELD a spawnList Ljava/util/List;
+	METHOD a getSpawnList ()Ljava/util/List;

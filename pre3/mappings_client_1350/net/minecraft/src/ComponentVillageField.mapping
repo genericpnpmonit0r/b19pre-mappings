@@ -1,10 +1,8 @@
 CLASS j net/minecraft/src/ComponentVillageField
+	FIELD a averageGroundLevel I
 	METHOD <init> (ILjava/util/Random;Log;I)V
 		ARG 1 type
 		ARG 2 rand
 		ARG 3 boundingBox
 		ARG 4 coordBaseMode
-	METHOD a buildComponent (Lgd;Ljava/util/List;Ljava/util/Random;)V
 	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lj;
-	METHOD a addComponentParts (Luc;Ljava/util/Random;Log;)Z
-	FIELD a averageGroundLevel I

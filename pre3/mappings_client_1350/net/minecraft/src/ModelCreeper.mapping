@@ -1,6 +1,4 @@
 CLASS fi net/minecraft/src/ModelCreeper
-	METHOD a setRotationAngles (FFFFFF)V
-	METHOD a render (Llu;FFFFFF)V
 	FIELD a head Lon;
 	FIELD b unusedCreeperHeadwear Lon;
 	FIELD c body Lon;

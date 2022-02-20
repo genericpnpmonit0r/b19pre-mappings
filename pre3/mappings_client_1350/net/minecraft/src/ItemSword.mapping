@@ -1,11 +1,2 @@
 CLASS ki net/minecraft/src/ItemSword
-	METHOD a isFull3D ()Z
-	METHOD a getDamageVsEntity (Llu;)I
-	METHOD a canHarvestBlock (Lnd;)Z
-	METHOD a onBlockDestroyed (Lwy;IIIILyv;)Z
-	METHOD a getStrVsBlock (Lwy;Lnd;)F
-	METHOD a onItemRightClick (Lwy;Luc;Lvj;)Lwy;
-	METHOD a hitEntity (Lwy;Lyv;Lyv;)Z
-	METHOD b getMaxItemUseDuration (Lwy;)I
-	METHOD c getItemUseAction (Lwy;)Lxb;
 	FIELD a weaponDamage I

@@ -3,8 +3,3 @@ CLASS qg net/minecraft/src/GuiEnchantment
 	FIELD w enchBook Ljx;
 	FIELD x rand Ljava/util/Random;
 	FIELD y enchContainer Lfl;
-	METHOD a drawGuiContainerBackgroundLayer (FII)V
-	METHOD a mouseClicked (III)V
-	METHOD c drawGuiContainerForegroundLayer ()V
-	METHOD d onGuiClosed ()V
-	METHOD q_ updateScreen ()V

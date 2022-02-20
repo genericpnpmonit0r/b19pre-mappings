@@ -1,3 +1,1 @@
 CLASS hq net/minecraft/src/RenderPig
-	METHOD a doRender (Llu;DDDFF)V
-	METHOD b shouldRenderPass (Lyv;IF)I

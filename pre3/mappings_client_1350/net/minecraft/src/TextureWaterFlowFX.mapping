@@ -1,5 +1,4 @@
 CLASS aaj net/minecraft/src/TextureWaterFlowFX
-	METHOD a onTick ()V
 	FIELD a red [F
 	FIELD b green [F
 	FIELD c blue [F

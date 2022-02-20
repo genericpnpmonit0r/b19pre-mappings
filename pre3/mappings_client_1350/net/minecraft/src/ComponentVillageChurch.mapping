@@ -1,11 +1,10 @@
 CLASS aar net/minecraft/src/ComponentVillageChurch
+	FIELD a averageGroundLevel I
 	METHOD <init> (ILjava/util/Random;Log;I)V
 		ARG 1 type
 		ARG 2 rand
 		ARG 3 boundingBox
 		ARG 4 coordBaseMode
-	METHOD a getVillagerType (I)I
-	METHOD a buildComponent (Lgd;Ljava/util/List;Ljava/util/Random;)V
 	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Laar;
 		ARG 0 pieces
 		ARG 1 rand
@@ -14,5 +13,3 @@ CLASS aar net/minecraft/src/ComponentVillageChurch
 		ARG 4 z
 		ARG 5 type
 		ARG 6 m
-	METHOD a addComponentParts (Luc;Ljava/util/Random;Log;)Z
-	FIELD a averageGroundLevel I

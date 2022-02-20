@@ -1,7 +1,3 @@
 CLASS fb net/minecraft/src/EntityDropParticleFX
-	METHOD a getEntityBrightness (F)F
-	METHOD a renderParticle (Laaa;FFFFFF)V
-	METHOD b getEntityBrightnessForRender (F)I
-	METHOD z_ onUpdate ()V
 	FIELD a field_40103_a Lyr;
 	FIELD ax field_40104_aw I

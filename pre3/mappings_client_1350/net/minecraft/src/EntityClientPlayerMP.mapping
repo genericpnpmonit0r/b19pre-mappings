@@ -1,21 +1,4 @@
 CLASS adn net/minecraft/src/EntityClientPlayerMP
-	METHOD W closeScreen ()V
-	METHOD Y respawnPlayer ()V
-	METHOD a addStat (Lafi;I)V
-	METHOD a joinEntityItemWithWorld (Let;)V
-	METHOD a sendChatMessage (Ljava/lang/String;)V
-	METHOD a attackEntityFrom (Lkn;I)Z
-	METHOD aK onUpdate2 ()V
-	METHOD aL sendInventoryChanged ()V
-	METHOD aj dropCurrentItem ()V
-	METHOD ao swingItem ()V
-	METHOD b setHealth (I)V
-	METHOD b addStat2 (Lafi;I)V
-		ARG 1 statBase
-		ARG 2 id
-	METHOD b damageEntity (Lkn;I)V
-	METHOD g heal (I)V
-	METHOD z_ onUpdate ()V
 	FIELD cg sendQueue Lzm;
 	FIELD ch inventoryUpdateTickCounter I
 	FIELD ci updateHealth Z
@@ -29,3 +12,8 @@ CLASS adn net/minecraft/src/EntityClientPlayerMP
 	FIELD cq sneaking Z
 	FIELD cr wasSneaking Z
 	FIELD cs ticker I
+	METHOD aK onUpdate2 ()V
+	METHOD aL sendInventoryChanged ()V
+	METHOD b addStat2 (Lafi;I)V
+		ARG 1 statBase
+		ARG 2 id

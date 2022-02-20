@@ -1,4 +1,1 @@
 CLASS oa net/minecraft/src/EntitySmallFireball
-	METHOD a attackEntityFrom (Lkn;I)Z
-	METHOD a collideOn (Lnm;)V
-	METHOD b_ canBeCollidedWith ()Z

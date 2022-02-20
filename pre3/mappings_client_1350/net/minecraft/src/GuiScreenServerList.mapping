@@ -1,14 +1,7 @@
 CLASS zb net/minecraft/src/GuiScreenServerList
-	METHOD <init> (Lsv;Lmg;)V
-		ARG 1 screen
-		ARG 2 serverNBTStorage
-	METHOD a initGui ()V
-	METHOD a keyTyped (CI)V
-	METHOD a drawScreen (IIF)V
-	METHOD a mouseClicked (III)V
-	METHOD a actionPerformed (Lxy;)V
-	METHOD d onGuiClosed ()V
-	METHOD q_ updateScreen ()V
 	FIELD a guiScreen Lsv;
 	FIELD b serverTextField Laco;
 	FIELD c serverStorage Lmg;
+	METHOD <init> (Lsv;Lmg;)V
+		ARG 1 screen
+		ARG 2 serverNBTStorage

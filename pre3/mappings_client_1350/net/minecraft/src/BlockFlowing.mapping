@@ -1,6 +1,7 @@
 CLASS ji net/minecraft/src/BlockFlowing
-	METHOD a onBlockAdded (Luc;III)V
-	METHOD a updateTick (Luc;IIILjava/util/Random;)V
+	FIELD a numAdjacentSources I
+	FIELD b isOptimalFlowDirection [Z
+	FIELD c flowCost [I
 	METHOD b calculateFlowCost (Luc;IIIII)I
 		ARG 1 world
 		ARG 2 x
@@ -40,6 +41,3 @@ CLASS ji net/minecraft/src/BlockFlowing
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	FIELD a numAdjacentSources I
-	FIELD b isOptimalFlowDirection [Z
-	FIELD c flowCost [I

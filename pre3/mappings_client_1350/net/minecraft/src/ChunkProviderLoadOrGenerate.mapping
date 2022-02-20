@@ -1,26 +1,4 @@
 CLASS gt net/minecraft/src/ChunkProviderLoadOrGenerate
-	METHOD a unload100OldestChunks ()Z
-	METHOD a chunkExists (II)Z
-	METHOD a populate (Lbi;II)V
-	METHOD a getPossibleCreatures (Lyn;III)Ljava/util/List;
-	METHOD a saveExtraChunkData (Lyp;)V
-		ARG 1 chunk
-	METHOD a saveChunks (ZLpr;)Z
-	METHOD b canSave ()Z
-	METHOD b provideChunk (II)Lyp;
-	METHOD b saveChunk (Lyp;)V
-		ARG 1 chunk
-	METHOD c makeString ()Ljava/lang/String;
-	METHOD c loadChunk (II)Lyp;
-	METHOD d setCurrentChunkOver (II)V
-		ARG 1 x
-		ARG 2 z
-	METHOD e canChunkExist (II)Z
-		ARG 1 x
-		ARG 2 z
-	METHOD f getBlankChunk (II)Lyp;
-		ARG 1 x
-		ARG 2 z
 	FIELD a lastQueriedChunkXPos I
 	FIELD b lastQueriedChunkZPos I
 	FIELD c blankChunk Lyp;
@@ -31,3 +9,16 @@ CLASS gt net/minecraft/src/ChunkProviderLoadOrGenerate
 	FIELD h lastQueriedChunk Lyp;
 	FIELD i curChunkX I
 	FIELD j curChunkY I
+	METHOD a saveExtraChunkData (Lyp;)V
+		ARG 1 chunk
+	METHOD b saveChunk (Lyp;)V
+		ARG 1 chunk
+	METHOD d setCurrentChunkOver (II)V
+		ARG 1 x
+		ARG 2 z
+	METHOD e canChunkExist (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD f getBlankChunk (II)Lyp;
+		ARG 1 x
+		ARG 2 z

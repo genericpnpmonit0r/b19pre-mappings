@@ -1,5 +1,1 @@
 CLASS tv net/minecraft/src/RenderSquid
-	METHOD a doRender (Llu;DDDFF)V
-	METHOD a preRenderCallback (Lyv;F)V
-	METHOD a rotateCorpse (Lyv;FFF)V
-	METHOD d handleRotationFloat (Lyv;F)F

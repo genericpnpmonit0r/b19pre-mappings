@@ -1,9 +1,7 @@
 CLASS fz net/minecraft/src/BlockBreakable
+	FIELD a localFlag Z
 	METHOD <init> (IILyr;Z)V
 		ARG 1 id
 		ARG 2 texIndex
 		ARG 3 material
 		ARG 4 breakable
-	METHOD a isOpaqueCube ()Z
-	METHOD a shouldSideBeRendered (Lagr;IIII)Z
-	FIELD a localFlag Z

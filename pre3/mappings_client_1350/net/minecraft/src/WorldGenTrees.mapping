@@ -1,2 +1,1 @@
 CLASS pw net/minecraft/src/WorldGenTrees
-	METHOD a generate (Luc;Ljava/util/Random;III)Z

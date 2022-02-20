@@ -1,2 +1,1 @@
 CLASS ay net/minecraft/src/StatTypeDistance
-	METHOD a format (I)Ljava/lang/String;

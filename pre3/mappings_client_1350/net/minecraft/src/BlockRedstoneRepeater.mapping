@@ -1,31 +1,13 @@
 CLASS ov net/minecraft/src/BlockRedstoneRepeater
+	FIELD a repeaterTorchOffset [D
+	FIELD b repeaterState [I
+	FIELD c isRepeaterPowered Z
 	METHOD <init> (IZ)V
 		ARG 1 id
 		ARG 2 powered
-	METHOD a isOpaqueCube ()Z
-	METHOD a getBlockTextureFromSide (I)I
-	METHOD a getBlockTextureFromSideAndMetadata (II)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a shouldSideBeRendered (Lagr;IIII)Z
-	METHOD a onBlockAdded (Luc;III)V
-	METHOD a onNeighborBlockChange (Luc;IIII)V
-	METHOD a updateTick (Luc;IIILjava/util/Random;)V
-	METHOD a onBlockPlacedBy (Luc;IIILyv;)V
-	METHOD b renderAsNormalBlock ()Z
-	METHOD b isPoweringTo (Lagr;IIII)Z
-	METHOD b randomDisplayTick (Luc;IIILjava/util/Random;)V
-	METHOD b blockActivated (Luc;IIILvj;)Z
-	METHOD d getRenderType ()I
-	METHOD e canPlaceBlockAt (Luc;III)Z
-	METHOD e isIndirectlyPoweringTo (Luc;IIII)Z
 	METHOD f ignoreTick (Luc;IIII)Z
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 meta
-	METHOD g canProvidePower ()Z
-	METHOD g canBlockStay (Luc;III)Z
-	FIELD a repeaterTorchOffset [D
-	FIELD b repeaterState [I
-	FIELD c isRepeaterPowered Z

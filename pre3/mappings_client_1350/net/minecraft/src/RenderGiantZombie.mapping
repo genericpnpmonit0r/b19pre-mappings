@@ -1,3 +1,2 @@
 CLASS ahe net/minecraft/src/RenderGiantZombie
-	METHOD a preRenderCallback (Lyv;F)V
 	FIELD c scale F

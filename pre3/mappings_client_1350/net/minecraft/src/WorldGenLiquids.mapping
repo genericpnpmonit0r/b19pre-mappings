@@ -1,5 +1,4 @@
 CLASS pk net/minecraft/src/WorldGenLiquids
+	FIELD a liquidBlockId I
 	METHOD <init> (I)V
 		ARG 1 id
-	METHOD a generate (Luc;Ljava/util/Random;III)Z
-	FIELD a liquidBlockId I

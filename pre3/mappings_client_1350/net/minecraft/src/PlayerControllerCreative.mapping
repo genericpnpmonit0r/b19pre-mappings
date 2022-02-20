@@ -1,6 +1,5 @@
 CLASS abc net/minecraft/src/PlayerControllerCreative
-	METHOD a resetBlockRemoving ()V
-	METHOD a clickBlock (IIII)V
+	FIELD c blockClickTimer I
 	METHOD a sendRemoveBlock (Lnet/minecraft/client/Minecraft;Liz;IIII)V
 		ARG 0 minecraft
 		ARG 1 playerController
@@ -8,17 +7,7 @@ CLASS abc net/minecraft/src/PlayerControllerCreative
 		ARG 3 y
 		ARG 4 z
 		ARG 5 side
-	METHOD a onWorldChange (Luc;)V
-	METHOD a sendPlaceBlock (Lvj;Luc;Lwy;IIII)Z
-	METHOD b getBlockReachDistance ()F
-	METHOD b fillInventory (Lvj;)V
-	METHOD c sendBlockRemoving (IIII)V
-	METHOD d shouldDrawHUD ()Z
 	METHOD d setCapabilities (Lvj;)V
 		ARG 0 player
 	METHOD e resetCapabilities (Lvj;)V
 		ARG 0 player
-	METHOD g getGamemode ()Z
-	METHOD h isInCreativeMode ()Z
-	METHOD i extendedReach ()Z
-	FIELD c blockClickTimer I

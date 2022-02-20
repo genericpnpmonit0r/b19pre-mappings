@@ -51,20 +51,13 @@ CLASS i net/minecraft/src/RenderGlobal
 	METHOD a renderSky (F)V
 	METHOD a renderAllRenderLists (ID)V
 	METHOD a checkOcclusionQueryResult (II)V
-	METHOD a markBlockAndNeighborsNeedsUpdate (III)V
 	METHOD a renderSortedRenderers (IIID)I
 	METHOD a markBlocksForUpdate (IIIIII)V
-	METHOD a doNothingWithTileEntity (IIILjm;)V
 	METHOD a clipRenderersByFrustrum (Lahi;F)V
 	METHOD a renderEntities (Lbb;Lahi;F)V
-	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
-	METHOD a playSound (Ljava/lang/String;DDDFF)V
-	METHOD a playRecord (Ljava/lang/String;III)V
-	METHOD a obtainEntitySkin (Llu;)V
 	METHOD a drawOutlinedBoundingBox (Ltu;)V
 		ARG 1 aabb
 	METHOD a changeWorld (Luc;)V
-	METHOD a playAuxSFX (Lvj;IIIII)V
 	METHOD a drawBlockBreaking (Lvj;Lnm;ILwy;F)V
 		ARG 1 player
 		ARG 2 movingObjPos
@@ -76,8 +69,6 @@ CLASS i net/minecraft/src/RenderGlobal
 	METHOD b getDebugInfoRenders ()Ljava/lang/String;
 	METHOD b renderClouds (F)V
 	METHOD b markRenderersForNewPosition (III)V
-	METHOD b markBlockRangeNeedsUpdate (IIIIII)V
-	METHOD b releaseEntitySkin (Llu;)V
 	METHOD b drawSelectionBox (Lvj;Lnm;ILwy;F)V
 		ARG 1 player
 		ARG 2 movingObjectPosition

@@ -2,15 +2,6 @@ CLASS acj net/minecraft/src/BlockReed
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 texIndex
-	METHOD a isOpaqueCube ()Z
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a onNeighborBlockChange (Luc;IIII)V
-	METHOD a updateTick (Luc;IIILjava/util/Random;)V
-	METHOD b renderAsNormalBlock ()Z
-	METHOD c getCollisionBoundingBoxFromPool (Luc;III)Ltu;
-	METHOD d getRenderType ()I
-	METHOD e canPlaceBlockAt (Luc;III)Z
-	METHOD g canBlockStay (Luc;III)Z
 	METHOD h checkBlockCoordValid (Luc;III)V
 		ARG 1 world
 		ARG 2 x

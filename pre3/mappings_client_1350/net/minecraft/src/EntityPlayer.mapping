@@ -41,16 +41,9 @@ CLASS vj net/minecraft/src/EntityPlayer
 	FIELD c startMinecartRidingCoordinate Lrt;
 	FIELD d itemInUse Lwy;
 	FIELD e itemInUseCount I
-	METHOD D getEyeHeight ()F
-	METHOD J isEntityInsideOpaqueBlock ()Z
-	METHOD K updateRidden ()V
-	METHOD L getYOffset ()D
-	METHOD N setInPortal ()V
-	METHOD O updateCloak ()V
 	METHOD W closeScreen ()V
 	METHOD Y respawnPlayer ()V
 	METHOD Z getItemInUse ()Lwy;
-	METHOD a handleHealthUpdate (B)V
 	METHOD a displayWorkbenchGUI (III)V
 		ARG 1 x
 		ARG 2 y
@@ -70,9 +63,6 @@ CLASS vj net/minecraft/src/EntityPlayer
 		ARG 1 entityItem
 	METHOD a displayGUIChest (Lhk;)V
 		ARG 1 inventory
-	METHOD a onDeath (Lkn;)V
-	METHOD a attackEntityFrom (Lkn;I)Z
-	METHOD a addToPlayerScore (Llu;I)V
 	METHOD a getCurrentPlayerStrVsBlock (Lnd;)F
 		ARG 1 block
 	METHOD a displayGUIEditSign (Lpx;)V
@@ -82,7 +72,6 @@ CLASS vj net/minecraft/src/EntityPlayer
 	METHOD a verifyRespawnCoordinates (Luc;Lrt;)Lrt;
 		ARG 0 world
 		ARG 1 chunkCoords
-	METHOD a getExperiencePoints (Lvj;)I
 	METHOD a dropPlayerItem (Lwy;)V
 		ARG 1 itemStack
 	METHOD a updateItemUse (Lwy;I)V
@@ -91,11 +80,9 @@ CLASS vj net/minecraft/src/EntityPlayer
 	METHOD a dropPlayerItemWithRandomChoice (Lwy;Z)V
 		ARG 1 itemStack
 		ARG 2 useRand
-	METHOD a onKillEntity (Lyv;)V
 	METHOD a alertWolves (Lyv;Z)V
 		ARG 1 living
 		ARG 2 sitting
-	METHOD a readEntityFromNBT (Lzx;)V
 	METHOD a wakeUpPlayer (ZZZ)V
 		ARG 1 resetSleepTimer
 		ARG 2 allPlayersSleeping
@@ -103,38 +90,29 @@ CLASS vj net/minecraft/src/EntityPlayer
 	METHOD aK applyPotionDigSpeedEffects ()I
 	METHOD aL isInBed ()Z
 	METHOD aM increaseLevel ()V
-	METHOD a_ moveEntityWithHeading (FF)V
 	METHOD aa getItemInUseCount ()I
 	METHOD ab isUsingItem ()Z
 	METHOD ac getItemInUseDuration ()I
 	METHOD ad stopUsingItem ()V
 	METHOD ae clearItemInUse ()V
-	METHOD af getIsBlocking ()Z
 	METHOD ag onItemUseFinish ()V
-	METHOD ah isMovementBlocked ()Z
 	METHOD ai getScore ()I
 	METHOD aj dropCurrentItem ()V
 	METHOD ak isPVPEnabled ()Z
-	METHOD al getTotalArmorValue ()I
 	METHOD am getCurrentEquippedItem ()Lwy;
 	METHOD an destroyCurrentEquippedItem ()V
 	METHOD ao swingItem ()V
 	METHOD ap getBedOrientationInDegrees ()F
-	METHOD aq isPlayerSleeping ()Z
 	METHOD ar isPlayerFullyAsleep ()Z
 	METHOD as getSleepTimer ()I
 	METHOD at getPlayerSpawnCoordinate ()Lrt;
-	METHOD au jump ()V
 	METHOD av getXp2 ()I
 	METHOD aw getFoodStats ()Lln;
 	METHOD ax getHealth2 ()Z
-	METHOD ay func_35163_av ()Z
-	METHOD b entityInit ()V
 	METHOD b setSpecialRenderXZ (I)V
 		ARG 1 specialRenderCase
 	METHOD b addChatMessage (Ljava/lang/String;)V
 		ARG 1 message
-	METHOD b damageEntity (Lkn;I)V
 	METHOD b onCriticalHit (Llu;)V
 		ARG 1 entity
 	METHOD b onItemPickup (Llu;I)V
@@ -144,19 +122,13 @@ CLASS vj net/minecraft/src/EntityPlayer
 		ARG 1 block
 	METHOD b onItemStackChanged (Lwy;)V
 		ARG 1 itemStack
-	METHOD b getItemIcon (Lwy;I)I
-	METHOD b writeEntityToNBT (Lzx;)V
 	METHOD b canEat (Z)Z
 		ARG 1 canEatToggle
-	METHOD c getMaxHealth ()I
-	METHOD c fall (F)V
-	METHOD c damageArmor (I)V
 	METHOD c useCurrentItemOnEntity (Llu;)V
 		ARG 1 entity
 	METHOD c setItemInUse (Lwy;I)V
 		ARG 1 itemStack
 		ARG 2 count
-	METHOD d onLivingUpdate ()V
 	METHOD d addExhaustion (F)V
 		ARG 1 exhaustionAmount
 	METHOD e sleepInBedAt (III)Lbs;
@@ -181,9 +153,5 @@ CLASS vj net/minecraft/src/EntityPlayer
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
-	METHOD m_ updateEntityActionState ()V
 	METHOD r resetHeight ()V
 	METHOD s func_6420_o ()V
-	METHOD u preparePlayerToSpawn ()V
-	METHOD v setEntityDead ()V
-	METHOD z_ onUpdate ()V

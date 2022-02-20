@@ -1,26 +1,16 @@
 CLASS bj net/minecraft/src/EntityXPOrb
+	FIELD a xpColor I
+	FIELD b xpOrbAge I
+	FIELD c unusedPickupCooldown I
+	FIELD d xpOrbHealth I
+	FIELD e xpValue I
 	METHOD <init> (Luc;DDDI)V
 		ARG 1 world
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
 		ARG 8 value
-	METHOD a dealFireDamage (I)V
-	METHOD a attackEntityFrom (Lkn;I)Z
-	METHOD a readEntityFromNBT (Lzx;)V
-	METHOD a_ onCollideWithPlayer (Lvj;)V
-	METHOD b entityInit ()V
-	METHOD b getEntityBrightnessForRender (F)I
 	METHOD b getXPSplit (I)I
 		ARG 0 splitPoint
-	METHOD b writeEntityToNBT (Lzx;)V
-	METHOD d_ canTriggerWalking ()Z
-	METHOD f_ handleWaterMovement ()Z
 	METHOD h getXpValue ()I
 	METHOD i getTextureByXP ()I
-	METHOD z_ onUpdate ()V
-	FIELD a xpColor I
-	FIELD b xpOrbAge I
-	FIELD c unusedPickupCooldown I
-	FIELD d xpOrbHealth I
-	FIELD e xpValue I

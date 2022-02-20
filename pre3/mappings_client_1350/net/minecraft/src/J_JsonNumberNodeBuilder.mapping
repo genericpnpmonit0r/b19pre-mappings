@@ -1,3 +1,2 @@
 CLASS aaf net/minecraft/src/J_JsonNumberNodeBuilder
-	METHOD b build ()Leg;
 	FIELD a field_27239_a Leg;

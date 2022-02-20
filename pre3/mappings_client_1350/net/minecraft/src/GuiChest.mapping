@@ -1,9 +1,7 @@
 CLASS vy net/minecraft/src/GuiChest
-	METHOD <init> (Lhk;Lhk;)V
-		ARG 1 inventory1
-		ARG 2 inventory2
-	METHOD a drawGuiContainerBackgroundLayer (FII)V
-	METHOD c drawGuiContainerForegroundLayer ()V
 	FIELD h upperChestInventory Lhk;
 	FIELD i lowerChestInventory Lhk;
 	FIELD j inventoryRows I
+	METHOD <init> (Lhk;Lhk;)V
+		ARG 1 inventory1
+		ARG 2 inventory2

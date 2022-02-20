@@ -1,3 +1,2 @@
 CLASS adf net/minecraft/src/RenderMinecart
-	METHOD a doRender (Llu;DDDFF)V
 	FIELD a modelMinecart Lgm;

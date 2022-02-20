@@ -1,3 +1,1 @@
 CLASS ll net/minecraft/src/ItemSaddle
-	METHOD a useItemOnEntity (Lwy;Lyv;)V
-	METHOD a hitEntity (Lwy;Lyv;Lyv;)Z

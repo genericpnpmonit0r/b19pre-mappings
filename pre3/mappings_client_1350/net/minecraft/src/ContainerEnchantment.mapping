@@ -13,9 +13,6 @@ CLASS fl net/minecraft/src/ContainerEnchantment
 		ARG 3 x
 		ARG 4 y
 		ARG 5 z
-	METHOD a onCraftMatrixChanged (Lhk;)V
-	METHOD a onCraftGuiClosed (Lvj;)V
 	METHOD a enchantItem (Lvj;I)V
 		ARG 1 player
 		ARG 2 levels
-	METHOD b canInteractWith (Lvj;)Z

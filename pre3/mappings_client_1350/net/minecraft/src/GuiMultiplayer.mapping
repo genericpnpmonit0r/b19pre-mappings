@@ -1,43 +1,4 @@
 CLASS yt net/minecraft/src/GuiMultiplayer
-	METHOD <init> (Lsv;)V
-		ARG 1 screen
-	METHOD a initGui ()V
-	METHOD a keyTyped (CI)V
-	METHOD a joinServer (I)V
-		ARG 1 index
-	METHOD a drawScreen (IIF)V
-	METHOD a mouseClicked (III)V
-	METHOD a parseIntWithDefault (Ljava/lang/String;I)I
-		ARG 1 hostname
-		ARG 2 i
-	METHOD a drawTooltip (Ljava/lang/String;II)V
-		ARG 1 string
-		ARG 2 x
-		ARG 3 y
-	METHOD a joinServer (Lmg;)V
-		ARG 1 serverNBTStorage
-	METHOD a actionPerformed (Lxy;)V
-	METHOD a getServerList (Lyt;)Ljava/util/List;
-	METHOD a setSelectedServer (Lyt;I)I
-	METHOD a func_35327_a (Lyt;Ljava/lang/String;)Ljava/lang/String;
-	METHOD a pollServer (Lyt;Lmg;)V
-	METHOD a deleteWorld (ZI)V
-	METHOD b pollServer (Lmg;)V
-		ARG 1 serverNBTStorage
-	METHOD b getSelectedServer (Lyt;)I
-	METHOD b joinServer (Lyt;I)V
-	METHOD c initGuiControls ()V
-	METHOD c getButtonSelect (Lyt;)Lxy;
-	METHOD d onGuiClosed ()V
-	METHOD d getButtonEdit (Lyt;)Lxy;
-	METHOD e getButtonDelete (Lyt;)Lxy;
-	METHOD g getLock ()Ljava/lang/Object;
-	METHOD m getThreadsPending ()I
-	METHOD n incrementThreadsPending ()I
-	METHOD o decrementThreadsPending ()I
-	METHOD p loadServerList ()V
-	METHOD q saveServerList ()V
-	METHOD q_ updateScreen ()V
 	FIELD a threadsPending I
 	FIELD b lock Ljava/lang/Object;
 	FIELD c parentScreen Lsv;
@@ -53,3 +14,34 @@ CLASS yt net/minecraft/src/GuiMultiplayer
 	FIELD n directClicked Z
 	FIELD o serverName Ljava/lang/String;
 	FIELD w tempServer Lmg;
+	METHOD <init> (Lsv;)V
+		ARG 1 screen
+	METHOD a joinServer (I)V
+		ARG 1 index
+	METHOD a parseIntWithDefault (Ljava/lang/String;I)I
+		ARG 1 hostname
+		ARG 2 i
+	METHOD a drawTooltip (Ljava/lang/String;II)V
+		ARG 1 string
+		ARG 2 x
+		ARG 3 y
+	METHOD a joinServer (Lmg;)V
+		ARG 1 serverNBTStorage
+	METHOD a getServerList (Lyt;)Ljava/util/List;
+	METHOD a setSelectedServer (Lyt;I)I
+	METHOD a func_35327_a (Lyt;Ljava/lang/String;)Ljava/lang/String;
+	METHOD a pollServer (Lyt;Lmg;)V
+	METHOD b pollServer (Lmg;)V
+		ARG 1 serverNBTStorage
+	METHOD b getSelectedServer (Lyt;)I
+	METHOD b joinServer (Lyt;I)V
+	METHOD c initGuiControls ()V
+	METHOD c getButtonSelect (Lyt;)Lxy;
+	METHOD d getButtonEdit (Lyt;)Lxy;
+	METHOD e getButtonDelete (Lyt;)Lxy;
+	METHOD g getLock ()Ljava/lang/Object;
+	METHOD m getThreadsPending ()I
+	METHOD n incrementThreadsPending ()I
+	METHOD o decrementThreadsPending ()I
+	METHOD p loadServerList ()V
+	METHOD q saveServerList ()V

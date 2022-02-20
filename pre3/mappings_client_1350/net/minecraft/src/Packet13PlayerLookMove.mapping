@@ -7,6 +7,3 @@ CLASS dc net/minecraft/src/Packet13PlayerLookMove
 		ARG 9 yaw
 		ARG 10 pitch
 		ARG 11 onGroundFlag
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V

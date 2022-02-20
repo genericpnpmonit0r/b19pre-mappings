@@ -1,26 +1,4 @@
 CLASS zv net/minecraft/src/EntityEnderPearl
-	METHOD <init> (Luc;DDD)V
-		ARG 1 world
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-	METHOD <init> (Luc;Lyv;)V
-		ARG 1 world
-		ARG 2 living
-	METHOD a isInRangeToRenderDist (D)Z
-	METHOD a setVelocity (DDD)V
-	METHOD a setEnderpearlHeading (DDDFF)V
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-		ARG 7 yaw
-		ARG 8 pitch
-	METHOD a readEntityFromNBT (Lzx;)V
-	METHOD a_ onCollideWithPlayer (Lvj;)V
-	METHOD b entityInit ()V
-	METHOD b writeEntityToNBT (Lzx;)V
-	METHOD g_ getShadowSize ()F
-	METHOD z_ onUpdate ()V
 	FIELD a shake I
 	FIELD ao inGround Z
 	FIELD ap shootingEntity Lyv;
@@ -30,3 +8,17 @@ CLASS zv net/minecraft/src/EntityEnderPearl
 	FIELD c yTile I
 	FIELD d zTile I
 	FIELD e inTile I
+	METHOD <init> (Luc;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD <init> (Luc;Lyv;)V
+		ARG 1 world
+		ARG 2 living
+	METHOD a setEnderpearlHeading (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch

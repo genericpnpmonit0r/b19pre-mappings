@@ -1,4 +1,5 @@
 CLASS go net/minecraft/src/MinecraftImpl
+	FIELD a mcFrame Ljava/awt/Frame;
 	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZLjava/awt/Frame;)V
 		ARG 1 component
 		ARG 2 canvas
@@ -7,5 +8,3 @@ CLASS go net/minecraft/src/MinecraftImpl
 		ARG 5 height
 		ARG 6 fullscreen
 		ARG 7 frame
-	METHOD a displayUnexpectedThrowable (Lht;)V
-	FIELD a mcFrame Ljava/awt/Frame;

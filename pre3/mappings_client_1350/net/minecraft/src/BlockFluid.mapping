@@ -1,32 +1,12 @@
 CLASS acp net/minecraft/src/BlockFluid
-	METHOD a isOpaqueCube ()Z
-	METHOD a getBlockTextureFromSide (I)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a canCollideCheck (IZ)Z
-	METHOD a shouldSideBeRendered (Lagr;IIII)Z
 	METHOD a getFlowDirection (Lagr;IIILyr;)D
 		ARG 0 blockAccess
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 material
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD a onBlockAdded (Luc;III)V
-	METHOD a onNeighborBlockChange (Luc;IIII)V
-	METHOD a updateTick (Luc;IIILjava/util/Random;)V
-	METHOD a velocityToAddToEntity (Luc;IIILlu;Lbb;)V
-	METHOD b renderAsNormalBlock ()Z
-	METHOD b colorMultiplier (Lagr;III)I
-	METHOD b randomDisplayTick (Luc;IIILjava/util/Random;)V
-	METHOD c getRenderBlockPass ()I
-	METHOD c getMixedBrightnessForBlock (Lagr;III)I
-	METHOD c getIsBlockSolid (Lagr;IIII)Z
-	METHOD c getCollisionBoundingBoxFromPool (Luc;III)Ltu;
-	METHOD d getRenderType ()I
 	METHOD d getFluidHeightPercent (I)F
 		ARG 0 height
-	METHOD d getBlockBrightness (Lagr;III)F
-	METHOD f tickRate ()I
 	METHOD f getEffectiveFlowDecay (Lagr;III)I
 		ARG 1 blockAccess
 		ARG 2 x
@@ -42,7 +22,6 @@ CLASS acp net/minecraft/src/BlockFluid
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD i getBlockColor ()I
 	METHOD i triggerLavaMixEffects (Luc;III)V
 		ARG 1 world
 		ARG 2 x

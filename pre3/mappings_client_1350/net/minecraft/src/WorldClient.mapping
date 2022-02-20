@@ -1,33 +1,18 @@
 CLASS hx net/minecraft/src/WorldClient
-	METHOD <init> (Lzm;Lem;II)V
-		ARG 1 clientHandler
-		ARG 2 worldSettings
-		ARG 3 dimension
-		ARG 4 difficulty
-	METHOD a getEntityByID (I)Llu;
-	METHOD a scheduleBlockUpdate (IIIII)V
-	METHOD a invalidateBlockReceiveRegion (IIIIII)V
-	METHOD a doPreChunk (IIZ)V
-	METHOD a getEntityId (ILlu;)V
-	METHOD a entityJoinedWorld (Llu;)Z
-	METHOD a tickUpdates (Z)Z
-	METHOD b removeEntityFromWorld (I)Llu;
-	METHOD b setBlockAndMetadata (IIIII)Z
-	METHOD b setEntityDead (Llu;)V
-	METHOD c tick ()V
-	METHOD c setBlockMetadata (IIII)Z
-	METHOD c setBlockAndMetadataAndInvalidate (IIIII)Z
-	METHOD c obtainEntitySkin (Llu;)V
-	METHOD d getChunkProvider ()Lbi;
-	METHOD d setBlock (IIII)Z
-	METHOD d releaseEntitySkin (Llu;)V
-	METHOD e setSpawnLocation ()V
-	METHOD f updateBlocksAndPlayCaveSounds ()V
-	METHOD g sendQuittingDisconnectingPacket ()V
-	METHOD h updateWeather ()V
 	FIELD M blocksToReceive Ljava/util/LinkedList;
 	FIELD N sendQueue Lzm;
 	FIELD O clientChunkProvider Lne;
 	FIELD P entityHashSet Lxr;
 	FIELD Q entityList Ljava/util/Set;
 	FIELD R entitySpawnQueue Ljava/util/Set;
+	METHOD <init> (Lzm;Lem;II)V
+		ARG 1 clientHandler
+		ARG 2 worldSettings
+		ARG 3 dimension
+		ARG 4 difficulty
+	METHOD a getEntityByID (I)Llu;
+	METHOD a invalidateBlockReceiveRegion (IIIIII)V
+	METHOD a doPreChunk (IIZ)V
+	METHOD a getEntityId (ILlu;)V
+	METHOD b removeEntityFromWorld (I)Llu;
+	METHOD c setBlockAndMetadataAndInvalidate (IIIII)Z

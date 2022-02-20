@@ -1,4 +1,8 @@
 CLASS dd net/minecraft/src/ChunkCache
+	FIELD a chunkX I
+	FIELD b chunkZ I
+	FIELD c chunkArray [[Lyp;
+	FIELD d worldObj Luc;
 	METHOD <init> (Luc;IIIIII)V
 		ARG 1 world
 		ARG 2 x
@@ -7,9 +11,6 @@ CLASS dd net/minecraft/src/ChunkCache
 		ARG 5 x2
 		ARG 6 y2
 		ARG 7 z2
-	METHOD a getWorldChunkManager ()Lpn;
-	METHOD a getBlockId (III)I
-	METHOD a getBrightness (IIII)F
 	METHOD a getLightValueExt (IIIZ)I
 		ARG 1 x
 		ARG 2 y
@@ -20,25 +21,12 @@ CLASS dd net/minecraft/src/ChunkCache
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD b getMaxHeight ()I
-	METHOD b getBlockTileEntity (III)Ljm;
-	METHOD b getLightBrightnessForSkyBlocks (IIII)I
 	METHOD b getSpecialBlockBrightness (Ltk;III)I
 		ARG 1 enumSkyBlock
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD c getLightBrightness (III)F
 	METHOD d getLightValue (III)I
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD e getBlockMetadata (III)I
-	METHOD f getBlockMaterial (III)Lyr;
-	METHOD g isBlockOpaqueCube (III)Z
-	METHOD h isBlockNormalCube (III)Z
-	METHOD i isAirBlock (III)Z
-	FIELD a chunkX I
-	FIELD b chunkZ I
-	FIELD c chunkArray [[Lyp;
-	FIELD d worldObj Luc;

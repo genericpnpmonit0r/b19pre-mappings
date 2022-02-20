@@ -1,29 +1,15 @@
 CLASS aer net/minecraft/src/EntitySlime
+	FIELD a size1 F
+	FIELD b size2 F
+	FIELD c size3 F
+	FIELD d slimeJumpDelay I
 	METHOD W getSlimeParticle ()Ljava/lang/String;
 	METHOD Y newSlime ()Laer;
 	METHOD Z getJumpDelay ()I
-	METHOD a readEntityFromNBT (Lzx;)V
-	METHOD a_ onCollideWithPlayer (Lvj;)V
 	METHOD aa setSizeSmallM ()V
 	METHOD ab getSlimeSizeGreaterThan1 ()Z
 	METHOD ac getSlimeSize_do ()I
 	METHOD ad getSlimeSound ()Ljava/lang/String;
 	METHOD ag getArmor ()I
-	METHOD b entityInit ()V
 	METHOD b setSlimeSize (I)V
 		ARG 1 size
-	METHOD b writeEntityToNBT (Lzx;)V
-	METHOD c getMaxHealth ()I
-	METHOD e getDropItemId ()I
-	METHOD g getCanSpawnHere ()Z
-	METHOD m getHurtSound ()Ljava/lang/String;
-	METHOD m_ updateEntityActionState ()V
-	METHOD n getDeathSound ()Ljava/lang/String;
-	METHOD s_ getSoundVolume ()F
-	METHOD v setEntityDead ()V
-	METHOD x_ getVerticalFaceSpeed ()I
-	METHOD z_ onUpdate ()V
-	FIELD a size1 F
-	FIELD b size2 F
-	FIELD c size3 F
-	FIELD d slimeJumpDelay I

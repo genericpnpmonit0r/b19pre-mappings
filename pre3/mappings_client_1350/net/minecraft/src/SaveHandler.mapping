@@ -1,20 +1,13 @@
 CLASS dm net/minecraft/src/SaveHandler
-	METHOD <init> (Ljava/io/File;Ljava/lang/String;Z)V
-		ARG 1 file
-		ARG 2 name
-		ARG 3 createPlayerFolder
-	METHOD a getSaveDirectory ()Ljava/io/File;
-	METHOD a getChunkLoader (Lagk;)Lrm;
-	METHOD a getMapFile (Ljava/lang/String;)Ljava/io/File;
-	METHOD a saveWorldInfo (Ltq;)V
-	METHOD a saveWorldInfoAndPlayer (Ltq;Ljava/util/List;)V
-	METHOD b checkSessionLock ()V
-	METHOD c loadWorldInfo ()Ltq;
-	METHOD d getWorldDirectoryName ()Ljava/lang/String;
-	METHOD e checkSessionLock1 ()V
 	FIELD a logger Ljava/util/logging/Logger;
 	FIELD b saveDirectory Ljava/io/File;
 	FIELD c playersDirectory Ljava/io/File;
 	FIELD d mapDataDir Ljava/io/File;
 	FIELD e now J
 	FIELD f worldDirName Ljava/lang/String;
+	METHOD <init> (Ljava/io/File;Ljava/lang/String;Z)V
+		ARG 1 file
+		ARG 2 name
+		ARG 3 createPlayerFolder
+	METHOD a getSaveDirectory ()Ljava/io/File;
+	METHOD e checkSessionLock1 ()V

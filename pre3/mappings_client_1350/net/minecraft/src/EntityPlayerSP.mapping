@@ -1,43 +1,4 @@
 CLASS sw net/minecraft/src/EntityPlayerSP
-	METHOD <init> (Lnet/minecraft/client/Minecraft;Luc;Lee;I)V
-		ARG 1 minecraft
-		ARG 2 world
-		ARG 3 session
-		ARG 4 dimension
-	METHOD R isSneaking ()Z
-	METHOD W closeScreen ()V
-	METHOD X getPlayerArmorValue ()I
-	METHOD Y respawnPlayer ()V
-	METHOD a displayWorkbenchGUI (III)V
-	METHOD a displayGUIFurnace (Lacz;)V
-	METHOD a addStat (Lafi;I)V
-	METHOD a displayGUIDispenser (Lar;)V
-	METHOD a displayGUIChest (Lhk;)V
-	METHOD a sendChatMessage (Ljava/lang/String;)V
-		ARG 1 message
-	METHOD a displayGUIEditSign (Lpx;)V
-	METHOD a readEntityFromNBT (Lzx;)V
-	METHOD b moveEntity (DDD)V
-	METHOD b setHealth (I)V
-		ARG 1 health
-	METHOD b addChatMessage (Ljava/lang/String;)V
-	METHOD b onCriticalHit (Llu;)V
-	METHOD b onItemPickup (Llu;I)V
-	METHOD b writeEntityToNBT (Lzx;)V
-	METHOD c setSprinting (Z)V
-	METHOD d onLivingUpdate ()V
-	METHOD d setXPStats (III)V
-		ARG 1 xp
-		ARG 2 xpLevel
-		ARG 3 playerLevel
-	METHOD g isBlockTranslucent (III)Z
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD h pushOutOfBlocks (DDD)Z
-	METHOD m_ updateEntityActionState ()V
-	METHOD s func_6420_o ()V
-	METHOD w_ getFOVMultiplier ()F
 	FIELD a movementInput Lna;
 	FIELD ao renderArmPitch F
 	FIELD ap prevRenderArmYaw F
@@ -49,3 +10,22 @@ CLASS sw net/minecraft/src/EntityPlayerSP
 	FIELD ci field_21902_bL Lbr;
 	FIELD d sprintingTicksLeft I
 	FIELD e renderArmYaw F
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Luc;Lee;I)V
+		ARG 1 minecraft
+		ARG 2 world
+		ARG 3 session
+		ARG 4 dimension
+	METHOD X getPlayerArmorValue ()I
+	METHOD a sendChatMessage (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD b setHealth (I)V
+		ARG 1 health
+	METHOD d setXPStats (III)V
+		ARG 1 xp
+		ARG 2 xpLevel
+		ARG 3 playerLevel
+	METHOD g isBlockTranslucent (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD w_ getFOVMultiplier ()F

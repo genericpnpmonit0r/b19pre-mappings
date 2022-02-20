@@ -1,17 +1,4 @@
 CLASS aap net/minecraft/src/PlayerControllerSP
-	METHOD a resetBlockRemoving ()V
-	METHOD a setPartialTime (F)V
-	METHOD a clickBlock (IIII)V
-	METHOD a onWorldChange (Luc;)V
-	METHOD a flipPlayer (Lvj;)V
-	METHOD a sendPlaceBlock (Lvj;Luc;Lwy;IIII)Z
-	METHOD b getBlockReachDistance ()F
-	METHOD b sendBlockRemoved (IIII)Z
-	METHOD b createPlayer (Luc;)Lvj;
-	METHOD c updateController ()V
-	METHOD c sendBlockRemoving (IIII)V
-	METHOD d shouldDrawHUD ()Z
-	METHOD f func_35642_f ()Z
 	FIELD c curBlockX I
 	FIELD d curBlockY I
 	FIELD e curBlockZ I

@@ -1,8 +1,1 @@
 CLASS agh net/minecraft/src/SaveHandlerMP
-	METHOD a getChunkLoader (Lagk;)Lrm;
-	METHOD a getMapFile (Ljava/lang/String;)Ljava/io/File;
-	METHOD a saveWorldInfo (Ltq;)V
-	METHOD a saveWorldInfoAndPlayer (Ltq;Ljava/util/List;)V
-	METHOD b checkSessionLock ()V
-	METHOD c loadWorldInfo ()Ltq;
-	METHOD d getWorldDirectoryName ()Ljava/lang/String;

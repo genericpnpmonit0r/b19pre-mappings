@@ -1,3 +1,2 @@
 CLASS vg net/minecraft/src/RenderFallingSand
-	METHOD a doRender (Llu;DDDFF)V
 	FIELD a blockRenderer Lsr;

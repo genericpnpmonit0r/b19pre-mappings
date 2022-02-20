@@ -1,6 +1,3 @@
 CLASS qn net/minecraft/src/RenderEnderman
-	METHOD a doRender (Llu;DDDFF)V
-	METHOD b renderEquippedItems (Lyv;F)V
-	METHOD b shouldRenderPass (Lyv;IF)I
 	FIELD c endermanModel Lrq;
 	FIELD d rnd Ljava/util/Random;

@@ -3,7 +3,3 @@ CLASS aaz net/minecraft/src/EntityEnchantmentTableParticleFX
 	FIELD ax x D
 	FIELD ay y D
 	FIELD az z D
-	METHOD a getEntityBrightness (F)F
-	METHOD a renderParticle (Laaa;FFFFFF)V
-	METHOD b getEntityBrightnessForRender (F)I
-	METHOD z_ onUpdate ()V

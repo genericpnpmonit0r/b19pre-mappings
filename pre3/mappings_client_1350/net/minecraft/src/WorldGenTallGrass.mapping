@@ -1,7 +1,6 @@
 CLASS rd net/minecraft/src/WorldGenTallGrass
+	FIELD a tallGrassID I
+	FIELD b tallGrassMetadata I
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 meta
-	METHOD a generate (Luc;Ljava/util/Random;III)Z
-	FIELD a tallGrassID I
-	FIELD b tallGrassMetadata I

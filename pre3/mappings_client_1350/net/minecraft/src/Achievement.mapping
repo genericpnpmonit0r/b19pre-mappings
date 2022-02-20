@@ -1,4 +1,11 @@
 CLASS aab net/minecraft/src/Achievement
+	FIELD a displayColumn I
+	FIELD b displayRow I
+	FIELD c parentAchievement Laab;
+	FIELD d theItemStack Lwy;
+	FIELD l achievementDescription Ljava/lang/String;
+	FIELD m statStringFormatter Lvi;
+	FIELD n isSpecial Z
 	METHOD <init> (ILjava/lang/String;IILnd;Laab;)V
 		ARG 1 id
 		ARG 2 name
@@ -20,18 +27,8 @@ CLASS aab net/minecraft/src/Achievement
 		ARG 4 row
 		ARG 5 itemStack
 		ARG 6 achievement
-	METHOD a registerStat ()Lafi;
 	METHOD a setStatStringFormatter (Lvi;)Laab;
 		ARG 1 statStringFormat
 	METHOD c setSpecial ()Laab;
-	METHOD e isAchievement ()Z
 	METHOD f getDescription ()Ljava/lang/String;
 	METHOD g getSpecial ()Z
-	METHOD h initIndependentStat ()Lafi;
-	FIELD a displayColumn I
-	FIELD b displayRow I
-	FIELD c parentAchievement Laab;
-	FIELD d theItemStack Lwy;
-	FIELD l achievementDescription Ljava/lang/String;
-	FIELD m statStringFormatter Lvi;
-	FIELD n isSpecial Z

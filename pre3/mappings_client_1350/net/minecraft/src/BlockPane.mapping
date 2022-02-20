@@ -1,18 +1,10 @@
 CLASS agc net/minecraft/src/BlockPane
+	FIELD a paneType I
 	METHOD <init> (IIILyr;Z)V
 		ARG 1 id
 		ARG 2 texIndex
 		ARG 3 type
 		ARG 4 material
-	METHOD a isOpaqueCube ()Z
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a setBlockBoundsBasedOnState (Lagr;III)V
-	METHOD a shouldSideBeRendered (Lagr;IIII)Z
-	METHOD a getCollidingBoundingBoxes (Luc;IIILtu;Ljava/util/ArrayList;)V
-	METHOD b renderAsNormalBlock ()Z
-	METHOD d getRenderType ()I
 	METHOD d canThisPaneConnectToThisBlockID (I)Z
 		ARG 1 id
-	METHOD h setBlockBoundsForItemRender ()V
 	METHOD s getPaneType ()I
-	FIELD a paneType I

@@ -6,7 +6,6 @@ CLASS tj net/minecraft/src/GenLayerZoom
 		COMMENT Chooses one of the two inputs randomly.
 		ARG 1 input1
 		ARG 2 input2
-	METHOD a getInts (IIII)[I
 	METHOD a magnify (JLto;I)Lto;
 		COMMENT Magnify a layer
 		ARG 0 seedAdj

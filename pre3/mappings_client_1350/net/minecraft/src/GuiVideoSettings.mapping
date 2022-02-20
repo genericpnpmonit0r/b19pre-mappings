@@ -1,11 +1,8 @@
 CLASS ir net/minecraft/src/GuiVideoSettings
-	METHOD <init> (Lsv;Lgr;)V
-		ARG 1 guiScreen
-		ARG 2 options
-	METHOD a initGui ()V
-	METHOD a drawScreen (IIF)V
-	METHOD a actionPerformed (Lxy;)V
 	FIELD a screenTitle Ljava/lang/String;
 	FIELD b parentGuiScreen Lsv;
 	FIELD c guiGameSettings Lgr;
 	FIELD d videoOptions [Lwb;
+	METHOD <init> (Lsv;Lgr;)V
+		ARG 1 guiScreen
+		ARG 2 options

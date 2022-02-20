@@ -6,5 +6,3 @@ CLASS jx net/minecraft/src/ModelBook
 	FIELD e flippingPageRight Lon;
 	FIELD f flippingPageLeft Lon;
 	FIELD g bookSpine Lon;
-	METHOD a setRotationAngles (FFFFFF)V
-	METHOD a render (Llu;FFFFFF)V

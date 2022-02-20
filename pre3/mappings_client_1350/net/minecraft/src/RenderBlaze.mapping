@@ -1,3 +1,2 @@
 CLASS ox net/minecraft/src/RenderBlaze
-	METHOD a doRender (Llu;DDDFF)V
 	FIELD c field_40278_c I

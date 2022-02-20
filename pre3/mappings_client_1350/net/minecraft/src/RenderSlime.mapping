@@ -1,4 +1,2 @@
 CLASS hw net/minecraft/src/RenderSlime
-	METHOD a preRenderCallback (Lyv;F)V
-	METHOD b shouldRenderPass (Lyv;IF)I
 	FIELD c scaleAmount Lgm;

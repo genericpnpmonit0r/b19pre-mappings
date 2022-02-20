@@ -5,6 +5,3 @@ CLASS aa net/minecraft/src/Packet11PlayerPosition
 		ARG 5 stance
 		ARG 7 z
 		ARG 9 onGroundFlag
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V

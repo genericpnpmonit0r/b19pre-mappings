@@ -1,12 +1,11 @@
 CLASS dq net/minecraft/src/GuiTexturePacks
+	FIELD a guiScreen Lsv;
+	FIELD b updateCounterNegative I
+	FIELD c fileLocation Ljava/lang/String;
+	FIELD d guiTexturePackSlot Lbx;
 	METHOD <init> (Lsv;)V
 		ARG 1 screen
-	METHOD a initGui ()V
-	METHOD a drawScreen (IIF)V
-	METHOD a mouseClicked (III)V
 	METHOD a func_22124_a (Ldq;)Lnet/minecraft/client/Minecraft;
-	METHOD a actionPerformed (Lxy;)V
-	METHOD b mouseMovedOrUp (III)V
 	METHOD b func_22126_b (Ldq;)Lnet/minecraft/client/Minecraft;
 	METHOD c func_22119_c (Ldq;)Lnet/minecraft/client/Minecraft;
 	METHOD d func_22122_d (Ldq;)Lnet/minecraft/client/Minecraft;
@@ -20,8 +19,3 @@ CLASS dq net/minecraft/src/GuiTexturePacks
 	METHOD l func_22127_j (Ldq;)Lls;
 	METHOD m func_22120_k (Ldq;)Lls;
 	METHOD n func_22125_l (Ldq;)Lls;
-	METHOD q_ updateScreen ()V
-	FIELD a guiScreen Lsv;
-	FIELD b updateCounterNegative I
-	FIELD c fileLocation Ljava/lang/String;
-	FIELD d guiTexturePackSlot Lbx;

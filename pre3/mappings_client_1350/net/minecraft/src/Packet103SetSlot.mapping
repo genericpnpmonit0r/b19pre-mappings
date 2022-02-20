@@ -1,7 +1,3 @@
 CLASS ex net/minecraft/src/Packet103SetSlot
-	METHOD a getPacketSize ()I
-	METHOD a readPacketData (Ljava/io/DataInputStream;)V
-	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
-	METHOD a processPacket (Lmj;)V
 	FIELD a windowId I
 	FIELD b itemSlot I

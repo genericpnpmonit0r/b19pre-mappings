@@ -1,5 +1,3 @@
 CLASS km net/minecraft/src/EntityDiggingFX
-	METHOD a func_4041_a (III)Lkm;
-	METHOD a renderParticle (Laaa;FFFFFF)V
-	METHOD m getFXLayer ()I
 	FIELD a blockInstance Lnd;
+	METHOD a func_4041_a (III)Lkm;

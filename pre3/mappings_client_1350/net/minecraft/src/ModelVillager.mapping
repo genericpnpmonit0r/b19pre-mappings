@@ -1,6 +1,4 @@
 CLASS sj net/minecraft/src/ModelVillager
-	METHOD a setRotationAngles (FFFFFF)V
-	METHOD a render (Llu;FFFFFF)V
 	FIELD a head Lon;
 	FIELD b body Lon;
 	FIELD c arm Lon;

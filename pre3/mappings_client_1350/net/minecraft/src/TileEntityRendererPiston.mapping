@@ -1,4 +1,2 @@
 CLASS ey net/minecraft/src/TileEntityRendererPiston
-	METHOD a renderTileEntityAt (Ljm;DDDF)V
-	METHOD a func_31069_a (Luc;)V
 	FIELD b field_31071_b Lsr;
