@@ -1,0 +1,48 @@
+CLASS abh net/minecraft/src/IWorldAccess
+	METHOD a markBlockAndNeighborsNeedsUpdate (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a doNothingWithTileEntity (IIILjm;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tileEntity
+	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
+		ARG 1 name
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 xEnd
+		ARG 10 yEnd
+		ARG 12 zEnd
+	METHOD a playSound (Ljava/lang/String;DDDFF)V
+		ARG 1 name
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 volume
+		ARG 9 pitch
+	METHOD a playRecord (Ljava/lang/String;III)V
+		ARG 1 name
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a obtainEntitySkin (Llu;)V
+		ARG 1 entity
+	METHOD a playAuxSFX (Lvj;IIIII)V
+		ARG 1 player
+		ARG 2 id
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 data
+	METHOD b markBlockRangeNeedsUpdate (IIIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 xEnd
+		ARG 5 yEnd
+		ARG 6 zEnd
+	METHOD b releaseEntitySkin (Llu;)V
+		ARG 1 entity

@@ -1,0 +1,12 @@
+CLASS yh net/minecraft/src/ComponentStrongholdRoomCrossing
+	METHOD <init> (ILjava/util/Random;Log;I)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 boundingBox
+		ARG 4 coordBaseMode
+	METHOD a buildComponent (Lgd;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIIII)Lyh;
+	METHOD a addComponentParts (Luc;Ljava/util/Random;Log;)Z
+	FIELD a randomDoor Lkp;
+	FIELD b picker I
+	FIELD c lootArray [Lfa;

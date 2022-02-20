@@ -1,0 +1,5 @@
+CLASS qe net/minecraft/src/EntityCritFX
+	METHOD a renderParticle (Laaa;FFFFFF)V
+	METHOD z_ onUpdate ()V
+	FIELD a field_35137_a F
+	FIELD ax field_35136_ay Z

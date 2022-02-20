@@ -1,0 +1,12 @@
+CLASS sj net/minecraft/src/ModelVillager
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Llu;FFFFFF)V
+	FIELD a head Lon;
+	FIELD b body Lon;
+	FIELD c arm Lon;
+	FIELD d rightLeg Lon;
+	FIELD e leftLeg Lon;
+	FIELD f field_40334_f I
+	FIELD g field_40335_g I
+	FIELD l field_40341_n Z
+	FIELD m field_40342_o Z

@@ -1,0 +1,6 @@
+CLASS ay net/minecraft/src/StructureNetherBridgeStart
+	METHOD <init> (Lev;Ljava/util/Random;II)V
+		ARG 1 world
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 z

@@ -1,0 +1,142 @@
+CLASS gd net/minecraft/src/StructureComponent
+	METHOD <init> (I)V
+		ARG 1 type
+	METHOD a getXWithOffset (II)I
+		ARG 1 offsetDefault
+		ARG 2 offsetX
+	METHOD a buildComponent (Lgd;Ljava/util/List;Ljava/util/Random;)V
+		ARG 1 component
+		ARG 2 components
+		ARG 3 rand
+	METHOD a getIntersectingStructureComponent (Ljava/util/List;Log;)Lgd;
+		ARG 0 components
+		ARG 1 boundingBox
+	METHOD a fillTreasureChestWithLoot (Ljava/util/Random;[Lfa;Lgb;I)V
+		ARG 0 rand
+		ARG 1 loot
+		ARG 2 tileEntityChest
+		ARG 3 chest
+	METHOD a placeBlockAtCurrentPosition (Luc;IIIIILog;)V
+		ARG 1 world
+		ARG 2 id
+		ARG 3 meta
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 boundingBox
+	METHOD a getBlockIdAtCurrentPosition (Luc;IIILog;)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 boundingBox
+	METHOD a addComponentParts (Luc;Ljava/util/Random;Log;)Z
+		ARG 1 world
+		ARG 2 rand
+		ARG 3 boundingBox
+	METHOD a isLiquidInStructureBoundingBox (Luc;Log;)Z
+		ARG 1 world
+		ARG 2 boundingBox
+	METHOD a fillWithBlocks (Luc;Log;IIIIIIIIZ)V
+		ARG 1 world
+		ARG 2 boundingBox
+		ARG 3 startX
+		ARG 4 startY
+		ARG 5 startZ
+		ARG 6 endX
+		ARG 7 endY
+		ARG 8 endZ
+		ARG 9 id
+		ARG 10 id2
+		ARG 11 modeFlag
+	METHOD a randomlyRareFillWithBlocks (Luc;Log;IIIIIIIZ)V
+		ARG 1 world
+		ARG 2 boundingBox
+		ARG 3 startX
+		ARG 4 startY
+		ARG 5 startZ
+		ARG 6 endX
+		ARG 7 endY
+		ARG 8 endZ
+		ARG 9 id
+		ARG 10 modeFlag
+	METHOD a fillWithRandomizedBlocks (Luc;Log;IIIIIIZLjava/util/Random;Lsb;)V
+		ARG 1 world
+		ARG 2 boundingBox
+		ARG 3 startX
+		ARG 4 startY
+		ARG 5 startZ
+		ARG 6 endX
+		ARG 7 endY
+		ARG 8 endZ
+		ARG 9 modeFlag
+		ARG 10 rand
+		ARG 11 structurePieceBlockSelector
+	METHOD a randomlyPlaceBlock (Luc;Log;Ljava/util/Random;FIIIII)V
+		ARG 1 world
+		ARG 2 boundingBox
+		ARG 3 rand
+		ARG 4 chance
+		ARG 5 x
+		ARG 6 y
+		ARG 7 z
+		ARG 8 id
+		ARG 9 meta
+	METHOD a randomlyFillWithBlocks (Luc;Log;Ljava/util/Random;FIIIIIIIIZ)V
+		ARG 1 world
+		ARG 2 boundingBox
+		ARG 3 rand
+		ARG 4 chance
+		ARG 5 startX
+		ARG 6 startY
+		ARG 7 startZ
+		ARG 8 endX
+		ARG 9 endY
+		ARG 10 endZ
+		ARG 11 id
+		ARG 12 id2
+		ARG 13 modeFlag
+	METHOD a placeDoorAtCurrentPosition (Luc;Log;Ljava/util/Random;IIII)V
+		ARG 1 world
+		ARG 2 boundingBox
+		ARG 3 rand
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 meta
+	METHOD a createTreasureChestAtCurrentPosition (Luc;Log;Ljava/util/Random;III[Lfa;I)V
+		ARG 1 world
+		ARG 2 boundingBox
+		ARG 3 rand
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 loot
+		ARG 8 chest
+	METHOD b getBoundingBox ()Log;
+	METHOD b getYWithOffset (I)I
+		ARG 1 offsetY
+	METHOD b getZWithOffset (II)I
+		ARG 1 offsetZ
+		ARG 2 offsetDefault
+	METHOD b fillCurrentPositionBlocksDownwards (Luc;IIIIILog;)V
+		ARG 1 world
+		ARG 2 id
+		ARG 3 meta
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 boundingBox
+	METHOD b clearCurrentPositionBlocksUpwards (Luc;IIILog;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 boundingBox
+	METHOD c getComponentType ()I
+	METHOD c getMetadataWithOffset (II)I
+		ARG 1 id
+		ARG 2 meta
+	FIELD g boundingBox Log;
+	FIELD h coordBaseMode I
+	FIELD i componentType I

@@ -1,0 +1,22 @@
+CLASS un net/minecraft/src/GuiMainMenu
+	METHOD a initGui ()V
+	METHOD a keyTyped (CI)V
+	METHOD a rotateAndBlurSkybox (F)V
+		ARG 1 layer
+	METHOD a drawScreen (IIF)V
+	METHOD a actionPerformed (Lxy;)V
+	METHOD b drawPanorama (IIF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 layer
+	METHOD c renderSkybox (IIF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 layer
+	METHOD e doesGuiPauseGame ()Z
+	METHOD q_ updateScreen ()V
+	FIELD a rand Ljava/util/Random;
+	FIELD c splashText Ljava/lang/String;
+	FIELD d multiplayerButton Lxy;
+	FIELD e updateCounter I
+	FIELD f viewportTexture I

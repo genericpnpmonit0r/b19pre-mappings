@@ -1,0 +1,7 @@
+CLASS xk net/minecraft/src/ItemMetadata
+	METHOD <init> (ILnd;)V
+		ARG 1 id
+		ARG 2 block
+	METHOD a getIconFromDamage (I)I
+	METHOD c getPlacedBlockMetadata (I)I
+	FIELD a theBlock Lnd;

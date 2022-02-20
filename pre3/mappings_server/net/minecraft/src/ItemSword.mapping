@@ -1,0 +1,13 @@
+CLASS oi net/minecraft/src/ItemSword
+	METHOD <init> (ILbs;)V
+		ARG 1 id
+		ARG 2 toolMaterial
+	METHOD a onBlockDestroyed (Lil;IIIILkq;)Z
+	METHOD a onItemRightClick (Lil;Lev;Lgj;)Lil;
+	METHOD a hitEntity (Lil;Lkq;Lkq;)Z
+	METHOD a getStrVsBlock (Lil;Lsl;)F
+	METHOD a getDamageVsEntity (Lqn;)I
+	METHOD a canHarvestBlock (Lsl;)Z
+	METHOD c getMaxItemUseDuration (Lil;)I
+	METHOD d getItemUseAction (Lil;)Lip;
+	FIELD a weaponDamage I

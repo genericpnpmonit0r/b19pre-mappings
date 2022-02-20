@@ -1,0 +1,6 @@
+CLASS cl net/minecraft/src/ThreadedFileIOBase
+	METHOD a processQueue ()V
+	METHOD a queueIO (Lfy;)V
+		ARG 1 threadedFileIO
+	FIELD a threadedIOInstance Lcl;
+	FIELD b savedIOList Ljava/util/List;

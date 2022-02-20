@@ -1,0 +1,3 @@
+CLASS ef net/minecraft/src/ItemSlab
+	METHOD a getMetadata (I)I
+	METHOD a getItemNameIS (Lil;)Ljava/lang/String;

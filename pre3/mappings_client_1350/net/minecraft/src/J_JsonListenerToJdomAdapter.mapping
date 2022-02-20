@@ -1,0 +1,21 @@
+CLASS yw net/minecraft/src/J_JsonListenerToJdomAdapter
+	METHOD a getDocument ()Lkj;
+	METHOD a startField (Ljava/lang/String;)V
+	METHOD a addRootNode (Lyi;)V
+		ARG 1 jsonNodeBuilder
+	METHOD b startDocument ()V
+	METHOD b numberValue (Ljava/lang/String;)V
+	METHOD b addValue (Lyi;)V
+		ARG 1 jsonNodeBuilder
+	METHOD c endDocument ()V
+	METHOD c stringValue (Ljava/lang/String;)V
+	METHOD d startArray ()V
+	METHOD e endArray ()V
+	METHOD f startObject ()V
+	METHOD g endObject ()V
+	METHOD h endField ()V
+	METHOD i trueValue ()V
+	METHOD j falseValue ()V
+	METHOD k nullValue ()V
+	FIELD a stack Ljava/util/Stack;
+	FIELD b root Lyi;

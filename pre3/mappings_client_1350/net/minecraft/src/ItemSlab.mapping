@@ -1,0 +1,4 @@
+CLASS tt net/minecraft/src/ItemSlab
+	METHOD a getIconFromDamage (I)I
+	METHOD a getItemNameIS (Lwy;)Ljava/lang/String;
+	METHOD c getPlacedBlockMetadata (I)I

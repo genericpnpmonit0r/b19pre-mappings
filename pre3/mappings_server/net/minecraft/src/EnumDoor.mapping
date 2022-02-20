@@ -1,0 +1,6 @@
+CLASS os net/minecraft/src/EnumDoor
+	FIELD a OPENING Los;
+	FIELD b WOOD_DOOR Los;
+	FIELD c GRATES Los;
+	FIELD d IRON_DOOR Los;
+	FIELD e field_35598_e [Los;

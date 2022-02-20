@@ -1,0 +1,2 @@
+CLASS wj net/minecraft/src/ItemRedstone
+	METHOD a onItemUse (Lwy;Lvj;Luc;IIII)Z

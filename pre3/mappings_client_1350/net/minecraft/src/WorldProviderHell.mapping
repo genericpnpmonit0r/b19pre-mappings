@@ -1,0 +1,8 @@
+CLASS afr net/minecraft/src/WorldProviderHell
+	METHOD a registerWorldChunkManager ()V
+	METHOD a canCoordinateBeSpawn (II)Z
+	METHOD a calculateCelestialAngle (JF)F
+	METHOD b getChunkProvider ()Lbi;
+	METHOD b getFogColor (FF)Lbb;
+	METHOD e generateLightBrightnessTable ()V
+	METHOD f canRespawnHere ()Z

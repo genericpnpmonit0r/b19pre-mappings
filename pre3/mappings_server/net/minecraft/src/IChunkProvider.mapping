@@ -1,0 +1,24 @@
+CLASS cg net/minecraft/src/IChunkProvider
+	METHOD a unload100OldestChunks ()Z
+	METHOD a chunkExists (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD a populate (Lcg;II)V
+		ARG 1 chunkProvider
+		ARG 2 x
+		ARG 3 z
+	METHOD a getPossibleCreatures (Lkj;III)Ljava/util/List;
+		ARG 1 creatureType
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a saveChunks (ZLwe;)Z
+		ARG 1 needsSavingFlag
+		ARG 2 progressUpdate
+	METHOD b canSave ()Z
+	METHOD b provideChunk (II)Lkk;
+		ARG 1 x
+		ARG 2 z
+	METHOD c loadChunk (II)Lkk;
+		ARG 1 x
+		ARG 2 z

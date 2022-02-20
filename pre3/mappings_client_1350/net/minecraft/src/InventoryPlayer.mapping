@@ -1,0 +1,59 @@
+CLASS wv net/minecraft/src/InventoryPlayer
+	METHOD <init> (Lvj;)V
+		ARG 1 player
+	METHOD a getSizeInventory ()I
+	METHOD a decrStackSize (II)Lwy;
+	METHOD a setInventorySlotContents (ILwy;)V
+	METHOD a setCurrentItem (IZ)V
+		ARG 1 itemId
+		ARG 2 b
+	METHOD a getDamageVsEntity (Llu;)I
+		ARG 1 entity
+	METHOD a writeToNBT (Llv;)Llv;
+		ARG 1 listTag
+	METHOD a getStrVsBlock (Lnd;)F
+		ARG 1 block
+	METHOD a isUseableByPlayer (Lvj;)Z
+	METHOD a addItemStackToInventory (Lwy;)Z
+		ARG 1 itemStack
+	METHOD b getCurrentItem ()Lwy;
+	METHOD b changeCurrentItem (I)V
+		ARG 1 index
+	METHOD b readFromNBT (Llv;)V
+		ARG 1 listTag
+	METHOD b canHarvestBlock (Lnd;)Z
+		ARG 1 block
+	METHOD b setItemStack (Lwy;)V
+		ARG 1 itemStack
+	METHOD c getInvName ()Ljava/lang/String;
+	METHOD c consumeInventoryItem (I)Z
+		ARG 1 item
+	METHOD c getHasItemStack (Lwy;)Z
+		ARG 1 ItemStack
+	METHOD d getInventoryStackLimit ()I
+	METHOD d hasItem (I)Z
+		ARG 1 item
+	METHOD d storeItemStack (Lwy;)I
+		ARG 1 itemStack
+	METHOD e openChest ()V
+	METHOD e armorItemInSlot (I)Lwy;
+		ARG 1 index
+	METHOD e storePartialItemStack (Lwy;)I
+	METHOD f closeChest ()V
+	METHOD f damageArmor (I)V
+		ARG 1 amount
+	METHOD f_ getStackInSlot (I)Lwy;
+	METHOD g decrementAnimations ()V
+	METHOD g getInventorySlotContainItem (I)I
+		ARG 1 id
+	METHOD h getTotalArmorValue ()I
+	METHOD i dropAllItems ()V
+	METHOD j getItemStack ()Lwy;
+	METHOD l onInventoryChanged ()V
+	METHOD m getFirstEmptyStack ()I
+	FIELD a mainInventory [Lwy;
+	FIELD b armorInventory [Lwy;
+	FIELD c currentItem I
+	FIELD d player Lvj;
+	FIELD e inventoryChanged Z
+	FIELD f itemStack Lwy;

@@ -1,0 +1,4 @@
+CLASS aes net/minecraft/src/EntityCloudFX
+	METHOD a renderParticle (Laaa;FFFFFF)V
+	METHOD z_ onUpdate ()V
+	FIELD a field_35135_a F

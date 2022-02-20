@@ -1,0 +1,5 @@
+CLASS pt net/minecraft/src/EnumMobType
+	FIELD a everything Lpt;
+	FIELD b mobs Lpt;
+	FIELD c players Lpt;
+	FIELD d allMobTypes [Lpt;

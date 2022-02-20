@@ -1,0 +1,13 @@
+CLASS qi net/minecraft/src/MapInfo
+	METHOD <init> (Lii;Lgj;)V
+		ARG 1 data
+		ARG 2 player
+	METHOD a updateMPMapData (Lil;)[B
+		ARG 1 itemStack
+	FIELD a entityplayerObj Lgj;
+	FIELD b xCoords [I
+	FIELD c yCoords [I
+	FIELD d mapDataObj Lii;
+	FIELD e mpSpecificNum I
+	FIELD f currentNum I
+	FIELD g ticksUntilPlayerLocationMapUpdate [B

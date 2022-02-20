@@ -1,0 +1,3 @@
+CLASS aeu net/minecraft/src/PotionHealth
+	METHOD b isInstant ()Z
+	METHOD b isReady (II)Z

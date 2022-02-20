@@ -1,0 +1,13 @@
+CLASS abp net/minecraft/src/Timer
+	METHOD <init> (F)V
+		ARG 1 tps
+	METHOD a updateTimer ()V
+	FIELD a ticksPerSecond F
+	FIELD b elapsedTicks I
+	FIELD d timerSpeed F
+	FIELD e elapsedPartialTicks F
+	FIELD f lastHRTime D
+	FIELD g lastSyncSysClock J
+	FIELD h lastSyncHRClock J
+	FIELD i lastTimeSyncAdjustment J
+	FIELD j timeSyncAdjustment D

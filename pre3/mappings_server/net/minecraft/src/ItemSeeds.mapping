@@ -1,0 +1,8 @@
+CLASS pl net/minecraft/src/ItemSeeds
+	METHOD <init> (III)V
+		ARG 1 id
+		ARG 2 blockType
+		ARG 3 blockTypeToSet
+	METHOD a onItemUse (Lil;Lgj;Lev;IIII)Z
+	FIELD a blockType I
+	FIELD bP blockTypeToSet I

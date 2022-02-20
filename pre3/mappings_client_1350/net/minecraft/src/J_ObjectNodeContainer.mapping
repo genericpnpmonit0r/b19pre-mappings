@@ -1,0 +1,8 @@
+CLASS zj net/minecraft/src/J_ObjectNodeContainer
+	METHOD <init> (Lyw;Lmc;)V
+		ARG 1 jsonListenerToJdomAdapter
+		ARG 2 jsonObjectNodeBuilder
+	METHOD a addField (Labi;)V
+	METHOD a addNode (Lyi;)V
+	FIELD a objectNodeBuilder Lmc;
+	FIELD b adapter Lyw;

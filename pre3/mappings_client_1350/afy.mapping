@@ -1,0 +1,9 @@
+CLASS afy
+	METHOD a readEntityFromNBT (Lzx;)V
+	METHOD a_ canDespawn ()Z
+	METHOD b writeEntityToNBT (Lzx;)V
+	METHOD c fall (F)V
+	METHOD h getTalkInterval ()I
+	METHOD l getLivingSound ()Ljava/lang/String;
+	METHOD m getHurtSound ()Ljava/lang/String;
+	METHOD n getDeathSound ()Ljava/lang/String;

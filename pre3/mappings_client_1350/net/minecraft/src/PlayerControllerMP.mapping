@@ -1,0 +1,42 @@
+CLASS ph net/minecraft/src/PlayerControllerMP
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Lzm;)V
+		ARG 1 minecraft
+		ARG 2 netClientHandler
+	METHOD a resetBlockRemoving ()V
+	METHOD a setPartialTime (F)V
+	METHOD a clickBlock (IIII)V
+	METHOD a windowClick (IIIZLvj;)Lwy;
+	METHOD a closePlayerInventory (ILvj;)V
+	METHOD a onWorldChange (Luc;)V
+	METHOD a flipPlayer (Lvj;)V
+	METHOD a interactWithEntity (Lvj;Llu;)V
+	METHOD a sendUseItem (Lvj;Luc;Lwy;)Z
+	METHOD a sendPlaceBlock (Lvj;Luc;Lwy;IIII)Z
+	METHOD a func_35639_a (Lwy;)V
+	METHOD a func_35637_a (Lwy;I)V
+	METHOD a setGameMode (Z)V
+		ARG 1 creative
+	METHOD b getBlockReachDistance ()F
+	METHOD b sendBlockRemoved (IIII)Z
+	METHOD b createPlayer (Luc;)Lvj;
+	METHOD b attackEntity (Lvj;Llu;)V
+	METHOD c updateController ()V
+	METHOD c sendBlockRemoving (IIII)V
+	METHOD c onStoppedUsingItem (Lvj;)V
+	METHOD d shouldDrawHUD ()Z
+	METHOD f func_35642_f ()Z
+	METHOD g getGamemode ()Z
+	METHOD h isInCreativeMode ()Z
+	METHOD i extendedReach ()Z
+	METHOD j syncCurrentPlayItem ()V
+	FIELD c currentBlockX I
+	FIELD d currentBlockY I
+	FIELD e currentblockZ I
+	FIELD f curBlockDamageMP F
+	FIELD g prevBlockDamageMP F
+	FIELD h stepSoundTickCounter F
+	FIELD i blockHitDelay I
+	FIELD j isHittingBlock Z
+	FIELD k creativeMode Z
+	FIELD l netClientHandler Lzm;
+	FIELD m currentPlayerItem I

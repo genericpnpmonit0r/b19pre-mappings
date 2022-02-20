@@ -1,0 +1,4 @@
+CLASS adl net/minecraft/src/BiomeGenSwamp
+	METHOD a getBiomeGrassColor (Lagr;III)I
+	METHOD a getRandomWorldGenForTrees (Ljava/util/Random;)Ljv;
+	METHOD b getBiomeFoliageColor (Lagr;III)I

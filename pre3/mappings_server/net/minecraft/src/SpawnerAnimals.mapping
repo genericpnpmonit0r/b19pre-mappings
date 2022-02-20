@@ -1,0 +1,34 @@
+CLASS ck net/minecraft/src/SpawnerAnimals
+	METHOD a getRandomSpawningPointInChunk (Lev;II)Luk;
+		ARG 0 world
+		ARG 1 x
+		ARG 2 z
+	METHOD a performSleepSpawning (Lev;Ljava/util/List;)Z
+		ARG 0 world
+		ARG 1 entities
+	METHOD a performWorldGenSpawning (Lev;Ljm;IIIILjava/util/Random;)V
+		ARG 0 world
+		ARG 1 biomeGenBase
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 i
+		ARG 6 rand
+	METHOD a performSpawning (Lev;ZZ)I
+		ARG 0 world
+		ARG 1 flag1
+		ARG 2 flag2
+	METHOD a canCreatureTypeSpawnAtLocation (Lkj;Lev;III)Z
+		ARG 0 creatureType
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a creatureSpecificInit (Lkq;Lev;FFF)V
+		ARG 0 living
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	FIELD a nightSpawnEntities [Ljava/lang/Class;
+	FIELD b eligibleChunksForSpawning Ljava/util/Set;

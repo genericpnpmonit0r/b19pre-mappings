@@ -1,0 +1,9 @@
+CLASS qt net/minecraft/src/Packet31RelEntityMove
+	METHOD <init> (IBBB)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V

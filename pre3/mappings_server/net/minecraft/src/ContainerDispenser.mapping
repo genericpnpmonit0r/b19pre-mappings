@@ -1,0 +1,7 @@
+CLASS qh net/minecraft/src/ContainerDispenser
+	METHOD <init> (Lkv;Lba;)V
+		ARG 1 inventory
+		ARG 2 dispenser
+	METHOD a getStackInSlot (I)Lil;
+	METHOD b canInteractWith (Lgj;)Z
+	FIELD a tileEntityDispenser Lba;

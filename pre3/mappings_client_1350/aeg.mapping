@@ -1,0 +1,5 @@
+CLASS aeg
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD c getCollisionBoundingBoxFromPool (Luc;III)Ltu;
+	METHOD d getRenderType ()I

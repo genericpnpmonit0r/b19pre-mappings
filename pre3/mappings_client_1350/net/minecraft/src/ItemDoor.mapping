@@ -1,0 +1,13 @@
+CLASS wd net/minecraft/src/ItemDoor
+	METHOD <init> (ILyr;)V
+		ARG 1 id
+		ARG 2 material
+	METHOD a placeDoorBlock (Luc;IIIILnd;)V
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 side
+		ARG 5 block
+	METHOD a onItemUse (Lwy;Lvj;Luc;IIII)Z
+	FIELD a doorMaterial Lyr;

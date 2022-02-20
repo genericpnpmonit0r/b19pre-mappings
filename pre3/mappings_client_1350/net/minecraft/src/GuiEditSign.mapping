@@ -1,0 +1,14 @@
+CLASS ahb net/minecraft/src/GuiEditSign
+	METHOD <init> (Lpx;)V
+		ARG 1 tileEntitySign
+	METHOD a initGui ()V
+	METHOD a keyTyped (CI)V
+	METHOD a drawScreen (IIF)V
+	METHOD a actionPerformed (Lxy;)V
+	METHOD d onGuiClosed ()V
+	METHOD q_ updateScreen ()V
+	FIELD a screenTitle Ljava/lang/String;
+	FIELD b entitySign Lpx;
+	FIELD c updateCounter I
+	FIELD d editLine I
+	FIELD e allowedCharacters Ljava/lang/String;

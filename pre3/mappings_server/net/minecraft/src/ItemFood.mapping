@@ -1,0 +1,33 @@
+CLASS wx net/minecraft/src/ItemFood
+	METHOD <init> (IIFZ)V
+		ARG 1 id
+		ARG 2 healAmount
+		ARG 3 saturationModifier
+		ARG 4 isWolfsFavorite
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 healAmount
+		ARG 3 isWolfsFavorite
+	METHOD a setPotionEffect (IIIF)Lwx;
+		ARG 1 id
+		ARG 2 duration
+		ARG 3 amplifier
+		ARG 4 probability
+	METHOD a onItemRightClick (Lil;Lev;Lgj;)Lil;
+	METHOD a setItemName (Ljava/lang/String;)Lgh;
+	METHOD b onFoodEaten (Lil;Lev;Lgj;)Lil;
+	METHOD c getMaxItemUseDuration (Lil;)I
+	METHOD d getItemUseAction (Lil;)Lip;
+	METHOD m getHealAmount ()I
+	METHOD n getSaturationModifier ()F
+	METHOD o getIsWolfsFavoriteMeat ()Z
+	METHOD p getIsEating ()Lwx;
+	FIELD a maxItemUseDuration I
+	FIELD bP healAmount I
+	FIELD bQ saturationModifier F
+	FIELD bR isWolfsFavoriteMeat Z
+	FIELD bS isEating Z
+	FIELD bT potionId I
+	FIELD bU potionDuration I
+	FIELD bV potionAmplifier I
+	FIELD bW potionEffectProbability F

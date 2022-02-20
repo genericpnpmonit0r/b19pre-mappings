@@ -1,0 +1,48 @@
+CLASS qm net/minecraft/src/BlockRedstoneWire
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a onBlockAdded (Lev;III)V
+	METHOD a onNeighborBlockChange (Lev;IIII)V
+	METHOD a calculateCurrentChanges (Lev;IIIIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 x2
+		ARG 6 y2
+		ARG 7 z2
+	METHOD a isPoweringTo (Lvt;IIII)Z
+	METHOD b isACube ()Z
+	METHOD c canPlaceBlockAt (Lev;III)Z
+	METHOD c isPowerProviderOrWire (Lvt;IIII)Z
+		ARG 0 blockAccess
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 power
+	METHOD d canProvidePower ()Z
+	METHOD d onBlockRemoval (Lev;III)V
+	METHOD d isIndirectlyPoweringTo (Lev;IIII)Z
+	METHOD e getCollisionBoundingBoxFromPool (Lev;III)Lei;
+	METHOD f getMaxCurrentStrength (Lev;IIII)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 power
+	METHOD g updateAndPropagateCurrentStrength (Lev;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h notifyWireNeighborsOfNeighborChange (Lev;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	FIELD a wiresProvidePower Z
+	FIELD b blocksNeedingUpdate Ljava/util/Set;

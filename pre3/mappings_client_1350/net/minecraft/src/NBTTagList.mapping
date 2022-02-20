@@ -1,0 +1,11 @@
+CLASS lv net/minecraft/src/NBTTagList
+	METHOD a getType ()B
+	METHOD a tagAt (I)Lfg;
+		ARG 1 index
+	METHOD a setTag (Lfg;)V
+		ARG 1 base
+	METHOD a readTagContents (Ljava/io/DataInput;)V
+	METHOD a writeTagContents (Ljava/io/DataOutput;)V
+	METHOD d tagCount ()I
+	FIELD a tagList Ljava/util/List;
+	FIELD b tagType B

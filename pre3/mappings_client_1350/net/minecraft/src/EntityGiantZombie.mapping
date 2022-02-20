@@ -1,0 +1,3 @@
+CLASS iy net/minecraft/src/EntityGiantZombie
+	METHOD a getBlockPathWeight (III)F
+	METHOD c getMaxHealth ()I

@@ -1,0 +1,14 @@
+CLASS ry net/minecraft/src/Packet30Entity
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lrd;)V
+	FIELD a entityId I
+	FIELD b xPosition B
+	FIELD c yPosition B
+	FIELD d zPosition B
+	FIELD e yaw B
+	FIELD f pitch B
+	FIELD g rotating Z

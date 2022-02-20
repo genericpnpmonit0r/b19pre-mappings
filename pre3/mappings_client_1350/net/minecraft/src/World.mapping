@@ -1,0 +1,581 @@
+CLASS uc net/minecraft/src/World
+	METHOD <init> (Lagb;Ljava/lang/String;Lagk;Lem;)V
+		ARG 1 saveHandler
+		ARG 2 worldName
+		ARG 3 worldProvider
+		ARG 4 worldSettings
+	METHOD <init> (Lagb;Ljava/lang/String;Lem;)V
+		ARG 1 saveHandler
+		ARG 2 worldName
+		ARG 3 worldSettings
+	METHOD <init> (Lagb;Ljava/lang/String;Lem;Lagk;)V
+		ARG 1 saveHandler
+		ARG 2 worldName
+		ARG 3 worldSettings
+		ARG 4 worldProvider
+	METHOD <init> (Luc;Lagk;)V
+		ARG 1 world
+		ARG 2 worldProvider
+	METHOD A wakeUpAllPlayers ()V
+	METHOD B isAllPlayersFullyAsleep ()Z
+	METHOD C getIsThundering ()Z
+	METHOD D isRaining ()Z
+	METHOD E updatingLighting ()Z
+	METHOD F saveLevel ()V
+	METHOD G calculateInitialWeather ()V
+	METHOD H stopPrecipitation ()V
+	METHOD a getWorldChunkManager ()Lpn;
+	METHOD a getClosestPlayer (DDDD)Lvj;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 dist
+	METHOD a playSoundEffect (DDDLjava/lang/String;FF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 name
+		ARG 8 volume
+		ARG 9 pitch
+	METHOD a calculateSkylightSubtracted (F)I
+		ARG 1 lightValue
+	METHOD a getFirstUncoveredBlock (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD a getBlockId (III)I
+	METHOD a getBrightness (IIII)F
+	METHOD a scheduleBlockUpdate (IIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+		ARG 5 time
+	METHOD a computeSkyLightValue (IIIIII)I
+		ARG 1 i
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 lightValue
+		ARG 6 lightValueNegated
+	METHOD a setChunkData (IIIIII[B)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 x2
+		ARG 5 y2
+		ARG 6 z2
+		ARG 7 blocks
+	METHOD a canBlockBePlacedAt (IIIIZI)Z
+		ARG 1 blockType
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 boundingBoxCheck
+		ARG 6 side
+	METHOD a setBlockTileEntity (IIILjm;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tileEntity
+	METHOD a getBlockLightValue_do (IIIZ)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 lit
+	METHOD a setWorldTime (J)V
+		ARG 1 time
+	METHOD a addWorldAccess (Labh;)V
+		ARG 1 worldAccess
+	METHOD a rayTraceBlocks (Lbb;Lbb;)Lnm;
+		ARG 1 vector1
+		ARG 2 vector2
+	METHOD a rayTraceBlocks_do (Lbb;Lbb;Z)Lnm;
+		ARG 1 vector1
+		ARG 2 vector2
+		ARG 3 canCollideCheckFlag
+	METHOD a rayTraceBlocks_do_do (Lbb;Lbb;ZZ)Lnm;
+		ARG 1 vector1
+		ARG 2 vector2
+		ARG 3 canCollideCheckFlag
+		ARG 4 boundingBoxCheckFlag
+	METHOD a raytraceBlocksInAABB (Lbb;Ltu;)F
+		ARG 1 vector1
+		ARG 2 aabb
+	METHOD a getEntityClass (Ljava/lang/Class;)Llu;
+		ARG 1 clazz
+	METHOD a loadItemData (Ljava/lang/Class;Ljava/lang/String;)Lvv;
+		ARG 1 classStore
+		ARG 2 dataid
+	METHOD a getEntitiesWithinAABB (Ljava/lang/Class;Ltu;)Ljava/util/List;
+		ARG 1 entityClass
+		ARG 2 aabb
+	METHOD a getPlayerEntityByName (Ljava/lang/String;)Lvj;
+		ARG 1 playerName
+	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
+		ARG 1 name
+		ARG 2 sizeX1
+		ARG 4 sizeY1
+		ARG 6 sizeZ1
+		ARG 8 sizeX2
+		ARG 10 sizeY2
+		ARG 12 sizeZ2
+	METHOD a playRecord (Ljava/lang/String;III)V
+		ARG 1 name
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a setItemData (Ljava/lang/String;Lvv;)V
+		ARG 1 name
+		ARG 2 savedData
+	METHOD a addTileEntity (Ljava/util/Collection;)V
+		ARG 1 tileEntityCollection
+	METHOD a addLoadedEntities (Ljava/util/List;)V
+		ARG 1 entities
+	METHOD a addTileEntityToRemove (Ljm;)V
+		ARG 1 tileEntity
+	METHOD a entityJoinedWorld (Llu;)Z
+		ARG 1 entity
+	METHOD a setEntityState (Llu;B)V
+		ARG 1 entity
+		ARG 2 stateByte
+	METHOD a getClosestPlayerToEntity (Llu;D)Lvj;
+		ARG 1 entity
+		ARG 2 p
+	METHOD a createExplosion (Llu;DDDF)Lacd;
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 size
+	METHOD a newExplosion (Llu;DDDFZ)Lacd;
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 size
+		ARG 9 flaming
+	METHOD a getSkyColor (Llu;F)Lbb;
+		ARG 1 entity
+		ARG 2 angle
+	METHOD a getEntityPathToXYZ (Llu;IIIF)Lsz;
+		ARG 1 entity
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 weight
+	METHOD a playSoundAtEntity (Llu;Ljava/lang/String;FF)V
+		ARG 1 entity
+		ARG 2 name
+		ARG 3 volume
+		ARG 4 pitch
+	METHOD a getPathToEntity (Llu;Llu;F)Lsz;
+		ARG 1 entity
+		ARG 2 entity2
+		ARG 3 weight
+	METHOD a getCollidingBoundingBoxes (Llu;Ltu;)Ljava/util/List;
+		ARG 1 entity
+		ARG 2 aabb
+	METHOD a updateEntityWithOptionalForce (Llu;Z)V
+		ARG 1 entity
+		ARG 2 force
+	METHOD a saveWorldIndirectly (Lpr;)V
+		ARG 1 progressUpdate
+	METHOD a setSpawnPoint (Lrt;)V
+		ARG 1 chunkCoordinates
+	METHOD a getSkyBlockTypeBrightness (Ltk;III)I
+		ARG 1 enumSkyBlock
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a setLightValue (Ltk;IIII)V
+		ARG 1 enumSkyBlock
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 value
+	METHOD a scheduleLightingUpdate (Ltk;IIIIII)V
+		ARG 1 enumSkyBlock
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 x2
+		ARG 6 y2
+		ARG 7 z2
+	METHOD a checkIfAABBIsClear (Ltu;)Z
+		ARG 1 aabb
+	METHOD a isMaterialInBB (Ltu;Lyr;)Z
+		ARG 1 aabb
+		ARG 2 material
+	METHOD a handleMaterialAcceleration (Ltu;Lyr;Llu;)Z
+		ARG 1 aabb
+		ARG 2 material
+		ARG 3 entity
+	METHOD a spawnPlayerWithLoadedChunks (Lvj;)V
+		ARG 1 player
+	METHOD a canMineBlock (Lvj;III)Z
+		ARG 1 player
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a onBlockHit (Lvj;IIII)V
+		ARG 1 player
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 side
+	METHOD a playAuxSFXAtEntity (Lvj;IIIII)V
+		ARG 1 player
+		ARG 2 id
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 vol
+	METHOD a getCreatureTypeWeight (Lyn;III)Law;
+		ARG 1 enumCreatureType
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a tickUpdates (Z)Z
+		ARG 1 tickFlag
+	METHOD a saveWorld (ZLpr;)V
+		ARG 1 canSaveFlag
+		ARG 2 progress
+	METHOD a setAllowedMobSpawns (ZZ)V
+		ARG 1 hostileMobs
+		ARG 2 peacefulMobs
+	METHOD b getMaxHeight ()I
+	METHOD b calculateWeatherStrength (F)F
+		ARG 1 value
+	METHOD b getChunkFromBlockCoords (II)Lyp;
+		ARG 1 x
+		ARG 2 z
+	METHOD b getBlockTileEntity (III)Ljm;
+	METHOD b getLightBrightnessForSkyBlocks (IIII)I
+	METHOD b setBlockAndMetadata (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+		ARG 5 meta
+	METHOD b checkChunksExist (IIIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 x2
+		ARG 5 y2
+		ARG 6 z2
+	METHOD b updateTileEntityChunkAndDoNothing (IIILjm;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tileEntity
+	METHOD b getTemperatureAt (IIIZ)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 waterCheck
+	METHOD b removeWorldAccess (Labh;)V
+		ARG 1 worldAccess
+	METHOD b countEntities (Ljava/lang/Class;)I
+		ARG 1 entityClass
+	METHOD b getUniqueDataId (Ljava/lang/String;)I
+		ARG 1 dataId
+	METHOD b unloadEntities (Ljava/util/List;)V
+		ARG 1 entities
+	METHOD b setEntityDead (Llu;)V
+		ARG 1 entity
+	METHOD b getEntitiesWithinAABBExcludingEntity (Llu;Ltu;)Ljava/util/List;
+		ARG 1 entity
+		ARG 2 aabb
+	METHOD b getSavedLightValue (Ltk;III)I
+		ARG 1 enumSkyBlock
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b getIsAnyLiquid (Ltu;)Z
+		ARG 1 aabb
+	METHOD b isAABBInMaterial (Ltu;Lyr;)Z
+		ARG 1 aabb
+		ARG 2 material
+	METHOD c tick ()V
+	METHOD c getCelestialAngle (F)F
+		ARG 1 angle
+	METHOD c saveChunks (I)Z
+		ARG 1 saveTimerReached0
+	METHOD c getChunkFromChunkCoords (II)Lyp;
+		ARG 1 x
+		ARG 2 z
+	METHOD c getLightBrightness (III)F
+	METHOD c setBlockMetadata (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 meta
+	METHOD c markBlocksDirty (IIIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 xEnd
+		ARG 5 yEnd
+		ARG 6 zEnd
+	METHOD c obtainEntitySkin (Llu;)V
+		ARG 1 entity
+	METHOD c updateLightByType (Ltk;III)V
+		ARG 1 enumSkyBlock
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD c isBoundingBoxBurning (Ltu;)Z
+		ARG 1 aabb
+	METHOD d getChunkProvider ()Lbi;
+	METHOD d getCelestialAngleRadians (F)F
+		ARG 1 angleRad
+	METHOD d getHeightValue (II)I
+		ARG 1 x
+		ARG 2 y
+	METHOD d blockExists (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD d setBlock (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+	METHOD d setBlockAndMetadataWithNotify (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+		ARG 5 meta
+	METHOD d computeBlockLightValue (IIIIII)I
+		ARG 1 i
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 lightValue
+		ARG 6 lightValueNegated
+	METHOD d releaseEntitySkin (Llu;)V
+		ARG 1 entity
+	METHOD e setSpawnLocation ()V
+	METHOD e drawClouds (F)Lbb;
+		ARG 1 cloudVecValue
+	METHOD e lightningFlashCheck (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD e getBlockMetadata (III)I
+	METHOD e doChunksNearChunkExist (IIII)Z
+		ARG 1 x
+		ARG 2 z
+		ARG 3 x2
+		ARG 4 z2
+	METHOD e playNoteAt (IIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 vol
+		ARG 5 pitch
+	METHOD e addWeatherEffect (Llu;)Z
+		ARG 1 entity
+	METHOD f updateBlocksAndPlayCaveSounds ()V
+	METHOD f getFogColor (F)Lbb;
+		ARG 1 angle
+	METHOD f getTopSolidOrLiquidBlock (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD f getBlockMaterial (III)Lyr;
+	METHOD f setBlockMetadataWithNotify (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 meta
+	METHOD f playAuxSFX (IIIII)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 vol
+	METHOD f updateEntity (Llu;)V
+		ARG 1 entity
+	METHOD g sendQuittingDisconnectingPacket ()V
+	METHOD g getStarBrightness (F)F
+		ARG 1 angle
+	METHOD g chunkExists (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD g isBlockOpaqueCube (III)Z
+	METHOD g setBlockWithNotify (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+	METHOD g joinEntityInSurroundings (Llu;)V
+		ARG 1 entity
+	METHOD h updateWeather ()V
+	METHOD h getWeightedThunderStrength (F)F
+		ARG 1 thunderStrength
+	METHOD h isBlockNormalCube (III)Z
+	METHOD h notifyBlockChange (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 side
+	METHOD i getInitialSpawnLocation ()V
+	METHOD i getRainStrength (F)F
+		ARG 1 rainStrength
+	METHOD i isAirBlock (III)Z
+	METHOD i markBlocksDirtyVertical (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 y2
+	METHOD j emptyMethod1 ()V
+	METHOD j setRainStrength (F)V
+		ARG 1 rainStrength
+	METHOD j markBlockNeedsUpdate (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD j notifyBlocksOfNeighborChange (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 side
+	METHOD k isDaytime ()Z
+	METHOD k markBlockAsNeedsUpdate (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD k isBlockProvidingPowerTo (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 side
+	METHOD l updateEntities ()V
+	METHOD l canBlockSeeTheSky (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD l isBlockIndirectlyProvidingPowerTo (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 side
+	METHOD m getDebugLoadedEntities ()Ljava/lang/String;
+	METHOD m getFullBlockLightValue (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD m notifyBlockOfNeighborChange (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+	METHOD n getChunkProviderString ()Ljava/lang/String;
+	METHOD n getBlockLightValue (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD o calculateInitialSkylight ()V
+	METHOD o removeBlockTileEntity (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD p getLoadedEntityList ()Ljava/util/List;
+	METHOD p getTemperatureAt_false (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD q dropOldChunks ()V
+	METHOD q getTemperatureAt_true (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD r checkSessionLock ()V
+	METHOD r getTemperatureAtGreaterThan015 (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD s getWorldSeed ()J
+	METHOD s updateAllLightTypes (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD t getWorldTime ()J
+	METHOD t randomDisplayUpdates (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD u getSpawnPoint ()Lrt;
+	METHOD u isBlockGettingPowered (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD v updateEntityList ()V
+	METHOD v isBlockIndirectlyGettingPowered (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD w getIChunkProvider ()Lbi;
+	METHOD w canLightningStrikeAt (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD x getSaveHandler ()Lagb;
+	METHOD x setRandomSeed (III)Ljava/util/Random;
+		ARG 1 seed1
+		ARG 2 seed2
+		ARG 3 seed3
+	METHOD y getWorldInfo ()Ltq;
+	METHOD z updateAllPlayersSleepingFlag ()V
+	FIELD A chunkProvider Lbi;
+	FIELD B saveHandler Lagb;
+	FIELD C worldInfo Ltq;
+	FIELD D findingSpawnPoint Z
+	FIELD E mapStorage Lvn;
+	FIELD F spawnHostileMobs Z
+	FIELD G spawnPeacefulMobs Z
+	FIELD H lightUpdateBlockList [I
+	FIELD I multiplayerWorld Z
+	FIELD J prevTick D
+	FIELD K curTick D
+	FIELD L curTick2 D
+	FIELD M unloadedEntityList Ljava/util/List;
+	FIELD N scheduledTickTreeSet Ljava/util/TreeSet;
+	FIELD O scheduledTickSet Ljava/util/Set;
+	FIELD P addedTileEntityList Ljava/util/List;
+	FIELD Q entityRemoval Ljava/util/List;
+	FIELD R cloudColour J
+	FIELD S lockTimestamp J
+	FIELD T allPlayersSleeping Z
+	FIELD U collidingBoundingBoxes Ljava/util/ArrayList;
+	FIELD V scanningTileEntities Z
+	FIELD W positionsToUpdate Ljava/util/Set;
+	FIELD X soundCounter I
+	FIELD Y entityAABBExclusionList Ljava/util/List;
+	FIELD a worldYBits I
+	FIELD b worldXZBits I
+	FIELD c worldYmax I
+	FIELD d worldYMask I
+	FIELD e worldOceanHeight I
+	FIELD f scheduledUpdatesAreImmediate Z
+	FIELD g loadedEntityList Ljava/util/List;
+	FIELD h loadedTileEntityList Ljava/util/List;
+	FIELD i playerEntities Ljava/util/List;
+	FIELD j weatherEffects Ljava/util/List;
+	FIELD k skylightSubtracted I
+	FIELD l updateLCG I
+	FIELD m DIST_HASH_MAGIC I
+	FIELD n prevRainingStrength F
+	FIELD o rainingStrength F
+	FIELD p prevThunderingStrength F
+	FIELD q thunderingStrength F
+	FIELD r lastLightningBolt I
+	FIELD s lightningFlash I
+	FIELD t editingBlocks Z
+	FIELD u autosavePeriod I
+	FIELD v difficultySetting I
+	FIELD w rand Ljava/util/Random;
+	FIELD x isNewWorld Z
+	FIELD y worldProvider Lagk;
+	FIELD z worldAccesses Ljava/util/List;

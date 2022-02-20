@@ -1,0 +1,11 @@
+CLASS hb net/minecraft/src/CraftingManager
+	METHOD a getInstance ()Lhb;
+	METHOD a addRecipe (Lil;[Ljava/lang/Object;)V
+		ARG 1 output
+		ARG 2 patternAndIngredients
+	METHOD b getRecipeList ()Ljava/util/List;
+	METHOD b addShapelessRecipe (Lil;[Ljava/lang/Object;)V
+		ARG 1 output
+		ARG 2 patternAndIngredients
+	FIELD a instance Lhb;
+	FIELD b recipes Ljava/util/List;

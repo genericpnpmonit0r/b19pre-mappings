@@ -1,0 +1,6 @@
+CLASS ee net/minecraft/src/ThreadLoginVerifier
+	METHOD <init> (Lgb;Lmr;)V
+		ARG 1 loginHandler
+		ARG 2 packet1login
+	FIELD a loginPacket Lmr;
+	FIELD b loginHandler Lgb;

@@ -1,0 +1,18 @@
+CLASS ui net/minecraft/src/EntitySilverfish
+	METHOD a getBlockPathWeight (III)F
+	METHOD a readEntityFromNBT (Lml;)V
+	METHOD a attackEntityFrom (Loo;I)Z
+	METHOD a attackEntity (Lqn;F)V
+	METHOD b writeEntityToNBT (Lml;)V
+	METHOD b_ updateEntityActionState ()V
+	METHOD c getMaxHealth ()I
+	METHOD e getDropItemId ()I
+	METHOD f_ canTriggerWalking ()Z
+	METHOD g getCanSpawnHere ()Z
+	METHOD j findPlayerToAttack ()Lqn;
+	METHOD l getLivingSound ()Ljava/lang/String;
+	METHOD m getHurtSound ()Ljava/lang/String;
+	METHOD n getDeathSound ()Ljava/lang/String;
+	METHOD t_ onUpdate ()V
+	METHOD x getOnFire ()Z
+	FIELD a allySummonCooldown I

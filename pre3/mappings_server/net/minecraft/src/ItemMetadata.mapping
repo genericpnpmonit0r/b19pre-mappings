@@ -1,0 +1,6 @@
+CLASS ix net/minecraft/src/ItemMetadata
+	METHOD <init> (ILsl;)V
+		ARG 1 id
+		ARG 2 block
+	METHOD a getMetadata (I)I
+	FIELD a theBlock Lsl;

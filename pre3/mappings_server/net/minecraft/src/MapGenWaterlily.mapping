@@ -1,0 +1,2 @@
+CLASS lx net/minecraft/src/MapGenWaterlily
+	METHOD a generate (Lev;Ljava/util/Random;III)Z

@@ -1,0 +1,7 @@
+CLASS x net/minecraft/src/BlockSnowBlock
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a updateTick (Lev;IIILjava/util/Random;)V
+	METHOD a quantityDropped (Ljava/util/Random;)I

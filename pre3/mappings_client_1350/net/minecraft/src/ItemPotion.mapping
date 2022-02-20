@@ -1,0 +1,11 @@
+CLASS do net/minecraft/src/ItemPotion
+	METHOD a getRecord (Lwy;Ljava/util/List;)V
+	METHOD a onItemRightClick (Lwy;Luc;Lvj;)Lwy;
+	METHOD a onItemUse (Lwy;Lvj;Luc;IIII)Z
+	METHOD b getColorFromDamage (I)I
+	METHOD b getMaxItemUseDuration (Lwy;)I
+	METHOD b onFoodEaten (Lwy;Luc;Lvj;)Lwy;
+	METHOD c getItemUseAction (Lwy;)Lxb;
+	METHOD d translateItemStackPrefix (Lwy;)Ljava/lang/String;
+	METHOD e hasItemStack (Lwy;)Z
+	FIELD a effectCache Ljava/util/HashMap;

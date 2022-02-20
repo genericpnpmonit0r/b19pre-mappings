@@ -1,0 +1,31 @@
+CLASS lg net/minecraft/src/EntityEnderman
+	METHOD A getCarryingData ()I
+	METHOD a getEntityBrightness (F)F
+	METHOD a readEntityFromNBT (Lml;)V
+	METHOD a attackEntityFrom (Loo;I)Z
+	METHOD a dropFewItems (Z)V
+	METHOD b entityInit ()V
+	METHOD b teleportTo (DDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD b setCarried (I)V
+	METHOD b writeEntityToNBT (Lml;)V
+	METHOD c getMaxHealth ()I
+	METHOD c shouldAttackPlayer (Lgj;)Z
+		ARG 1 player
+	METHOD d onLivingUpdate ()V
+	METHOD e getDropItemId ()I
+	METHOD e setCarryingData (I)V
+	METHOD e teleportToEntity (Lqn;)Z
+		ARG 1 entity
+	METHOD j findPlayerToAttack ()Lqn;
+	METHOD l getLivingSound ()Ljava/lang/String;
+	METHOD m getHurtSound ()Ljava/lang/String;
+	METHOD n getDeathSound ()Ljava/lang/String;
+	METHOD r_ teleportRandomly ()Z
+	METHOD z getCarried ()I
+	FIELD a isAttacking Z
+	FIELD b canCarryBlocks [Z
+	FIELD g teleportDelay I
+	FIELD h field_35236_h I

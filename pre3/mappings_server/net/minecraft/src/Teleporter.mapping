@@ -1,0 +1,11 @@
+CLASS si net/minecraft/src/Teleporter
+	METHOD a setExitLocation (Lev;Lqn;)V
+		ARG 1 world
+		ARG 2 entity
+	METHOD b findExitLocation (Lev;Lqn;)Z
+		ARG 1 world
+		ARG 2 entity
+	METHOD c createExitLocation (Lev;Lqn;)Z
+		ARG 1 world
+		ARG 2 entity
+	FIELD a random Ljava/util/Random;

@@ -1,0 +1,2 @@
+CLASS aec net/minecraft/src/J_JsonNullNodeBuilder
+	METHOD b build ()Leg;

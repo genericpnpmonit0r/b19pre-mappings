@@ -1,0 +1,18 @@
+CLASS rt net/minecraft/src/ChunkCoordinates
+	METHOD <init> (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD <init> (Lrt;)V
+		ARG 1 chunkCoordinates
+	METHOD a getSqDistanceTo (III)D
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD compareTo (Ljava/lang/Object;)I
+		ARG 1 chunkCoordinates
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 obj
+	FIELD a posX I
+	FIELD b posY I
+	FIELD c posZ I

@@ -1,0 +1,5 @@
+CLASS agl net/minecraft/src/RecipesWeapons
+	METHOD a addRecipes (Leu;)V
+		ARG 1 craftingManager
+	FIELD a recipePatterns [[Ljava/lang/String;
+	FIELD b recipeItems [[Ljava/lang/Object;

@@ -1,0 +1,3 @@
+CLASS vk net/minecraft/src/EntityExplodeFX
+	METHOD a renderParticle (Laaa;FFFFFF)V
+	METHOD z_ onUpdate ()V

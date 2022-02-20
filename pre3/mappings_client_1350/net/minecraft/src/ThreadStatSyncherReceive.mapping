@@ -1,0 +1,4 @@
+CLASS nu net/minecraft/src/ThreadStatSyncherReceive
+	METHOD <init> (Lsk;)V
+		ARG 1 syncer
+	FIELD a syncher Lsk;

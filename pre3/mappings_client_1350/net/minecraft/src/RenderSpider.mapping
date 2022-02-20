@@ -1,0 +1,4 @@
+CLASS ahq net/minecraft/src/RenderSpider
+	METHOD a getDeathMaxRotation (Lyv;)F
+	METHOD a preRenderCallback (Lyv;F)V
+	METHOD b shouldRenderPass (Lyv;IF)I

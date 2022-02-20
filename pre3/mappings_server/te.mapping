@@ -1,0 +1,2 @@
+CLASS te
+	METHOD a onItemUse (Lil;Lgj;Lev;IIII)Z

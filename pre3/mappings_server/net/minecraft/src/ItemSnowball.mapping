@@ -1,0 +1,2 @@
+CLASS df net/minecraft/src/ItemSnowball
+	METHOD a onItemRightClick (Lil;Lev;Lgj;)Lil;

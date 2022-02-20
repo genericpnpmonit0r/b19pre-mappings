@@ -1,0 +1,9 @@
+CLASS lw net/minecraft/src/StringTranslate
+	METHOD a getInstance ()Llw;
+	METHOD a translateKey (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 key
+	METHOD a translateKeyFormat (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+		ARG 1 key
+		ARG 2 value
+	FIELD a instance Llw;
+	FIELD b translateTable Ljava/util/Properties;

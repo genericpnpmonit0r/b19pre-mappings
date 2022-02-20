@@ -1,0 +1,4 @@
+CLASS tm net/minecraft/src/J_JsonArrayNodeBuilder
+	METHOD a withElement (Lyi;)Ltm;
+	METHOD b build ()Leg;
+	FIELD a elementBuilders Ljava/util/List;

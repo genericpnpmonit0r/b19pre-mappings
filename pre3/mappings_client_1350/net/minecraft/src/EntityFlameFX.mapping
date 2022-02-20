@@ -1,0 +1,6 @@
+CLASS ku net/minecraft/src/EntityFlameFX
+	METHOD a getEntityBrightness (F)F
+	METHOD a renderParticle (Laaa;FFFFFF)V
+	METHOD b getEntityBrightnessForRender (F)I
+	METHOD z_ onUpdate ()V
+	FIELD a field_672_a F

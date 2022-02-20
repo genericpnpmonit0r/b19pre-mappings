@@ -1,0 +1,14 @@
+CLASS dk net/minecraft/src/EntityVillager
+	METHOD <init> (Luc;I)V
+		ARG 1 world
+		ARG 2 type
+	METHOD W getTexture ()V
+	METHOD a readEntityFromNBT (Lzx;)V
+	METHOD a_ canDespawn ()Z
+	METHOD b writeEntityToNBT (Lzx;)V
+	METHOD c getMaxHealth ()I
+	METHOD d onLivingUpdate ()V
+	METHOD l getLivingSound ()Ljava/lang/String;
+	METHOD m getHurtSound ()Ljava/lang/String;
+	METHOD n getDeathSound ()Ljava/lang/String;
+	FIELD a villagerType I

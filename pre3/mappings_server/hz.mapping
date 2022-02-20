@@ -1,0 +1,4 @@
+CLASS hz
+	METHOD a onCraftGuiClosed (Lgj;)V
+	METHOD a onCraftMatrixChanged (Lkv;)V
+	METHOD b canInteractWith (Lgj;)Z

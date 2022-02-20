@@ -1,0 +1,30 @@
+CLASS qs net/minecraft/src/BlockStairs
+	METHOD <init> (ILsl;)V
+		ARG 1 id
+		ARG 2 block
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a canCollideCheck (IZ)Z
+	METHOD a onBlockAdded (Lev;III)V
+	METHOD a dropBlockAsItemWithChance (Lev;IIIIF)V
+	METHOD a getCollidingBoundingBoxes (Lev;IIILei;Ljava/util/ArrayList;)V
+	METHOD a blockActivated (Lev;IIILgj;)Z
+	METHOD a updateTick (Lev;IIILjava/util/Random;)V
+	METHOD a onBlockPlacedBy (Lev;IIILkq;)V
+	METHOD a velocityToAddToEntity (Lev;IIILqn;Lbr;)V
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a getExplosionResistance (Lqn;)F
+	METHOD a setBlockBoundsBasedOnState (Lvt;III)V
+	METHOD a_ onBlockDestroyedByExplosion (Lev;III)V
+	METHOD b isACube ()Z
+	METHOD b onBlockClicked (Lev;IIILgj;)V
+	METHOD b onEntityWalking (Lev;IIILqn;)V
+	METHOD c tickRate ()I
+	METHOD c canPlaceBlockAt (Lev;III)Z
+	METHOD c onBlockDestroyedByPlayer (Lev;IIII)V
+	METHOD d onBlockRemoval (Lev;III)V
+	METHOD e getCollisionBoundingBoxFromPool (Lev;III)Lei;
+	METHOD s_ isCollidable ()Z
+	FIELD a modelBlock Lsl;

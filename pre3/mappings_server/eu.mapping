@@ -1,0 +1,8 @@
+CLASS eu
+	METHOD a isOpaqueCube ()Z
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a getCollidingBoundingBoxes (Lev;IIILei;Ljava/util/ArrayList;)V
+	METHOD a blockActivated (Lev;IIILgj;)Z
+	METHOD a_ getBlockEntity ()Lnl;
+	METHOD b isACube ()Z
+	METHOD d onBlockRemoval (Lev;III)V

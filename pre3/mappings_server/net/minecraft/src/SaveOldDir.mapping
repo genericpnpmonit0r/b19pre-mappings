@@ -1,0 +1,4 @@
+CLASS ln net/minecraft/src/SaveOldDir
+	METHOD a saveWorldInfoAndPlayer (Lec;Ljava/util/List;)V
+	METHOD a getChunkLoader (Lvi;)Lbc;
+	METHOD e flush ()V

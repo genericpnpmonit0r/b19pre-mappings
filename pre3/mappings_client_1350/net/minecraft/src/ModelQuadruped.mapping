@@ -1,0 +1,9 @@
+CLASS iw net/minecraft/src/ModelQuadruped
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Llu;FFFFFF)V
+	FIELD a head Lon;
+	FIELD b body Lon;
+	FIELD c leg1 Lon;
+	FIELD d leg2 Lon;
+	FIELD e leg3 Lon;
+	FIELD f leg4 Lon;

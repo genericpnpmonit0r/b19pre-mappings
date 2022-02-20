@@ -1,0 +1,2 @@
+CLASS aez net/minecraft/src/ItemBoat
+	METHOD a onItemRightClick (Lwy;Luc;Lvj;)Lwy;

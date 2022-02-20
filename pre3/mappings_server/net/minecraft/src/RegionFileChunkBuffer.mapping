@@ -1,0 +1,8 @@
+CLASS ho net/minecraft/src/RegionFileChunkBuffer
+	METHOD <init> (Loj;II)V
+		ARG 1 regionFile
+		ARG 2 x
+		ARG 3 z
+	FIELD a regionFile Loj;
+	FIELD b chunkX I
+	FIELD c chunkZ I

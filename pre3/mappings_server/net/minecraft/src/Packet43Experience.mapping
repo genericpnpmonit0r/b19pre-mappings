@@ -1,0 +1,12 @@
+CLASS kh net/minecraft/src/Packet43Experience
+	METHOD <init> (III)V
+		ARG 1 xpValue
+		ARG 2 xpTotal
+		ARG 3 xpLevel
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lrd;)V
+	FIELD a experienceValue I
+	FIELD b experienceTotal I
+	FIELD c experienceLevel I

@@ -1,0 +1,4 @@
+CLASS kr net/minecraft/src/GuiStatsListener
+	METHOD <init> (Ljz;)V
+		ARG 1 guiStatsComponent
+	FIELD a statsComponent Ljz;

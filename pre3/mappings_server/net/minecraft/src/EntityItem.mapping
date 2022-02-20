@@ -1,0 +1,23 @@
+CLASS ha net/minecraft/src/EntityItem
+	METHOD <init> (Lev;DDDLil;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 itemStack
+	METHOD a dealFireDamage (I)V
+	METHOD a readEntityFromNBT (Lml;)V
+	METHOD a attackEntityFrom (Loo;I)Z
+	METHOD a_ onCollideWithPlayer (Lgj;)V
+	METHOD ac getUsername ()Ljava/lang/String;
+	METHOD b entityInit ()V
+	METHOD b writeEntityToNBT (Lml;)V
+	METHOD f_ canTriggerWalking ()Z
+	METHOD g_ handleWaterMovement ()Z
+	METHOD t_ onUpdate ()V
+	FIELD a item Lil;
+	FIELD b age I
+	FIELD c delayBeforeCanPickup I
+	FIELD d itemRotation F
+	FIELD e timer I
+	FIELD f health I

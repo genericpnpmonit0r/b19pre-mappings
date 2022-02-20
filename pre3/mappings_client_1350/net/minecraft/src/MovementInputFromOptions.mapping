@@ -1,0 +1,5 @@
+CLASS he net/minecraft/src/MovementInputFromOptions
+	METHOD <init> (Lgr;)V
+		ARG 1 options
+	METHOD a updatePlayerMoveState (Lvj;)V
+	FIELD f gameSettings Lgr;

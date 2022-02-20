@@ -1,0 +1,4 @@
+CLASS aci net/minecraft/src/SignModel
+	METHOD a renderSign ()V
+	FIELD a signBoard Lon;
+	FIELD b signStick Lon;

@@ -1,0 +1,21 @@
+CLASS ce net/minecraft/src/EntitySheep
+	METHOD a createChild (Lau;)Lau;
+	METHOD a getRandomFleeceColor (Ljava/util/Random;)I
+		ARG 0 rand
+	METHOD a readEntityFromNBT (Lzx;)V
+	METHOD a dropFewItems (Z)V
+	METHOD b entityInit ()V
+	METHOD b setFleeceColor (I)V
+		ARG 1 color
+	METHOD b interact (Lvj;)Z
+	METHOD b writeEntityToNBT (Lzx;)V
+	METHOD b setSheared (Z)V
+		ARG 1 sheared
+	METHOD c getMaxHealth ()I
+	METHOD e getDropItemId ()I
+	METHOD l getLivingSound ()Ljava/lang/String;
+	METHOD m getHurtSound ()Ljava/lang/String;
+	METHOD n getDeathSound ()Ljava/lang/String;
+	METHOD q getFleeceColor ()I
+	METHOD r getSheared ()Z
+	FIELD a fleeceColorTable [[F

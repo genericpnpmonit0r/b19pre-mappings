@@ -1,0 +1,7 @@
+CLASS afh net/minecraft/src/SlotFurnace
+	METHOD <init> (Lvj;Lhk;III)V
+		ARG 1 player
+		ARG 2 inventory
+	METHOD a isItemValid (Lwy;)Z
+	METHOD b onPickupFromSlot (Lwy;)V
+	FIELD a thePlayer Lvj;

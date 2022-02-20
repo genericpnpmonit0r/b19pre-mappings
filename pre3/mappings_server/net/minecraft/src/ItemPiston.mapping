@@ -1,0 +1,2 @@
+CLASS oq net/minecraft/src/ItemPiston
+	METHOD a getMetadata (I)I

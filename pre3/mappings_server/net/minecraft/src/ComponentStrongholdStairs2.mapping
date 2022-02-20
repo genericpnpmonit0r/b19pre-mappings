@@ -1,0 +1,3 @@
+CLASS t net/minecraft/src/ComponentStrongholdStairs2
+	FIELD a weight Lql;
+	FIELD b componentList Ljava/util/ArrayList;

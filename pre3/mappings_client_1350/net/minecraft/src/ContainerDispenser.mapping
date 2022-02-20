@@ -1,0 +1,7 @@
+CLASS acy net/minecraft/src/ContainerDispenser
+	METHOD <init> (Lhk;Lar;)V
+		ARG 1 inventory
+		ARG 2 dispenser
+	METHOD a transferStackInSlot (I)Lwy;
+	METHOD b canInteractWith (Lvj;)Z
+	FIELD a tileEntityDispenser Lar;

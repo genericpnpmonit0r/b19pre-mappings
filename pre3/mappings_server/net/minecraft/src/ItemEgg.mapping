@@ -1,0 +1,2 @@
+CLASS le net/minecraft/src/ItemEgg
+	METHOD a onItemRightClick (Lil;Lev;Lgj;)Lil;

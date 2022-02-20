@@ -1,0 +1,6 @@
+CLASS y net/minecraft/src/ServerWindowAdapter
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 minecraftServer
+	METHOD windowClosing (Ljava/awt/event/WindowEvent;)V
+		ARG 1 windowevent
+	FIELD a mcServer Lnet/minecraft/server/MinecraftServer;

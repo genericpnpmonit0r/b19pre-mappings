@@ -1,0 +1,17 @@
+CLASS adv net/minecraft/src/ComponentVillagePathGen
+	METHOD <init> (ILjava/util/Random;Log;I)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 boundingBox
+		ARG 4 coordBaseMode
+	METHOD a createValidComponent (Lf;Ljava/util/List;Ljava/util/Random;IIII)Log;
+		ARG 0 startPiece
+		ARG 1 pieces
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 type
+	METHOD a buildComponent (Lgd;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a addComponentParts (Luc;Ljava/util/Random;Log;)Z
+	FIELD a averageGroundLevel I

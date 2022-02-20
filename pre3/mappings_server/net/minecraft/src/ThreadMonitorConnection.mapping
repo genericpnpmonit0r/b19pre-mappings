@@ -1,0 +1,4 @@
+CLASS vo net/minecraft/src/ThreadMonitorConnection
+	METHOD <init> (Lns;)V
+		ARG 1 networkManager
+	FIELD a netManager Lns;

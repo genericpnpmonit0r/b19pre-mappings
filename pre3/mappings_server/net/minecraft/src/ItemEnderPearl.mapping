@@ -1,0 +1,2 @@
+CLASS jp net/minecraft/src/ItemEnderPearl
+	METHOD a onItemRightClick (Lil;Lev;Lgj;)Lil;

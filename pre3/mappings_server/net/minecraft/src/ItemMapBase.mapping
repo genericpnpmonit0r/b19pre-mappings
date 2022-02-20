@@ -1,0 +1,6 @@
+CLASS cj net/minecraft/src/ItemMapBase
+	METHOD c sendMPMapDataPacket (Lil;Lev;Lgj;)Ljq;
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 player
+	METHOD k_ unused ()Z

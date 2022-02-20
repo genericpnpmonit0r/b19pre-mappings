@@ -1,0 +1,20 @@
+CLASS ni net/minecraft/src/StructureStart
+	METHOD a getBoundingBox ()Log;
+	METHOD a markAvailableHeight (Luc;Ljava/util/Random;I)V
+		ARG 1 world
+		ARG 2 rand
+		ARG 3 height
+	METHOD a setRandomHeight (Luc;Ljava/util/Random;II)V
+		ARG 1 world
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 z
+	METHOD a generateStructure (Luc;Ljava/util/Random;Log;)V
+		ARG 1 world
+		ARG 2 rand
+		ARG 3 boundingBox
+	METHOD b getComponents ()Ljava/util/LinkedList;
+	METHOD c updateBoundingBox ()V
+	METHOD d isSizeableStructure ()Z
+	FIELD a components Ljava/util/LinkedList;
+	FIELD b boundingBox Log;

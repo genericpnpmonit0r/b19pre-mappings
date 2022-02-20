@@ -1,0 +1,7 @@
+CLASS ip net/minecraft/src/EnumAction
+	FIELD a none Lip;
+	FIELD b eat Lip;
+	FIELD c drink Lip;
+	FIELD d block Lip;
+	FIELD e bow Lip;
+	FIELD f field_35603_e [Lip;

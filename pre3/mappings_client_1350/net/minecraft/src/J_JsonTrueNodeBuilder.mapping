@@ -1,0 +1,2 @@
+CLASS aeb net/minecraft/src/J_JsonTrueNodeBuilder
+	METHOD b build ()Leg;

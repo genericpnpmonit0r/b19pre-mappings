@@ -1,0 +1,6 @@
+CLASS agg net/minecraft/src/EntityHugeExplodeFX
+	METHOD a renderParticle (Laaa;FFFFFF)V
+	METHOD m getFXLayer ()I
+	METHOD z_ onUpdate ()V
+	FIELD a field_35139_a I
+	FIELD ax field_35138_ay I

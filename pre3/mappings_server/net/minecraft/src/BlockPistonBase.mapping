@@ -1,0 +1,57 @@
+CLASS ja net/minecraft/src/BlockPistonBase
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 texIndex
+		ARG 3 sticky
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a canPushBlock (ILev;IIIZ)Z
+		ARG 0 id
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 mobilityFlagBool
+	METHOD a onBlockAdded (Lev;III)V
+	METHOD a onNeighborBlockChange (Lev;IIII)V
+	METHOD a playBlock (Lev;IIIII)V
+	METHOD a getCollidingBoundingBoxes (Lev;IIILei;Ljava/util/ArrayList;)V
+	METHOD a blockActivated (Lev;IIILgj;)Z
+	METHOD a onBlockPlacedBy (Lev;IIILkq;)V
+	METHOD a setBlockBoundsBasedOnState (Lvt;III)V
+	METHOD b isACube ()Z
+	METHOD c getOrientation (I)I
+		ARG 0 meta
+	METHOD c determineOrientation (Lev;IIILgj;)I
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 player
+	METHOD d isExtended (I)Z
+		ARG 0 meta
+	METHOD f isIndirectlyPowered (Lev;IIII)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 side
+	METHOD g updatePistonState (Lev;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h canExtend (Lev;IIII)Z
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 side
+	METHOD i tryExtend (Lev;IIII)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 side
+	FIELD a isSticky Z
+	FIELD b ignoreUpdates Z

@@ -1,0 +1,7 @@
+CLASS zk net/minecraft/src/J_JsonNodeDoesNotMatchChainedJsonNodeSelectorException
+	METHOD a func_27324_a (Ljava/util/List;)Ljava/lang/String;
+	METHOD a createJsonNodeDoesNotMatchJsonNodeSelectorException (Lpz;)Lv;
+	METHOD a func_27323_a (Lzk;Lxo;)Lv;
+	METHOD b func_27321_b (Lzk;Lxo;)Lv;
+	FIELD a field_27326_a Lpz;
+	FIELD b field_27325_b Ljava/util/List;

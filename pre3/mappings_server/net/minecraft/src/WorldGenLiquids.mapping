@@ -1,0 +1,5 @@
+CLASS vs net/minecraft/src/WorldGenLiquids
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a generate (Lev;Ljava/util/Random;III)Z
+	FIELD a liquidBlockId I

@@ -1,0 +1,8 @@
+CLASS wn net/minecraft/src/TileEntitySign
+	METHOD a readFromNBT (Lml;)V
+	METHOD b writeToNBT (Lml;)V
+	METHOD c getIsEditAble ()Z
+	METHOD k getDescriptionPacket ()Ljq;
+	FIELD a signText [Ljava/lang/String;
+	FIELD b lineBeingEdited I
+	FIELD c isEditAble Z

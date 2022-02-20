@@ -1,0 +1,56 @@
+CLASS fz net/minecraft/src/BiomeDecorator
+	METHOD <init> (Ljm;)V
+		ARG 1 biomeGenBase
+	METHOD a generateOres ()V
+	METHOD a genStandardOre1 (ILnu;II)V
+		ARG 1 oreCount
+		ARG 2 generator
+		ARG 3 x
+		ARG 4 z
+	METHOD a decorate (Lev;Ljava/util/Random;II)V
+		ARG 1 world
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 z
+	METHOD b decorate_do ()V
+	METHOD b genStandardOre2 (ILnu;II)V
+		ARG 1 oreCount
+		ARG 2 generator
+		ARG 3 x
+		ARG 4 z
+	FIELD A cactiPerChunk I
+	FIELD B sandPerChunk I
+	FIELD C sandPerChunk2 I
+	FIELD D clayPerChunk I
+	FIELD E bigMushroomsPerChunk I
+	FIELD F currentWorld Lev;
+	FIELD G decoRNG Ljava/util/Random;
+	FIELD H chunk_X I
+	FIELD I chunk_Z I
+	FIELD J biome Ljm;
+	FIELD a clayGen Lnu;
+	FIELD b sandGen Lnu;
+	FIELD c gravelAsSandGen Lnu;
+	FIELD d dirtGen Lnu;
+	FIELD e gravelGen Lnu;
+	FIELD f coalGen Lnu;
+	FIELD g ironGen Lnu;
+	FIELD h goldGen Lnu;
+	FIELD i redstoneGen Lnu;
+	FIELD j diamondGen Lnu;
+	FIELD k lapisGen Lnu;
+	FIELD l plantYellowGen Lnu;
+	FIELD m plantRedGen Lnu;
+	FIELD n mushroomBrownGen Lnu;
+	FIELD o mushroomRedGen Lnu;
+	FIELD p bigMushroomGen Lnu;
+	FIELD q reedGen Lnu;
+	FIELD r cactusGen Lnu;
+	FIELD s waterlilyGen Lnu;
+	FIELD t waterlilyPerChunk I
+	FIELD u treesPerChunk I
+	FIELD v flowersPerChunk I
+	FIELD w grassPerChunk I
+	FIELD x deadBushPerChunk I
+	FIELD y mushroomsPerChunk I
+	FIELD z reedsPerChunk I

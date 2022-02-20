@@ -1,0 +1,28 @@
+CLASS uf net/minecraft/src/GuiCreateWorld
+	METHOD a initGui ()V
+	METHOD a keyTyped (CI)V
+	METHOD a drawScreen (IIF)V
+	METHOD a mouseClicked (III)V
+	METHOD a generateUnusedFolderName (Liu;Ljava/lang/String;)Ljava/lang/String;
+		ARG 0 saveFormat
+		ARG 1 worldName
+	METHOD a actionPerformed (Lxy;)V
+	METHOD c makeUseableName ()V
+	METHOD d onGuiClosed ()V
+	METHOD g func_35363_g ()V
+	METHOD l selectNextField ()V
+	METHOD q_ updateScreen ()V
+	FIELD a parentGuiScreen Lsv;
+	FIELD b guiTextFieldWorldName Laco;
+	FIELD c guiTextFieldSeed Laco;
+	FIELD d folderName Ljava/lang/String;
+	FIELD e gameModeName Ljava/lang/String;
+	FIELD f onOffFlag Z
+	FIELD i createClicked Z
+	FIELD j worldNameFieldClicked Z
+	FIELD k gameModeButton Lxy;
+	FIELD l moreWorldOptionsButton Lxy;
+	FIELD m mapFeaturesButton Lxy;
+	FIELD n mapTypeButton Lxy;
+	FIELD o gameModeString1 Ljava/lang/String;
+	FIELD w gameModeString2 Ljava/lang/String;

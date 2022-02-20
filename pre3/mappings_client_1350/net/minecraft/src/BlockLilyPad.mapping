@@ -1,0 +1,9 @@
+CLASS uw net/minecraft/src/BlockLilyPad
+	METHOD a updateTick (Luc;IIILjava/util/Random;)V
+	METHOD b colorMultiplier (Lagr;III)I
+	METHOD c getRenderColor (I)I
+	METHOD c_ canThisPlantGrowOnThisBlockID (I)Z
+	METHOD d getRenderType ()I
+	METHOD e canPlaceBlockAt (Luc;III)Z
+	METHOD g canBlockStay (Luc;III)Z
+	METHOD i getBlockColor ()I

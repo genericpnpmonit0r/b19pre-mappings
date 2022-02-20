@@ -1,0 +1,52 @@
+CLASS iq net/minecraft/src/ChunkProviderSky
+	METHOD <init> (Lev;J)V
+		ARG 1 world
+		ARG 2 seed
+	METHOD a unload100OldestChunks ()Z
+	METHOD a chunkExists (II)Z
+	METHOD a generateTerrain (II[B[Ljm;)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+		ARG 4 biomes
+	METHOD a populate (Lcg;II)V
+	METHOD a getPossibleCreatures (Lkj;III)Ljava/util/List;
+	METHOD a saveChunks (ZLwe;)Z
+	METHOD a initializeNoiseField ([DIIIIII)[D
+		ARG 1 noiseArray
+		ARG 2 offset1
+		ARG 3 offset2
+		ARG 4 offset3
+		ARG 5 x
+		ARG 6 y
+		ARG 7 z
+	METHOD b canSave ()Z
+	METHOD b provideChunk (II)Lkk;
+	METHOD b replaceBlocksForBiome (II[B[Ljm;)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+		ARG 4 biomes
+	METHOD c loadChunk (II)Lkk;
+	FIELD a noiseGen6 Lrv;
+	FIELD b noiseGen7 Lrv;
+	FIELD c noiseGen8 Lrv;
+	FIELD d noiseData1 [D
+	FIELD e noiseData2 [D
+	FIELD f noiseData3 [D
+	FIELD g noiseData4 [D
+	FIELD h noiseData5 [D
+	FIELD i unusedIntArray32x32 [[I
+	FIELD j random Ljava/util/Random;
+	FIELD k noiseGen1 Lrv;
+	FIELD l noiseGen2 Lrv;
+	FIELD m noiseGen3 Lrv;
+	FIELD n noiseGen4 Lrv;
+	FIELD o noiseGen5 Lrv;
+	FIELD p worldObj Lev;
+	FIELD q noiseData1p [D
+	FIELD r sandNoise [D
+	FIELD s gravelNoise [D
+	FIELD t stoneNoise [D
+	FIELD u caveGen Lfo;
+	FIELD v biomesForGeneration [Ljm;

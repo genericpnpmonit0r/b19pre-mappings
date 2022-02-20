@@ -1,0 +1,18 @@
+CLASS sa net/minecraft/src/BiomeCacheBlock
+	METHOD <init> (Lta;II)V
+		ARG 1 cache
+		ARG 2 x
+		ARG 3 z
+	METHOD a getBiomeAt (II)Ljm;
+		ARG 1 x
+		ARG 2 z
+	METHOD b getTemperatureValuesAt (II)F
+		ARG 1 x
+		ARG 2 z
+	FIELD a temperatureValues [F
+	FIELD b rainfallValues [F
+	FIELD c biomes [Ljm;
+	FIELD d xPos I
+	FIELD e zPos I
+	FIELD f lastAccessTime J
+	FIELD g biomeCache Lta;

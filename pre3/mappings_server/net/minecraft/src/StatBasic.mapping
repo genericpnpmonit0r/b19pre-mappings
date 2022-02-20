@@ -1,0 +1,2 @@
+CLASS wi net/minecraft/src/StatBasic
+	METHOD d registerStat ()Ltt;

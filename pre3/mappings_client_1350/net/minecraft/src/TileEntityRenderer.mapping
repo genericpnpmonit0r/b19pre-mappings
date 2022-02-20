@@ -1,0 +1,23 @@
+CLASS yo net/minecraft/src/TileEntityRenderer
+	METHOD a getSpecialRendererForClass (Ljava/lang/Class;)Lxc;
+	METHOD a hasSpecialRenderer (Ljm;)Z
+	METHOD a renderTileEntityAt (Ljm;DDDF)V
+	METHOD a renderTileEntity (Ljm;F)V
+	METHOD a func_31072_a (Luc;)V
+	METHOD a cacheActiveRenderInfo (Luc;Lxg;Lls;Lyv;F)V
+	METHOD b getFontRenderer ()Lls;
+	METHOD b getSpecialRendererForEntity (Ljm;)Lxc;
+	FIELD a instance Lyo;
+	FIELD b staticPlayerX D
+	FIELD c staticPlayerY D
+	FIELD d staticPlayerZ D
+	FIELD e renderEngine Lxg;
+	FIELD f worldObj Luc;
+	FIELD g entityLivingPlayer Lyv;
+	FIELD h playerYaw F
+	FIELD i playerPitch F
+	FIELD j playerX D
+	FIELD k playerY D
+	FIELD l playerZ D
+	FIELD u specialRendererMap Ljava/util/Map;
+	FIELD v fontRenderer Lls;

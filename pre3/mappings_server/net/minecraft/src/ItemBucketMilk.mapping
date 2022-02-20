@@ -1,0 +1,5 @@
+CLASS sm net/minecraft/src/ItemBucketMilk
+	METHOD a onItemRightClick (Lil;Lev;Lgj;)Lil;
+	METHOD b onFoodEaten (Lil;Lev;Lgj;)Lil;
+	METHOD c getMaxItemUseDuration (Lil;)I
+	METHOD d getItemUseAction (Lil;)Lip;

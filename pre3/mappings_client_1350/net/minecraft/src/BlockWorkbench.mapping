@@ -1,0 +1,5 @@
+CLASS dl net/minecraft/src/BlockWorkbench
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD b blockActivated (Luc;IIILvj;)Z

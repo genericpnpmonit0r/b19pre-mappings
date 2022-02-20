@@ -1,0 +1,2 @@
+CLASS abg net/minecraft/src/RenderFish
+	METHOD a doRender (Llu;DDDFF)V

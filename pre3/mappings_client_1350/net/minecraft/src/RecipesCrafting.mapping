@@ -1,0 +1,3 @@
+CLASS xs net/minecraft/src/RecipesCrafting
+	METHOD a addRecipes (Leu;)V
+		ARG 1 craftingManager

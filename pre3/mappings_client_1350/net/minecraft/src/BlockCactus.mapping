@@ -1,0 +1,15 @@
+CLASS aao net/minecraft/src/BlockCactus
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a onNeighborBlockChange (Luc;IIII)V
+	METHOD a updateTick (Luc;IIILjava/util/Random;)V
+	METHOD a onEntityCollidedWithBlock (Luc;IIILlu;)V
+	METHOD b renderAsNormalBlock ()Z
+	METHOD c getCollisionBoundingBoxFromPool (Luc;III)Ltu;
+	METHOD d getRenderType ()I
+	METHOD d getSelectedBoundingBoxFromPool (Luc;III)Ltu;
+	METHOD e canPlaceBlockAt (Luc;III)Z
+	METHOD g canBlockStay (Luc;III)Z

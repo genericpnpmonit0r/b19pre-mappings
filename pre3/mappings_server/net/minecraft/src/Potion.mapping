@@ -1,0 +1,51 @@
+CLASS ia net/minecraft/src/Potion
+	METHOD <init> (IZI)V
+		ARG 1 id
+	METHOD a getPotionId ()I
+	METHOD a setIconIndex (II)Lia;
+		ARG 1 x
+		ARG 2 y
+	METHOD a setPotionName (Ljava/lang/String;)Lia;
+		ARG 1 name
+	METHOD a performEffect (Lkq;I)V
+		ARG 1 living
+		ARG 2 amplifier
+	METHOD b isInstant ()Z
+	METHOD b isReady (II)Z
+		ARG 1 i
+		ARG 2 j
+	METHOD e setBadEffect ()Lia;
+	METHOD f getIsBadEffect ()Z
+	FIELD A potionUnused6 Lia;
+	FIELD B potionUnused7 Lia;
+	FIELD C potionUnused8 Lia;
+	FIELD D potionUnused9 Lia;
+	FIELD E potionUnused10 Lia;
+	FIELD F potionUnused11 Lia;
+	FIELD G potionUnused12 Lia;
+	FIELD H id I
+	FIELD I name Ljava/lang/String;
+	FIELD J statusIconIndex I
+	FIELD M isBadEffect Z
+	FIELD a potionTypes [Lia;
+	FIELD b potionUnused13 Lia;
+	FIELD c moveSpeed Lia;
+	FIELD d moveSlowdown Lia;
+	FIELD e digSpeed Lia;
+	FIELD f digSlowdown Lia;
+	FIELD g damageBoost Lia;
+	FIELD h heal Lia;
+	FIELD i harm Lia;
+	FIELD j jump Lia;
+	FIELD l regeneration Lia;
+	FIELD m resistance Lia;
+	FIELD n fireResistance Lia;
+	FIELD o waterBreathing Lia;
+	FIELD s hunger Lia;
+	FIELD t weakness Lia;
+	FIELD u poison Lia;
+	FIELD v potionUnused1 Lia;
+	FIELD w potionUnused2 Lia;
+	FIELD x potionUnused3 Lia;
+	FIELD y potionUnused4 Lia;
+	FIELD z potionUnused5 Lia;

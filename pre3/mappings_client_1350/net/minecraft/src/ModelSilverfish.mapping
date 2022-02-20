@@ -1,0 +1,9 @@
+CLASS aem net/minecraft/src/ModelSilverfish
+	METHOD a func_35395_a ()I
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Llu;FFFFFF)V
+	FIELD a silverfishBodyParts [Lon;
+	FIELD b silverfishWings [Lon;
+	FIELD c field_35399_c [F
+	FIELD d silverfishBoxLength [[I
+	FIELD e silverfishTexturePositions [[I

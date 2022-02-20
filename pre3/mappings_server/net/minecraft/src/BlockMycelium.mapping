@@ -1,0 +1,6 @@
+CLASS wc net/minecraft/src/BlockMycelium
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a updateTick (Lev;IIILjava/util/Random;)V

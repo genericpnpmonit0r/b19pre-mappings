@@ -1,0 +1,11 @@
+CLASS oe net/minecraft/src/Packet33RelEntityMoveLook
+	METHOD <init> (IBBBBB)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 yaw
+		ARG 6 pitch
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V

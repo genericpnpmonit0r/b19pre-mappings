@@ -1,0 +1,2 @@
+CLASS cd net/minecraft/src/ItemSnowball
+	METHOD a onItemRightClick (Lwy;Luc;Lvj;)Lwy;

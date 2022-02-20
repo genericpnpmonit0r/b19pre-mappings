@@ -1,0 +1,118 @@
+CLASS wy net/minecraft/src/ItemStack
+	FIELD a stackSize I
+	FIELD b animationsToGo I
+	FIELD c itemID I
+	FIELD d stackTagCompound Lzx;
+	FIELD e itemDamage I
+	METHOD <init> (III)V
+		ARG 1 id
+		ARG 2 stackSize
+		ARG 3 meta
+	METHOD <init> (Lnd;)V
+		ARG 1 block
+	METHOD <init> (Lnd;I)V
+		ARG 1 block
+		ARG 2 count
+	METHOD <init> (Lnd;II)V
+		ARG 1 block
+		ARG 2 count
+		ARG 3 meta
+	METHOD <init> (Lvf;)V
+		ARG 1 item
+	METHOD <init> (Lvf;I)V
+		ARG 1 item
+		ARG 2 count
+	METHOD <init> (Lvf;II)V
+		ARG 1 item
+		ARG 2 count
+		ARG 3 meta
+	METHOD a getItem ()Lvf;
+	METHOD a splitStack (I)Lwy;
+		ARG 1 stackSize
+	METHOD a onDestroyBlock (IIIILvj;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+		ARG 5 player
+	METHOD a damageItem (ILlu;)V
+		ARG 1 meta
+		ARG 2 entity
+	METHOD a addEnchantment (Lim;I)V
+		ARG 1 enchantment
+		ARG 2 level
+	METHOD a getDamageVsEntity (Llu;)I
+		ARG 1 entity
+	METHOD a getStrVsBlock (Lnd;)F
+		ARG 1 block
+	METHOD a updateAnimation (Luc;Llu;IZ)V
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 tickCounter
+		ARG 4 animationFlag
+	METHOD a useItemRightClick (Luc;Lvj;)Lwy;
+		ARG 1 world
+		ARG 2 player
+	METHOD a onPlayerStoppedUsing (Luc;Lvj;I)V
+		ARG 1 world
+		ARG 2 player
+		ARG 3 id
+	METHOD a onItemDestroyedByUse (Lvj;)V
+		ARG 1 player
+	METHOD a useItem (Lvj;Luc;IIII)Z
+		ARG 1 player
+		ARG 2 world
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 side
+	METHOD a isItemEqual (Lwy;)Z
+		ARG 1 itemStack
+	METHOD a areItemStacksEqual (Lwy;Lwy;)Z
+		ARG 0 ItemStack1
+		ARG 1 itemStack2
+	METHOD a useItemOnEntity (Lyv;)V
+		ARG 1 living
+	METHOD a hitEntity (Lyv;Lvj;)V
+		ARG 1 living
+		ARG 2 player
+	METHOD a loadItemStackFromNBT (Lzx;)Lwy;
+		ARG 0 compoundTag
+	METHOD b getIconIndex ()I
+	METHOD b setItemDamage (I)V
+		ARG 1 meta
+	METHOD b canHarvestBlock (Lnd;)Z
+		ARG 1 block
+	METHOD b onFoodEaten (Luc;Lvj;)Lwy;
+		ARG 1 world
+		ARG 2 player
+	METHOD b copyItemStack (Lwy;)Lwy;
+		ARG 0 ItemStack
+	METHOD b writeToNBT (Lzx;)Lzx;
+		ARG 1 compoundTag
+	METHOD c getMaxStackSize ()I
+	METHOD c onCrafting (Luc;Lvj;)V
+		ARG 1 world
+		ARG 2 player
+	METHOD c isStackEqual (Lwy;)Z
+		ARG 1 itemStack
+	METHOD c readFromNBT (Lzx;)V
+		ARG 1 compoundTag
+	METHOD d isStackable ()Z
+	METHOD d isItemStackEqual (Lwy;)Z
+		ARG 1 itemStack
+	METHOD d addTagData (Lzx;)V
+		ARG 1 compoundTag
+	METHOD e isItemStackDamageable ()Z
+	METHOD f getHasSubtypes ()Z
+	METHOD g isItemDamaged ()Z
+	METHOD h getItemDamageForDisplay ()I
+	METHOD i getItemDamage ()I
+	METHOD j getMaxDamage ()I
+	METHOD l getMaxItemUseDuration ()I
+	METHOD m getItemUseAction ()Lxb;
+	METHOD n hasTagData ()Z
+	METHOD o addEnchatedDataTag ()Ljava/util/List;
+	METHOD p itemHasItemStack ()Z
+	METHOD q getItemRarity ()Ler;
+	METHOD s hasEnchantment ()Z

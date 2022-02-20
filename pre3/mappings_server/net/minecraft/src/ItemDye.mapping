@@ -1,0 +1,6 @@
+CLASS jr net/minecraft/src/ItemDye
+	METHOD a getItemNameIS (Lil;)Ljava/lang/String;
+	METHOD a onItemUse (Lil;Lgj;Lev;IIII)Z
+	METHOD a saddleEntity (Lil;Lkq;)V
+	FIELD a dyeColorNames [Ljava/lang/String;
+	FIELD bP dyeColors [I

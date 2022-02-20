@@ -1,0 +1,13 @@
+CLASS te net/minecraft/src/RenderPlayer
+	METHOD a doRender (Llu;DDDFF)V
+	METHOD a renderLivingAt (Lyv;DDD)V
+	METHOD a preRenderCallback (Lyv;F)V
+	METHOD a rotateCorpse (Lyv;FFF)V
+	METHOD b drawFirstPersonHand ()V
+	METHOD b passSpecialRender (Lyv;DDD)V
+	METHOD b renderEquippedItems (Lyv;F)V
+	METHOD b shouldRenderPass (Lyv;IF)I
+	FIELD c modelBipedMain Lue;
+	FIELD d modelArmorChestplate Lue;
+	FIELD i modelArmor Lue;
+	FIELD j armorFilenamePrefix [Ljava/lang/String;

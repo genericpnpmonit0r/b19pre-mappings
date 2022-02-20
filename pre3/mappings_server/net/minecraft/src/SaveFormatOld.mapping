@@ -1,0 +1,13 @@
+CLASS rl net/minecraft/src/SaveFormatOld
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 file
+	METHOD a isOldSaveType (Ljava/lang/String;)Z
+	METHOD a convertMapFormat (Ljava/lang/String;Lwe;)Z
+	METHOD a getSaveLoader (Ljava/lang/String;Z)Lvb;
+		ARG 1 worldName
+		ARG 2 isNew
+	METHOD a deleteOldFiles ([Ljava/io/File;)V
+		ARG 0 files
+	METHOD b getWorldInfo (Ljava/lang/String;)Lec;
+		ARG 1 name
+	FIELD a savesDirectory Ljava/io/File;

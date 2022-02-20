@@ -1,0 +1,11 @@
+CLASS adi net/minecraft/src/ModelChicken
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Llu;FFFFFF)V
+	FIELD a head Lon;
+	FIELD b body Lon;
+	FIELD c rightLeg Lon;
+	FIELD d leftLeg Lon;
+	FIELD e rightWing Lon;
+	FIELD f leftWing Lon;
+	FIELD g bill Lon;
+	FIELD l chin Lon;

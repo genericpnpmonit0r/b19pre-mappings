@@ -1,0 +1,55 @@
+CLASS wg net/minecraft/src/ChunkProviderGenerate
+	METHOD <init> (Lev;JZ)V
+		ARG 1 world
+		ARG 2 seed
+		ARG 4 featuresEnabledFlag
+	METHOD a unload100OldestChunks ()Z
+	METHOD a chunkExists (II)Z
+	METHOD a generateTerrain (II[B)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+	METHOD a replaceBlocksForBiome (II[B[Ljm;)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+		ARG 4 biomes
+	METHOD a populate (Lcg;II)V
+	METHOD a getPossibleCreatures (Lkj;III)Ljava/util/List;
+	METHOD a saveChunks (ZLwe;)Z
+	METHOD a initializeNoiseField ([DIIIIII)[D
+		ARG 1 noiseArray
+		ARG 2 offset1
+		ARG 3 offset2
+		ARG 4 offset3
+		ARG 5 x
+		ARG 6 y
+		ARG 7 z
+	METHOD b canSave ()Z
+	METHOD b provideChunk (II)Lkk;
+	METHOD c loadChunk (II)Lkk;
+	FIELD a noiseGen5 Lrv;
+	FIELD b noiseGen6 Lrv;
+	FIELD c mobSpawnerNoise Lrv;
+	FIELD d strongholdGenerator Lfl;
+	FIELD e villageGenerator Lak;
+	FIELD f mineshaftGenerator Lwb;
+	FIELD g noise3 [D
+	FIELD h noise1 [D
+	FIELD i noise2 [D
+	FIELD j noise5 [D
+	FIELD k noise6 [D
+	FIELD l parabolicField [F
+	FIELD m unusedIntArray32x32 [[I
+	FIELD n rand Ljava/util/Random;
+	FIELD o noiseGen1 Lrv;
+	FIELD p noiseGen2 Lrv;
+	FIELD q noiseGen3 Lrv;
+	FIELD r noiseGen4 Lrv;
+	FIELD s worldObj Lev;
+	FIELD t mapFeaturesEnabled Z
+	FIELD u noiseArray [D
+	FIELD v stoneNoise [D
+	FIELD w caveGenerator Lfo;
+	FIELD x ravineGenerator Lfo;
+	FIELD y biomesForGeneration [Ljm;

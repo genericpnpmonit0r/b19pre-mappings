@@ -1,0 +1,44 @@
+CLASS dr net/minecraft/src/Container
+	METHOD a updateCraftingResults ()V
+	METHOD a getStackInSlot (I)Lil;
+		ARG 1 slotIndex
+	METHOD a slotClick (IIZLgj;)Lil;
+	METHOD a getSlotAndPut (ILil;)V
+		ARG 1 index
+		ARG 2 itemStack
+	METHOD a onCraftGuiOpened (Ldx;)V
+		ARG 1 crafting
+	METHOD a addSlot (Lgi;)V
+		ARG 1 slot
+	METHOD a onCraftGuiClosed (Lgj;)V
+		ARG 1 player
+	METHOD a setCanCraft (Lgj;Z)V
+		ARG 1 player
+		ARG 2 addRemove
+	METHOD a mergeItemStack (Lil;IIZ)Z
+		ARG 1 itemstack
+		ARG 2 x
+		ARG 3 y
+		ARG 4 clickFlag
+	METHOD a onCraftMatrixChanged (Lkv;)V
+		ARG 1 inventory
+	METHOD a transfer (Lkv;I)Lgi;
+		ARG 1 inventory
+		ARG 2 index
+	METHOD b getItemStackList ()Ljava/util/List;
+	METHOD b getSlot (I)Lgi;
+	METHOD b retrySlotClick (IIZLgj;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 clickFlag
+		ARG 4 player
+	METHOD b canInteractWith (Lgj;)Z
+		ARG 1 player
+	METHOD c getCanCraft (Lgj;)Z
+		ARG 1 player
+	FIELD a transactionId S
+	FIELD b playerList Ljava/util/Set;
+	FIELD d inventoryItemStacks Ljava/util/List;
+	FIELD e inventorySlots Ljava/util/List;
+	FIELD f windowId I
+	FIELD g crafters Ljava/util/List;

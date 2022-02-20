@@ -1,0 +1,20 @@
+CLASS tt net/minecraft/src/StatBase
+	METHOD <init> (ILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 name
+	METHOD <init> (ILjava/lang/String;Luo;)V
+		ARG 1 id
+		ARG 2 name
+		ARG 3 type
+	METHOD d registerStat ()Ltt;
+	METHOD e initIndependentStat ()Ltt;
+	FIELD a type Luo;
+	FIELD b numberFormat Ljava/text/NumberFormat;
+	FIELD c decimalFormat Ljava/text/DecimalFormat;
+	FIELD e statId I
+	FIELD f statName Ljava/lang/String;
+	FIELD g isIndependent Z
+	FIELD h statGuid Ljava/lang/String;
+	FIELD i simpleStatType Luo;
+	FIELD j timeStatType Luo;
+	FIELD k distanceStatType Luo;

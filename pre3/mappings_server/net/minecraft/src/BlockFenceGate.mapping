@@ -1,0 +1,14 @@
+CLASS su net/minecraft/src/BlockFenceGate
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
+	METHOD a isOpaqueCube ()Z
+	METHOD a blockActivated (Lev;IIILgj;)Z
+	METHOD a onBlockPlacedBy (Lev;IIILkq;)V
+	METHOD b isACube ()Z
+	METHOD c isFenceGateOpen (I)Z
+		ARG 0 meta
+	METHOD c canPlaceBlockAt (Lev;III)Z
+	METHOD d getFenceGateState (I)I
+		ARG 0 meta
+	METHOD e getCollisionBoundingBoxFromPool (Lev;III)Lei;

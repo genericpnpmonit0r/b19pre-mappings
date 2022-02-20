@@ -1,0 +1,149 @@
+CLASS net/minecraft/client/Minecraft
+	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
+		ARG 1 component
+		ARG 2 canvas
+		ARG 3 minecraftApplet
+		ARG 4 dispWidth
+		ARG 5 dispHeight
+		ARG 6 fullscreen
+	METHOD A forceReload ()V
+	METHOD B clickMiddleMouseButton ()V
+	METHOD a startGame ()V
+	METHOD a resize (II)V
+		ARG 1 dispWidth
+		ARG 2 dispHeight
+	METHOD a scaledTessellator (IIIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 x2
+		ARG 5 y2
+		ARG 6 z2
+	METHOD a sendClickBlockToController (IZ)V
+		ARG 1 clickCount
+		ARG 2 clicked
+	METHOD a displayUnexpectedThrowable (Lht;)V
+		ARG 1 unexpectedThrowable
+	METHOD a getAppDir (Ljava/lang/String;)Ljava/io/File;
+		ARG 0 fileLocation
+	METHOD a setServer (Ljava/lang/String;I)V
+		ARG 1 hostname
+		ARG 2 port
+	METHOD a installResource (Ljava/lang/String;Ljava/io/File;)V
+		ARG 1 index
+		ARG 2 file
+	METHOD a startMainThread1 (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 0 username
+		ARG 1 sessionId
+	METHOD a startWorld (Ljava/lang/String;Ljava/lang/String;Lem;)V
+	METHOD a startMainThread (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+		ARG 0 username
+		ARG 1 sessionId
+		ARG 2 joinServer
+	METHOD a displayGuiScreen (Lsv;)V
+		ARG 1 guiScreen
+	METHOD a changeWorld1 (Luc;)V
+		ARG 1 world
+	METHOD a changeWorld2 (Luc;Ljava/lang/String;)V
+		ARG 1 world
+		ARG 2 loadingName
+	METHOD a changeWorld (Luc;Ljava/lang/String;Lvj;)V
+		ARG 1 world
+		ARG 2 loadingName
+		ARG 3 player
+	METHOD a respawn (ZI)V
+		ARG 1 vaild
+		ARG 2 dim
+	METHOD b getMinecraftDir ()Ljava/io/File;
+	METHOD b onMinecraftCrash (Lht;)V
+		ARG 1 unexpectedThrowable
+	METHOD b deleteWorld (Ljava/lang/String;)V
+		ARG 1 text
+	METHOD b convertMapFormat (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 loadingName
+		ARG 2 worldName
+	METHOD c getSaveLoader ()Liu;
+	METHOD c clickMouse (I)V
+		ARG 1 mouseButton
+	METHOD c lineIsCommand (Ljava/lang/String;)Z
+		ARG 1 cmdString
+	METHOD d shutdownMinecraftApplet ()V
+	METHOD d checkGLError (Ljava/lang/String;)V
+		ARG 1 errorString
+	METHOD e freeMemory ()V
+	METHOD e preloadWorld (Ljava/lang/String;)V
+		ARG 1 loadingName
+	METHOD f shutdown ()V
+	METHOD g setIngameFocus ()V
+	METHOD h setIngameNotInFocus ()V
+	METHOD i displayInGameMenu ()V
+	METHOD j toggleFullscreen ()V
+	METHOD l isMultiplayerWorld ()Z
+	METHOD m debugInfoRenders ()Ljava/lang/String;
+	METHOD main ([Ljava/lang/String;)V
+		ARG 0 args
+	METHOD n func_6262_n ()Ljava/lang/String;
+	METHOD o func_21002_o ()Ljava/lang/String;
+	METHOD p debugInfoEntities ()Ljava/lang/String;
+	METHOD q getSendQueue ()Lzm;
+	METHOD r isGuiEnabled ()Z
+	METHOD s isFancyGraphicsEnabled ()Z
+	METHOD t isAmbientOcclusionEnabled ()Z
+	METHOD u isDebugInfoEnabled ()Z
+	METHOD v loadScreen ()V
+	METHOD w getOs ()Laay;
+	METHOD z startThreadCheckHasPaid ()V
+	FIELD A gameSettings Lgr;
+	FIELD B mcApplet Lnet/minecraft/client/MinecraftApplet;
+	FIELD C sndManager Lpy;
+	FIELD D mouseHelper Lafm;
+	FIELD E texturePackList Lfh;
+	FIELD F mcDataDir Ljava/io/File;
+	FIELD G frameTimes [J
+	FIELD H tickTimes [J
+	FIELD I numRecordedFrameTimes I
+	FIELD J hasPaidCheckTime J
+	FIELD K statFileWriter Lago;
+	FIELD L running Z
+	FIELD M debug Ljava/lang/String;
+	FIELD P isTakingScreenshot Z
+	FIELD R inGameHasFocus Z
+	FIELD S isRaining Z
+	FIELD U fullscreen Z
+	FIELD V hasCrashed Z
+	FIELD W openGlCapsChecker Lss;
+	FIELD Y downloadResourcesThread Lbu;
+	FIELD a theMinecraft Lnet/minecraft/client/Minecraft;
+	FIELD aa leftClickCounter I
+	FIELD ab tempDisplayWidth I
+	FIELD ac tempDisplayHeight I
+	FIELD ad saveLoader Liu;
+	FIELD af serverName Ljava/lang/String;
+	FIELD ag serverPort I
+	FIELD ah textureWaterFX Lnz;
+	FIELD ai textureLavaFX Lbf;
+	FIELD aj minecraftDir Ljava/io/File;
+	FIELD b memoryByteArray [B
+	FIELD c playerController Liz;
+	FIELD d displayWidth I
+	FIELD e displayHeight I
+	FIELD f theWorld Luc;
+	FIELD g renderGlobal Li;
+	FIELD h thePlayer Lsw;
+	FIELD i renderViewEntity Lyv;
+	FIELD j effectRenderer Lcg;
+	FIELD k session Lee;
+	FIELD l minecraftUri Ljava/lang/String;
+	FIELD m mcCanvas Ljava/awt/Canvas;
+	FIELD n hideQuitButton Z
+	FIELD o isGamePaused Z
+	FIELD p renderEngine Lxg;
+	FIELD q fontRenderer Lls;
+	FIELD s currentScreen Lsv;
+	FIELD t loadingScreen Lhv;
+	FIELD u entityRenderer Lkd;
+	FIELD v guiAchievement Loc;
+	FIELD w ingameGUI Laeo;
+	FIELD x skipRenderWorld Z
+	FIELD y playerModelBiped Lue;
+	FIELD z objectMouseOver Lnm;

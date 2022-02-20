@@ -1,0 +1,12 @@
+CLASS du net/minecraft/src/Packet201PlayerInfo
+	METHOD <init> (Ljava/lang/String;ZI)V
+		ARG 1 playername
+		ARG 2 connected
+		ARG 3 ping
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lrd;)V
+	FIELD a playerName Ljava/lang/String;
+	FIELD b isConnected Z
+	FIELD c ping I

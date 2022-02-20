@@ -1,0 +1,8 @@
+CLASS o net/minecraft/src/EntitySnowman
+	METHOD a attackEntity (Llu;F)V
+	METHOD a readEntityFromNBT (Lzx;)V
+	METHOD a dropFewItems (Z)V
+	METHOD b writeEntityToNBT (Lzx;)V
+	METHOD c getMaxHealth ()I
+	METHOD d onLivingUpdate ()V
+	METHOD e getDropItemId ()I

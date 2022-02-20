@@ -1,0 +1,171 @@
+CLASS gj net/minecraft/src/EntityPlayer
+	METHOD A usePersonalCraftingInventory ()V
+	METHOD B isInBed ()Z
+	METHOD C increaseLevel ()V
+	METHOD F onItemUseFinish ()V
+	METHOD G isUsingItem ()Z
+	METHOD H stopUsingItem ()V
+	METHOD I clearItemInUse ()V
+	METHOD J getIsBlocking ()Z
+	METHOD K isMovementBlocked ()Z
+	METHOD L updateRidden ()V
+	METHOD M dropCurrentItem ()V
+	METHOD N getTotalArmorValue ()I
+	METHOD O getCurrentEquippedItem ()Lil;
+	METHOD P destroyCurrentEquippedItem ()V
+	METHOD Q getYOffset ()D
+	METHOD R setEntityDead ()V
+	METHOD S isEntityInsideOpaqueBlock ()Z
+	METHOD T isPlayerSleeping ()Z
+	METHOD U isPlayerFullyAsleep ()Z
+	METHOD V getSpawnChunk ()Lbp;
+	METHOD W jump ()V
+	METHOD X setInPortal ()V
+	METHOD Z getFoodStats ()Lqd;
+	METHOD a moveEntityWithHeading (FF)V
+	METHOD a sleepInBedAt (III)Lcu;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a displayGUIDispenser (Lba;)V
+		ARG 1 dispenser
+	METHOD a setSpawnChunk (Lbp;)V
+		ARG 1 chunkCoords
+	METHOD a verifyBedCoordinates (Lev;Lbp;)Lbp;
+		ARG 0 world
+		ARG 1 chunkCoords
+	METHOD a getExperiencePoints (Lgj;)I
+	METHOD a joinEntityItemWithWorld (Lha;)V
+		ARG 1 entityItem
+	METHOD a onItemStackChanged (Lil;)V
+		ARG 1 itemStack
+	METHOD a setItemInUse (Lil;I)V
+		ARG 1 itemStack
+		ARG 2 count
+	METHOD a dropPlayerItemWithRandomChoice (Lil;Z)V
+		ARG 1 itemStack
+		ARG 2 useRand
+	METHOD a addChatMessage (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD a onKillEntity (Lkq;)V
+	METHOD a alertWolves (Lkq;Z)V
+		ARG 1 living
+		ARG 2 sitting
+	METHOD a displayGUIChest (Lkv;)V
+		ARG 1 inventory
+	METHOD a readEntityFromNBT (Lml;)V
+	METHOD a onDeath (Loo;)V
+	METHOD a attackEntityFrom (Loo;I)Z
+	METHOD a displayGUIFurnace (Lqj;)V
+		ARG 1 furnace
+	METHOD a onItemPickup (Lqn;I)V
+		ARG 1 entity
+		ARG 2 id
+	METHOD a getCurrentPlayerStrVsBlock (Lsl;)F
+		ARG 1 block
+	METHOD a triggerAchievement (Ltt;)V
+		ARG 1 statBase
+	METHOD a addStat (Ltt;I)V
+		ARG 1 statBase
+		ARG 2 id
+	METHOD a displayGUIEditSign (Lwn;)V
+		ARG 1 sign
+	METHOD a wakeUpPlayer (ZZZ)V
+		ARG 1 resetSleepTimer
+		ARG 2 allPlayersSleeping
+		ARG 3 setSpawnChunk
+	METHOD ab func_35188_X ()Z
+	METHOD ac getUsername ()Ljava/lang/String;
+	METHOD b entityInit ()V
+	METHOD b addMovementStat (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD b fall (F)V
+	METHOD b setSpecialRenderXZ (I)V
+		ARG 1 specialRenderCase
+	METHOD b displayWorkbenchGUI (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b dropPlayerItem (Lil;)V
+		ARG 1 itemStack
+	METHOD b updateItemInUse (Lil;I)V
+		ARG 1 itemStack
+		ARG 2 count
+	METHOD b writeEntityToNBT (Lml;)V
+	METHOD b damageEntity (Loo;I)V
+	METHOD b addToPlayerScore (Lqn;I)V
+	METHOD b canHarvestBlock (Lsl;)Z
+		ARG 1 block
+	METHOD b_ updateEntityActionState ()V
+	METHOD c getMaxHealth ()I
+	METHOD c addExhaustion (F)V
+		ARG 1 exhaustionAmount
+	METHOD c useCurrentItemOnEntity (Lqn;)V
+		ARG 1 entity
+	METHOD c canEat (Z)Z
+		ARG 1 canEatToggle
+	METHOD d onLivingUpdate ()V
+	METHOD d damageArmor (I)V
+	METHOD d canPlayerEdit (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD d attackTargetEntityWithCurrentItem (Lqn;)V
+		ARG 1 entity
+	METHOD e increaseXP (I)V
+		ARG 1 xpAmount
+	METHOD e onCriticalHit (Lqn;)V
+		ARG 1 entity
+	METHOD h addMountedMovementStat (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD j collideWithPlayer (Lqn;)V
+		ARG 1 entity
+	METHOD o_ swingItem ()V
+	METHOD t_ onUpdate ()V
+	METHOD v resetHeight ()V
+	METHOD w getEyeHeight ()F
+	METHOD x isPVPEnabled ()Z
+	METHOD z applyPotionDigSpeedEffects ()I
+	FIELD A field_20050_aB D
+	FIELD B field_20049_aC D
+	FIELD C field_20048_aD D
+	FIELD D sleeping Z
+	FIELD E playerLocation Lbp;
+	FIELD F specialRenderX F
+	FIELD G specialRenderZ F
+	FIELD H timeUntilPortal I
+	FIELD I inPortal Z
+	FIELD J timeInPortal F
+	FIELD K capabilities Luq;
+	FIELD L xp I
+	FIELD M playerLevel I
+	FIELD N xpLevel I
+	FIELD O speedOnGround F
+	FIELD P speedInAir F
+	FIELD Q fishEntity Lkw;
+	FIELD a sleepTimer I
+	FIELD b spawnChunk Lbp;
+	FIELD c startMinecartRidingCoordinate Lbp;
+	FIELD d itemInUse Lil;
+	FIELD e itemInUseCount I
+	FIELD j inventory Lik;
+	FIELD k personalCraftingInventory Ldr;
+	FIELD l currentCraftingInventory Ldr;
+	FIELD m foodStats Lqd;
+	FIELD n flyToggleTimer I
+	FIELD o unusedByte B
+	FIELD p score I
+	FIELD q prevCameraYaw F
+	FIELD r cameraYaw F
+	FIELD s isSwinging Z
+	FIELD t swingProgressInt I
+	FIELD u username Ljava/lang/String;
+	FIELD v dimension I
+	FIELD w xpCooldown I
+	FIELD x field_20047_ay D
+	FIELD y field_20046_az D
+	FIELD z field_20051_aA D

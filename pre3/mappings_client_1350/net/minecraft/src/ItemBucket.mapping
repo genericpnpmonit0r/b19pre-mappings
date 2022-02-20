@@ -1,0 +1,6 @@
+CLASS at net/minecraft/src/ItemBucket
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 filled
+	METHOD a onItemRightClick (Lwy;Luc;Lvj;)Lwy;
+	FIELD a isFull I

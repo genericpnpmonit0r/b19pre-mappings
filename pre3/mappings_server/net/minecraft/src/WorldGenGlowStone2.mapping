@@ -1,0 +1,2 @@
+CLASS qe net/minecraft/src/WorldGenGlowStone2
+	METHOD a generate (Lev;Ljava/util/Random;III)Z

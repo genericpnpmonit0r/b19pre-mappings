@@ -1,0 +1,5 @@
+CLASS vm net/minecraft/src/BlockSponge
+	METHOD <init> (I)V
+		ARG 1 is
+	METHOD a onBlockAdded (Lev;III)V
+	METHOD d onBlockRemoval (Lev;III)V

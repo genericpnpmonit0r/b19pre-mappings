@@ -1,0 +1,11 @@
+CLASS dj net/minecraft/src/BlockLadder
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
+	METHOD a isOpaqueCube ()Z
+	METHOD a onNeighborBlockChange (Lev;IIII)V
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD b isACube ()Z
+	METHOD c canPlaceBlockAt (Lev;III)Z
+	METHOD e getCollisionBoundingBoxFromPool (Lev;III)Lei;
+	METHOD e onBlockPlaced (Lev;IIII)V

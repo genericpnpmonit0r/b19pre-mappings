@@ -1,0 +1,2 @@
+CLASS sz net/minecraft/src/ItemSign
+	METHOD a onItemUse (Lil;Lgj;Lev;IIII)Z

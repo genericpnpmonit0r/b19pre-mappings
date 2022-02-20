@@ -1,0 +1,8 @@
+CLASS sv net/minecraft/src/EntityZombie
+	METHOD N getTotalArmorValue ()I
+	METHOD c getMaxHealth ()I
+	METHOD d onLivingUpdate ()V
+	METHOD e getDropItemId ()I
+	METHOD l getLivingSound ()Ljava/lang/String;
+	METHOD m getHurtSound ()Ljava/lang/String;
+	METHOD n getDeathSound ()Ljava/lang/String;

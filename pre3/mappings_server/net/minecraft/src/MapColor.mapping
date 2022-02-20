@@ -1,0 +1,18 @@
+CLASS ds net/minecraft/src/MapColor
+	FIELD a mapColorArray [Lds;
+	FIELD b airColor Lds;
+	FIELD c grassColor Lds;
+	FIELD d sandColor Lds;
+	FIELD e clothColor Lds;
+	FIELD f tntColor Lds;
+	FIELD g iceColor Lds;
+	FIELD h ironColor Lds;
+	FIELD i foliageColor Lds;
+	FIELD j snowColor Lds;
+	FIELD k clayColor Lds;
+	FIELD l dirtColor Lds;
+	FIELD m stoneColor Lds;
+	FIELD n waterColor Lds;
+	FIELD o woodColor Lds;
+	FIELD p colorValue I
+	FIELD q colorIndex I

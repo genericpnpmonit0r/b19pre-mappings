@@ -1,0 +1,16 @@
+CLASS um net/minecraft/src/EntityPig
+	METHOD a createChild (Lbe;)Lbe;
+	METHOD a onStruckByLightning (Ld;)V
+	METHOD a readEntityFromNBT (Lml;)V
+	METHOD b entityInit ()V
+	METHOD b fall (F)V
+	METHOD b interact (Lgj;)Z
+	METHOD b writeEntityToNBT (Lml;)V
+	METHOD b setSaddled (Z)V
+		ARG 1 saddled
+	METHOD c getMaxHealth ()I
+	METHOD e getDropItemId ()I
+	METHOD l getLivingSound ()Ljava/lang/String;
+	METHOD m getHurtSound ()Ljava/lang/String;
+	METHOD n getDeathSound ()Ljava/lang/String;
+	METHOD x getSaddled ()Z

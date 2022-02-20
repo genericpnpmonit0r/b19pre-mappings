@@ -1,0 +1,12 @@
+CLASS ae net/minecraft/src/BlockTNT
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a onBlockAdded (Lev;III)V
+	METHOD a onNeighborBlockChange (Lev;IIII)V
+	METHOD a blockActivated (Lev;IIILgj;)Z
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a_ onBlockDestroyedByExplosion (Lev;III)V
+	METHOD b onBlockClicked (Lev;IIILgj;)V
+	METHOD c onBlockDestroyedByPlayer (Lev;IIII)V

@@ -1,0 +1,2 @@
+CLASS xn net/minecraft/src/MaterialWeb
+	METHOD c getIsSolid ()Z

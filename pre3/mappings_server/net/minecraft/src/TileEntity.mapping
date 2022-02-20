@@ -1,0 +1,30 @@
+CLASS nl net/minecraft/src/TileEntity
+	METHOD a addMapping (Ljava/lang/Class;Ljava/lang/String;)V
+		ARG 0 tileEntityClass
+		ARG 1 id
+	METHOD a readFromNBT (Lml;)V
+		ARG 1 compoundTag
+	METHOD b reveiveEvent (II)V
+		ARG 1 id
+		ARG 2 playersUsing
+	METHOD b writeToNBT (Lml;)V
+		ARG 1 compoundTag
+	METHOD c createAndLoadEntity (Lml;)Lnl;
+		ARG 0 compoundTag
+	METHOD d updateContainingBlockInfo ()V
+	METHOD i invalidate ()V
+	METHOD j getBlockMetadata ()I
+	METHOD j_ updateEntity ()V
+	METHOD k getDescriptionPacket ()Ljq;
+	METHOD l isInvalid ()Z
+	METHOD m validate ()V
+	METHOD u_ onInventoryChanged ()V
+	FIELD a nameToClassMap Ljava/util/Map;
+	FIELD b classToNameMap Ljava/util/Map;
+	FIELD k worldObj Lev;
+	FIELD l xCoord I
+	FIELD m yCoord I
+	FIELD n zCoord I
+	FIELD o tileEntityInvalid Z
+	FIELD p blockMetadata I
+	FIELD q blockType Lsl;

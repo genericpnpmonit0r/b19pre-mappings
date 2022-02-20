@@ -1,0 +1,4 @@
+CLASS zt net/minecraft/src/ModelMinecart
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Llu;FFFFFF)V
+	FIELD a sideModels [Lon;

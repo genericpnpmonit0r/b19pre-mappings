@@ -1,0 +1,10 @@
+CLASS er EnumRarity
+	FIELD a common Ler;
+	FIELD b uncommon Ler;
+	FIELD c rare Ler;
+	FIELD d epic Ler;
+	FIELD e rarityColor I
+	FIELD f rarityName Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;IILjava/lang/String;)V
+		ARG 3 color
+		ARG 4 name

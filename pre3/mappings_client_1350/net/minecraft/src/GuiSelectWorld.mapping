@@ -1,0 +1,39 @@
+CLASS lg net/minecraft/src/GuiSelectWorld
+	METHOD <init> (Lsv;)V
+		ARG 1 screen
+	METHOD a initGui ()V
+	METHOD a getSaveFileName (I)Ljava/lang/String;
+		ARG 1 index
+	METHOD a drawScreen (IIF)V
+	METHOD a getSize (Llg;)Ljava/util/List;
+	METHOD a onElementSelected (Llg;I)I
+	METHOD a actionPerformed (Lxy;)V
+	METHOD a deleteWorld (ZI)V
+	METHOD b getSaveName (I)Ljava/lang/String;
+		ARG 1 index
+	METHOD b getSelectedWorld (Llg;)I
+	METHOD c initButtons ()V
+	METHOD c selectWorld (I)V
+		ARG 1 index
+	METHOD c getSelectButton (Llg;)Lxy;
+	METHOD d getDeleteButton (Llg;)Lxy;
+	METHOD e getRenameButton (Llg;)Lxy;
+	METHOD f func_22087_f (Llg;)Ljava/lang/String;
+	METHOD g loadSaves ()V
+	METHOD g getDateFormatter (Llg;)Ljava/text/DateFormat;
+	METHOD h func_22088_h (Llg;)Ljava/lang/String;
+	METHOD i func_35315_i (Llg;)[Ljava/lang/String;
+	FIELD a parentScreen Lsv;
+	FIELD b screenTitle Ljava/lang/String;
+	FIELD c dateFormatter Ljava/text/DateFormat;
+	FIELD d selected Z
+	FIELD e selectedWorld I
+	FIELD f saveList Ljava/util/List;
+	FIELD h worldSlotContainer Lhs;
+	FIELD i field_22098_o Ljava/lang/String;
+	FIELD j field_22097_p Ljava/lang/String;
+	FIELD k field_35316_k [Ljava/lang/String;
+	FIELD l deleting Z
+	FIELD m buttonDelete Lxy;
+	FIELD n buttonSelect Lxy;
+	FIELD o buttonRename Lxy;

@@ -1,0 +1,2 @@
+CLASS aef ItemGlassBottle
+	METHOD a onItemRightClick (Lwy;Luc;Lvj;)Lwy;

@@ -1,0 +1,5 @@
+CLASS mc net/minecraft/src/J_JsonObjectNodeBuilder
+	METHOD a withFieldBuilder (Labi;)Lmc;
+	METHOD a func_27236_a (Lmc;)Ljava/util/List;
+	METHOD b build ()Leg;
+	FIELD a field_27238_a Ljava/util/List;

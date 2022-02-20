@@ -1,0 +1,2 @@
+CLASS kn net/minecraft/src/ItemBed
+	METHOD a onItemUse (Lil;Lgj;Lev;IIII)Z

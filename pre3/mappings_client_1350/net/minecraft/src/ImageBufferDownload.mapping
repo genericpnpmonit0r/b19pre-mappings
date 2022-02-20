@@ -1,0 +1,8 @@
+CLASS lh net/minecraft/src/ImageBufferDownload
+	METHOD a setAreaTransparent (IIII)V
+	METHOD a parseUserSkin (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+	METHOD b setAreaOpaque (IIII)V
+	METHOD c hasTransparency (IIII)Z
+	FIELD a imageData [I
+	FIELD b imageWidth I
+	FIELD c imageHeight I

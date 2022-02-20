@@ -1,0 +1,7 @@
+CLASS ql net/minecraft/src/StructureStrongholdPieceWeight
+	METHOD a canSpawnMoreStructures ()Z
+	METHOD a canSpawnMoreStructuresOfType (I)Z
+	FIELD a pieceClass Ljava/lang/Class;
+	FIELD b pieceWeight I
+	FIELD c instancesSpawned I
+	FIELD d instancesLimit I

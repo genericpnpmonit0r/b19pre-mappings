@@ -1,0 +1,20 @@
+CLASS fj net/minecraft/src/BlockJukeBox
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a dropBlockAsItemWithChance (Lev;IIIIF)V
+	METHOD a blockActivated (Lev;IIILgj;)Z
+	METHOD a_ getBlockEntity ()Lnl;
+	METHOD c_ playRecord (Lev;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD d onBlockRemoval (Lev;III)V
+	METHOD f ejectRecord (Lev;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 record

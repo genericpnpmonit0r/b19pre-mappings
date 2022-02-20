@@ -1,0 +1,13 @@
+CLASS if net/minecraft/src/StructureMineshaftPieces
+	METHOD a func_35432_a ()[Lhm;
+	METHOD a getRandomComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lji;
+		ARG 0 components
+		ARG 1 rand
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 coordBaseMode
+		ARG 6 type
+	METHOD a func_35433_a (Lji;Ljava/util/List;Ljava/util/Random;IIIII)Lji;
+	METHOD b getNextMineShaftComponent (Lji;Ljava/util/List;Ljava/util/Random;IIIII)Lji;
+	FIELD a lootArray [Lhm;

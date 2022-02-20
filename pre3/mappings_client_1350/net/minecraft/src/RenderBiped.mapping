@@ -1,0 +1,4 @@
+CLASS qw net/minecraft/src/RenderBiped
+	METHOD b renderEquippedItems (Lyv;F)V
+	FIELD c modelBipedMain Lue;
+	FIELD d field_40296_d F

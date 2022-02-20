@@ -1,0 +1,4 @@
+CLASS cr net/minecraft/src/ThreadSleepForever
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 minecraftServer
+	FIELD a mc Lnet/minecraft/server/MinecraftServer;

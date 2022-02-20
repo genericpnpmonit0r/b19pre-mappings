@@ -1,0 +1,4 @@
+CLASS it net/minecraft/src/EnumMovingObjectType
+	FIELD a TILE Lit;
+	FIELD b ENTITY Lit;
+	FIELD c allMovingObjectTypes [Lit;

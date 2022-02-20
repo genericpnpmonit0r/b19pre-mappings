@@ -1,0 +1,3 @@
+CLASS jt EnchantmentUtil
+	FIELD a theEnchantment Lim;
+	FIELD b id I

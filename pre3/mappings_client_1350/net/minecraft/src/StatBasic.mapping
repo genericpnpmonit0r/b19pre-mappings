@@ -1,0 +1,2 @@
+CLASS ps net/minecraft/src/StatBasic
+	METHOD a registerStat ()Lafi;

@@ -1,0 +1,3 @@
+CLASS u
+	METHOD a getInventoryStackLimit ()I
+	METHOD u_ onInventoryChanged ()V

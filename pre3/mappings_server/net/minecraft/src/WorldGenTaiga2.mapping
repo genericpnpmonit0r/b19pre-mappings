@@ -1,0 +1,2 @@
+CLASS va net/minecraft/src/WorldGenTaiga2
+	METHOD a generate (Lev;Ljava/util/Random;III)Z

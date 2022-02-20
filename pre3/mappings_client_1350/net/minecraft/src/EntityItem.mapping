@@ -1,0 +1,22 @@
+CLASS et net/minecraft/src/EntityItem
+	METHOD <init> (Luc;DDDLwy;)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 itemStack
+	METHOD a dealFireDamage (I)V
+	METHOD a attackEntityFrom (Lkn;I)Z
+	METHOD a readEntityFromNBT (Lzx;)V
+	METHOD a_ onCollideWithPlayer (Lvj;)V
+	METHOD b entityInit ()V
+	METHOD b writeEntityToNBT (Lzx;)V
+	METHOD d_ canTriggerWalking ()Z
+	METHOD f_ handleWaterMovement ()Z
+	METHOD z_ onUpdate ()V
+	FIELD a item Lwy;
+	FIELD ao health I
+	FIELD b age I
+	FIELD c delayBeforeCanPickup I
+	FIELD d itemRotation F
+	FIELD e timer I

@@ -1,0 +1,2 @@
+CLASS ya net/minecraft/src/ItemEnderPearl
+	METHOD a onItemRightClick (Lwy;Luc;Lvj;)Lwy;

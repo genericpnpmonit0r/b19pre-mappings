@@ -1,0 +1,10 @@
+CLASS eo net/minecraft/src/FurnaceRecipes
+	METHOD a smelting ()Leo;
+	METHOD a getSmeltingResult (I)Lil;
+		ARG 1 result
+	METHOD a addSmelting (ILil;)V
+		ARG 1 sourceId
+		ARG 2 targetItem
+	METHOD b getSmeltingList ()Ljava/util/Map;
+	FIELD a smeltingBase Leo;
+	FIELD b smeltingList Ljava/util/Map;

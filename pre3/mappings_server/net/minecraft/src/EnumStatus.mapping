@@ -1,0 +1,7 @@
+CLASS cu net/minecraft/src/EnumStatus
+	FIELD a OK Lcu;
+	FIELD b NOT_POSSIBLE_HERE Lcu;
+	FIELD c NOT_POSSIBLE_NOW Lcu;
+	FIELD d TOO_FAR_AWAY Lcu;
+	FIELD e OTHER_PROBLEM Lcu;
+	FIELD f allStatuses [Lcu;

@@ -1,0 +1,23 @@
+CLASS gs net/minecraft/src/Particle
+	METHOD a preUpdate ()V
+	METHOD a update (Ltg;)V
+	METHOD b setDead ()V
+	FIELD a posX D
+	FIELD b posY D
+	FIELD c prevPosX D
+	FIELD d prevPosY D
+	FIELD e velocityX D
+	FIELD f velocityY D
+	FIELD g accelScale D
+	FIELD h isDead Z
+	FIELD i timeTick I
+	FIELD j timeLimit I
+	FIELD k tintRed D
+	FIELD l tintGreen D
+	FIELD m tintBlue D
+	FIELD n tintAlpha D
+	FIELD o prevTintRed D
+	FIELD p prevTintGreen D
+	FIELD q prevTintBlue D
+	FIELD r prevTintAlpha D
+	FIELD s rand Ljava/util/Random;

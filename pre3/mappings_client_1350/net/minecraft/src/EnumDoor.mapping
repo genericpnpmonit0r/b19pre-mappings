@@ -1,0 +1,6 @@
+CLASS kp net/minecraft/src/EnumDoor
+	FIELD a OPENING Lkp;
+	FIELD b WOOD_DOOR Lkp;
+	FIELD c GRATES Lkp;
+	FIELD d IRON_DOOR Lkp;
+	FIELD e allDoors [Lkp;

@@ -1,0 +1,60 @@
+CLASS xm net/minecraft/src/BlockPistonBase
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 texIndex
+		ARG 3 sticky
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a canPushBlock (ILuc;IIIZ)Z
+		ARG 0 id
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 mobilityFlagBool
+	METHOD a setBlockBoundsBasedOnState (Lagr;III)V
+	METHOD a onBlockAdded (Luc;III)V
+	METHOD a onNeighborBlockChange (Luc;IIII)V
+	METHOD a powerBlock (Luc;IIIII)V
+	METHOD a getCollidingBoundingBoxes (Luc;IIILtu;Ljava/util/ArrayList;)V
+	METHOD a onBlockPlacedBy (Luc;IIILyv;)V
+	METHOD b renderAsNormalBlock ()Z
+	METHOD b blockActivated (Luc;IIILvj;)Z
+	METHOD c determineOrientation (Luc;IIILvj;)I
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 player
+	METHOD d getRenderType ()I
+	METHOD d getOrientation (I)I
+		ARG 0 meta
+	METHOD f isExtended (I)Z
+		ARG 0 meta
+	METHOD f isIndirectlyPowered (Luc;IIII)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 side
+	METHOD h setBlockBoundsForItemRender ()V
+	METHOD h updatePistonState (Luc;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h canExtend (Luc;IIII)Z
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 side
+	METHOD i tryExtend (Luc;IIII)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 side
+	METHOD s getIdForStickyNonSticky ()I
+	FIELD a isSticky Z
+	FIELD b ignoreUpdates Z

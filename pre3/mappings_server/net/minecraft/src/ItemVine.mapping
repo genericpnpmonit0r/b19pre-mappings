@@ -1,0 +1,6 @@
+CLASS vh net/minecraft/src/ItemVine
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 subtypes
+	METHOD a getMetadata (I)I
+	FIELD a theBlock Lsl;

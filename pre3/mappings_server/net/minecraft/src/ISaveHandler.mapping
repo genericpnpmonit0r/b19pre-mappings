@@ -1,0 +1,14 @@
+CLASS vb net/minecraft/src/ISaveHandler
+	METHOD a saveWorldInfo (Lec;)V
+		ARG 1 info
+	METHOD a saveWorldInfoAndPlayer (Lec;Ljava/util/List;)V
+		ARG 1 info
+		ARG 2 playerdataList
+	METHOD a getChunkLoader (Lvi;)Lbc;
+		ARG 1 provider
+	METHOD b checkSessionLock ()V
+	METHOD b getMapFile (Ljava/lang/String;)Ljava/io/File;
+		ARG 1 name
+	METHOD c loadWorldInfo ()Lec;
+	METHOD d getPlayerNBTManager ()Lhs;
+	METHOD e flush ()V

@@ -1,0 +1,11 @@
+CLASS ng net/minecraft/src/ComponentVillageChurch
+	METHOD <init> (ILjava/util/Random;Lty;I)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 boundingBox
+		ARG 4 coordBaseMode
+	METHOD a getVillagerType (I)I
+	METHOD a addComponentParts (Lev;Ljava/util/Random;Lty;)Z
+	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lng;
+	METHOD a buildComponent (Lji;Ljava/util/List;Ljava/util/Random;)V
+	FIELD a averageGroundLevel I

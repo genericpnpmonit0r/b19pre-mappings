@@ -1,0 +1,19 @@
+CLASS sy net/minecraft/src/WeightedRandom
+	METHOD a func_35692_a (Ljava/util/Collection;)I
+		ARG 0 collection
+	METHOD a getRandomItem1 (Ljava/util/Random;Ljava/util/Collection;)Lch;
+		ARG 0 rand
+		ARG 1 collection
+	METHOD a getTotalWeight (Ljava/util/Random;Ljava/util/Collection;I)Lch;
+		ARG 0 rand
+		ARG 1 collection
+		ARG 2 seed
+	METHOD a getRandomItem3 (Ljava/util/Random;[Lch;)Lch;
+		ARG 0 rand
+		ARG 1 choices
+	METHOD a getRandomItem4 (Ljava/util/Random;[Lch;I)Lch;
+		ARG 0 rand
+		ARG 1 choices
+		ARG 2 seed
+	METHOD a getRandomItem2 ([Lch;)I
+		ARG 0 choices

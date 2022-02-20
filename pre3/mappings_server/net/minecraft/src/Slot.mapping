@@ -1,0 +1,26 @@
+CLASS gi net/minecraft/src/Slot
+	METHOD <init> (Lkv;III)V
+		ARG 1 inventory
+		ARG 2 index
+		ARG 3 x
+		ARG 4 y
+	METHOD a getSlotStackLimit ()I
+	METHOD a decrStackSize (I)Lil;
+		ARG 1 stackSize
+	METHOD a isItemValid (Lil;)Z
+		ARG 1 itemStack
+	METHOD a isHere (Lkv;I)Z
+		ARG 1 inventory
+		ARG 2 index
+	METHOD b getStack ()Lil;
+	METHOD b onPickupFromSlot (Lil;)V
+		ARG 1 itemStack
+	METHOD c getHasStack ()Z
+	METHOD c putStack (Lil;)V
+		ARG 1 itemStack
+	METHOD d onSlotChanged ()V
+	FIELD a slotIndex I
+	FIELD b inventory Lkv;
+	FIELD c id I
+	FIELD d xDisplayPosition I
+	FIELD e yDisplayPosition I

@@ -1,0 +1,7 @@
+CLASS xb net/minecraft/src/EnumAction
+	FIELD a none Lxb;
+	FIELD b eat Lxb;
+	FIELD c drink Lxb;
+	FIELD d block Lxb;
+	FIELD e bow Lxb;
+	FIELD f allActions [Lxb;

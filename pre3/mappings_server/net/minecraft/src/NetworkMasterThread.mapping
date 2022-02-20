@@ -1,0 +1,4 @@
+CLASS vn net/minecraft/src/NetworkMasterThread
+	METHOD <init> (Lns;)V
+		ARG 1 networkManager
+	FIELD a netManager Lns;

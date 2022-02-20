@@ -1,0 +1,13 @@
+CLASS gr net/minecraft/src/WorldSettings
+	METHOD <init> (JIZZ)V
+		ARG 1 seed
+		ARG 3 type
+		ARG 4 features
+	METHOD a getSeed ()J
+	METHOD a modeSwitcher (I)I
+		ARG 0 mode
+	METHOD b getGameType ()I
+	METHOD d getFeatures ()Z
+	FIELD a seed J
+	FIELD b gameType I
+	FIELD c mapFeaturesEnabled Z

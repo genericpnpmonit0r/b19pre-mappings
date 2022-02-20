@@ -1,0 +1,12 @@
+CLASS la net/minecraft/src/StructureNetherBridgePieces
+	METHOD b createNextComponentRandom (Lqr;Ljava/util/List;Ljava/util/Random;IIIII)Lis;
+		ARG 0 pieceWeight
+		ARG 1 components
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 type
+		ARG 7 coordBase
+	FIELD a primaryComponents [Lqr;
+	FIELD b secondaryComponents [Lqr;

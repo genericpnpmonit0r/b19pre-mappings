@@ -1,0 +1,185 @@
+CLASS vj net/minecraft/src/EntityPlayer
+	METHOD D getEyeHeight ()F
+	METHOD J isEntityInsideOpaqueBlock ()Z
+	METHOD K updateRidden ()V
+	METHOD L getYOffset ()D
+	METHOD N setInPortal ()V
+	METHOD O updateCloak ()V
+	METHOD W closeScreen ()V
+	METHOD Y respawnPlayer ()V
+	METHOD Z getItemInUse ()Lwy;
+	METHOD a handleHealthUpdate (B)V
+	METHOD a displayWorkbenchGUI (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a displayGUIFurnace (Lacz;)V
+		ARG 1 furnace
+	METHOD a triggerAchievement (Lafi;)V
+		ARG 1 statBase
+	METHOD a addStat (Lafi;I)V
+		ARG 1 statBase
+		ARG 2 id
+	METHOD a displayGUIDispenser (Lar;)V
+		ARG 1 dispenser
+	METHOD a joinEntityItemWithWorld (Let;)V
+		ARG 1 entityItem
+	METHOD a displayGUIChest (Lhk;)V
+		ARG 1 inventory
+	METHOD a onDeath (Lkn;)V
+	METHOD a attackEntityFrom (Lkn;I)Z
+	METHOD a addToPlayerScore (Llu;I)V
+	METHOD a getCurrentPlayerStrVsBlock (Lnd;)F
+		ARG 1 block
+	METHOD a displayGUIEditSign (Lpx;)V
+		ARG 1 sign
+	METHOD a setPlayerSpawnCoordinate (Lrt;)V
+		ARG 1 chunkCoords
+	METHOD a verifyRespawnCoordinates (Luc;Lrt;)Lrt;
+		ARG 0 world
+		ARG 1 chunkCoords
+	METHOD a getExperiencePoints (Lvj;)I
+	METHOD a dropPlayerItem (Lwy;)V
+		ARG 1 itemStack
+	METHOD a updateItemUse (Lwy;I)V
+		ARG 1 itemStack
+		ARG 2 particleCounter
+	METHOD a dropPlayerItemWithRandomChoice (Lwy;Z)V
+		ARG 1 itemStack
+		ARG 2 useRand
+	METHOD a onKillEntity (Lyv;)V
+	METHOD a alertWolves (Lyv;Z)V
+		ARG 1 living
+		ARG 2 sitting
+	METHOD a readEntityFromNBT (Lzx;)V
+	METHOD a wakeUpPlayer (ZZZ)V
+		ARG 1 resetSleepTimer
+		ARG 2 allPlayersSleeping
+		ARG 3 setSpawnChunk
+	METHOD aK applyPotionDigSpeedEffects ()I
+	METHOD aL isInBed ()Z
+	METHOD aM increaseLevel ()V
+	METHOD a_ moveEntityWithHeading (FF)V
+	METHOD aa getItemInUseCount ()I
+	METHOD ab isUsingItem ()Z
+	METHOD ac getItemInUseDuration ()I
+	METHOD ad stopUsingItem ()V
+	METHOD ae clearItemInUse ()V
+	METHOD af getIsBlocking ()Z
+	METHOD ag onItemUseFinish ()V
+	METHOD ah isMovementBlocked ()Z
+	METHOD ai getScore ()I
+	METHOD aj dropCurrentItem ()V
+	METHOD ak isPVPEnabled ()Z
+	METHOD al getTotalArmorValue ()I
+	METHOD am getCurrentEquippedItem ()Lwy;
+	METHOD an destroyCurrentEquippedItem ()V
+	METHOD ao swingItem ()V
+	METHOD ap getBedOrientationInDegrees ()F
+	METHOD aq isPlayerSleeping ()Z
+	METHOD ar isPlayerFullyAsleep ()Z
+	METHOD as getSleepTimer ()I
+	METHOD at getPlayerSpawnCoordinate ()Lrt;
+	METHOD au jump ()V
+	METHOD aw getFoodStats ()Lln;
+	METHOD ay func_35163_av ()Z
+	METHOD b entityInit ()V
+	METHOD b setSpecialRenderXZ (I)V
+		ARG 1 specialRenderCase
+	METHOD b addChatMessage (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD b damageEntity (Lkn;I)V
+	METHOD b onCriticalHit (Llu;)V
+		ARG 1 entity
+	METHOD b onItemPickup (Llu;I)V
+		ARG 1 entity
+		ARG 2 id
+	METHOD b canHarvestBlock (Lnd;)Z
+		ARG 1 block
+	METHOD b onItemStackChanged (Lwy;)V
+		ARG 1 itemStack
+	METHOD b getItemIcon (Lwy;I)I
+	METHOD b writeEntityToNBT (Lzx;)V
+	METHOD b canEat (Z)Z
+		ARG 1 canEatToggle
+	METHOD c getMaxHealth ()I
+	METHOD c fall (F)V
+	METHOD c damageArmor (I)V
+	METHOD c useCurrentItemOnEntity (Llu;)V
+		ARG 1 entity
+	METHOD c setItemInUse (Lwy;I)V
+		ARG 1 itemStack
+		ARG 2 count
+	METHOD d onLivingUpdate ()V
+	METHOD d addExhaustion (F)V
+		ARG 1 exhaustionAmount
+	METHOD e sleepInBedAt (III)Lbs;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD f increaseXP (I)V
+		ARG 1 xpAmount
+	METHOD f canPlayerEdit (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD h attackTargetEntityWithCurrentItem (Llu;)V
+		ARG 1 entity
+	METHOD i addMovementStat (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD j collideWithPlayer (Llu;)V
+		ARG 1 entity
+	METHOD k addMountedMovementStat (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD m_ updateEntityActionState ()V
+	METHOD r resetHeight ()V
+	METHOD s func_6420_o ()V
+	METHOD u preparePlayerToSpawn ()V
+	METHOD v setEntityDead ()V
+	METHOD z_ onUpdate ()V
+	FIELD aA isSwinging Z
+	FIELD aB swingProgressInt I
+	FIELD aC username Ljava/lang/String;
+	FIELD aD dimension I
+	FIELD aE playerCloakUrl Ljava/lang/String;
+	FIELD aF xpCooldown I
+	FIELD aG field_20066_r D
+	FIELD aH field_20065_s D
+	FIELD a sleepTimer I
+	FIELD aI field_20064_t D
+	FIELD aJ field_20063_u D
+	FIELD aK field_20062_v D
+	FIELD aL field_20061_w D
+	FIELD aM sleeping Z
+	FIELD aN bedChunkCoordinates Lrt;
+	FIELD aO specialRenderX F
+	FIELD aP specialRenderY F
+	FIELD aQ specialRenderZ F
+	FIELD aR timeUntilPortal I
+	FIELD aS inPortal Z
+	FIELD aT timeInPortal F
+	FIELD aU prevTimeInPortal F
+	FIELD aV capabilities Los;
+	FIELD aW xp I
+	FIELD aX playerLevel I
+	FIELD aY xpLevel I
+	FIELD aZ speedOnGround F
+	FIELD ar inventory Lwv;
+	FIELD as inventorySlots Lcn;
+	FIELD at craftingInventory Lcn;
+	FIELD au foodStats Lln;
+	FIELD av flyToggleTimer I
+	FIELD aw unusedByte B
+	FIELD ax score I
+	FIELD ay prevCameraYaw F
+	FIELD az cameraYaw F
+	FIELD b playerSpawnCoordinate Lrt;
+	FIELD ba speedInAir F
+	FIELD bb fishEntity Lyy;
+	FIELD c startMinecartRidingCoordinate Lrt;
+	FIELD d itemInUse Lwy;
+	FIELD e itemInUseCount I

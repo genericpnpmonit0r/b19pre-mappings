@@ -1,0 +1,8 @@
+CLASS hf net/minecraft/src/EntityDamageSourceIndirect
+	METHOD <init> (Ljava/lang/String;Lqn;Lqn;)V
+		ARG 1 damageName
+		ARG 2 entity1
+		ARG 3 entity2
+	METHOD a getEntity ()Lqn;
+	METHOD a getDeathMsg (Lgj;)Ljava/lang/String;
+	FIELD n damageSourceEntity Lqn;

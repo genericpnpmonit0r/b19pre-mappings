@@ -1,0 +1,21 @@
+CLASS ta net/minecraft/src/BiomeCache
+	METHOD <init> (Lvz;)V
+		ARG 1 chunkMgr
+	METHOD a cleanupCache ()V
+	METHOD a getBiomeCacheBlock (II)Lsa;
+		ARG 1 x
+		ARG 2 z
+	METHOD a func_35679_a (Lta;)Lvz;
+	METHOD b getBiomeGenAt (II)Ljm;
+		ARG 1 x
+		ARG 2 z
+	METHOD c getTemperatureValueAt (II)F
+		ARG 1 x
+		ARG 2 z
+	METHOD d getCachedBiomes (II)[Ljm;
+		ARG 1 x
+		ARG 2 z
+	FIELD a chunkmanager Lvz;
+	FIELD b lastCleanupTime J
+	FIELD c cacheMap Lfn;
+	FIELD d cache Ljava/util/List;

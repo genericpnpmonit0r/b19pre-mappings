@@ -1,0 +1,15 @@
+CLASS cq net/minecraft/src/EnumArmorMaterial
+	METHOD <init> (Ljava/lang/String;II[I)V
+		ARG 3 damagefactor
+		ARG 4 reduction
+	METHOD a getDurability (I)I
+		ARG 1 durability
+	METHOD b getDamageReductionAmount (I)I
+		ARG 1 reduction
+	FIELD a CLOTH Lcq;
+	FIELD b CHAIN Lcq;
+	FIELD c IRON Lcq;
+	FIELD d GOLD Lcq;
+	FIELD e DIAMOND Lcq;
+	FIELD f maxDamageFactor I
+	FIELD g damageReductionAmountArray [I

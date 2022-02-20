@@ -1,0 +1,2 @@
+CLASS jo net/minecraft/src/EntitySuspendFX
+	METHOD z_ onUpdate ()V

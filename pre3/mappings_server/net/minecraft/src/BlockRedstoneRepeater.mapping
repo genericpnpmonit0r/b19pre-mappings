@@ -1,0 +1,28 @@
+CLASS uv net/minecraft/src/BlockRedstoneRepeater
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 powered
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a onBlockAdded (Lev;III)V
+	METHOD a onNeighborBlockChange (Lev;IIII)V
+	METHOD a blockActivated (Lev;IIILgj;)Z
+	METHOD a updateTick (Lev;IIILjava/util/Random;)V
+	METHOD a onBlockPlacedBy (Lev;IIILkq;)V
+	METHOD a isPoweringTo (Lvt;IIII)Z
+	METHOD b isACube ()Z
+	METHOD c canPlaceBlockAt (Lev;III)Z
+	METHOD d canProvidePower ()Z
+	METHOD d isIndirectlyPoweringTo (Lev;IIII)Z
+	METHOD f canBlockStay (Lev;III)Z
+	METHOD f ignoreTick (Lev;IIII)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 meta
+	FIELD a repeaterTorchOffset [D
+	FIELD b repeaterState [I
+	FIELD c isRepeaterPowered Z

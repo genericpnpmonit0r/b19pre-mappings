@@ -1,0 +1,15 @@
+CLASS ci net/minecraft/src/EntitySpider
+	METHOD a readEntityFromNBT (Lml;)V
+	METHOD a attackEntity (Lqn;F)V
+	METHOD a dropFewItems (Z)V
+	METHOD b writeEntityToNBT (Lml;)V
+	METHOD c getMaxHealth ()I
+	METHOD e getDropItemId ()I
+	METHOD f_ canTriggerWalking ()Z
+	METHOD j findPlayerToAttack ()Lqn;
+	METHOD l getLivingSound ()Ljava/lang/String;
+	METHOD m getHurtSound ()Ljava/lang/String;
+	METHOD n getDeathSound ()Ljava/lang/String;
+	METHOD q getMountedYOffset ()D
+	METHOD r isOnLadder ()Z
+	METHOD s setInWeb ()V

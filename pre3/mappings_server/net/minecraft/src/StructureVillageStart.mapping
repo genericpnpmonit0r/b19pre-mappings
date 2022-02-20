@@ -1,0 +1,3 @@
+CLASS fr net/minecraft/src/StructureVillageStart
+	METHOD a isSizeableStructure ()Z
+	FIELD c field_35548_c Z

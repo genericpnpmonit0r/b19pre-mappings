@@ -1,0 +1,5 @@
+CLASS xx net/minecraft/src/GenLayerZoomVoronoi
+	METHOD <init> (JLto;)V
+		ARG 1 seed
+		ARG 3 layer
+	METHOD a getInts (IIII)[I

@@ -1,0 +1,83 @@
+CLASS i net/minecraft/src/RenderGlobal
+	METHOD a loadRenderers ()V
+	METHOD a func_27307_a (DDDF)Z
+	METHOD a renderAllRenderLists (ID)V
+	METHOD a checkOcclusionQueryResult (II)V
+	METHOD a markBlockAndNeighborsNeedsUpdate (III)V
+	METHOD a renderSortedRenderers (IIID)I
+	METHOD a markBlocksForUpdate (IIIIII)V
+	METHOD a doNothingWithTileEntity (IIILjm;)V
+	METHOD a clipRenderersByFrustrum (Lahi;F)V
+	METHOD a renderEntities (Lbb;Lahi;F)V
+	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
+	METHOD a playSound (Ljava/lang/String;DDDFF)V
+	METHOD a playRecord (Ljava/lang/String;III)V
+	METHOD a obtainEntitySkin (Llu;)V
+	METHOD a drawOutlinedBoundingBox (Ltu;)V
+		ARG 1 aabb
+	METHOD a changeWorld (Luc;)V
+	METHOD a playAuxSFX (Lvj;IIIII)V
+	METHOD a drawBlockBreaking (Lvj;Lnm;ILwy;F)V
+		ARG 1 player
+		ARG 2 movingObjPos
+		ARG 3 breakingStatus
+		ARG 4 itemStack
+		ARG 5 tick
+	METHOD a updateRenderers (Lyv;Z)Z
+	METHOD b getDebugInfoRenders ()Ljava/lang/String;
+	METHOD b renderClouds (F)V
+	METHOD b markRenderersForNewPosition (III)V
+	METHOD b markBlockRangeNeedsUpdate (IIIIII)V
+	METHOD b releaseEntitySkin (Llu;)V
+	METHOD b drawSelectionBox (Lvj;Lnm;ILwy;F)V
+		ARG 1 player
+		ARG 2 movingObjectPosition
+		ARG 3 hit
+		ARG 4 itemStack
+		ARG 5 f
+	METHOD c getDebugInfoEntities ()Ljava/lang/String;
+	METHOD c renderCloudsFancy (F)V
+	METHOD d updateClouds ()V
+	METHOD e clearDispLists ()V
+	METHOD f renderStars ()V
+	FIELD A minBlockY I
+	FIELD B minBlockZ I
+	FIELD C maxBlockX I
+	FIELD D maxBlockY I
+	FIELD E maxBlockZ I
+	FIELD F renderDistance I
+	FIELD G renderEntitiesStartupCounter I
+	FIELD H countEntitiesTotal I
+	FIELD I countEntitiesRendered I
+	FIELD J countEntitiesHidden I
+	FIELD K renderersLoaded I
+	FIELD L renderersBeingClipped I
+	FIELD M renderersBeingOccluded I
+	FIELD N renderersBeingRendered I
+	FIELD O renderersSkippingRenderPass I
+	FIELD P worldRenderersCheckIndex I
+	FIELD Q glRenderLists Ljava/util/List;
+	FIELD R allRenderLists [Lmh;
+	FIELD a tileEntities Ljava/util/List;
+	FIELD b dummyBuf50k [I
+	FIELD c occlusionResult Ljava/nio/IntBuffer;
+	FIELD g damagePartialTime F
+	FIELD h frustrumCheckOffset I
+	FIELD i worldObj Luc;
+	FIELD j renderEngine Lxg;
+	FIELD k worldRenderersToUpdate Ljava/util/List;
+	FIELD l sortedWorldRenderers [Lcc;
+	FIELD m worldRenderers [Lcc;
+	FIELD n renderChunksWide I
+	FIELD o renderChunksTall I
+	FIELD p renderChunksDeep I
+	FIELD q glRenderListBase I
+	FIELD r mc Lnet/minecraft/client/Minecraft;
+	FIELD s globalRenderBlocks Lsr;
+	FIELD t glOcclusionQueryBase Ljava/nio/IntBuffer;
+	FIELD u occlusionEnabled Z
+	FIELD v cloudOffsetX I
+	FIELD w starGLCallList I
+	FIELD x glSkyList I
+	FIELD y glSkyList2 I
+	FIELD z minBlockX I

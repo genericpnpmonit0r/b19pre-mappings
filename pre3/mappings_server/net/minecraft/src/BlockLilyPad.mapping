@@ -1,0 +1,5 @@
+CLASS fv net/minecraft/src/BlockLilyPad
+	METHOD a updateTick (Lev;IIILjava/util/Random;)V
+	METHOD c canThisPlantGrowOnThisBlockID (I)Z
+	METHOD c canPlaceBlockAt (Lev;III)Z
+	METHOD f canBlockStay (Lev;III)Z

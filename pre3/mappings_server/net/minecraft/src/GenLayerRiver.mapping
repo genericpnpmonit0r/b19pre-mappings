@@ -1,0 +1,2 @@
+CLASS hc net/minecraft/src/GenLayerRiver
+	METHOD a getInts (IIII)[I

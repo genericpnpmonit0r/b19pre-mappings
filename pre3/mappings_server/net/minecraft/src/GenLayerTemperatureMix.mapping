@@ -1,0 +1,4 @@
+CLASS dh net/minecraft/src/GenLayerTemperatureMix
+	METHOD a getInts (IIII)[I
+	FIELD b field_35027_b Ldz;
+	FIELD c field_35028_c I

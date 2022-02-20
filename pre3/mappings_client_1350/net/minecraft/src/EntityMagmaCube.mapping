@@ -1,0 +1,19 @@
+CLASS adt net/minecraft/src/EntityMagmaCube
+	METHOD E handleLavaMovement ()Z
+	METHOD P isBurning ()Z
+	METHOD W getSlimeParticle ()Ljava/lang/String;
+	METHOD Y newSlime ()Laer;
+	METHOD Z getJumpDelay ()I
+	METHOD a getEntityBrightness (F)F
+	METHOD aa setSizeSmallM ()V
+	METHOD ab getSlimeSizeGreaterThan1 ()Z
+	METHOD ac getSlimeSize_do ()I
+	METHOD ad getSlimeSound ()Ljava/lang/String;
+	METHOD al getTotalArmorValue ()I
+	METHOD au jump ()V
+	METHOD b getEntityBrightnessForRender (F)I
+	METHOD c fall (F)V
+	METHOD e getDropItemId ()I
+	METHOD g getCanSpawnHere ()Z
+	METHOD m getHurtSound ()Ljava/lang/String;
+	METHOD n getDeathSound ()Ljava/lang/String;

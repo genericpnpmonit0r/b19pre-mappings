@@ -1,0 +1,44 @@
+CLASS ry net/minecraft/src/Render
+	METHOD a getFontRendererFromRenderManager ()Lls;
+	METHOD a setRenderManager (Ladm;)V
+		ARG 1 rendeRmanager
+	METHOD a loadTexture (Ljava/lang/String;)V
+		ARG 1 textureFilepath
+	METHOD a loadDownloadableImageTexture (Ljava/lang/String;Ljava/lang/String;)Z
+		ARG 1 name1
+		ARG 2 name2
+	METHOD a renderEntityOnFire (Llu;DDDF)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 f
+	METHOD a doRender (Llu;DDDFF)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 yaw
+		ARG 9 pitch
+	METHOD a renderShadowOnBlock (Lnd;DDDIIIFFDDD)V
+	METHOD a renderAABB (Ltu;)V
+		ARG 0 aabb
+	METHOD a renderOffsetAABB (Ltu;DDD)V
+		ARG 0 aabb
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD b getWorldFromRenderManager ()Luc;
+	METHOD b doRenderShadowAndFire (Llu;DDDFF)V
+	METHOD c renderShadow (Llu;DDDFF)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 yaw
+		ARG 9 pitch
+	FIELD a modelBase Lgm;
+	FIELD e renderManager Ladm;
+	FIELD f renderBlocks Lsr;
+	FIELD g shadowSize F
+	FIELD h size F

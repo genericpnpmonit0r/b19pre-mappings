@@ -1,0 +1,2 @@
+CLASS dy net/minecraft/src/IThreadedFileIO
+	METHOD y_ writeNextIO ()Z

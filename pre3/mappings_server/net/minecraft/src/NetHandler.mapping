@@ -1,0 +1,123 @@
+CLASS rd net/minecraft/src/NetHandler
+	METHOD a handleUseEntity (La;)V
+		ARG 1 packet7UseEntity
+	METHOD a handleMapData (Laf;)V
+		ARG 1 packet131MapData
+	METHOD a handleBed (Lby;)V
+		ARG 1 packet70Bed
+	METHOD a handleCollect (Ldd;)V
+		ARG 1 packet22Collect
+	METHOD a handleServerPing (Ldn;)V
+		ARG 1 packet254ServerPing
+	METHOD a handleEntityEffect (Ldo;)V
+		ARG 1 packet41EntityEffect
+	METHOD a handleCreativeSetSlot (Ldp;)V
+		ARG 1 packet107CreativeSetSlot
+	METHOD a handlePlayerInfo (Ldu;)V
+		ARG 1 packet201PlayerInfo
+	METHOD a handleMapChunk (Lea;)V
+		ARG 1 packet51MapChunk
+	METHOD a handleHealth (Lek;)V
+		ARG 1 packet8UpdateHealth
+	METHOD a handleWeather (Leq;)V
+		ARG 1 packet71Weather
+	METHOD a handleDoorChange (Lfh;)V
+		ARG 1 packet61DoorChange
+	METHOD a handleEntityVelocity (Lgc;)V
+		ARG 1 packet28EntityVelocity
+	METHOD a handlePlace (Lgl;)V
+		ARG 1 packet15Place
+	METHOD a handleUpdateTime (Lgy;)V
+		ARG 1 packet4UpdateTime
+	METHOD a handleBlockItemSwitch (Lhh;)V
+		ARG 1 packet16BlockItemSwitch
+	METHOD a handleSetSlot (Lhi;)V
+		ARG 1 packet103SetSlot
+	METHOD a handleFlying (Lht;)V
+		ARG 1 packet10Flying
+	METHOD a handleOpenWindow (Lij;)V
+		ARG 1 packet100OpenWindow
+	METHOD a handleEntityStatus (Lir;)V
+		ARG 1 packet38EntityStatus
+	METHOD a handleMobSpawn (Liw;)V
+		ARG 1 packet24MobSpawn
+	METHOD a handleErrorMessage (Ljava/lang/String;[Ljava/lang/Object;)V
+		ARG 1 reason
+		ARG 2 reasonObj
+	METHOD a handleBlockDig (Ljf;)V
+		ARG 1 packet14blockDig
+	METHOD a handleSleep (Ljk;)V
+		ARG 1 packet17Sleep
+	METHOD a handleWindowItems (Ljl;)V
+		ARG 1 packet104WindowItems
+	METHOD a registerPacket (Ljq;)V
+		ARG 1 packet
+	METHOD a handleExperience (Lkh;)V
+		ARG 1 packet43Experience
+	METHOD a handleKeepAlive (Lky;)V
+		ARG 1 packet0KeepAlive
+	METHOD a handleNamedEntitySpawn (Llb;)V
+		ARG 1 packet20NmaedEntityspawn
+	METHOD a handleCraftingGuiClosedPacked (Lld;)V
+		ARG 1 packet101CloseWindow
+	METHOD a handleHandshake (Llf;)V
+		ARG 1 packet2Handshake
+	METHOD a handleUpdateProgressbar (Llo;)V
+		ARG 1 packet105UpdateProgressbar
+	METHOD a handlePickupSpawn (Lls;)V
+		ARG 1 packet21PickupSpawn
+	METHOD a handleRemoveEntityEffect (Lmc;)V
+		ARG 1 packet42RemoveEntityEffect
+	METHOD a handleArmAnimation (Lmf;)V
+		ARG 1 packet18Animation
+	METHOD a handleAttachEntity (Lmh;)V
+		ARG 1 packet39AttachEntity
+	METHOD a handleLogin (Lmr;)V
+		ARG 1 packet1Login
+	METHOD a handleStatistic (Lmv;)V
+		ARG 1 packet200Statistic
+	METHOD a handleTransaction (Lmz;)V
+		ARG 1 packet106Transaction
+	METHOD a handleRespawn (Lnn;)V
+		ARG 1 packet9Respawn
+	METHOD a handleChat (Lnr;)V
+		ARG 1 packet3Chat
+	METHOD a handleXPOrb (Lnw;)V
+		ARG 1 packet26EntityExpOrb
+	METHOD a handleMovementTypePacket (Lol;)V
+		ARG 1 packet27Position
+	METHOD a handleWindowClick (Lov;)V
+		ARG 1 packet102WindowClick
+	METHOD a handlePlayerInventory (Lp;)V
+		ARG 1 packet5PlayerInventory
+	METHOD a handleSpawnPosition (Lpe;)V
+		ARG 1 packet6SpawnPosition
+	METHOD a handleEntityTeleport (Lph;)V
+		ARG 1 packet43EntityTeleport
+	METHOD a handleExplosion (Lpn;)V
+		ARG 1 packet60Explosion
+	METHOD a handleDestroyEntity (Lpv;)V
+		ARG 1 packet29DestroyEntity
+	METHOD a handlePreChunk (Lqf;)V
+		ARG 1 packet50PreChunk
+	METHOD a handleVehicleSpawn (Lqp;)V
+		ARG 1 packet23VechileSpawn
+	METHOD a handleEntityAction (Lrq;)V
+		ARG 1 packet19EnityAction
+	METHOD a handleBlockChange (Lrs;)V
+		ARG 1 packet53BlockChange
+	METHOD a handleEntity (Lry;)V
+		ARG 1 packet30Entity
+	METHOD a handleUpdateSign (Lsc;)V
+		ARG 1 packet130UpdateSign
+	METHOD a handleEntityMetadata (Lsp;)V
+		ARG 1 packet40EntityMeta
+	METHOD a handleEntityPainting (Ltw;)V
+		ARG 1 packet25EntityPainting
+	METHOD a handlePlayNoteBlock (Ltz;)V
+		ARG 1 packet54PlayNoteBlock
+	METHOD a handleMultiBlockChange (Lvf;)V
+		ARG 1 pakcet52MultiBlockChange
+	METHOD a handleKickDisconnect (Lws;)V
+		ARG 1 packet255KickDisconnect
+	METHOD c isServerHandler ()Z

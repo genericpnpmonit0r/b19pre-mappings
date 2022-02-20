@@ -1,0 +1,4 @@
+CLASS as net/minecraft/src/J_LeafFunctor
+	METHOD a applyTo (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD b typeSafeApplyTo (Ljava/lang/Object;)Ljava/lang/Object;
+		ARG 1 jsonNode

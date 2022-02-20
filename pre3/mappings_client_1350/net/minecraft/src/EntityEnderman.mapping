@@ -1,0 +1,28 @@
+CLASS hz net/minecraft/src/EntityEnderman
+	METHOD a getEntityBrightness (F)F
+	METHOD a attackEntityFrom (Lkn;I)Z
+	METHOD a readEntityFromNBT (Lzx;)V
+	METHOD a dropFewItems (Z)V
+	METHOD a_ teleportTo (DDD)Z
+	METHOD b entityInit ()V
+	METHOD b getEntityBrightnessForRender (F)I
+	METHOD b setCarried (I)V
+	METHOD b writeEntityToNBT (Lzx;)V
+	METHOD c getMaxHealth ()I
+	METHOD c teleportToEntity (Llu;)Z
+	METHOD c shouldAttackPlayer (Lvj;)Z
+		ARG 1 player
+	METHOD d onLivingUpdate ()V
+	METHOD d_ setCarryingData (I)V
+	METHOD e getDropItemId ()I
+	METHOD f findPlayerToAttack ()Llu;
+	METHOD l getLivingSound ()Ljava/lang/String;
+	METHOD m getHurtSound ()Ljava/lang/String;
+	METHOD n getDeathSound ()Ljava/lang/String;
+	METHOD q teleportRandomly ()Z
+	METHOD r getCarried ()I
+	METHOD s getCarryingData ()I
+	FIELD a isAttacking Z
+	FIELD b canCarryBlocks [Z
+	FIELD d teleportDelay I
+	FIELD e field_35185_e I

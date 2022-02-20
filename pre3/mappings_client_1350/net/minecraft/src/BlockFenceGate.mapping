@@ -1,0 +1,15 @@
+CLASS aev net/minecraft/src/BlockFenceGate
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 material
+	METHOD a isOpaqueCube ()Z
+	METHOD a onBlockPlacedBy (Luc;IIILyv;)V
+	METHOD b renderAsNormalBlock ()Z
+	METHOD b blockActivated (Luc;IIILvj;)Z
+	METHOD c getCollisionBoundingBoxFromPool (Luc;III)Ltu;
+	METHOD d getRenderType ()I
+	METHOD d isFenceGateOpen (I)Z
+		ARG 0 meta
+	METHOD e canPlaceBlockAt (Luc;III)Z
+	METHOD f getFenceGateState (I)I
+		ARG 0 meta

@@ -1,0 +1,9 @@
+CLASS nw net/minecraft/src/J_JsonConstants
+	METHOD a getType ()Lrg;
+	METHOD b getText ()Ljava/lang/String;
+	METHOD c getFields ()Ljava/util/Map;
+	METHOD d getElements ()Ljava/util/List;
+	FIELD a NULL Lnw;
+	FIELD b TRUE Lnw;
+	FIELD c FALSE Lnw;
+	FIELD d jsonNodeType Lrg;

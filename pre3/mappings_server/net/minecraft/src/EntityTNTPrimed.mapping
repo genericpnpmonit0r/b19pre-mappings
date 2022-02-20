@@ -1,0 +1,14 @@
+CLASS oz net/minecraft/src/EntityTNTPrimed
+	METHOD <init> (Lev;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a readEntityFromNBT (Lml;)V
+	METHOD b entityInit ()V
+	METHOD b writeEntityToNBT (Lml;)V
+	METHOD c_ canBeCollidedWith ()Z
+	METHOD f_ canTriggerWalking ()Z
+	METHOD i explode ()V
+	METHOD t_ onUpdate ()V
+	FIELD a fuse I

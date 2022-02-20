@@ -1,0 +1,5 @@
+CLASS wh net/minecraft/src/PositionTextureVertex
+	METHOD a setTexturePosition (FF)Lwh;
+	FIELD a vector3D Lbb;
+	FIELD b texturePositionX F
+	FIELD c texturePositionY F

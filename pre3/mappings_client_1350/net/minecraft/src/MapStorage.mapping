@@ -1,0 +1,19 @@
+CLASS vn net/minecraft/src/MapStorage
+	METHOD <init> (Lagb;)V
+		ARG 1 saveHandler
+	METHOD a saveAllData ()V
+	METHOD a loadData (Ljava/lang/Class;Ljava/lang/String;)Lvv;
+		ARG 1 dataClass
+		ARG 2 filename
+	METHOD a getUniqueDataId (Ljava/lang/String;)I
+		ARG 1 id
+	METHOD a setData (Ljava/lang/String;Lvv;)V
+		ARG 1 name
+		ARG 2 savedData
+	METHOD a saveData (Lvv;)V
+		ARG 1 savedData
+	METHOD b loadIdCounts ()V
+	FIELD a saveHandler Lagb;
+	FIELD b loadedDataMap Ljava/util/Map;
+	FIELD c loadedDataList Ljava/util/List;
+	FIELD d idCounts Ljava/util/Map;

@@ -1,0 +1,2 @@
+CLASS wp net/minecraft/src/ItemPainting
+	METHOD a onItemUse (Lil;Lgj;Lev;IIII)Z

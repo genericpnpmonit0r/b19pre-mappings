@@ -1,0 +1,6 @@
+CLASS as net/minecraft/src/ServerCommand
+	METHOD <init> (Ljava/lang/String;Lrb;)V
+		ARG 1 command
+		ARG 2 listener
+	FIELD a command Ljava/lang/String;
+	FIELD b commandListener Lrb;

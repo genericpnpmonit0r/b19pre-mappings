@@ -1,0 +1,2 @@
+CLASS no net/minecraft/src/LayerIsland
+	METHOD a getInts (IIII)[I

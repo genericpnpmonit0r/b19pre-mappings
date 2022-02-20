@@ -1,0 +1,11 @@
+CLASS dc net/minecraft/src/PathEntity
+	METHOD <init> ([Le;)V
+		ARG 1 points
+	METHOD a incrementPathIndex ()V
+	METHOD a getPosition (Lqn;)Lbr;
+		ARG 1 entity
+	METHOD b isFinished ()Z
+	METHOD c getPathEnd ()Le;
+	FIELD a pathLength I
+	FIELD b points [Le;
+	FIELD c pathIndex I

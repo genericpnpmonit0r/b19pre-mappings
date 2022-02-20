@@ -1,0 +1,3 @@
+CLASS jj net/minecraft/src/RecipesCrafting
+	METHOD a addRecipes (Lhb;)V
+		ARG 1 craftingManager

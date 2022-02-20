@@ -1,0 +1,3 @@
+CLASS ge
+	METHOD a drawGuiContainerBackgroundLayer (FII)V
+	METHOD c drawGuiContainerForegroundLayer ()V

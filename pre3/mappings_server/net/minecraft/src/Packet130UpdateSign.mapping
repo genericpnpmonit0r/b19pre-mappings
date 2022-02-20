@@ -1,0 +1,14 @@
+CLASS sc net/minecraft/src/Packet130UpdateSign
+	METHOD <init> (III[Ljava/lang/String;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 lines
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lrd;)V
+	FIELD a xPosition I
+	FIELD b yPosition I
+	FIELD c zPosition I
+	FIELD d signLines [Ljava/lang/String;

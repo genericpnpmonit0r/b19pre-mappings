@@ -1,0 +1,10 @@
+CLASS abf net/minecraft/src/ComponentVillageWell
+	METHOD <init> (ILjava/util/Random;II)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 z
+	METHOD a buildComponent (Lgd;Ljava/util/List;Ljava/util/Random;)V
+	METHOD a addComponentParts (Luc;Ljava/util/Random;Log;)Z
+	FIELD a unusedBoolean Z
+	FIELD b averageGroundLevel I

@@ -1,0 +1,9 @@
+CLASS wy net/minecraft/src/SlotCrafting
+	METHOD <init> (Lgj;Lkv;Lkv;III)V
+		ARG 1 player
+		ARG 2 craftingGrid
+		ARG 3 inventory
+	METHOD a isItemValid (Lil;)Z
+	METHOD b onPickupFromSlot (Lil;)V
+	FIELD a craftMatrix Lkv;
+	FIELD f thePlayer Lgj;

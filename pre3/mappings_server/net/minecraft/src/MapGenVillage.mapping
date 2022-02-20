@@ -1,0 +1,4 @@
+CLASS ak net/minecraft/src/MapGenVillage
+	METHOD a canSpawnStructureAtCoords (II)Z
+	METHOD b getStructureStart (II)Lsr;
+	FIELD a field_35538_a Ljava/util/List;

@@ -1,0 +1,9 @@
+CLASS uu
+	METHOD a readEntityFromNBT (Lml;)V
+	METHOD b fall (F)V
+	METHOD b writeEntityToNBT (Lml;)V
+	METHOD h getTalkInterval ()I
+	METHOD i canDespawn ()Z
+	METHOD l getLivingSound ()Ljava/lang/String;
+	METHOD m getHurtSound ()Ljava/lang/String;
+	METHOD n getDeathSound ()Ljava/lang/String;

@@ -1,0 +1,7 @@
+CLASS dq net/minecraft/src/IRecipe
+	METHOD a getRecipeSize ()I
+	METHOD a matches (Llh;)Z
+		ARG 1 crafting
+	METHOD b getRecipeOutput ()Lil;
+	METHOD b getCraftingResult (Llh;)Lil;
+		ARG 1 crafting

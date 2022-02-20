@@ -1,0 +1,17 @@
+CLASS rr net/minecraft/src/BlockLeaves
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a updateTick (Luc;IIILjava/util/Random;)V
+	METHOD a harvestBlock (Luc;Lvj;IIII)V
+	METHOD b damageDropped (I)I
+	METHOD b colorMultiplier (Lagr;III)I
+	METHOD b onEntityWalking (Luc;IIILlu;)V
+	METHOD b setGraphicsLevel (Z)V
+	METHOD b_ onBlockRemoval (Luc;III)V
+	METHOD c getRenderColor (I)I
+	METHOD h removeLeaves (Luc;III)V
+	METHOD i getBlockColor ()I
+	FIELD b adjacentTreeBlocks [I
+	FIELD c baseIndexInPNG I

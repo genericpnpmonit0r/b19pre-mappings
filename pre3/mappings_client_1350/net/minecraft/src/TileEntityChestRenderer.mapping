@@ -1,0 +1,4 @@
+CLASS afe net/minecraft/src/TileEntityChestRenderer
+	METHOD a renderTileEntityAt (Ljm;DDDF)V
+	FIELD b chestModel Lacv;
+	FIELD c largeChestModel Lacv;

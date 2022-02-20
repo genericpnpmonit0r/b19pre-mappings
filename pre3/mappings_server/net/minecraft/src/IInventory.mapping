@@ -1,0 +1,17 @@
+CLASS kv net/minecraft/src/IInventory
+	METHOD a getInventoryStackLimit ()I
+	METHOD a decrStackSize (II)Lil;
+		ARG 1 prevStackSize
+		ARG 2 curStackSize
+	METHOD a setInventorySlotContents (ILil;)V
+		ARG 1 slotId
+		ARG 2 itemStack
+	METHOD a canInteractWith (Lgj;)Z
+		ARG 1 player
+	METHOD b_ getStackInSlot (I)Lil;
+		ARG 1 stackInSlot
+	METHOD c getSizeInventory ()I
+	METHOD e getInvName ()Ljava/lang/String;
+	METHOD g closeChest ()V
+	METHOD u_ onInventoryChanged ()V
+	METHOD v_ openChest ()V

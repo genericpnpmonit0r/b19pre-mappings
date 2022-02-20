@@ -1,0 +1,35 @@
+CLASS xl net/minecraft/src/StructureStrongholdPieces
+	METHOD a prepareStructurePieces ()V
+	METHOD a getStrongholdComponentFromWeightedPiece (Ljava/lang/Class;Ljava/util/List;Ljava/util/Random;IIIII)Lek;
+		ARG 1 components
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 i
+		ARG 7 type
+	METHOD a func_35850_a (Lq;Ljava/util/List;Ljava/util/Random;IIIII)Lgd;
+	METHOD b getStrongholdStones ()Lafa;
+	METHOD b createStairsPart (Lq;Ljava/util/List;Ljava/util/Random;IIIII)Lek;
+		ARG 0 staris2
+		ARG 1 components
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 i
+		ARG 7 type
+	METHOD c canAddStructurePieces ()Z
+	METHOD c getNextValidComponentAccess (Lq;Ljava/util/List;Ljava/util/Random;IIIII)Lgd;
+		ARG 0 stairs
+		ARG 1 components
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 i
+		ARG 7 type
+	FIELD a totalWeight I
+	FIELD b pieceWeightArray [Lada;
+	FIELD c structurePieceList Ljava/util/List;
+	FIELD e structureStrongholdstones Lafa;

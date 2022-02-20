@@ -1,0 +1,6 @@
+CLASS abt net/minecraft/src/GuiConflictWarning
+	METHOD a initGui ()V
+	METHOD a drawScreen (IIF)V
+	METHOD a actionPerformed (Lxy;)V
+	METHOD q_ updateScreen ()V
+	FIELD a updateCounter I

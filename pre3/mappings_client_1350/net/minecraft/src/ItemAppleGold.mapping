@@ -1,0 +1,2 @@
+CLASS qa net/minecraft/src/ItemAppleGold
+	METHOD e hasItemStack (Lwy;)Z

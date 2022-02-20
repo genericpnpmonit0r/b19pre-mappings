@@ -1,0 +1,3 @@
+CLASS abj net/minecraft/src/RenderSnowMan
+	METHOD b renderEquippedItems (Lyv;F)V
+	FIELD c snowManModel Ldg;

@@ -1,0 +1,20 @@
+CLASS ph net/minecraft/src/Packet34EntityTeleport
+	METHOD <init> (IIIIBB)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 yaw
+		ARG 6 pitch
+	METHOD <init> (Lqn;)V
+		ARG 1 entity
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lrd;)V
+	FIELD a entityId I
+	FIELD b xPosition I
+	FIELD c yPosition I
+	FIELD d zPosition I
+	FIELD e yaw B
+	FIELD f pitch B

@@ -1,0 +1,3 @@
+CLASS gw net/minecraft/src/EntityCaveSpider
+	METHOD c getMaxHealth ()I
+	METHOD c attackEntityAsMob (Lqn;)Z

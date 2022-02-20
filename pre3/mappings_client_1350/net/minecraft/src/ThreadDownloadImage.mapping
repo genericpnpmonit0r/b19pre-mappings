@@ -1,0 +1,8 @@
+CLASS ado net/minecraft/src/ThreadDownloadImage
+	METHOD <init> (Lcu;Ljava/lang/String;Lil;)V
+		ARG 1 threadDownloadImagedata
+		ARG 2 location
+		ARG 3 buffer
+	FIELD a location Ljava/lang/String;
+	FIELD b buffer Lil;
+	FIELD c imageData Lcu;

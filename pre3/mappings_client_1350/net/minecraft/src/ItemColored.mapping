@@ -1,0 +1,8 @@
+CLASS agi net/minecraft/src/ItemColored
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 doesHaveSubtypes
+	METHOD a getIconFromDamage (I)I
+	METHOD b getColorFromDamage (I)I
+	METHOD c getPlacedBlockMetadata (I)I
+	FIELD a theBlock Lnd;

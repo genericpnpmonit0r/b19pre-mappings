@@ -1,0 +1,2 @@
+CLASS sh
+	METHOD a selectBlocks (Ljava/util/Random;IIIZ)V

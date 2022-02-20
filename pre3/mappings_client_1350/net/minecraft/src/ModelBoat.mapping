@@ -1,0 +1,4 @@
+CLASS tx net/minecraft/src/ModelBoat
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD a render (Llu;FFFFFF)V
+	FIELD a boatSides [Lon;

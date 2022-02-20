@@ -1,0 +1,2 @@
+CLASS rw
+	METHOD a onItemRightClick (Lil;Lev;Lgj;)Lil;

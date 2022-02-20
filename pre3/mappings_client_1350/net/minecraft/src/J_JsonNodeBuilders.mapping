@@ -1,0 +1,11 @@
+CLASS adk net/minecraft/src/J_JsonNodeBuilders
+	COMMENT Builders for <code>JsonNode</code>s.
+	METHOD a aNullBuilder ()Lyi;
+	METHOD a aNumberBuilder (Ljava/lang/String;)Lyi;
+		ARG 0 value
+	METHOD b aTrueBuilder ()Lyi;
+	METHOD b aStringBuilder (Ljava/lang/String;)Le;
+		ARG 0 value
+	METHOD c aFalseBuilder ()Lyi;
+	METHOD d anObjectBuilder ()Lmc;
+	METHOD e anArrayBuilder ()Ltm;

@@ -1,0 +1,2 @@
+CLASS aex net/minecraft/src/RenderCow
+	METHOD a doRender (Llu;DDDFF)V

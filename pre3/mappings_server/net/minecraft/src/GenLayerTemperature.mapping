@@ -1,0 +1,2 @@
+CLASS oh net/minecraft/src/GenLayerTemperature
+	METHOD a getInts (IIII)[I

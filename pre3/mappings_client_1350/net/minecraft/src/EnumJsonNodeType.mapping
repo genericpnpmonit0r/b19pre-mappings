@@ -1,0 +1,10 @@
+CLASS rg net/minecraft/src/EnumJsonNodeType
+	COMMENT Types of <code>JsonNode</code>.
+	FIELD a OBJECT Lrg;
+	FIELD b ARRAY Lrg;
+	FIELD c STRING Lrg;
+	FIELD d NUMBER Lrg;
+	FIELD e TRUE Lrg;
+	FIELD f FALSE Lrg;
+	FIELD g NULL Lrg;
+	FIELD h allJsonNodeTypes [Lrg;

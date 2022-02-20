@@ -1,0 +1,2 @@
+CLASS ba net/minecraft/src/StatTypeSimple
+	METHOD a format (I)Ljava/lang/String;

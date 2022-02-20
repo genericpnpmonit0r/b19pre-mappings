@@ -1,0 +1,68 @@
+CLASS hb net/minecraft/src/GuiSlot
+	METHOD <init> (Lnet/minecraft/client/Minecraft;IIIII)V
+		ARG 1 minecraft
+		ARG 2 width
+		ARG 3 height
+		ARG 4 top
+		ARG 5 bottom
+		ARG 6 slotHeight
+	METHOD a getSize ()I
+	METHOD a func_27255_a (II)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a drawScreen (IIF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 layer
+	METHOD a overlayBackground (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 layer
+		ARG 4 color
+	METHOD a drawSlot (IIIILaaa;)V
+	METHOD a func_27260_a (IILaaa;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 tessellator
+	METHOD a elementClicked (IZ)V
+		ARG 1 index
+		ARG 2 clickFlag
+	METHOD a registerScrollButtons (Ljava/util/List;II)V
+		ARG 1 buttons
+		ARG 2 upId
+		ARG 3 downId
+	METHOD a actionPerformed (Lxy;)V
+		ARG 1 button
+	METHOD a showSelectionBox (Z)V
+	METHOD a func_27259_a (ZI)V
+	METHOD a_ isSelected (I)Z
+		ARG 1 index
+	METHOD b getContentHeight ()I
+	METHOD b func_27257_b (II)V
+		ARG 1 x
+		ARG 2 y
+	METHOD c drawBackground ()V
+	METHOD c func_27256_c (II)I
+		ARG 1 x
+		ARG 2 y
+	METHOD d bindAmountScrolled ()V
+	FIELD a mc Lnet/minecraft/client/Minecraft;
+	FIELD b width I
+	FIELD c height I
+	FIELD d right I
+	FIELD e left I
+	FIELD f scrollUpButtonID I
+	FIELD g scrollDownButtonID I
+	FIELD h top I
+	FIELD i bottom I
+	FIELD j slotHeight I
+	FIELD k field_35409_k I
+	FIELD l field_35408_l I
+	FIELD m initialClickY F
+	FIELD n scrollMultiplier F
+	FIELD o amountScrolled F
+	FIELD p selectedElement I
+	FIELD q lastClicked J
+	FIELD r field_25123_p Z
+	FIELD s field_27262_q Z
+	FIELD t field_27261_r I

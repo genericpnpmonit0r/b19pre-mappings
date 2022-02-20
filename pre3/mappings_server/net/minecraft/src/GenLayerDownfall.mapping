@@ -1,0 +1,2 @@
+CLASS tl net/minecraft/src/GenLayerDownfall
+	METHOD a getInts (IIII)[I

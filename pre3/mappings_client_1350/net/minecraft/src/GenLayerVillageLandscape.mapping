@@ -1,0 +1,6 @@
+CLASS adq net/minecraft/src/GenLayerVillageLandscape
+	METHOD <init> (JLto;)V
+		ARG 1 seed
+		ARG 3 layer
+	METHOD a getInts (IIII)[I
+	FIELD b allowedBiomes [Lxw;

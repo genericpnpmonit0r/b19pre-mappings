@@ -1,0 +1,7 @@
+CLASS gf
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD a blockActivated (Lev;IIILgj;)Z
+	METHOD a_ getBlockEntity ()Lnl;
+	METHOD b isACube ()Z

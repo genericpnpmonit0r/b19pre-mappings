@@ -1,0 +1,3 @@
+CLASS re net/minecraft/src/EntityMooshroom
+	METHOD a createChild (Lbe;)Lbe;
+	METHOD b interact (Lgj;)Z

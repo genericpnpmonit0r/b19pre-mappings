@@ -1,0 +1,2 @@
+CLASS jz net/minecraft/src/RenderGhast
+	METHOD a preRenderCallback (Lyv;F)V

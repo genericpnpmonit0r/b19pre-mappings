@@ -1,0 +1,3 @@
+CLASS qb net/minecraft/src/ItemSaddle
+	METHOD a saddleEntity (Lil;Lkq;)V
+	METHOD a hitEntity (Lil;Lkq;Lkq;)Z

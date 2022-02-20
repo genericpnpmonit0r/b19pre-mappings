@@ -1,0 +1,5 @@
+CLASS act net/minecraft/src/BlockContainer
+	METHOD a onBlockAdded (Luc;III)V
+	METHOD a powerBlock (Luc;IIIII)V
+	METHOD b_ onBlockRemoval (Luc;III)V
+	METHOD p_ getBlockEntity ()Ljm;

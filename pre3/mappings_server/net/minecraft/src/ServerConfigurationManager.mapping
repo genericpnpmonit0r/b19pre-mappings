@@ -1,0 +1,122 @@
+CLASS hg net/minecraft/src/ServerConfigurationManager
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 minecraftServer
+	METHOD a getMaxTrackingDistance ()I
+	METHOD a sendPacketToPlayersAroundPoint (DDDDILjq;)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 multiplier
+		ARG 9 dimension
+		ARG 10 packet
+	METHOD a getPlayerManager (I)Lvd;
+		ARG 1 dimension
+	METHOD a markBlockNeedsUpdate (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 dim
+	METHOD a sentTileEntityToPlayer (IIILnl;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tileEntity
+	METHOD a getPlayerForDimension (Ley;)V
+		ARG 1 playerMP
+	METHOD a recreatePlayerEntity (Ley;I)Ley;
+		ARG 1 playerMP
+		ARG 2 dimension
+	METHOD a updatePlayerSleepState (Ley;Lfc;)V
+		ARG 1 playerMP
+		ARG 2 worldServer
+	METHOD a login (Lgb;Ljava/lang/String;)Ley;
+		ARG 1 loginHandler
+		ARG 2 username
+	METHOD a sendPacketToPlayersAroundPoint_player (Lgj;DDDDILjq;)V
+		ARG 1 player
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 multiplier
+		ARG 10 dimension
+		ARG 11 packet
+	METHOD a banPlayer (Ljava/lang/String;)V
+		ARG 1 username
+	METHOD a sendChatMessageToPlayer (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 username
+		ARG 2 message
+	METHOD a sendPacketToPlayer (Ljava/lang/String;Ljq;)Z
+		ARG 1 username
+		ARG 2 packet
+	METHOD a sendPacketToAllPlayers (Ljq;)V
+		ARG 1 packet
+	METHOD a sendPacketToAllPlayersInDimension (Ljq;I)V
+		ARG 1 packet
+		ARG 2 dimension
+	METHOD a setPlayerManager ([Lfc;)V
+		ARG 1 dimensionArr
+	METHOD b onTick ()V
+	METHOD b readPlayerDataFromFile (Ley;)V
+		ARG 1 playerMP
+	METHOD b sendPlayerToOtherDimension (Ley;I)V
+		ARG 1 playerMP
+	METHOD b pardonPlayer (Ljava/lang/String;)V
+		ARG 1 username
+	METHOD c getPlayerList ()Ljava/lang/String;
+	METHOD c playerLoggedIn (Ley;)V
+		ARG 1 playerMP
+	METHOD c banIP (Ljava/lang/String;)V
+		ARG 1 username
+	METHOD d savePlayerStates ()V
+	METHOD d getPlayerDimension (Ley;)V
+		ARG 1 playerMP
+	METHOD d pardonIP (Ljava/lang/String;)V
+		ARG 1 username
+	METHOD e getWhiteListedIPs ()Ljava/util/Set;
+	METHOD e playerLoggedOut (Ley;)V
+		ARG 1 playerMP
+	METHOD e addOp (Ljava/lang/String;)V
+		ARG 1 username
+	METHOD f reloadWhiteList ()V
+	METHOD f updatePlayerData (Ley;)V
+		ARG 1 playerMP
+	METHOD f removeOp (Ljava/lang/String;)V
+		ARG 1 username
+	METHOD g getPlayers ()I
+	METHOD g isAllowedToLogin (Ljava/lang/String;)Z
+		ARG 1 username
+	METHOD h getMaxPlayers ()I
+	METHOD h isOp (Ljava/lang/String;)Z
+		ARG 1 username
+	METHOD i readBannedPlayers ()V
+	METHOD i getPlayerEntity (Ljava/lang/String;)Ley;
+		ARG 1 username
+	METHOD j writeBannedPlayers ()V
+	METHOD j sendChatMessageToAllOps (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD k loadBannedList ()V
+	METHOD k addToWhiteList (Ljava/lang/String;)V
+		ARG 1 ip
+	METHOD l saveBannedList ()V
+	METHOD l removeFromWhiteList (Ljava/lang/String;)V
+		ARG 1 ip
+	METHOD m loadOps ()V
+	METHOD n saveOps ()V
+	METHOD o loadWhiteList ()V
+	METHOD p saveWhiteList ()V
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b playerEntities Ljava/util/List;
+	FIELD c mcServer Lnet/minecraft/server/MinecraftServer;
+	FIELD d playerManagerObj [Lvd;
+	FIELD e maxPlayers I
+	FIELD f bannedPlayers Ljava/util/Set;
+	FIELD g bannedIPs Ljava/util/Set;
+	FIELD h ops Ljava/util/Set;
+	FIELD i whiteListedIPs Ljava/util/Set;
+	FIELD j bannedPlayersFile Ljava/io/File;
+	FIELD k ipBanFile Ljava/io/File;
+	FIELD l opFile Ljava/io/File;
+	FIELD m whitelistPlayersFile Ljava/io/File;
+	FIELD n playerNBTManagerObj Lhs;
+	FIELD o whiteListEnforced Z
+	FIELD p tickCounter I

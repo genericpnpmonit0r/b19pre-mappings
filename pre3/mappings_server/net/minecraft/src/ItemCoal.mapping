@@ -1,0 +1,2 @@
+CLASS px net/minecraft/src/ItemCoal
+	METHOD a getItemNameIS (Lil;)Ljava/lang/String;

@@ -1,0 +1,6 @@
+CLASS bh net/minecraft/src/ThreadPollServers
+	METHOD <init> (Loe;Lmg;)V
+		ARG 1 serverSlot
+		ARG 2 nbtStorage
+	FIELD a server Lmg;
+	FIELD b serverSlotContainer Loe;

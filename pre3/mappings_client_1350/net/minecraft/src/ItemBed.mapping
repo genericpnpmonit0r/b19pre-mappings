@@ -1,0 +1,2 @@
+CLASS yu net/minecraft/src/ItemBed
+	METHOD a onItemUse (Lwy;Lvj;Luc;IIII)Z

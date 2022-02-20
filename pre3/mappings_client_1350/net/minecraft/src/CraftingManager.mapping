@@ -1,0 +1,11 @@
+CLASS eu net/minecraft/src/CraftingManager
+	METHOD a getInstance ()Leu;
+	METHOD a addRecipe (Lwy;[Ljava/lang/Object;)V
+		ARG 1 output
+		ARG 2 patternAndIngredients
+	METHOD b getRecipeList ()Ljava/util/List;
+	METHOD b addShapelessRecipe (Lwy;[Ljava/lang/Object;)V
+		ARG 1 output
+		ARG 2 patternAndIngredients
+	FIELD a instance Leu;
+	FIELD b recipes Ljava/util/List;

@@ -1,0 +1,17 @@
+CLASS ws net/minecraft/src/ContainerWorkbench
+	METHOD <init> (Lwv;Luc;III)V
+		ARG 1 inventoryPlayer
+		ARG 2 world
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+	METHOD a transferStackInSlot (I)Lwy;
+	METHOD a onCraftMatrixChanged (Lhk;)V
+	METHOD a onCraftGuiClosed (Lvj;)V
+	METHOD b canInteractWith (Lvj;)Z
+	FIELD a craftMatrix Lzf;
+	FIELD b craftResult Lhk;
+	FIELD c worldObj Luc;
+	FIELD h posX I
+	FIELD i posY I
+	FIELD j posZ I

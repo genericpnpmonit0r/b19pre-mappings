@@ -1,0 +1,4 @@
+CLASS aei net/minecraft/src/GenLayerDownfallMix
+	METHOD a getInts (IIII)[I
+	FIELD b theLayer Lto;
+	FIELD c field_35508_c I

@@ -1,0 +1,25 @@
+CLASS qx net/minecraft/src/BlockFurnace
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 active
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a onBlockAdded (Lev;III)V
+	METHOD a blockActivated (Lev;IIILgj;)Z
+	METHOD a onBlockPlacedBy (Lev;IIILkq;)V
+	METHOD a updateFurnaceBlockState (ZLev;III)V
+		ARG 0 active
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a_ getBlockEntity ()Lnl;
+	METHOD d onBlockRemoval (Lev;III)V
+	METHOD g setDefaultDirection (Lev;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	FIELD a furnaceRand Ljava/util/Random;
+	FIELD b isActive Z
+	FIELD c keepFurnaceInventory Z

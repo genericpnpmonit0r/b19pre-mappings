@@ -1,0 +1,6 @@
+CLASS qm net/minecraft/src/J_ChainedFunctor
+	METHOD a shortForm ()Ljava/lang/String;
+	METHOD a applyTo (Ljava/lang/Object;)Ljava/lang/Object;
+	METHOD c matchesNode (Ljava/lang/Object;)Z
+	FIELD a parentJsonNodeSelector Lxo;
+	FIELD b childJsonNodeSelector Lxo;

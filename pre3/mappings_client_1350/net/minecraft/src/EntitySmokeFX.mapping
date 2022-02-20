@@ -1,0 +1,4 @@
+CLASS agq net/minecraft/src/EntitySmokeFX
+	METHOD a renderParticle (Laaa;FFFFFF)V
+	METHOD z_ onUpdate ()V
+	FIELD a smokeParticleScale F

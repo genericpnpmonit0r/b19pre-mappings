@@ -1,0 +1,3 @@
+CLASS ib net/minecraft/src/ItemSapling
+	METHOD a getIconFromDamage (I)I
+	METHOD c getPlacedBlockMetadata (I)I

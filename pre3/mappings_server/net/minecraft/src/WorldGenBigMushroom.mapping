@@ -1,0 +1,5 @@
+CLASS ug net/minecraft/src/WorldGenBigMushroom
+	METHOD <init> (I)V
+		ARG 1 mushroomType
+	METHOD a generate (Lev;Ljava/util/Random;III)Z
+	FIELD a mushroomType I

@@ -1,0 +1,5 @@
+CLASS io
+	METHOD a updateCraftingResults ()V
+	METHOD a getStackInSlot (I)Lil;
+	METHOD a onCraftGuiOpened (Ldx;)V
+	METHOD b canInteractWith (Lgj;)Z

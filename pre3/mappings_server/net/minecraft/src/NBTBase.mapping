@@ -1,0 +1,19 @@
+CLASS hu net/minecraft/src/NBTBase
+	METHOD a getType ()B
+	METHOD a createTagOfType (B)Lhu;
+		ARG 0 type
+	METHOD a writeTag (Lhu;Ljava/io/DataOutput;)V
+		ARG 0 base
+		ARG 1 output
+	METHOD a readTagContents (Ljava/io/DataInput;)V
+		ARG 1 input
+	METHOD a writeTagContents (Ljava/io/DataOutput;)V
+		ARG 1 output
+	METHOD a setKey (Ljava/lang/String;)Lhu;
+		ARG 1 key
+	METHOD b getTagName (B)Ljava/lang/String;
+		ARG 0 type
+	METHOD b readTag (Ljava/io/DataInput;)Lhu;
+		ARG 0 input
+	METHOD c getKey ()Ljava/lang/String;
+	FIELD a key Ljava/lang/String;

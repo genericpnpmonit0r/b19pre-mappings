@@ -1,0 +1,4 @@
+CLASS rx
+	METHOD a isOpaqueCube ()Z
+	METHOD a getBlockTextureFromSideAndMetadata (II)I
+	METHOD e getCollisionBoundingBoxFromPool (Lev;III)Lei;

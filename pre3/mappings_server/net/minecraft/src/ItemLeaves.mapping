@@ -1,0 +1,2 @@
+CLASS sq net/minecraft/src/ItemLeaves
+	METHOD a getMetadata (I)I

@@ -1,0 +1,9 @@
+CLASS kt
+	METHOD a isOpaqueCube ()Z
+	METHOD a setBlockBoundsBasedOnState (Lagr;III)V
+	METHOD a shouldSideBeRendered (Lagr;IIII)Z
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a onEntityCollidedWithBlock (Luc;IIILlu;)V
+	METHOD b renderAsNormalBlock ()Z
+	METHOD b randomDisplayTick (Luc;IIILjava/util/Random;)V
+	METHOD p_ getBlockEntity ()Ljm;

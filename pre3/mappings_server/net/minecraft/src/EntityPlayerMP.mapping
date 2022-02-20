@@ -1,0 +1,80 @@
+CLASS ey net/minecraft/src/EntityPlayerMP
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lev;Ljava/lang/String;Lso;)V
+		ARG 1 minecraftServer
+		ARG 2 world
+		ARG 3 username
+		ARG 4 playerControllerServer
+	METHOD A usePersonalCraftingInventory ()V
+	METHOD B updateHeldItem ()V
+	METHOD C closeCraftingGui ()V
+	METHOD D setRiding ()V
+	METHOD F onItemUseFinish ()V
+	METHOD a updateFallState (DZ)V
+	METHOD a setMovementType (FFZZFF)V
+		ARG 1 strafing
+		ARG 2 forward
+		ARG 3 jumping
+		ARG 4 sneaking
+		ARG 5 pitch
+		ARG 6 yaw
+	METHOD a sleepInBedAt (III)Lcu;
+	METHOD a displayGUIDispenser (Lba;)V
+	METHOD a updateContainerContents (Ldr;)V
+		ARG 1 container
+	METHOD a updateCraftingInventoryInfo (Ldr;II)V
+	METHOD a updateCraftingInventorySlot (Ldr;ILil;)V
+	METHOD a updateCraftingInventory (Ldr;Ljava/util/List;)V
+	METHOD a Sets (Lev;)V
+	METHOD a onItemStackChanged (Lil;)V
+	METHOD a setItemInUse (Lil;I)V
+	METHOD a addChatMessage (Ljava/lang/String;)V
+	METHOD a displayGUIChest (Lkv;)V
+	METHOD a readEntityFromNBT (Lml;)V
+	METHOD a getTileEntityInfo (Lnl;)V
+		ARG 1 tileEntity
+	METHOD a onDeath (Loo;)V
+	METHOD a attackEntityFrom (Loo;I)Z
+	METHOD a displayGUIFurnace (Lqj;)V
+	METHOD a mountEntity (Lqn;)V
+	METHOD a onItemPickup (Lqn;I)V
+	METHOD a addStat (Ltt;I)V
+	METHOD a onNewPotionEffect (Lvr;)V
+	METHOD a wakeUpPlayer (ZZZ)V
+	METHOD aC getNextWidowId ()V
+	METHOD b handleFalling (DZ)V
+		ARG 1 fallDistance
+		ARG 3 falling
+	METHOD b getEquipmentInSlot (I)Lil;
+		ARG 1 index
+	METHOD b displayWorkbenchGUI (III)V
+	METHOD b writeEntityToNBT (Lml;)V
+	METHOD b onChangedPotionEffect (Lvr;)V
+	METHOD b onUpdateEntity (Z)V
+		ARG 1 inUnloadedChunk
+	METHOD c heal (I)V
+	METHOD c onFinishedPotionEffect (Lvr;)V
+	METHOD o_ swingItem ()V
+	METHOD p_ setLastHealth ()V
+	METHOD t openCraftingGUI ()V
+	METHOD t_ onUpdate ()V
+	METHOD u getInventory ()[Lil;
+	METHOD v resetHeight ()V
+	METHOD w getEyeHeight ()F
+	METHOD x isPVPEnabled ()Z
+	METHOD z func_22068_s ()V
+	FIELD a playerNetServerHandler Lkc;
+	FIELD b mcServer Lnet/minecraft/server/MinecraftServer;
+	FIELD bZ lastHealth I
+	FIELD c playerControllerServer Lso;
+	FIELD ca playerFoodLevel I
+	FIELD cb playerFoodSaturationLevel Z
+	FIELD cc playerXpLevel I
+	FIELD cd ticksOfInvuln I
+	FIELD ce playerInventory [Lil;
+	FIELD cf currentWindowId I
+	FIELD d managedPosX D
+	FIELD e managedPosZ D
+	FIELD f loadedChunks Ljava/util/List;
+	FIELD g playerCurrentChunks Ljava/util/Set;
+	FIELD h isChangingQuantityOnly Z
+	FIELD i ping I

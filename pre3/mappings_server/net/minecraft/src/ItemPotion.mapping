@@ -1,0 +1,7 @@
+CLASS fg net/minecraft/src/ItemPotion
+	METHOD a onItemRightClick (Lil;Lev;Lgj;)Lil;
+	METHOD a onItemUse (Lil;Lgj;Lev;IIII)Z
+	METHOD b onFoodEaten (Lil;Lev;Lgj;)Lil;
+	METHOD c getMaxItemUseDuration (Lil;)I
+	METHOD d getItemUseAction (Lil;)Lip;
+	FIELD a effectCache Ljava/util/HashMap;

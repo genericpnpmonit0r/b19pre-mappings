@@ -1,0 +1,10 @@
+CLASS rp net/minecraft/src/ShapelessRecipes
+	METHOD <init> (Lil;Ljava/util/List;)V
+		ARG 1 output
+		ARG 2 items
+	METHOD a getRecipeSize ()I
+	METHOD a matches (Llh;)Z
+	METHOD b getRecipeOutput ()Lil;
+	METHOD b getCraftingResult (Llh;)Lil;
+	FIELD a recipeOutput Lil;
+	FIELD b recipeItems Ljava/util/List;

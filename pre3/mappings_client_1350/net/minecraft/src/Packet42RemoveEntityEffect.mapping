@@ -1,0 +1,7 @@
+CLASS zp net/minecraft/src/Packet42RemoveEntityEffect
+	METHOD a getPacketSize ()I
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+	METHOD a processPacket (Lmj;)V
+	FIELD a entityId I
+	FIELD b effectId B

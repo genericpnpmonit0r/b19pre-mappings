@@ -1,0 +1,5 @@
+CLASS ur net/minecraft/src/GenLayerRiverMix
+	METHOD a getInts (IIII)[I
+	METHOD b initWorldGenSeed (J)V
+	FIELD b field_35033_b Ldz;
+	FIELD c field_35034_c Ldz;

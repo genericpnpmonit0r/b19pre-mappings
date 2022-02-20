@@ -1,0 +1,2 @@
+CLASS aey net/minecraft/src/ItemSign
+	METHOD a onItemUse (Lwy;Lvj;Luc;IIII)Z

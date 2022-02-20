@@ -1,0 +1,71 @@
+CLASS gr net/minecraft/src/GameSettings
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/io/File;)V
+		ARG 1 minecraft
+		ARG 2 file
+	METHOD a loadOptions ()V
+	METHOD a getKeyBindingDescription (I)Ljava/lang/String;
+		ARG 1 index
+	METHOD a setKeyBinding (II)V
+		ARG 1 button
+		ARG 2 keycode
+	METHOD a parseFloat (Ljava/lang/String;)F
+		ARG 1 stringValue
+	METHOD a getOptionFloatValue (Lwb;)F
+		ARG 1 enumOptions
+	METHOD a setOptionFloatValue (Lwb;F)V
+		ARG 1 enumOptions
+		ARG 2 floatValue
+	METHOD a setOptionValue (Lwb;I)V
+		ARG 1 enunOptions
+		ARG 2 intValue
+	METHOD b saveOptions ()V
+	METHOD b getKeyDisplayString (I)Ljava/lang/String;
+		ARG 1 index
+	METHOD b getOptionOrdinalValue (Lwb;)Z
+		ARG 1 enumOptions
+	METHOD c getKeyBinding (Lwb;)Ljava/lang/String;
+		ARG 1 enumOptions
+	FIELD A mc Lnet/minecraft/client/Minecraft;
+	FIELD B difficulty I
+	FIELD C hideGUI Z
+	FIELD E showDebugInfo Z
+	FIELD F lastServer Ljava/lang/String;
+	FIELD G noclip Z
+	FIELD H smoothCamera Z
+	FIELD I debugCamEnable Z
+	FIELD J noclipRate F
+	FIELD K debugCamRate F
+	FIELD L fovSetting F
+	FIELD M gammaSetting F
+	FIELD N guiScale I
+	FIELD O RENDER_DISTANCES [Ljava/lang/String;
+	FIELD P DIFFICULTIES [Ljava/lang/String;
+	FIELD Q GUISCALES [Ljava/lang/String;
+	FIELD R LIMIT_FRAMERATES [Ljava/lang/String;
+	FIELD S optionsFile Ljava/io/File;
+	FIELD a musicVolume F
+	FIELD b soundVolume F
+	FIELD c mouseSensitivity F
+	FIELD d invertMouse Z
+	FIELD e renderDistance I
+	FIELD f viewBobbing Z
+	FIELD g anaglyph Z
+	FIELD h advancedOpengl Z
+	FIELD i limitFramerate I
+	FIELD j fancyGraphics Z
+	FIELD k ambientOcclusion Z
+	FIELD l skin Ljava/lang/String;
+	FIELD m keyBindForward Labq;
+	FIELD n keyBindLeft Labq;
+	FIELD o keyBindBack Labq;
+	FIELD p keyBindRight Labq;
+	FIELD q keyBindJump Labq;
+	FIELD r keyBindInventory Labq;
+	FIELD s keyBindDrop Labq;
+	FIELD t keyBindChat Labq;
+	FIELD u keyBindSneak Labq;
+	FIELD v keyBindAttack Labq;
+	FIELD w keyBindUseItem Labq;
+	FIELD x keyBindPlayerList Labq;
+	FIELD y keyBindPickBlock Labq;
+	FIELD z keyBindings [Labq;

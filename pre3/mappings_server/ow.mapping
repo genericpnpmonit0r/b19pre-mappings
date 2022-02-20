@@ -1,0 +1,7 @@
+CLASS ow
+	METHOD a isOpaqueCube ()Z
+	METHOD a onEntityCollidedWithBlock (Lev;IIILqn;)V
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a setBlockBoundsBasedOnState (Lvt;III)V
+	METHOD a_ getBlockEntity ()Lnl;
+	METHOD b isACube ()Z

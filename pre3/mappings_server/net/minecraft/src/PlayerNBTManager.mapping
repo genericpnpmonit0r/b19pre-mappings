@@ -1,0 +1,24 @@
+CLASS ff net/minecraft/src/PlayerNBTManager
+	METHOD <init> (Ljava/io/File;Ljava/lang/String;Z)V
+		ARG 1 file
+		ARG 2 dirName
+		ARG 3 createIfNeeded
+	METHOD a getWorldDir ()Ljava/io/File;
+	METHOD a saveWorldInfo (Lec;)V
+	METHOD a saveWorldInfoAndPlayer (Lec;Ljava/util/List;)V
+	METHOD a writePlayerData (Lgj;)V
+	METHOD a getPlayerData (Ljava/lang/String;)Lml;
+		ARG 1 playername
+	METHOD a getChunkLoader (Lvi;)Lbc;
+	METHOD b checkSessionLock ()V
+	METHOD b readPlayerData (Lgj;)V
+	METHOD b getMapFile (Ljava/lang/String;)Ljava/io/File;
+	METHOD c loadWorldInfo ()Lec;
+	METHOD d getPlayerNBTManager ()Lhs;
+	METHOD e flush ()V
+	METHOD f setSessionLock ()V
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b worldDir Ljava/io/File;
+	FIELD c worldFile Ljava/io/File;
+	FIELD d mapDataDir Ljava/io/File;
+	FIELD e initializationTime J

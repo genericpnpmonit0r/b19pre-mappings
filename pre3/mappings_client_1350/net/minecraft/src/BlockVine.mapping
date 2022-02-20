@@ -1,0 +1,26 @@
+CLASS aak net/minecraft/src/BlockVine
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a isOpaqueCube ()Z
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a setBlockBoundsBasedOnState (Lagr;III)V
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a onNeighborBlockChange (Luc;IIII)V
+	METHOD a updateTick (Luc;IIILjava/util/Random;)V
+	METHOD a harvestBlock (Luc;Lvj;IIII)V
+	METHOD b renderAsNormalBlock ()Z
+	METHOD b colorMultiplier (Lagr;III)I
+	METHOD c getRenderColor (I)I
+	METHOD c getCollisionBoundingBoxFromPool (Luc;III)Ltu;
+	METHOD c onBlockPlaced (Luc;IIII)V
+	METHOD d getRenderType ()I
+	METHOD d canBePlacedOn (I)Z
+		ARG 1 side
+	METHOD d canPlaceBlockOnSide (Luc;IIII)Z
+	METHOD h setBlockBoundsForItemRender ()V
+	METHOD h canVineStay (Luc;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i getBlockColor ()I

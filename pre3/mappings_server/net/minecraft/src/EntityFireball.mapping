@@ -1,0 +1,27 @@
+CLASS cb net/minecraft/src/EntityFireball
+	METHOD <init> (Lev;Lkq;DDD)V
+		ARG 1 world
+		ARG 2 living
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+	METHOD a getEntityBrightness (F)F
+	METHOD a readEntityFromNBT (Lml;)V
+	METHOD a attackEntityFrom (Loo;I)Z
+	METHOD a collideOn (Ltd;)V
+		ARG 1 movingObjectPos
+	METHOD b entityInit ()V
+	METHOD b writeEntityToNBT (Lml;)V
+	METHOD c_ canBeCollidedWith ()Z
+	METHOD t_ onUpdate ()V
+	FIELD a shooter Lkq;
+	FIELD b accelerationX D
+	FIELD c accelerationY D
+	FIELD d accelerationZ D
+	FIELD e xTile I
+	FIELD f yTile I
+	FIELD g zTile I
+	FIELD h inTile I
+	FIELD i inGround Z
+	FIELD j ticksAlive I
+	FIELD k ticksInAir I

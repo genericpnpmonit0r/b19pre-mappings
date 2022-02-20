@@ -1,0 +1,5 @@
+CLASS az net/minecraft/src/WorldProviderSky
+	METHOD a registerWorldChunkManager ()V
+	METHOD a canCoordinateBeSpawn (II)Z
+	METHOD a calculateCelestialAngle (JF)F
+	METHOD b getChunkProvider ()Lcg;

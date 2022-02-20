@@ -1,0 +1,36 @@
+CLASS fn net/minecraft/src/LongHashMap
+	METHOD a hash (I)I
+		ARG 0 key
+	METHOD a getHashIndex (II)I
+		ARG 0 key
+		ARG 1 valueInt
+	METHOD a createKey (IJLjava/lang/Object;I)V
+		ARG 1 hash
+		ARG 2 key
+		ARG 4 value
+		ARG 5 entry
+	METHOD a getValueByKey (J)Ljava/lang/Object;
+		ARG 1 key
+	METHOD a add (JLjava/lang/Object;)V
+		ARG 1 key
+		ARG 3 value
+	METHOD a copyHashTableTo ([Lou;)V
+		ARG 1 target
+	METHOD b resizeTable (I)V
+		ARG 1 size
+	METHOD b containsItem (J)Z
+		ARG 1 key
+	METHOD c getEntry (J)Lou;
+		ARG 1 key
+	METHOD d remove (J)Ljava/lang/Object;
+		ARG 1 key
+	METHOD e removeKey (J)Lou;
+		ARG 1 key
+	METHOD f getHashCode (J)I
+	METHOD g getHashedKey (J)I
+		ARG 0 key
+	FIELD a hashArray [Lou;
+	FIELD b numHashElements I
+	FIELD c capacity I
+	FIELD d percentUsable F
+	FIELD e modCount I

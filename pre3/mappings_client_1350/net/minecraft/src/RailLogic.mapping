@@ -1,0 +1,40 @@
+CLASS nx net/minecraft/src/RailLogic
+	METHOD <init> (Laax;Luc;III)V
+		ARG 1 rail
+		ARG 2 world
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+	METHOD a refreshConnectedTracks ()V
+	METHOD a setConnections (I)V
+		ARG 1 side
+	METHOD a isMinecartTrack (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a getNAdjacentTracks (Lnx;)I
+	METHOD a getMinecartTrackLogic (Lom;)Lnx;
+		ARG 1 chunkPos
+	METHOD a refreshTrackShape (ZZ)V
+	METHOD b getAdjacentTracks ()I
+	METHOD b isInTrack (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b isConnectedTo (Lnx;)Z
+		ARG 1 logic
+	METHOD c canConnectFrom (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD c canConnectTo (Lnx;)Z
+		ARG 1 logic
+	METHOD d connectToNeighbor (Lnx;)V
+		ARG 1 logic
+	FIELD a rail Laax;
+	FIELD b worldObj Luc;
+	FIELD c trackX I
+	FIELD d trackY I
+	FIELD e trackZ I
+	FIELD f isPoweredRail Z
+	FIELD g connectedTracks Ljava/util/List;

@@ -1,0 +1,20 @@
+CLASS uh net/minecraft/src/BlockJukeBox
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a dropBlockAsItemWithChance (Luc;IIIIF)V
+	METHOD b blockActivated (Luc;IIILvj;)Z
+	METHOD b_ onBlockRemoval (Luc;III)V
+	METHOD f ejectRecord (Luc;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 record
+	METHOD h insertRecord (Luc;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD p_ getBlockEntity ()Ljm;

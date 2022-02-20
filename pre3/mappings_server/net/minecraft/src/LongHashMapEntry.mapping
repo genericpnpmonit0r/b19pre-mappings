@@ -1,0 +1,14 @@
+CLASS ou net/minecraft/src/LongHashMapEntry
+	METHOD <init> (IJLjava/lang/Object;Lou;)V
+		ARG 1 slotHash
+		ARG 2 key
+		ARG 4 value
+		ARG 5 next
+	METHOD a getHash ()J
+	METHOD b getValue ()Ljava/lang/Object;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 value
+	FIELD a hashEntry J
+	FIELD b value Ljava/lang/Object;
+	FIELD c nextEntry Lou;
+	FIELD d slotHash I

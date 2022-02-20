@@ -1,0 +1,13 @@
+CLASS d net/minecraft/src/EntityLightningBolt
+	METHOD <init> (Lev;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a readEntityFromNBT (Lml;)V
+	METHOD b entityInit ()V
+	METHOD b writeEntityToNBT (Lml;)V
+	METHOD t_ onUpdate ()V
+	FIELD a boltVertex J
+	FIELD b lightningState I
+	FIELD c boltLivingTime I

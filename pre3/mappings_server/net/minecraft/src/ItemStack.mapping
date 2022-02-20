@@ -1,0 +1,105 @@
+CLASS il net/minecraft/src/ItemStack
+	METHOD <init> (III)V
+		ARG 1 id
+		ARG 2 count
+		ARG 3 meta
+	METHOD <init> (Lgh;)V
+		ARG 1 item
+	METHOD <init> (Lgh;I)V
+		ARG 1 item
+		ARG 2 count
+	METHOD <init> (Lgh;II)V
+		ARG 1 item
+		ARG 2 count
+		ARG 3 meta
+	METHOD <init> (Lsl;)V
+		ARG 1 block
+	METHOD <init> (Lsl;I)V
+		ARG 1 block
+		ARG 2 count
+	METHOD <init> (Lsl;II)V
+		ARG 1 block
+		ARG 2 count
+		ARG 3 meta
+	METHOD a getItem ()Lgh;
+	METHOD a splitStack (I)Lil;
+		ARG 1 id
+	METHOD a onDestroyBlock (IIIILgj;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 side
+		ARG 5 player
+	METHOD a damageItem (ILqn;)V
+		ARG 1 amount
+		ARG 2 entity
+	METHOD a useItemRightClick (Lev;Lgj;)Lil;
+		ARG 1 world
+		ARG 2 player
+	METHOD a getMaxItemUseDuration (Lev;Lgj;I)V
+		ARG 1 world
+		ARG 2 player
+		ARG 3 id
+	METHOD a updateAnimation (Lev;Lqn;IZ)V
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 tickCounter
+		ARG 4 animationFlag
+	METHOD a onItemDestroyedByUse (Lgj;)V
+		ARG 1 player
+	METHOD a useItem (Lgj;Lev;IIII)Z
+		ARG 1 player
+		ARG 2 world
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 side
+	METHOD a isItemEqual (Lil;)Z
+		ARG 1 itemStack
+	METHOD a areItemStacksEqual (Lil;Lil;)Z
+		ARG 0 itemStack1
+		ARG 1 itemStack2
+	METHOD a useItemOnEntity (Lkq;)V
+		ARG 1 living
+	METHOD a hitEntity (Lkq;Lgj;)V
+		ARG 1 living
+		ARG 2 player
+	METHOD a loadItemStackFromNBT (Lml;)Lil;
+		ARG 0 compoundTag
+	METHOD a getDamageVsEntity (Lqn;)I
+		ARG 1 entity
+	METHOD a getStrVsBlock (Lsl;)F
+		ARG 1 block
+	METHOD b getMaxStackSize ()I
+	METHOD b setItemDamage (I)V
+		ARG 1 meta
+	METHOD b onFoodEaten (Lev;Lgj;)Lil;
+		ARG 1 wprld
+		ARG 2 player
+	METHOD b copyItemStack (Lil;)Lil;
+		ARG 0 itemStack
+	METHOD b writeToNBT (Lml;)Lml;
+	METHOD b canHarvestBlock (Lsl;)Z
+		ARG 1 block
+	METHOD c isStackable ()Z
+	METHOD c onCrafting (Lev;Lgj;)V
+		ARG 1 world
+		ARG 2 player
+	METHOD c isStackEqual (Lil;)Z
+		ARG 1 itemStack
+	METHOD c readFromNBT (Lml;)V
+		ARG 1 compoundTag
+	METHOD d isItemStackDamageable ()Z
+	METHOD d isItemStackEqual (Lil;)Z
+		ARG 1 itemStack
+	METHOD e getHasSubtypes ()Z
+	METHOD f isItemDamaged ()Z
+	METHOD h getItemDamage ()I
+	METHOD i getMaxDamage ()I
+	METHOD k getItemStackName ()Ljava/lang/String;
+	METHOD l getMaxItemUseDuration ()I
+	METHOD m getItemUseAction ()Lip;
+	FIELD a stackSize I
+	FIELD b animationsToGo I
+	FIELD c itemID I
+	FIELD e itemDamage I

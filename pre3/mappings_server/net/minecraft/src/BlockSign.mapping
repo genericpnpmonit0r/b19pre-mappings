@@ -1,0 +1,14 @@
+CLASS sd net/minecraft/src/BlockSign
+	METHOD <init> (ILjava/lang/Class;Z)V
+		ARG 1 id
+		ARG 2 signEntityClass
+		ARG 3 isFreestanding
+	METHOD a isOpaqueCube ()Z
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a onNeighborBlockChange (Lev;IIII)V
+	METHOD a setBlockBoundsBasedOnState (Lvt;III)V
+	METHOD a_ getBlockEntity ()Lnl;
+	METHOD b isACube ()Z
+	METHOD e getCollisionBoundingBoxFromPool (Lev;III)Lei;
+	FIELD a signEntityClass Ljava/lang/Class;
+	FIELD b isFreestanding Z

@@ -1,0 +1,5 @@
+CLASS kb net/minecraft/src/ItemHoe
+	METHOD <init> (ILbs;)V
+		ARG 1 id
+		ARG 2 toolMaterial
+	METHOD a onItemUse (Lil;Lgj;Lev;IIII)Z

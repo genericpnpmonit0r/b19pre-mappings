@@ -1,0 +1,35 @@
+CLASS lt net/minecraft/src/EntityArrow
+	METHOD <init> (Luc;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD <init> (Luc;Lyv;F)V
+		ARG 1 world
+		ARG 2 living
+		ARG 3 motion
+	METHOD a setVelocity (DDD)V
+	METHOD a setArrowHeading (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
+	METHOD a readEntityFromNBT (Lzx;)V
+	METHOD a_ onCollideWithPlayer (Lvj;)V
+	METHOD b entityInit ()V
+	METHOD b writeEntityToNBT (Lzx;)V
+	METHOD g_ getShadowSize ()F
+	METHOD z_ onUpdate ()V
+	FIELD a doesArrowBelongToPlayer Z
+	FIELD ao yTile I
+	FIELD ap zTile I
+	FIELD aq inTile I
+	FIELD ar inData I
+	FIELD as inGround Z
+	FIELD at ticksInGround I
+	FIELD au ticksInAir I
+	FIELD b arrowShake I
+	FIELD c shootingEntity Llu;
+	FIELD d arrowCritical Z
+	FIELD e xTile I

@@ -1,0 +1,7 @@
+CLASS vo net/minecraft/src/RenderVillager
+	METHOD a doRender (Llu;DDDFF)V
+	METHOD a preRenderCallback (Lyv;F)V
+	METHOD b passSpecialRender (Lyv;DDD)V
+	METHOD b renderEquippedItems (Lyv;F)V
+	METHOD b shouldRenderPass (Lyv;IF)I
+	FIELD c villagerModel Lsj;

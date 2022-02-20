@@ -1,0 +1,12 @@
+CLASS afw net/minecraft/src/InventoryCraftResult
+	METHOD a getSizeInventory ()I
+	METHOD a decrStackSize (II)Lwy;
+	METHOD a setInventorySlotContents (ILwy;)V
+	METHOD a isUseableByPlayer (Lvj;)Z
+	METHOD c getInvName ()Ljava/lang/String;
+	METHOD d getInventoryStackLimit ()I
+	METHOD e openChest ()V
+	METHOD f closeChest ()V
+	METHOD f_ getStackInSlot (I)Lwy;
+	METHOD l onInventoryChanged ()V
+	FIELD a stackResult [Lwy;

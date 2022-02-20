@@ -1,0 +1,23 @@
+CLASS be net/minecraft/src/EntityAnimal
+	METHOD a getBlockPathWeight (III)F
+	METHOD a createChild (Lbe;)Lbe;
+		ARG 1 animal
+	METHOD a getExperiencePoints (Lgj;)I
+	METHOD a isBreedingItem (Lil;)Z
+		ARG 1 itemStack
+	METHOD a readEntityFromNBT (Lml;)V
+	METHOD a attackEntityFrom (Loo;I)Z
+	METHOD a attackEntity (Lqn;F)V
+	METHOD b procreate (Lbe;)V
+		ARG 1 animal
+	METHOD b interact (Lgj;)Z
+	METHOD b writeEntityToNBT (Lml;)V
+	METHOD b attackBlockedEntity (Lqn;F)V
+	METHOD d onLivingUpdate ()V
+	METHOD g getCanSpawnHere ()Z
+	METHOD h getTalkInterval ()I
+	METHOD i canDespawn ()Z
+	METHOD j findPlayerToAttack ()Lqn;
+	FIELD a age I
+	FIELD b inLove I
+	FIELD c breeding I

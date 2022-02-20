@@ -1,0 +1,11 @@
+CLASS po net/minecraft/src/MapGenStructure
+	METHOD a canSpawnStructureAtCoords (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD a generate (Lcg;Lev;II[B)V
+	METHOD a recursiveGenerate (Lev;IIII[B)V
+	METHOD a func_35532_a (Lev;Ljava/util/Random;II)Z
+	METHOD b getStructureStart (II)Lsr;
+		ARG 1 x
+		ARG 2 z
+	FIELD e field_35534_e Ljava/util/HashMap;

@@ -1,0 +1,12 @@
+CLASS up net/minecraft/src/InventoryCraftResult
+	METHOD a getInventoryStackLimit ()I
+	METHOD a decrStackSize (II)Lil;
+	METHOD a setInventorySlotContents (ILil;)V
+	METHOD a canInteractWith (Lgj;)Z
+	METHOD b_ getStackInSlot (I)Lil;
+	METHOD c getSizeInventory ()I
+	METHOD e getInvName ()Ljava/lang/String;
+	METHOD g closeChest ()V
+	METHOD u_ onInventoryChanged ()V
+	METHOD v_ openChest ()V
+	FIELD a stackResult [Lil;
