@@ -1,0 +1,8 @@
+CLASS nh net/minecraft/src/Packet26EntityExpOrb
+	FIELD a entityId I
+	FIELD b posX I
+	FIELD c posY I
+	FIELD d posZ I
+	FIELD e xpValue I
+	METHOD <init> (Lcb;)V
+		ARG 1 xpOrb

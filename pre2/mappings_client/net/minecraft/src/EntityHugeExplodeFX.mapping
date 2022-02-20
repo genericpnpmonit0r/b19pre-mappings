@@ -1,0 +1,3 @@
+CLASS afb net/minecraft/src/EntityHugeExplodeFX
+	FIELD a field_35139_a I
+	FIELD ax field_35138_ay I

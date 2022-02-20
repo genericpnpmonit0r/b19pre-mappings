@@ -1,0 +1,11 @@
+CLASS ih net/minecraft/src/BlockCrops
+	METHOD f fertilize (Lti;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i getGrowthRate (Lti;III)F
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

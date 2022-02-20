@@ -1,0 +1,3 @@
+CLASS pw net/minecraft/src/J_ChainedFunctor
+	FIELD a parentJsonNodeSelector Lwr;
+	FIELD b childJsonNodeSelector Lwr;

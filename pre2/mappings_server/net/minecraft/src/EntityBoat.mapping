@@ -1,0 +1,15 @@
+CLASS fl net/minecraft/src/EntityBoat
+	FIELD a damageTaken I
+	FIELD b timeSinceHit I
+	FIELD c forwardDirection I
+	FIELD d boatPosRotationIncrements I
+	FIELD e boatX D
+	FIELD f boatY D
+	FIELD g boatZ D
+	FIELD h boatYaw D
+	FIELD i boatPitch D
+	METHOD <init> (Lep;DDD)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

@@ -1,0 +1,7 @@
+CLASS vd net/minecraft/src/GuiChest
+	FIELD h upperChestInventory Lhc;
+	FIELD i lowerChestInventory Lhc;
+	FIELD j inventoryRows I
+	METHOD <init> (Lhc;Lhc;)V
+		ARG 1 inventory1
+		ARG 2 inventory2

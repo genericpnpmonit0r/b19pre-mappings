@@ -1,0 +1,3 @@
+CLASS ts net/minecraft/src/GenLayerRiverMix
+	FIELD b field_35033_b Ldu;
+	FIELD c field_35034_c Ldu;

@@ -1,0 +1,81 @@
+CLASS wz net/minecraft/src/BiomeGenBase
+	METHOD <init> (I)V
+		ARG 1 biomeId
+	METHOD a createBiomeDecorator ()Lue;
+	METHOD a getSkyColorByTemp (F)I
+		ARG 1 temperature
+	METHOD a setTemperatureRainfall (FF)Lwz;
+		ARG 1 temp
+		ARG 2 rainfall
+	METHOD a setDefaultColor (I)Lwz;
+		ARG 1 color
+	METHOD a getBiomeGrassColor (Lafm;III)I
+		ARG 1 blockAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a setBiomeName (Ljava/lang/String;)Lwz;
+		ARG 1 name
+	METHOD a getRandomWorldGenForTrees (Ljava/util/Random;)Ljm;
+		ARG 1 rand
+	METHOD a decorate (Lti;Ljava/util/Random;II)V
+		ARG 1 world
+		ARG 2 rand
+		ARG 3 x
+		ARG 4 z
+	METHOD a getSpawnableList (Lxq;)Ljava/util/List;
+		ARG 1 creatureType
+	METHOD b getEnableSnow ()Z
+	METHOD b setMinMaxHeight (FF)Lwz;
+		ARG 1 minHeight
+		ARG 2 maxHeight
+	METHOD b setColor (I)Lwz;
+		ARG 1 color
+	METHOD b getBiomeFoliageColor (Lafm;III)I
+		ARG 1 blockAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD c canSpawnLightningBolt ()Z
+	METHOD d getSpawningChance ()F
+	METHOD e getIntRainfall ()I
+	METHOD f getIntTemperature ()I
+	METHOD g setDisableRain ()Lwz;
+	FIELD A waterColorMultiplier I
+	FIELD B biomeDecorator Lue;
+	FIELD C spawnableMonsterList Ljava/util/List;
+	FIELD D spawnableCreatureList Ljava/util/List;
+	FIELD E spawnableWaterCreatureList Ljava/util/List;
+	FIELD F biomeID I
+	FIELD G worldGenTrees Lpi;
+	FIELD H worldGenBigTree Lvq;
+	FIELD I worldGenForest Lh;
+	FIELD J worldGenSwamp Lau;
+	FIELD K enableSnow Z
+	FIELD L enableRain Z
+	FIELD a biomeList [Lwz;
+	FIELD b ocean Lwz;
+	FIELD c plains Lwz;
+	FIELD d desert Lwz;
+	FIELD e hills Lwz;
+	FIELD f forest Lwz;
+	FIELD g taiga Lwz;
+	FIELD h swampland Lwz;
+	FIELD i river Lwz;
+	FIELD j hell Lwz;
+	FIELD k sky Lwz;
+	FIELD l frozenOcean Lwz;
+	FIELD m frozenRiver Lwz;
+	FIELD n icePlains Lwz;
+	FIELD o iceMountains Lwz;
+	FIELD p mushroomIsland Lwz;
+	FIELD q mushroomIslandShore Lwz;
+	FIELD r biomeName Ljava/lang/String;
+	FIELD s color I
+	FIELD t topBlock B
+	FIELD u fillerBlock B
+	FIELD v defaultColor I
+	FIELD w minHeight F
+	FIELD x maxHeight F
+	FIELD y temperature F
+	FIELD z rainfall F

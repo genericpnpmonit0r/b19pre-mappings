@@ -1,0 +1,2 @@
+CLASS gz net/minecraft/src/Packet16BlockItemSwitch
+	FIELD a id I

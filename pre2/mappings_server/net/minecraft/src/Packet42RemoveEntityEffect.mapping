@@ -1,0 +1,6 @@
+CLASS lo net/minecraft/src/Packet42RemoveEntityEffect
+	FIELD a entityId I
+	FIELD b effectId B
+	METHOD <init> (ILur;)V
+		ARG 1 id
+		ARG 2 effect

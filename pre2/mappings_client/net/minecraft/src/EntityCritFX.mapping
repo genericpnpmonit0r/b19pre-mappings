@@ -1,0 +1,3 @@
+CLASS pq net/minecraft/src/EntityCritFX
+	FIELD a field_35137_a F
+	FIELD ax field_35136_ay Z

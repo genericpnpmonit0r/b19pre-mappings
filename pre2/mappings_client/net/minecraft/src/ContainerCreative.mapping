@@ -1,0 +1,6 @@
+CLASS mh net/minecraft/src/ContainerCreative
+	FIELD a itemList Ljava/util/List;
+	METHOD <init> (Luo;)V
+		ARG 1 player
+	METHOD a setContents (F)V
+		ARG 1 dispLayer

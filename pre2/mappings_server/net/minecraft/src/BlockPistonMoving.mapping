@@ -1,0 +1,6 @@
+CLASS rn net/minecraft/src/BlockPistonMoving
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getTileEntity (IIIZZ)Lmx;
+	METHOD a func_31032_a (Lep;IIIIFI)Led;
+	METHOD b getTileEntityAtLocation (Lut;III)Lri;

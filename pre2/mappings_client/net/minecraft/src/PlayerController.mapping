@@ -1,0 +1,68 @@
+CLASS iq net/minecraft/src/PlayerController
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD a resetBlockRemoving ()V
+	METHOD a setPartialTime (F)V
+		ARG 1 time
+	METHOD a clickBlock (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 side
+	METHOD a windowClick (IIIZLuo;)Lwc;
+	METHOD a closePlayerInventory (ILuo;)V
+		ARG 1 i
+		ARG 2 player
+	METHOD a onWorldChange (Lti;)V
+		ARG 1 world
+	METHOD a flipPlayer (Luo;)V
+		ARG 1 player
+	METHOD a interactWithEntity (Luo;Llh;)V
+		ARG 1 player
+		ARG 2 entity
+	METHOD a sendUseItem (Luo;Lti;Lwc;)Z
+		ARG 1 player
+		ARG 2 world
+		ARG 3 itemStack
+	METHOD a sendPlaceBlock (Luo;Lti;Lwc;IIII)Z
+		ARG 1 player
+		ARG 2 world
+		ARG 3 itemStack
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 side
+	METHOD a func_35639_a (Lwc;)V
+		ARG 1 itemStack
+	METHOD a func_35637_a (Lwc;I)V
+		ARG 1 itemStack
+		ARG 2 i
+	METHOD b getBlockReachDistance ()F
+	METHOD b sendBlockRemoved (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 side
+	METHOD b createPlayer (Lti;)Luo;
+		ARG 1 world
+	METHOD b fillInventory (Luo;)V
+		ARG 1 player
+	METHOD b attackEntity (Luo;Llh;)V
+		ARG 1 player
+		ARG 2 entity
+	METHOD c updateController ()V
+	METHOD c sendBlockRemoving (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 side
+	METHOD c onStoppedUsingItem (Luo;)V
+		ARG 1 player
+	METHOD d shouldDrawHUD ()Z
+	METHOD e func_35643_e ()Z
+	METHOD f func_35642_f ()Z
+	METHOD g getGamemode ()Z
+	METHOD h isInCreativeMode ()Z
+	METHOD i extendedReach ()Z
+	FIELD a mc Lnet/minecraft/client/Minecraft;
+	FIELD b isInTestMode Z

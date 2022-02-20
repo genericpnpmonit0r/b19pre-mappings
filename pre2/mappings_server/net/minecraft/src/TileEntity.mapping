@@ -1,0 +1,30 @@
+CLASS mx net/minecraft/src/TileEntity
+	METHOD a addMapping (Ljava/lang/Class;Ljava/lang/String;)V
+		ARG 0 tileEntityClass
+		ARG 1 id
+	METHOD a readFromNBT (Llx;)V
+		ARG 1 compoundTag
+	METHOD b reveiveEvent (II)V
+		ARG 1 id
+		ARG 2 playersUsing
+	METHOD b writeToNBT (Llx;)V
+		ARG 1 compoundTag
+	METHOD c createAndLoadEntity (Llx;)Lmx;
+		ARG 0 compoundTag
+	METHOD g updateContainingBlockInfo ()V
+	METHOD i invalidate ()V
+	METHOD i_ updateEntity ()V
+	METHOD j getBlockMetadata ()I
+	METHOD k onInventoryChanged ()V
+	METHOD l getDescriptionPacket ()Lje;
+	METHOD m isInvalid ()Z
+	METHOD n validate ()V
+	FIELD a nameToClassMap Ljava/util/Map;
+	FIELD b classToNameMap Ljava/util/Map;
+	FIELD i worldObj Lep;
+	FIELD j xCoord I
+	FIELD k yCoord I
+	FIELD l zCoord I
+	FIELD m tileEntityInvalid Z
+	FIELD n blockMetadata I
+	FIELD o blockType Lro;

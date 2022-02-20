@@ -1,0 +1,19 @@
+CLASS acp net/minecraft/src/EntityClientPlayerMP
+	FIELD cg sendQueue Lyp;
+	FIELD ch inventoryUpdateTickCounter I
+	FIELD ci updateHealth Z
+	FIELD cj oldPosX D
+	FIELD ck oldMinY D
+	FIELD cl oldPosY D
+	FIELD cm oldPosZ D
+	FIELD cn oldRotationYaw F
+	FIELD co oldRotationPitch F
+	FIELD cp prevOnGround Z
+	FIELD cq sneaking Z
+	FIELD cr wasSneaking Z
+	FIELD cs ticker I
+	METHOD aJ onUpdate2 ()V
+	METHOD aK sendInventoryChanged ()V
+	METHOD b addStat2 (Laef;I)V
+		ARG 1 statBase
+		ARG 2 id

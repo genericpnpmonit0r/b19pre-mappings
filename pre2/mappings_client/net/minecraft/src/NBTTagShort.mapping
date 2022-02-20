@@ -1,0 +1,4 @@
+CLASS mk net/minecraft/src/NBTTagShort
+	FIELD a shortValue S
+	METHOD <init> (S)V
+		ARG 1 value

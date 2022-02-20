@@ -1,0 +1,2 @@
+CLASS ff net/minecraft/src/EntitySkeleton
+	FIELD a defaultHeldItem Lia;

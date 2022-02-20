@@ -1,0 +1,45 @@
+CLASS afm net/minecraft/src/IBlockAccess
+	METHOD a getWorldChunkManager ()Loz;
+	METHOD a getBlockId (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a getBrightness (IIII)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 brightness
+	METHOD b getMaxHeight ()I
+	METHOD b getBlockTileEntity (III)Lje;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b getLightBrightnessForSkyBlocks (IIII)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 brightness
+	METHOD c getLightBrightness (III)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD e getBlockMetadata (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD f getBlockMaterial (III)Lxu;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD g isBlockOpaqueCube (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD h isBlockNormalCube (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD i isAirBlock (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

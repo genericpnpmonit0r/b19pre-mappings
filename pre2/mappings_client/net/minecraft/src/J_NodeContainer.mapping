@@ -1,0 +1,5 @@
+CLASS aaq net/minecraft/src/J_NodeContainer
+	METHOD a addField (Laak;)V
+		ARG 1 jsonFieldBuilder
+	METHOD a addNode (Lxl;)V
+		ARG 1 jsonNodeBuilder

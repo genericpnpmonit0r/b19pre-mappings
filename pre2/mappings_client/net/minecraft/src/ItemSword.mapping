@@ -1,0 +1,2 @@
+CLASS jx net/minecraft/src/ItemSword
+	FIELD a weaponDamage I

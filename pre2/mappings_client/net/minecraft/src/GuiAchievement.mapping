@@ -1,0 +1,18 @@
+CLASS no net/minecraft/src/GuiAchievement
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD a queueTakenAchievement1 ()V
+	METHOD a queueTakenAchievement (Lze;)V
+		ARG 1 achivement
+	METHOD b updateAchievementWindowScale ()V
+	METHOD b queueAchievementInformation (Lze;)V
+		ARG 1 achievement
+	FIELD a theGame Lnet/minecraft/client/Minecraft;
+	FIELD b achievementWindowWidth I
+	FIELD c achievementWindowHeight I
+	FIELD d achievementGetLocalText Ljava/lang/String;
+	FIELD e achievementStatName Ljava/lang/String;
+	FIELD f theAchievement Lze;
+	FIELD h achievementTime J
+	FIELD i itemRender Lqt;
+	FIELD j haveAchiement Z

@@ -1,0 +1,18 @@
+CLASS acj net/minecraft/src/BlockFurnace
+	FIELD a furnaceRand Ljava/util/Random;
+	FIELD b isActive Z
+	FIELD c keepFurnaceInventory Z
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 active
+	METHOD a updateFurnaceBlockState (ZLti;III)V
+		ARG 0 activeFlag
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h setDefaultDirection (Lti;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

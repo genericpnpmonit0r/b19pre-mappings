@@ -1,0 +1,12 @@
+CLASS iy net/minecraft/src/Packet17Sleep
+	FIELD a entityID I
+	FIELD b bedX I
+	FIELD c bedY I
+	FIELD d bedZ I
+	FIELD e bedRotation I
+	METHOD <init> (Lpu;IIII)V
+		ARG 1 entity
+		ARG 2 bedRot
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z

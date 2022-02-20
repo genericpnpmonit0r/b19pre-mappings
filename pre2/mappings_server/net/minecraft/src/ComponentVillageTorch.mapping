@@ -1,0 +1,8 @@
+CLASS mu net/minecraft/src/ComponentVillageTorch
+	FIELD a averageGroundHeight I
+	METHOD <init> (ILjava/util/Random;Lsz;I)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 boundingBox
+		ARG 4 coordBaseMode
+	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIII)Lsz;

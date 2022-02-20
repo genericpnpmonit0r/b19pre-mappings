@@ -1,0 +1,5 @@
+CLASS ni net/minecraft/src/J_JsonConstants
+	FIELD a NULL Lni;
+	FIELD b TRUE Lni;
+	FIELD c FALSE Lni;
+	FIELD d jsonNodeType Lqp;

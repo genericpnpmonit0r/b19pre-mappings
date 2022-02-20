@@ -1,0 +1,18 @@
+CLASS jk net/minecraft/src/PotionHelper
+	COMMENT !!! !!! !!! UNKNOWN !!! !!! !!!
+	COMMENT someone else can deal with this
+	COMMENT i don't know what these are
+	COMMENT 1.5 mappings aren't even helpful at all
+	COMMENT i suck at math
+	COMMENT class for potion calculations
+	COMMENT these aa_Aa names are for uniqueness so that the compiler can actually compile this
+	FIELD a potionRequirements Ljava/util/HashMap;
+	FIELD b potionAmplifiers Ljava/util/HashMap;
+	FIELD c potionPrefixes [Ljava/lang/String;
+	METHOD a aa_a (I)Ljava/util/List;
+	METHOD a aaaa_A (II)Z
+	METHOD a aaaa_aA (Ljava/lang/String;III)I
+	METHOD a isFlagSet2 (ZZZIIII)I
+	METHOD b bb_bbb (I)I
+	METHOD b checkFlag (II)I
+	METHOD c isFlagSet (II)I

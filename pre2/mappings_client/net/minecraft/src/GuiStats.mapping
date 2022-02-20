@@ -1,0 +1,44 @@
+CLASS cl net/minecraft/src/GuiStats
+	FIELD a parentGui Lsc;
+	FIELD b statsTitle Ljava/lang/String;
+	FIELD c renderItem Lqt;
+	FIELD d slotGeneral Llm;
+	FIELD e slotItem Lbf;
+	FIELD f slotBlock Ldt;
+	FIELD h statFileWriter Lafj;
+	FIELD i selectedSlot Lgu;
+	METHOD <init> (Lsc;Lafj;)V
+		ARG 1 screen
+		ARG 2 statfilewriter
+	METHOD a drawButtonBackground (II)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a getMinecraft (Lcl;)Lnet/minecraft/client/Minecraft;
+	METHOD a drawItemSprite (Lcl;III)V
+	METHOD a drawSprite (Lcl;IIII)V
+	METHOD a drawGradientRect (Lcl;IIIIII)V
+	METHOD b addHeaderButtons ()V
+	METHOD b getFontRenderer1 (Lcl;)Llf;
+	METHOD b drawGradientRect1 (Lcl;IIIIII)V
+	METHOD c drawItemSprite (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 layer
+	METHOD c drawSprite (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 i
+		ARG 4 j
+	METHOD c getStatsFileWriter (Lcl;)Lafj;
+	METHOD d getFontRenderer2 (Lcl;)Llf;
+	METHOD e getFontRenderer3 (Lcl;)Llf;
+	METHOD f getMinecraft1 (Lcl;)Lnet/minecraft/client/Minecraft;
+	METHOD g getMinecraft2 (Lcl;)Lnet/minecraft/client/Minecraft;
+	METHOD h getFontRenderer4 (Lcl;)Llf;
+	METHOD i getFontRenderer5 (Lcl;)Llf;
+	METHOD j getFontRenderer6 (Lcl;)Llf;
+	METHOD k getFontRenderer7 (Lcl;)Llf;
+	METHOD l getFontRenderer8 (Lcl;)Llf;
+	METHOD m getFontRenderer9 (Lcl;)Llf;
+	METHOD n getFontRenderer10 (Lcl;)Llf;
+	METHOD o getFontRenderer11 (Lcl;)Llf;

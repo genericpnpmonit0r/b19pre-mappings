@@ -1,0 +1,6 @@
+CLASS ym net/minecraft/src/J_ObjectNodeContainer
+	FIELD a objectNodeBuilder Llp;
+	FIELD b adapter Lxy;
+	METHOD <init> (Lxy;Llp;)V
+		ARG 1 jsonListenerToJdomAdapter
+		ARG 2 jsonObjectNodeBuilder

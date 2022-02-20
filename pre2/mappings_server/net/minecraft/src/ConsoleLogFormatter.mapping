@@ -1,0 +1,2 @@
+CLASS tu net/minecraft/src/ConsoleLogFormatter
+	FIELD a dateFormat Ljava/text/SimpleDateFormat;

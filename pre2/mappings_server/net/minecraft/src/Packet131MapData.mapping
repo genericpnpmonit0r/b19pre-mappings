@@ -1,0 +1,8 @@
+CLASS ad net/minecraft/src/Packet131MapData
+	FIELD a itemID S
+	FIELD b uniqueID S
+	FIELD c itemData [B
+	METHOD <init> (SS[B)V
+		ARG 1 id
+		ARG 2 uid
+		ARG 3 data

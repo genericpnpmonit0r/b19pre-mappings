@@ -1,0 +1,8 @@
+CLASS jv net/minecraft/src/Packet43Experience
+	FIELD a experienceValue I
+	FIELD b experienceTotal I
+	FIELD c experienceLevel I
+	METHOD <init> (III)V
+		ARG 1 xpValue
+		ARG 2 xpTotal
+		ARG 3 xpLevel

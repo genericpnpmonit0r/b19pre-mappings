@@ -1,0 +1,8 @@
+CLASS acq net/minecraft/src/ThreadDownloadImage
+	METHOD <init> (Lct;Ljava/lang/String;Lid;)V
+		ARG 1 threadDownloadImagedata
+		ARG 2 location
+		ARG 3 buffer
+	FIELD a location Ljava/lang/String;
+	FIELD b buffer Lid;
+	FIELD c imageData Lct;

@@ -1,0 +1,5 @@
+CLASS qc net/minecraft/src/Packet5PlayerInventory
+	FIELD a entityID I
+	FIELD b slot I
+	FIELD c itemID I
+	FIELD d itemDamage I

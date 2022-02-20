@@ -1,0 +1,36 @@
+CLASS jq net/minecraft/src/NetServerHandler
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b netManager Lnd;
+	FIELD c connectionClosed Z
+	FIELD d mcServer Lnet/minecraft/server/MinecraftServer;
+	FIELD e playerEntity Les;
+	FIELD f field_35009_f I
+	FIELD g playerInAirTime I
+	FIELD h field_22003_h Z
+	FIELD i field_35013_i I
+	FIELD j nanoTime J
+	FIELD k field_35012_k Ljava/util/Random;
+	FIELD l field_35010_l J
+	FIELD m lastPosX D
+	FIELD n lastPosY D
+	FIELD o lastPosZ D
+	FIELD p hasMoved Z
+	FIELD q inthashmap Liv;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lnd;Les;)V
+		ARG 1 minecraftServer
+		ARG 2 networkManager
+		ARG 3 playerMP
+	METHOD a handlePackets ()V
+	METHOD a teleportTo (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
+	METHOD a kickPlayer (Ljava/lang/String;)V
+		ARG 1 reason
+	METHOD b getNumChunkDataPackets ()I
+	METHOD b sendPacket (Lje;)V
+		ARG 1 packet
+	METHOD c handleSlashCommand (Ljava/lang/String;)V
+		ARG 1 cmdName

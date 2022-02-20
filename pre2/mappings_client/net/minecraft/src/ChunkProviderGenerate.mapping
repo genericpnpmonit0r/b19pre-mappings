@@ -1,0 +1,47 @@
+CLASS afx net/minecraft/src/ChunkProviderGenerate
+	FIELD a noiseGen5 Lmg;
+	FIELD b noiseGen6 Lmg;
+	FIELD c mobSpawnerNoise Lmg;
+	FIELD d strongholdGenerator Ltr;
+	FIELD e villageGenerator Lag;
+	FIELD f mineshaftGenerator Lafr;
+	FIELD g noise3 [D
+	FIELD h noise1 [D
+	FIELD i noise2 [D
+	FIELD j noise5 [D
+	FIELD k noise6 [D
+	FIELD l parabolicField [F
+	FIELD m unusedIntArray32x32 [[I
+	FIELD n rand Ljava/util/Random;
+	FIELD o noiseGen1 Lmg;
+	FIELD p noiseGen2 Lmg;
+	FIELD q noiseGen3 Lmg;
+	FIELD r noiseGen4 Lmg;
+	FIELD s worldObj Lti;
+	FIELD t mapFeaturesEnabled Z
+	FIELD u noiseArray [D
+	FIELD v stoneNoise [D
+	FIELD w caveGenerator Ltv;
+	FIELD x ravineGenerator Ltv;
+	FIELD y biomesForGeneration [Lwz;
+	METHOD <init> (Lti;JZ)V
+		ARG 1 world
+		ARG 2 seed
+		ARG 4 featuresEnabledFlag
+	METHOD a generateTerrain (II[B)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+	METHOD a replaceBlocksForBiome (II[B[Lwz;)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+		ARG 4 biomes
+	METHOD a initializeNoiseField ([DIIIIII)[D
+		ARG 1 noiseArray
+		ARG 2 offset1
+		ARG 3 offset2
+		ARG 4 offset3
+		ARG 5 x
+		ARG 6 y
+		ARG 7 z

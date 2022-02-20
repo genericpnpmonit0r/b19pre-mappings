@@ -1,0 +1,6 @@
+CLASS et net/minecraft/src/EntityVillager
+	FIELD a villagerType I
+	METHOD <init> (Lep;I)V
+		ARG 1 world
+		ARG 2 type
+	METHOD w getTexture ()V

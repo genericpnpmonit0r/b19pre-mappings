@@ -1,0 +1,4 @@
+CLASS oa net/minecraft/src/EntityPig
+	METHOD b setSaddled (Z)V
+		ARG 1 saddled
+	METHOD q getSaddled ()Z

@@ -1,0 +1,9 @@
+CLASS hc net/minecraft/src/ItemDoor
+	FIELD a doorMaterial Ljz;
+	METHOD a placeDoorBlock (Lep;IIIILro;)V
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 side
+		ARG 5 block

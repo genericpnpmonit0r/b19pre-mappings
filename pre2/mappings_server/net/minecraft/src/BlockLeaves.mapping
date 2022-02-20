@@ -1,0 +1,11 @@
+CLASS bf net/minecraft/src/BlockLeaves
+	FIELD a adjacentTreeBlocks [I
+	FIELD c baseIndexInPNG I
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
+	METHOD g removeLeaves (Lep;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

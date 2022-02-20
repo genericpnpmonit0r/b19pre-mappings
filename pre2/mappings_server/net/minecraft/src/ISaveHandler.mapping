@@ -1,0 +1,14 @@
+CLASS ub net/minecraft/src/ISaveHandler
+	METHOD a saveWorldInfo (Ldx;)V
+		ARG 1 info
+	METHOD a saveWorldInfoAndPlayer (Ldx;Ljava/util/List;)V
+		ARG 1 info
+		ARG 2 playerdataList
+	METHOD a getChunkLoader (Lui;)Laz;
+		ARG 1 provider
+	METHOD b checkSessionLock ()V
+	METHOD b getMapFile (Ljava/lang/String;)Ljava/io/File;
+		ARG 1 name
+	METHOD c loadWorldInfo ()Ldx;
+	METHOD d getPlayerNBTManager ()Lhj;
+	METHOD e flush ()V

@@ -1,0 +1,3 @@
+CLASS xh net/minecraft/src/MapGenNetherBridge
+	FIELD a spawnList Ljava/util/List;
+	METHOD a getSpawnList ()Ljava/util/List;

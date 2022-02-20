@@ -1,0 +1,3 @@
+CLASS rt net/minecraft/src/ItemBlock
+	FIELD a blockID I
+	METHOD b getBlockID ()I

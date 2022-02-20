@@ -1,0 +1,49 @@
+CLASS vz net/minecraft/src/InventoryPlayer
+	FIELD a mainInventory [Lwc;
+	FIELD b armorInventory [Lwc;
+	FIELD c currentItem I
+	FIELD d player Luo;
+	FIELD e inventoryChanged Z
+	FIELD f itemStack Lwc;
+	METHOD <init> (Luo;)V
+		ARG 1 player
+	METHOD a setCurrentItem (IZ)V
+		ARG 1 itemId
+		ARG 2 b
+	METHOD a getDamageVsEntity (Llh;)I
+		ARG 1 entity
+	METHOD a writeToNBT (Lli;)Lli;
+		ARG 1 listTag
+	METHOD a getStrVsBlock (Lmq;)F
+		ARG 1 block
+	METHOD a addItemStackToInventory (Lwc;)Z
+		ARG 1 itemStack
+	METHOD b getCurrentItem ()Lwc;
+	METHOD b changeCurrentItem (I)V
+		ARG 1 index
+	METHOD b readFromNBT (Lli;)V
+		ARG 1 listTag
+	METHOD b canHarvestBlock (Lmq;)Z
+		ARG 1 block
+	METHOD b setItemStack (Lwc;)V
+		ARG 1 itemStack
+	METHOD c consumeInventoryItem (I)Z
+		ARG 1 item
+	METHOD c getHasItemStack (Lwc;)Z
+		ARG 1 ItemStack
+	METHOD d hasItem (I)Z
+		ARG 1 item
+	METHOD d storeItemStack (Lwc;)I
+		ARG 1 itemStack
+	METHOD e armorItemInSlot (I)Lwc;
+		ARG 1 index
+	METHOD e storePartialItemStack (Lwc;)I
+	METHOD f damageArmor (I)V
+		ARG 1 amount
+	METHOD g decrementAnimations ()V
+	METHOD g getInventorySlotContainItem (I)I
+		ARG 1 id
+	METHOD h getTotalArmorValue ()I
+	METHOD i dropAllItems ()V
+	METHOD j getItemStack ()Lwc;
+	METHOD l getFirstEmptyStack ()I

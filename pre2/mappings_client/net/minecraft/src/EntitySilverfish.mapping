@@ -1,0 +1,2 @@
+CLASS nx net/minecraft/src/EntitySilverfish
+	FIELD a allySummonCooldown I

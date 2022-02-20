@@ -1,0 +1,3 @@
+CLASS wx net/minecraft/src/Packet104WindowItems
+	FIELD a windowId I
+	FIELD b itemStack [Lwc;

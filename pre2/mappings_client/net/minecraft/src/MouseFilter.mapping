@@ -1,0 +1,7 @@
+CLASS bq net/minecraft/src/MouseFilter
+	METHOD a smooth (FF)F
+		ARG 1 x
+		ARG 2 y
+	FIELD a mouseFilterFloat1 F
+	FIELD b mouseFilterFloat2 F
+	FIELD c mouseFilterFloat3 F

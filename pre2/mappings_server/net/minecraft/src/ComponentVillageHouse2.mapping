@@ -1,0 +1,8 @@
+CLASS cv net/minecraft/src/ComponentVillageHouse2
+	FIELD a averageGroundLevel I
+	METHOD <init> (ILjava/util/Random;Lsz;I)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 boundingBox
+		ARG 4 coordBaseMode
+	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lcv;

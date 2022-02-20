@@ -1,0 +1,11 @@
+CLASS ku net/minecraft/src/InventoryCrafting
+	FIELD a stackList [Lia;
+	FIELD b inventoryWidth I
+	FIELD c eventHandler Ldm;
+	METHOD <init> (Ldm;II)V
+		ARG 1 container
+		ARG 2 width
+		ARG 3 height
+	METHOD b getStackInRowAndColumn (II)Lia;
+		ARG 1 row
+		ARG 2 col

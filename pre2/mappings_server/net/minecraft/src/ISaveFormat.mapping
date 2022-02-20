@@ -1,0 +1,6 @@
+CLASS lq net/minecraft/src/ISaveFormat
+	METHOD a isOldSaveType (Ljava/lang/String;)Z
+		ARG 1 name
+	METHOD a convertMapFormat (Ljava/lang/String;Lve;)Z
+		ARG 1 name
+		ARG 2 progress

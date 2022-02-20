@@ -1,0 +1,15 @@
+CLASS adp net/minecraft/src/EntitySlime
+	FIELD a size1 F
+	FIELD b size2 F
+	FIELD c size3 F
+	FIELD d slimeJumpDelay I
+	METHOD V getSlimeParticle ()Ljava/lang/String;
+	METHOD X newSlime ()Ladp;
+	METHOD Y getJumpDelay ()I
+	METHOD Z setSizeSmallM ()V
+	METHOD aa getSlimeSizeGreaterThan1 ()Z
+	METHOD ab getSlimeSize_do ()I
+	METHOD ac getSlimeSound ()Ljava/lang/String;
+	METHOD af getArmor ()I
+	METHOD b setSlimeSize (I)V
+		ARG 1 size

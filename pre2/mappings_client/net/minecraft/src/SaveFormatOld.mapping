@@ -1,0 +1,6 @@
+CLASS acu net/minecraft/src/SaveFormatOld
+	FIELD a savesDirectory Ljava/io/File;
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 file
+	METHOD a deleteOldFiles ([Ljava/io/File;)V
+		ARG 0 files

@@ -1,0 +1,8 @@
+CLASS ug net/minecraft/src/EntityChicken
+	FIELD a field_392_a Z
+	FIELD b field_391_b F
+	FIELD c destPos F
+	FIELD g field_394_ae F
+	FIELD h field_393_af F
+	FIELD i field_390_ai F
+	FIELD j timeUntilNextEgg I

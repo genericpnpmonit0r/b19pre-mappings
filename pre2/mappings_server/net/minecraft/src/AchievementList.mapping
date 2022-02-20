@@ -1,0 +1,24 @@
+CLASS ec net/minecraft/src/AchievementList
+	METHOD a init ()V
+	FIELD a minDisplayColumn I
+	FIELD b minDisplayRow I
+	FIELD c maxDisplayColumn I
+	FIELD d maxDisplayRow I
+	FIELD e achievementList Ljava/util/List;
+	FIELD f openInventory Lma;
+	FIELD g mineWood Lma;
+	FIELD h buildWorkBench Lma;
+	FIELD i buildPickaxe Lma;
+	FIELD j buildFurnace Lma;
+	FIELD k acquireIron Lma;
+	FIELD l buildHoe Lma;
+	FIELD m makeBread Lma;
+	FIELD n bakeCake Lma;
+	FIELD o buildBetterPickaxe Lma;
+	FIELD p cookFish Lma;
+	FIELD q onARail Lma;
+	FIELD r buildSword Lma;
+	FIELD s killEnemy Lma;
+	FIELD t killCow Lma;
+	FIELD u flyPig Lma;
+	FIELD v snipeSkeleton Lma;

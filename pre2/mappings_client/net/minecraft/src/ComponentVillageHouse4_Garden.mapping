@@ -1,0 +1,9 @@
+CLASS ea net/minecraft/src/ComponentVillageHouse4_Garden
+	FIELD a averageGroundLevel I
+	FIELD b randPicker Z
+	METHOD <init> (ILjava/util/Random;Lns;I)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 boundingBox
+		ARG 4 coordBaseMode
+	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lea;

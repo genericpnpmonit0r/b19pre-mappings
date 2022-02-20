@@ -1,0 +1,2 @@
+CLASS dt net/minecraft/src/GuiSlotStatsBlock
+	FIELD a field_27274_a Lcl;

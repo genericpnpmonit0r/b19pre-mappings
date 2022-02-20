@@ -1,0 +1,4 @@
+CLASS ax net/minecraft/src/TileEntityDispenser
+	FIELD a dispenserContents [Lia;
+	FIELD b dispenserRandom Ljava/util/Random;
+	METHOD b getRandomStackFromInventory ()Lia;

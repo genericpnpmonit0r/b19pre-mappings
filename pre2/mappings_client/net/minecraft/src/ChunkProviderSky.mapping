@@ -1,0 +1,44 @@
+CLASS fo net/minecraft/src/ChunkProviderSky
+	FIELD a noiseGen6 Lmg;
+	FIELD b noiseGen7 Lmg;
+	FIELD c noiseGen8 Lmg;
+	FIELD d noiseData1 [D
+	FIELD e noiseData2 [D
+	FIELD f noiseData3 [D
+	FIELD g noiseData4 [D
+	FIELD h noiseData5 [D
+	FIELD i unusedIntArray32x32 [[I
+	FIELD j rand Ljava/util/Random;
+	FIELD k noiseGen1 Lmg;
+	FIELD l noiseGen2 Lmg;
+	FIELD m noiseGen3 Lmg;
+	FIELD n noiseGen4 Lmg;
+	FIELD o noiseGen5 Lmg;
+	FIELD p worldObj Lti;
+	FIELD q noiseData1p [D
+	FIELD r sandNoise [D
+	FIELD s gravelNoise [D
+	FIELD t stoneNoise [D
+	FIELD u caveGenerator Ltv;
+	FIELD v biomesForGeneration [Lwz;
+	METHOD <init> (Lti;J)V
+		ARG 1 world
+		ARG 2 seed
+	METHOD a generateTerrain (II[B[Lwz;)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+		ARG 4 biomes
+	METHOD a initializeNoiseField ([DIIIIII)[D
+		ARG 1 noiseArray
+		ARG 2 offset1
+		ARG 3 offset2
+		ARG 4 offset3
+		ARG 5 x
+		ARG 6 y
+		ARG 7 z
+	METHOD b replaceBlocksForBiome (II[B[Lwz;)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+		ARG 4 biomes

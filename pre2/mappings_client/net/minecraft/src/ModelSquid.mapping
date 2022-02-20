@@ -1,0 +1,3 @@
+CLASS og net/minecraft/src/ModelSquid
+	FIELD a squidBody Lnz;
+	FIELD b squidTentacles [Lnz;

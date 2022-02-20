@@ -1,0 +1,6 @@
+CLASS rs net/minecraft/src/Packet40EntityMetadata
+	FIELD a entityId I
+	FIELD b metadata Ljava/util/List;
+	METHOD <init> (ILrb;)V
+		ARG 1 id
+		ARG 2 dataWatcher

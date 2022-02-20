@@ -1,0 +1,17 @@
+CLASS sv net/minecraft/src/GenLayer
+	METHOD <init> (J)V
+		ARG 1 seed
+	METHOD a nextInt (I)I
+		ARG 1 x
+	METHOD a getInts (IIII)[I
+	METHOD a initializeAllBiomeGenerators (J)[Lsv;
+		ARG 0 seed
+	METHOD a initChunkSeed (JJ)V
+		ARG 1 x
+		ARG 3 z
+	METHOD b initWorldGenSeed (J)V
+		ARG 1 seed
+	FIELD a parent Lsv;
+	FIELD b worldGenSeed J
+	FIELD c chunkSeed J
+	FIELD d baseSeed J

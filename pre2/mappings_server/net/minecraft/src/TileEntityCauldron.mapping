@@ -1,0 +1,3 @@
+CLASS kp net/minecraft/src/TileEntityCauldron
+	FIELD a liquidLevel I
+	FIELD b liquidData I

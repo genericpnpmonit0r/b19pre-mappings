@@ -1,0 +1,8 @@
+CLASS tf net/minecraft/src/Packet71Weather
+	FIELD a entityID I
+	FIELD b posX I
+	FIELD c posY I
+	FIELD d posZ I
+	FIELD e isLightningBolt I
+	METHOD <init> (Llh;)V
+		ARG 1 entity

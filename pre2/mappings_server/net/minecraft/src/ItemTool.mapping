@@ -1,0 +1,10 @@
+CLASS dh net/minecraft/src/ItemTool
+	FIELD a toolMaterial Lbp;
+	FIELD bM blocksEffectiveAgainst [Lro;
+	FIELD bN efficiencyOnProperMaterial F
+	FIELD bO damageVsEntity I
+	METHOD <init> (IILbp;[Lro;)V
+		ARG 1 id
+		ARG 2 dmgVsEntity
+		ARG 3 toolMaterial
+		ARG 4 blocksEffectiveAgainstArr

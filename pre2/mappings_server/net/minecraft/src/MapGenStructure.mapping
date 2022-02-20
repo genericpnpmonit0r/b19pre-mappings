@@ -1,0 +1,9 @@
+CLASS ov net/minecraft/src/MapGenStructure
+	FIELD e field_35534_e Ljava/util/HashMap;
+	METHOD a canSpawnStructureAtCoords (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD a func_35532_a (Lep;Ljava/util/Random;II)Z
+	METHOD b getStructureStart (II)Lru;
+		ARG 1 x
+		ARG 2 z

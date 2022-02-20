@@ -1,0 +1,37 @@
+CLASS wu net/minecraft/src/IntHashMap
+	METHOD a clearMap ()V
+	METHOD a lookup (I)Ljava/lang/Object;
+		ARG 1 key
+	METHOD a getSlotIndex (II)I
+		ARG 0 key
+		ARG 1 value
+	METHOD a insert (IILjava/lang/Object;I)V
+		ARG 1 hash
+		ARG 2 key
+		ARG 3 value
+		ARG 4 entry
+	METHOD a addKey (ILjava/lang/Object;)V
+		ARG 1 key
+		ARG 2 value
+	METHOD a copyTo ([Lof;)V
+		ARG 1 target
+	METHOD b getKeySet ()Ljava/util/Set;
+	METHOD b containsKey (I)Z
+		ARG 1 key
+	METHOD c lookupEntry (I)Lof;
+		ARG 1 key
+	METHOD d removeObject (I)Ljava/lang/Object;
+		ARG 1 key
+	METHOD e removeEntry (I)Lof;
+		ARG 1 key
+	METHOD f getHash (I)I
+	METHOD g computeHash (I)I
+		ARG 0 hash
+	METHOD h grow (I)V
+		ARG 1 size
+	FIELD a slots [Lof;
+	FIELD b count I
+	FIELD c threshold I
+	FIELD d growFactor F
+	FIELD e versionStamp I
+	FIELD f keySet Ljava/util/Set;

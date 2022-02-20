@@ -1,0 +1,260 @@
+CLASS lh net/minecraft/src/Entity
+	FIELD A isCollidedHorizontally Z
+	FIELD B isCollidedVertically Z
+	FIELD C isCollided Z
+	FIELD D beenAttacked Z
+	FIELD E isInWeb Z
+	FIELD F field_9293_aM Z
+	FIELD G isDead Z
+	FIELD H yOffset F
+	FIELD I width F
+	FIELD J height F
+	FIELD K prevDistanceWalkedModified F
+	FIELD L distanceWalkedModified F
+	FIELD M fallDistance F
+	FIELD N lastTickPosX D
+	FIELD O lastTickPosY D
+	FIELD P lastTickPosZ D
+	FIELD Q ySize F
+	FIELD R stepHeight F
+	FIELD S noClip Z
+	FIELD T entityCollisionReduction F
+	FIELD U rand Ljava/util/Random;
+	FIELD V ticksExisted I
+	FIELD W fireResistance I
+	FIELD X prevAir I
+	FIELD Y inWater Z
+	FIELD Z heartsLife I
+	FIELD a nextEntityID I
+	FIELD aa air I
+	FIELD ab skinUrl Ljava/lang/String;
+	FIELD ac cloakUrl Ljava/lang/String;
+	FIELD ad isImmuneToFire Z
+	FIELD ae dataWatcher Ladf;
+	FIELD af addedToChunk Z
+	FIELD ag chunkCoordX I
+	FIELD ah chunkCoordY I
+	FIELD ai chunkCoordZ I
+	FIELD aj serverPosX I
+	FIELD ak serverPosY I
+	FIELD al serverPosZ I
+	FIELD am ignoreFrustumCheck Z
+	FIELD an isAirBorne Z
+	FIELD ao entityRiderYawDelta D
+	FIELD b nextStepDistance I
+	FIELD c fire I
+	FIELD d firstUpdate Z
+	FIELD e entityRiderPitchDelta D
+	FIELD f entityId I
+	FIELD g renderDistanceWeight D
+	FIELD h preventEntitySpawning Z
+	FIELD i riddenByEntity Llh;
+	FIELD j ridingEntity Llh;
+	FIELD k worldObj Lti;
+	FIELD l prevPosX D
+	FIELD m prevPosY D
+	FIELD n prevPosZ D
+	FIELD o posX D
+	FIELD p posY D
+	FIELD q posZ D
+	FIELD r motionX D
+	FIELD s motionY D
+	FIELD t motionZ D
+	FIELD u rotationYaw F
+	FIELD v rotationPitch F
+	FIELD w prevRotationYaw F
+	FIELD x prevRotationPitch F
+	FIELD y boundingBox Ltb;
+	FIELD z onGround Z
+	METHOD <init> (Lti;)V
+		ARG 1 world
+	METHOD A isWet ()Z
+	METHOD B isInWater ()Z
+	METHOD C getEyeHeight ()F
+	METHOD D handleLavaMovement ()Z
+	METHOD E setBeenAttacked ()V
+	METHOD F getEntityTexture ()Ljava/lang/String;
+	METHOD G getEntityString ()Ljava/lang/String;
+	METHOD H isEntityAlive ()Z
+	METHOD I isEntityInsideOpaqueBlock ()Z
+	METHOD J updateRidden ()V
+	METHOD K getYOffset ()D
+	METHOD L getLookVec ()Lba;
+	METHOD M setInPortal ()V
+	METHOD N updateCloak ()V
+	METHOD O isBurning ()Z
+	METHOD P isRiding ()Z
+	METHOD Q isSneaking ()Z
+	METHOD R isSprinting ()Z
+	METHOD S isEating ()Z
+	METHOD a handleHealthUpdate (B)V
+		ARG 1 healthByte
+	METHOD a isInRangeToRenderDist (D)Z
+		ARG 1 renderDistance
+	METHOD a setVelocity (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a setPositionAndRotation2 (DDDFFI)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
+		ARG 9 rotation2
+	METHOD a updateFallState (DZ)V
+		ARG 1 fallDistance
+		ARG 3 falling
+	METHOD a fall (F)V
+		ARG 1 fallDistance
+	METHOD a setSize (FF)V
+		ARG 1 width
+		ARG 2 height
+	METHOD a moveFlying (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a dealFireDamage (I)V
+		ARG 1 damageAmount
+	METHOD a dropItemWithOffset (IIF)Leq;
+		ARG 1 id
+		ARG 2 count
+		ARG 3 y
+	METHOD a setFlag (IZ)V
+		ARG 1 id
+		ARG 2 flag
+	METHOD a isInRangeToRenderVec3D (Lba;)Z
+		ARG 1 vector
+	METHOD a onStruckByLightning (Lc;)V
+		ARG 1 lightning
+	METHOD a attackEntityFrom (Lkc;I)Z
+		ARG 1 damageSrc
+		ARG 2 damageAmount
+	METHOD a getCollisionBox (Llh;)Ltb;
+		ARG 1 entity
+	METHOD a addToPlayerScore (Llh;I)V
+		ARG 1 entity
+		ARG 2 score
+	METHOD a setWorld (Lti;)V
+		ARG 1 world
+	METHOD a entityDropItem (Lwc;F)Leq;
+		ARG 1 itemStack
+		ARG 2 y
+	METHOD a isInsideOfMaterial (Lxu;)Z
+		ARG 1 material
+	METHOD a onKillEntity (Lxx;)V
+		ARG 1 living
+	METHOD a readEntityFromNBT (Lza;)V
+		ARG 1 compoundTag
+	METHOD a newDoubleNBTList ([D)Lli;
+		ARG 1 data
+	METHOD a newFloatNBTList ([F)Lli;
+		ARG 1 data
+	METHOD a_ onCollideWithPlayer (Luo;)V
+		ARG 1 player
+	METHOD b entityInit ()V
+	METHOD b moveEntity (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD b setPositionAndRotation (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
+	METHOD b getEntityBrightness (F)F
+		ARG 1 brightness
+	METHOD b setRotation (FF)V
+		ARG 1 rotYaw
+		ARG 2 rotPitch
+	METHOD b dropItem (II)Leq;
+		ARG 1 id
+		ARG 2 count
+	METHOD b outfitWithItem (III)V
+		ARG 1 id
+		ARG 2 count
+		ARG 3 meta
+	METHOD b interact (Luo;)Z
+		ARG 1 player
+	METHOD b writeEntityToNBT (Lza;)V
+		ARG 1 compoundTag
+	METHOD c addVelocity (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD c setLocationAndAngles (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
+	METHOD c getEntityBrightnessForRender (F)I
+		ARG 1 brightness
+	METHOD c setAngles (FF)V
+		ARG 1 yaw
+		ARG 2 pitch
+	METHOD c addEntityID (Lza;)Z
+		ARG 1 compoundTag
+	METHOD c setSprinting (Z)V
+		ARG 1 sprintingFlag
+	METHOD c_ canBeCollidedWith ()Z
+	METHOD d setPosition (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD d applyFireDamage (I)V
+		ARG 1 amount
+	METHOD d getDistanceToEntity (Llh;)F
+		ARG 1 entity
+	METHOD d writeToNBT (Lza;)V
+		ARG 1 compoundTag
+	METHOD d setEating (Z)V
+		ARG 1 eatingFlag
+	METHOD d_ canBePushed ()Z
+	METHOD e isOffsetPositionInLiquid (DDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD e getEntityFlag (I)Z
+		ARG 1 id
+	METHOD e getDistanceSqToEntity (Llh;)D
+		ARG 1 entity
+	METHOD e readFromNBT (Lza;)V
+		ARG 1 compoundTag
+	METHOD e_ canTriggerWalking ()Z
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 obj
+	METHOD f getDistanceSq (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD f applyEntityCollision (Llh;)V
+		ARG 1 entity
+	METHOD f_ handleWaterMovement ()Z
+	METHOD g getDistance (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD g mountEntity (Llh;)V
+		ARG 1 entity
+	METHOD g_ getShadowSize ()F
+	METHOD h getBoundingBox ()Ltb;
+	METHOD h pushOutOfBlocks (DDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD h_ updateRiderPosition ()V
+	METHOD i_ getCollisionBorderSize ()F
+	METHOD j performHurtAnimation ()V
+	METHOD m getMountedYOffset ()D
+	METHOD o setInWeb ()V
+	METHOD s getDataWatcher ()Ladf;
+	METHOD t preparePlayerToSpawn ()V
+	METHOD u setEntityDead ()V
+	METHOD v onEntityUpdate ()V
+	METHOD w setInLavaOrFire ()V
+	METHOD x getFire ()V
+	METHOD x_ onUpdate ()V
+	METHOD y kill ()V
+	METHOD z getIsImmuneToFire ()Z

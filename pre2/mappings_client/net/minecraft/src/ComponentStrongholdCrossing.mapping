@@ -1,0 +1,12 @@
+CLASS aec net/minecraft/src/ComponentStrongholdCrossing
+	FIELD a randomDoor Lke;
+	FIELD b randNextBool1 Z
+	FIELD c randNextBool2 Z
+	FIELD d randNextBool3 Z
+	FIELD e randNextBool4 Z
+	METHOD <init> (ILjava/util/Random;Lns;I)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 boundingBox
+		ARG 4 coordBaseMode
+	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIIII)Laec;

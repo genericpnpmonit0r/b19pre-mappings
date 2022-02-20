@@ -1,0 +1,7 @@
+CLASS sr net/minecraft/src/BlockMushroomCap
+	FIELD a mushroomType I
+	METHOD <init> (ILjz;II)V
+		ARG 1 id
+		ARG 2 material
+		ARG 3 texIndex
+		ARG 4 mushroomType

@@ -1,0 +1,14 @@
+CLASS iv net/minecraft/src/BlockButton
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
+	METHOD h getOrientation (Lti;III)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i canSetButtonBlock (Lti;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

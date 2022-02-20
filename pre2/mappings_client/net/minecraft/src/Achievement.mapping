@@ -1,0 +1,34 @@
+CLASS ze net/minecraft/src/Achievement
+	FIELD a displayColumn I
+	FIELD b displayRow I
+	FIELD c parentAchievement Lze;
+	FIELD d theItemStack Lwc;
+	FIELD l achievementDescription Ljava/lang/String;
+	FIELD m statStringFormatter Lun;
+	FIELD n isSpecial Z
+	METHOD <init> (ILjava/lang/String;IILmq;Lze;)V
+		ARG 1 id
+		ARG 2 name
+		ARG 3 col
+		ARG 4 row
+		ARG 5 block
+		ARG 6 achievement
+	METHOD <init> (ILjava/lang/String;IILuk;Lze;)V
+		ARG 1 id
+		ARG 2 name
+		ARG 3 col
+		ARG 4 row
+		ARG 5 item
+		ARG 6 achivement
+	METHOD <init> (ILjava/lang/String;IILwc;Lze;)V
+		ARG 1 id
+		ARG 2 name
+		ARG 3 col
+		ARG 4 row
+		ARG 5 itemStack
+		ARG 6 achievement
+	METHOD a setStatStringFormatter (Lun;)Lze;
+		ARG 1 statStringFormat
+	METHOD c setSpecial ()Lze;
+	METHOD f getDescription ()Ljava/lang/String;
+	METHOD g getSpecial ()Z

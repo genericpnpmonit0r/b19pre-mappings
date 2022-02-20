@@ -1,0 +1,4 @@
+CLASS fz net/minecraft/src/GenLayerMushroomIsland
+	METHOD <init> (JLsv;)V
+		ARG 1 seed
+		ARG 3 layer

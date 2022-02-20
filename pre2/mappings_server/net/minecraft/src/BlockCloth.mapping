@@ -1,0 +1,5 @@
+CLASS dt net/minecraft/src/BlockCloth
+	METHOD c getBlockFromDye (I)I
+		ARG 0 meta
+	METHOD d getDyeFromBlock (I)I
+		ARG 0 meta

@@ -1,0 +1,6 @@
+CLASS qa net/minecraft/src/Packet31RelEntityMove
+	METHOD <init> (IBBB)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

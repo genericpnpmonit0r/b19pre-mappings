@@ -1,0 +1,31 @@
+CLASS af net/minecraft/src/PlayerInstance
+	METHOD <init> (Lud;II)V
+		ARG 1 playerManager
+		ARG 2 x
+		ARG 3 z
+	METHOD a onUpdate ()V
+	METHOD a markBlockNeedsUpdate (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a addPlayer (Les;)V
+		ARG 1 playerMP
+	METHOD a sendPacketToPlayersInInstance (Lje;)V
+		ARG 1 packet
+	METHOD a updateTileEntity (Lmx;)V
+		ARG 1 tileEntity
+	METHOD b removePlayer (Les;)V
+		ARG 1 playerMP
+	FIELD a playerManager Lud;
+	FIELD b players Ljava/util/List;
+	FIELD c chunkX I
+	FIELD d chunkZ I
+	FIELD e currentChunk Lvz;
+	FIELD f blocksToUpdate [S
+	FIELD g numBlocksToUpdate I
+	FIELD h minX I
+	FIELD i maxX I
+	FIELD j minY I
+	FIELD k maxY I
+	FIELD l minZ I
+	FIELD m maxZ I

@@ -1,0 +1,12 @@
+CLASS rg net/minecraft/src/BlockPressurePlate
+	FIELD a triggerMobType Labt;
+	METHOD <init> (IILabt;Lxu;)V
+		ARG 1 id
+		ARG 2 texIndex
+		ARG 3 mobType
+		ARG 4 material
+	METHOD h setStateIfMobInteractsWithPlate (Lti;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

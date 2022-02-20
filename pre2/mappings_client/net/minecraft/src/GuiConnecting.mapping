@@ -1,0 +1,10 @@
+CLASS aeh net/minecraft/src/GuiConnecting
+	FIELD a clientHandler Lyp;
+	FIELD b cancelled Z
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 1 minecraft
+		ARG 2 hostname
+		ARG 3 port
+	METHOD a isCancelled (Laeh;)Z
+	METHOD a setNetClientHandler (Laeh;Lyp;)Lyp;
+	METHOD b getNetClientHandler (Laeh;)Lyp;

@@ -1,0 +1,15 @@
+CLASS rq net/minecraft/src/EntitySlime
+	FIELD a size1 F
+	FIELD b size2 F
+	FIELD c size3 F
+	FIELD d slimeJumpDelay I
+	METHOD A getSlimeSizeGreaterThan1 ()Z
+	METHOD B getSlimeSize_do ()I
+	METHOD C getSlimeSound ()Ljava/lang/String;
+	METHOD F getArmor ()I
+	METHOD b setSlimeSize (I)V
+		ARG 1 size
+	METHOD u getSlimeParticle ()Ljava/lang/String;
+	METHOD w newSlime ()Lrq;
+	METHOD y getJumpDelay ()I
+	METHOD z setSizeSmallM ()V

@@ -1,0 +1,23 @@
+CLASS xr net/minecraft/src/TileEntityRenderer
+	METHOD a getFontRenderer ()Llf;
+	METHOD a getSpecialRendererForClass (Ljava/lang/Class;)Lwf;
+	METHOD a hasSpecialRenderer (Lje;)Z
+	METHOD a renderTileEntityAt (Lje;DDDF)V
+	METHOD a renderTileEntity (Lje;F)V
+	METHOD a func_31072_a (Lti;)V
+	METHOD a cacheActiveRenderInfo (Lti;Lwj;Llf;Lxx;F)V
+	METHOD b getSpecialRendererForEntity (Lje;)Lwf;
+	FIELD a instance Lxr;
+	FIELD b staticPlayerX D
+	FIELD c staticPlayerY D
+	FIELD d staticPlayerZ D
+	FIELD e renderEngine Lwj;
+	FIELD f worldObj Lti;
+	FIELD g entityLivingPlayer Lxx;
+	FIELD h playerYaw F
+	FIELD i playerPitch F
+	FIELD j playerX D
+	FIELD k playerY D
+	FIELD l playerZ D
+	FIELD m specialRendererMap Ljava/util/Map;
+	FIELD n fontRenderer Llf;

@@ -1,0 +1,3 @@
+CLASS kb net/minecraft/src/EntityDiggingFX
+	FIELD a blockInstance Lmq;
+	METHOD a func_4041_a (III)Lkb;

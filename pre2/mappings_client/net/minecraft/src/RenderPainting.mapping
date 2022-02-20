@@ -1,0 +1,7 @@
+CLASS co net/minecraft/src/RenderPainting
+	FIELD a rand Ljava/util/Random;
+	METHOD a setPaintingRenderDirection (Lkj;FF)V
+		ARG 1 painting
+		ARG 2 x
+		ARG 3 y
+	METHOD a doRenderPainting (Lkj;IIII)V

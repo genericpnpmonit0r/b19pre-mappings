@@ -1,0 +1,5 @@
+CLASS aem net/minecraft/src/ItemSpade
+	FIELD b blocksEffectiveAgainst [Lmq;
+	METHOD <init> (ILrf;)V
+		ARG 1 id
+		ARG 2 toolMaterial

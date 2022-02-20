@@ -1,0 +1,12 @@
+CLASS ik net/minecraft/src/Packet24MobSpawn
+	FIELD a entityId I
+	FIELD b type B
+	FIELD c xPosition I
+	FIELD d yPosition I
+	FIELD e zPosition I
+	FIELD f yaw B
+	FIELD g pitch B
+	FIELD h metaData Lrb;
+	FIELD i receivedMetadata Ljava/util/List;
+	METHOD <init> (Lkc;)V
+		ARG 1 living

@@ -1,0 +1,14 @@
+CLASS e net/minecraft/src/BlockChest
+	FIELD a random Ljava/util/Random;
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD b unifyAdjacentChests (Lep;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD g isThereANeighborChest (Lep;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

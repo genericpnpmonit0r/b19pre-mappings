@@ -1,0 +1,4 @@
+CLASS ez net/minecraft/src/GuiContainer
+	METHOD a drawGuiContainerBackgroundLayer (F)V
+	METHOD a windowClickSlot (Lum;IIZ)V
+	METHOD c drawGuiContainerForegroundLayer ()V

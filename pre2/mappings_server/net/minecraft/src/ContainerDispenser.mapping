@@ -1,0 +1,5 @@
+CLASS po net/minecraft/src/ContainerDispenser
+	FIELD a tileEntityDispenser Lax;
+	METHOD <init> (Lkg;Lax;)V
+		ARG 1 inventory
+		ARG 2 dispenser

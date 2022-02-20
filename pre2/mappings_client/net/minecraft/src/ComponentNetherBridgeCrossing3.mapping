@@ -1,0 +1,11 @@
+CLASS ka net/minecraft/src/ComponentNetherBridgeCrossing3
+	METHOD <init> (ILjava/util/Random;Lns;I)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 boundingBox
+		ARG 4 coordBaseMode
+	METHOD <init> (Ljava/util/Random;II)V
+		ARG 1 rand
+		ARG 2 x
+		ARG 3 z
+	METHOD a createValidComponent (Ljava/util/List;Ljava/util/Random;IIIII)Lka;

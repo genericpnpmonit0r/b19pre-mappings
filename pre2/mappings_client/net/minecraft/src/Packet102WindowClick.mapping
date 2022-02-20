@@ -1,0 +1,14 @@
+CLASS abe net/minecraft/src/Packet102WindowClick
+	FIELD a window_Id I
+	FIELD b inventorySlot I
+	FIELD c mouseClick I
+	FIELD d action S
+	FIELD e itemStack Lwc;
+	FIELD f holdingShift Z
+	METHOD <init> (IIIZLwc;S)V
+		ARG 1 wid
+		ARG 2 slot
+		ARG 3 click
+		ARG 4 shiftFlag
+		ARG 5 itemStack
+		ARG 6 act

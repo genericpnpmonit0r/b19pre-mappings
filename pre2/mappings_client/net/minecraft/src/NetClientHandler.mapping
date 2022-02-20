@@ -1,0 +1,24 @@
+CLASS yp net/minecraft/src/NetClientHandler
+	FIELD a field_1209_a Ljava/lang/String;
+	FIELD b mapStorage Lus;
+	FIELD c savingLevelStringList Ljava/util/List;
+	FIELD d field_35785_d I
+	FIELD e rand Ljava/util/Random;
+	FIELD f disconnected Z
+	FIELD g netManager Ljl;
+	FIELD h mc Lnet/minecraft/client/Minecraft;
+	FIELD i worldClient Lhp;
+	FIELD j field_1210_g Z
+	FIELD k playerInfoMap Ljava/util/Map;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 1 minecraft
+		ARG 2 socketInetAddr
+		ARG 3 port
+	METHOD a getEntityByID (I)Llh;
+		ARG 1 id
+	METHOD b processReadPackets ()V
+	METHOD b addToSendQueue2 (Lxe;)V
+		ARG 1 packet
+	METHOD c disconnect ()V
+	METHOD c addToSendQueue (Lxe;)V
+		ARG 1 packet

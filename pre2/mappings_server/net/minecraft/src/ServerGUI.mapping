@@ -1,0 +1,11 @@
+CLASS rz net/minecraft/src/ServerGUI
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b mcServer Lnet/minecraft/server/MinecraftServer;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 minecraftServer
+	METHOD a getStatsComponent ()Ljavax/swing/JComponent;
+	METHOD a initGui (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 0 minecraftServer
+	METHOD a getMinecraftServer (Lrz;)Lnet/minecraft/server/MinecraftServer;
+	METHOD b getPlayerListComponent ()Ljavax/swing/JComponent;
+	METHOD c getLogComponent ()Ljavax/swing/JComponent;

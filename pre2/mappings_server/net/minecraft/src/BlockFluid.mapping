@@ -1,0 +1,28 @@
+CLASS ox net/minecraft/src/BlockFluid
+	METHOD b getEffectiveFlowDecay (Lut;III)I
+		ARG 1 blockAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD c getFluidHeightPercent (I)F
+		ARG 0 height
+	METHOD c getFlowVector (Lut;III)Lbo;
+		ARG 1 blockAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD g getFlowDecay (Lep;III)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h triggerLavaMixEffects (Lep;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i checkForHarden (Lep;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

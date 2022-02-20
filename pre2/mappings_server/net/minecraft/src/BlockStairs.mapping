@@ -1,0 +1,5 @@
+CLASS pz net/minecraft/src/BlockStairs
+	FIELD a modelBlock Lro;
+	METHOD <init> (ILro;)V
+		ARG 1 id
+		ARG 2 block

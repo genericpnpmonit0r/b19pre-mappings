@@ -1,0 +1,3 @@
+CLASS ys net/minecraft/src/Packet42RemoveEntityEffect
+	FIELD a entityId I
+	FIELD b effectId B

@@ -1,0 +1,6 @@
+CLASS eu net/minecraft/src/WorldManager
+	FIELD a mcServer Lnet/minecraft/server/MinecraftServer;
+	FIELD b theWorldServer Lew;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lew;)V
+		ARG 1 minecraftServer
+		ARG 2 worldServer

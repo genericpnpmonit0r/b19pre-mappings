@@ -1,0 +1,5 @@
+CLASS at net/minecraft/src/ItemPickaxe
+	FIELD bM blocksEffectiveAgainst [Lro;
+	METHOD <init> (ILbp;)V
+		ARG 1 id
+		ARG 2 toolMaterial

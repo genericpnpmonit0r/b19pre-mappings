@@ -1,0 +1,38 @@
+CLASS hz net/minecraft/src/InventoryPlayer
+	FIELD a mainInventory [Lia;
+	FIELD b armorInventory [Lia;
+	FIELD c currentItem I
+	FIELD d player Lgb;
+	FIELD e inventoryChanged Z
+	FIELD f itemStack Lia;
+	METHOD <init> (Lgb;)V
+		ARG 1 player
+	METHOD a addItemStackToInventory (Lia;)Z
+	METHOD a getDamageVsEntity (Lpu;)I
+		ARG 1 entity
+	METHOD a writeToNBT (Lpx;)Lpx;
+		ARG 1 listTag
+	METHOD a getStrVsBlock (Lro;)F
+		ARG 1 block
+	METHOD b getCurrentItem ()Lia;
+	METHOD b consumeInventoryItem (I)Z
+	METHOD b setItemStack (Lia;)V
+		ARG 1 itemStack
+	METHOD b readFromNBT (Lpx;)V
+		ARG 1 listTag
+	METHOD b canHarvestBlock (Lro;)Z
+		ARG 1 block
+	METHOD c func_35177_c (I)Z
+	METHOD c isUseableByPlayer (Lia;)Z
+		ARG 1 itemStack
+	METHOD d damageArmor (I)V
+		ARG 1 amount
+	METHOD d storeItemStack (Lia;)I
+	METHOD e getInventorySlotContainItem (I)I
+	METHOD e storePartialItemStack (Lia;)I
+	METHOD g func_25054_e ()I
+	METHOD h decrementAnimations ()V
+	METHOD i getTotalArmorValue ()I
+	METHOD j dropAllItems ()V
+	METHOD l getItemStack ()Lia;
+	METHOD m getFirstEmptyStack ()I

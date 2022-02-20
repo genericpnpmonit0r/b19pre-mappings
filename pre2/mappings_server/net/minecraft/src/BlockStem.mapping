@@ -1,0 +1,15 @@
+CLASS mg net/minecraft/src/BlockStem
+	FIELD a stemBlockType Lro;
+	METHOD <init> (ILro;)V
+		ARG 1 id
+		ARG 2 block
+	METHOD g fertilize (Lep;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i getGrowthModifier (Lep;III)F
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

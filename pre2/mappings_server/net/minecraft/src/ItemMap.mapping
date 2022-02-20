@@ -1,0 +1,8 @@
+CLASS ty net/minecraft/src/ItemMap
+	METHOD a updateMapData (Lep;Lpu;Lhx;)V
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 mapData
+	METHOD a getMPMapData (Lia;Lep;)Lhx;
+		ARG 1 itemStack
+		ARG 2 world

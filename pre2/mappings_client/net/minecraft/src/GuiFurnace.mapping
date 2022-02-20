@@ -1,0 +1,5 @@
+CLASS jd net/minecraft/src/GuiFurnace
+	FIELD h furnaceInventory Lacb;
+	METHOD <init> (Lvz;Lacb;)V
+		ARG 1 inventoryPlayer
+		ARG 2 tileEntityFurnace

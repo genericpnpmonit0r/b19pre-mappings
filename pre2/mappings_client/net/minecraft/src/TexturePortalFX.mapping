@@ -1,0 +1,3 @@
+CLASS vf net/minecraft/src/TexturePortalFX
+	FIELD a portalTickCounter I
+	FIELD b portalTextureData [[B

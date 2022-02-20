@@ -1,0 +1,5 @@
+CLASS yu net/minecraft/src/ModelSlime
+	FIELD a slimeBodies Lnz;
+	FIELD b slimeRightEye Lnz;
+	FIELD c slimeLeftEye Lnz;
+	FIELD d slimeMouth Lnz;

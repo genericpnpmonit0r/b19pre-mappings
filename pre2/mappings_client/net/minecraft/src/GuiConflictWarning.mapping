@@ -1,0 +1,2 @@
+CLASS aav net/minecraft/src/GuiConflictWarning
+	FIELD a updateCounter I

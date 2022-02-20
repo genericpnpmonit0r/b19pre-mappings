@@ -1,0 +1,18 @@
+CLASS fx net/minecraft/src/EntityWolf
+	FIELD a looksWithInterest Z
+	FIELD b field_25038_b F
+	FIELD c field_25044_c F
+	FIELD g isWolfShaking Z
+	FIELD h sitting Z
+	FIELD i timeWolfIsShaking F
+	FIELD j prevTimeWolfIsShaking F
+	METHOD a setOwner (Ljava/lang/String;)V
+	METHOD b isNowTamed (Z)V
+	METHOD c setPathEntity (Lpu;F)V
+	METHOD c setIsSitting (Z)V
+	METHOD d setIsAngry (Z)V
+	METHOD e setIsTamed (Z)V
+	METHOD p_ getIsSitting ()Z
+	METHOD w getOwner ()Ljava/lang/String;
+	METHOD y getIsAngry ()Z
+	METHOD z isTamed ()Z

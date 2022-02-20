@@ -1,0 +1,4 @@
+CLASS gs net/minecraft/src/ItemHoe
+	METHOD <init> (ILrf;)V
+		ARG 1 id
+		ARG 2 toolMaterial

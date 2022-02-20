@@ -1,0 +1,18 @@
+CLASS hp net/minecraft/src/WorldClient
+	FIELD M blocksToReceive Ljava/util/LinkedList;
+	FIELD N sendQueue Lyp;
+	FIELD O clientChunkProvider Lmr;
+	FIELD P entityHashSet Lwu;
+	FIELD Q entityList Ljava/util/Set;
+	FIELD R entitySpawnQueue Ljava/util/Set;
+	METHOD <init> (Lyp;Lek;II)V
+		ARG 1 clientHandler
+		ARG 2 worldSettings
+		ARG 3 dimension
+		ARG 4 difficulty
+	METHOD a getEntityByID (I)Llh;
+	METHOD a invalidateBlockReceiveRegion (IIIIII)V
+	METHOD a doPreChunk (IIZ)V
+	METHOD a getEntityId (ILlh;)V
+	METHOD b removeEntityFromWorld (I)Llh;
+	METHOD c setBlockAndMetadataAndInvalidate (IIIII)Z

@@ -1,0 +1,4 @@
+CLASS c net/minecraft/src/EntityLightningBolt
+	FIELD a boltVertex J
+	FIELD b lightningState I
+	FIELD c boltLivingTime I

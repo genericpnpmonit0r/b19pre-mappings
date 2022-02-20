@@ -1,0 +1,3 @@
+CLASS px net/minecraft/src/RenderEnderman
+	FIELD c endermanModel Lqz;
+	FIELD d rnd Ljava/util/Random;

@@ -1,0 +1,28 @@
+CLASS agi net/minecraft/src/ItemFood
+	FIELD a maxItemUseDuration I
+	FIELD b healAmount I
+	FIELD bO isWolfsFavoriteMeat Z
+	FIELD bP isEating Z
+	FIELD bQ potionId I
+	FIELD bR potionDuration I
+	FIELD bS potionAmplifier I
+	FIELD bT potionEffectProbability F
+	FIELD c saturationModifier F
+	METHOD <init> (IIFZ)V
+		ARG 1 id
+		ARG 2 healAmount
+		ARG 3 saturationModifier
+		ARG 4 isWolfsFavorite
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 healAmount
+		ARG 3 isWolfsFavorite
+	METHOD a setPotionEffect (IIIF)Lagi;
+		ARG 1 id
+		ARG 2 duration
+		ARG 3 amplifier
+		ARG 4 probability
+	METHOD n getHealAmount ()I
+	METHOD o getSaturationModifier ()F
+	METHOD p getIsWolfsFavoriteMeat ()Z
+	METHOD q getIsEating ()Lagi;

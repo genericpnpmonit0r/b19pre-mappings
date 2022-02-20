@@ -1,0 +1,5 @@
+CLASS ns net/minecraft/src/ItemSword
+	FIELD a weaponDamage I
+	METHOD <init> (ILbp;)V
+		ARG 1 id
+		ARG 2 toolMaterial

@@ -1,0 +1,6 @@
+CLASS he net/minecraft/src/GuiLogFormatter
+	METHOD <init> (Ldg;)V
+		ARG 1 logOutputHandler
+	METHOD format (Ljava/util/logging/LogRecord;)Ljava/lang/String;
+		ARG 1 logRecord
+	FIELD a outputHandler Ldg;

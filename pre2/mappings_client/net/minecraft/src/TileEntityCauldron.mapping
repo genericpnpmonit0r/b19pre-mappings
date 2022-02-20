@@ -1,0 +1,12 @@
+CLASS yf net/minecraft/src/TileEntityCauldron
+	FIELD a liquidLevel I
+	FIELD b liquidData I
+	METHOD a hasLiquid ()Z
+	METHOD a clickedOnCauldron (Lwc;)Z
+		ARG 1 itemStack
+	METHOD d containsNoLiquidData ()Z
+	METHOD e setLiquidData ()Z
+	METHOD f decreaseLiquidLevel ()V
+	METHOD g getLiquidLevel ()I
+	METHOD n getLiquidData ()I
+	METHOD o getPotionName ()I

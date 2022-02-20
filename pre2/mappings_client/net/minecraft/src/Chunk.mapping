@@ -1,0 +1,159 @@
+CLASS xs net/minecraft/src/Chunk
+	METHOD <init> (Lti;II)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 z
+	METHOD <init> (Lti;[BII)V
+		ARG 1 world
+		ARG 2 blocks
+		ARG 3 x
+		ARG 4 z
+	METHOD a doNothing2 ()V
+	METHOD a isAtLocation (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD a getBlockID (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a setBlockID (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+	METHOD a setBlockIDWithMetadata (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+		ARG 5 meta
+	METHOD a setChunkBlockTileEntity (IIILje;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tileEntity
+	METHOD a getRandomWithSeed (J)Ljava/util/Random;
+		ARG 1 seed
+	METHOD a populateChunk (Lbh;Lbh;II)V
+		ARG 1 chunkProvider
+		ARG 2 chunkProvider2
+		ARG 3 x
+		ARG 4 z
+	METHOD a getEntitiesOfTypeWithinAAAB (Ljava/lang/Class;Ltb;Ljava/util/List;)V
+		ARG 1 entityClass
+		ARG 2 aabb
+		ARG 3 entities
+	METHOD a addTileEntity (Lje;)V
+		ARG 1 tileEntity
+	METHOD a addEntity (Llh;)V
+		ARG 1 entity
+	METHOD a removeEntityAtIndex (Llh;I)V
+		ARG 1 entity
+		ARG 2 index
+	METHOD a getEntitiesWithinAABBForEntity (Llh;Ltb;Ljava/util/List;)V
+		ARG 1 entity
+		ARG 2 aabb
+		ARG 3 entities
+	METHOD a getSavedLightValue (Lsr;III)I
+		ARG 1 enumSkyBlock
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a setLightValue (Lsr;IIII)V
+		ARG 1 enumSkyBlock
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 lightValue
+	METHOD a needsSaving (Z)Z
+		ARG 1 needsSavingFlag
+	METHOD a setChunkData ([BIIIIIII)I
+		ARG 1 blocks
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 x2
+		ARG 6 y2
+		ARG 7 z2
+		ARG 8 data
+	METHOD b generateHeightMap ()V
+	METHOD b getHeightValue (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD b getBlockMetadata (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b setBlockMetadata (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b removeEntity (Llh;)V
+		ARG 1 entity
+	METHOD c generateSkylightMap ()V
+	METHOD c getPrecipitationHeight (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD c canBlockSeeTheSky (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD c getBlockLightValue (IIII)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 lightValue
+	METHOD d doNothing ()V
+	METHOD d propagateSkylightOcclusion (II)V
+		ARG 1 x
+		ARG 2 z
+	METHOD d getChunkBlockTileEntity (III)Lje;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD d updateSkylightNeighborHeight (IIII)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 x2
+		ARG 4 z2
+	METHOD e onChunkLoad ()V
+	METHOD e removeChunkBlockTileEntity (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD f onChunkUnload ()V
+	METHOD f checkSkylightNeighborHeight (III)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 y
+	METHOD g setChunkModified ()V
+	METHOD g relightBlock (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD h getFalse ()Z
+	METHOD i setBlockArray ()V
+	METHOD j updateSkylight ()V
+	METHOD k getChunkCoordIntPair ()Lpp;
+	METHOD l updateSkylight_do ()V
+	FIELD a isLit Z
+	FIELD b blocks [B
+	FIELD c precipitationHeightMap [I
+	FIELD d updateSkylightColumns [Z
+	FIELD e isChunkLoaded Z
+	FIELD f worldObj Lti;
+	FIELD g data Lob;
+	FIELD h skylightMap Lob;
+	FIELD i blocklightMap Lob;
+	FIELD j heightMap [B
+	FIELD k lowestBlockHeight I
+	FIELD l xPosition I
+	FIELD m zPosition I
+	FIELD n chunkTileEntityMap Ljava/util/Map;
+	FIELD o entities [Ljava/util/List;
+	FIELD p isTerrainPopulated Z
+	FIELD q isModified Z
+	FIELD r neverSave Z
+	FIELD s hasEntities Z
+	FIELD t lastSaveTime J
+	FIELD u sendUpdates Z

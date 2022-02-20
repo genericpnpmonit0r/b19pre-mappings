@@ -1,0 +1,5 @@
+CLASS adg net/minecraft/src/GuiInventory
+	FIELD h xSize_lo F
+	FIELD i ySize_lo F
+	METHOD <init> (Luo;)V
+		ARG 1 player

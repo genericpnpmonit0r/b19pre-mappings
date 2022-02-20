@@ -1,0 +1,2 @@
+CLASS tq net/minecraft/src/EnumOptionsMappingHelper
+	FIELD a enumOptionsMappingHelperArray [I

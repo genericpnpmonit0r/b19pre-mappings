@@ -1,0 +1,4 @@
+CLASS sk net/minecraft/src/ChunkBlockMap
+	METHOD a setBlockArray ([B)V
+		ARG 0 blocks
+	FIELD a blockArray [B

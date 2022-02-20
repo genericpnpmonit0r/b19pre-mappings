@@ -1,0 +1,8 @@
+CLASS dj net/minecraft/src/Packet41EntityEffect
+	FIELD a entityId I
+	FIELD b effectId B
+	FIELD c affectAmp B
+	FIELD d duration S
+	METHOD <init> (ILur;)V
+		ARG 1 id
+		ARG 2 effect

@@ -1,0 +1,2 @@
+CLASS dw net/minecraft/src/TileEntityRecordPlayer
+	FIELD a record I

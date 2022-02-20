@@ -1,0 +1,11 @@
+CLASS cp net/minecraft/src/ChunkFile
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 file
+	METHOD a getChunkFile ()Ljava/io/File;
+	METHOD b getXChunk ()I
+	METHOD c getYChunk ()I
+	METHOD compareTo (Ljava/lang/Object;)I
+		ARG 1 chunkFile
+	FIELD a chunkFile Ljava/io/File;
+	FIELD b xChunk I
+	FIELD c yChunk I

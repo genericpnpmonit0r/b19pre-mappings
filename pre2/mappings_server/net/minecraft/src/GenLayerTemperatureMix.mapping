@@ -1,0 +1,3 @@
+CLASS dc net/minecraft/src/GenLayerTemperatureMix
+	FIELD b field_35027_b Ldu;
+	FIELD c field_35028_c I

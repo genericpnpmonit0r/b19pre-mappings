@@ -1,0 +1,12 @@
+CLASS eh net/minecraft/src/Packet15Place
+	FIELD a xPosition I
+	FIELD b yPosition I
+	FIELD c zPosition I
+	FIELD d direction I
+	FIELD e itemStack Lwc;
+	METHOD <init> (IIIILwc;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 dir
+		ARG 5 ItemStack

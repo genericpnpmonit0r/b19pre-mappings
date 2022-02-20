@@ -1,0 +1,3 @@
+CLASS aeb net/minecraft/src/TileEntityChestRenderer
+	FIELD b chestModel Labx;
+	FIELD c largeChestModel Labx;

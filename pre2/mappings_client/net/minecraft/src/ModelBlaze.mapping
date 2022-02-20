@@ -1,0 +1,4 @@
+CLASS aen net/minecraft/src/ModelBlaze
+	FIELD a blazeSticks [Lnz;
+	FIELD b head Lnz;
+	METHOD a getStickCount ()I

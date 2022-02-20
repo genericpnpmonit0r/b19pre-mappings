@@ -1,0 +1,12 @@
+CLASS fb net/minecraft/src/Packet61DoorChange
+	FIELD a sfxID I
+	FIELD b auxData I
+	FIELD c posX I
+	FIELD d posY I
+	FIELD e posZ I
+	METHOD <init> (IIIII)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 data

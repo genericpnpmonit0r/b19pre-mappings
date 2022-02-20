@@ -1,0 +1,31 @@
+CLASS ei net/minecraft/src/ComponentStronghold
+	METHOD a getRandomDoor (Ljava/util/Random;)Lke;
+		ARG 1 rand
+	METHOD a canStrongholdGoDeeper (Lns;)Z
+		ARG 0 boundingBox
+	METHOD a getNextComponentNormal (Lq;Ljava/util/List;Ljava/util/Random;II)Lfx;
+		ARG 1 strongholdStairs2
+		ARG 2 components
+		ARG 3 rand
+		ARG 4 x
+		ARG 5 z
+	METHOD a placeDoor (Lti;Ljava/util/Random;Lns;Lke;III)V
+		ARG 1 world
+		ARG 2 rand
+		ARG 3 boundingBox
+		ARG 4 enumDoor
+		ARG 5 x
+		ARG 6 y
+		ARG 7 z
+	METHOD b getNextComponentX (Lq;Ljava/util/List;Ljava/util/Random;II)Lfx;
+		ARG 1 strongholdStairs2
+		ARG 2 components
+		ARG 3 rand
+		ARG 4 x
+		ARG 5 z
+	METHOD c getNextComponentZ (Lq;Ljava/util/List;Ljava/util/Random;II)Lfx;
+		ARG 1 strongholdStairs2
+		ARG 2 components
+		ARG 3 rand
+		ARG 4 x
+		ARG 5 z

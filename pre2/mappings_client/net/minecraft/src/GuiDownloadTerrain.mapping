@@ -1,0 +1,5 @@
+CLASS eb net/minecraft/src/GuiDownloadTerrain
+	FIELD a netHandler Lyp;
+	FIELD b updateCounter I
+	METHOD <init> (Lyp;)V
+		ARG 1 netClientHandler

@@ -1,0 +1,5 @@
+CLASS aca net/minecraft/src/ContainerDispenser
+	FIELD a tileEntityDispenser Laq;
+	METHOD <init> (Lhc;Laq;)V
+		ARG 1 inventory
+		ARG 2 dispenser

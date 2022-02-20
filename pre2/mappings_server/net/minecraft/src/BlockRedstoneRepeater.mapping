@@ -1,0 +1,13 @@
+CLASS tv net/minecraft/src/BlockRedstoneRepeater
+	FIELD a repeaterTorchOffset [D
+	FIELD b repeaterState [I
+	FIELD c isRepeaterPowered Z
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 powered
+	METHOD f ignoreTick (Lep;IIII)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 meta

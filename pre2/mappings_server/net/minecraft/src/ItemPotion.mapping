@@ -1,0 +1,4 @@
+CLASS fa net/minecraft/src/ItemPotion
+	FIELD a effectCache Ljava/util/HashMap;
+	METHOD b getEffects (Lia;)Ljava/util/List;
+		ARG 1 itemStack

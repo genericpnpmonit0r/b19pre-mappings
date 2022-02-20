@@ -1,0 +1,2 @@
+CLASS abv net/minecraft/src/BlockContainer
+	METHOD o_ getBlockEntity ()Lje;

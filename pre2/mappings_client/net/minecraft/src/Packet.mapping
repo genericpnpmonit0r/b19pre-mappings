@@ -1,0 +1,36 @@
+CLASS xe net/minecraft/src/Packet
+	METHOD a getPacketSize ()I
+	METHOD a getNewPacket (I)Lxe;
+		ARG 0 id
+	METHOD a addIdClassMapping (IZZLjava/lang/Class;)V
+		ARG 0 id
+		ARG 1 clientPkt
+		ARG 2 srvPkt
+		ARG 3 packetClass
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+		ARG 1 input
+	METHOD a readString (Ljava/io/DataInputStream;I)Ljava/lang/String;
+		ARG 0 input
+		ARG 1 length
+	METHOD a readPacket (Ljava/io/DataInputStream;Z)Lxe;
+		ARG 0 input
+		ARG 1 srvPkt
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+		ARG 1 output
+	METHOD a writeString (Ljava/lang/String;Ljava/io/DataOutputStream;)V
+		ARG 0 str
+		ARG 1 output
+	METHOD a processPacket (Llw;)V
+		ARG 1 handler
+	METHOD a writePacket (Lxe;Ljava/io/DataOutputStream;)V
+		ARG 0 packet
+		ARG 1 output
+	METHOD c getPacketId ()I
+	FIELD a packetIdToClassMap Lwu;
+	FIELD b packetClassToIdMap Ljava/util/Map;
+	FIELD c clientPacketIdList Ljava/util/Set;
+	FIELD d serverPacketIdList Ljava/util/Set;
+	FIELD e otherIdToClassMap Lwu;
+	FIELD f packetCount I
+	FIELD k creationTimeMillis J
+	FIELD l isChunkDataPacket Z

@@ -1,0 +1,5 @@
+CLASS em net/minecraft/src/EntityDamageSource
+	FIELD n damageSourceEntity Llh;
+	METHOD <init> (Ljava/lang/String;Llh;)V
+		ARG 1 name
+		ARG 2 entity

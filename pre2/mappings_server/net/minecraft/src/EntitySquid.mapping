@@ -1,0 +1,15 @@
+CLASS ux net/minecraft/src/EntitySquid
+	FIELD a squidPitch F
+	FIELD b prevSquidPitch F
+	FIELD c squidYaw F
+	FIELD g prevSquidYaw F
+	FIELD h field_21060_ak F
+	FIELD i field_21058_al F
+	FIELD j tentacleAngle F
+	FIELD k prevTentacleAngle F
+	FIELD l randomMotionSpeed F
+	FIELD m field_21054_ap F
+	FIELD n field_21053_aq F
+	FIELD o randomMotionVecX F
+	FIELD p randomMotionVecY F
+	FIELD q randomMotionVecZ F

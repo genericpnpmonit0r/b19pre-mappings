@@ -1,0 +1,5 @@
+CLASS qb net/minecraft/src/ItemAxe
+	METHOD <init> (ILbp;)V
+		ARG 1 id
+		ARG 2 toolMaterial
+	FIELD bM blocksEffectiveAgainst [Lro;

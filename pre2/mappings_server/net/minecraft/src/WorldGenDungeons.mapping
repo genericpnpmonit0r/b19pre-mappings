@@ -1,0 +1,5 @@
+CLASS ee net/minecraft/src/WorldGenDungeons
+	METHOD a pickChestLootItem (Ljava/util/Random;)Lia;
+		ARG 1 rand
+	METHOD b pickMobSpawner (Ljava/util/Random;)Ljava/lang/String;
+		ARG 1 rand

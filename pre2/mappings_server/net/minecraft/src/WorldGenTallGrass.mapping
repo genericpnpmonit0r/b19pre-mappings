@@ -1,0 +1,6 @@
+CLASS al net/minecraft/src/WorldGenTallGrass
+	FIELD a tallGrassId I
+	FIELD b tallGrassMetadata I
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 meta

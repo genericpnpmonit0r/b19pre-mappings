@@ -1,0 +1,6 @@
+CLASS df net/minecraft/src/ModelSnowMan
+	FIELD a body Lnz;
+	FIELD b bottom Lnz;
+	FIELD c head Lnz;
+	FIELD d rightArm Lnz;
+	FIELD e leftArm Lnz;

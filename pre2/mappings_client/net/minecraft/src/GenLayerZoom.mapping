@@ -1,0 +1,18 @@
+CLASS sq net/minecraft/src/GenLayerZoom
+	METHOD <init> (JLsv;)V
+		ARG 1 seed
+		ARG 3 layer
+	METHOD a choose (II)I
+		COMMENT Chooses one of the two inputs randomly.
+		ARG 1 input1
+		ARG 2 input2
+	METHOD a magnify (JLsv;I)Lsv;
+		COMMENT Magnify a layer
+		ARG 0 seedAdj
+			COMMENT seed adjustment
+		ARG 2 layer
+			COMMENT layer
+		ARG 3 timesToMagnify
+			COMMENT number of times to magnify
+	METHOD b modeOrRandom (IIII)I
+		COMMENT returns the mode (most frequently occuring number) or a random number from the 4 integers provided

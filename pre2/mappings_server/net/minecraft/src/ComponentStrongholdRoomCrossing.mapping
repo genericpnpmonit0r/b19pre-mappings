@@ -1,0 +1,10 @@
+CLASS jj net/minecraft/src/ComponentStrongholdRoomCrossing
+	FIELD a randomDoor Lob;
+	FIELD b picker I
+	FIELD c lootArray [Lhd;
+	METHOD <init> (ILjava/util/Random;Lsz;I)V
+		ARG 1 type
+		ARG 2 rand
+		ARG 3 boundingBox
+		ARG 4 coordBaseMode
+	METHOD a findValidPlacement (Ljava/util/List;Ljava/util/Random;IIIII)Ljj;

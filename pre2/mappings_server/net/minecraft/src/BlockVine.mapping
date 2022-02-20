@@ -1,0 +1,10 @@
+CLASS mn net/minecraft/src/BlockVine
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD c canBePlacedOn (I)Z
+		ARG 1 side
+	METHOD g canVineStay (Lep;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

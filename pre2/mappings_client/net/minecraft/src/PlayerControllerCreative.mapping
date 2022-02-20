@@ -1,0 +1,13 @@
+CLASS aaf net/minecraft/src/PlayerControllerCreative
+	FIELD c blockClickTimer I
+	METHOD a sendRemoveBlock (Lnet/minecraft/client/Minecraft;Liq;IIII)V
+		ARG 0 minecraft
+		ARG 1 playerController
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 side
+	METHOD d setCapabilities (Luo;)V
+		ARG 0 player
+	METHOD e resetCapabilities (Luo;)V
+		ARG 0 player

@@ -1,0 +1,10 @@
+CLASS pu net/minecraft/src/BlockPistonExtension
+	FIELD a pistonHeadType I
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 texIndex
+	METHOD d setPistonHeadType (I)V
+		ARG 1 id
+	METHOD f getState (I)I
+		ARG 0 meta
+	METHOD s clearPistonHeadType ()V

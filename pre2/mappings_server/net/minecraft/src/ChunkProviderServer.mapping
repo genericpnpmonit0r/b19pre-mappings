@@ -1,0 +1,23 @@
+CLASS jt net/minecraft/src/ChunkProviderServer
+	FIELD a chunkLoadOverride Z
+	FIELD b droppedChunksSet Ljava/util/Set;
+	FIELD c dummyChunk Ljy;
+	FIELD d serverChunkGenerator Lcc;
+	FIELD e chunkLoader Laz;
+	FIELD f id2ChunkMap Lfg;
+	FIELD g loadedChunks Ljava/util/List;
+	FIELD h world Lew;
+	METHOD <init> (Lew;Laz;Lcc;)V
+		ARG 1 worldServer
+		ARG 2 chunkLoader
+		ARG 3 chunkProvider
+	METHOD a saveChunkExtraData (Ljy;)V
+		ARG 1 chunk
+	METHOD b saveChunkData (Ljy;)V
+		ARG 1 chunk
+	METHOD d dropChunk (II)V
+		ARG 1 x
+		ARG 2 z
+	METHOD e loadChunkFromFile (II)Ljy;
+		ARG 1 x
+		ARG 2 z

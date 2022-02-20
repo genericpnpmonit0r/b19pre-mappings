@@ -1,0 +1,6 @@
+CLASS lt net/minecraft/src/Packet39AttachEntity
+	FIELD a entityId I
+	FIELD b vehicleEntityId I
+	METHOD <init> (Lpu;Lpu;)V
+		ARG 1 rider
+		ARG 2 vechile

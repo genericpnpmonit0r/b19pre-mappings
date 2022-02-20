@@ -1,0 +1,34 @@
+CLASS abr net/minecraft/src/BlockFluid
+	METHOD a getFlowDirection (Lafm;IIILxu;)D
+		ARG 0 blockAccess
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 material
+	METHOD d getFluidHeightPercent (I)F
+		ARG 0 height
+	METHOD f getEffectiveFlowDecay (Lafm;III)I
+		ARG 1 blockAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD g getFlowVector (Lafm;III)Lba;
+		ARG 1 blockAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h getFlowDecay (Lti;III)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i triggerLavaMixEffects (Lti;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD j checkForHarden (Lti;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

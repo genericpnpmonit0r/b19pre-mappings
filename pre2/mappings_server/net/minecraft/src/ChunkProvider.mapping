@@ -1,0 +1,23 @@
+CLASS mm net/minecraft/src/ChunkProvider
+	FIELD a droppedChunksSet Ljava/util/Set;
+	FIELD b emptyChunk Ljy;
+	FIELD c chunkProvider Lcc;
+	FIELD d chunkLoader Laz;
+	FIELD e chunkMap Lfg;
+	FIELD f chunkList Ljava/util/List;
+	FIELD g worldObj Lep;
+	FIELD h chunkCounter I
+	METHOD <init> (Lep;Laz;Lcc;)V
+		ARG 1 world
+		ARG 2 chunkLoader
+		ARG 3 chunkProvider
+	METHOD a unloadAndSaveChunkData (Ljy;)V
+		ARG 1 chunk
+	METHOD b unloadAndSaveChunk (Ljy;)V
+		ARG 1 chunk
+	METHOD d dropChunk (II)V
+		ARG 1 x
+		ARG 2 z
+	METHOD e loadChunkFromFile (II)Ljy;
+		ARG 1 x
+		ARG 2 z

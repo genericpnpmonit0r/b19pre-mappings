@@ -1,0 +1,9 @@
+CLASS is net/minecraft/src/EntityFallingSand
+	FIELD a blockID I
+	FIELD b fallTime I
+	METHOD <init> (Lep;DDDI)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 id

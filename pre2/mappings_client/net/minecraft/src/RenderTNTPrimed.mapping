@@ -1,0 +1,2 @@
+CLASS zo net/minecraft/src/RenderTNTPrimed
+	FIELD a blockRenderer Lrz;

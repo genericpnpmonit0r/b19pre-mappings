@@ -1,0 +1,4 @@
+CLASS hj net/minecraft/src/GuiWorldSlot
+	FIELD a parentWorldGui Lkt;
+	METHOD <init> (Lkt;)V
+		ARG 1 guiSelectWorld

@@ -1,0 +1,10 @@
+CLASS bb net/minecraft/src/EntityAnimal
+	FIELD a age I
+	FIELD b inLove I
+	FIELD c breeding I
+	METHOD a createChild (Lbb;)Lbb;
+		ARG 1 animal
+	METHOD a isBreedingItem (Lia;)Z
+		ARG 1 itemStack
+	METHOD b procreate (Lbb;)V
+		ARG 1 animal

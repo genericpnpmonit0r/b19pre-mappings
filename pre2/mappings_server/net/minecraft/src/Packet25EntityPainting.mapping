@@ -1,0 +1,9 @@
+CLASS sx net/minecraft/src/Packet25EntityPainting
+	FIELD a entityId I
+	FIELD b xPosition I
+	FIELD c yPosition I
+	FIELD d zPosition I
+	FIELD e direction I
+	FIELD f title Ljava/lang/String;
+	METHOD <init> (Lof;)V
+		ARG 1 painting

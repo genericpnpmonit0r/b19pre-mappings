@@ -1,0 +1,6 @@
+CLASS aao net/minecraft/src/SorterStatsBlock
+	METHOD <init> (Ldt;Lcl;)V
+		ARG 1 guiSlotStatsBlock
+		ARG 2 statsGui
+	FIELD a statsGUI Lcl;
+	FIELD b slotStatsBlockGUI Ldt;

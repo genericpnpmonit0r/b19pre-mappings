@@ -1,0 +1,8 @@
+CLASS ff net/minecraft/src/ModelCreeper
+	FIELD a head Lnz;
+	FIELD b unusedCreeperHeadwear Lnz;
+	FIELD c body Lnz;
+	FIELD d leg1 Lnz;
+	FIELD e leg2 Lnz;
+	FIELD f leg3 Lnz;
+	FIELD g leg4 Lnz;

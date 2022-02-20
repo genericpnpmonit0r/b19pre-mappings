@@ -1,0 +1,4 @@
+CLASS es net/minecraft/src/EntityCrit2FX
+	FIELD a field_35134_a Llh;
+	FIELD ax field_35133_ay I
+	FIELD ay field_35132_az I

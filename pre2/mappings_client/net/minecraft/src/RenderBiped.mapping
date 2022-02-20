@@ -1,0 +1,3 @@
+CLASS qg net/minecraft/src/RenderBiped
+	FIELD c modelBipedMain Ltk;
+	FIELD d field_40296_d F

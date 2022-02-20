@@ -1,0 +1,12 @@
+CLASS qa net/minecraft/src/ModelWolf
+	FIELD a wolfHeadMain Lnz;
+	FIELD b wolfBody Lnz;
+	FIELD c wolfLeg1 Lnz;
+	FIELD d wolfLeg2 Lnz;
+	FIELD e wolfLeg3 Lnz;
+	FIELD f wolfLeg4 Lnz;
+	FIELD g wolfPart1 Lnz;
+	FIELD k wolfPart2 Lnz;
+	FIELD l wolfPart3 Lnz;
+	FIELD m wolfTail Lnz;
+	FIELD n wolfMane Lnz;

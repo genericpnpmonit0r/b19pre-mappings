@@ -1,0 +1,10 @@
+CLASS cj net/minecraft/src/ItemTool
+	FIELD a toolMaterial Lrf;
+	FIELD bO damageVsEntity I
+	FIELD b blocksEffectiveAgainst [Lmq;
+	FIELD c efficiencyOnProperMaterial F
+	METHOD <init> (IILrf;[Lmq;)V
+		ARG 1 id
+		ARG 2 dmgVsEntity
+		ARG 3 toolMaterial
+		ARG 4 blocksEffectiveAgainstArr

@@ -1,0 +1,2 @@
+CLASS ho net/minecraft/src/RenderSlime
+	FIELD c scaleAmount Lgf;

@@ -1,0 +1,6 @@
+CLASS do net/minecraft/src/Packet61DoorChange
+	FIELD a sfxID I
+	FIELD b auxData I
+	FIELD c posX I
+	FIELD d posY I
+	FIELD e posZ I

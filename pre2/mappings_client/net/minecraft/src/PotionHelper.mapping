@@ -1,0 +1,28 @@
+CLASS go net/minecraft/src/PotionHelper
+	COMMENT !!! !!! !!! UNKNOWN !!! !!! !!!
+	COMMENT someone else can deal with this
+	COMMENT i don't know what these are
+	COMMENT 1.5 mappings aren't even helpful at all
+	COMMENT i suck at math
+	COMMENT class for potion calculations
+	COMMENT these aa_Aa names are for uniqueness so that the compiler can actually compile this
+	FIELD a potionRequirements Ljava/util/HashMap;
+	FIELD b potionAmplifiers Ljava/util/HashMap;
+	FIELD c potionPrefixes [Ljava/lang/String;
+	METHOD a isFlagSet3 (I)I
+	METHOD a aaaa_A (II)Z
+	METHOD a aa_aaaaaa_ (IIIIII)I
+	METHOD a aa_aaa (IIZZ)I
+	METHOD a aaaa_a (ILjava/lang/String;)I
+	METHOD a aaA_ (Ljava/lang/String;III)I
+	METHOD a a_a_aa (ZZZIIII)I
+	METHOD b isFlagSet6 (I)I
+	METHOD b checkFlag (II)Z
+	METHOD c potionNames (I)Ljava/lang/String;
+	METHOD c isFlagSet (II)I
+	METHOD d dd_d (I)Ljava/util/List;
+	METHOD d isFlagSet2 (II)I
+	METHOD e ee_e (I)I
+	METHOD f ff_fff_ (I)I
+	METHOD g gg_g (I)I
+	METHOD h hh_h (I)I
