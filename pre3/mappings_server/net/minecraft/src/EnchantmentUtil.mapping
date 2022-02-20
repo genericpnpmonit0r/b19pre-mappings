@@ -1,0 +1,3 @@
+CLASS nq net/minecraft/src/EnchantmentUtil
+	FIELD a theEnchantment Llv;
+	FIELD b id I

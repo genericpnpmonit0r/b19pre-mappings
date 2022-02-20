@@ -1,0 +1,19 @@
+CLASS lv net/minecraft/src/Enchantment
+	FIELD a enchantments [Llv;
+	FIELD b all Llv;
+	FIELD c fire Llv;
+	FIELD d fall Llv;
+	FIELD e explosion Llv;
+	FIELD f projectile Llv;
+	FIELD g drown Llv;
+	FIELD h id I
+	FIELD i enchantmentName Ljava/lang/String;
+	FIELD j enchantmentType Lid;
+	FIELD k type I
+	METHOD <init> (ILid;Ljava/lang/String;)V
+		ARG 1 id
+		ARG 2 enchType
+		ARG 3 name
+	METHOD a calcModifierDamage (Lnq;Loo;)I
+		ARG 1 unused
+		ARG 2 damageSource

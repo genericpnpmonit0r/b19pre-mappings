@@ -1,4 +1,10 @@
 CLASS ik net/minecraft/src/InventoryPlayer
+	FIELD a mainInventory [Lil;
+	FIELD b armorInventory [Lil;
+	FIELD c currentItem I
+	FIELD d player Lgj;
+	FIELD e inventoryChanged Z
+	FIELD f itemStack Lil;
 	METHOD <init> (Lgj;)V
 		ARG 1 player
 	METHOD a getInventoryStackLimit ()I
@@ -37,12 +43,7 @@ CLASS ik net/minecraft/src/InventoryPlayer
 	METHOD j getTotalArmorValue ()I
 	METHOD k dropAllItems ()V
 	METHOD l getItemStack ()Lil;
+	METHOD m newArrayListr ()Ljava/util/List;
 	METHOD n getFirstEmptyStack ()I
 	METHOD u_ onInventoryChanged ()V
 	METHOD v_ openChest ()V
-	FIELD a mainInventory [Lil;
-	FIELD b armorInventory [Lil;
-	FIELD c currentItem I
-	FIELD d player Lgj;
-	FIELD e inventoryChanged Z
-	FIELD f itemStack Lil;

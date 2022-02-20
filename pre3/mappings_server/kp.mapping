@@ -1,3 +1,0 @@
-CLASS kp
-	METHOD a getSlotStackLimit ()I
-	METHOD a isItemValid (Lil;)Z

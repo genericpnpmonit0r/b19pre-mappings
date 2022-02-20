@@ -1,0 +1,7 @@
+CLASS cv net/minecraft/src/SlotBrewingStandIngredient
+	FIELD a brewingStand Lio;
+	METHOD <init> (Lio;Lkv;III)V
+		ARG 1 brewingStand
+		ARG 2 inventory
+	METHOD a getSlotStackLimit ()I
+	METHOD a isItemValid (Lil;)Z

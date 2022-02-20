@@ -1,0 +1,18 @@
+CLASS hz net/minecraft/src/ContainerEnchantment
+	FIELD a tableInventory Lkv;
+	FIELD b nameSeed J
+	FIELD c enchantmentLevels [I
+	FIELD h worldPointer Lev;
+	FIELD i xPos I
+	FIELD j yPos I
+	FIELD k zPos I
+	FIELD l rand Ljava/util/Random;
+	METHOD <init> (Lik;Lev;III)V
+		ARG 1 inventoryPlayer
+		ARG 2 world
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+	METHOD a onCraftGuiClosed (Lgj;)V
+	METHOD a onCraftMatrixChanged (Lkv;)V
+	METHOD b canInteractWith (Lgj;)Z

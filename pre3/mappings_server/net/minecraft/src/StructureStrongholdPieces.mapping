@@ -1,6 +1,12 @@
 CLASS iy net/minecraft/src/StructureStrongholdPieces
+	FIELD a totalWeight I
+	FIELD b pieceWeightArray [Lql;
+	FIELD c structurePiecesList Ljava/util/List;
+	FIELD d pieceClass Ljava/lang/Class;
+	FIELD e structureStrongholdstones Ltf;
 	METHOD a prepareStructurePieces ()V
 	METHOD a getStrongholdComponentFromWeightedPiece (Ljava/lang/Class;Ljava/util/List;Ljava/util/Random;IIIII)Lgn;
+		ARG 0 pieceClass
 		ARG 1 components
 		ARG 2 rand
 		ARG 3 x
@@ -29,7 +35,3 @@ CLASS iy net/minecraft/src/StructureStrongholdPieces
 		ARG 5 z
 		ARG 6 i
 		ARG 7 type
-	FIELD a totalWeight I
-	FIELD b pieceWeightArray [Lql;
-	FIELD c structurePiecesList Ljava/util/List;
-	FIELD e structureStrongholdstones Ltf;

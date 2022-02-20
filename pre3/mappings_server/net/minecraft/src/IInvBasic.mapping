@@ -1,0 +1,3 @@
+CLASS hk net/minecraft/src/IInvBasic
+	METHOD a onInventoryChanged (Lop;)V
+		ARG 1 inventoryBasic

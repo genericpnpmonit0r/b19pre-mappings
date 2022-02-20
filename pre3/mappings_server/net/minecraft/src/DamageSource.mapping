@@ -1,30 +1,4 @@
 CLASS oo net/minecraft/src/DamageSource
-	METHOD <init> (Ljava/lang/String;)V
-		ARG 1 typeName
-	METHOD a getEntity ()Lqn;
-	METHOD a causeFireballDamage (Lcb;Lqn;)Loo;
-		ARG 0 fireball
-		ARG 1 entity
-	METHOD a getDeathMsg (Lgj;)Ljava/lang/String;
-		ARG 1 player
-	METHOD a causeMobDamage (Lkq;)Loo;
-		ARG 0 living
-	METHOD a causeArrowDamage (Lqk;Lqn;)Loo;
-		ARG 0 arrow
-		ARG 1 entity
-	METHOD a causeThrownDamage (Lqn;Lqn;)Loo;
-		ARG 0 thrower
-		ARG 1 target
-	METHOD b causePlayerDamage (Lgj;)Loo;
-		ARG 0 player
-	METHOD d unblockable ()Z
-	METHOD e getHungerDamage ()F
-	METHOD f canHarmInCreative ()Z
-	METHOD g getSourceOfDamage ()Lqn;
-	METHOD h setFireDamage ()Loo;
-	METHOD i isFireDamage ()Z
-	METHOD j setDamageBypassesArmor ()Loo;
-	METHOD k setDamageAllowedInCreativeMode ()Loo;
 	FIELD a inFire Loo;
 	FIELD b onLava Loo;
 	FIELD c lava Loo;
@@ -42,3 +16,32 @@ CLASS oo net/minecraft/src/DamageSource
 	FIELD o isDamageAllowedInCreativeMode Z
 	FIELD p hungerDamage F
 	FIELD q fireDamage Z
+	FIELD r projectileDamage Z
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 typeName
+	METHOD a getEntity ()Lqn;
+	METHOD a causeFireballDamage (Lcb;Lqn;)Loo;
+		ARG 0 fireball
+		ARG 1 entity
+	METHOD a getDeathMsg (Lgj;)Ljava/lang/String;
+		ARG 1 player
+	METHOD a causeMobDamage (Lkq;)Loo;
+		ARG 0 living
+	METHOD a causeArrowDamage (Lqk;Lqn;)Loo;
+		ARG 0 arrow
+		ARG 1 entity
+	METHOD a causeThrownDamage (Lqn;Lqn;)Loo;
+		ARG 0 thrower
+		ARG 1 target
+	METHOD b getProjectileDamage ()Z
+	METHOD b causePlayerDamage (Lgj;)Loo;
+		ARG 0 player
+	METHOD c setProjectileDamage ()Loo;
+	METHOD d unblockable ()Z
+	METHOD e getHungerDamage ()F
+	METHOD f canHarmInCreative ()Z
+	METHOD g getSourceOfDamage ()Lqn;
+	METHOD h setFireDamage ()Loo;
+	METHOD i isFireDamage ()Z
+	METHOD j setDamageBypassesArmor ()Loo;
+	METHOD k setDamageAllowedInCreativeMode ()Loo;

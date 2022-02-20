@@ -1,30 +1,4 @@
 CLASS kn net/minecraft/src/DamageSource
-	METHOD <init> (Ljava/lang/String;)V
-		ARG 1 typeName
-	METHOD a getEntity ()Llu;
-	METHOD a causeFireballDamage (Lbe;Llu;)Lkn;
-		ARG 0 fireball
-		ARG 1 entity
-	METHOD a causeArrowDamage (Llt;Llu;)Lkn;
-		ARG 0 arrow
-		ARG 1 entity
-	METHOD a causeThrownDamage (Llu;Llu;)Lkn;
-		ARG 0 thrower
-		ARG 1 target
-	METHOD a causePlayerDamage (Lvj;)Lkn;
-		ARG 0 player
-	METHOD a causeMobDamage (Lyv;)Lkn;
-		ARG 0 living
-	METHOD b getProjectileDamage ()Z
-	METHOD c isProjectileDamage ()Lkn;
-	METHOD d unblockable ()Z
-	METHOD e getHungerDamage ()F
-	METHOD f canHarmInCreative ()Z
-	METHOD g getSourceOfDamage ()Llu;
-	METHOD h setFireDamage ()Lkn;
-	METHOD i getIsFireDamage ()Z
-	METHOD j setDamageBypassesArmor ()Lkn;
-	METHOD k setDamageAllowedInCreativeMode ()Lkn;
 	FIELD a inFire Lkn;
 	FIELD b onFire Lkn;
 	FIELD c lava Lkn;
@@ -43,3 +17,29 @@ CLASS kn net/minecraft/src/DamageSource
 	FIELD p hungerDamage F
 	FIELD q fireDamage Z
 	FIELD r thrownDamage Z
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 typeName
+	METHOD a getEntity ()Llu;
+	METHOD a causeFireballDamage (Lbe;Llu;)Lkn;
+		ARG 0 fireball
+		ARG 1 entity
+	METHOD a causeArrowDamage (Llt;Llu;)Lkn;
+		ARG 0 arrow
+		ARG 1 entity
+	METHOD a causeThrownDamage (Llu;Llu;)Lkn;
+		ARG 0 thrower
+		ARG 1 target
+	METHOD a causePlayerDamage (Lvj;)Lkn;
+		ARG 0 player
+	METHOD a causeMobDamage (Lyv;)Lkn;
+		ARG 0 living
+	METHOD b getProjectileDamage ()Z
+	METHOD c setProjectileDamage ()Lkn;
+	METHOD d unblockable ()Z
+	METHOD e getHungerDamage ()F
+	METHOD f canHarmInCreative ()Z
+	METHOD g getSourceOfDamage ()Llu;
+	METHOD h setFireDamage ()Lkn;
+	METHOD i getIsFireDamage ()Z
+	METHOD j setDamageBypassesArmor ()Lkn;
+	METHOD k setDamageAllowedInCreativeMode ()Lkn;

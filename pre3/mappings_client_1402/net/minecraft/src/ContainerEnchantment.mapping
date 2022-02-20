@@ -3,9 +3,9 @@ CLASS fl net/minecraft/src/ContainerEnchantment
 	FIELD b nameSeed J
 	FIELD c enchantmentLevels [I
 	FIELD h worldPointer Luc;
-	FIELD i z I
-	FIELD j y I
-	FIELD k x I
+	FIELD i xPos I
+	FIELD j yPos I
+	FIELD k zPos I
 	FIELD l rand Ljava/util/Random;
 	METHOD <init> (Lwv;Luc;III)V
 		ARG 1 inventoryPlayer

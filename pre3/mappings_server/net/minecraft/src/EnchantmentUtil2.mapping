@@ -1,0 +1,5 @@
+CLASS sb net/minecraft/src/EnchantmentUtil2
+	FIELD a rand Ljava/util/Random;
+	METHOD a aaaaaaaaaaa (Lik;Loo;)I
+		ARG 0 inventoryPlayer
+		ARG 1 damageSrc

@@ -1,5 +1,5 @@
-CLASS aek net/minecraft/src/EnchantmentTool
+CLASS aek net/minecraft/src/EnchantmentUtil2
+	FIELD a rand Ljava/util/Random;
 	METHOD a aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa (Lwv;Lkn;)I
 		ARG 0 inventoryPlayer
 		ARG 1 damageSrc
-	FIELD a rand Ljava/util/Random;

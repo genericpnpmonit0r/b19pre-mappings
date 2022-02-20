@@ -1,0 +1,2 @@
+CLASS qf net/minecraft/src/SlotEnchanting
+	FIELD a enchContainer Lfl;

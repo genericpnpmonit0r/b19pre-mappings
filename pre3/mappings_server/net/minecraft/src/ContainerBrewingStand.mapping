@@ -1,0 +1,10 @@
+CLASS io net/minecraft/src/ContainerBrewingStand
+	FIELD a brewingStand Lwq;
+	FIELD b brewTime I
+	METHOD <init> (Lik;Lwq;)V
+		ARG 1 inventory
+		ARG 2 brewingStand
+	METHOD a updateCraftingResults ()V
+	METHOD a getStackInSlot (I)Lil;
+	METHOD a onCraftGuiOpened (Ldx;)V
+	METHOD b canInteractWith (Lgj;)Z

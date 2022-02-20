@@ -1,4 +1,11 @@
-CLASS op
+CLASS op net/minecraft/src/InventoryBasic
+	FIELD a inventoryTitle Ljava/lang/String;
+	FIELD b slotsCount I
+	FIELD c inventoryContents [Lil;
+	FIELD d contentsList Ljava/util/List;
+	METHOD <init> (Ljava/lang/String;I)V
+		ARG 1 title
+		ARG 2 slotCount
 	METHOD a getInventoryStackLimit ()I
 	METHOD a decrStackSize (II)Lil;
 	METHOD a setInventorySlotContents (ILil;)V

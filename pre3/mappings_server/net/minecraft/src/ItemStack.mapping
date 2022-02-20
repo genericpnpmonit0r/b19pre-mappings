@@ -1,4 +1,9 @@
 CLASS il net/minecraft/src/ItemStack
+	FIELD a stackSize I
+	FIELD b animationsToGo I
+	FIELD c itemID I
+	FIELD d stackTagCompound Lml;
+	FIELD e itemDamage I
 	METHOD <init> (III)V
 		ARG 1 id
 		ARG 2 count
@@ -94,12 +99,12 @@ CLASS il net/minecraft/src/ItemStack
 		ARG 1 itemStack
 	METHOD e getHasSubtypes ()Z
 	METHOD f isItemDamaged ()Z
+	METHOD g getItemDamage1 ()I
 	METHOD h getItemDamage ()I
 	METHOD i getMaxDamage ()I
+	METHOD j copy ()Lil;
 	METHOD k getItemStackName ()Ljava/lang/String;
 	METHOD l getMaxItemUseDuration ()I
 	METHOD m getItemUseAction ()Lip;
-	FIELD a stackSize I
-	FIELD b animationsToGo I
-	FIELD c itemID I
-	FIELD e itemDamage I
+	METHOD n hasData ()Z
+	METHOD o hasEnchantment ()Z

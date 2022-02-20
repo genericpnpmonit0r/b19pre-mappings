@@ -1,0 +1,5 @@
+CLASS sh net/minecraft/src/StructureStrongholdEndPortalPicker
+	FIELD c portalroom Lkl;
+	METHOD <init> (Lkl;)V
+		ARG 1 portalRoom
+	METHOD a selectBlocks (Ljava/util/Random;IIIZ)V

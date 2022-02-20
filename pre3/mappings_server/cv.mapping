@@ -1,3 +1,0 @@
-CLASS cv
-	METHOD a getSlotStackLimit ()I
-	METHOD a isItemValid (Lil;)Z

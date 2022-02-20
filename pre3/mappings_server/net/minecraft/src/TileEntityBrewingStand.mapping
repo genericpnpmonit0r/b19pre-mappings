@@ -9,5 +9,6 @@ CLASS wq net/minecraft/src/TileEntityBrewingStand
 	METHOD c getSizeInventory ()I
 	METHOD e getInvName ()Ljava/lang/String;
 	METHOD g closeChest ()V
+	METHOD h getBrewTime ()I
 	METHOD j_ updateEntity ()V
 	METHOD v_ openChest ()V

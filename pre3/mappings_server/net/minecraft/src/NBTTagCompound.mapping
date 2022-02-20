@@ -1,4 +1,5 @@
 CLASS ml net/minecraft/src/NBTTagCompound
+	FIELD a tagMap Ljava/util/Map;
 	METHOD a getType ()B
 	METHOD a readTagContents (Ljava/io/DataInput;)V
 	METHOD a writeTagContents (Ljava/io/DataOutput;)V
@@ -55,9 +56,8 @@ CLASS ml net/minecraft/src/NBTTagCompound
 	METHOD j getByteArray (Ljava/lang/String;)[B
 		ARG 1 key
 	METHOD k getCompoundTag (Ljava/lang/String;)Lml;
-		ARG 1 eky
+		ARG 1 key
 	METHOD l getTagList (Ljava/lang/String;)Lqq;
 		ARG 1 key
 	METHOD m getBoolean (Ljava/lang/String;)Z
 		ARG 1 key
-	FIELD a tagMap Ljava/util/Map;
