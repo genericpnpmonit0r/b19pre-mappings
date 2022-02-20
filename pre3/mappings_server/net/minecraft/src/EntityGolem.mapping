@@ -1,4 +1,4 @@
-CLASS uu
+CLASS uu net/minecraft/src/EntityGolem
 	METHOD a readEntityFromNBT (Lml;)V
 	METHOD b fall (F)V
 	METHOD b writeEntityToNBT (Lml;)V

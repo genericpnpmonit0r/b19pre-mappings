@@ -1,2 +1,2 @@
-CLASS te
+CLASS te net/minecraft/src/ItemEnderEye
 	METHOD a onItemUse (Lil;Lgj;Lev;IIII)Z

@@ -1,4 +1,4 @@
-CLASS ow
+CLASS ow net/minecraft/src/BlockAirPortal
 	METHOD a isOpaqueCube ()Z
 	METHOD a onEntityCollidedWithBlock (Lev;IIILqn;)V
 	METHOD a quantityDropped (Ljava/util/Random;)I

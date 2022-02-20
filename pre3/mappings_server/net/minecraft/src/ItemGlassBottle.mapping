@@ -1,2 +1,2 @@
-CLASS rw
+CLASS rw net/minecraft/src/ItemGlassBottle
 	METHOD a onItemRightClick (Lil;Lev;Lgj;)Lil;

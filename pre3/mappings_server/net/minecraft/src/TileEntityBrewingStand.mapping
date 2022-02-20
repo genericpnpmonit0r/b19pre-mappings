@@ -1,4 +1,4 @@
-CLASS wq
+CLASS wq net/minecraft/src/TileEntityBrewingStand
 	METHOD a getInventoryStackLimit ()I
 	METHOD a decrStackSize (II)Lil;
 	METHOD a setInventorySlotContents (ILil;)V

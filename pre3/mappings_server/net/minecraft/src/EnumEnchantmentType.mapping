@@ -1,0 +1,9 @@
+CLASS id net/minecraft/src/EnumEnchantmentType
+	FIELD a all Lid;
+	FIELD b armor Lid;
+	FIELD c armor_feet Lid;
+	FIELD d armor_legs Lid;
+	FIELD e armor_torso Lid;
+	FIELD f armor_head Lid;
+	FIELD g weapon Lid;
+	FIELD h digger Lid;

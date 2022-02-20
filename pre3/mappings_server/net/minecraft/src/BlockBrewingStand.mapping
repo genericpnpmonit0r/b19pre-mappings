@@ -1,4 +1,4 @@
-CLASS eu
+CLASS eu net/minecraft/src/BlockBrewingStand
 	METHOD a isOpaqueCube ()Z
 	METHOD a idDropped (ILjava/util/Random;)I
 	METHOD a getCollidingBoundingBoxes (Lev;IIILei;Ljava/util/ArrayList;)V

@@ -1,0 +1,22 @@
+CLASS jw net/minecraft/src/PotionHelper
+	FIELD a theNull Ljava/lang/String;
+	FIELD b prefix012344____ Ljava/lang/String;
+	FIELD c prefix012344_____ Ljava/lang/String;
+	FIELD d prefix012344__ Ljava/lang/String;
+	FIELD e prefix034 Ljava/lang/String;
+	FIELD f prefix012344_ Ljava/lang/String;
+	FIELD g prefix012344___ Ljava/lang/String;
+	FIELD h prefix567 Ljava/lang/String;
+	FIELD i prefix567_ Ljava/lang/String;
+	FIELD j potionRequirements Ljava/util/HashMap;
+	FIELD k potionAmplifiers Ljava/util/HashMap;
+	FIELD l potionPrefixes [Ljava/lang/String;
+	METHOD a aaaaaaaaaaaaaaaaaaaaa (I)I
+	METHOD a aaaaaaaaaaaaaaaa (II)Z
+	METHOD a aaaaaaaaa (IIZZZ)I
+	METHOD a aaaaaaaaaaaaaaaaaa (ILjava/lang/String;)I
+	METHOD a aaaaaaaaaaaa (IZ)Ljava/util/List;
+	METHOD a aaaaa (Ljava/lang/String;III)I
+	METHOD a aaa (ZZZIIII)I
+	METHOD b bbbbbbbbb (II)I
+	METHOD c ccccccccccccccc (II)I

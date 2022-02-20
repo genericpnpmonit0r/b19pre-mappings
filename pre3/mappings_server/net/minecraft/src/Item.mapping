@@ -1,93 +1,4 @@
 CLASS gh net/minecraft/src/Item
-	METHOD <init> (I)V
-		ARG 1 id
-	METHOD a getMetadata (I)I
-		ARG 1 meta
-	METHOD a setIconCoord (II)Lgh;
-		ARG 1 x
-		ARG 2 y
-	METHOD a setContainerItem (Lgh;)Lgh;
-		ARG 1 item
-	METHOD a getItemNameIS (Lil;)Ljava/lang/String;
-		ARG 1 itemStack
-	METHOD a onBlockDestroyed (Lil;IIIILkq;)Z
-		ARG 1 itemStack
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 side
-		ARG 6 living
-	METHOD a onItemRightClick (Lil;Lev;Lgj;)Lil;
-		ARG 1 itemStack
-		ARG 2 world
-		ARG 3 player
-	METHOD a onPlayerStoppedUsing (Lil;Lev;Lgj;I)V
-		ARG 1 itemStack
-		ARG 2 world
-		ARG 3 player
-		ARG 4 id
-	METHOD a onUpdate (Lil;Lev;Lqn;IZ)V
-		ARG 1 itemStack
-		ARG 2 world
-		ARG 3 entity
-		ARG 4 id
-		ARG 5 updateMapDataFlag
-	METHOD a onItemUse (Lil;Lgj;Lev;IIII)Z
-		ARG 1 itemStack
-		ARG 2 player
-		ARG 3 world
-		ARG 4 x
-		ARG 5 y
-		ARG 6 z
-		ARG 7 side
-	METHOD a saddleEntity (Lil;Lkq;)V
-		ARG 1 itemStack
-		ARG 2 living
-	METHOD a hitEntity (Lil;Lkq;Lkq;)Z
-		ARG 1 itemStack
-		ARG 2 hitter
-		ARG 3 target
-	METHOD a getStrVsBlock (Lil;Lsl;)F
-		ARG 1 itemStack
-		ARG 2 block
-	METHOD a setItemName (Ljava/lang/String;)Lgh;
-		ARG 1 name
-	METHOD a getDamageVsEntity (Lqn;)I
-		ARG 1 entity
-	METHOD a canHarvestBlock (Lsl;)Z
-		ARG 1 block
-	METHOD a setHasSubtypes (Z)Lgh;
-		ARG 1 hasSubtypes
-	METHOD b getItemName ()Ljava/lang/String;
-	METHOD b onFoodEaten (Lil;Lev;Lgj;)Lil;
-		ARG 1 itemStack
-		ARG 2 world
-		ARG 3 player
-	METHOD b setPotionPrefix (Ljava/lang/String;)Lgh;
-		ARG 1 prefixData
-	METHOD c getItemStackLimit ()I
-	METHOD c setIconIndex (I)Lgh;
-		ARG 1 iconIndex
-	METHOD c getMaxItemUseDuration (Lil;)I
-		ARG 1 itemStack
-	METHOD d getHasSubtypes ()Z
-	METHOD d setMaxStackSize (I)Lgh;
-		ARG 1 stackSize
-	METHOD d getItemUseAction (Lil;)Lip;
-		ARG 1 itemStack
-	METHOD d onCreated (Lil;Lev;Lgj;)V
-		ARG 1 itemStack
-		ARG 2 world
-		ARG 3 player
-	METHOD e getMaxDamage ()I
-	METHOD e setMaxDamage (I)Lgh;
-		ARG 1 meta
-	METHOD f isDamageable ()Z
-	METHOD g setFull3D ()Lgh;
-	METHOD h getContainerItem ()Lgh;
-	METHOD i hasContainerItem ()Z
-	METHOD j getStatName ()Ljava/lang/String;
-	METHOD k_ unused ()Z
 	FIELD A axeDiamond Lgh;
 	FIELD B stick Lgh;
 	FIELD C bowlEmpty Lgh;
@@ -202,10 +113,15 @@ CLASS gh net/minecraft/src/Item
 	FIELD bn ghastTear Lgh;
 	FIELD bo goldNugget Lgh;
 	FIELD bp netherWarts Lgh;
+	FIELD bq potion Lfg;
 	FIELD br glassBottle Lgh;
 	FIELD bs spiderEye Lgh;
 	FIELD bt fermentedSpiderEye Lgh;
+	FIELD bu blazePowder Lgh;
 	FIELD bv magmaCream Lgh;
+	FIELD bw brewingStand Lgh;
+	FIELD bx cauldron Lgh;
+	FIELD by eyeOfEnder Lgh;
 	FIELD bz record13 Lgh;
 	FIELD c itemsList [Lgh;
 	FIELD d shovelSteel Lgh;
@@ -231,3 +147,96 @@ CLASS gh net/minecraft/src/Item
 	FIELD x swordDiamond Lgh;
 	FIELD y shovelDiamond Lgh;
 	FIELD z pickaxeDiamond Lgh;
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getMetadata (I)I
+		ARG 1 meta
+	METHOD a setIconCoord (II)Lgh;
+		ARG 1 x
+		ARG 2 y
+	METHOD a setContainerItem (Lgh;)Lgh;
+		ARG 1 item
+	METHOD a getItemNameIS (Lil;)Ljava/lang/String;
+		ARG 1 itemStack
+	METHOD a onBlockDestroyed (Lil;IIIILkq;)Z
+		ARG 1 itemStack
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 side
+		ARG 6 living
+	METHOD a onItemRightClick (Lil;Lev;Lgj;)Lil;
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 player
+	METHOD a onPlayerStoppedUsing (Lil;Lev;Lgj;I)V
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 player
+		ARG 4 id
+	METHOD a onUpdate (Lil;Lev;Lqn;IZ)V
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 entity
+		ARG 4 id
+		ARG 5 updateMapDataFlag
+	METHOD a onItemUse (Lil;Lgj;Lev;IIII)Z
+		ARG 1 itemStack
+		ARG 2 player
+		ARG 3 world
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 side
+	METHOD a saddleEntity (Lil;Lkq;)V
+		ARG 1 itemStack
+		ARG 2 living
+	METHOD a hitEntity (Lil;Lkq;Lkq;)Z
+		ARG 1 itemStack
+		ARG 2 hitter
+		ARG 3 target
+	METHOD a getStrVsBlock (Lil;Lsl;)F
+		ARG 1 itemStack
+		ARG 2 block
+	METHOD a setItemName (Ljava/lang/String;)Lgh;
+		ARG 1 name
+	METHOD a getDamageVsEntity (Lqn;)I
+		ARG 1 entity
+	METHOD a canHarvestBlock (Lsl;)Z
+		ARG 1 block
+	METHOD a setHasSubtypes (Z)Lgh;
+		ARG 1 hasSubtypes
+	METHOD b getItemName ()Ljava/lang/String;
+	METHOD b onFoodEaten (Lil;Lev;Lgj;)Lil;
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 player
+	METHOD b setPotionPrefix (Ljava/lang/String;)Lgh;
+		ARG 1 prefixData
+	METHOD c getItemStackLimit ()I
+	METHOD c setIconIndex (I)Lgh;
+		ARG 1 iconIndex
+	METHOD c getMaxItemUseDuration (Lil;)I
+		ARG 1 itemStack
+	METHOD d getHasSubtypes ()Z
+	METHOD d setMaxStackSize (I)Lgh;
+		ARG 1 stackSize
+	METHOD d getItemUseAction (Lil;)Lip;
+		ARG 1 itemStack
+	METHOD d onCreated (Lil;Lev;Lgj;)V
+		ARG 1 itemStack
+		ARG 2 world
+		ARG 3 player
+	METHOD e getMaxDamage ()I
+	METHOD e setMaxDamage (I)Lgh;
+		ARG 1 meta
+	METHOD e isDamageable (Lil;)Z
+		ARG 1 itemStack
+	METHOD f isDamageable ()Z
+	METHOD g setFull3D ()Lgh;
+	METHOD h getContainerItem ()Lgh;
+	METHOD i hasContainerItem ()Z
+	METHOD j getStatName ()Ljava/lang/String;
+	METHOD k getPotionPrefixData ()Ljava/lang/String;
+	METHOD k_ unused ()Z
+	METHOD l hasPotionPrefixData ()Z

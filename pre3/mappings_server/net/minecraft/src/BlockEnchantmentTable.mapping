@@ -1,4 +1,6 @@
-CLASS gf
+CLASS gf net/minecraft/src/BlockEnchantmentTable
+	METHOD <init> (I)V
+		ARG 1 id
 	METHOD a isOpaqueCube ()Z
 	METHOD a getBlockTextureFromSide (I)I
 	METHOD a getBlockTextureFromSideAndMetadata (II)I
