@@ -24,6 +24,10 @@ There will be field_ and func_ names from 1.0.0 MCP as that was used as a base f
 
 	Mostly complete
 	
-- b1.9pre3
+- b1.9pre3 ( client and server )
 
-	progress halted (will continue on this after pre1 and pre2 are done)
+	Mostly complete (all reuploads, noted by the timestamp at the end of the directory i,e 1350)
+
+-b1.9pre4
+
+	Work in progress
